@@ -1,0 +1,27 @@
+# --- Jekyll build output ---
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# --- Bundler / Ruby ---
+.bundle/
+vendor/bundle/
+Gemfile.lock
+
+# --- Logs / temp ---
+*.log
+tmp/
+.cache/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- Optional: local env files ---
+.env
+.env.*
