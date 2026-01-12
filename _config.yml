@@ -17,4 +17,3 @@ permalink: /:categories/:title/
 
 header_pages:
   - categories.md
-  - about.md
