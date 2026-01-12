@@ -1,4 +1,5 @@
 ---
 layout: home
-title: Home
 ---
+
+배운 것과 생각을 정리하는 공간입니다.

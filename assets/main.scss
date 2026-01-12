@@ -1,0 +1,240 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --brand: #0F4C81;
+  --brand-light: #1a5fa0;
+  --brand-dark: #0a3a5f;
+  --text-color: #24292e;
+  --bg-color: #ffffff;
+  --code-bg: #f6f8fa;
+  --code-border: #e1e4e8;
+}
+
+// 본문 폭 조정 (개발 블로그 스타일)
+.page-content {
+  .wrapper {
+    max-width: 760px;
+  }
+}
+
+// 사이트 타이틀
+.site-title {
+  color: var(--text-color);
+
+  &:visited {
+    color: var(--text-color);
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--brand);
+    text-decoration: none;
+  }
+}
+
+// 링크 스타일
+a {
+  color: var(--brand);
+
+  &:visited {
+    color: var(--brand-dark);
+  }
+
+  &:hover {
+    color: var(--brand-light);
+  }
+
+  &:active {
+    color: var(--brand-dark);
+  }
+}
+
+// 접근성: 포커스 스타일
+*:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+// 헤더 강조색
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+
+  a {
+    color: inherit;
+
+    &:hover {
+      color: var(--brand);
+    }
+  }
+}
+
+// 코드 블록 (과하지 않게)
+code {
+  background-color: var(--code-bg);
+  border: 1px solid var(--code-border);
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
+  font-size: 85%;
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--code-border);
+  border-radius: 6px;
+  padding: 16px;
+  overflow-x: auto;
+
+  code {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+}
+
+// 버튼 스타일 (있을 경우)
+.btn,
+button,
+input[type="submit"],
+input[type="button"] {
+  background-color: var(--brand);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: var(--brand-light);
+  }
+
+  &:active {
+    background-color: var(--brand-dark);
+  }
+}
+
+// 포스트 메타 정보
+.post-meta {
+  color: #6a737d;
+}
+
+// 포스트 리스트
+.post-list {
+  > li {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--code-border);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.post-link {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-color);
+
+  &:hover {
+    color: var(--brand);
+    text-decoration: none;
+  }
+}
+
+// 네비게이션
+.site-nav {
+  .page-link {
+    color: var(--text-color);
+
+    &:hover {
+      color: var(--brand);
+      text-decoration: none;
+    }
+  }
+
+  // 네비게이션 검색 폼
+  .nav-search-form {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 1rem;
+    position: relative;
+  }
+
+  .nav-search-input {
+    width: 180px;
+    padding: 6px 32px 6px 10px;
+    font-size: 14px;
+    border: 1px solid var(--code-border);
+    border-radius: 4px;
+    transition: all 0.2s;
+
+    &:focus {
+      outline: none;
+      border-color: var(--brand);
+      width: 220px;
+    }
+
+    &::placeholder {
+      color: #999;
+    }
+  }
+
+  .nav-search-button {
+    position: absolute;
+    right: 4px;
+    background: transparent;
+    border: none;
+    padding: 4px 6px;
+    cursor: pointer;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--brand);
+      background: transparent;
+    }
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+// 반응형 조정
+@media screen and (max-width: 800px) {
+  .page-content .wrapper {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  // 모바일에서 검색박스 숨기기 (햄버거 메뉴에서 검색 페이지 링크 사용)
+  .site-nav {
+    .nav-search-form {
+      display: none;
+    }
+  }
+
+  // 모바일 메뉴가 열렸을 때 검색박스 표시
+  .site-nav .nav-trigger:checked ~ .trigger .nav-search-form {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+
+    .nav-search-input {
+      width: 100%;
+
+      &:focus {
+        width: 100%;
+      }
+    }
+  }
+}
