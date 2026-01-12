@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://ycra-dev.github.io/jekyll/update/welcome-to-jekyll/</loc>
+<loc>https://ycra-dev.github.io/jekyll/welcome-to-jekyll/</loc>
 <lastmod>2025-12-22T20:21:26+09:00</lastmod>
-</url>
-<url>
-<loc>https://ycra-dev.github.io/about/</loc>
 </url>
 <url>
 <loc>https://ycra-dev.github.io/categories/</loc>
