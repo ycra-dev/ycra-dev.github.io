@@ -9,9 +9,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'ycra.dev',
-			defaultLocale: 'ko',
+			defaultLocale: 'root',
 			locales: {
-				ko: { label: '한국어' },
+				root: { label: '한국어', lang: 'ko' },
 			},
 			plugins: [starlightBlog()],
 			social: [
