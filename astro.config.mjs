@@ -23,14 +23,17 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Blog',
+					collapsed: true,
 					autogenerate: { directory: 'blog' },
 				},
 				{
 					label: 'Knowledge',
+					collapsed: true,
 					autogenerate: { directory: 'knowledge' },
 				},
 				{
 					label: 'TIL',
+					collapsed: true,
 					autogenerate: { directory: 'til' },
 				},
 			],
