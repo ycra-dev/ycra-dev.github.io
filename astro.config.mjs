@@ -13,11 +13,12 @@ export default defineConfig({
 				root: { label: '한국어', lang: 'ko' },
 			},
 			components: {
-				ThemeSelect: './src/components/ThemeSelect.astro',
+				Header: './src/components/Header.astro',
 				Sidebar: './src/components/Sidebar.astro',
 			},
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/ycra-dev' },
+				{ icon: 'rss', label: 'RSS', href: '/rss.xml' },
 			],
 			sidebar: [
 				{
@@ -25,12 +26,12 @@ export default defineConfig({
 					autogenerate: { directory: 'blog' },
 				},
 				{
-					label: 'TIL',
-					autogenerate: { directory: 'til' },
-				},
-				{
 					label: 'Knowledge',
 					autogenerate: { directory: 'knowledge' },
+				},
+				{
+					label: 'TIL',
+					autogenerate: { directory: 'til' },
 				},
 			],
 		}),
