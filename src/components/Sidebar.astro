@@ -1,0 +1,32 @@
+---
+import MobileMenuFooter from 'virtual:starlight/components/MobileMenuFooter';
+import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.astro';
+import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
+
+const { sidebar } = Astro.locals.starlightRoute;
+const currentPath = Astro.url.pathname;
+
+// Filter sidebar based on current path
+function filterSidebar(items: typeof sidebar): typeof sidebar {
+	// If on Knowledge pages, show only Knowledge category
+	if (currentPath.startsWith('/knowledge')) {
+		return items.filter(item => item.label === 'Knowledge');
+	}
+	// If on TIL pages, show only TIL category
+	if (currentPath.startsWith('/til')) {
+		return items.filter(item => item.label === 'TIL');
+	}
+	// On other pages (home, etc.), show all
+	return items;
+}
+
+const filteredSidebar = filterSidebar(sidebar);
+---
+
+<SidebarPersister>
+	<SidebarSublist sublist={filteredSidebar} />
+</SidebarPersister>
+
+<div class="md:sl-hidden">
+	<MobileMenuFooter />
+</div>

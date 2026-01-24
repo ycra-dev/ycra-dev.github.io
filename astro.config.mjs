@@ -14,6 +14,10 @@ export default defineConfig({
 				root: { label: '한국어', lang: 'ko' },
 			},
 			plugins: [starlightBlog()],
+			components: {
+				ThemeSelect: './src/components/ThemeSelect.astro',
+				Sidebar: './src/components/Sidebar.astro',
+			},
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/ycra-dev' },
 			],
