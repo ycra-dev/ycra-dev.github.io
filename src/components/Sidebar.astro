@@ -17,6 +17,10 @@ function getChildren(items: typeof sidebar, label: string): typeof sidebar {
 
 // Filter sidebar based on current path and unwrap top-level categories
 function filterSidebar(items: typeof sidebar): typeof sidebar {
+	// On home page, show nothing
+	if (currentPath === '/' || currentPath === '/index') {
+		return [];
+	}
 	// If on Blog pages, show only Blog children
 	if (currentPath.startsWith('/blog')) {
 		return getChildren(items, 'Blog');
@@ -29,7 +33,7 @@ function filterSidebar(items: typeof sidebar): typeof sidebar {
 	if (currentPath.startsWith('/til')) {
 		return getChildren(items, 'TIL');
 	}
-	// On other pages (home, etc.), show all
+	// On other pages, show all
 	return items;
 }
 
