@@ -1,27 +1,31 @@
-# --- Jekyll build output ---
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# build output
+dist/
 
-# --- Bundler / Ruby ---
-.bundle/
-vendor/bundle/
-Gemfile.lock
+# generated types
+.astro/
 
-# --- Logs / temp ---
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 *.log
-tmp/
-.cache/
 
-# --- OS / editor ---
+# environment variables
+.env
+.env.*
+
+# OS / editor
 .DS_Store
 Thumbs.db
 .idea/
-.vscode/
 *.swp
 *~
 
-# --- Optional: local env files ---
-.env
-.env.*
+# inbox (local only)
+inbox/
+
+CLAUDE.md
