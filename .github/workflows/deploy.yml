@@ -1,39 +1,50 @@
-name: Build & Deploy (main -> gh-pages)
+name: Deploy to GitHub Pages
 
 on:
   workflow_dispatch: {}
   push:
-    branches: [ "main" ]
+    branches: [main]
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: pages-deploy
   cancel-in-progress: true
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          ruby-version-file: '.ruby-version'
-          bundler-cache: true
+          node-version: 20
+          cache: 'npm'
 
-      - name: Build site
-        run: bundle exec jekyll build
-        env:
-          JEKYLL_ENV: production
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Deploy _site to gh-pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Build
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          branch: gh-pages
-          folder: _site
-          clean: true
-          commit-message: "Deploy from main (${{ github.sha }})"
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
