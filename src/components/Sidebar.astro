@@ -6,15 +6,28 @@ import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
 const { sidebar } = Astro.locals.starlightRoute;
 const currentPath = Astro.url.pathname;
 
-// Filter sidebar based on current path
-function filterSidebar(items: typeof sidebar): typeof sidebar {
-	// If on Knowledge pages, show only Knowledge category
-	if (currentPath.startsWith('/knowledge')) {
-		return items.filter(item => item.label === 'Knowledge');
+// Get children of a category, unwrapping the top-level label
+function getChildren(items: typeof sidebar, label: string): typeof sidebar {
+	const category = items.find(item => item.label === label);
+	if (category && category.type === 'group' && category.entries) {
+		return category.entries;
 	}
-	// If on TIL pages, show only TIL category
+	return [];
+}
+
+// Filter sidebar based on current path and unwrap top-level categories
+function filterSidebar(items: typeof sidebar): typeof sidebar {
+	// If on Blog pages, show only Blog children
+	if (currentPath.startsWith('/blog')) {
+		return getChildren(items, 'Blog');
+	}
+	// If on Knowledge pages, show only Knowledge children
+	if (currentPath.startsWith('/knowledge')) {
+		return getChildren(items, 'Knowledge');
+	}
+	// If on TIL pages, show only TIL children
 	if (currentPath.startsWith('/til')) {
-		return items.filter(item => item.label === 'TIL');
+		return getChildren(items, 'TIL');
 	}
 	// On other pages (home, etc.), show all
 	return items;
