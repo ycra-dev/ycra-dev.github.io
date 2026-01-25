@@ -3,48 +3,15 @@ title: ycra.dev
 description: CS 지식 정리 및 개발 블로그
 tags: []
 created: 2026-01-24
-updated: 2026-01-24
+updated: 2026-01-25
 hero:
-  tagline: Medallion Architecture 기반 지식 관리 시스템
-  actions:
-    - text: Knowledge Base
-      link: /knowledge/
-      icon: right-arrow
-    - text: TIL
-      link: /til/
-      icon: document
-      variant: minimal
+  tagline: 배우고, 정리하고, 공유합니다.
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard } from '@astrojs/starlight/components';
 
 ## Structure
 
-<CardGrid stagger>
-	<Card title="TIL (Bronze)" icon="pencil">
-		시간 중심의 일일 학습 로그. 오늘 배운 것, 삽질 기록, 작업 링크를 기록합니다.
-	</Card>
-	<Card title="Knowledge (Silver)" icon="open-book">
-		주제 중심의 원자적 지식 노트. 하나의 노트에 하나의 개념만 담습니다.
-	</Card>
-	<Card title="Blog (Gold)" icon="star">
-		정제된 인사이트와 스토리텔링. 대외 공개용 콘텐츠입니다.
-	</Card>
-</CardGrid>
-
-## Categories
-
-<CardGrid>
-	<Card title="Network" icon="laptop">
-		TCP/IP, HTTP, DNS 등
-	</Card>
-	<Card title="OS" icon="setting">
-		프로세스, 스레드, 스케줄링 등
-	</Card>
-	<Card title="Database" icon="document">
-		인덱스, 트랜잭션, 정규화 등
-	</Card>
-	<Card title="Language" icon="seti:json">
-		Python, TypeScript, Go, Rust 등
-	</Card>
-</CardGrid>
+<LinkCard title="Blog" description="인사이트와 스토리" href="/blog/" />
+<LinkCard title="Knowledge" description="주제 중심의 지식 노트" href="/knowledge/" />
+<LinkCard title="TIL" description="시간 중심의 일일 학습 로그" href="/til/" />
