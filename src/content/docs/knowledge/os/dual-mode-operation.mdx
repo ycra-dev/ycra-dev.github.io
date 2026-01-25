@@ -6,7 +6,11 @@ created: 2026-01-22
 updated: 2026-01-25
 draft: false
 slug: knowledge/os/dual-mode-operation
+sidebar:
+  order: 5
 ---
+
+import StepFlow from '../../../../components/StepFlow.astro';
 
 ## 핵심 개념
 
@@ -28,19 +32,17 @@ slug: knowledge/os/dual-mode-operation
 
 ### 모드 전환 흐름
 
-```
-사용자 프로세스 실행 (user mode, bit=1)
-           ↓
-    시스템 콜 호출
-           ↓
-      trap 발생 (bit→0)
-           ↓
-  커널에서 시스템 콜 실행
-           ↓
-    시스템 콜 반환 (bit→1)
-           ↓
-사용자 프로세스 실행 재개
-```
+<StepFlow
+  steps={[
+    { label: "User Mode", description: "사용자 프로세스 실행 (bit=1)" },
+    { label: "System Call", description: "시스템 콜 호출" },
+    { label: "Trap", description: "mode bit → 0 전환" },
+    { label: "Kernel Mode", description: "커널에서 시스템 콜 실행" },
+    { label: "Return", description: "mode bit → 1 전환" },
+    { label: "Resume", description: "사용자 프로세스 실행 재개" }
+  ]}
+  cycle={true}
+/>
 
 ### 부팅 시 동작
 

@@ -6,7 +6,11 @@ created: 2026-01-22
 updated: 2026-01-25
 draft: false
 slug: knowledge/os/storage-hierarchy
+sidebar:
+  order: 6
 ---
+
+import LayerStack from '../../../../components/LayerStack.astro';
 
 ## 핵심 개념
 
@@ -16,17 +20,19 @@ slug: knowledge/os/storage-hierarchy
 
 ## 계층 구조
 
-위에서 아래로 (빠른 → 느린, 작은 → 큰):
+위에서 아래로: 빠름/작음 → 느림/큼
 
-| 계층 | 저장장치 | 분류 | 휘발성 |
-|------|---------|------|--------|
-| 1 | 레지스터 (Registers) | Primary | Volatile |
-| 2 | 캐시 (Cache) | Primary | Volatile |
-| 3 | 주 메모리 (Main Memory) | Primary | Volatile |
-| 4 | 비휘발성 메모리 (NVM) | Secondary | Nonvolatile |
-| 5 | 하드 디스크 (HDD) | Secondary | Nonvolatile |
-| 6 | 광학 디스크 (Optical disk) | Tertiary | Nonvolatile |
-| 7 | 자기 테이프 (Magnetic tapes) | Tertiary | Nonvolatile |
+<LayerStack
+  layers={[
+    { label: "Registers", description: "Primary · Volatile", highlight: true },
+    { label: "Cache", description: "Primary · Volatile", highlight: true },
+    { label: "Main Memory", description: "Primary · Volatile", highlight: true },
+    { label: "NVM (SSD)", description: "Secondary · Nonvolatile" },
+    { label: "HDD", description: "Secondary · Nonvolatile" },
+    { label: "Optical Disk", description: "Tertiary · Nonvolatile" },
+    { label: "Magnetic Tapes", description: "Tertiary · Nonvolatile" }
+  ]}
+/>
 
 **일반 규칙**: 저장 용량과 접근 시간 사이에 트레이드오프 존재
 

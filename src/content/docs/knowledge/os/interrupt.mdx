@@ -10,6 +10,8 @@ sidebar:
   order: 3
 ---
 
+import StepFlow from '../../../../components/StepFlow.astro';
+
 ## 핵심 개념
 
 인터럽트는 하드웨어가 CPU에게 어떤 이벤트가 발생하여 주의가 필요함을 알리기 위해 신호를 보내는 메커니즘이다.
@@ -27,12 +29,14 @@ sidebar:
 
 CPU 하드웨어에는 **interrupt-request line**이라는 선이 있다. CPU는 매 명령어 실행 후 이 라인을 감지한다.
 
-| 단계 | 동작 |
-|:---:|------|
-| 1 | 컨트롤러가 신호를 assert (raises) |
-| 2 | CPU가 인터럽트 번호를 읽음 (catches) |
-| 3 | 인터럽트 벡터로 핸들러로 점프 (dispatches) |
-| 4 | 핸들러가 처리 완료 후 해제 (clears) |
+<StepFlow
+  steps={[
+    { label: "Raise", description: "컨트롤러가 신호를 assert" },
+    { label: "Catch", description: "CPU가 인터럽트 번호를 읽음" },
+    { label: "Dispatch", description: "인터럽트 벡터로 핸들러로 점프" },
+    { label: "Clear", description: "핸들러가 처리 완료 후 해제" }
+  ]}
+/>
 
 ## 인터럽트의 종류
 

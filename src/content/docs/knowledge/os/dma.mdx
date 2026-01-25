@@ -6,7 +6,11 @@ created: 2026-01-22
 updated: 2026-01-25
 draft: false
 slug: knowledge/os/dma
+sidebar:
+  order: 4
 ---
+
+import StepFlow from '../../../../components/StepFlow.astro';
 
 ## 핵심 개념
 
@@ -16,15 +20,13 @@ slug: knowledge/os/dma
 
 ## 동작 원리
 
-```
-1. I/O 장치를 위한 버퍼, 포인터, 카운터 설정
-              ↓
-2. 장치 컨트롤러가 전체 데이터 블록을 직접 전송
-              ↓
-   (CPU는 다른 작업 수행 가능)
-              ↓
-3. 블록당 하나의 인터럽트로 완료 알림
-```
+<StepFlow
+  steps={[
+    { label: "설정", description: "버퍼, 포인터, 카운터 설정" },
+    { label: "전송", description: "장치 컨트롤러가 블록 직접 전송 (CPU는 다른 작업 수행)" },
+    { label: "완료", description: "블록당 하나의 인터럽트로 알림" }
+  ]}
+/>
 
 ## 인터럽트 기반 I/O vs DMA
 

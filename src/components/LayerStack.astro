@@ -1,0 +1,86 @@
+---
+interface Layer {
+  label: string;
+  description?: string;
+  highlight?: boolean;
+}
+
+interface Props {
+  layers: Layer[];
+  title?: string;
+}
+
+const { layers, title } = Astro.props;
+---
+
+<div class="layer-stack">
+  {title && <div class="stack-title">{title}</div>}
+  <div class="stack">
+    {layers.map((layer, index) => (
+      <div class:list={["layer", { highlight: layer.highlight }]}>
+        <span class="layer-label">{layer.label}</span>
+        {layer.description && (
+          <span class="layer-desc">{layer.description}</span>
+        )}
+      </div>
+    ))}
+  </div>
+</div>
+
+<style>
+  .layer-stack {
+    margin: 1.5rem 0;
+  }
+
+  .stack-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--sl-color-gray-2);
+    margin-bottom: 0.75rem;
+  }
+
+  .stack {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--sl-color-gray-5);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .layer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    background: var(--sl-color-gray-6);
+    border-bottom: 1px solid var(--sl-color-gray-5);
+    gap: 1rem;
+  }
+
+  .layer:last-child {
+    border-bottom: none;
+  }
+
+  .layer.highlight {
+    background: var(--sl-color-accent-low);
+  }
+
+  .layer-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--sl-color-text);
+  }
+
+  .layer.highlight .layer-label {
+    color: var(--sl-color-accent-high);
+  }
+
+  .layer-desc {
+    font-size: 0.8rem;
+    color: var(--sl-color-gray-2);
+    text-align: right;
+  }
+</style>

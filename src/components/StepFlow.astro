@@ -1,0 +1,141 @@
+---
+interface Step {
+  label: string;
+  description?: string;
+}
+
+interface Props {
+  steps: Step[];
+  title?: string;
+  cycle?: boolean;
+}
+
+const { steps, title, cycle = false } = Astro.props;
+---
+
+<div class="step-flow">
+  {title && <div class="flow-title">{title}</div>}
+  <div class="steps">
+    {steps.map((step, index) => (
+      <div class="step-item">
+        <div class="step-content">
+          <span class="step-number">{index + 1}</span>
+          <span class="step-label">{step.label}</span>
+        </div>
+        {step.description && (
+          <span class="step-desc">{step.description}</span>
+        )}
+        {index < steps.length - 1 && (
+          <div class="step-arrow">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M10 4L10 16M10 16L5 11M10 16L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        )}
+      </div>
+    ))}
+    {cycle && (
+      <div class="cycle-indicator">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z" fill="currentColor"/>
+        </svg>
+        <span>반복</span>
+      </div>
+    )}
+  </div>
+</div>
+
+<style>
+  .step-flow {
+    margin: 1.5rem 0;
+    padding: 1.25rem;
+    background: var(--sl-color-gray-7);
+    border-radius: 12px;
+    border: 1px solid var(--sl-color-gray-5);
+  }
+
+  .flow-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--sl-color-gray-2);
+    margin-bottom: 1.25rem;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .step-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step-content {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: var(--sl-color-bg);
+    border: 2px solid var(--sl-color-accent);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    min-width: 180px;
+    justify-content: center;
+  }
+
+  .step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: var(--sl-color-accent);
+    color: var(--sl-color-black);
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .step-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--sl-color-text);
+  }
+
+  .step-desc {
+    font-size: 0.8rem;
+    color: var(--sl-color-gray-2);
+    margin-top: 0.25rem;
+    text-align: center;
+  }
+
+  .step-arrow {
+    color: var(--sl-color-gray-3);
+    padding: 0.3rem 0;
+  }
+
+  .cycle-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 0.75rem;
+    padding: 0.5rem 1rem;
+    background: var(--sl-color-accent-low);
+    border: 1px dashed var(--sl-color-accent);
+    border-radius: 20px;
+    color: var(--sl-color-accent-high);
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .cycle-indicator svg {
+    color: var(--sl-color-accent);
+  }
+
+</style>
