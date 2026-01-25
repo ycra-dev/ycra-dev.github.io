@@ -7,7 +7,7 @@ updated: 2026-01-25
 draft: false
 slug: knowledge/os/system-call
 sidebar:
-  order: 4
+  order: 8
 ---
 
 ## 핵심 개념

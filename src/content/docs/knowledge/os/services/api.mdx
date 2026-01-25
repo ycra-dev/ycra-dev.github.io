@@ -1,0 +1,72 @@
+---
+title: API (Application Programming Interface)
+description: 응용 프로그래머에게 사용 가능한 함수 집합을 지정하는 인터페이스
+tags: ["OS", "API", "Programming"]
+created: 2026-01-25
+updated: 2026-01-25
+draft: false
+slug: knowledge/os/api
+sidebar:
+  order: 6
+---
+
+import StepFlow from '../../../../../components/StepFlow.astro';
+
+## 핵심 개념
+
+응용 프로그래머에게 사용 가능한 함수 집합을 지정하는 인터페이스로, 각 함수에 전달되는 매개변수와 프로그래머가 기대할 수 있는 반환 값을 포함한다.
+
+대부분의 프로그래머는 시스템 콜 수준의 세부사항을 볼 필요가 없다.
+
+## API와 시스템 콜의 관계
+
+<StepFlow
+  steps={[
+    { label: "API 호출", description: "응용 프로그램이 API 함수 호출" },
+    { label: "라이브러리", description: "운영체제가 제공하는 코드 라이브러리" },
+    { label: "시스템 콜", description: "실제 시스템 콜 호출" }
+  ]}
+/>
+
+예: Windows 함수 `CreateProcess()`는 실제로 Windows 커널의 `NTCreateProcess()` 시스템 콜을 호출
+
+## 세 가지 주요 API
+
+| API | 대상 시스템 |
+|-----|-----------|
+| **Windows API** | Windows 시스템 |
+| **POSIX API** | POSIX 기반 시스템 (UNIX, Linux, macOS 포함) |
+| **Java API** | Java 가상 머신에서 실행되는 프로그램 |
+
+## API 사용의 이점
+
+| 이점 | 설명 |
+|------|------|
+| **프로그램 이식성** | API를 사용하여 설계된 프로그램은 동일한 API를 지원하는 모든 시스템에서 컴파일 및 실행 가능 |
+| **단순성** | 실제 시스템 콜보다 더 쉽게 작업 가능 |
+
+## 표준 API 예시 - read()
+
+```c
+#include <unistd.h>
+ssize_t read(int fd, void *buf, size_t count)
+```
+
+| 매개변수 | 설명 |
+|---------|------|
+| `int fd` | 읽을 파일 디스크립터 |
+| `void *buf` | 데이터를 읽어들일 버퍼 |
+| `size_t count` | 버퍼로 읽을 최대 바이트 수 |
+| 반환 값 | 성공 시 읽은 바이트 수, 0은 파일 끝, 오류 시 -1 |
+
+## 트레이드오프
+
+- **장점**:
+  - 프로그램 이식성 향상
+  - 실제 시스템 콜보다 작업이 용이
+  - 운영체제 인터페이스의 세부사항이 프로그래머로부터 숨겨짐
+- **단점**: 실제 아키텍처 차이로 인해 이식성이 예상보다 어려울 수 있음
+
+## 출처
+
+- Operating System Concepts, 10th Edition, Chapter 2, p.63-64

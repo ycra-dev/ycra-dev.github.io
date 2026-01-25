@@ -7,7 +7,7 @@ updated: 2026-01-25
 draft: false
 slug: knowledge/os/multiprocessor-system
 sidebar:
-  order: 10
+  order: 1
 ---
 
 ## 핵심 개념

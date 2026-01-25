@@ -1,0 +1,68 @@
+---
+title: 특권 명령어 (Privileged Instructions)
+description: 하드웨어가 커널 모드에서만 실행을 허용하는 기계 명령어
+tags: ["OS", "Protection", "Mode"]
+created: 2026-01-25
+updated: 2026-01-25
+draft: false
+slug: knowledge/os/privileged-instructions
+sidebar:
+  order: 10
+---
+
+import LayerStack from '../../../../../components/LayerStack.astro';
+
+## 핵심 개념
+
+하드웨어가 커널 모드에서만 실행을 허용하는, 해를 끼칠 수 있는 일부 기계 명령어.
+
+잘못되거나 악의적인 프로그램이 다른 프로그램이나 운영체제 자체를 잘못 실행하게 할 수 있는 문제를 방지한다.
+
+## 동작 원리
+
+- 하드웨어가 특권 명령어를 **커널 모드에서만** 실행하도록 허용
+- 사용자 모드에서 특권 명령어를 실행하려고 시도하면:
+  1. 하드웨어가 명령어를 실행하지 않음
+  2. 불법으로 취급하여 운영체제로 **트랩(trap)**
+
+## 특권 명령어의 예시
+
+| 명령어 유형 | 설명 |
+|------------|------|
+| 커널 모드로 전환 | 사용자 모드에서 커널 모드로의 전환 명령어 |
+| I/O 제어 | 입출력 장치를 제어하는 명령어 |
+| 타이머 관리 | 타이머의 내용을 수정하는 명령어 |
+| 인터럽트 관리 | 인터럽트를 관리하는 명령어 |
+
+## Intel 프로세서의 보호 링
+
+Intel 프로세서는 4개의 별도 보호 링(protection rings)을 제공한다.
+
+<LayerStack
+  layers={[
+    { label: "Ring 0", description: "Kernel mode", highlight: true },
+    { label: "Ring 1", description: "거의 사용되지 않음" },
+    { label: "Ring 2", description: "거의 사용되지 않음" },
+    { label: "Ring 3", description: "User mode" }
+  ]}
+/>
+
+- **ARMv8 시스템**: 7가지 모드
+- **가상화 지원 CPU**: VMM(Virtual Machine Manager)용 별도 모드 존재
+
+## 보호 메커니즘
+
+사용자 프로그램이 실패하면 (불법 명령어 실행 시도 또는 사용자 주소 공간에 없는 메모리 접근 등):
+1. 하드웨어가 운영체제로 트랩
+2. 인터럽트처럼 인터럽트 벡터를 통해 운영체제로 제어 전달
+3. 운영체제가 프로그램을 비정상적으로 종료
+4. 적절한 오류 메시지 제공 및 메모리 덤프 생성
+
+## 트레이드오프
+
+- **장점**: 운영체제와 시스템 무결성 보호, 잘못된 사용자 간 상호 보호
+- **단점**: 시스템 콜을 통한 간접 접근 필요로 인한 오버헤드
+
+## 출처
+
+- Operating System Concepts, 10th Edition, Chapter 1, p.25-27

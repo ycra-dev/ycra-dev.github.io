@@ -7,7 +7,7 @@ updated: 2026-01-25
 draft: false
 slug: knowledge/os/virtualization
 sidebar:
-  order: 11
+  order: 2
 ---
 
 ## 핵심 개념

@@ -1,0 +1,67 @@
+---
+title: 명령 인터프리터 (Command Interpreter)
+description: 사용자가 운영체제에 의해 수행될 명령을 직접 입력할 수 있게 해주는 특별한 프로그램
+tags: ["OS", "CLI", "Shell"]
+created: 2026-01-25
+updated: 2026-01-25
+draft: false
+slug: knowledge/os/command-interpreter
+sidebar:
+  order: 3
+---
+
+import StepFlow from '../../../../../components/StepFlow.astro';
+
+## 핵심 개념
+
+사용자가 운영체제에 의해 수행될 명령을 직접 입력할 수 있게 해주는 특별한 프로그램.
+
+여러 명령 인터프리터 중 선택 가능한 시스템에서는 이를 **셸(shells)**이라 한다.
+
+## 주요 셸 종류
+
+| 셸 | 설명 |
+|----|------|
+| **C shell** | C 언어 스타일 문법 |
+| **Bourne-Again shell (bash)** | 가장 널리 사용되는 셸 |
+| **Korn shell** | Bourne shell의 확장 |
+
+## 명령 구현의 두 가지 방식
+
+| 방식 | 설명 |
+|------|------|
+| **명령 자체 포함** | 명령 인터프리터 자체가 명령 실행 코드를 포함. 명령 수가 인터프리터 크기를 결정 |
+| **시스템 프로그램 사용** | UNIX 방식. 명령 인터프리터가 명령을 이해하지 않고, 해당 이름의 파일을 찾아 메모리에 적재하여 실행 |
+
+## UNIX 명령 실행 흐름
+
+예: `rm file.txt` 명령 실행 시
+
+<StepFlow
+  steps={[
+    { label: "검색", description: "rm이라는 파일을 검색" },
+    { label: "적재", description: "그 파일을 메모리에 적재" },
+    { label: "실행", description: "file.txt 매개변수와 함께 실행" }
+  ]}
+/>
+
+rm 명령의 로직은 rm 파일 내 코드에 완전히 정의됨
+
+## 셸 스크립트
+
+- 빈번한 작업에 필요한 명령줄 단계들을 파일에 기록
+- 그 파일을 프로그램처럼 실행 가능
+- 컴파일되지 않고 명령줄 인터프리터에 의해 해석됨
+- UNIX와 Linux 같은 명령줄 지향 시스템에서 매우 일반적
+
+## 트레이드오프
+
+- **장점**:
+  - 시스템 관리자와 파워 유저에게 더 효율적이고 빠른 접근 제공
+  - 일부 시스템에서는 GUI로 제공되지 않는 기능에 접근 가능
+  - 반복 작업을 셸 스크립트로 쉽게 자동화
+- **단점**: 학습 곡선 존재, 명령어 암기 필요
+
+## 출처
+
+- Operating System Concepts, 10th Edition, Chapter 2, p.58-59, 61

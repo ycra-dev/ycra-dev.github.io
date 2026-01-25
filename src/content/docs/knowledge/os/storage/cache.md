@@ -7,7 +7,7 @@ updated: 2026-01-25
 draft: false
 slug: knowledge/os/cache
 sidebar:
-  order: 13
+  order: 3
 ---
 
 ## 핵심 개념

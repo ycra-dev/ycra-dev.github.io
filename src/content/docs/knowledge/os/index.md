@@ -21,6 +21,8 @@ sidebar:
 - [트랩 (Trap)](/knowledge/os/trap/) - 오류 또는 시스템 콜에 의해 발생하는 소프트웨어 생성 인터럽트
 - [시스템 콜 (System Call)](/knowledge/os/system-call/) - 프로세스가 운영체제에게 동작을 요청하는 방법
 - [이중 모드 연산 (Dual-Mode Operation)](/knowledge/os/dual-mode-operation/) - 운영체제와 사용자 코드 실행을 구분하는 하드웨어 메커니즘
+- [특권 명령어 (Privileged Instructions)](/knowledge/os/privileged-instructions/) - 커널 모드에서만 실행 가능한 명령어
+- [타이머 (Timer)](/knowledge/os/timer/) - 운영체제가 CPU 제어를 유지하도록 보장하는 장치
 
 ## 프로세스
 
@@ -39,3 +41,14 @@ sidebar:
 
 - [멀티프로세서 시스템 (Multiprocessor System)](/knowledge/os/multiprocessor-system/) - 두 개 이상의 프로세서가 자원을 공유하는 시스템
 - [가상화 (Virtualization)](/knowledge/os/virtualization/) - 하드웨어를 여러 실행 환경으로 추상화하는 기술
+
+## 운영체제 서비스
+
+- [운영체제 서비스 (OS Services)](/knowledge/os/os-services/) - 프로그램과 사용자에게 제공하는 서비스
+- [사용자 인터페이스 (User Interface)](/knowledge/os/user-interface/) - 사용자가 운영체제와 상호작용하는 방법
+- [명령 인터프리터 (Command Interpreter)](/knowledge/os/command-interpreter/) - 사용자가 명령을 직접 입력하는 CLI
+- [GUI (Graphical User Interface)](/knowledge/os/gui/) - 마우스 기반 그래픽 인터페이스
+- [터치스크린 인터페이스 (Touch-Screen Interface)](/knowledge/os/touch-screen-interface/) - 제스처 기반 모바일 인터페이스
+- [API (Application Programming Interface)](/knowledge/os/api/) - 프로그래머에게 제공되는 함수 집합
+- [시스템 콜 인터페이스 (System-call Interface)](/knowledge/os/system-call-interface/) - API와 시스템 콜을 연결하는 인터페이스
+- [시스템 프로그램 (System Programs)](/knowledge/os/system-programs/) - 프로그램 개발과 실행을 위한 유틸리티

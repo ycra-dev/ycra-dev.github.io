@@ -1,7 +1,7 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import mermaid from 'astro-mermaid';
+import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
@@ -35,7 +35,23 @@ export default defineConfig({
 				{
 					label: 'Knowledge',
 					collapsed: true,
-					autogenerate: { directory: 'knowledge' },
+					items: [
+						{ label: 'Database', collapsed: true, autogenerate: { directory: 'knowledge/database' } },
+						{ label: 'Language', collapsed: true, autogenerate: { directory: 'knowledge/language' } },
+						{ label: 'Network', collapsed: true, autogenerate: { directory: 'knowledge/network' } },
+						{
+							label: 'OS',
+							collapsed: true,
+							items: [
+								{ slug: 'knowledge/os' },
+								{ label: '기본 개념', collapsed: true, autogenerate: { directory: 'knowledge/os/basics' } },
+								{ label: '프로세스', collapsed: true, autogenerate: { directory: 'knowledge/os/process' } },
+								{ label: 'I/O와 저장장치', collapsed: true, autogenerate: { directory: 'knowledge/os/storage' } },
+								{ label: '컴퓨터 시스템 구조', collapsed: true, autogenerate: { directory: 'knowledge/os/architecture' } },
+								{ label: '운영체제 서비스', collapsed: true, autogenerate: { directory: 'knowledge/os/services' } },
+							],
+						},
+					],
 				},
 				{
 					label: 'TIL',
