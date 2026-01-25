@@ -36,9 +36,10 @@ export default defineConfig({
 					label: 'Knowledge',
 					collapsed: true,
 					items: [
-						{ label: 'Database', collapsed: true, autogenerate: { directory: 'knowledge/database' } },
-						{ label: 'Language', collapsed: true, autogenerate: { directory: 'knowledge/language' } },
-						{ label: 'Network', collapsed: true, autogenerate: { directory: 'knowledge/network' } },
+						{ slug: 'knowledge' },
+						// { label: 'Database', collapsed: true, autogenerate: { directory: 'knowledge/database' } },
+						// { label: 'Language', collapsed: true, autogenerate: { directory: 'knowledge/language' } },
+						// { label: 'Network', collapsed: true, autogenerate: { directory: 'knowledge/network' } },
 						{
 							label: 'OS',
 							collapsed: true,
