@@ -4,6 +4,8 @@ description: 일일 학습 로그 및 작업 기록
 tags: ["TIL"]
 created: 2026-01-24
 updated: 2026-01-24
+sidebar:
+  order: 0
 ---
 
 ## 2026
