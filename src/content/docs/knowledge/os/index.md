@@ -1,6 +1,10 @@
 ---
 title: Operating System
 description: 운영체제 관련 개념 정리 (MOC)
+tags: ["OS", "MOC"]
+created: 2026-01-24
+updated: 2026-01-24
+draft: true
 ---
 
 # Operating System

@@ -1,6 +1,10 @@
 ---
 title: Network
 description: 네트워크 관련 개념 정리 (MOC)
+tags: ["Network", "MOC"]
+created: 2026-01-24
+updated: 2026-01-24
+draft: true
 ---
 
 # Network

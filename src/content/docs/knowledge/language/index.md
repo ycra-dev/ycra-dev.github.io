@@ -1,6 +1,10 @@
 ---
 title: Programming Language
 description: 프로그래밍 언어 관련 개념 정리 (MOC)
+tags: ["Language", "MOC"]
+created: 2026-01-24
+updated: 2026-01-24
+draft: true
 ---
 
 # Programming Language

@@ -7,7 +7,7 @@ export const collections = {
 		loader: docsLoader(),
 		schema: docsSchema({
 			extend: z.object({
-				status: z.enum(['seed', 'growing', 'evergreen']).optional(),
+				tags: z.array(z.string()).optional(),
 				created: z.coerce.date().optional(),
 				updated: z.coerce.date().optional(),
 			}),
