@@ -5,6 +5,7 @@ tags: ["OS", "Memory", "Storage"]
 created: 2026-01-22
 updated: 2026-01-25
 draft: false
+slug: knowledge/os/storage-hierarchy
 ---
 
 ## 핵심 개념

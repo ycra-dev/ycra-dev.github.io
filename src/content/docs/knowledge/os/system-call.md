@@ -5,6 +5,7 @@ tags: ["OS", "System Call", "Kernel"]
 created: 2026-01-22
 updated: 2026-01-25
 draft: false
+slug: knowledge/os/system-call
 sidebar:
   order: 4
 ---

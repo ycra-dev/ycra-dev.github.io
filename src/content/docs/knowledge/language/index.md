@@ -5,6 +5,7 @@ tags: ["Language", "MOC"]
 created: 2026-01-24
 updated: 2026-01-24
 draft: true
+slug: knowledge/language
 sidebar:
   order: 0
 ---

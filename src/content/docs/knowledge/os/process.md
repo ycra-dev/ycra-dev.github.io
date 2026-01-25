@@ -5,6 +5,7 @@ tags: ["OS", "Process"]
 created: 2026-01-22
 updated: 2026-01-25
 draft: false
+slug: knowledge/os/process
 ---
 
 ## 핵심 개념

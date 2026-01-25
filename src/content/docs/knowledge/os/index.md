@@ -5,6 +5,7 @@ tags: ["OS", "MOC"]
 created: 2026-01-24
 updated: 2026-01-25
 draft: false
+slug: knowledge/os
 sidebar:
   order: 0
 ---

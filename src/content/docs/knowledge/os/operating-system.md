@@ -5,6 +5,7 @@ tags: ["OS", "Kernel", "Resource Management"]
 created: 2026-01-22
 updated: 2026-01-25
 draft: false
+slug: knowledge/os/operating-system
 sidebar:
   order: 1
 ---

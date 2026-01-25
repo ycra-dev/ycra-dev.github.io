@@ -5,6 +5,7 @@ tags: ["OS", "Interrupt", "Hardware"]
 created: 2026-01-22
 updated: 2026-01-25
 draft: false
+slug: knowledge/os/interrupt
 sidebar:
   order: 3
 ---

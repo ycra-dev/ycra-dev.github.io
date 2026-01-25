@@ -5,6 +5,7 @@ tags: ["OS", "Protection", "Mode"]
 created: 2026-01-22
 updated: 2026-01-25
 draft: false
+slug: knowledge/os/dual-mode-operation
 ---
 
 ## 핵심 개념
