@@ -1,0 +1,72 @@
+---
+title: 마이크로커널 (Microkernel)
+description: 커널에서 비필수적인 구성 요소를 제거하고 사용자 수준 프로그램으로 구현하는 운영체제 구조
+tags: ["OS", "Microkernel", "Mach", "QNX", "Message Passing"]
+created: 2026-01-25
+updated: 2026-01-25
+draft: false
+slug: knowledge/os/microkernel
+sidebar:
+  order: 3
+---
+
+import LayerStack from '../../../../../components/LayerStack.astro';
+import StepFlow from '../../../../../components/StepFlow.astro';
+
+## 핵심 개념
+
+커널에서 **비필수적인 모든 구성 요소를 제거**하고, **사용자 수준 프로그램**으로 구현하여 별도의 주소 공간에 두는 운영체제 구조이다. 1980년대 중반 Carnegie Mellon 대학에서 Mach 운영체제 개발 시 이 접근법을 사용했다.
+
+## 마이크로커널 구조
+
+<LayerStack
+  title="사용자 모드 ↔ 커널 모드"
+  layers={[
+    { label: "애플리케이션", description: "사용자 모드" },
+    { label: "파일 시스템", description: "사용자 모드" },
+    { label: "장치 드라이버", description: "사용자 모드" },
+    { label: "마이크로커널", description: "커널 모드 (IPC)", highlight: true },
+    { label: "하드웨어", description: "물리적 장치" }
+  ]}
+/>
+
+## 커널에 남는 최소 기능
+
+- 최소한의 프로세스 관리
+- 최소한의 메모리 관리
+- 통신 기능 (메시지 패싱)
+
+## 통신 방식
+
+클라이언트 프로그램과 서비스는 **직접 상호작용하지 않고**, 마이크로커널과 메시지를 교환하여 간접적으로 통신한다:
+- 예: 파일 접근 시 클라이언트가 파일 서버와 마이크로커널을 통해 메시지 교환
+
+## 실제 예시
+
+| 운영체제 | 설명 |
+|----------|------|
+| **Darwin** | macOS와 iOS의 커널 환경. Mach 마이크로커널 포함 |
+| **QNX** | 임베디드 시스템용 실시간 운영체제. Neutrino 마이크로커널이 메시지 패싱, 프로세스 스케줄링, 저수준 네트워크 통신, 하드웨어 인터럽트 처리 |
+
+## Windows NT 역사
+
+<StepFlow
+  steps={[
+    { label: "첫 번째 릴리스", description: "계층적 마이크로커널 구조, Windows 95보다 낮은 성능" },
+    { label: "Windows NT 4.0", description: "사용자 공간 계층을 커널 공간으로 이동, 부분적 성능 개선" },
+    { label: "Windows XP", description: "마이크로커널보다 모놀리식에 가깝게 변화" }
+  ]}
+/>
+
+## 트레이드오프
+
+| 장점 | 단점 |
+|------|------|
+| 운영체제 확장 용이 (새 서비스가 사용자 공간에 추가) | 시스템 함수 오버헤드 증가로 성능 저하 |
+| 커널 수정 시에도 변경 범위 작음 | 메시지 복사 (별도 주소 공간 간) |
+| 한 하드웨어에서 다른 하드웨어로 이식 용이 | 프로세스 전환 필요 |
+| 보안 및 신뢰성 향상 (서비스 실패 시 나머지 영향 없음) | 마이크로커널 성장의 가장 큰 장애물 |
+
+## 출처
+
+- Operating System Concepts, 10th Edition, Chapter 2, p.84-86

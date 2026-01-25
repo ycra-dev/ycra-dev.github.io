@@ -7,7 +7,7 @@ updated: 2026-01-25
 draft: false
 slug: knowledge/os/interrupt-vector
 sidebar:
-  order: 6
+  order: 7
 ---
 
 ## 핵심 개념

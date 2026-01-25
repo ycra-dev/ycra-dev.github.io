@@ -7,7 +7,7 @@ updated: 2026-01-25
 draft: false
 slug: knowledge/os/trap
 sidebar:
-  order: 7
+  order: 8
 ---
 
 ## 핵심 개념

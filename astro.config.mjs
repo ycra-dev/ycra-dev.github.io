@@ -49,6 +49,7 @@ export default defineConfig({
 								{ label: 'I/O와 저장장치', collapsed: true, autogenerate: { directory: 'knowledge/os/storage' } },
 								{ label: '컴퓨터 시스템 구조', collapsed: true, autogenerate: { directory: 'knowledge/os/architecture' } },
 								{ label: '운영체제 서비스', collapsed: true, autogenerate: { directory: 'knowledge/os/services' } },
+								{ label: '운영체제 구조', collapsed: true, autogenerate: { directory: 'knowledge/os/structure' } },
 							],
 						},
 					],

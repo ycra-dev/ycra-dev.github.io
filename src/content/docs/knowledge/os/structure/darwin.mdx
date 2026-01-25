@@ -1,0 +1,88 @@
+---
+title: Darwin
+description: macOS와 iOS의 커널 환경으로 Mach 마이크로커널과 BSD UNIX 커널을 결합한 하이브리드 계층 시스템
+tags: ["OS", "Darwin", "macOS", "iOS", "Mach", "BSD"]
+created: 2026-01-25
+updated: 2026-01-25
+draft: false
+slug: knowledge/os/darwin
+sidebar:
+  order: 6
+---
+
+import LayerStack from '../../../../../components/LayerStack.astro';
+
+## 핵심 개념
+
+macOS와 iOS의 **커널 환경**으로, **Mach 마이크로커널**과 **BSD UNIX 커널**을 결합한 **하이브리드 계층 시스템**이다. 마이크로커널의 장점을 유지하면서 성능 문제를 해결하기 위해 하이브리드 구조를 채택했다.
+
+## macOS/iOS 아키텍처 계층
+
+<LayerStack
+  layers={[
+    { label: "사용자 경험", description: "User Experience" },
+    { label: "애플리케이션 프레임워크", description: "Application Frameworks" },
+    { label: "코어 프레임워크", description: "Core Frameworks" },
+    { label: "커널 환경", description: "Darwin", highlight: true }
+  ]}
+/>
+
+## Darwin 구조
+
+<LayerStack
+  layers={[
+    { label: "애플리케이션", description: "사용자 앱" },
+    { label: "라이브러리 인터페이스", description: "시스템 라이브러리" },
+    { label: "시스템 콜", description: "Mach traps + BSD system calls", highlight: true },
+    { label: "커널 서비스", description: "메모리 관리, 스케줄링, IPC" },
+    { label: "I/O kit, kexts", description: "커널 확장" },
+    { label: "Mach 커널", description: "마이크로커널 기반", highlight: true }
+  ]}
+/>
+
+## 두 가지 시스템 콜 인터페이스
+
+| 인터페이스 | 설명 |
+|-----------|------|
+| **Mach system calls (traps)** | Mach 커널의 기본 서비스 접근 |
+| **BSD system calls** | POSIX 기능 제공 |
+
+## Mach 커널의 역할
+
+- 메모리 관리
+- CPU 스케줄링
+- IPC 기능: 메시지 패싱, 원격 프로시저 호출(RPC)
+- 커널 추상화 제공: 태스크(Mach 프로세스), 스레드, 메모리 객체, 포트(IPC용)
+
+## I/O kit과 kexts
+
+- **I/O kit**: 장치 드라이버 개발용
+- **kexts** (kernel extensions): 동적 로드 가능 모듈 (macOS 용어)
+
+## 성능 문제 해결
+
+별도 주소 공간의 서비스 간 메시지 패싱 오버헤드 문제를 해결하기 위해:
+- Darwin은 Mach와 BSD를 **단일 주소 공간**에 결합
+- 결과: 메시지 패싱 오버헤드 감소 + 마이크로커널의 유연성 유지
+
+## macOS vs iOS 차이
+
+| 특성 | macOS | iOS |
+|------|-------|-----|
+| 대상 | 데스크톱/랩톱 | iPhone/iPad |
+| 메모리 관리 | 더 유연함 | 더 엄격함 |
+| 보안 설정 | 덜 엄격함 | 더 엄격함 |
+| POSIX/BSD API | 개발자에게 공개 | 접근 제한 |
+
+## 트레이드오프
+
+| 장점 | 단점 |
+|------|------|
+| 마이크로커널의 모듈성/유연성 유지 | 복잡한 구조 |
+| 단일 주소 공간으로 성능 문제 해결 | 두 커널 간 인터페이스 관리 필요 |
+| 두 가지 시스템 콜 인터페이스로 다양한 요구 충족 | |
+| I/O kit으로 드라이버 개발 용이 | |
+
+## 출처
+
+- Operating System Concepts, 10th Edition, Chapter 2, p.87-89

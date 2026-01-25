@@ -12,10 +12,11 @@ sidebar:
 
 ## 기본 개념
 
+- [폰 노이만 아키텍처 (Von Neumann Architecture)](/knowledge/os/von-neumann-architecture/) - 메모리에서 명령어를 가져와 실행하는 명령어 실행 사이클
 - [운영체제 (Operating System)](/knowledge/os/operating-system/) - 하드웨어 관리와 응용 프로그램 실행 기반 제공
 - [커널 (Kernel)](/knowledge/os/kernel/) - 컴퓨터에서 항상 실행되는 OS의 핵심 프로그램
 - [부트스트랩 프로그램 (Bootstrap Program)](/knowledge/os/bootstrap-program/) - 컴퓨터 전원이 켜질 때 운영체제를 로드하는 초기 프로그램
-- [폰 노이만 아키텍처 (Von Neumann Architecture)](/knowledge/os/von-neumann-architecture/) - 메모리에서 명령어를 가져와 실행하는 명령어 실행 사이클
+- [시스템 부팅 (System Boot)](/knowledge/os/system-boot/) - 커널을 로드하여 컴퓨터를 시작하는 과정
 - [인터럽트 (Interrupt)](/knowledge/os/interrupt/) - 하드웨어가 CPU에게 이벤트 발생을 알리는 메커니즘
 - [인터럽트 벡터 (Interrupt Vector)](/knowledge/os/interrupt-vector/) - 인터럽트 서비스 루틴 주소를 저장하는 배열
 - [트랩 (Trap)](/knowledge/os/trap/) - 오류 또는 시스템 콜에 의해 발생하는 소프트웨어 생성 인터럽트
@@ -52,3 +53,15 @@ sidebar:
 - [API (Application Programming Interface)](/knowledge/os/api/) - 프로그래머에게 제공되는 함수 집합
 - [시스템 콜 인터페이스 (System-call Interface)](/knowledge/os/system-call-interface/) - API와 시스템 콜을 연결하는 인터페이스
 - [시스템 프로그램 (System Programs)](/knowledge/os/system-programs/) - 프로그램 개발과 실행을 위한 유틸리티
+- [링커와 로더 (Linkers and Loaders)](/knowledge/os/linker-loader/) - 객체 파일 결합과 메모리 적재
+
+## 운영체제 구조
+
+- [모놀리식 구조 (Monolithic Structure)](/knowledge/os/monolithic-structure/) - 단일 주소 공간에서 모든 기능 실행
+- [계층적 접근 (Layered Approach)](/knowledge/os/layered-approach/) - 각 계층이 하위 계층만 사용하는 구조
+- [마이크로커널 (Microkernel)](/knowledge/os/microkernel/) - 최소 기능만 커널에, 나머지는 사용자 공간에
+- [적재 가능 커널 모듈 (Loadable Kernel Modules)](/knowledge/os/loadable-kernel-modules/) - 런타임에 커널 기능 동적 추가
+- [하이브리드 시스템 (Hybrid Systems)](/knowledge/os/hybrid-systems/) - 여러 구조의 장점을 결합
+- [Darwin](/knowledge/os/darwin/) - macOS/iOS의 Mach + BSD 하이브리드 커널
+- [Android 구조 (Android Architecture)](/knowledge/os/android/) - Linux 커널 기반 모바일 OS 스택
+- [정책과 메커니즘 (Policy and Mechanism)](/knowledge/os/policy-mechanism/) - '어떻게'와 '무엇을' 분리하는 설계 원칙
