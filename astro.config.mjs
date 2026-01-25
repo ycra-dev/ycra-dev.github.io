@@ -14,6 +14,10 @@ export default defineConfig({
 			locales: {
 				root: { label: '한국어', lang: 'ko' },
 			},
+			customCss: [
+				'./node_modules/katex/dist/katex.min.css',
+				'./src/styles/custom.css',
+			],
 			components: {
 				Header: './src/components/Header.astro',
 				Sidebar: './src/components/Sidebar.astro',
