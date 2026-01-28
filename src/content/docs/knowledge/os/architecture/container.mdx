@@ -1,0 +1,143 @@
+---
+title: "컨테이너 (Container)"
+description: "단일 커널 위에서 애플리케이션들을 격리하여 가상화와 유사한 효과를 제공하는 OS 수준 격리 기술"
+tags: ["OS", "Virtualization", "Container", "Docker"]
+created: 2026-01-27
+updated: 2026-01-27
+draft: true
+slug: knowledge/os/container
+sidebar:
+  order: 6
+---
+
+import StepFlow from '../../../../../components/StepFlow.astro';
+import ArchitectureStack from '../../../../../components/ArchitectureStack.astro';
+
+## 핵심 개념
+
+컨테이너(Container)는 전체 OS를 가상화하지 않고, **단일 커널 위에서 애플리케이션들을 서로 격리**하여 가상화와 유사한 효과를 제공하는 OS 수준의 격리 기술이다.
+
+비유하면 아파트(VM)가 아닌 셰어하우스(컨테이너)와 같다. 같은 집(커널)을 공유하지만 각자 방(컨테이너)에서 독립적으로 생활하는 것이다.
+
+### 왜 필요한가?
+
+- 전체 VM은 각각 별도의 OS를 실행하므로 자원 낭비가 크다
+- 모든 앱이 같은 OS에서 실행된다면 전체 가상화는 불필요하다
+- 성능 관리, 자원 제한, 이동성만 필요한 경우가 많다
+- VM보다 가볍고 빠른 격리 방법이 필요하다
+
+## 동작 원리
+
+핵심 가정은 **같은 OS의 앱들은 전용 VM 없이도 격리 가능하다**는 것이다.
+
+### 메커니즘
+
+<StepFlow
+  steps={[
+    { label: "단일 커널", description: "하드웨어 가상화 없이 단일 커널만 설치" },
+    { label: "OS 가상화", description: "OS와 디바이스를 가상화하여 각 컨테이너에 제공" },
+    { label: "격리 환경", description: "각 컨테이너에 자체 네트워크, 사용자, 파일시스템 뷰 제공" },
+    { label: "자원 제한", description: "CPU/메모리 자원을 컨테이너별로 할당 및 제한" }
+  ]}
+/>
+
+### VM vs Container 구조 비교
+
+<div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+  <ArchitectureStack
+    title="VM 방식"
+    topItems={[
+      { label: "App + Guest OS", description: "VM 1" },
+      { label: "App + Guest OS", description: "VM 2" },
+      { label: "App + Guest OS", description: "VM 3" }
+    ]}
+    baseLayer={{ label: "Hypervisor", description: "하드웨어 가상화", highlight: true }}
+  />
+  <ArchitectureStack
+    title="Container 방식"
+    topItems={[
+      { label: "App", description: "Container 1" },
+      { label: "App", description: "Container 2" },
+      { label: "App", description: "Container 3" }
+    ]}
+    baseLayer={{ label: "Single Kernel", description: "커널 공유", highlight: true }}
+  />
+</div>
+
+VM은 각각 전체 Guest OS를 포함하지만, 컨테이너는 하나의 커널을 공유하면서 앱만 격리한다.
+
+## 예시
+
+### 주요 구현체
+
+#### Oracle Solaris Zones (2005~)
+
+최초의 상용 컨테이너 기술 중 하나이다.
+
+<div style="max-width: 450px; margin: 0 auto;">
+  <ArchitectureStack
+    title="Solaris Zones 구조"
+    topItems={[
+      { label: "Zone 1", description: "Non-global" },
+      { label: "Zone 2", description: "Non-global" },
+      { label: "Global Zone", description: "전체 관리", highlight: true }
+    ]}
+    baseLayer={{ label: "Solaris Kernel (단일)", highlight: true }}
+  />
+</div>
+
+- **Global zone**: 전체 시스템 관리
+- **Non-global zones**: 격리된 컨테이너, 각 zone이 자체 스케줄러 실행 가능
+
+#### FreeBSD Jails (2000~)
+
+최초의 컨테이너 유사 기술이다. 프로세스와 파일시스템을 격리한다.
+
+#### Linux LXC (2014~)
+
+Linux 커널의 `clone()` 시스템콜 플래그로 구현한다. Namespace와 Cgroups를 활용한다.
+
+#### Docker (2013~)
+
+LXC 기반으로 시작한 컨테이너 플랫폼이다.
+
+- **이미지**: 컨테이너 실행에 필요한 모든 것 포함
+- **레지스트리**: 이미지 공유 (Docker Hub)
+- **오케스트레이션**: Docker Compose, Swarm
+
+#### Kubernetes (2014~)
+
+컨테이너 오케스트레이션 플랫폼이다. 여러 호스트에 걸친 컨테이너 자동 배포, 스케일링, 관리를 담당하며 Pod 단위로 컨테이너 그룹을 관리한다.
+
+### VM vs Container 비교
+
+| 특성 | Virtual Machine | Container |
+|------|-----------------|-----------|
+| 격리 수준 | 완전 (하드웨어) | OS 수준 |
+| 오버헤드 | 높음 (전체 OS) | 낮음 |
+| 시작 시간 | 분 단위 | 초 단위 |
+| 이미지 크기 | GB 단위 | MB 단위 |
+| 보안 | 강력한 격리 | 커널 공유로 취약 가능 |
+| 호환성 | 다른 OS 가능 | 같은 OS만 |
+
+### 활용 분야
+
+- **빠른 배포**: 수초 내 시작/종료
+- **효율성**: 커널 공유로 자원 절약
+- **이동성**: 이미지로 패키징하여 어디서나 실행
+- **마이크로서비스**: 서비스별 컨테이너로 분리
+- **CI/CD**: 빌드-테스트-배포 파이프라인
+
+### 장단점
+
+| 장점 | 단점 |
+|------|------|
+| VM 대비 훨씬 가벼움 | 같은 OS만 지원 |
+| 빠른 인스턴스화/삭제 | 커널 공유로 인한 보안 우려 |
+| 자동화/오케스트레이션 용이 | VM만큼 강력한 격리가 아님 |
+
+## 관련 개념
+
+- [하이퍼바이저 (Hypervisor)](/knowledge/os/hypervisor/)
+- [바이너리 변환 (Binary Translation)](/knowledge/os/binary-translation/)
+- [가상 머신 (Virtual Machine)](/knowledge/os/virtual-machine/)

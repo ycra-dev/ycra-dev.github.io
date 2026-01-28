@@ -22,20 +22,22 @@ import NestedDiagram from '../../../../../components/NestedDiagram.astro';
 
 "운영체제"라는 용어가 다양한 역할과 기능을 포괄하기 때문에, 핵심 부분을 구분할 필요가 있다.
 
-<NestedDiagram
-  title="모든 프로그램"
-  items={[
-    {
-      label: "운영체제 (OS)",
-      highlight: true,
-      children: [
-        { label: "커널", highlight: true },
-        { label: "시스템 프로그램" }
-      ]
-    },
-    { label: "응용 프로그램" }
-  ]}
-/>
+<div style="max-width: 450px; margin: 0 auto;">
+  <NestedDiagram
+    title="모든 프로그램"
+    items={[
+      {
+        label: "운영체제 (OS)",
+        highlight: true,
+        children: [
+          { label: "커널", highlight: true },
+          { label: "시스템 프로그램" }
+        ]
+      },
+      { label: "응용 프로그램" }
+    ]}
+  />
+</div>
 
 | 구분 | 설명 |
 |------|------|

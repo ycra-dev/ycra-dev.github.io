@@ -3,7 +3,7 @@ title: 시스템 부팅 (System Boot)
 description: 커널을 로드하여 컴퓨터를 시작하는 과정으로 부트스트랩 프로그램이 커널을 찾아 메모리에 적재하고 실행
 tags: ["OS", "Boot", "Bootstrap", "BIOS", "UEFI", "GRUB"]
 created: 2026-01-25
-updated: 2026-01-25
+updated: 2026-01-27
 draft: false
 slug: knowledge/os/system-boot
 sidebar:
@@ -11,6 +11,7 @@ sidebar:
 ---
 
 import StepFlow from '../../../../../components/StepFlow.astro';
+import LayerStack from '../../../../../components/LayerStack.astro';
 
 ## 핵심 개념
 
@@ -49,11 +50,25 @@ import StepFlow from '../../../../../components/StepFlow.astro';
 | 대용량 디스크 | 제한적 | 우수한 지원 |
 | 장점 | 레거시 호환성 | 속도, 현대적 하드웨어 지원 |
 
-## 부트 블록
+## 부트 블록과 MBR
 
 - 고정 디스크 위치에 저장된 프로그램
 - 단일 디스크 블록에 맞아야 하므로 단순한 코드
 - 부트스트랩 프로그램의 나머지 부분의 디스크 주소와 길이만 알고 있음
+
+### MBR (Master Boot Record) 구조
+
+<LayerStack
+  title="MBR (512 bytes)"
+  layers={[
+    { label: "부트스트랩 코드", description: "446 bytes", highlight: true },
+    { label: "파티션 테이블 (4개)", description: "64 bytes" },
+    { label: "부트 시그니처 (0x55AA)", description: "2 bytes" }
+  ]}
+/>
+
+- **BIOS 방식**: 펌웨어가 MBR의 부트 코드를 메모리에 로드하고 실행
+- **UEFI 방식**: EFI 시스템 파티션에서 부트 로더를 직접 로드 (MBR 부트 코드 불필요)
 
 ## 부트스트랩 프로그램의 역할
 
@@ -85,6 +100,23 @@ root=UUID=5f2e2232-4e47-4fe8-ae94-45ea749a5c92
     { label: "initramfs", description: "임시 RAM 파일 시스템 사용" },
     { label: "루트 마운트", description: "실제 루트 파일 시스템 마운트" },
     { label: "systemd 시작", description: "첫 번째 프로세스로 시작" }
+  ]}
+/>
+
+## initramfs (초기 RAM 파일 시스템)
+
+- 커널 로드 직후 사용되는 임시 루트 파일 시스템
+- 실제 루트 파일 시스템 마운트에 필요한 드라이버 포함
+- 루트 파일 시스템이 마운트되면 initramfs는 해제됨
+
+## Windows 부트 과정
+
+<StepFlow
+  steps={[
+    { label: "UEFI", description: "펌웨어 초기화" },
+    { label: "Windows Boot Manager", description: "bootmgfw.efi" },
+    { label: "Windows Loader", description: "winload.efi" },
+    { label: "ntoskrnl.exe", description: "NT 커널 시작" }
   ]}
 />
 

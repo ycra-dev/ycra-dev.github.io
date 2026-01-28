@@ -4,10 +4,10 @@ description: "CPU가 여러 프로세스 간에 빠르게 전환하여 사용자
 tags: ["OS", "Process", "CPU", "Scheduling"]
 created: 2026-01-25
 updated: 2026-01-25
-draft: false
+draft: true
 slug: knowledge/os/multitasking
 sidebar:
-  order: 3
+  order: 8
 ---
 
 ## 핵심 개념

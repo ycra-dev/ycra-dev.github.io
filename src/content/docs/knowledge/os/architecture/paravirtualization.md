@@ -1,0 +1,88 @@
+---
+title: "준가상화 (Paravirtualization)"
+description: "게스트 OS를 수정하여 VMM과 협력하게 함으로써 효율적으로 가상화하는 기법"
+tags: ["OS", "Virtualization"]
+created: 2026-01-28
+updated: 2026-01-28
+draft: true
+slug: knowledge/os/paravirtualization
+sidebar:
+  order: 9
+---
+
+## 핵심 개념
+
+준가상화(Paravirtualization)는 **게스트 OS를 수정**하여 VMM(Hypervisor)과 직접 협력하게 함으로써, 전체 하드웨어 에뮬레이션 없이 효율적으로 가상화하는 기법이다. x86 하드웨어 가상화 지원(VT-x/AMD-V) 이전에 효율적인 가상화를 위해 개발되었으며, Xen 프로젝트가 대표적 구현이다.
+
+비유하면, 번역가와 협력하는 외국인과 같다. 모든 문장을 번역하는 대신, 자주 쓰는 표현은 미리 약속한 신호(hypercall)로 대체한다.
+
+## 동작 원리
+
+### 핵심 메커니즘
+
+```
+┌─────────────────────────────────────────────┐
+│           Modified Guest OS                  │
+│                                             │
+│  일반 명령어 → 네이티브 실행                  │
+│  페이지 테이블 변경 → hypercall 호출          │
+│  I/O 요청 → shared buffer에 기록             │
+└────────────────────┬────────────────────────┘
+                     │ hypercall
+                     ↓
+┌─────────────────────────────────────────────┐
+│                Xen VMM                       │
+│  - hypercall 처리                            │
+│  - shared buffer 모니터링                    │
+│  - 실제 하드웨어 제어                         │
+└─────────────────────────────────────────────┘
+```
+
+1. 게스트에게 실제 하드웨어가 아닌 **유사하지만 다른** 시스템 제공
+2. 게스트 OS가 VMM과 협력하도록 **커널 수정**
+3. 특권 명령어 대신 **hypercall**로 VMM 호출
+4. 단순하고 명확한 디바이스 추상화 제공
+
+### Hypercall
+
+```c
+// 일반 시스템콜 (User → Kernel)
+int result = syscall(SYS_read, fd, buf, count);
+
+// Hypercall (Guest Kernel → Hypervisor)
+int result = HYPERVISOR_mmu_update(reqs, count, ...);
+```
+
+### Xen의 I/O 가상화
+
+가상 디바이스 대신 **Shared circular buffer**를 사용하여 요청/응답을 교환한다. 게스트가 Request Queue에 요청을 기록하면 Xen이 처리 후 Response Queue에 결과를 반환한다.
+
+### Xen의 메모리 관리
+
+- 게스트가 자체 페이지 테이블을 관리 (read-only)
+- 페이지 테이블 변경 시 hypercall로 Xen에 요청
+- 여러 변경을 비동기적으로 큐잉 후 일괄 처리 가능
+
+### Full Virtualization vs Paravirtualization
+
+| 특성 | Full Virtualization | Paravirtualization |
+|------|--------------------|--------------------|
+| 게스트 OS 수정 | 불필요 | 필요 |
+| 하드웨어 에뮬레이션 | 완전 에뮬레이션 | 최소화 |
+| 성능 | 상대적 낮음 | 높음 |
+| 호환성 | 모든 OS | 수정 가능한 OS만 |
+
+### 현재 상태
+
+하드웨어 지원 가상화(VT-x, AMD-V) 등장 후 순수 paravirtualization의 필요성이 감소했다. Xen도 unmodified guest를 지원하게 되었다. 다만 Type 0 하이퍼바이저나 성능 최적화가 중요한 특수 환경에서는 여전히 사용된다.
+
+## 예시
+
+- **일반 가상화**: 게스트가 특권 명령어 실행 → 트랩 → VMM 에뮬레이션
+- **준가상화**: 게스트가 hypercall 호출 → VMM이 직접 처리 (트랩 없이)
+
+## 관련 개념
+
+- [가상화 (Virtualization)](/knowledge/os/virtualization/) - 가상화의 일반 개념
+- [하드웨어 가상화 지원 (VT-x/AMD-V)](/knowledge/os/hw-virtualization/) - 하드웨어 수준 가상화 지원
+- [바이너리 변환 (Binary Translation)](/knowledge/os/binary-translation/) - 게스트 수정 없는 가상화 기법

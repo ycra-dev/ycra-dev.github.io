@@ -1,0 +1,107 @@
+---
+title: "바이너리 변환 (Binary Translation)"
+description: "게스트 OS의 문제되는 명령어를 동등한 다른 명령어로 변환하여 가상화를 구현하는 기법"
+tags: ["OS", "Virtualization", "x86", "VMM"]
+created: 2026-01-27
+updated: 2026-01-27
+draft: false
+slug: knowledge/os/binary-translation
+sidebar:
+  order: 5
+---
+
+import StepFlow from '../../../../../components/StepFlow.astro';
+import LayerStack from '../../../../../components/LayerStack.astro';
+
+## 핵심 개념
+
+바이너리 변환(Binary Translation)은 게스트 OS의 바이너리 코드를 실행 전에 검사하고, **문제가 되는 명령어를 동등한 동작을 수행하는 다른 명령어로 변환**하여 가상화를 구현하는 기법이다.
+
+비유하면 외국어 문서를 실시간으로 번역하면서 읽는 통역사와 같다. 대부분은 그대로 전달하지만, 번역이 필요한 문장은 의미가 같은 다른 표현으로 바꾼다.
+
+### 왜 필요했는가?
+
+- x86 CPU는 특권/비특권 명령어가 깔끔하게 분리되지 않는다
+- `popf` 같은 명령어: 커널 모드에서는 모든 플래그 변경, 사용자 모드에서는 일부만 변경하고 **트랩 없음**
+- 이런 "special instructions" 때문에 순수 trap-and-emulate 방식이 불가능했다
+- 1998년까지 x86 가상화는 불가능하다고 여겨졌으나, VMware가 binary translation으로 해결했다
+
+## 동작 원리
+
+핵심 가정은 **실행 전에 코드를 분석하면 문제되는 명령어를 찾아 대체할 수 있다**는 것이다.
+
+### 단계별 동작
+
+<StepFlow
+  steps={[
+    { label: "모드 판별", description: "게스트 VCPU가 사용자 모드이면 네이티브 직접 실행" },
+    { label: "명령어 스캔", description: "커널 모드이면 VMM이 다음 명령어 블록을 읽음" },
+    { label: "분류", description: "일반 명령어는 그대로, special instructions는 번역 대상" },
+    { label: "번역", description: "문제 명령어를 동등한 새 명령어 시퀀스로 변환" },
+    { label: "실행", description: "번역된 코드를 실행하고 결과를 Translation Cache에 저장" }
+  ]}
+/>
+
+### 명령어 처리 구조
+
+<LayerStack
+  title="Guest OS 명령어 스트림"
+  layers={[
+    { label: "mov eax, 1", description: "일반 → 그대로 실행" },
+    { label: "add eax, ebx", description: "일반 → 그대로 실행" },
+    { label: "popf", description: "special → 번역", highlight: true },
+    { label: "ret", description: "일반 → 그대로 실행" }
+  ]}
+/>
+
+### Translation Cache
+
+성능 최적화의 핵심이다. 한 번 번역된 코드 블록을 캐시에 저장하여 동일 코드 재실행 시 번역 오버헤드를 제거한다.
+
+VMware 테스트 결과:
+- Windows XP 부팅+종료: 950,000번의 번역
+- 각 번역 3μs → 총 3초 추가 (약 5% 오버헤드)
+
+### Nested Page Tables (NPT)
+
+Binary translation과 함께 사용되는 메모리 관리 기법이다.
+
+- 게스트 페이지 테이블과 별도로 VMM이 NPT 유지
+- 게스트의 가상→물리 변환을 VMM의 물리→실제 물리로 한 번 더 변환
+- TLB 미스 증가가 단점
+
+## 예시
+
+`popf` 명령어 처리 시나리오:
+
+```asm
+[원본 게스트 코드]
+popf                     ; 스택 → EFLAGS (커널 모드면 IF 포함 전체 변경)
+
+[변환된 코드]
+pop eax                  ; 스택에서 값을 eax로
+mov [vcpu_eflags], eax   ; 가상 EFLAGS에 전체 저장
+and eax, ~0x200          ; IF(bit 9) 등 민감한 플래그 마스킹
+push eax
+popf                     ; 안전한 플래그만 실제 CPU에 반영
+```
+
+`popf`는 커널 모드에서 IF(인터럽트 플래그) 포함 모든 플래그를 변경하지만, 사용자 모드에서는 일부만 변경하고 트랩을 발생시키지 않는다. VMM은 이 명령어를 가로채서:
+
+1. 게스트가 원하는 플래그 값을 **가상 EFLAGS 구조체**에 저장
+2. 실제 CPU에는 **IF 같은 민감한 비트를 마스킹**하여 안전하게 반영
+
+### 현재 상태
+
+- Intel VT-x (2005~), AMD-V (2006~) 하드웨어 지원으로 **binary translation은 더 이상 필요 없음**
+- 현대 VMM은 하드웨어 지원 가상화 사용
+- 역사적으로 x86 가상화를 가능하게 한 중요한 기술
+
+## 장단점
+
+| 장점 | 단점 |
+|------|------|
+| x86 가상화 가능 | 번역 로직 복잡 |
+| 대부분 네이티브 실행 | 초기 번역 오버헤드 |
+| Cache로 오버헤드 최소화 | TLB 미스 증가 |
+| | HW 가상화로 필요성 감소 |

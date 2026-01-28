@@ -1,0 +1,86 @@
+---
+title: "NAND 플래시 관리 알고리즘"
+description: "SSD 컨트롤러가 NAND 특성을 극복하기 위해 수행하는 FTL, GC, 웨어 레벨링 등 내부 관리 기법"
+tags: ["OS", "Storage", "SSD"]
+created: 2026-01-27
+updated: 2026-01-27
+draft: true
+slug: knowledge/os/nand-flash-management
+sidebar:
+  order: 14
+---
+
+## 핵심 개념
+
+NAND 플래시는 페이지를 **덮어쓸 수 없고**, **블록 단위로만 지울 수 있으며**, 지우기 횟수에 **수명 제한**이 있다. SSD 컨트롤러는 이러한 특성을 숨기고 HDD처럼 동작하게 만들기 위해 FTL, Garbage Collection, Wear Leveling 등의 내부 관리 기법을 수행한다.
+
+비유하면, 사무실 서랍 정리와 같다. FTL은 서류가 어느 서랍에 있는지 기록한 인덱스이고, GC는 버린 서류와 남길 서류가 섞인 서랍을 정리하는 과정이다.
+
+## 동작 원리
+
+### 1. FTL (Flash Translation Layer)
+
+논리 블록 주소(LBA) → 물리 페이지 주소 변환 테이블을 유지한다. NAND는 덮어쓰기가 불가하므로, 같은 LBA에 새 데이터를 쓰면 다른 물리 페이지에 기록하고 FTL이 매핑을 갱신한다.
+
+- 유효(valid)/무효(invalid) 페이지 추적
+- 빈(free) 블록 관리
+- 물리 블록 상태(erased, written, invalid) 관리
+
+### 2. Garbage Collection (GC)
+
+쓰기가 반복되면 무효 페이지가 쌓여 빈 블록이 부족해진다.
+
+```
+Before GC:
+Block A                    Block B (free)
+┌──────┬──────┬──────┬──────┐  ┌──────┬──────┬──────┬──────┐
+│Valid │Inval │Valid │Inval │  │Empty │Empty │Empty │Empty │
+│ P0   │ P1   │ P2   │ P3   │  │      │      │      │      │
+└──────┴──────┴──────┴──────┘  └──────┴──────┴──────┴──────┘
+
+Step 1: Valid 페이지를 Block B로 복사
+Block A                    Block B
+┌──────┬──────┬──────┬──────┐  ┌──────┬──────┬──────┬──────┐
+│Valid │Inval │Valid │Inval │  │ P0   │ P2   │Empty │Empty │
+│ P0   │ P1   │ P2   │ P3   │  │(copy)│(copy)│      │      │
+└──────┴──────┴──────┴──────┘  └──────┴──────┴──────┴──────┘
+
+Step 2: Block A 전체 지움 (Erase)
+Block A (erased)           Block B
+┌──────┬──────┬──────┬──────┐  ┌──────┬──────┬──────┬──────┐
+│Empty │Empty │Empty │Empty │  │ P0   │ P2   │Empty │Empty │
+│      │      │      │      │  │      │      │      │      │
+└──────┴──────┴──────┴──────┘  └──────┴──────┴──────┴──────┘
+```
+
+### 3. Over-provisioning (OP)
+
+SSD 전체 용량 중 일부(보통 ~20%)를 사용자에게 노출하지 않고 내부 관리용으로 예약한다. GC 임시 저장, 즉시 쓸 빈 공간 확보, 웨어 레벨링 여유 공간으로 사용한다.
+
+### 4. Wear Leveling (마모 평준화)
+
+특정 블록만 자주 지우면 그 블록이 먼저 수명이 다하므로, 쓰기를 여러 블록에 분산한다. "콜드 데이터"(자주 안 바뀌는 데이터)를 자주 지워진 블록으로 이동하여 모든 블록이 비슷한 횟수로 지워지게 한다.
+
+### 5. Write Amplification (WA)
+
+호스트가 요청한 쓰기량 대비 실제 NAND에 쓴 양의 비율이다.
+
+```
+WA = NAND에 쓴 데이터량 / 호스트 요청 쓰기량
+
+예: 호스트 1 페이지 쓰기 요청
+→ 실제: 2 페이지 읽기 + 3 페이지 쓰기 + 1 블록 지우기
+→ WA = 3/1 = 3
+```
+
+WA가 높으면 쓰기 수명이 감소하고 성능이 저하된다.
+
+## 예시
+
+256GB SSD에서 200GB만 사용자에게 보임 (56GB = OP). 파일 삭제 시 TRIM 명령으로 OS가 SSD에 알려주면, SSD가 해당 페이지를 무효로 표시하고 다음 GC 때 정리한다.
+
+## 관련 개념
+
+- [논리 블록 주소 (LBA)](/knowledge/os/lba/) - FTL이 변환하는 논리 주소 체계
+- [HDD (Hard Disk Drive)](/knowledge/os/hdd/) - 덮어쓰기 가능한 기계식 저장장치
+- [I/O 스케줄링](/knowledge/os/io-scheduling/) - 저장장치 요청 순서 최적화

@@ -1,0 +1,71 @@
+---
+title: "분산 시스템의 투명성 (Transparency)"
+description: "분산 시스템이 사용자에게 단일 중앙집중식 시스템처럼 보이도록 분산을 숨기는 특성"
+tags: ["OS", "DistributedSystem", "Transparency"]
+created: 2026-01-23
+updated: 2026-01-27
+draft: false
+slug: knowledge/os/distributed-transparency
+sidebar:
+  order: 2
+---
+
+## 핵심 개념
+
+분산 시스템의 투명성(Transparency)은 사용자에게 마치 단일 중앙집중식 시스템처럼 보이도록 여러 프로세서와 스토리지의 분산을 숨기는 특성입니다. 사용자 인터페이스는 로컬과 원격 자원을 구분하지 않아야 합니다.
+
+## 동작 원리
+
+### 주요 투명성 유형
+
+| 유형 | 설명 |
+|------|------|
+| **위치 투명성 (Location Transparency)** | 파일 이름이 물리적 저장 위치를 노출하지 않음 |
+| **위치 독립성 (Location Independence)** | 파일의 물리적 위치가 변경되어도 이름이 바뀌지 않음 |
+| **복제 투명성 (Replication Transparency)** | 복제본의 존재와 위치가 숨겨짐 |
+| **마이그레이션 투명성 (Migration Transparency)** | 자원이 자동으로 이동해도 사용자가 인식 못함 |
+| **동시성 투명성 (Concurrency Transparency)** | 여러 사용자가 동시 접근해도 각자 독점 사용처럼 느낌 |
+| **실패 투명성 (Failure Transparency)** | 장애가 발생해도 사용자가 인식 못함 |
+
+### 위치 투명성 vs 위치 독립성
+
+- **위치 투명성**: 이름에서 위치 정보가 드러나지 않음 (정적 매핑)
+  - 예: `/shared/document.txt` → 어느 서버인지 모름
+- **위치 독립성**: 물리적 위치가 바뀌어도 이름 유지 (동적 매핑)
+  - 예: 파일이 서버 A → 서버 B로 이동해도 경로 동일
+  - 위치 독립성은 위치 투명성보다 강한 속성
+
+### 이름 지정 체계 비교
+
+| 체계 | 예시 | 특징 |
+|------|------|------|
+| host:path | host:/home/file | 위치 노출, 비투명 |
+| NFS 마운트 | /mnt/remote/file | 마운트 포인트별 투명 |
+| 전역 네임스페이스 | /afs/org/file | 완전한 위치 투명성 |
+
+### 사용자 이동성 (User Mobility)
+
+사용자가 어느 머신에서 로그인해도 동일한 환경(홈 디렉토리 등)을 제공합니다. LDAP으로 원격/모바일 사용자 인증, 데스크톱 가상화로 원격 세션 접근이 가능합니다.
+
+## 예시
+
+- 위치 투명성 = ATM에서 현금 인출. 내 계좌가 어느 지점에 있는지 몰라도 됨
+- 위치 독립성 = 은행이 내부적으로 계좌를 다른 서버로 옮겨도 같은 계좌번호 사용
+
+```
+비투명 시스템 (NOS):
+open("server-a:/data/file.txt")    // 위치 명시
+파일이 server-b로 이동하면:
+open("server-b:/data/file.txt")    // 경로 변경 필요
+
+투명 시스템 (DOS):
+open("/data/file.txt")              // 위치 숨겨짐
+파일이 이동해도:
+open("/data/file.txt")              // 동일한 경로
+```
+
+## 관련 개념
+
+- [[분산 시스템 (Distributed System)]]
+- [[네트워크 운영체제 vs 분산 운영체제 (NOS vs DOS)]]
+- [[분산 파일 시스템 (DFS)]]

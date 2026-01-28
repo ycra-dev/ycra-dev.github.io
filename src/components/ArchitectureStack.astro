@@ -1,0 +1,114 @@
+---
+interface Item {
+  label: string;
+  description?: string;
+  highlight?: boolean;
+}
+
+interface Props {
+  title?: string;
+  topItems: Item[];
+  baseLayer: Item;
+}
+
+const { title, topItems, baseLayer } = Astro.props;
+---
+
+<div class="architecture-stack">
+  {title && <div class="stack-title">{title}</div>}
+  <div class="stack-container">
+    <div class="top-items">
+      {topItems.map((item) => (
+        <div class:list={["top-item", { highlight: item.highlight }]}>
+          <span class="item-label">{item.label}</span>
+          {item.description && (
+            <span class="item-desc">{item.description}</span>
+          )}
+        </div>
+      ))}
+    </div>
+    <div class:list={["base-layer", { highlight: baseLayer.highlight }]}>
+      <span class="item-label">{baseLayer.label}</span>
+      {baseLayer.description && (
+        <span class="item-desc">{baseLayer.description}</span>
+      )}
+    </div>
+  </div>
+</div>
+
+<style>
+  .architecture-stack {
+    margin: 1.5rem 0;
+  }
+
+  .stack-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--sl-color-gray-2);
+    margin-bottom: 0.5rem;
+  }
+
+  .stack-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .top-items {
+    display: table;
+    width: 100%;
+    border-spacing: 0.25rem 0;
+  }
+
+  .top-item {
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 0.5rem 0.6rem;
+    background: var(--sl-color-gray-6);
+    border: 2px solid var(--sl-color-gray-4);
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+    text-align: center;
+  }
+
+  .top-item.highlight {
+    border-color: var(--sl-color-accent);
+    background: var(--sl-color-accent-low);
+  }
+
+  .base-layer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 1rem;
+    background: var(--sl-color-gray-7);
+    border: 2px solid var(--sl-color-gray-4);
+    border-radius: 6px;
+    text-align: center;
+  }
+
+  .base-layer.highlight {
+    border-color: var(--sl-color-accent);
+    background: var(--sl-color-accent-low);
+  }
+
+  .item-label {
+    display: block;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--sl-color-text);
+  }
+
+  .highlight .item-label {
+    color: var(--sl-color-accent-high);
+  }
+
+  .item-desc {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--sl-color-gray-2);
+    margin-top: 0.15rem;
+  }
+</style>

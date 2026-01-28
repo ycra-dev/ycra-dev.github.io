@@ -51,18 +51,18 @@ const { items, title } = Astro.props;
   }
 
   .diagram-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    justify-content: center;
+    display: table;
+    width: 100%;
+    border-spacing: 0.75rem 0;
   }
 
   .group {
+    display: table-cell;
+    vertical-align: top;
     background: var(--sl-color-gray-6);
     border: 2px solid var(--sl-color-gray-4);
     border-radius: 10px;
     padding: 0.75rem 1rem;
-    min-width: 140px;
   }
 
   .group.highlight {
@@ -80,10 +80,9 @@ const { items, title } = Astro.props;
   }
 
   .group-children {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 0.4rem;
-    justify-content: center;
   }
 
   .tag {

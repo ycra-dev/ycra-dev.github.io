@@ -1,0 +1,136 @@
+---
+interface State {
+  id: string;
+  label: string;
+  highlight?: boolean;
+}
+
+interface Transition {
+  from: string;
+  to: string;
+  label?: string;
+}
+
+interface Props {
+  states: State[];
+  transitions: Transition[];
+  title?: string;
+}
+
+const { states, transitions, title } = Astro.props;
+const stateMap = new Map(states.map(s => [s.id, s]));
+---
+
+<div class="state-diagram">
+  {title && <div class="diagram-title">{title}</div>}
+
+  <svg viewBox="0 0 520 200" class="diagram-svg">
+    <!-- State boxes (draw first so arrows appear on top) -->
+    <g class="state-box">
+      <rect x="15" y="55" width="70" height="40" rx="8"/>
+      <text x="50" y="75">New</text>
+    </g>
+
+    <g class="state-box">
+      <rect x="130" y="55" width="75" height="40" rx="8"/>
+      <text x="167" y="75">Ready</text>
+    </g>
+
+    <g class="state-box highlight">
+      <rect x="260" y="55" width="90" height="40" rx="8"/>
+      <text x="305" y="75">Running</text>
+    </g>
+
+    <g class="state-box">
+      <rect x="405" y="55" width="100" height="40" rx="8"/>
+      <text x="455" y="75">Terminated</text>
+    </g>
+
+    <g class="state-box">
+      <rect x="195" y="145" width="80" height="40" rx="8"/>
+      <text x="235" y="165">Waiting</text>
+    </g>
+
+    <!-- New to Ready -->
+    <line x1="85" y1="75" x2="128" y2="75" stroke="var(--sl-color-gray-3)" stroke-width="2"/>
+    <polygon points="128,75 120,71 120,79" fill="var(--sl-color-gray-3)"/>
+    <text x="107" y="65" class="arrow-label">admitted</text>
+
+    <!-- Ready to Running -->
+    <line x1="205" y1="75" x2="258" y2="75" stroke="var(--sl-color-gray-3)" stroke-width="2"/>
+    <polygon points="258,75 250,71 250,79" fill="var(--sl-color-gray-3)"/>
+    <text x="231" y="68" class="arrow-label">dispatch</text>
+
+    <!-- Running to Terminated -->
+    <line x1="350" y1="75" x2="403" y2="75" stroke="var(--sl-color-gray-3)" stroke-width="2"/>
+    <polygon points="403,75 395,71 395,79" fill="var(--sl-color-gray-3)"/>
+    <text x="376" y="68" class="arrow-label">exit</text>
+
+    <!-- Preemption arrow (Running top → curve → Ready top-left) -->
+    <path d="M 290 55 L 290 30 L 145 30 L 145 53"
+          fill="none" stroke="var(--sl-color-gray-3)" stroke-width="2"/>
+    <polygon points="145,53 141,45 149,45" fill="var(--sl-color-gray-3)"/>
+    <text x="217" y="24" class="arrow-label">preemption</text>
+
+    <!-- Running to Waiting -->
+    <line x1="290" y1="95" x2="250" y2="143" stroke="var(--sl-color-gray-3)" stroke-width="2"/>
+    <polygon points="250,143 250,134 257,139" fill="var(--sl-color-gray-3)"/>
+    <text x="282" y="122" class="arrow-label">I/O wait</text>
+
+    <!-- Waiting to Ready -->
+    <line x1="220" y1="145" x2="180" y2="97" stroke="var(--sl-color-gray-3)" stroke-width="2"/>
+    <polygon points="180,97 180,106 187,101" fill="var(--sl-color-gray-3)"/>
+    <text x="188" y="128" class="arrow-label">I/O done</text>
+  </svg>
+</div>
+
+<style>
+  .state-diagram {
+    margin: 1.5rem 0;
+  }
+
+  .diagram-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--sl-color-gray-2);
+    margin-bottom: 1rem;
+  }
+
+  .diagram-svg {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .state-box rect {
+    fill: var(--sl-color-gray-6);
+    stroke: var(--sl-color-gray-4);
+    stroke-width: 2;
+  }
+
+  .state-box text {
+    fill: var(--sl-color-text);
+    font-size: 14px;
+    font-weight: 600;
+    text-anchor: middle;
+    dominant-baseline: middle;
+  }
+
+  .state-box.highlight rect {
+    fill: var(--sl-color-accent-low);
+    stroke: var(--sl-color-accent);
+  }
+
+  .state-box.highlight text {
+    fill: var(--sl-color-accent-high);
+  }
+
+  .arrow-label {
+    fill: var(--sl-color-gray-2);
+    font-size: 10px;
+    text-anchor: middle;
+  }
+</style>
