@@ -11,6 +11,7 @@ sidebar:
 
 ## 2026
 
+- [02/01](/til/2026-02-01/) - OS 아키텍처 노트를 mdx 포맷으로 마이그레이션하고 콘텐츠 구조 개선
 - [01/25](/til/2026-01-25/) - OS Knowledge 노트 추가 및 사이트 구조 개선
 - [01/24](/til/2026-01-24/) - Jekyll에서 Astro Starlight로 마이그레이션
 - [01/21](/til/2026-01-21/) - Operating System Concepts 1장 - 운영체제, 커널, 인터럽트
