@@ -174,17 +174,17 @@ sidebar:
 
 - [멀티프로세서 시스템 (Multiprocessor System)](/knowledge/os/multiprocessor-system/) - 두 개 이상의 프로세서가 자원을 공유하는 시스템
 - [가상화 (Virtualization)](/knowledge/os/virtualization/) - 하드웨어를 여러 실행 환경으로 추상화하는 기술
-- [분산 시스템 (Distributed System)](/knowledge/os/distributed-system/) - 메모리를 공유하지 않는 프로세서들이 네트워크를 통해 통신하는 시스템
-- [하드웨어 가상화 지원 (VT-x/AMD-V)](/knowledge/os/hw-virtualization/) - CPU가 하드웨어 수준에서 가상화를 직접 지원하는 확장 기능
+- [하이퍼바이저 유형 (Type 0/1/2)](/knowledge/os/hypervisor-types/) - 펌웨어/Bare-metal/Hosted 하이퍼바이저 분류
+- [트랩 앤 에뮬레이트 (Trap-and-Emulate)](/knowledge/os/trap-and-emulate/) - 특권 명령어 트랩으로 VMM이 에뮬레이션하는 가상화 기법
 - [바이너리 변환 (Binary Translation)](/knowledge/os/binary-translation/) - 게스트 OS의 문제되는 명령어를 동등한 다른 명령어로 변환하여 가상화를 구현하는 기법
+- [하드웨어 가상화 지원 (VT-x/AMD-V)](/knowledge/os/hw-virtualization/) - CPU가 하드웨어 수준에서 가상화를 직접 지원하는 확장 기능
+- [준가상화 (Paravirtualization)](/knowledge/os/paravirtualization/) - 게스트 OS를 수정하여 VMM과 협력하는 효율적 가상화 기법
+- [VMM CPU 스케줄링](/knowledge/os/vmm-cpu-scheduling/) - VCPU 할당과 오버커밋, 시간 왜곡 문제
+- [VMM 메모리 관리](/knowledge/os/vmm-memory-management/) - Balloon, Page Sharing, Double Paging 기법으로 게스트 메모리 관리
+- [라이브 마이그레이션 (Live Migration)](/knowledge/os/live-migration/) - 실행 중인 게스트 VM을 서비스 중단 없이 다른 서버로 이동
 - [컨테이너 (Container)](/knowledge/os/container/) - 단일 커널 위에서 애플리케이션들을 격리하여 가상화와 유사한 효과를 제공하는 OS 수준 격리 기술
 - [JVM (Java Virtual Machine)](/knowledge/os/jvm/) - Java 바이트코드를 실행하는 프로그래밍 환경 가상화의 대표적 사례
-- [라이브 마이그레이션 (Live Migration)](/knowledge/os/live-migration/) - 실행 중인 게스트 VM을 서비스 중단 없이 다른 서버로 이동
-- [준가상화 (Paravirtualization)](/knowledge/os/paravirtualization/) - 게스트 OS를 수정하여 VMM과 협력하는 효율적 가상화 기법
-- [트랩 앤 에뮬레이트 (Trap-and-Emulate)](/knowledge/os/trap-and-emulate/) - 특권 명령어 트랩으로 VMM이 에뮬레이션하는 가상화 기법
-- [하이퍼바이저 유형 (Type 0/1/2)](/knowledge/os/hypervisor-types/) - 펌웨어/Bare-metal/Hosted 하이퍼바이저 분류
-- [VMM 메모리 관리](/knowledge/os/vmm-memory-management/) - Balloon, Page Sharing, Double Paging 기법으로 게스트 메모리 관리
-- [VMM CPU 스케줄링](/knowledge/os/vmm-cpu-scheduling/) - VCPU 할당과 오버커밋, 시간 왜곡 문제
+- [분산 시스템 (Distributed System)](/knowledge/os/distributed-system/) - 메모리를 공유하지 않는 프로세서들이 네트워크를 통해 통신하는 시스템
 
 ## 분산 시스템
 

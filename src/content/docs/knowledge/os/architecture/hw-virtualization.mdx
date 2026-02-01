@@ -4,11 +4,15 @@ description: "CPU가 가상화를 위한 전용 모드와 명령어를 제공하
 tags: ["OS", "Virtualization", "Hardware"]
 created: 2026-01-27
 updated: 2026-01-27
-draft: true
+draft: false
 slug: knowledge/os/hw-virtualization
 sidebar:
-  order: 4
+  order: 6
 ---
+
+import LayerStack from '../../../../../components/LayerStack.astro';
+import StepFlow from '../../../../../components/StepFlow.astro';
+import ArchitectureStack from '../../../../../components/ArchitectureStack.astro';
 
 ## 핵심 개념
 
@@ -22,32 +26,25 @@ sidebar:
 
 기존의 **커널 모드 / 사용자 모드** 이분법을 확장하여 **Root 모드 / Non-root 모드**를 추가했다.
 
-```
-┌─────────────────────────────────────────────────┐
-│              Non-root mode (Guest)              │
-│  ┌───────────────┐  ┌───────────────┐           │
-│  │  게스트 앱     │  │  게스트 앱     │           │
-│  │  (User mode)  │  │  (User mode)  │           │
-│  └───────┬───────┘  └───────┬───────┘           │
-│          ▼                  ▼                    │
-│  ┌─────────────────────────────────┐            │
-│  │       게스트 OS (Kernel mode)    │            │
-│  └──────────────┬──────────────────┘            │
-│                 │ 특권 명령 실행 시               │
-│                 ▼                                │
-│            [VM Exit]                             │
-├─────────────────┼───────────────────────────────┤
-│                 ▼                                │
-│  ┌─────────────────────────────────┐            │
-│  │     VMM / 하이퍼바이저           │            │
-│  │     (Root mode)                 │            │
-│  └──────────────┬──────────────────┘            │
-│                 │ 처리 완료 후                    │
-│                 ▼                                │
-│            [VM Entry]                            │
-│              Root mode (Host)                    │
-└─────────────────────────────────────────────────┘
-```
+<ArchitectureStack
+  title="하드웨어 가상화 모드 구조"
+  topItems={[
+    { label: "게스트 앱", description: "User mode" },
+    { label: "게스트 앱", description: "User mode" }
+  ]}
+  baseLayer={{ label: "게스트 OS", description: "Kernel mode (Non-root)", highlight: true }}
+/>
+
+<StepFlow
+  title="VM Exit / VM Entry 흐름"
+  steps={[
+    { label: "게스트 OS 실행", description: "Non-root mode" },
+    { label: "특권 명령 실행", description: "VM Exit 발생" },
+    { label: "VMM 처리", description: "Root mode" },
+    { label: "VM Entry", description: "게스트로 복귀" }
+  ]}
+  cycle={true}
+/>
 
 - **Root mode (Host)**: VMM(Virtual Machine Monitor)이 실행되는 모드. 모든 하드웨어 자원에 완전한 접근 가능.
 - **Non-root mode (Guest)**: 게스트 OS가 실행되는 모드. 게스트가 가상화된 자원에 접근하면 **자동으로** VMM으로 제어가 전달된다(VM Exit).
@@ -74,15 +71,14 @@ sidebar:
 
 가상 머신에서는 주소 변환이 **두 단계**로 이루어진다.
 
-```
-Guest Virtual Address (GVA)
-        │
-        ▼  게스트 페이지 테이블
-Guest Physical Address (GPA)
-        │
-        ▼  EPT / RVI (하드웨어가 자동 처리)
-Host Physical Address (HPA)
-```
+<StepFlow
+  title="EPT/RVI 주소 변환 과정"
+  steps={[
+    { label: "GVA", description: "Guest Virtual Address" },
+    { label: "GPA", description: "Guest Physical Address" },
+    { label: "HPA", description: "Host Physical Address" }
+  ]}
+/>
 
 EPT/RVI가 없으면 VMM이 **Shadow Page Table**을 소프트웨어로 관리해야 한다. EPT/RVI를 사용하면 CPU의 TLB가 양쪽 변환을 하드웨어로 처리하여 오버헤드가 크게 감소한다.
 
@@ -90,11 +86,14 @@ EPT/RVI가 없으면 VMM이 **Shadow Page Table**을 소프트웨어로 관리�
 
 I/O 디바이스가 DMA로 메모리에 직접 접근할 때도 가상화가 필요하다.
 
-```
-1. Protection Domain 설정 → 디바이스별 접근 가능 메모리 영역 지정
-2. I/O 디바이스 할당 → 특정 VM에 디바이스 전용 할당
-3. DMA 주소 자동 변환 → IOMMU가 게스트 물리 주소를 호스트 물리 주소로 변환
-```
+<StepFlow
+  title="VT-d / IOMMU 동작"
+  steps={[
+    { label: "Protection Domain 설정", description: "디바이스별 접근 가능 메모리 영역 지정" },
+    { label: "I/O 디바이스 할당", description: "특정 VM에 디바이스 전용 할당" },
+    { label: "DMA 주소 자동 변환", description: "IOMMU가 GPA → HPA 변환" }
+  ]}
+/>
 
 이를 통해 디바이스를 VM에 직접 할당(passthrough)하여 **거의 네이티브 수준의 I/O 성능**을 달성할 수 있다.
 
@@ -106,12 +105,15 @@ I/O 디바이스가 DMA로 메모리에 직접 접근할 때도 가상화가 필
 
 ARM 아키텍처는 **Exception Level 2 (EL2)**를 하이퍼바이저 전용으로 제공한다.
 
-```
-EL0: 사용자 애플리케이션
-EL1: 게스트 OS 커널
-EL2: 하이퍼바이저 (전용)
-EL3: Secure Monitor
-```
+<LayerStack
+  title="ARM Exception Levels"
+  layers={[
+    { label: "EL0", description: "사용자 애플리케이션" },
+    { label: "EL1", description: "게스트 OS 커널" },
+    { label: "EL2", description: "하이퍼바이저", highlight: true },
+    { label: "EL3", description: "Secure Monitor" }
+  ]}
+/>
 
 게스트 OS가 하이퍼바이저의 서비스를 요청할 때 **HVC (Hypervisor Call)** 명령어를 사용한다.
 
@@ -159,8 +161,3 @@ qemu-system-x86_64 -enable-kvm \
   -device vfio-pci,host=01:00.0 \
   -m 8G disk.img
 ```
-
-## 관련 개념
-
-- [가상화 (Virtualization)](/knowledge/os/virtualization/)
-- [보호 링 (Protection Ring)](/knowledge/os/protection-ring/)

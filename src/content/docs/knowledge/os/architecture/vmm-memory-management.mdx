@@ -4,11 +4,14 @@ description: "물리 메모리를 여러 게스트에 효율적으로 분배하�
 tags: ["OS", "Virtualization", "Memory"]
 created: 2026-01-28
 updated: 2026-01-28
-draft: true
+draft: false
 slug: knowledge/os/vmm-memory-management
 sidebar:
-  order: 12
+  order: 9
 ---
+
+import NestedDiagram from '../../../../../components/NestedDiagram.astro';
+import LayerStack from '../../../../../components/LayerStack.astro';
 
 ## 핵심 개념
 
@@ -24,9 +27,15 @@ VMM 메모리 관리는 물리 메모리를 여러 게스트에 효율적으로 
 
 VMM이 자체 페이지 교체 알고리즘으로 게스트 페이지를 VMM의 backing store로 내보낸다.
 
-```
-Guest → Guest PT → VMM NPT → 물리 메모리 또는 VMM Swap
-```
+<LayerStack
+  title="Double Paging 주소 변환 경로"
+  layers={[
+    { label: "Guest", description: "가상 주소" },
+    { label: "Guest PT", description: "게스트 페이지 테이블" },
+    { label: "VMM NPT", description: "중첩 페이지 테이블", highlight: true },
+    { label: "물리 메모리 / VMM Swap", highlight: true }
+  ]}
+/>
 
 **문제**: VMM은 게스트의 메모리 접근 패턴을 모르기 때문에 비효율적이다. 다른 방법이 부족할 때만 사용하는 **최후 수단**이다.
 
@@ -34,12 +43,12 @@ Guest → Guest PT → VMM NPT → 물리 메모리 또는 VMM Swap
 
 VMM이 게스트에 **pseudo-device driver**를 설치하고, 이 드라이버가 게스트 내에서 메모리를 할당 후 pin(고정)한다. 게스트는 가용 메모리 감소를 인식하여 자체 페이징을 수행하고, VMM은 pinned 페이지를 다른 게스트에 할당한다.
 
-```
+**동작 과정:**
+
 1. VMM → Balloon Driver: "1GB 할당해"
 2. Balloon Driver: 게스트에서 1GB 할당 + pin
 3. 게스트 OS: "메모리 부족!" → 자체 LRU 페이징
 4. VMM: pinned 1GB를 다른 게스트에 할당
-```
 
 게스트 OS의 메모리 관리 알고리즘을 활용하므로 **가장 효율적**이다.
 
@@ -53,15 +62,26 @@ VMM이 게스트에 **pseudo-device driver**를 설치하고, 이 드라이버�
 4. 매칭되면 바이트 단위 비교
 5. 동일하면 하나만 남기고 매핑
 
-```
-Guest 1: [OS Page A] [App Page X]
-Guest 2: [OS Page A] [App Page Y]
-Guest 3: [OS Page A] [App Page Z]
+<NestedDiagram
+  title="Page Sharing 전 (중복 존재)"
+  items={[
+    { label: "Guest 1", children: [{ label: "OS Page A" }, { label: "App Page X" }] },
+    { label: "Guest 2", children: [{ label: "OS Page A" }, { label: "App Page Y" }] },
+    { label: "Guest 3", children: [{ label: "OS Page A" }, { label: "App Page Z" }] }
+  ]}
+/>
 
-→ 공유 후:
-Physical: [OS Page A] [Page X] [Page Y] [Page Z]
-          (3개 → 1개로 줄어듦)
-```
+<NestedDiagram
+  title="Page Sharing 후 (OS Page A 공유)"
+  items={[
+    { label: "Physical Memory", highlight: true, children: [
+      { label: "OS Page A", highlight: true },
+      { label: "Page X" },
+      { label: "Page Y" },
+      { label: "Page Z" }
+    ]}
+  ]}
+/>
 
 같은 OS를 실행하는 여러 게스트에서 특히 효과적이다.
 
@@ -88,10 +108,3 @@ VMM이 각 게스트의 **목표 메모리**를 계산하여 balloon을 inflate/
 
 - **장점**: 유연한 자원 할당 (오버커밋 가능), 게스트 투명하게 동작, 물리 메모리 효율적 활용
 - **단점**: Double Paging의 비효율성, Balloon은 드라이버 필요, Page Sharing의 CPU 오버헤드
-
-## 관련 개념
-
-- [가상화 (Virtualization)](/knowledge/os/virtualization/) - 가상화의 전반적 개념
-- [하이퍼바이저 유형 (Type 0/1/2)](/knowledge/os/hypervisor-types/) - 하이퍼바이저 분류
-- [VMM CPU 스케줄링](/knowledge/os/vmm-cpu-scheduling/) - VMM의 CPU 자원 관리
-- [라이브 마이그레이션 (Live Migration)](/knowledge/os/live-migration/) - VM 이동 시 메모리 관리와 연계
