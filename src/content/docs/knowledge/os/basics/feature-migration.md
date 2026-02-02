@@ -4,9 +4,10 @@ description: "운영체제 기능이 대형 컴퓨터에서 소형 컴퓨터로 
 tags: ["OS", "History"]
 created: 2026-01-23
 updated: 2026-01-27
+draft: false
 slug: knowledge/os/feature-migration
 sidebar:
-  order: 13
+  order: 11
 ---
 
 ## 핵심 개념

@@ -14,7 +14,6 @@ sidebar:
 
 - [폰 노이만 아키텍처 (Von Neumann Architecture)](/knowledge/os/von-neumann-architecture/) - 메모리에서 명령어를 가져와 실행하는 명령어 실행 사이클
 - [운영체제 (Operating System)](/knowledge/os/operating-system/) - 하드웨어 관리와 응용 프로그램 실행 기반 제공
-- [기능 이동 (Feature Migration)](/knowledge/os/feature-migration/) - OS 기능이 대형에서 소형 컴퓨터로 점진적 이동
 - [커널 (Kernel)](/knowledge/os/kernel/) - 컴퓨터에서 항상 실행되는 OS의 핵심 프로그램
 - [부트스트랩 프로그램 (Bootstrap Program)](/knowledge/os/bootstrap-program/) - 컴퓨터 전원이 켜질 때 운영체제를 로드하는 초기 프로그램
 - [시스템 부팅 (System Boot)](/knowledge/os/system-boot/) - 커널을 로드하여 컴퓨터를 시작하는 과정
@@ -23,6 +22,7 @@ sidebar:
 - [트랩 (Trap)](/knowledge/os/trap/) - 오류 또는 시스템 콜에 의해 발생하는 소프트웨어 생성 인터럽트
 - [시스템 콜 (System Call)](/knowledge/os/system-call/) - 프로세스가 운영체제에게 동작을 요청하는 방법
 - [시스템 콜 유형 (System Call Types)](/knowledge/os/system-call-types/) - 프로세스 제어, 파일, 장치, 정보, 통신, 보호 6가지 분류
+- [기능 이동 (Feature Migration)](/knowledge/os/feature-migration/) - OS 기능이 대형에서 소형 컴퓨터로 점진적 이동
 - [이중 모드 연산 (Dual-Mode Operation)](/knowledge/os/dual-mode-operation/) - 운영체제와 사용자 코드 실행을 구분하는 하드웨어 메커니즘
 - [특권 명령어 (Privileged Instructions)](/knowledge/os/privileged-instructions/) - 커널 모드에서만 실행 가능한 명령어
 - [타이머 (Timer)](/knowledge/os/timer/) - 운영체제가 CPU 제어를 유지하도록 보장하는 장치
