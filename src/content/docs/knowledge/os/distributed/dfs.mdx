@@ -1,0 +1,84 @@
+---
+title: "분산 파일 시스템 (DFS)"
+description: "클라이언트, 서버, 스토리지가 여러 머신에 분산되어 있으면서 단일 파일 시스템처럼 보이는 시스템"
+tags: ["OS", "DistributedSystem", "DFS"]
+created: 2026-01-23
+updated: 2026-01-27
+draft: false
+slug: knowledge/os/dfs
+sidebar:
+  order: 5
+---
+
+import NestedDiagram from '../../../../../components/NestedDiagram.astro';
+import StepFlow from '../../../../../components/StepFlow.astro';
+
+## 핵심 개념
+
+분산 파일 시스템(DFS)은 클라이언트, 서버, 스토리지 장치가 분산 시스템의 여러 머신에 분산되어 있으면서 사용자에게는 단일 파일 시스템처럼 보이는 파일 서비스 시스템이다. 중앙집중식 파일 서버의 단일 장애점과 병목 문제를 해결한다.
+
+## 동작 원리
+
+### 기본 용어
+
+| 용어 | 설명 |
+|------|------|
+| **Service** | 특정 기능을 클라이언트에 제공하는 소프트웨어 엔티티 |
+| **Server** | 단일 머신에서 실행되는 서비스 소프트웨어 |
+| **Client** | 클라이언트 인터페이스를 통해 서비스를 호출하는 프로세스 |
+
+### 두 가지 아키텍처 모델
+
+<NestedDiagram
+  title="DFS 아키텍처"
+  items={[
+    {
+      label: "클라이언트-서버 모델",
+      children: [
+        { label: "NFS" },
+        { label: "OpenAFS" }
+      ]
+    },
+    {
+      label: "클러스터 기반 모델",
+      highlight: true,
+      children: [
+        { label: "GFS", highlight: true },
+        { label: "HDFS", highlight: true }
+      ]
+    }
+  ]}
+/>
+
+1. **클라이언트-서버 모델**: 투명한 파일 공유 (NFS, OpenAFS)
+2. **클러스터 기반 모델**: 대규모 병렬 데이터 처리 (GFS, HDFS)
+
+### 이름 지정 체계
+
+| 체계 | 예시 | 설명 |
+|------|------|------|
+| host:path | ibis:/home/file | 위치 노출, 비투명 |
+| NFS 마운트 | /mnt/nfs/path | 머신별 마운트 포인트 다를 수 있음 |
+| 전역 네임스페이스 | /afs/org/path | OpenAFS, 모든 클라이언트 동일 |
+
+### 성능 측정
+
+서비스 요청 처리 시간 = 스토리지 접근 시간 + CPU 처리 시간 + **네트워크 오버헤드**. 이상적인 DFS는 로컬 파일 시스템과 유사한 성능을 목표로 한다.
+
+## 예시
+
+분산 도서관 네트워크와 유사하다. 어느 지점에서든 같은 카탈로그로 책을 검색하고 대출할 수 있으며, 실제 책은 여러 지점에 분산되어 있지만 사용자는 인식하지 못한다.
+
+```
+사용자: /shared/project/report.txt 열기
+```
+
+<StepFlow
+  title="DFS 내부 처리"
+  steps={[
+    { label: "이름 해석", description: "report.txt가 어느 서버에 있는지 확인" },
+    { label: "인증/권한", description: "사용자 접근 권한 확인" },
+    { label: "데이터 전송", description: "파일 내용을 클라이언트로 전달" },
+    { label: "캐싱", description: "성능을 위해 로컬 캐시에 저장" }
+  ]}
+/>

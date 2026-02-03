@@ -10,15 +10,17 @@ sidebar:
   order: 6
 ---
 
+import StepFlow from '../../../../../components/StepFlow.astro';
+
 ## 핵심 개념
 
-클라이언트-서버 DFS 모델은 서버가 파일과 메타데이터를 저장하고, 클라이언트가 네트워크를 통해 투명하게 파일에 접근하는 분산 파일 시스템 아키텍처입니다. 대표적으로 NFS와 OpenAFS가 있습니다.
+클라이언트-서버 DFS 모델은 서버가 파일과 메타데이터를 저장하고, 클라이언트가 네트워크를 통해 투명하게 파일에 접근하는 분산 파일 시스템 아키텍처이다. 대표적으로 NFS와 OpenAFS가 있다.
 
 ## 동작 원리
 
 ### NFS (Network File System)
 
-Sun Microsystems에서 개발한 오픈 프로토콜입니다.
+Sun Microsystems에서 개발한 오픈 프로토콜이다.
 
 - **설계 목표**: 서버 장애 시 빠른 복구
 - **무상태(Stateless) 서버**: 어떤 클라이언트가 어떤 파일을 접근 중인지 추적하지 않음
@@ -28,7 +30,7 @@ Sun Microsystems에서 개발한 오픈 프로토콜입니다.
 
 ### OpenAFS (Andrew File System)
 
-Carnegie Mellon University에서 개발했습니다.
+Carnegie Mellon University에서 개발했다.
 
 - **설계 목표**: 확장성 (서버가 최대한 많은 클라이언트 지원)
 - **파일 단위 캐싱**: 요청 시 전체 파일을 클라이언트 로컬 스토리지에 다운로드
@@ -51,23 +53,24 @@ Carnegie Mellon University에서 개발했습니다.
 - NFS = 도서관에서 책 한 페이지씩 복사해 옴 (자주 왔다 갔다)
 - OpenAFS = 책 전체를 집으로 대출해 와서 다 읽고 반납 (왕복 최소화)
 
-```
-NFS 시나리오:
-1. open("/mnt/nfs/doc.txt")
-2. read() → 서버에 블록 요청
-3. 서버: 블록 반환
-4. write() → 서버에 쓰기 요청
-5. ... (반복)
+<StepFlow
+  title="NFS 시나리오"
+  steps={[
+    { label: "open()", description: "/mnt/nfs/doc.txt" },
+    { label: "read()", description: "서버에 블록 요청" },
+    { label: "서버 응답", description: "블록 반환" },
+    { label: "write()", description: "서버에 쓰기 요청" },
+    { label: "...", description: "반복" }
+  ]}
+  cycle={true}
+/>
 
-OpenAFS 시나리오:
-1. open("/afs/org/doc.txt")
-2. 서버: 전체 파일을 클라이언트 로컬 캐시로 전송
-3. 로컬에서 읽기/쓰기 (서버 접촉 없음)
-4. close() → 변경사항 서버에 업로드
-```
-
-## 관련 개념
-
-- [[분산 파일 시스템 (DFS)]]
-- [[DFS 캐싱과 일관성]]
-- [[분산 시스템의 투명성 (Transparency)]]
+<StepFlow
+  title="OpenAFS 시나리오"
+  steps={[
+    { label: "open()", description: "/afs/org/doc.txt" },
+    { label: "파일 전송", description: "전체 파일 → 로컬 캐시" },
+    { label: "로컬 작업", description: "읽기/쓰기 (서버 접촉 없음)" },
+    { label: "close()", description: "변경사항 서버에 업로드" }
+  ]}
+/>

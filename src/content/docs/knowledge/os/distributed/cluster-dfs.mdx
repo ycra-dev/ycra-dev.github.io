@@ -1,0 +1,77 @@
+---
+title: "클러스터 기반 DFS (GFS, HDFS)"
+description: "파일을 여러 청크로 분할하여 다수의 데이터 서버에 복제 저장하는 대규모 분산 파일 시스템"
+tags: ["OS", "DistributedSystem", "DFS", "GFS", "HDFS"]
+created: 2026-01-23
+updated: 2026-01-27
+draft: false
+slug: knowledge/os/cluster-dfs
+sidebar:
+  order: 7
+---
+
+import StepFlow from '../../../../../components/StepFlow.astro';
+
+## 핵심 개념
+
+클러스터 기반 DFS는 파일을 여러 청크로 분할하여 다수의 데이터 서버에 복제 저장하고, 메타데이터 서버가 위치를 관리하는 대규모 분산 파일 시스템이다. 하드웨어 장애는 예외가 아닌 일상이라는 전제 하에 설계되었다.
+
+## 동작 원리
+
+### 아키텍처 구성
+
+| 컴포넌트 | 역할 |
+|----------|------|
+| **Metadata Server** | 디렉토리 구조, 파일-청크 매핑, 청크 위치 정보 관리 |
+| **Data Server** | 파일 청크 저장 및 클라이언트에 데이터 제공 |
+| **Client** | 메타데이터 서버에서 위치 정보 얻고, 데이터 서버에서 직접 읽기/쓰기 |
+
+### 핵심 설계 원칙
+
+1. **파일 청킹(Chunking)**: 파일을 고정 크기 청크(64MB~128MB)로 분할
+2. **복제(Replication)**: 각 청크를 여러 데이터 서버에 복제 (기본 3개)
+3. **메타데이터 분리**: 메타데이터만 별도 서버에서 관리
+
+### GFS vs HDFS
+
+| 특성 | GFS | HDFS |
+|------|-----|------|
+| 개발 | Google | Apache (오픈소스) |
+| 랜덤 쓰기 | 지원 (복잡) | 미지원 (append만) |
+| 동시 쓰기 | 지원 | 단일 writer |
+| 일관성 | 복잡한 보장 | 단순 (append only) |
+| 스택 | MapReduce | Hadoop Framework |
+
+### MapReduce와의 연계
+
+GFS/HDFS 위에서 대규모 병렬 처리를 수행합니다. 데이터가 있는 곳으로 계산을 이동하는 계산 마이그레이션 방식이다.
+
+## 예시
+
+책을 여러 챕터로 나눠서 여러 창고에 복사본을 보관하는 것과 유사하다. 목차(메타데이터 서버)에서 어느 창고에 있는지 확인하고, 가장 가까운 창고에서 필요한 챕터를 가져온다.
+
+### 저장 과정
+
+```
+파일: 300MB video.mp4, 청크 크기: 64MB
+```
+
+<StepFlow
+  title="파일 저장 흐름"
+  steps={[
+    { label: "파일 분할", description: "video.mp4 → 5개 청크로 분할" },
+    { label: "청크 복제", description: "각 청크를 3개 데이터 서버에 복제" },
+    { label: "메타데이터 저장", description: "매핑 정보를 메타데이터 서버에 저장" }
+  ]}
+/>
+
+### 읽기 과정
+
+<StepFlow
+  title="파일 읽기 흐름"
+  steps={[
+    { label: "위치 요청", description: "클라이언트 → 메타데이터 서버" },
+    { label: "위치 응답", description: "청크 위치 목록 반환" },
+    { label: "병렬 읽기", description: "각 데이터 서버에서 청크 병렬 읽기" }
+  ]}
+/>

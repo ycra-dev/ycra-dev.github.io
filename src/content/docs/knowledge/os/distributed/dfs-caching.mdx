@@ -10,20 +10,39 @@ sidebar:
   order: 8
 ---
 
+import NestedDiagram from '../../../../../components/NestedDiagram.astro';
+import StepFlow from '../../../../../components/StepFlow.astro';
+
 ## 핵심 개념
 
-DFS 캐싱은 네트워크 트래픽과 디스크 I/O를 줄이기 위해 클라이언트에 데이터를 캐싱하고, 캐시된 복사본과 서버의 마스터 복사본 간 일관성을 유지하는 메커니즘입니다. DFS 캐싱은 네트워크 가상 메모리에 비유할 수 있습니다 (백킹 스토어가 원격 서버).
+DFS 캐싱은 네트워크 트래픽과 디스크 I/O를 줄이기 위해 클라이언트에 데이터를 캐싱하고, 캐시된 복사본과 서버의 마스터 복사본 간 일관성을 유지하는 메커니즘이다.
 
 ## 동작 원리
 
 ### 캐시 위치
 
-| 위치 | 장점 | 단점 |
-|------|------|------|
-| **디스크 캐시** | 신뢰성 (재부팅 후에도 유지) | 느린 접근 속도 |
-| **메모리 캐시** | 빠른 접근, 디스크리스 지원 | 휘발성 (크래시 시 손실) |
+<NestedDiagram
+  title="캐시 위치 비교"
+  items={[
+    {
+      label: "디스크 캐시",
+      children: [
+        { label: "신뢰성 ✓" },
+        { label: "느린 접근" }
+      ]
+    },
+    {
+      label: "메모리 캐시",
+      highlight: true,
+      children: [
+        { label: "빠른 접근", highlight: true },
+        { label: "휘발성" }
+      ]
+    }
+  ]}
+/>
 
-현대 구현은 주로 메모리 캐시를 사용합니다.
+현대 구현은 주로 메모리 캐시를 사용한다.
 
 ### 캐싱 단위
 
@@ -40,7 +59,7 @@ DFS 캐싱은 네트워크 트래픽과 디스크 I/O를 줄이기 위해 클라
 | **주기적 Flush** | 정기적으로 변경 블록 전송 | 균형잡힌 접근 | 지연 존재 |
 | **Write-on-Close** | 파일 닫을 때 전송 (OpenAFS) | 서버 트래픽 최소화 | 닫기 지연 |
 
-NFS는 데이터에 주기적 flush, **메타데이터는 동기적 write** (구조 손상 방지)를 사용합니다.
+NFS는 데이터에 주기적 flush, **메타데이터는 동기적 write** (구조 손상 방지)를 사용한다.
 
 ### 캐시 일관성 (Cache Consistency)
 
@@ -49,14 +68,15 @@ NFS는 데이터에 주기적 flush, **메타데이터는 동기적 write** (구
 1. **클라이언트 주도 (Client-Initiated)**: 클라이언트가 서버에 유효성 검사 요청. 빈번한 검사 → 부하 증가
 2. **서버 주도 (Server-Initiated)**: 서버가 충돌 감지 시 클라이언트에 **콜백** 알림 전송 (OpenAFS). 충돌 시 캐싱 비활성화
 
-```
-[서버 주도 일관성 관리]
-Server: Client A가 파일 F를 읽기 모드로 캐시 중
-        Client B가 쓰기 모드로 열려고 함 → 충돌 감지
-
-Option 1: Client A에 캐시 무효화 콜백 전송
-Option 2: 파일 F에 대해 캐싱 비활성화
-```
+<StepFlow
+  title="서버 주도 일관성 관리"
+  steps={[
+    { label: "Client A", description: "파일 F를 읽기 모드로 캐시" },
+    { label: "Client B", description: "쓰기 모드로 열기 요청" },
+    { label: "충돌 감지", description: "서버가 동시 접근 감지" },
+    { label: "해결", description: "콜백 전송 or 캐싱 비활성화" }
+  ]}
+/>
 
 ### 클러스터 기반 DFS의 일관성
 
@@ -68,19 +88,14 @@ Option 2: 파일 F에 대해 캐싱 비활성화
 - Write-Through = 공유 문서에 글 쓸 때마다 바로 저장
 - Write-on-Close = 문서 작업 완료 후 닫을 때 저장
 
-```
-Write-on-Close 시나리오:
-Client A: open(file.txt)      → 캐시에 복사
-Client A: write("Hello")      → 로컬 캐시에만 쓰기
-Client A: write(" World")     → 로컬 캐시에만 쓰기
-Client A: close()             → 이 시점에 서버로 전송
+<StepFlow
+  title="Write-on-Close 시나리오"
+  steps={[
+    { label: "open()", description: "파일을 캐시에 복사" },
+    { label: "write()", description: "로컬 캐시에만 쓰기" },
+    { label: "write()", description: "로컬 캐시에만 쓰기" },
+    { label: "close()", description: "이 시점에 서버로 전송" }
+  ]}
+/>
 
--- 그 사이 Client B가 같은 파일을 열었다면? --
-→ 일관성 문제 발생 가능
-```
-
-## 관련 개념
-
-- [[클라이언트-서버 DFS (NFS, OpenAFS)]]
-- [[클러스터 기반 DFS (GFS, HDFS)]]
-- [[캐시 일관성 (Cache Coherency)]]
+Write-on-Close 사용 시, 같은 파일을 여러 클라이언트가 동시에 열면 일관성 문제가 발생할 수 있다.
