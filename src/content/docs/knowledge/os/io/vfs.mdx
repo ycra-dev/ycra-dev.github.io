@@ -10,6 +10,11 @@ sidebar:
   order: 12
 ---
 
+import LayerStack from '../../../../../components/LayerStack.astro';
+import ArchitectureStack from '../../../../../components/ArchitectureStack.astro';
+import NestedDiagram from '../../../../../components/NestedDiagram.astro';
+import StepFlow from '../../../../../components/StepFlow.astro';
+
 ## 핵심 개념
 
 VFS(Virtual File System)는 ext4, NFS, FAT32, /proc 등 **다양한 파일 시스템을 단일 인터페이스로 추상화**하는 계층이다. 애플리케이션은 파일 시스템 종류와 무관하게 동일한 `open()`, `read()`, `write()` 시스템 콜을 사용할 수 있다.
@@ -45,39 +50,53 @@ struct file_operations {
 
 ### 객체 간 관계
 
-```
-superblock (ext4 파일 시스템)
-    │
-    ├── inode (파일 A) ←── file (프로세스 1이 열음)
-    │                  ←── file (프로세스 2도 열음)
-    │
-    └── inode (파일 B) ←── file (프로세스 3이 열음)
-
-dentry 캐시: /usr/include/stdio.h
-    "/" → "usr" → "include" → "stdio.h" (각각 dentry 객체)
-```
+<NestedDiagram
+  title="superblock — inode — file 관계"
+  items={[
+    {
+      label: "superblock (ext4)",
+      highlight: true,
+      children: [
+        { label: "inode A" },
+        { label: "inode B" },
+      ],
+    },
+    {
+      label: "열린 파일 (file)",
+      children: [
+        { label: "P1 → A", highlight: true },
+        { label: "P2 → A", highlight: true },
+        { label: "P3 → B", highlight: true },
+      ],
+    },
+  ]}
+/>
 
 - **inode**: 파일 자체 (하나만 존재) — 소유자, 크기, 수정 시간, 데이터 블록 위치
 - **file**: 열린 파일 인스턴스 (여러 개 가능) — 현재 읽기/쓰기 위치, 열기 모드, 프로세스별 상태
+- **dentry 캐시**: 경로의 각 구성요소(`/` → `usr` → `include` → `stdio.h`)를 캐싱하여 경로 탐색 속도를 높인다.
 
 ### 전체 구조
 
-```
-┌─────────────────────────────────────────────┐
-│              사용자 애플리케이션              │
-│         open(), read(), write(), ...        │
-├─────────────────────────────────────────────┤
-│                    VFS                       │
-│  ┌─────────┬─────────┬─────────┬─────────┐  │
-│  │ inode   │  file   │superblk │ dentry  │  │
-│  └────┬────┴────┬────┴────┬────┴────┬────┘  │
-├───────┼─────────┼─────────┼─────────┼───────┤
-│       ↓         ↓         ↓         ↓       │
-│  ┌─────────────────────────────────────┐    │
-│  │    ext4    │   NFS   │   /proc     │    │
-│  └─────────────────────────────────────┘    │
-└─────────────────────────────────────────────┘
-```
+<LayerStack
+  title="VFS 계층 구조"
+  layers={[
+    { label: "사용자 애플리케이션", description: "open() · read() · write()" },
+    { label: "VFS", description: "inode · file · superblock · dentry", highlight: true },
+  ]}
+/>
+
+<div style="max-width: 480px; margin: 0 auto;">
+  <ArchitectureStack
+    title="VFS 아래의 파일 시스템 구현체"
+    topItems={[
+      { label: "ext4" },
+      { label: "NFS" },
+      { label: "/proc" },
+    ]}
+    baseLayer={{ label: "VFS 인터페이스", description: "함수 테이블 포인터로 연결", highlight: true }}
+  />
+</div>
 
 ## 예시
 
@@ -85,17 +104,16 @@ VFS는 유니버설 어댑터에 비유할 수 있다. 한국 플러그(ext4), �
 
 `open("/home/user/file.txt")` 호출 시:
 
-1. VFS가 dentry 캐시에서 경로 탐색 (캐시 미스 시 실제 디렉터리 읽기)
-2. 해당 inode 반환 → file 객체 생성
-3. `read()` 호출 → VFS가 `file->f_op->read()` 호출 → ext4의 read 구현 실행
+<StepFlow
+  title="open() 호출 흐름"
+  steps={[
+    { label: "경로 탐색", description: "VFS가 dentry 캐시에서 경로 탐색 (캐시 미스 시 실제 디렉터리 읽기)" },
+    { label: "객체 생성", description: "해당 inode 반환 → file 객체 생성" },
+    { label: "실제 읽기", description: "read() 호출 → VFS가 file→f_op→read() → ext4의 read 구현 실행" },
+  ]}
+/>
 
 ### 장단점
 
 - **장점**: 파일 시스템 종류와 무관하게 동일한 API 사용 가능, 새로운 파일 시스템 추가가 용이 (함수 테이블만 구현), dentry 캐시로 경로 탐색 성능 향상
 - **단점**: 추상화 계층으로 인한 약간의 오버헤드, 특수 파일 시스템의 고유 기능을 VFS로 노출하기 어려울 수 있음
-
-## 관련 개념
-
-- [UNIX 아이노드 (Inode)](/knowledge/os/unix-inode/) - VFS가 추상화하는 핵심 객체
-- [UNIX 파일 디스크립터 (File Descriptor)](/knowledge/os/unix-file-descriptor/) - 열린 파일을 참조하는 정수 핸들
-- [저널링 파일 시스템 (Journaling)](/knowledge/os/journaling/) - VFS 아래 구체적 파일 시스템 구현

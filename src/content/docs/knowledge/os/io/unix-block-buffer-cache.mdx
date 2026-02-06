@@ -1,0 +1,70 @@
+---
+title: "UNIX 블록 버퍼 캐시 (Block Buffer Cache)"
+description: "디스크 블록을 메인 메모리에 캐싱하여 디스크 I/O 횟수를 줄이는 커널 메커니즘"
+tags: ["OS", "IO", "Cache", "Buffer"]
+created: 2026-01-23
+updated: 2026-01-27
+draft: false
+slug: knowledge/os/unix-block-buffer-cache
+sidebar:
+  order: 11
+---
+
+import NestedDiagram from '../../../../../components/NestedDiagram.astro';
+import StepFlow from '../../../../../components/StepFlow.astro';
+
+## 핵심 개념
+
+블록 버퍼 캐시(Block Buffer Cache)는 디스크 블록을 메인 메모리에 캐싱하여 디스크 I/O 횟수를 줄이는 커널 메커니즘이다. 디스크 접근은 메모리보다 수천~수만 배 느리므로, 최근 접근한 블록을 메모리에 유지하면 재접근 시 빠르게 서비스할 수 있다(시간적 지역성 활용).
+
+## 동작 원리
+
+### 버퍼 헤더 구조
+
+각 버퍼 헤더는 장치 번호, 블록 번호, 메모리 포인터, 상태 플래그를 가진다.
+
+### 캐시 내부 구조
+
+<NestedDiagram
+  title="블록 버퍼 캐시 구조"
+  items={[
+    { label: "해시 테이블", highlight: true, children: [
+      { label: "장치+블록 번호" },
+      { label: "빠른 검색" },
+    ]},
+    { label: "Free Lists", children: [
+      { label: "LRU 리스트", highlight: true },
+      { label: "AGE 리스트" },
+      { label: "EMPTY 리스트" },
+    ]},
+  ]}
+/>
+
+- **LRU 리스트**: 최근 사용된 버퍼 (LRU 순서)
+- **AGE 리스트**: 최근 사용 안 된 버퍼 또는 유효하지 않은 내용
+- **EMPTY 리스트**: 물리 메모리가 연결되지 않은 헤더
+
+### 동작 흐름
+
+- **Read**: 캐시 히트 시 즉시 반환, 미스 시 디스크에서 로드
+- **Write**: 캐시에 쓰고 dirty 표시, 나중에 디스크로 flush (write-back)
+- **`sync()`**: 30초마다 dirty 버퍼를 디스크에 기록
+
+## 예시
+
+블록 버퍼 캐시는 "책상 위 자료"와 같다. 자주 보는 문서는 책상(메모리)에 두고, 덜 보는 건 서랍(디스크)에 보관한다.
+
+### read() 캐시 미스 흐름
+
+<StepFlow
+  steps={[
+    { label: "해시 테이블 검색", description: "장치+블록 번호로 검색 (히트 시 버퍼에서 즉시 복사)" },
+    { label: "버퍼 할당", description: "캐시 미스 → AGE/LRU 리스트에서 빈 버퍼 할당" },
+    { label: "디스크 로드", description: "디스크에서 블록을 버퍼로 읽어옴 (느림)" },
+    { label: "데이터 복사", description: "버퍼에서 사용자 공간으로 복사" },
+  ]}
+/>
+
+- 디스크 I/O 대폭 감소, 쓰기 지연(write-back)으로 성능 향상
+- 디스크 드라이버가 요청 정렬 가능 → seek 최적화
+- 단점: 시스템 크래시 시 dirty 버퍼 손실 위험, 동기 쓰기 필요 시 성능 저하
