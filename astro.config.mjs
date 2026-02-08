@@ -30,7 +30,10 @@ export default defineConfig({
 				{
 					label: 'Blog',
 					collapsed: true,
-					autogenerate: { directory: 'blog' },
+					items: [
+						{ slug: 'blog' },
+						{ label: '회고', collapsed: true, autogenerate: { directory: 'blog/retrospective' } },
+					],
 				},
 				{
 					label: 'Knowledge',
