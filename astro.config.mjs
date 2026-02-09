@@ -21,6 +21,7 @@ export default defineConfig({
 			components: {
 				Header: './src/components/Header.astro',
 				Sidebar: './src/components/Sidebar.astro',
+				PageTitle: './src/components/PageTitle.astro',
 			},
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/ycra-dev' },
