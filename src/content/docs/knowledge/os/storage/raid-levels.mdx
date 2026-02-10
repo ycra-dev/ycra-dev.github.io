@@ -3,12 +3,15 @@ title: "RAID 레벨 (RAID Levels)"
 description: "RAID 0, 1, 5, 6, 1+0 등 디스크 조합 방식에 따른 성능, 신뢰성, 저장 효율의 분류"
 tags: ["OS", "Storage"]
 created: 2026-01-28
-updated: 2026-01-28
-draft: true
+updated: 2026-02-11
+draft: false
 slug: knowledge/os/raid-levels
 sidebar:
-  order: 18
+  order: 15
 ---
+
+import NestedDiagram from '../../../../../components/NestedDiagram.astro';
+import ArchitectureStack from '../../../../../components/ArchitectureStack.astro';
 
 ## 핵심 개념
 
@@ -26,16 +29,16 @@ N개 디스크에 블록 분산 저장. 중복성 없음. 1개 고장 시 전체
 
 ### RAID 5 (분산 패리티)
 
-```
-Disk0   Disk1   Disk2   Disk3
-┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐
-│ A0  │ │ A1  │ │ A2  │ │ Ap  │  ← 패리티 A
-│ B0  │ │ B1  │ │ Bp  │ │ B2  │  ← 패리티 B
-│ C0  │ │ Cp  │ │ C1  │ │ C2  │  ← 패리티 C
-│ Dp  │ │ D0  │ │ D1  │ │ D2  │  ← 패리티 D
-└─────┘ └─────┘ └─────┘ └─────┘
-  패리티가 순환하며 분산
-```
+<NestedDiagram
+  title="RAID 5 — 패리티가 순환하며 분산"
+  columns={1}
+  items={[
+    { label: "Disk 0", children: [{ label: "A0" }, { label: "B0" }, { label: "C0" }, { label: "Dp", highlight: true }] },
+    { label: "Disk 1", children: [{ label: "A1" }, { label: "B1" }, { label: "Cp", highlight: true }, { label: "D0" }] },
+    { label: "Disk 2", children: [{ label: "A2" }, { label: "Bp", highlight: true }, { label: "C1" }, { label: "D1" }] },
+    { label: "Disk 3", children: [{ label: "Ap", highlight: true }, { label: "B2" }, { label: "C2" }, { label: "D2" }] },
+  ]}
+/>
 
 N개 디스크에 데이터와 패리티를 분산. 용량 (N-1)/N. 1개 고장 허용. 가장 일반적인 패리티 RAID.
 
@@ -44,17 +47,25 @@ N개 디스크에 데이터와 패리티를 분산. 용량 (N-1)/N. 1개 고장 
 XOR 패리티(P) + Galois Field 연산(Q)으로 2개의 독립적 패리티를 분산. 용량 (N-2)/N. **2개 디스크 동시 고장 허용**. 대규모 배열에서 재구축 중 추가 고장에 대비.
 
 ### RAID 0+1 vs RAID 1+0
+<div style="max-width: 480px; margin: 0 auto;">
+<ArchitectureStack
+  title="RAID 0+1 — 스트라이핑 후 미러링"
+  topItems={[
+    { label: "Stripe Set 0", description: "D0, D1" },
+    { label: "Stripe Set 1", description: "D2, D3" },
+  ]}
+  baseLayer={{ label: "Mirror", highlight: true }}
+/>
 
-```
-      RAID 0+1                    RAID 1+0
-      ┌─────────┐                ┌─────────┐
-      │ Mirror  │                │ Stripe  │
-      ├────┬────┤                ├────┬────┤
-      │Str │Str │                │Mir │Mir │
-      ├──┬─┼──┬─┤                ├──┬─┼──┬─┤
-      │D0│D1│D2│D3               │D0│D1│D2│D3
-```
-
+<ArchitectureStack
+  title="RAID 1+0 — 미러링 후 스트라이핑"
+  topItems={[
+    { label: "Mirror 0", description: "D0 = D1" },
+    { label: "Mirror 1", description: "D2 = D3" },
+  ]}
+  baseLayer={{ label: "Stripe", highlight: true }}
+/>
+</div>
 - **RAID 0+1**: 스트라이핑 후 미러링. 1개 고장 시 스트라이프 전체 비활성화
 - **RAID 1+0**: 미러링 후 스트라이핑. 각 미러 쌍에서 1개씩 고장 가능. **RAID 0+1보다 우수**
 
@@ -78,16 +89,10 @@ XOR 패리티(P) + Galois Field 연산(Q)으로 2개의 독립적 패리티를 �
 
 4개 디스크(각 1TB):
 
-```
-RAID 0:  [D0][D1][D2][D3] → 4TB, 4× 성능, 보호 없음
-RAID 1:  [D0=D1][D2=D3]  → 2TB, 2쌍 미러
-RAID 5:  [D+P 분산]       → 3TB, 1개 고장 허용
-RAID 6:  [D+P+Q 분산]     → 2TB, 2개 고장 허용
-RAID 10: [(D0=D1)+(D2=D3)] → 2TB, 미러쌍별 1개씩 허용
-```
-
-## 관련 개념
-
-- [RAID](/knowledge/os/raid/) - RAID의 개념과 목표 (중복성, 병렬성)
-- [HDD (Hard Disk Drive)](/knowledge/os/hdd/) - RAID를 구성하는 기본 저장장치
-- [오류 검출과 정정 (ECC)](/knowledge/os/ecc/) - 데이터 오류 감지와 복구
+| 레벨 | 구성 | 용량 | 특징 |
+|------|------|------|------|
+| RAID 0 | D0 \| D1 \| D2 \| D3 | 4TB | 4× 성능, 보호 없음 |
+| RAID 1 | D0=D1, D2=D3 | 2TB | 2쌍 미러 |
+| RAID 5 | D+P 분산 | 3TB | 1개 고장 허용 |
+| RAID 6 | D+P+Q 분산 | 2TB | 2개 고장 허용 |
+| RAID 10 | (D0=D1)+(D2=D3) | 2TB | 미러쌍별 1개씩 허용 |

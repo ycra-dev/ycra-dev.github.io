@@ -7,7 +7,7 @@ updated: 2026-01-25
 draft: false
 slug: knowledge/os/cache-coherency
 sidebar:
-  order: 4
+  order: 3
 ---
 
 ## 핵심 개념

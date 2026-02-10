@@ -8,12 +8,13 @@ interface Item {
 interface Props {
   items: Item[];
   title?: string;
+  columns?: number;
 }
 
-const { items, title } = Astro.props;
+const { items, title, columns = 2 } = Astro.props;
 ---
 
-<div class="nested-diagram">
+<div class="nested-diagram" style={`--cols: ${columns}`}>
   {title && <div class="diagram-title">{title}</div>}
   <div class="diagram-content">
     {items.map((item) => (
@@ -81,7 +82,7 @@ const { items, title } = Astro.props;
 
   .group-children {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(var(--cols, 2), 1fr);
     gap: 0.4rem;
   }
 

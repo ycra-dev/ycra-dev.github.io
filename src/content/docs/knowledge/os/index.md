@@ -154,20 +154,20 @@ sidebar:
 - [캐시 (Cache)](/knowledge/os/cache/) - 자주 사용되는 정보를 빠른 저장 장치에 임시로 복사
 - [캐시 일관성 (Cache Coherency)](/knowledge/os/cache-coherency/) - 멀티프로세서 환경에서 캐시 간 데이터 일관성 보장
 - [논리 블록 주소 (LBA)](/knowledge/os/lba/) - 저장장치를 연속된 블록 배열로 추상화한 주소 체계
+- [오류 검출과 정정 (ECC)](/knowledge/os/ecc/) - 저장장치와 통신에서 데이터 오류를 감지하고 복구하는 기술
 - [HDD (Hard Disk Drive)](/knowledge/os/hdd/) - 자기 물질이 코팅된 회전하는 플래터에 데이터를 기록하는 기계식 저장장치
 - [SSD (Solid-State Drive)](/knowledge/os/ssd/) - NAND 플래시 메모리 기반 비휘발성 저장장치
 - [NAND 플래시 관리 알고리즘](/knowledge/os/nand-flash-management/) - FTL, GC, 웨어 레벨링 등 SSD 내부 관리 기법
-- [오류 검출과 정정 (ECC)](/knowledge/os/ecc/) - 저장장치와 통신에서 데이터 오류를 감지하고 복구하는 기술
-- [RAID](/knowledge/os/raid/) - 여러 디스크를 조합하여 신뢰성과 성능을 달성하는 저장장치 구성 기술
-- [RAID 레벨](/knowledge/os/raid-levels/) - RAID 0, 1, 5, 6, 1+0 등 디스크 조합 방식별 트레이드오프
-- [저장장치 연결 방식 (Storage Connectivity)](/knowledge/os/storage-connectivity/) - DAS/NAS/SAN 등 저장장치를 호스트에 연결하는 방식
-- [저장장치 초기화 (Storage Initialization)](/knowledge/os/storage-initialization/) - 물리 포맷부터 파일 시스템 생성까지의 과정
-- [객체 스토리지 (Object Storage)](/knowledge/os/object-storage/) - 고유 ID로 식별되는 객체 단위 저장 방식
 - [UNIX 아이노드 (Inode)](/knowledge/os/unix-inode/) - 파일의 메타데이터와 블록 위치를 저장하는 자료구조
 - [BSD 실린더 그룹 (Cylinder Group)](/knowledge/os/bsd-cylinder-group/) - FFS에서 관련 데이터를 인접 배치하여 seek 최소화
 - [저널링 파일 시스템 (Journaling)](/knowledge/os/journaling/) - 트랜잭션 로그로 파일 시스템 일관성을 보장하는 기법
 - [NTFS 구조](/knowledge/os/ntfs-structure/) - MFT 기반 구조, 다중 데이터 스트림, B+ 트리 디렉토리
 - [NTFS 복구 메커니즘](/knowledge/os/ntfs-recovery/) - 트랜잭션 로깅으로 메타데이터 일관성을 빠르게 복구
+- [RAID](/knowledge/os/raid/) - 여러 디스크를 조합하여 신뢰성과 성능을 달성하는 저장장치 구성 기술
+- [RAID 레벨](/knowledge/os/raid-levels/) - RAID 0, 1, 5, 6, 1+0 등 디스크 조합 방식별 트레이드오프
+- [저장장치 연결 방식 (Storage Connectivity)](/knowledge/os/storage-connectivity/) - DAS/NAS/SAN 등 저장장치를 호스트에 연결하는 방식
+- [저장장치 초기화 (Storage Initialization)](/knowledge/os/storage-initialization/) - 물리 포맷부터 파일 시스템 생성까지의 과정
+- [객체 스토리지 (Object Storage)](/knowledge/os/object-storage/) - 고유 ID로 식별되는 객체 단위 저장 방식
 - [ZFS (Zettabyte File System)](/knowledge/os/zfs/) - 볼륨 관리와 파일 시스템을 통합한 체크섬 기반 현대적 파일 시스템
 
 ## 컴퓨터 시스템 구조

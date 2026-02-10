@@ -1,0 +1,115 @@
+---
+title: "NTFS 구조 (NTFS Structure)"
+description: "MFT 기반 구조, 다중 데이터 스트림, B+ 트리 디렉토리를 지원하는 Windows 파일 시스템"
+tags: ["OS", "Storage", "Windows"]
+created: 2026-01-27
+updated: 2026-02-11
+draft: false
+slug: knowledge/os/ntfs-structure
+sidebar:
+  order: 12
+---
+
+import LayerStack from '../../../../../components/LayerStack.astro';
+import NestedDiagram from '../../../../../components/NestedDiagram.astro';
+import StepFlow from '../../../../../components/StepFlow.astro';
+
+## 핵심 개념
+
+NTFS(New Technology File System)는 Windows의 기본 파일 시스템으로, **MFT(Master File Table) 기반 구조**와 다중 데이터 스트림을 지원한다. "모든 것은 파일이다" — 메타데이터조차 파일로 저장한다. FAT 파일 시스템이 지원하지 않는 보안(ACL), 대용량, 안정성(저널링)을 제공한다.
+
+비유하면, MFT는 도서관 카탈로그이다. 각 카드(MFT Entry)에 책 정보(속성)가 기록되어 있고, 책이 작으면 카드에 직접 붙여두고(Resident), 크면 서가 위치(Run List)만 기록한다.
+
+## 동작 원리
+
+### 볼륨 구조
+
+<LayerStack
+  title="NTFS Volume 구조"
+  layers={[
+    { label: "Boot Sector", description: "부트 코드, MFT 위치" },
+    { label: "MFT", description: "Master File Table", highlight: true },
+    { label: "Log File", description: "트랜잭션 저널" },
+    { label: "Data Area", description: "실제 파일 데이터" },
+  ]}
+/>
+
+### 클러스터와 주소 체계
+
+- **클러스터**: 디스크 할당의 최소 단위 (기본 4KB)
+- **LCN (Logical Cluster Number)**: 볼륨 시작부터의 클러스터 번호
+- **VCN (Virtual Cluster Number)**: 파일 내 상대적 클러스터 번호
+
+### MFT (Master File Table)
+
+볼륨의 모든 파일을 설명하는 레코드 배열이다.
+
+| Entry | 설명 |
+|-------|------|
+| 0 | $MFT - MFT 자체 |
+| 1 | $MFTMirr - MFT 처음 16개 엔트리 미러 |
+| 2 | $LogFile - 트랜잭션 로그 |
+| 3 | $Volume - 볼륨 이름, NTFS 버전 |
+| 4 | $AttrDef - 속성 정의 테이블 |
+| 5 | . (루트 디렉토리) |
+| 6 | $Bitmap - 클러스터 할당 비트맵 |
+| 7 | $Boot - 부트 섹터 및 부트 코드 |
+| 8 | $BadClus - 불량 클러스터 목록 |
+| ... | 사용자 파일들 |
+
+### MFT Entry (파일 구조)
+
+<LayerStack
+  title="MFT Entry (1~4KB)"
+  layers={[
+    { label: "Header", description: "엔트리 헤더" },
+    { label: "$STANDARD_INFORMATION", description: "생성/수정 시간 (Resident)", highlight: true },
+    { label: "$FILE_NAME", description: "파일명, 부모 참조 (Resident)", highlight: true },
+    { label: "$DATA", description: "파일 내용 (Resident 또는 Non-resident)" },
+    { label: "$SECURITY_DESCRIPTOR", description: "ACL (공유 참조)" },
+    { label: "$DATA:thumbnail", description: "명명된 스트림 (선택적)" },
+  ]}
+/>
+
+### 상주 vs 비상주 속성
+
+<NestedDiagram
+  title="속성 저장 방식"
+  items={[
+    {
+      label: "상주 (Resident)",
+      highlight: true,
+      children: [
+        { label: "MFT 내 직접 저장" },
+        { label: "추가 디스크 접근 불필요" },
+      ]
+    },
+    {
+      label: "비상주 (Non-resident)",
+      children: [
+        { label: "별도 클러스터에 저장" },
+        { label: "MFT에 익스텐트 포인터" },
+      ]
+    },
+  ]}
+/>
+
+### 다중 데이터 스트림
+
+파일은 여러 개의 명명된 데이터 스트림을 가질 수 있다. `filename:streamname`으로 접근하며, Macintosh 리소스 포크, 썸네일, 메타데이터 등에 활용된다.
+
+### 디렉토리 인덱스
+
+B+ 트리 구조로 파일명을 인덱스하여 O(log n) 검색을 제공한다. 디렉토리 리스팅 시 MFT 조회 없이 파일명, 크기, 시간 복사본을 직접 참조할 수 있다.
+
+## 예시
+
+<StepFlow
+  title="파일 생성 과정 (report.docx)"
+  steps={[
+    { label: "MFT 레코드 할당", description: "새 파일용 MFT 엔트리 생성" },
+    { label: "속성 저장", description: "파일명, 생성 시간, 보안 디스크립터" },
+    { label: "데이터 저장 (상주)", description: "작은 파일 → MFT 내 직접 저장" },
+    { label: "데이터 이동 (비상주)", description: "파일 커지면 → 별도 클러스터, MFT에 포인터" },
+  ]}
+/>

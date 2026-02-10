@@ -1,0 +1,92 @@
+---
+title: "RAID (Redundant Array of Independent Disks)"
+description: "여러 디스크를 조합하여 신뢰성(중복성)과 성능(병렬성)을 달성하는 저장장치 구성 기술"
+tags: ["OS", "Storage"]
+created: 2026-01-28
+updated: 2026-02-11
+draft: false
+slug: knowledge/os/raid
+sidebar:
+  order: 14
+---
+
+import NestedDiagram from '../../../../../components/NestedDiagram.astro';
+import ArchitectureStack from '../../../../../components/ArchitectureStack.astro';
+import LayerStack from '../../../../../components/LayerStack.astro';
+
+## 핵심 개념
+
+RAID(Redundant Array of Independent Disks)는 여러 디스크를 조합하여 **신뢰성 향상**(**중복성**)과 **성능 향상**(**병렬성**)을 달성하는 저장장치 구성 기술이다. 디스크가 저렴해지면서 여러 디스크를 활용한 중복성과 병렬성 확보가 경제적으로 가능해졌다.
+
+비유하면, 단일 디스크는 서류를 1개 서랍에 보관하는 것이고, 미러링은 같은 서류 2벌을 다른 서랍에 보관하는 것이며, 스트라이핑은 긴 문서를 여러 조각으로 나눠 여러 서랍에 분산하는 것이다.
+
+## 동작 원리
+
+### 1. 신뢰성 향상 - 중복성(Redundancy)
+
+N개 디스크 배열에서 개별 디스크 고장 확률이 높아진다 (예: MTBF 100,000시간 디스크 100개 → 배열 MTBF = 1,000시간).
+
+<NestedDiagram
+  title="중복성 확보 방식"
+  items={[
+    {
+      label: "미러링 (Mirroring)",
+      highlight: true,
+      children: [
+        { label: "동일 데이터 2벌 저장" },
+        { label: "완전한 복사본 유지" },
+      ]
+    },
+    {
+      label: "패리티 (Parity)",
+      children: [
+        { label: "복구용 중복 정보" },
+        { label: "적은 공간 사용" },
+      ]
+    },
+  ]}
+/>
+
+미러링 신뢰성: MTBF² / (2 × MTTR) = 100,000² / (2 × 10) = **57,000년**
+
+### 2. 성능 향상 - 병렬성(Parallelism)
+
+- **미러링 → 읽기 성능 향상**: 읽기 요청을 양쪽 디스크에 분산
+- **스트라이핑(Striping) → 전송률 향상**: 데이터를 여러 디스크에 분산, 동시 읽기/쓰기
+
+<ArchitectureStack
+  title="스트라이핑 — 데이터가 4개 디스크에 분산 → 4배 전송률"
+  topItems={[
+    { label: "Disk 0", description: "Block 0, 4" },
+    { label: "Disk 1", description: "Block 1, 5" },
+    { label: "Disk 2", description: "Block 2, 6" },
+    { label: "Disk 3", description: "Block 3, 7" },
+  ]}
+  baseLayer={{ label: "블록 i → 디스크 (i mod N) + 1", description: "블록 레벨 스트라이핑이 가장 일반적", highlight: true }}
+/>
+
+### RAID 구현 위치
+
+| 구현 위치 | 특징 |
+|-----------|------|
+| **소프트웨어 RAID** | OS 커널/볼륨 관리자에서 구현. 저비용, CPU 사용 |
+| **HBA RAID** | 호스트 버스 어댑터에서 구현 |
+| **스토리지 어레이** | 전용 장치. 캐시, 고급 기능 |
+
+### 핫 스페어 (Hot Spare)
+
+데이터 저장 없이 대기 중인 예비 디스크이다. 디스크 고장 시 자동으로 교체되어 RAID를 재구축하며, 인적 개입 없이 빠른 복구가 가능하다.
+
+## 예시
+
+서버에 4개 1TB HDD 설치 시:
+
+<LayerStack
+  title="RAID 레벨별 비교 (4 × 1TB)"
+  layers={[
+    { label: "RAID 0", description: "4TB, 4배 속도, 보호 없음" },
+    { label: "RAID 1", description: "2TB, 읽기 2배, 완전 미러링", highlight: true },
+    { label: "RAID 5", description: "3TB, 1개 디스크 고장 허용", highlight: true },
+    { label: "RAID 6", description: "2TB, 2개 디스크 고장 허용" },
+  ]}
+/>

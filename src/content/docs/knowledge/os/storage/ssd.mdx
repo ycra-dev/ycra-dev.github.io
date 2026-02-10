@@ -3,12 +3,15 @@ title: "SSD (Solid-State Drive)"
 description: "NAND 플래시 메모리 칩을 사용하여 데이터를 전자적으로 저장하는 비휘발성 저장장치"
 tags: ["OS", "Storage"]
 created: 2026-01-28
-updated: 2026-01-28
-draft: true
+updated: 2026-02-11
+draft: false
 slug: knowledge/os/ssd
 sidebar:
-  order: 19
+  order: 7
 ---
+
+import ArchitectureStack from '../../../../../components/ArchitectureStack.astro';
+import StepFlow from '../../../../../components/StepFlow.astro';
 
 ## 핵심 개념
 
@@ -20,23 +23,15 @@ SSD(Solid-State Drive)는 NAND 플래시 메모리 칩을 사용하여 데이터
 
 ### 물리적 구조
 
-```
-┌─────────────────────────────────────────┐
-│              컨트롤러                    │
-│  ┌─────────────────────────────────┐   │
-│  │    FTL (Flash Translation Layer) │   │
-│  │    호스트 인터페이스              │   │
-│  │    웨어 레벨링, GC 관리           │   │
-│  └─────────────────────────────────┘   │
-├─────────────────────────────────────────┤
-│  ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐      │
-│  │NAND │ │NAND │ │NAND │ │NAND │      │
-│  │Die 0│ │Die 1│ │Die 2│ │Die 3│ ...  │
-│  └─────┘ └─────┘ └─────┘ └─────┘      │
-│     └───────┴───────┴───────┘          │
-│           병렬 데이터패스                │
-└─────────────────────────────────────────┘
-```
+<div style="max-width: 480px; margin: 0 auto;">
+<ArchitectureStack
+  title="SSD 내부 구조"
+  topItems={[
+    { label: "컨트롤러", description: "FTL · 웨어 레벨링 · GC", highlight: true },
+  ]}
+  baseLayer={{ label: "NAND Die 0 | Die 1 | Die 2 | Die 3 ...", description: "병렬 데이터패스" }}
+/>
+</div>
 
 - **컨트롤러**: SSD의 두뇌. 호스트 통신, NAND 칩 관리
 - **NAND 플래시 다이**: 실제 데이터 저장 반도체 칩
@@ -67,10 +62,15 @@ SSD(Solid-State Drive)는 NAND 플래시 메모리 칩을 사용하여 데이터
 
 ### I/O 흐름
 
-1. OS가 논리 블록 주소(LBA)로 I/O 요청
-2. 컨트롤러의 **FTL**(Flash Translation Layer)이 LBA → 물리 페이지 주소 변환
-3. 읽기: 해당 페이지 직접 읽기
-4. 쓰기: 빈 페이지 찾아 쓰기 → 기존 페이지는 무효화(invalid)
+<StepFlow
+  title="SSD I/O 처리 과정"
+  steps={[
+    { label: "I/O 요청", description: "OS가 LBA로 요청" },
+    { label: "FTL 변환", description: "LBA → 물리 페이지 주소" },
+    { label: "읽기/쓰기 수행", description: "읽기: 직접 읽기 / 쓰기: 빈 페이지에 기록" },
+    { label: "매핑 갱신", description: "쓰기 시 기존 페이지 무효화, FTL 업데이트" },
+  ]}
+/>
 
 ## 예시
 
@@ -86,10 +86,3 @@ SSD(Solid-State Drive)는 NAND 플래시 메모리 칩을 사용하여 데이터
 ```
 
 기존 위치의 데이터는 '무효'로 표시되고, 새 위치에 수정된 데이터가 기록된다. 무효 페이지는 가비지 컬렉션(GC)으로 정리.
-
-## 관련 개념
-
-- [HDD (Hard Disk Drive)](/knowledge/os/hdd/) - 기계식 저장장치와의 비교 대상
-- [NAND 플래시 관리 알고리즘](/knowledge/os/nand-flash-management/) - FTL, GC, 웨어 레벨링
-- [논리 블록 주소 (LBA)](/knowledge/os/lba/) - SSD가 사용하는 주소 추상화
-- [저장장치 연결 방식](/knowledge/os/storage-connectivity/) - DAS/NAS/SAN 연결 방식

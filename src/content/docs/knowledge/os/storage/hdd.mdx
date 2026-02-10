@@ -1,0 +1,65 @@
+---
+title: "HDD (Hard Disk Drive)"
+description: "자기 물질이 코팅된 회전하는 플래터에 데이터를 기록하고 읽는 기계식 저장장치"
+tags: ["OS", "Storage", "Hardware"]
+created: 2026-01-27
+updated: 2026-02-11
+draft: false
+slug: knowledge/os/hdd
+sidebar:
+  order: 6
+---
+
+import PlatterDiagram from '../../../../../components/PlatterDiagram.astro';
+import StepFlow from '../../../../../components/StepFlow.astro';
+
+## 핵심 개념
+
+HDD(Hard Disk Drive)는 자기 물질이 코팅된 회전하는 플래터에 데이터를 기록하고 읽는 기계식 저장장치이다. 비휘발성이며 대용량을 저렴하게 제공하여 2차 저장장치의 주류이다.
+
+## 동작 원리
+
+### 물리적 구조
+
+- **플래터(Platter)**: 양면에 자기 물질이 코팅된 평평한 원형 디스크 (1.8~3.5인치)
+- **트랙(Track)**: 플래터 표면의 동심원
+- **섹터(Sector)**: 트랙을 나눈 호 모양 영역. 데이터 전송의 최소 단위 (512B → 4KB)
+- **실린더(Cylinder)**: 모든 플래터에서 같은 위치의 트랙들의 집합
+- **읽기-쓰기 헤드**: 각 플래터 표면 위에 떠서 자기 패턴을 읽고 씀
+- **디스크 암**: 모든 헤드를 하나의 단위로 이동
+- **스핀**: 플래터를 고속 회전 (5,400~15,000 RPM)
+
+<PlatterDiagram title="플래터 표면 구조" />
+
+### 성능 지표
+
+| 지표 | 설명 |
+|------|------|
+| **탐색 시간 (Seek Time)** | 디스크 암이 원하는 실린더로 이동하는 시간 |
+| **회전 지연 (Rotational Latency)** | 원하는 섹터가 헤드 아래로 회전해 올 때까지의 시간 |
+| **전송률 (Transfer Rate)** | 드라이브와 컴퓨터 간 데이터 흐름 속도 |
+| **접근 시간 (Access Time)** | 탐색 시간 + 회전 지연 |
+
+### 동작 방식
+
+<StepFlow
+  title="HDD 데이터 접근 과정"
+  steps={[
+    { label: "I/O 요청", description: "OS가 LBA로 요청" },
+    { label: "주소 변환", description: "LBA → 실린더, 헤드, 섹터" },
+    { label: "탐색 (Seek)", description: "디스크 암이 해당 실린더로 이동" },
+    { label: "회전 대기", description: "섹터가 헤드 아래로 올 때까지" },
+    { label: "데이터 전송", description: "읽기/쓰기 수행" },
+  ]}
+/>
+
+## 예시
+
+LP 레코드 플레이어와 유사하다. 바늘(헤드)이 돌아가는 레코드(플래터) 위의 홈(트랙)을 따라 이동하며 소리(데이터)를 읽는다.
+
+7,200 RPM 디스크에서 한 바퀴 회전에 약 8.3ms 소요. 평균 회전 지연은 그 절반인 약 4.15ms.
+
+### 장단점
+
+- **장점**: 대용량을 저렴하게 제공 (TB당 비용이 SSD보다 낮음), 순차 읽기/쓰기 성능 양호, 기술 성숙
+- **단점**: 기계적 부품으로 인한 느린 랜덤 접근 (수 ms 지연), 헤드 충돌 시 데이터 손실, 소음/발열/전력 소비

@@ -3,12 +3,15 @@ title: "저장장치 초기화 (Storage Initialization)"
 description: "새 저장장치를 사용하기 위한 포매팅, 파티셔닝, 볼륨 생성 과정"
 tags: ["OS", "Storage"]
 created: 2026-01-27
-updated: 2026-01-27
-draft: true
+updated: 2026-02-11
+draft: false
 slug: knowledge/os/storage-initialization
 sidebar:
-  order: 12
+  order: 17
 ---
+
+import StepFlow from '../../../../../components/StepFlow.astro';
+import NestedDiagram from '../../../../../components/NestedDiagram.astro';
 
 ## 핵심 개념
 
@@ -20,36 +23,30 @@ sidebar:
 
 ### 단계별 과정
 
-```
-1. 저수준 포매팅 (Physical Formatting)
-   │  공장에서 수행
-   ▼
-2. 파티셔닝 (Partitioning)
-   │  디스크를 논리적 그룹으로 분할
-   ▼
-3. 볼륨 생성 (Volume Creation)
-   │  파티션을 볼륨으로 구성
-   ▼
-4. 논리적 포매팅 (Logical Formatting / mkfs)
-   │  파일 시스템 메타데이터 기록
-   ▼
-   사용 가능!
-```
+<StepFlow
+  title="저장장치 초기화 순서"
+  steps={[
+    { label: "저수준 포매팅", description: "공장에서 섹터/페이지 구조 생성" },
+    { label: "파티셔닝", description: "디스크를 논리적 그룹으로 분할" },
+    { label: "볼륨 생성", description: "파티션을 볼륨으로 구성" },
+    { label: "논리적 포매팅 (mkfs)", description: "파일 시스템 메타데이터 기록" },
+  ]}
+/>
 
 ### 1단계: 저수준 포매팅 (Physical Formatting)
 
 공장에서 수행하는 과정으로, 디스크 표면에 **섹터/페이지 구조**를 생성한다.
 
-```
-┌──────────────────────────────────────────┐
-│  헤더  │     데이터 영역     │  ECC 트레일러  │
-│ (섹터  │   (512B 또는 4KB)   │   (오류 정정   │
-│  번호) │                     │    코드)       │
-└──────────────────────────────────────────┘
-          하나의 섹터 구조
-```
-
-각 섹터는 헤더(섹터 번호, 동기화 정보) + 데이터 영역 + ECC 트레일러로 구성된다.
+<div style="max-width: 480px; margin: 0 auto;">
+<NestedDiagram
+  title="하나의 섹터 구조"
+  items={[
+    { label: "헤더", children: [{ label: "섹터 번호" }, { label: "동기화 정보" }] },
+    { label: "데이터 영역", highlight: true, children: [{ label: "512B 또는 4KB", highlight: true }] },
+    { label: "ECC 트레일러", children: [{ label: "오류 정정 코드" }] },
+  ]}
+/>
+</div>
 
 ### 2단계: 파티셔닝
 
@@ -74,12 +71,17 @@ MBR은 디스크 첫 섹터에 파티션 테이블을 저장한다. GPT는 디�
 
 볼륨에 **파일 시스템 메타데이터 구조**를 기록한다.
 
-```
-┌─────────────┬─────────────┬─────────────┬─────────────┐
-│  수퍼블록    │ inode 테이블 │  데이터 블록  │  저널 영역   │
-│ (FS 정보)   │ (파일 메타)  │  비트맵      │ (ext3/4)    │
-└─────────────┴─────────────┴─────────────┴─────────────┘
-```
+<div style="max-width: 480px; margin: 0 auto;">
+<NestedDiagram
+  title="파일 시스템 메타데이터 구조"
+  items={[
+    { label: "수퍼블록", children: [{ label: "FS 정보" }] },
+    { label: "inode 테이블", children: [{ label: "파일 메타" }] },
+    { label: "데이터 블록", highlight: true, children: [{ label: "비트맵", highlight: true }] },
+    { label: "저널 영역", children: [{ label: "ext3/4" }] },
+  ]}
+/>
+</div>
 
 ### Raw I/O
 
@@ -107,8 +109,3 @@ sudo mount /dev/sdb1 /mnt/data
 # 영구 마운트 (/etc/fstab에 추가)
 echo '/dev/sdb1 /mnt/data ext4 defaults 0 2' | sudo tee -a /etc/fstab
 ```
-
-## 관련 개념
-
-- [논리 블록 주소 (LBA)](/knowledge/os/lba/)
-- [저널링 파일 시스템](/knowledge/os/journaling/)

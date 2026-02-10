@@ -3,12 +3,14 @@ title: "저널링 파일 시스템 (Journaling File System)"
 description: "파일 시스템 변경 사항을 실제 적용 전에 로그(저널)에 기록하여 크래시 후에도 빠르게 일관성을 복구하는 기법"
 tags: ["OS", "FileSystem", "Storage"]
 created: 2026-01-27
-updated: 2026-01-27
-draft: true
+updated: 2026-02-10
+draft: false
 slug: knowledge/os/journaling
 sidebar:
-  order: 9
+  order: 11
 ---
+
+import StepFlow from '../../../../../components/StepFlow.astro';
 
 ## 핵심 개념
 
@@ -22,19 +24,15 @@ sidebar:
 
 저널링의 핵심은 **먼저 기록하고, 나중에 반영**하는 것이다.
 
-```
-1. 저널에 기록 (Write-Ahead Log)
-   └─ 변경할 내용을 저널 영역에 순차 기록
-
-2. 커밋 마크 (Commit)
-   └─ 저널 항목이 완전히 기록되었음을 표시
-
-3. 체크포인팅 (Checkpoint)
-   └─ 저널의 내용을 실제 파일 시스템에 반영
-
-4. 저널 항목 삭제
-   └─ 반영 완료된 저널 항목을 제거하여 공간 확보
-```
+<StepFlow
+  title="WAL 동작 순서"
+  steps={[
+    { label: "저널에 기록", description: "변경할 내용을 저널 영역에 순차 기록" },
+    { label: "커밋 마크", description: "저널 항목이 완전히 기록되었음을 표시" },
+    { label: "체크포인팅", description: "저널의 내용을 실제 파일 시스템에 반영" },
+    { label: "저널 항목 삭제", description: "반영 완료된 항목을 제거하여 공간 확보" },
+  ]}
+/>
 
 크래시가 발생하면:
 - **커밋 전**: 저널 항목 폐기 (변경 없었던 것으로 처리)
@@ -55,7 +53,7 @@ sidebar:
 
 ### 성능 이점
 
-저널은 **순차 쓰기(sequential write)**로 기록되므로 랜덤 쓰기보다 훨씬 빠르다. 실제 파일 시스템 반영은 비동기적으로 처리할 수 있어, 전체적인 쓰기 성능이 향상된다.
+저널은 **순차 쓰기**(**sequential write**)로 기록되므로 랜덤 쓰기보다 훨씬 빠르다. 실제 파일 시스템 반영은 비동기적으로 처리할 수 있어, 전체적인 쓰기 성능이 향상된다.
 
 ## 예시
 
@@ -74,21 +72,3 @@ mount -o data=writeback /dev/sda1 /mnt/fast
 # 저널 상태 확인
 dumpe2fs /dev/sda1 | grep -i journal
 ```
-
-크래시 후 복구 과정:
-
-```
-[시스템 재부팅]
-  │
-  ├─ 저널 확인 → 미완료 트랜잭션 발견
-  │
-  ├─ 커밋된 트랜잭션 → 재생(replay)하여 파일 시스템에 반영
-  │
-  ├─ 미커밋 트랜잭션 → 폐기
-  │
-  └─ 복구 완료 (수 초 이내)
-```
-
-## 관련 개념
-
-- [UNIX Inode](/knowledge/os/unix-inode/)

@@ -3,12 +3,14 @@ title: "NAND 플래시 관리 알고리즘"
 description: "SSD 컨트롤러가 NAND 특성을 극복하기 위해 수행하는 FTL, GC, 웨어 레벨링 등 내부 관리 기법"
 tags: ["OS", "Storage", "SSD"]
 created: 2026-01-27
-updated: 2026-01-27
-draft: true
+updated: 2026-02-11
+draft: false
 slug: knowledge/os/nand-flash-management
 sidebar:
-  order: 14
+  order: 8
 ---
+
+import StepFlow from '../../../../../components/StepFlow.astro';
 
 ## 핵심 개념
 
@@ -30,6 +32,15 @@ NAND 플래시는 페이지를 **덮어쓸 수 없고**, **블록 단위로만 �
 
 쓰기가 반복되면 무효 페이지가 쌓여 빈 블록이 부족해진다.
 
+<StepFlow
+  title="Garbage Collection 과정"
+  steps={[
+    { label: "Victim 블록 선택", description: "무효 페이지가 많은 블록을 선택" },
+    { label: "Valid 페이지 복사", description: "유효 페이지를 빈 블록으로 이동" },
+    { label: "블록 Erase", description: "원래 블록 전체를 지워 빈 블록으로 확보" },
+  ]}
+/>
+
 ```
 Before GC:
 Block A                    Block B (free)
@@ -38,14 +49,7 @@ Block A                    Block B (free)
 │ P0   │ P1   │ P2   │ P3   │  │      │      │      │      │
 └──────┴──────┴──────┴──────┘  └──────┴──────┴──────┴──────┘
 
-Step 1: Valid 페이지를 Block B로 복사
-Block A                    Block B
-┌──────┬──────┬──────┬──────┐  ┌──────┬──────┬──────┬──────┐
-│Valid │Inval │Valid │Inval │  │ P0   │ P2   │Empty │Empty │
-│ P0   │ P1   │ P2   │ P3   │  │(copy)│(copy)│      │      │
-└──────┴──────┴──────┴──────┘  └──────┴──────┴──────┴──────┘
-
-Step 2: Block A 전체 지움 (Erase)
+After GC:
 Block A (erased)           Block B
 ┌──────┬──────┬──────┬──────┐  ┌──────┬──────┬──────┬──────┐
 │Empty │Empty │Empty │Empty │  │ P0   │ P2   │Empty │Empty │
@@ -78,9 +82,3 @@ WA가 높으면 쓰기 수명이 감소하고 성능이 저하된다.
 ## 예시
 
 256GB SSD에서 200GB만 사용자에게 보임 (56GB = OP). 파일 삭제 시 TRIM 명령으로 OS가 SSD에 알려주면, SSD가 해당 페이지를 무효로 표시하고 다음 GC 때 정리한다.
-
-## 관련 개념
-
-- [논리 블록 주소 (LBA)](/knowledge/os/lba/) - FTL이 변환하는 논리 주소 체계
-- [HDD (Hard Disk Drive)](/knowledge/os/hdd/) - 덮어쓰기 가능한 기계식 저장장치
-- [I/O 스케줄링](/knowledge/os/io-scheduling/) - 저장장치 요청 순서 최적화
