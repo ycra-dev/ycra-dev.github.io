@@ -39,7 +39,7 @@ sw $t1, -4($s1)
 ## 관련 개념
 
 - [Antidependence](/knowledge/computer-architecture/antidependence/)
-- [Loop Unrolling](/knowledge/computer-architecture/loop-unrolling/)
+- [Loop Unrolling](/knowledge/language/loop-unrolling/)
 - [Reorder Buffer](/knowledge/computer-architecture/reorder-buffer/)
 - [Reservation Station](/knowledge/computer-architecture/reservation-station/)
 - [Out-of-Order Execution](/knowledge/computer-architecture/out-of-order-execution/)

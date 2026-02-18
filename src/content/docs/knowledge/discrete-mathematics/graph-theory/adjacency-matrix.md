@@ -85,4 +85,4 @@ M = np.array([
 - [Matrix](/knowledge/mathematics/matrix/) - 행렬의 수학적 기초
 - [Graph Isomorphism](/knowledge/mathematics/graph-isomorphism/) - 인접 행렬을 이용한 동형 판별
 - [Connectivity](/knowledge/mathematics/connectivity/) - A^r로 연결성 판단
-- [Algorithm](/knowledge/mathematics/algorithm/) - 그래프 알고리즘에서 행렬 활용
+- [Algorithm](/knowledge/algorithms/algorithm/) - 그래프 알고리즘에서 행렬 활용

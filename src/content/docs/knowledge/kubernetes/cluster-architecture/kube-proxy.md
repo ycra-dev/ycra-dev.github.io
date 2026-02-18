@@ -56,5 +56,5 @@ Kiada version 0.1. Request processed by "kiada-9d785b578-jmnj8"
 - [Workload Plane](/knowledge/kubernetes/workload-plane/) - Kube Proxy가 실행되는 워커 노드 영역
 - [Service](/knowledge/kubernetes/service/) - Kube Proxy가 로드 밸런싱을 설정하는 대상 객체
 - [LoadBalancer Service](/knowledge/kubernetes/loadbalancer-service/) - 외부 로드 밸런서를 프로비저닝하는 서비스 타입
-- [NodePort](/knowledge/kubernetes/nodeport/) - 외부 트래픽이 노드로 들어오는 포트
+- [NodePort](/knowledge/kubernetes/nodeport-service/) - 외부 트래픽이 노드로 들어오는 포트
 - [Kubelet](/knowledge/kubernetes/kubelet/) - 같은 워커 노드에서 함께 실행되는 에이전트

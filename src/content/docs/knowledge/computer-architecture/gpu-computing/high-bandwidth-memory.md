@@ -33,5 +33,4 @@ HBM 구조:
 
 - [TPUv3 Supercomputer](/knowledge/computer-architecture/tpuv3-supercomputer/)
 - [DRAM](/knowledge/computer-architecture/dram/)
-- [Memory Bandwidth](/knowledge/computer-architecture/memory-bandwidth/)
 - [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)

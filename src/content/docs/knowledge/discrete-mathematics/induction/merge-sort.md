@@ -98,8 +98,8 @@ procedure mergesort(L = a1, ..., an)
 ## 관련 개념
 
 - [Recursive Algorithm](/knowledge/mathematics/recursive-algorithm/) - 병합 정렬은 대표적인 재귀 알고리즘
-- [Algorithm](/knowledge/mathematics/algorithm/) - 정렬 알고리즘의 한 종류
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - 병합 정렬의 복잡도는 O(n log n)으로 표현
-- [Complexity](/knowledge/mathematics/complexity/) - 비교 기반 정렬의 최적 복잡도 달성
+- [Algorithm](/knowledge/algorithms/algorithm/) - 정렬 알고리즘의 한 종류
+- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 병합 정렬의 복잡도는 O(n log n)으로 표현
+- [Complexity](/knowledge/algorithms/time-complexity/) - 비교 기반 정렬의 최적 복잡도 달성
 - [Mathematical Induction](/knowledge/mathematics/mathematical-induction/) - 병합 정렬의 정확성 증명에 사용
 - [Sequence](/knowledge/mathematics/sequence/) - 정렬 대상인 수열/리스트

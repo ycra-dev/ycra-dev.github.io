@@ -47,4 +47,3 @@ result = client.append(data, dbList)  # 로컬처럼 보이지만 실제로는 �
 - [Middleware](/knowledge/distributed-systems/middleware/)
 - [Scalability](/knowledge/distributed-systems/scalability/)
 - [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Replication](/knowledge/distributed-systems/replication/)

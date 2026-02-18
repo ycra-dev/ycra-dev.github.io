@@ -51,4 +51,3 @@ vectorAdd<<<blocksPerGrid, threadsPerBlock>>>(d_A, d_B, d_C, n);
 - [Thread Block](/knowledge/computer-architecture/thread-block/)
 - [Grid](/knowledge/computer-architecture/grid/)
 - [SPMD](/knowledge/computer-architecture/spmd/)
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)

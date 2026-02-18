@@ -84,5 +84,4 @@ BFS 신장 트리:
 - [Spanning Tree](/knowledge/mathematics/spanning-tree/) - BFS의 결과물인 신장 트리
 - [Depth-First Search](/knowledge/mathematics/depth-first-search/) - BFS와 대비되는 그래프 탐색 알고리즘
 - [Graph](/knowledge/mathematics/graph/) - BFS의 입력 그래프
-- [Dijkstra's Algorithm](/knowledge/mathematics/dijkstras-algorithm/) - BFS의 가중 그래프 확장인 최단 경로 알고리즘
-- [Algorithm](/knowledge/mathematics/algorithm/) - BFS의 알고리즘 구조
+- [Algorithm](/knowledge/algorithms/algorithm/) - BFS의 알고리즘 구조

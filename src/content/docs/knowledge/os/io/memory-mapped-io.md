@@ -50,3 +50,10 @@ MOV [0xB8000], data  ; 일반 메모리 명령어로 I/O 수행
 - 메모리 주소 공간의 일부를 장치가 점유 → 사용 가능한 메모리 감소
 - 캐시 일관성 문제 발생 가능 (장치 레지스터는 캐시하면 안 됨)
 - 메모리 보호 메커니즘으로 접근 제어 필요
+
+## 관련 개념
+
+- [DMA (Direct Memory Access)](/knowledge/os/dma/) - 메모리 매핑된 장치와 주 메모리 간 CPU 개입 없이 데이터를 전송하는 방식
+- [Polling](/knowledge/os/polling/) - Memory-Mapped I/O에서 상태 레지스터를 메모리 읽기로 확인하는 기법
+- [디바이스 드라이버](/knowledge/os/device-driver/) - 매핑된 메모리 주소를 통해 장치 레지스터에 접근하는 커널 모듈
+- [캐시 일관성 (Cache Coherency)](/knowledge/os/cache-coherency/) - 장치 레지스터 매핑 시 캐시 비활성화가 필요한 이유

@@ -72,7 +72,5 @@ print(power(R, 3))  # {(1,1), (2,1), (3,1), (4,1)}
 
 - [Binary Relation](/knowledge/mathematics/binary-relation/) - 합성의 대상이 되는 관계
 - [Function](/knowledge/mathematics/function/) - 함수의 합성은 관계 합성의 특수 경우
-- [Set Operation](/knowledge/mathematics/set-operation/) - 관계들 간의 집합 연산
 - [Relation Representation](/knowledge/mathematics/relation-representation/) - 불리언 행렬 곱으로 합성 계산
 - [Closure of Relations](/knowledge/mathematics/closure-of-relations/) - 거듭제곱의 합집합으로 추이적 폐포 정의
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - R^n ⊆ R과 추이성의 동치 증명에 수학적 귀납법 사용

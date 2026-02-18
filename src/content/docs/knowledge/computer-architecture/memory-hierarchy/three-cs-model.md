@@ -40,7 +40,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Write-Through vs Write-Back](/knowledge/computer-architecture/write-through-vs-write-back/)
 - [Cache Coherence](/knowledge/computer-architecture/cache-coherence/)
 - [Translation Lookaside Buffer](/knowledge/computer-architecture/translation-lookaside-buffer/)
 - [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)

@@ -67,6 +67,6 @@ Service 로드 밸런싱 구조:
 
 - [Pod](/knowledge/kubernetes/pod/) - Service가 트래픽을 라우팅하는 대상
 - [LoadBalancer Service](/knowledge/kubernetes/loadbalancer-service/) - 외부 로드 밸런서를 사용하는 Service 유형
-- [NodePort](/knowledge/kubernetes/nodeport/) - 노드 포트를 통한 외부 접근
+- [NodePort](/knowledge/kubernetes/nodeport-service/) - 노드 포트를 통한 외부 접근
 - [Deployment](/knowledge/kubernetes/deployment/) - Service가 expose하는 배포 객체
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - Service의 로드 밸런싱 규칙을 설정하는 컴포넌트

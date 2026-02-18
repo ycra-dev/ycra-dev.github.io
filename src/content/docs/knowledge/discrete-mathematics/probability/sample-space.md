@@ -46,6 +46,5 @@ p(E) = 1 - p(E̅) = 1 - 1/2^10 = 1 - 1/1024 = 1023/1024
 ## 관련 개념
 
 - [Set](/knowledge/mathematics/set/) - 표본공간과 사건은 집합으로 정의됨
-- [Set Operation](/knowledge/mathematics/set-operation/) - 여사건, 합사건, 교사건은 집합 연산에 기반
 - [Combination](/knowledge/mathematics/combination/) - 사건의 원소 수를 셀 때 조합이 사용됨
 - [Probability Distribution](/knowledge/mathematics/probability-distribution/) - 표본공간 위에 확률을 할당하는 함수

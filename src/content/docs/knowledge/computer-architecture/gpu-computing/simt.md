@@ -61,6 +61,5 @@ if (threadIdx.x < 16) {  // path A
 
 - [Warp](/knowledge/computer-architecture/warp/)
 - [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)
 - [SPMD](/knowledge/computer-architecture/spmd/)
 - [CUDA](/knowledge/computer-architecture/cuda/)

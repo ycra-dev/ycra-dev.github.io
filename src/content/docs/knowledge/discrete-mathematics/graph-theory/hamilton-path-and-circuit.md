@@ -83,5 +83,5 @@ for i in range(len(gray_code_3)):
 - [Graph](/knowledge/mathematics/graph/) - 해밀턴 경로/회로가 정의되는 구조
 - [Euler Path and Circuit](/knowledge/mathematics/euler-path-and-circuit/) - 간선 순회(오일러) vs 정점 순회(해밀턴)
 - [Traveling Salesperson Problem](/knowledge/mathematics/traveling-salesperson-problem/) - 최소 가중치 해밀턴 회로
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - NP-완전 문제의 복잡도
-- [Algorithm](/knowledge/mathematics/algorithm/) - 백트래킹 알고리즘
+- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - NP-완전 문제의 복잡도
+- [Algorithm](/knowledge/algorithms/algorithm/) - 백트래킹 알고리즘

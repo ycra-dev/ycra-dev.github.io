@@ -68,4 +68,3 @@ def pascal_triangle(n):
 - [Binomial Theorem](/knowledge/mathematics/binomial-theorem/) - 파스칼 삼각형의 각 행이 이항 전개의 계수
 - [Recursive Definition](/knowledge/mathematics/recursive-definition/) - 이항계수의 재귀적 정의
 - [Combination](/knowledge/mathematics/combination/) - C(n, k)의 조합적 의미
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 조합적 증명과 대수적 증명

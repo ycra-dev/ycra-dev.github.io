@@ -30,6 +30,5 @@ x86은 하위 호환성(backward compatibility)의 "금 수갑"에 의해 형성
 ## 관련 개념
 
 - [ARMv7 Instruction Set](/knowledge/computer-architecture/armv7-instruction-set/)
-- [MIPS Instruction Set](/knowledge/computer-architecture/mips-instruction-set/)
 - [Condition Code](/knowledge/computer-architecture/condition-code/)
 - [SIMD](/knowledge/computer-architecture/simd/)

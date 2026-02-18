@@ -63,5 +63,4 @@ PLA (분할):     ~298 units
 
 - [Finite-State Machine Control](/knowledge/computer-architecture/finite-state-machine-control/)
 - [ROM Control Implementation](/knowledge/computer-architecture/rom-control-implementation/)
-- [Programmable Logic Device (PLD)](/knowledge/computer-architecture/programmable-logic-device-pld/)
 - [Control Unit](/knowledge/computer-architecture/control-unit/)

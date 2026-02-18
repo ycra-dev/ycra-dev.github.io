@@ -44,6 +44,14 @@ sidebar:
 - **장점**: 여러 프로그램을 동시에 실행하여 CPU 활용도와 사용자 만족도 향상
 - **단점**: 프로세스 관리를 위한 오버헤드 발생
 
+## 관련 개념
+
+- [프로세스 상태 (Process State)](/knowledge/os/process-state/) - 프로세스가 거치는 생성, 준비, 실행, 대기, 종료 상태 전이
+- [프로세스 제어 블록 (PCB)](/knowledge/os/pcb/) - 운영체제가 각 프로세스를 관리하기 위해 유지하는 데이터 구조
+- [프로세스 메모리 구조](/knowledge/os/process-memory/) - 프로세스에 할당되는 텍스트, 데이터, 힙, 스택 영역
+- [스레드 (Thread)](/knowledge/os/thread/) - 프로세스 내의 경량 실행 단위
+- [멀티프로그래밍 (Multiprogramming)](/knowledge/os/multiprogramming/) - 여러 프로세스를 메모리에 유지하여 CPU 활용률을 높이는 기법
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 1, p.23, 27-28

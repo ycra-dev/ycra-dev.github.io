@@ -48,6 +48,13 @@ sidebar:
   - 반복 작업에서는 CLI가 더 효율적
   - 시스템 리소스 소비가 CLI보다 큼
 
+## 관련 개념
+
+- [사용자 인터페이스 (User Interface)](/knowledge/os/user-interface/) - GUI를 포함한 운영체제의 사용자 상호작용 방식 전체 개요
+- [명령 인터프리터 (Command Interpreter)](/knowledge/os/command-interpreter/) - GUI와 대비되는 텍스트 기반 명령줄 인터페이스
+- [터치스크린 인터페이스 (Touch-Screen Interface)](/knowledge/os/touch-screen-interface/) - 모바일 환경에서 GUI를 대체하는 제스처 기반 인터페이스
+- [운영체제 서비스 (Operating-System Services)](/knowledge/os/os-services/) - GUI를 통해 사용자에게 제공되는 운영체제의 서비스
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 2, p.59-61

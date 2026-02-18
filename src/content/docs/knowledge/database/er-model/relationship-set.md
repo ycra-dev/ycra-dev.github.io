@@ -42,5 +42,3 @@ instructor ---<advisor>--- student
 - [Entity Set](/knowledge/database/entity-set/)
 - [Entity-Relationship Model](/knowledge/database/entity-relationship-model/)
 - [Mapping Cardinality](/knowledge/database/mapping-cardinality/)
-- [Primary Key (E-R)](/knowledge/database/primary-key-e-r/)
-- [E-R Diagram](/knowledge/database/e-r-diagram/)

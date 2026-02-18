@@ -48,7 +48,5 @@ GROUP BY dept_name;
 
 ## 관련 개념
 
-- [Performance Benchmark](/knowledge/database/performance-benchmark/)
 - [Query Tuning](/knowledge/database/query-tuning/)
 - [Schema Tuning](/knowledge/database/schema-tuning/)
-- [SQL Standard](/knowledge/database/sql-standard/)

@@ -67,3 +67,10 @@ sidebar:
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 1, p.15-19
+
+## 관련 개념
+
+- [분산 시스템 (Distributed System)](/knowledge/os/distributed-system/) - 메모리를 공유하지 않는 프로세서들의 집합으로, 멀티프로세서와 대비되는 구조
+- [VMM CPU 스케줄링 (VMM CPU Scheduling)](/knowledge/os/vmm-cpu-scheduling/) - 멀티프로세서 환경에서 가상 CPU를 물리 CPU에 매핑하는 스케줄링
+- [가상화 (Virtualization)](/knowledge/os/virtualization/) - 멀티프로세서 하드웨어를 여러 가상 환경으로 분할하는 기술
+- [분산 시스템의 확장성 (Scalability)](/knowledge/os/distributed-scalability/) - 프로세서 추가를 통한 수평 확장과 관련된 설계 원칙

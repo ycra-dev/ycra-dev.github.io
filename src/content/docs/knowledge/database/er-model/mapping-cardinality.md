@@ -37,4 +37,3 @@ instructor ←── advisor ════ student
 - [Relationship Set](/knowledge/database/relationship-set/)
 - [Total Participation](/knowledge/database/total-participation/)
 - [Partial Participation](/knowledge/database/partial-participation/)
-- [E-R Diagram](/knowledge/database/e-r-diagram/)

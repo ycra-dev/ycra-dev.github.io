@@ -63,5 +63,4 @@ coefficient = comb(n, j)  # 5200300
 - [Binomial Coefficient](/knowledge/mathematics/binomial-coefficient/) - 이항정리의 핵심 구성요소
 - [Pascal's Identity](/knowledge/mathematics/pascals-identity/) - 이항계수의 재귀적 관계
 - [Combination](/knowledge/mathematics/combination/) - 이항계수 C(n, j)는 조합의 수
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 조합적 증명과 귀납법 증명
 - [Mathematical Induction](/knowledge/mathematics/mathematical-induction/) - 이항정리의 귀납법 증명

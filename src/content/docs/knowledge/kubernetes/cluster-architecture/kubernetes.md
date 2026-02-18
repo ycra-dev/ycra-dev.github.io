@@ -46,5 +46,4 @@ Kubernetes 클러스터는 마스터 노드(Control Plane)와 워커 노드(Work
 - [Control Plane](/knowledge/kubernetes/control-plane/) - Kubernetes 클러스터의 두뇌 역할을 하는 컴포넌트
 - [Workload Plane](/knowledge/kubernetes/workload-plane/) - 실제 워크로드가 실행되는 워커 노드
 - [Declarative Model](/knowledge/kubernetes/declarative-model/) - Kubernetes의 선언적 배포 방식
-- [Microservices Architecture](/knowledge/kubernetes/microservices-architecture/) - Kubernetes가 해결하는 마이크로서비스 관리 문제
 - [Container](/knowledge/kubernetes/container/) - Kubernetes가 관리하는 기본 실행 단위

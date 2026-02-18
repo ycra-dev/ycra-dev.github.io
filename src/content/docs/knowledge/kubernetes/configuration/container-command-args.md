@@ -64,7 +64,6 @@ containers:
 
 ## 관련 개념
 
-- [Environment Variables in Kubernetes](/knowledge/kubernetes/environment-variables-in-kubernetes/) - 명령어 인자에서 환경 변수 참조
 - [Container](/knowledge/kubernetes/container/) - 명령어가 실행되는 단위
 - [Container Image](/knowledge/kubernetes/container-image/) - 기본 ENTRYPOINT와 CMD가 정의되는 곳
 - [Dockerfile](/knowledge/kubernetes/dockerfile/) - 이미지 레벨의 명령어 설정

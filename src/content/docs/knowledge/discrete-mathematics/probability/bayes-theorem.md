@@ -76,4 +76,3 @@ print(f"r(stock, undervalued) = {r2:.3f}")  # ≈ 0.930
 - [Conditional Probability](/knowledge/mathematics/conditional-probability/) - 베이즈 정리는 조건부 확률의 역전
 - [Independence](/knowledge/mathematics/independence/) - 베이지안 스팸 필터에서 단어 독립성 가정
 - [Probability Distribution](/knowledge/mathematics/probability-distribution/) - 사전/사후 확률분포의 갱신
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 조건부 확률과 전확률 법칙을 이용한 증명

@@ -38,3 +38,9 @@ sidebar:
 4. 현재: Microsoft Windows, macOS, Linux에서 동일 기능 사용 가능
 
 고급 레스토랑의 메뉴가 점차 패밀리 레스토랑, 패스트푸드로 퍼지는 것과 유사하다.
+
+## 관련 개념
+
+- [운영체제 (Operating System)](/knowledge/os/operating-system/) - 컴퓨터 하드웨어를 관리하고 응용 프로그램의 실행 기반을 제공하는 소프트웨어
+- [커널 (Kernel)](/knowledge/os/kernel/) - 운영체제의 핵심 프로그램으로 모바일 OS까지 동일한 개념이 적용됨
+- [이중 모드 연산 (Dual-Mode Operation)](/knowledge/os/dual-mode-operation/) - 대형 시스템에서 소형 시스템으로 이동한 대표적인 OS 보호 기능

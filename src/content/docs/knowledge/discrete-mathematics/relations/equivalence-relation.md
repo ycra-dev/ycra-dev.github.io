@@ -87,4 +87,3 @@ print(is_equivalence_relation(R, A))
 - [Binary Relation](/knowledge/mathematics/binary-relation/) - 동치관계는 특수한 이항 관계
 - [Equivalence Class and Partition](/knowledge/mathematics/equivalence-class-and-partition/) - 동치관계가 만드는 동치류와 분할
 - [Partial Ordering](/knowledge/mathematics/partial-ordering/) - 대칭 대신 반대칭을 사용하면 반순서
-- [Predicate Logic](/knowledge/mathematics/predicate-logic/) - 양화자를 사용한 동치관계의 형식적 정의

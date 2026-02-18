@@ -67,6 +67,5 @@ kubectl delete pod quiz-0
 ## 관련 개념
 
 - [StatefulSet](/knowledge/kubernetes/statefulset/) - 업데이트 전략이 적용되는 대상
-- [RollingUpdate Strategy](/knowledge/kubernetes/rollingupdate-strategy/) - Deployment의 롤링 업데이트와 비교
 - [Canary Deployment](/knowledge/kubernetes/canary-deployment/) - Partition을 이용한 Canary 효과
 - [StatefulSet At-Most-One Semantics](/knowledge/kubernetes/statefulset-at-most-one-semantics/) - maxSurge를 지원하지 않는 이유

@@ -93,8 +93,6 @@ kubectl apply -f pv.quiz-data.gcepd.yaml
 
 ## 관련 개념
 
-- [PersistentVolumeClaim](/knowledge/kubernetes/persistentvolumeclaim/) - PV를 사용하기 위해 생성하는 클레임
-- [StorageClass](/knowledge/kubernetes/storageclass/) - 동적 프로비저닝에서 PV 생성을 지시하는 클래스
 - [Access Modes](/knowledge/kubernetes/access-modes/) - PV의 접근 모드 정의
 - [Reclaim Policy](/knowledge/kubernetes/reclaim-policy/) - PV 릴리즈 시 처리 정책
 - [Volume](/knowledge/kubernetes/volume/) - PV가 추상화하는 기본 볼륨 개념

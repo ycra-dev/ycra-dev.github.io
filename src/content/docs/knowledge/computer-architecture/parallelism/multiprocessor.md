@@ -43,7 +43,6 @@ sidebar:
 ## 관련 개념
 
 - [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
-- [Task-Level Parallelism](/knowledge/computer-architecture/task-level-parallelism/)
 - [Strong Scaling](/knowledge/computer-architecture/strong-scaling/)
 - [Weak Scaling](/knowledge/computer-architecture/weak-scaling/)
 - [Hardware Multithreading](/knowledge/computer-architecture/hardware-multithreading/)

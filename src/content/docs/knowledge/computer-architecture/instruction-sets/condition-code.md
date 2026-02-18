@@ -37,4 +37,3 @@ bne  $t0, $zero, Label
 
 - [ARMv7 Instruction Set](/knowledge/computer-architecture/armv7-instruction-set/)
 - [x86 Instruction Set](/knowledge/computer-architecture/x86-instruction-set/)
-- [MIPS Instruction Set](/knowledge/computer-architecture/mips-instruction-set/)

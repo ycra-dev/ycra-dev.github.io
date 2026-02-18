@@ -68,3 +68,11 @@ process_data(buf);
 **Non-blocking:**
 - 장점: 스레드가 다른 작업 가능, 반응성 좋음
 - 단점: 폴링 필요, 코드 복잡도 증가
+
+## 관련 개념
+
+- [Polling](/knowledge/os/polling/) - CPU가 장치 상태를 반복 확인하는 I/O 방식으로, 논블로킹 I/O에서 데이터 준비 여부를 확인할 때 사용
+- [Interrupt-Driven I/O](/knowledge/os/interrupt-driven-io/) - 장치가 준비되면 인터럽트로 알리는 방식으로, 블로킹 I/O의 대기 후 깨우기에 활용
+- [DMA (Direct Memory Access)](/knowledge/os/dma/) - CPU 개입 없이 대량 데이터를 전송하여 블로킹 대기 시간을 줄이는 기법
+- [UNIX 파일 디스크립터](/knowledge/os/unix-file-descriptor/) - read()/write() 시스템 콜에서 블로킹/논블로킹 모드를 설정하는 핸들
+- [버퍼링 (Buffering)](/knowledge/os/buffering/) - 속도 차이를 해소하는 임시 메모리 영역으로, 논블로킹 I/O와 함께 사용하여 효율을 높임

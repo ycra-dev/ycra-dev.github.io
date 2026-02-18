@@ -50,5 +50,4 @@ CDN은 서버 클러스터의 형태로 구현되며, 전송 계층 스위치나
 - [Distributed System](/knowledge/distributed-systems/distributed-system/)
 - [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
 - [Scalability](/knowledge/distributed-systems/scalability/)
-- [Replication](/knowledge/distributed-systems/replication/)
 - [Server Cluster](/knowledge/distributed-systems/server-cluster/)

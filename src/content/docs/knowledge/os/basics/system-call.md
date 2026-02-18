@@ -45,6 +45,14 @@ sidebar:
 |------|------|
 | 사용자 프로그램이 안전하게 OS 서비스 접근 | mode 전환으로 인한 오버헤드 발생 |
 
+## 관련 개념
+
+- [시스템 콜 유형 (System Call Types)](/knowledge/os/system-call-types/) - 시스템 콜의 6가지 주요 범주별 분류
+- [트랩 (Trap)](/knowledge/os/trap/) - 시스템 콜 실행 시 발생하는 소프트웨어 생성 인터럽트
+- [이중 모드 연산 (Dual-Mode Operation)](/knowledge/os/dual-mode-operation/) - 시스템 콜을 통한 사용자 모드-커널 모드 전환 메커니즘
+- [시스템 콜 인터페이스 (System-call Interface)](/knowledge/os/system-call-interface/) - 시스템 콜에 대한 연결 역할을 하는 인터페이스
+- [API (Application Programming Interface)](/knowledge/os/api/) - 시스템 콜을 추상화하여 프로그래머에게 제공하는 함수 집합
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 1, p.26

@@ -33,8 +33,3 @@ SRAM 기반 방식과의 비교:
 - SRAM: 휘발성, 재프로그래밍 가능, 약간 높은 저항
 ```
 
-## 관련 개념
-
-- [Field Programmable Gate Array (FPGA)](/knowledge/computer-architecture/field-programmable-gate-array-fpga/)
-- [Programmable Logic Device (PLD)](/knowledge/computer-architecture/programmable-logic-device-pld/)
-- [Lookup Table (LUT)](/knowledge/computer-architecture/lookup-table-lut/)

@@ -41,5 +41,3 @@ assign CarryOut = (A & B) | (A & CarryIn) | (B & CarryIn);
 
 - [Combinational Logic](/knowledge/computer-architecture/combinational-logic/)
 - [Sequential Logic](/knowledge/computer-architecture/sequential-logic/)
-- [Logic Gates](/knowledge/computer-architecture/logic-gates/)
-- [ALU](/knowledge/computer-architecture/alu/)

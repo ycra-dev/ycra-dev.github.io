@@ -40,6 +40,5 @@ vfmadd231pd %zmm0, %zmm1, %zmm2  # zmm2 = zmm0 * zmm1 + zmm2
 - [IEEE 754 Standard](/knowledge/computer-architecture/ieee-754-standard/)
 - [Subword Parallelism](/knowledge/computer-architecture/subword-parallelism/)
 - [DGEMM](/knowledge/computer-architecture/dgemm/)
-- [Multiply-Add (MAD)](/knowledge/computer-architecture/multiply-add-mad/)
 - [Streaming Processor](/knowledge/computer-architecture/streaming-processor/)
 - [Half Precision](/knowledge/computer-architecture/half-precision/)

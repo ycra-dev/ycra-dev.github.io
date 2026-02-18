@@ -32,5 +32,4 @@ ALUOp | Funct Field | ALU Control | 연산
 
 - [Control Unit](/knowledge/computer-architecture/control-unit/)
 - [Datapath](/knowledge/computer-architecture/datapath/)
-- [R-Format Instruction](/knowledge/computer-architecture/r-format-instruction/)
-- [Truth Table](/knowledge/computer-architecture/truth-table/)
+- [Truth Table](/knowledge/mathematics/truth-table/)

@@ -69,5 +69,3 @@ print(is_congruent(24, 14, 6))  # False
 - [Modular Arithmetic](/knowledge/mathematics/modular-arithmetic/) - 합동에 기반한 산술 체계
 - [Chinese Remainder Theorem](/knowledge/mathematics/chinese-remainder-theorem/) - 연립 합동식의 풀이
 - [Fermat's Little Theorem](/knowledge/mathematics/fermats-little-theorem/) - 소수 모듈러 합동의 핵심 정리
-- [Predicate Logic](/knowledge/mathematics/predicate-logic/) - 합동의 양화사 표현: ∃c(ac = b)
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 합동 성질의 직접 증명

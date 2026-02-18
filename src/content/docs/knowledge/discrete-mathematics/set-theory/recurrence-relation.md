@@ -98,7 +98,6 @@ print(fib_iterative(10))  # 55
 
 - [Sequence](/knowledge/mathematics/sequence/) - 수열의 일반적 정의와 표기법
 - [Function](/knowledge/mathematics/function/) - 점화식으로 정의된 수열도 함수
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 귀납법을 이용한 점화식 해의 검증
 - [Rules of Inference](/knowledge/mathematics/rules-of-inference/) - 점화식의 논리적 구조
 - [Recursive Definition](/knowledge/mathematics/recursive-definition/) - 점화식은 수열의 재귀적 정의에서 핵심 규칙
 - [Mathematical Induction](/knowledge/mathematics/mathematical-induction/) - 점화식에서 얻은 명시적 공식을 증명하는 데 사용

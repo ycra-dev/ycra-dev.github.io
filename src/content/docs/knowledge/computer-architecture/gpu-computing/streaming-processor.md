@@ -59,5 +59,3 @@ SM (8 SP) 전체:
 - [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)
 - [SIMT](/knowledge/computer-architecture/simt/)
 - [PTX ISA](/knowledge/computer-architecture/ptx-isa/)
-- [Special Function Unit (SFU)](/knowledge/computer-architecture/special-function-unit-sfu/)
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)

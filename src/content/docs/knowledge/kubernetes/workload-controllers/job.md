@@ -74,5 +74,4 @@ kubectl patch job demo-suspend -p '{"spec":{"suspend": true}}'
 - [CronJob](/knowledge/kubernetes/cronjob/) - Job을 스케줄에 따라 실행하는 래퍼 오브젝트
 - [Job Completions and Parallelism](/knowledge/kubernetes/job-completions-and-parallelism/) - 병렬 실행과 다중 완료 설정
 - [Job Failure Handling](/knowledge/kubernetes/job-failure-handling/) - 실패 처리 메커니즘
-- [Pod Lifecycle](/knowledge/kubernetes/pod-lifecycle/) - Job Pod의 특수한 생명주기
 - [Init Container](/knowledge/kubernetes/init-container/) - Job Pod에서 초기화 작업에 사용

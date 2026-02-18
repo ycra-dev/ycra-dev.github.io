@@ -63,7 +63,6 @@ IP 멀티캐스팅 예:
 
 ## 관련 개념
 
-- [Tree (Graph Theory)](/knowledge/mathematics/tree-graph-theory/) - 신장 트리의 기반 개념
 - [Graph](/knowledge/mathematics/graph/) - 신장 트리가 구축되는 원래 그래프
 - [Depth-First Search](/knowledge/mathematics/depth-first-search/) - 신장 트리 구축 알고리즘
 - [Breadth-First Search](/knowledge/mathematics/breadth-first-search/) - 신장 트리 구축 알고리즘

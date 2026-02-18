@@ -38,5 +38,3 @@ sidebar:
 
 - [Edge-Triggered Clocking](/knowledge/computer-architecture/edge-triggered-clocking/)
 - [Flip-Flop](/knowledge/computer-architecture/flip-flop/)
-- [Synchronous System](/knowledge/computer-architecture/synchronous-system/)
-- [Metastability](/knowledge/computer-architecture/metastability/)

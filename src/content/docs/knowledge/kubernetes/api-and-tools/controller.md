@@ -74,5 +74,4 @@ LAST SEEN  TYPE    REASON     OBJECT           MESSAGE
 - [Control Plane](/knowledge/kubernetes/control-plane/) - 컨트롤러가 실행되는 영역
 - [Event Object](/knowledge/kubernetes/event-object/) - 컨트롤러가 작업 수행 시 생성하는 이벤트
 - [Deployment](/knowledge/kubernetes/deployment/) - Deployment Controller가 관리하는 객체
-- [Kubernetes Scheduler](/knowledge/kubernetes/kubernetes-scheduler/) - 특수한 유형의 컨트롤러
 - [Kubelet](/knowledge/kubernetes/kubelet/) - 워커 노드에서 실행되는 컨트롤러

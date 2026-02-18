@@ -39,6 +39,4 @@ LUT 내용 (주소 → 출력):
 
 ## 관련 개념
 
-- [Field Programmable Gate Array (FPGA)](/knowledge/computer-architecture/field-programmable-gate-array-fpga/)
-- [Programmable Logic Device (PLD)](/knowledge/computer-architecture/programmable-logic-device-pld/)
 - [Combinational Element](/knowledge/computer-architecture/combinational-element/)

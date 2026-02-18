@@ -88,3 +88,10 @@ import ArchitectureStack from '../../../../../components/ArchitectureStack.astro
 - 디스크 공간 사용
 - 지연 시간 (실제 출력까지 대기 필요)
 - spool 영역 가득 차면 새 작업 거부될 수 있음
+
+## 관련 개념
+
+- [버퍼링 (Buffering)](/knowledge/os/buffering/) - 메모리를 임시 저장소로 사용하는 기법으로, 스풀링은 디스크를 버퍼로 사용
+- [I/O 스케줄링](/knowledge/os/io-scheduling/) - 대기 중인 I/O 요청의 순서를 최적화하는 기법
+- [디바이스 드라이버](/knowledge/os/device-driver/) - 스풀링 대상인 전용 장치(프린터 등)를 제어하는 커널 모듈
+- [블로킹 vs 논블로킹 I/O](/knowledge/os/blocking-nonblocking-io/) - 스풀링으로 애플리케이션이 I/O 완료를 기다리지 않고 비동기 처리 가능

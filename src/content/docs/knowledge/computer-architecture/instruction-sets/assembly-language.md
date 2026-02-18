@@ -36,8 +36,8 @@ beq  $t0, $t1, Label  # if ($t0 == $t1) goto Label
 ## 관련 개념
 
 - [Machine Language](/knowledge/computer-architecture/machine-language/)
-- [Compiler](/knowledge/computer-architecture/compiler/)
+- [Compiler](/knowledge/language/compiler/)
 - [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
 - [Register](/knowledge/computer-architecture/register/)
-- [Assembler](/knowledge/computer-architecture/assembler/)
+- [Assembler](/knowledge/language/assembler/)
 - [Pseudoinstruction](/knowledge/computer-architecture/pseudoinstruction/)

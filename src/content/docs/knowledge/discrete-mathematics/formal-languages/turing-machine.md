@@ -91,6 +91,5 @@ f(s, x)가 정의되지 않은 경우(부분 함수이므로) 기계는 **정지
 
 - [Finite-State Automaton](/knowledge/mathematics/finite-state-automaton/): 튜링 기계보다 제한적인 계산 모델
 - [Chomsky Hierarchy](/knowledge/mathematics/chomsky-hierarchy/): Type 0 문법과 튜링 기계의 동치
-- [Decidability and Halting Problem](/knowledge/mathematics/decidability-and-halting-problem/): 튜링 기계로 풀 수 없는 문제
-- [P vs NP](/knowledge/mathematics/p-vs-np/): 결정적/비결정적 튜링 기계를 이용한 복잡도 분류
-- [Algorithm](/knowledge/mathematics/algorithm/): 처치-튜링 논제에 의해 모든 효과적 알고리즘은 튜링 기계로 구현 가능
+- [P vs NP](/knowledge/algorithms/p-vs-np/): 결정적/비결정적 튜링 기계를 이용한 복잡도 분류
+- [Algorithm](/knowledge/algorithms/algorithm/): 처치-튜링 논제에 의해 모든 효과적 알고리즘은 튜링 기계로 구현 가능

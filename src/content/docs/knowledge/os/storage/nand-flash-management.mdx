@@ -82,3 +82,11 @@ WA가 높으면 쓰기 수명이 감소하고 성능이 저하된다.
 ## 예시
 
 256GB SSD에서 200GB만 사용자에게 보임 (56GB = OP). 파일 삭제 시 TRIM 명령으로 OS가 SSD에 알려주면, SSD가 해당 페이지를 무효로 표시하고 다음 GC 때 정리한다.
+
+## 관련 개념
+
+- [SSD (Solid-State Drive)](/knowledge/os/ssd/) - NAND 플래시 관리 알고리즘이 동작하는 저장장치의 전체 구조
+- [논리 블록 주소 (LBA)](/knowledge/os/lba/) - FTL이 변환하는 논리 주소 체계
+- [오류 검출과 정정 (ECC)](/knowledge/os/ecc/) - NAND 페이지 단위로 적용되는 비트 오류 정정 기법
+- [HDD (Hard Disk Drive)](/knowledge/os/hdd/) - FTL이 SSD를 HDD처럼 동작하게 만드는 대상 장치 모델
+- [I/O 스케줄링](/knowledge/os/io-scheduling/) - SSD에서는 NOOP 스케줄러가 적합한 이유와 관련된 I/O 최적화

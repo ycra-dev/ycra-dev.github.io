@@ -78,4 +78,3 @@ names_gpa = projection(set(map(tuple, students)), [0, 3])
 - [Binary Relation](/knowledge/mathematics/binary-relation/) - n항 관계는 이항 관계의 일반화
 - [Set](/knowledge/mathematics/set/) - 관계는 카르테시안 곱의 부분집합
 - [Function](/knowledge/mathematics/function/) - 기본 키가 있는 n항 관계는 함수의 그래프와 유사
-- [Set Operation](/knowledge/mathematics/set-operation/) - 선택, 사영, 조인 등의 관계 연산

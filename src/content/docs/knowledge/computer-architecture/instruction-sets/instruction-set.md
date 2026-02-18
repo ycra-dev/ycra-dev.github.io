@@ -35,5 +35,5 @@ MIPS 명령어 집합의 주요 카테고리:
 - [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
 - [Assembly Language](/knowledge/computer-architecture/assembly-language/)
 - [Machine Language](/knowledge/computer-architecture/machine-language/)
-- [Compiler](/knowledge/computer-architecture/compiler/)
+- [Compiler](/knowledge/language/compiler/)
 - [Register](/knowledge/computer-architecture/register/)

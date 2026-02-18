@@ -86,3 +86,11 @@ import StepFlow from '../../../../../components/StepFlow.astro';
 - 파일명과 메타데이터 분리로 하드 링크 지원
 - 작은 파일은 직접 블록으로 빠른 접근, 큰 파일도 간접 블록으로 효율적 지원
 - 단점: 큰 파일 접근 시 간접 블록 추가 I/O 발생, 아이노드 개수 고정(Version 7)
+
+## 관련 개념
+
+- [VFS (Virtual File System)](/knowledge/os/vfs/) - 디스크 아이노드를 in-core inode 객체로 추상화하는 가상 파일 시스템 계층
+- [UNIX 파일 디스크립터](/knowledge/os/unix-file-descriptor/) - fd → file → inode 참조 체인으로 아이노드에 접근하는 핸들
+- [BSD 실린더 그룹](/knowledge/os/bsd-cylinder-group/) - 아이노드와 데이터 블록을 인접 배치하여 seek를 줄이는 할당 단위
+- [NTFS 구조](/knowledge/os/ntfs-structure/) - UNIX 아이노드에 대응하는 MFT Entry 기반의 Windows 파일 메타데이터 구조
+- [저널링 파일 시스템](/knowledge/os/journaling/) - 아이노드 등 메타데이터 변경을 로그로 보호하는 크래시 복구 기법

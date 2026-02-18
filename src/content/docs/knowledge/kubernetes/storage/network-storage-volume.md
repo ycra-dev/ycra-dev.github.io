@@ -83,8 +83,6 @@ kubectl get node <node-name> -o json | jq .status.volumesAttached
 ## 관련 개념
 
 - [Volume](/knowledge/kubernetes/volume/) - 네트워크 스토리지 볼륨이 속하는 상위 개념
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - 인프라 세부사항을 추상화한 스토리지 리소스
-- [PersistentVolumeClaim](/knowledge/kubernetes/persistentvolumeclaim/) - 네트워크 스토리지를 간접적으로 참조하는 방법
 - [Access Modes](/knowledge/kubernetes/access-modes/) - 네트워크 볼륨의 동시 접근 모드를 정의
 - [emptyDir Volume](/knowledge/kubernetes/emptydir-volume/) - Pod 수명에 종속되는 임시 볼륨과의 대비
 - [hostPath Volume](/knowledge/kubernetes/hostpath-volume/) - 노드 로컬 스토리지와의 대비

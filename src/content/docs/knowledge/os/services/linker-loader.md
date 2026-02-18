@@ -67,6 +67,13 @@ sidebar:
 | **정적 링킹** | 실행 시 외부 의존성 없음, 배포 간편 | 실행 파일 크기 증가, 라이브러리 업데이트 시 재컴파일 필요 |
 | **동적 링킹** | 실행 파일 크기 감소, 메모리 공유 가능, 라이브러리 독립적 업데이트 가능 | 런타임 의존성, DLL 버전 충돌 가능성(DLL Hell) |
 
+## 관련 개념
+
+- [시스템 부팅 (System Boot)](/knowledge/os/system-boot/) - 커널을 메모리에 로드하는 과정으로 로더의 개념이 적용됨
+- [시스템 프로그램 (System Programs)](/knowledge/os/system-programs/) - 링커와 로더를 포함하는 프로그램 적재 및 실행 관련 시스템 유틸리티
+- [시스템 콜 유형 (System Call Types)](/knowledge/os/system-call-types/) - fork(), exec() 등 프로세스 제어 시스템 콜로 로더가 실행됨
+- [폰 노이만 아키텍처 (Von Neumann Architecture)](/knowledge/os/von-neumann-architecture/) - 프로그램이 메모리에 적재되어야 실행 가능한 기반 아키텍처
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 2, p.75-77

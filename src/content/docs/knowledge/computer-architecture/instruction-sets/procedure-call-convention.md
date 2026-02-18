@@ -38,7 +38,4 @@ $ra (31):        복귀 주소
 
 ## 관련 개념
 
-- [Stack Frame](/knowledge/computer-architecture/stack-frame/)
 - [Register File](/knowledge/computer-architecture/register-file/)
-- [MIPS Architecture](/knowledge/computer-architecture/mips-architecture/)
-- [Recursive Procedures](/knowledge/computer-architecture/recursive-procedures/)

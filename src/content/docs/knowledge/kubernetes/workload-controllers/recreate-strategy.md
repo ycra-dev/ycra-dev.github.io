@@ -49,5 +49,4 @@ kubectl set image deployment kiada kiada=luksa/kiada:0.6
 ## 관련 개념
 
 - [Deployment](/knowledge/kubernetes/deployment/) - Recreate 전략이 적용되는 오브젝트
-- [RollingUpdate Strategy](/knowledge/kubernetes/rollingupdate-strategy/) - 서비스 중단 없는 대안 전략
 - [ReplicaSet](/knowledge/kubernetes/replicaset/) - Deployment가 내부적으로 ReplicaSet을 조작하여 전략 수행

@@ -33,5 +33,5 @@ sidebar:
 
 - [CPU Performance Equation](/knowledge/computer-architecture/cpu-performance-equation/)
 - [CPI](/knowledge/computer-architecture/cpi/)
-- [Compiler](/knowledge/computer-architecture/compiler/)
+- [Compiler](/knowledge/language/compiler/)
 - [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)

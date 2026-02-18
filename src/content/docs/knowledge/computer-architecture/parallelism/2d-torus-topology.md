@@ -33,6 +33,4 @@ TPUv3 32x32 2D 토러스:
 ## 관련 개념
 
 - [TPUv3 Supercomputer](/knowledge/computer-architecture/tpuv3-supercomputer/)
-- [Interconnect Network](/knowledge/computer-architecture/interconnect-network/)
-- [All-Reduce](/knowledge/computer-architecture/all-reduce/)
 - [Bisection Bandwidth](/knowledge/computer-architecture/bisection-bandwidth/)

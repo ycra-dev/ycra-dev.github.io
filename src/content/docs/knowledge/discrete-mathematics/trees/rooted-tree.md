@@ -60,7 +60,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Tree (Graph Theory)](/knowledge/mathematics/tree-graph-theory/) - 루트 트리의 기반이 되는 트리 개념
 - [Binary Search Tree](/knowledge/mathematics/binary-search-tree/) - 이진 트리의 대표적 응용
 - [Tree Traversal](/knowledge/mathematics/tree-traversal/) - 루트 트리의 정점 방문 순서
 - [Decision Tree](/knowledge/mathematics/decision-tree/) - 의사결정을 모델링하는 루트 트리

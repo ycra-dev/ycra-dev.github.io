@@ -46,5 +46,4 @@ tex2D(sampler, float2(0.5, 0.7))
 
 - [Shader](/knowledge/computer-architecture/shader/)
 - [MIP-map](/knowledge/computer-architecture/mip-map/)
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)
 - [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)

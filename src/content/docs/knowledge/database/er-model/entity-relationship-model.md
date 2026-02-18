@@ -47,7 +47,5 @@ CREATE TABLE instructor (
 
 - [Entity Set](/knowledge/database/entity-set/)
 - [Relationship Set](/knowledge/database/relationship-set/)
-- [Attribute (E-R)](/knowledge/database/attribute-e-r/)
-- [E-R Diagram](/knowledge/database/e-r-diagram/)
 - [Weak Entity Set](/knowledge/database/weak-entity-set/)
 - [Mapping Cardinality](/knowledge/database/mapping-cardinality/)

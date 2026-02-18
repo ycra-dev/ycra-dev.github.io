@@ -52,3 +52,10 @@ command_register = WRITE_COMMAND;
 - 장치가 느리면 CPU 사이클 낭비 (busy-waiting)
 - 대기 중 다른 작업 수행 불가
 - 고처리량 I/O에서는 인터럽트보다 효율적일 수 있음 (하이브리드 전략)
+
+## 관련 개념
+
+- [Interrupt-Driven I/O](/knowledge/os/interrupt-driven-io/) - 폴링의 대안으로, 장치가 준비되면 CPU에 인터럽트로 알리는 방식
+- [DMA (Direct Memory Access)](/knowledge/os/dma/) - 폴링과 인터럽트의 한계를 넘어 대량 데이터를 효율적으로 전송하는 기법
+- [Memory-Mapped I/O](/knowledge/os/memory-mapped-io/) - 폴링 시 장치 상태 레지스터를 메모리 주소로 읽는 방식
+- [블로킹 vs 논블로킹 I/O](/knowledge/os/blocking-nonblocking-io/) - 논블로킹 I/O에서 데이터 준비 여부를 폴링으로 확인

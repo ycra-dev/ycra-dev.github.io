@@ -73,4 +73,3 @@ f: Z → Z, f(x) = x²
 - [Function Composition](/knowledge/mathematics/function-composition/) - 합성함수의 단사/전사 보존 성질
 - [Cardinality](/knowledge/mathematics/cardinality/) - 전단사함수로 집합의 크기 비교
 - [Set](/knowledge/mathematics/set/) - 함수의 정의역/공역으로서의 집합
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 단사/전사 증명에 사용되는 증명 기법

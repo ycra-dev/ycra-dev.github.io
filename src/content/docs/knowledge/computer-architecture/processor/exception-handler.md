@@ -39,7 +39,4 @@ MIPS 프로세서에서 예외와 인터럽트는 코프로세서 0이 처리한
 
 ## 관련 개념
 
-- [Interrupt](/knowledge/computer-architecture/interrupt/)
-- [Coprocessor](/knowledge/computer-architecture/coprocessor/)
-- [MIPS Architecture](/knowledge/computer-architecture/mips-architecture/)
 - [Operating System](/knowledge/computer-architecture/operating-system/)

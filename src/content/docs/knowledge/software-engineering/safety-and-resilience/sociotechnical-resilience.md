@@ -24,5 +24,4 @@ Mentcare 시스템에서 기술적 보호 장치(인증, 암호화)만으로는 
 - [Sociotechnical Systems](/knowledge/software-engineering/sociotechnical-systems/)
 - [Swiss Cheese Model](/knowledge/software-engineering/swiss-cheese-model/)
 - [Dependable Processes](/knowledge/software-engineering/dependable-processes/)
-- [Recognition, Resistance, Recovery, and Reinstatement](/knowledge/software-engineering/recognition-resistance-recovery-and-reinstatement/)
 - [Resilient Systems Design](/knowledge/software-engineering/resilient-systems-design/)

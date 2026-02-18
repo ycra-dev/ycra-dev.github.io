@@ -41,8 +41,6 @@ endmodule
 
 ## 관련 개념
 
-- [Lookup Table (LUT)](/knowledge/computer-architecture/lookup-table-lut/)
-- [Programmable Logic Device (PLD)](/knowledge/computer-architecture/programmable-logic-device-pld/)
 - [Antifuse](/knowledge/computer-architecture/antifuse/)
 - [Combinational Element](/knowledge/computer-architecture/combinational-element/)
 - [State Element](/knowledge/computer-architecture/state-element/)

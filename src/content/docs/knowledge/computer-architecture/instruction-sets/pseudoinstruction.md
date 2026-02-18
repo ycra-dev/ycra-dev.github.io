@@ -34,5 +34,4 @@ bne $at, $zero, Label  # branch if $at != 0
 ## 관련 개념
 
 - [Assembly Language](/knowledge/computer-architecture/assembly-language/)
-- [Assembler](/knowledge/computer-architecture/assembler/)
-- [MIPS Instruction Set](/knowledge/computer-architecture/mips-instruction-set/)
+- [Assembler](/knowledge/language/assembler/)

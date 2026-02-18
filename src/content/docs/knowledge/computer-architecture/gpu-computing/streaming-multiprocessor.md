@@ -44,9 +44,7 @@ SM 리소스 할당 예시:
 
 ## 관련 개념
 
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)
 - [SIMT](/knowledge/computer-architecture/simt/)
 - [Warp](/knowledge/computer-architecture/warp/)
 - [Streaming Processor](/knowledge/computer-architecture/streaming-processor/)
-- [Special Function Unit (SFU)](/knowledge/computer-architecture/special-function-unit-sfu/)
 - [Thread Block](/knowledge/computer-architecture/thread-block/)

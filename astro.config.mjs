@@ -42,11 +42,22 @@ export default defineConfig({
 					items: [
 						{ slug: 'knowledge' },
 						// { label: 'Database', collapsed: true, autogenerate: { directory: 'knowledge/database' } },
-						// { label: 'Language', collapsed: true, autogenerate: { directory: 'knowledge/language' } },
+						{
+							label: 'Language',
+							collapsed: true,
+							items: [
+								{ slug: 'knowledge/language' },
+								{ label: '컴파일 & 툴체인', collapsed: true, autogenerate: { directory: 'knowledge/language/compilation-toolchain' } },
+							],
+						},
 						{
 							label: 'Network',
 							collapsed: true,
-							autogenerate: { directory: 'knowledge/network' },
+							items: [
+								{ slug: 'knowledge/network' },
+								{ label: 'DNS', collapsed: true, autogenerate: { directory: 'knowledge/network/dns' } },
+								{ label: 'Email', collapsed: true, autogenerate: { directory: 'knowledge/network/email' } },
+							],
 						},
 						{
 							label: 'OS',

@@ -84,6 +84,5 @@ restartPolicy에 따른 Pod 상태 차이:
 ## 관련 개념
 
 - [Job](/knowledge/kubernetes/job/) - 실패 처리가 적용되는 오브젝트
-- [Pod Lifecycle](/knowledge/kubernetes/pod-lifecycle/) - restartPolicy의 역할
 - [Liveness Probe](/knowledge/kubernetes/liveness-probe/) - 컨테이너 수준의 건강 확인
 - [Job Completions and Parallelism](/knowledge/kubernetes/job-completions-and-parallelism/) - 실패가 completions에 미치는 영향

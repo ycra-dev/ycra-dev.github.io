@@ -52,4 +52,3 @@ sidebar:
 - [Texture](/knowledge/computer-architecture/texture/)
 - [Shader](/knowledge/computer-architecture/shader/)
 - [Fused Multiply-Add](/knowledge/computer-architecture/fused-multiply-add/)
-- [Multiply-Add (MAD)](/knowledge/computer-architecture/multiply-add-mad/)

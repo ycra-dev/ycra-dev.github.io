@@ -61,4 +61,4 @@ Nim 게임: 초기 위치 (2, 2, 1) - 세 더미의 돌
 - [Decision Tree](/knowledge/mathematics/decision-tree/) - 게임 트리는 결정 트리의 일종
 - [Rooted Tree](/knowledge/mathematics/rooted-tree/) - 게임 트리의 기반 구조
 - [Recursive Algorithm](/knowledge/mathematics/recursive-algorithm/) - 민맥스 전략의 재귀적 계산
-- [Algorithm](/knowledge/mathematics/algorithm/) - 알파-베타 가지치기 등 게임 트리 알고리즘
+- [Algorithm](/knowledge/algorithms/algorithm/) - 알파-베타 가지치기 등 게임 트리 알고리즘

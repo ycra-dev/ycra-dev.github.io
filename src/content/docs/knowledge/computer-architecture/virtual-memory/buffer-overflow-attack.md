@@ -35,4 +35,4 @@ void copyinput(char *input) {
 ## 관련 개념
 
 - [Stored Program Concept](/knowledge/computer-architecture/stored-program-concept/)
-- [Object-Oriented Language](/knowledge/computer-architecture/object-oriented-language/)
+- [Object-Oriented Language](/knowledge/language/object-oriented-language/)

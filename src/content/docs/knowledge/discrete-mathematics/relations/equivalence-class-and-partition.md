@@ -89,5 +89,4 @@ C 언어 식별자 예시:
 
 - [Equivalence Relation](/knowledge/mathematics/equivalence-relation/) - 동치류를 정의하는 동치관계
 - [Set](/knowledge/mathematics/set/) - 동치류는 집합이며 분할은 집합의 모음
-- [Set Operation](/knowledge/mathematics/set-operation/) - 동치류 간의 서로소 성질
 - [Partial Ordering](/knowledge/mathematics/partial-ordering/) - 분할의 세분화(refinement)는 반순서를 이룸

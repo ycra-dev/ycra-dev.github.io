@@ -81,6 +81,5 @@ DFS (시작 정점: f):
 - [Spanning Tree](/knowledge/mathematics/spanning-tree/) - DFS의 결과물인 신장 트리
 - [Breadth-First Search](/knowledge/mathematics/breadth-first-search/) - DFS와 대비되는 그래프 탐색 알고리즘
 - [Graph](/knowledge/mathematics/graph/) - DFS의 입력 그래프
-- [Graph Coloring](/knowledge/mathematics/graph-coloring/) - 백트래킹으로 해결하는 문제
-- [Hamilton Path](/knowledge/mathematics/hamilton-path/) - 백트래킹으로 탐색하는 경로 문제
+- [Hamilton Path](/knowledge/mathematics/hamilton-path-and-circuit/) - 백트래킹으로 탐색하는 경로 문제
 - [Recursive Algorithm](/knowledge/mathematics/recursive-algorithm/) - DFS의 재귀적 구조

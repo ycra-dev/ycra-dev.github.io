@@ -87,8 +87,5 @@ kubectl describe pvc quiz-data-default
 
 ## 관련 개념
 
-- [StorageClass](/knowledge/kubernetes/storageclass/) - 동적 프로비저닝의 설정을 정의하는 오브젝트
-- [PersistentVolumeClaim](/knowledge/kubernetes/persistentvolumeclaim/) - 동적 프로비저닝을 트리거하는 요청
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - 동적으로 생성되는 스토리지 리소스
 - [Reclaim Policy](/knowledge/kubernetes/reclaim-policy/) - 동적 프로비저닝된 PV의 기본 Delete 정책
 - [Volume Binding Mode](/knowledge/kubernetes/volume-binding-mode/) - 프로비저닝 시점을 제어하는 설정

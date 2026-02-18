@@ -66,4 +66,3 @@ kubectl exec -it pod-name -- /bin/bash
 - [Container](/knowledge/linux/container/)
 - [Docker](/knowledge/linux/docker/)
 - [Service Discovery](/knowledge/linux/service-discovery/)
-- [Continuous Integration and Delivery](/knowledge/linux/continuous-integration-and-delivery/)

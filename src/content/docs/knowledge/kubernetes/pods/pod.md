@@ -102,7 +102,6 @@ kubectl describe pod kiada
 - [Service](/knowledge/kubernetes/service/) - Pod에 대한 안정적인 통신 진입점 제공
 - [Container](/knowledge/kubernetes/container/) - Pod 내에서 실행되는 실제 프로세스
 - [Linux Namespaces](/knowledge/kubernetes/linux-namespaces/) - Pod 내 컨테이너 간 공유되는 격리 메커니즘
-- [Kubernetes Scheduler](/knowledge/kubernetes/kubernetes-scheduler/) - Pod를 워커 노드에 할당
 - [Replica](/knowledge/kubernetes/replica/) - Pod의 복제본 개념
 - [Sidecar Container](/knowledge/kubernetes/sidecar-container/) - Pod 내에서 주 컨테이너를 보완하는 보조 컨테이너
 - [Init Container](/knowledge/kubernetes/init-container/) - Pod 시작 시 순차적으로 실행되는 초기화 컨테이너

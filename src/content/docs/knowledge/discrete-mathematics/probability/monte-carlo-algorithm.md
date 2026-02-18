@@ -118,5 +118,5 @@ def find_large_prime(digits):
 
 - [Bernoulli Trial](/knowledge/mathematics/bernoulli-trial/) - 각 테스트는 독립적인 베르누이 시행
 - [Independence](/knowledge/mathematics/independence/) - 반복 시행의 독립성이 오류 확률 분석의 기반
-- [Algorithm](/knowledge/mathematics/algorithm/) - 결정론적 알고리즘 vs 확률적 알고리즘
+- [Algorithm](/knowledge/algorithms/algorithm/) - 결정론적 알고리즘 vs 확률적 알고리즘
 - [Probability Distribution](/knowledge/mathematics/probability-distribution/) - 오류 확률은 기하분포적으로 감소

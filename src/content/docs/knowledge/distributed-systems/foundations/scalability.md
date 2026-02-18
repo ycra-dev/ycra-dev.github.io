@@ -48,6 +48,5 @@ sidebar:
 
 - [Distributed System](/knowledge/distributed-systems/distributed-system/)
 - [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
-- [Replication](/knowledge/distributed-systems/replication/)
 - [Content Delivery Network](/knowledge/distributed-systems/content-delivery-network/)
 - [Cloud Computing](/knowledge/distributed-systems/cloud-computing/)

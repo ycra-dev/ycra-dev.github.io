@@ -33,4 +33,3 @@ Hadoop MapReduce, Apache Spark 같은 빅데이터 처리 프레임워크와 Ter
 - [Shared-Memory Architecture](/knowledge/database/shared-memory-architecture/)
 - [Parallel Database System](/knowledge/database/parallel-database-system/)
 - [Data Partitioning](/knowledge/database/data-partitioning/)
-- [Cloud-Based Database Services](/knowledge/database/cloud-based-database-services/)

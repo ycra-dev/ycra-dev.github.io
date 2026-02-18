@@ -59,6 +59,6 @@ sidebar:
 ## 관련 개념
 
 - [Rooted Tree](/knowledge/mathematics/rooted-tree/) - BST의 기반이 되는 이진 트리 구조
-- [Algorithm](/knowledge/mathematics/algorithm/) - BST 삽입/탐색 알고리즘
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - BST 연산의 복잡도 분석
+- [Algorithm](/knowledge/algorithms/algorithm/) - BST 삽입/탐색 알고리즘
+- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - BST 연산의 복잡도 분석
 - [Tree Traversal](/knowledge/mathematics/tree-traversal/) - BST에서 중위 순회(inorder)는 정렬된 순서 생성

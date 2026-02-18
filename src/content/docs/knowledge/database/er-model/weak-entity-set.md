@@ -55,4 +55,3 @@ sec_id, semester, year만으로는 section을 고유하게 식별할 수 없다(
 - [Entity-Relationship Model](/knowledge/database/entity-relationship-model/)
 - [Mapping Cardinality](/knowledge/database/mapping-cardinality/)
 - [Total Participation](/knowledge/database/total-participation/)
-- [E-R Diagram](/knowledge/database/e-r-diagram/)

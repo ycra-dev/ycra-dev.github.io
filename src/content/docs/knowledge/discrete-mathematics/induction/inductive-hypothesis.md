@@ -86,6 +86,4 @@ P(n): n > 1인 모든 정수 n은 소수들의 곱으로 표현 가능
 
 - [Mathematical Induction](/knowledge/mathematics/mathematical-induction/) - 귀납 가설은 수학적 귀납법의 핵심 요소
 - [Strong Induction](/knowledge/mathematics/strong-induction/) - 더 강력한 귀납 가설을 사용
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 귀납 가설의 올바른 사용이 증명의 관건
 - [Proof by Contradiction](/knowledge/mathematics/proof-by-contradiction/) - 귀납 가설이 실패하는 경우 분석
-- [Predicate Logic](/knowledge/mathematics/predicate-logic/) - 귀납 가설은 ∀k(P(k) → P(k+1))의 증명 과정

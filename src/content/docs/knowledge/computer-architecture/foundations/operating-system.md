@@ -27,7 +27,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Compiler](/knowledge/computer-architecture/compiler/)
+- [Compiler](/knowledge/language/compiler/)
 - [Abstraction](/knowledge/computer-architecture/abstraction/)
 - [Application Binary Interface](/knowledge/computer-architecture/application-binary-interface/)
 - [Systems Software](/knowledge/computer-architecture/systems-software/)

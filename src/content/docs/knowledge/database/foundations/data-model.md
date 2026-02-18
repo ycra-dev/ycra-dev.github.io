@@ -45,7 +45,6 @@ department 테이블:
 
 ## 관련 개념
 
-- [Database Management System (DBMS)](/knowledge/database/database-management-system-dbms/)
 - [Data Abstraction](/knowledge/database/data-abstraction/)
 - [Relation](/knowledge/database/relation/)
 - [Database Schema](/knowledge/database/database-schema/)

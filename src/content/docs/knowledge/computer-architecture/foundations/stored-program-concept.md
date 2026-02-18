@@ -52,6 +52,5 @@ sidebar:
 - [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
 - [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
 - [Instruction Format](/knowledge/computer-architecture/instruction-format/)
-- [MIPS Instruction Set](/knowledge/computer-architecture/mips-instruction-set/)
 - [Floating Point](/knowledge/computer-architecture/floating-point/)
 - [Twos Complement](/knowledge/computer-architecture/twos-complement/)

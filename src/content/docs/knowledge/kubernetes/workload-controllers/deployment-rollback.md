@@ -49,5 +49,4 @@ kubectl get rs -o wide  # 이미지 태그로 버전 구분
 
 - [Deployment](/knowledge/kubernetes/deployment/) - 롤백 대상 오브젝트
 - [ReplicaSet](/knowledge/kubernetes/replicaset/) - 리비전 히스토리를 저장하는 오브젝트
-- [RollingUpdate Strategy](/knowledge/kubernetes/rollingupdate-strategy/) - 롤백도 동일한 전략을 따름
 - [Readiness Probe](/knowledge/kubernetes/readiness-probe/) - 결함 있는 Pod 감지에 사용

@@ -70,7 +70,6 @@ Step 4: {시카고, 샌프란시스코} $1200
 ## 관련 개념
 
 - [Spanning Tree](/knowledge/mathematics/spanning-tree/) - MST의 기반 개념
-- [Greedy Algorithm](/knowledge/mathematics/greedy-algorithm/) - Prim, Kruskal 모두 탐욕 알고리즘
-- [Dijkstra's Algorithm](/knowledge/mathematics/dijkstras-algorithm/) - 유사한 탐욕적 접근법을 사용하는 최단 경로 알고리즘
+- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/) - Prim, Kruskal 모두 탐욕 알고리즘
 - [Graph](/knowledge/mathematics/graph/) - MST가 구축되는 가중 그래프
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - MST 알고리즘의 복잡도 분석
+- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - MST 알고리즘의 복잡도 분석

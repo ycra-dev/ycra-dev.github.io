@@ -89,5 +89,4 @@ kubectl exec comm-demo-1-kvpb4 -- ping comm-demo-0.demo-service
 
 - [Indexed Job Completion Mode](/knowledge/kubernetes/indexed-job-completion-mode/) - Pod 간 통신의 전제 조건
 - [Headless Service for StatefulSet](/knowledge/kubernetes/headless-service-for-statefulset/) - StatefulSet에서의 유사한 DNS 패턴
-- [Service Discovery](/knowledge/kubernetes/service-discovery/) - DNS 기반 서비스 발견
 - [Job](/knowledge/kubernetes/job/) - 통신 패턴이 적용되는 오브젝트

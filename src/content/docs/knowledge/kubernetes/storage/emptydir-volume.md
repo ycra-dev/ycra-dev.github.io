@@ -100,5 +100,4 @@ spec:
 - [Volume Mount](/knowledge/kubernetes/volume-mount/) - 볼륨을 컨테이너에 연결하는 설정
 - [Init Container](/knowledge/kubernetes/init-container/) - emptyDir을 초기화하는 데 자주 사용되는 패턴
 - [Sharing Files Between Containers](/knowledge/kubernetes/sharing-files-between-containers/) - emptyDir의 주요 활용 패턴
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - Pod 수명을 넘어 데이터를 보존하는 대안
 - [Secret](/knowledge/kubernetes/secret/) - 민감한 데이터에 인메모리 볼륨을 사용하는 유사 사례

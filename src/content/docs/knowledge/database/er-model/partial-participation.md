@@ -47,6 +47,5 @@ CREATE TABLE advisor (
 
 - [Total Participation](/knowledge/database/total-participation/)
 - [Mapping Cardinality](/knowledge/database/mapping-cardinality/)
-- [E-R Diagram](/knowledge/database/e-r-diagram/)
 - [Relationship Set](/knowledge/database/relationship-set/)
 - [Specialization](/knowledge/database/specialization/)

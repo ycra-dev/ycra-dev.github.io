@@ -55,4 +55,3 @@ def can_deliver(queue, process_count):
 - [Lamport Logical Clock](/knowledge/distributed-systems/lamport-logical-clock/)
 - [Mutual Exclusion](/knowledge/distributed-systems/mutual-exclusion/)
 - [Sequential Consistency](/knowledge/distributed-systems/sequential-consistency/)
-- [Active Replication](/knowledge/distributed-systems/active-replication/)

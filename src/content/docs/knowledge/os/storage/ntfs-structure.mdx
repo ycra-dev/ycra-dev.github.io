@@ -113,3 +113,11 @@ B+ 트리 구조로 파일명을 인덱스하여 O(log n) 검색을 제공한다
     { label: "데이터 이동 (비상주)", description: "파일 커지면 → 별도 클러스터, MFT에 포인터" },
   ]}
 />
+
+## 관련 개념
+
+- [NTFS 복구 메커니즘](/knowledge/os/ntfs-recovery/) - NTFS의 $LogFile을 통한 트랜잭션 로깅 기반 크래시 복구
+- [UNIX 아이노드 (Inode)](/knowledge/os/unix-inode/) - UNIX의 파일 메타데이터 구조로, MFT Entry와 유사한 역할
+- [VFS (Virtual File System)](/knowledge/os/vfs/) - 다양한 파일 시스템(NTFS 포함)을 단일 인터페이스로 추상화하는 계층
+- [I/O Manager와 IRP (Windows)](/knowledge/os/windows-io-manager/) - NTFS 드라이버가 IRP를 받아 MFT 조회와 클러스터 매핑을 수행
+- [논리 블록 주소 (LBA)](/knowledge/os/lba/) - NTFS의 LCN/VCN이 매핑되는 물리 디스크의 논리 주소 체계

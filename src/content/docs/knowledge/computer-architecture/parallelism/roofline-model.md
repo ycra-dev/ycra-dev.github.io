@@ -32,7 +32,6 @@ AMD Opteron X2 예시:
 ## 관련 개념
 
 - [Arithmetic Intensity](/knowledge/computer-architecture/arithmetic-intensity/)
-- [Memory Bandwidth](/knowledge/computer-architecture/memory-bandwidth/)
 - [Software Prefetching](/knowledge/computer-architecture/software-prefetching/)
 - [Memory Affinity](/knowledge/computer-architecture/memory-affinity/)
 - [SIMD](/knowledge/computer-architecture/simd/)

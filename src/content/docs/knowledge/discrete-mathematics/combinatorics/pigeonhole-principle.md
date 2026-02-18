@@ -52,6 +52,5 @@ ceil(5/2) = 3이므로 적어도 3명이 같은 관계
 ## 관련 개념
 
 - [Function](/knowledge/mathematics/function/) - 단사 함수의 존재 불가능 조건
-- [Bijection](/knowledge/mathematics/bijection/) - 비둘기집 원리의 함수적 해석
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 존재 증명의 강력한 도구
+- [Bijection](/knowledge/mathematics/injection-surjection-bijection/) - 비둘기집 원리의 함수적 해석
 - [Sequence](/knowledge/mathematics/sequence/) - 단조 부분 수열의 존재 증명 (Erdos-Szekeres 정리)

@@ -37,7 +37,6 @@ PC -> Instruction Memory -> Register File -> ALU -> Data Memory -> Register File
 
 ## 관련 개념
 
-- [Central Processing Unit](/knowledge/computer-architecture/central-processing-unit/)
 - [Register](/knowledge/computer-architecture/register/)
 - [Pipelining](/knowledge/computer-architecture/pipelining/)
 - [Clock Cycle](/knowledge/computer-architecture/clock-cycle/)

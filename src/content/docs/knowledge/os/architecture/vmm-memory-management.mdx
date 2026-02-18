@@ -108,3 +108,11 @@ VMM이 각 게스트의 **목표 메모리**를 계산하여 balloon을 inflate/
 
 - **장점**: 유연한 자원 할당 (오버커밋 가능), 게스트 투명하게 동작, 물리 메모리 효율적 활용
 - **단점**: Double Paging의 비효율성, Balloon은 드라이버 필요, Page Sharing의 CPU 오버헤드
+
+## 관련 개념
+
+- [VMM CPU 스케줄링 (VMM CPU Scheduling)](/knowledge/os/vmm-cpu-scheduling/) - 메모리 관리와 함께 VMM의 핵심 자원 관리 기능인 CPU 스케줄링
+- [하드웨어 가상화 지원 (VT-x/AMD-V)](/knowledge/os/hw-virtualization/) - EPT/RVI 등 메모리 가상화를 하드웨어로 지원하는 기능
+- [가상화 (Virtualization)](/knowledge/os/virtualization/) - 메모리 오버커밋을 포함한 가상화의 전체 개념
+- [바이너리 변환 (Binary Translation)](/knowledge/os/binary-translation/) - Nested Page Tables와 함께 사용되는 메모리 관리 기법
+- [라이브 마이그레이션 (Live Migration)](/knowledge/os/live-migration/) - 메모리 페이지 전송이 핵심인 VM 이동 기술

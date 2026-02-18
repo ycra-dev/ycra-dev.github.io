@@ -44,5 +44,4 @@ employee(ID, name, salary)
 
 - [Specialization](/knowledge/database/specialization/)
 - [Entity-Relationship Model](/knowledge/database/entity-relationship-model/)
-- [E-R Diagram](/knowledge/database/e-r-diagram/)
 - [Entity Set](/knowledge/database/entity-set/)

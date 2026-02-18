@@ -34,5 +34,4 @@ sidebar:
 - [Dynamic Power Consumption](/knowledge/computer-architecture/dynamic-power-consumption/)
 - [Instruction-Level Parallelism](/knowledge/computer-architecture/instruction-level-parallelism/)
 - [Throughput](/knowledge/computer-architecture/throughput/)
-- [Central Processing Unit](/knowledge/computer-architecture/central-processing-unit/)
 - [Data Race](/knowledge/computer-architecture/data-race/)

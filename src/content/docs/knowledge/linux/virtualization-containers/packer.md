@@ -59,4 +59,3 @@ packer build -debug custom_ami.json
 - [Virtual Machine](/knowledge/linux/virtual-machine/)
 - [Infrastructure as Code](/knowledge/linux/infrastructure-as-code/)
 - [Vagrant](/knowledge/linux/vagrant/)
-- [Continuous Integration and Delivery](/knowledge/linux/continuous-integration-and-delivery/)

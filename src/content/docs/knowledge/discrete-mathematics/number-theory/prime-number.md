@@ -75,5 +75,5 @@ print(sieve_of_eratosthenes(100))
 - [RSA Cryptosystem](/knowledge/mathematics/rsa-cryptosystem/) - 큰 소수를 활용한 공개키 암호
 - [Fermat's Little Theorem](/knowledge/mathematics/fermats-little-theorem/) - 소수 모듈러 연산의 핵심 정리
 - [Proof by Contradiction](/knowledge/mathematics/proof-by-contradiction/) - 소수 무한성의 증명 방법
-- [Algorithm](/knowledge/mathematics/algorithm/) - 소수 판별 및 체 알고리즘
-- [Complexity](/knowledge/mathematics/complexity/) - 소수 판별의 다항 시간 알고리즘 (AKS)
+- [Algorithm](/knowledge/algorithms/algorithm/) - 소수 판별 및 체 알고리즘
+- [Complexity](/knowledge/algorithms/time-complexity/) - 소수 판별의 다항 시간 알고리즘 (AKS)

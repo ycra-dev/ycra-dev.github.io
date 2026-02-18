@@ -30,6 +30,5 @@ MLPerf 0.6 벤치마크 (TPUv3 vs Volta GPU):
 ## 관련 개념
 
 - [Domain-Specific Architecture](/knowledge/computer-architecture/domain-specific-architecture/)
-- [TPUv3](/knowledge/computer-architecture/tpuv3/)
-- [Deep Neural Network Training](/knowledge/computer-architecture/deep-neural-network-training/)
+- [TPUv3](/knowledge/computer-architecture/tpuv3-supercomputer/)
 - [Roofline Model](/knowledge/computer-architecture/roofline-model/)

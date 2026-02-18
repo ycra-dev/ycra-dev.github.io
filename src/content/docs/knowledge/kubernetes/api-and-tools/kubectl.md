@@ -74,7 +74,6 @@ $ kubectl get node kind-control-plane -o json
 
 ## 관련 개념
 
-- [Kubernetes API Server](/knowledge/kubernetes/kubernetes-api-server/) - kubectl이 통신하는 API 서버
 - [Kubernetes API](/knowledge/kubernetes/kubernetes-api/) - kubectl이 사용하는 RESTful API
 - [Deployment](/knowledge/kubernetes/deployment/) - kubectl로 생성하고 관리하는 배포 객체
 - [Service](/knowledge/kubernetes/service/) - kubectl로 생성하는 서비스 객체

@@ -21,7 +21,6 @@ Mentcare 시스템의 회복탄력적 아키텍처: (1) 요약 환자 기록을 
 ## 관련 개념
 
 - [Resilience](/knowledge/software-engineering/resilience/)
-- [Recognition, Resistance, Recovery, and Reinstatement](/knowledge/software-engineering/recognition-resistance-recovery-and-reinstatement/)
 - [Cybersecurity](/knowledge/software-engineering/cybersecurity/)
 - [Redundancy and Diversity](/knowledge/software-engineering/redundancy-and-diversity/)
 - [Sociotechnical Resilience](/knowledge/software-engineering/sociotechnical-resilience/)

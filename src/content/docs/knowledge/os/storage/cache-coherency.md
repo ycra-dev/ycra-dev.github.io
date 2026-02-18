@@ -47,6 +47,13 @@ sidebar:
 - 다양한 복제본이 동시에 접근 및 업데이트될 수 있음
 - 일부 분산 시스템은 한 곳에서 복제본이 업데이트되면 다른 모든 복제본이 가능한 빨리 최신화되도록 보장
 
+## 관련 개념
+
+- [캐시 (Cache)](/knowledge/os/cache/) - 캐시 일관성 문제가 발생하는 대상인 고속 임시 저장 메커니즘
+- [Memory-Mapped I/O](/knowledge/os/memory-mapped-io/) - 장치 레지스터 매핑 시 캐시 비활성화가 필요한 I/O 방식
+- [저장장치 계층구조](/knowledge/os/storage-hierarchy/) - 캐시가 위치하는 계층과 데이터 이동 경로
+- [DMA (Direct Memory Access)](/knowledge/os/dma/) - DMA 전송 시 캐시와 메모리 간 일관성 문제가 발생할 수 있음
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 1, p.32

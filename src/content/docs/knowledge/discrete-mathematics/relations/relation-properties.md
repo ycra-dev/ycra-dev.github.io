@@ -67,7 +67,6 @@ print(is_transitive(R_leq))       # True
 ## 관련 개념
 
 - [Binary Relation](/knowledge/mathematics/binary-relation/) - 성질의 대상이 되는 관계의 정의
-- [Predicate Logic](/knowledge/mathematics/predicate-logic/) - 양화자를 사용한 성질의 형식적 표현
 - [Quantifier](/knowledge/mathematics/quantifier/) - 관계 성질 정의에 전칭 양화자 사용
 - [Equivalence Relation](/knowledge/mathematics/equivalence-relation/) - 반사 + 대칭 + 추이 = 동치관계
 - [Partial Ordering](/knowledge/mathematics/partial-ordering/) - 반사 + 반대칭 + 추이 = 반순서

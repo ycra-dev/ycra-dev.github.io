@@ -62,6 +62,6 @@ n = 10일 때:
 ## 관련 개념
 
 - [Rooted Tree](/knowledge/mathematics/rooted-tree/) - 결정 트리의 기반 구조
-- [Algorithm](/knowledge/mathematics/algorithm/) - 결정 트리로 모델링되는 알고리즘
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - 정렬 알고리즘의 하한 분석
+- [Algorithm](/knowledge/algorithms/algorithm/) - 결정 트리로 모델링되는 알고리즘
+- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 정렬 알고리즘의 하한 분석
 - [Binary Search Tree](/knowledge/mathematics/binary-search-tree/) - 결정 트리의 특수한 경우

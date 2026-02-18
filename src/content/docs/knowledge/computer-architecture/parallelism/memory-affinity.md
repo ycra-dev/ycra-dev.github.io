@@ -32,7 +32,6 @@ Opteron X2 예시:
 
 ## 관련 개념
 
-- [NUMA](/knowledge/computer-architecture/numa/)
 - [Roofline Model](/knowledge/computer-architecture/roofline-model/)
 - [Software Prefetching](/knowledge/computer-architecture/software-prefetching/)
 - [Multiprocessor](/knowledge/computer-architecture/multiprocessor/)

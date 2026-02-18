@@ -90,4 +90,3 @@ containers:
 - [DaemonSet](/knowledge/kubernetes/daemonset/) - 호스트 리소스 접근이 필요한 워크로드를 배포
 - [Linux Namespaces](/knowledge/kubernetes/linux-namespaces/) - Pod 격리의 기반이 되는 기술
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - privileged와 hostNetwork를 사용하는 대표 데몬
-- [Pod Manifest](/knowledge/kubernetes/pod-manifest/) - securityContext가 정의되는 위치

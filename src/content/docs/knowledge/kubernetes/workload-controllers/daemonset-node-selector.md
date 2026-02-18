@@ -73,5 +73,4 @@ kubectl patch ds demo --type='json' \
 
 - [DaemonSet](/knowledge/kubernetes/daemonset/) - Node Selector가 적용되는 오브젝트
 - [Label](/knowledge/kubernetes/label/) - 노드 필터링에 사용되는 메커니즘
-- [Selector](/knowledge/kubernetes/selector/) - Pod 셀렉터와 노드 셀렉터의 차이
 - [Scheduler](/knowledge/kubernetes/scheduler/) - DaemonSet Pod의 실제 스케줄링을 수행

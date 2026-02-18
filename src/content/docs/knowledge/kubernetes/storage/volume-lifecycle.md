@@ -78,6 +78,5 @@ kubectl exec -it quiz -c mongo -- mongo kiada --quiet --eval "db.questions.count
 - [Volume](/knowledge/kubernetes/volume/) - 수명 주기가 관리되는 스토리지 단위
 - [emptyDir Volume](/knowledge/kubernetes/emptydir-volume/) - Pod 수명에 종속되는 대표적 볼륨
 - [Network Storage Volume](/knowledge/kubernetes/network-storage-volume/) - Pod 수명과 독립적인 외부 스토리지
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - 볼륨 수명을 Pod에서 완전히 분리한 추상화
 - [Container Filesystem](/knowledge/kubernetes/container-filesystem/) - 볼륨과 대비되는 컨테이너의 임시 파일 시스템
 - [Pod](/knowledge/kubernetes/pod/) - 볼륨의 직접적인 소유자

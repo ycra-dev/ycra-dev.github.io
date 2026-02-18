@@ -66,8 +66,6 @@ spec:
 - [emptyDir Volume](/knowledge/kubernetes/emptydir-volume/) - 가장 기본적인 볼륨 유형
 - [Volume Mount](/knowledge/kubernetes/volume-mount/) - 볼륨을 컨테이너에 마운트하는 설정
 - [hostPath Volume](/knowledge/kubernetes/hostpath-volume/) - 워커 노드의 파일 시스템에 접근하는 볼륨
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - 인프라 세부사항을 추상화한 영구 볼륨
-- [PersistentVolumeClaim](/knowledge/kubernetes/persistentvolumeclaim/) - 영구 볼륨을 요청하는 오브젝트
 - [Pod](/knowledge/kubernetes/pod/) - 볼륨이 정의되는 리소스
 - [ConfigMap](/knowledge/kubernetes/configmap/) - 설정 데이터를 볼륨으로 노출하는 리소스
 - [Secret](/knowledge/kubernetes/secret/) - 민감한 데이터를 볼륨으로 노출하는 리소스

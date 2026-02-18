@@ -100,3 +100,11 @@ import StepFlow from '../../../../../components/StepFlow.astro';
 오류 위치 = S4×4 + S2×2 + S1×1 = 1×4 + 0×2 + 1×1 = **5**
 
 **4단계 — 정정**: 5번 비트를 반전 (`1→0`)하면 원래 데이터 복원 완료.
+
+## 관련 개념
+
+- [HDD (Hard Disk Drive)](/knowledge/os/hdd/) - 각 섹터에 ECC 트레일러를 붙여 오류를 검출/정정하는 저장장치
+- [SSD (Solid-State Drive)](/knowledge/os/ssd/) - HDD보다 높은 비트 에러율로 더 강력한 ECC(LDPC, BCH)를 사용
+- [NAND 플래시 관리 알고리즘](/knowledge/os/nand-flash-management/) - ECC와 함께 SSD 신뢰성을 유지하는 내부 관리 기법
+- [RAID (Redundant Array of Independent Disks)](/knowledge/os/raid/) - ECC로 복구 불가능한 하드 에러를 RAID 중복성으로 복구
+- [저장장치 초기화](/knowledge/os/storage-initialization/) - 저수준 포매팅 시 섹터에 ECC 트레일러 구조를 생성

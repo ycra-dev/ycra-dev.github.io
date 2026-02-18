@@ -45,7 +45,6 @@ sudo usermod -U username
 
 ## 관련 개념
 
-- [UID/GID](/knowledge/linux/uidgid/)
 - [PAM](/knowledge/linux/pam/)
 - [Sudo](/knowledge/linux/sudo/)
 - [File Permissions](/knowledge/linux/file-permissions/)

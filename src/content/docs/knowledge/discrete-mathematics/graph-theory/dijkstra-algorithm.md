@@ -100,7 +100,7 @@ print(f"최단 경로: {' -> '.join(path)}")  # a -> c -> b -> d -> e -> z
 ## 관련 개념
 
 - [Graph](/knowledge/mathematics/graph/) - 알고리즘이 적용되는 가중 그래프
-- [Algorithm](/knowledge/mathematics/algorithm/) - 탐욕 알고리즘의 대표적 예
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - O(n^2) 시간 복잡도
+- [Algorithm](/knowledge/algorithms/algorithm/) - 탐욕 알고리즘의 대표적 예
+- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - O(n^2) 시간 복잡도
 - [Traveling Salesperson Problem](/knowledge/mathematics/traveling-salesperson-problem/) - 최단 경로의 확장 문제
 - [Hamilton Path and Circuit](/knowledge/mathematics/hamilton-path-and-circuit/) - 정점 방문 경로와의 관계

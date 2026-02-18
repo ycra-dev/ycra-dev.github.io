@@ -79,5 +79,4 @@ Service                     Service
 - [Deployment](/knowledge/kubernetes/deployment/) - 수평 확장의 대상이 되는 객체
 - [Replica](/knowledge/kubernetes/replica/) - 수평 확장으로 관리되는 Pod 복제본
 - [Service](/knowledge/kubernetes/service/) - 확장된 복제본에 대한 로드 밸런싱
-- [Microservices Architecture](/knowledge/kubernetes/microservices-architecture/) - 수평 확장에 적합한 아키텍처
 - [Kubernetes](/knowledge/kubernetes/kubernetes/) - 수평 확장을 자동화하는 플랫폼

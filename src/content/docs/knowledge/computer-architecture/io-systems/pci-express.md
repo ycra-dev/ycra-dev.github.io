@@ -40,5 +40,4 @@ PCIe 2.0 x16:           ~8 GB/s (단방향)
 ## 관련 개념
 
 - [Heterogeneous System](/knowledge/computer-architecture/heterogeneous-system/)
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)
 - [Unified Memory Architecture](/knowledge/computer-architecture/unified-memory-architecture/)

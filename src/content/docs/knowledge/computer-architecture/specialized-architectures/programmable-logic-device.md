@@ -42,7 +42,5 @@ PAL에서는 OR-plane이 고정됨:
 
 ## 관련 개념
 
-- [Field Programmable Gate Array (FPGA)](/knowledge/computer-architecture/field-programmable-gate-array-fpga/)
 - [Antifuse](/knowledge/computer-architecture/antifuse/)
-- [Lookup Table (LUT)](/knowledge/computer-architecture/lookup-table-lut/)
 - [Combinational Element](/knowledge/computer-architecture/combinational-element/)

@@ -78,4 +78,3 @@ func (s *HTTPServer) handleReadiness(res http.ResponseWriter, req *http.Request)
 - [Startup Probe](/knowledge/kubernetes/startup-probe/) - 느린 시작 애플리케이션을 위한 프로브
 - [Service](/knowledge/kubernetes/service/) - Readiness Probe 결과에 따라 엔드포인트 변경
 - [Endpoints Object](/knowledge/kubernetes/endpoints-object/) - Ready/NotReady 상태를 반영하는 오브젝트
-- [Pod Lifecycle](/knowledge/kubernetes/pod-lifecycle/) - 파드의 전체 생명주기에서 Readiness의 위치

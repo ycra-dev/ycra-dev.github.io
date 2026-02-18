@@ -47,6 +47,5 @@ CREATE TABLE student (ID VARCHAR(10) PRIMARY KEY, tot_cred NUMERIC(3,0),
 
 - [Generalization](/knowledge/database/generalization/)
 - [Entity-Relationship Model](/knowledge/database/entity-relationship-model/)
-- [E-R Diagram](/knowledge/database/e-r-diagram/)
 - [Total Participation](/knowledge/database/total-participation/)
 - [Partial Participation](/knowledge/database/partial-participation/)

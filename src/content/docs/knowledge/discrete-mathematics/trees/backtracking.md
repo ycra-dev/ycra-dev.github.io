@@ -85,7 +85,6 @@ Step 7: 1열 2행에 퀸 배치 → 최종 해:
 ## 관련 개념
 
 - [Depth-First Search](/knowledge/mathematics/depth-first-search/) - 백트래킹의 기반이 되는 탐색 방법
-- [Graph Coloring](/knowledge/mathematics/graph-coloring/) - 백트래킹으로 해결하는 대표적 문제
-- [Hamilton Path](/knowledge/mathematics/hamilton-path/) - 백트래킹으로 탐색 가능한 경로 문제
-- [Algorithm](/knowledge/mathematics/algorithm/) - 백트래킹 알고리즘의 일반적 구조
+- [Hamilton Path](/knowledge/mathematics/hamilton-path-and-circuit/) - 백트래킹으로 탐색 가능한 경로 문제
+- [Algorithm](/knowledge/algorithms/algorithm/) - 백트래킹 알고리즘의 일반적 구조
 - [Decision Tree](/knowledge/mathematics/decision-tree/) - 백트래킹의 탐색 공간을 표현하는 트리

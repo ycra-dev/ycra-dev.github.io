@@ -50,6 +50,14 @@ sidebar:
 | **분리** | 유연성, 다양한 정책 지원 가능, 유지보수 용이 | 설계 복잡성 증가 |
 | **결합** | 일관된 사용자 경험, 구현 단순화 | 유연성 감소, 정책 변경 어려움 |
 
+## 관련 개념
+
+- [마이크로커널 (Microkernel)](/knowledge/os/microkernel/) - 정책/메커니즘 분리를 극단적으로 적용한 운영체제 구조
+- [계층적 접근 (Layered Approach)](/knowledge/os/layered-approach/) - 정보 은닉을 통해 계층 간 분리를 실현하는 구조
+- [적재 가능 커널 모듈 (LKM)](/knowledge/os/loadable-kernel-modules/) - 메커니즘은 커널에, 정책은 모듈로 분리할 수 있는 방식
+- [CPU 스케줄링 (CPU Scheduling)](/knowledge/os/cpu-scheduling/) - 정책과 메커니즘 분리가 잘 드러나는 대표적인 예시
+- [기능 이동 (Feature Migration)](/knowledge/os/feature-migration/) - 시스템 기능이 하드웨어에서 소프트웨어로 이동하는 과정
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 2, p.80

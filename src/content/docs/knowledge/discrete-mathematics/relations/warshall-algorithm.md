@@ -83,7 +83,7 @@ W_4: v_4=d를 경유 가능 -> a->d->c 경로 추가 (a,c)=1 등
 ## 관련 개념
 
 - [Closure of Relations](/knowledge/mathematics/closure-of-relations/) - 추이적 폐포의 정의와 필요성
-- [Algorithm](/knowledge/mathematics/algorithm/) - 알고리즘의 정확성 증명과 복잡도 분석
+- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘의 정확성 증명과 복잡도 분석
 - [Relation Representation](/knowledge/mathematics/relation-representation/) - 영-일 행렬을 사용한 관계 표현
 - [Matrix](/knowledge/mathematics/matrix/) - 불리언 행렬 연산의 활용
 - [Relation Composition](/knowledge/mathematics/relation-composition/) - R^n 계산 대신 더 효율적인 방법 제공

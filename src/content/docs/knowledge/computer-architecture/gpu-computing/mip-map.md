@@ -57,5 +57,4 @@ LOD 선택:
 
 - [Texture](/knowledge/computer-architecture/texture/)
 - [Half Precision](/knowledge/computer-architecture/half-precision/)
-- [Special Function Unit (SFU)](/knowledge/computer-architecture/special-function-unit-sfu/)
 - [Shader](/knowledge/computer-architecture/shader/)

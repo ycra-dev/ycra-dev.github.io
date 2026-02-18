@@ -44,4 +44,3 @@ endmodule
 - [Register File](/knowledge/computer-architecture/register-file/)
 - [Sequential Logic](/knowledge/computer-architecture/sequential-logic/)
 - [SRAM](/knowledge/computer-architecture/sram/)
-- [D Latch](/knowledge/computer-architecture/d-latch/)

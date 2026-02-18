@@ -43,19 +43,6 @@ sidebar:
 - [Cardinality](/knowledge/mathematics/cardinality/) - 두 집합 A와 B의 크기(cardinality)가 같다 함은 A에서 B로의 전단사함수(bijection)가 존재하는 것이며, |A| = |...
 - [Matrix](/knowledge/mathematics/matrix/) - 행렬(Matrix)은 수를 직사각형 형태로 배열한 것이다
 
-## 알고리즘 (Algorithms)
-
-- [Algorithm](/knowledge/mathematics/algorithm/) - 알고리즘(Algorithm)은 계산을 수행하거나 문제를 해결하기 위한 정확한 명령들의 유한 순서열이다
-- [Linear Search](/knowledge/mathematics/linear-search/) - 선형 탐색(Linear Search, Sequential Search)은 리스트의 첫 번째 원소부터 마지막 원소까지 순서대로 하나씩 비교하...
-- [Binary Search](/knowledge/mathematics/binary-search/) - 이진 탐색(Binary Search)은 정렬된 리스트에서 중간 원소와 비교하여 탐색 범위를 반씩 줄여나가는 탐색 알고리즘이다
-- [Sorting Algorithm](/knowledge/mathematics/sorting-algorithm/) - 정렬 알고리즘(Sorting Algorithm)은 리스트의 원소들을 특정 순서(오름차순, 내림차순, 사전순 등)로 재배열하는 알고리즘이다
-- [Brute-Force Algorithm](/knowledge/mathematics/brute-force-algorithm/) - 무차별 대입 알고리즘(Brute-Force Algorithm)은 문제의 정의와 용어의 정의에 직접적으로 기반하여, 특별한 최적화 기법 없이...
-- [Greedy Algorithm](/knowledge/mathematics/greedy-algorithm/) - 탐욕 알고리즘(Greedy Algorithm)은 최적화 문제에서 각 단계마다 그 순간에 가장 좋아 보이는 선택(locally optimal...
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - f(x)가 O(g(x))이라 함은, x > k일 때 |f(x)| <= C|g(x)|를 만족하는 상수 C와 k가 존재한다는 것이다
-- [Big-Omega and Big-Theta Notation](/knowledge/mathematics/big-omega-and-big-theta-notation/) - Big-Omega: f(x)가 Ω(g(x))이라 함은, x > k일 때 |f(x)| >= C|g(x)|를 만족하는 양의 상수 C와 k가 존...
-- [Time Complexity](/knowledge/mathematics/time-complexity/) - 시간 복잡도(Time Complexity)는 알고리즘이 특정 크기의 입력에 대해 문제를 해결하는 데 필요한 연산 횟수를 나타낸 것이다
-- [Tractability](/knowledge/mathematics/tractability/) - 다루기 쉬운 문제(Tractable problem)란 최악의 경우 다항 시간(polynomial time) 알고리즘이 존재하는 문제이다
-
 ## 정수론과 암호학 (Number Theory and Cryptography)
 
 - [Modular Arithmetic](/knowledge/mathematics/modular-arithmetic/) - 모듈러 산술(Modular Arithmetic)은 정수를 고정된 양의 정수 m(모듈러스)으로 나눈 나머지를 기반으로 수행하는 산술 체계이다

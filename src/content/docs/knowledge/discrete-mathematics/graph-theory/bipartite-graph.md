@@ -62,7 +62,6 @@ def is_bipartite(graph):
 ## 관련 개념
 
 - [Graph](/knowledge/mathematics/graph/) - 이분 그래프는 그래프의 특수한 유형
-- [Graph Coloring](/knowledge/mathematics/graph-coloring/) - 이분 그래프의 색칠수는 2
 - [Planar Graph](/knowledge/mathematics/planar-graph/) - K_{3,3}은 비평면 그래프
 - [Set](/knowledge/mathematics/set/) - 정점 분할에 집합 개념 사용
 - [Equivalence Relation](/knowledge/mathematics/equivalence-relation/) - 이분할과 동치류의 관계

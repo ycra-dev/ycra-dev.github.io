@@ -23,6 +23,5 @@ Mentcare 시스템의 다층 보호 아키텍처: (1) 플랫폼 수준 보호 - 
 - [Redundancy and Diversity](/knowledge/software-engineering/redundancy-and-diversity/)
 - [Vulnerability](/knowledge/software-engineering/vulnerability/)
 - [Secure Systems Design](/knowledge/software-engineering/secure-systems-design/)
-- [Confidentiality, Integrity, and Availability](/knowledge/software-engineering/confidentiality-integrity-and-availability/)
 - [Swiss Cheese Model](/knowledge/software-engineering/swiss-cheese-model/)
 - [Cybersecurity](/knowledge/software-engineering/cybersecurity/)

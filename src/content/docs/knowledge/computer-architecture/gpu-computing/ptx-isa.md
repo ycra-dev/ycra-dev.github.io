@@ -62,4 +62,3 @@ st.global.f32 [y + %r1], %f3;   // 결과 저장
 - [SIMT](/knowledge/computer-architecture/simt/)
 - [Streaming Processor](/knowledge/computer-architecture/streaming-processor/)
 - [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)

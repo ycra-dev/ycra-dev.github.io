@@ -74,3 +74,11 @@ I/O Manager는 **Windows Executive**의 구성 요소로, 모든 I/O 요청을 *
     { label: "완료 처리", description: "완료 후 역순으로 IRP가 올라가며 각 드라이버가 완료 처리" },
   ]}
 />
+
+## 관련 개념
+
+- [디바이스 드라이버](/knowledge/os/device-driver/) - I/O Manager가 IRP를 전달하는 대상인 커널 드라이버 모듈
+- [DMA (Direct Memory Access)](/knowledge/os/dma/) - 드라이버 스택에서 디스크 드라이버가 DMA를 시작하여 데이터를 전송
+- [블로킹 vs 논블로킹 I/O](/knowledge/os/blocking-nonblocking-io/) - Windows IRP 기반의 비동기 I/O 완료 모델
+- [NTFS 구조](/knowledge/os/ntfs-structure/) - IRP가 드라이버 스택에서 처리되는 Windows 파일 시스템
+- [인터럽트 (Interrupt)](/knowledge/os/interrupt/) - DMA 완료 시 ISR이 발생하여 IRP 완료 처리를 시작하는 메커니즘

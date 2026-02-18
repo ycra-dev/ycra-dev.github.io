@@ -33,6 +33,5 @@ sidebar:
 ## 관련 개념
 
 - [Combinational Logic](/knowledge/computer-architecture/combinational-logic/)
-- [Logic Gates](/knowledge/computer-architecture/logic-gates/)
 - [Programmable Logic Array](/knowledge/computer-architecture/programmable-logic-array/)
-- [Truth Table](/knowledge/computer-architecture/truth-table/)
+- [Truth Table](/knowledge/mathematics/truth-table/)

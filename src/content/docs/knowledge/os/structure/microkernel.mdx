@@ -111,6 +111,14 @@ get-event(buffer)                          // 이벤트 조회
 | 한 하드웨어에서 다른 하드웨어로 이식 용이 | 프로세스 전환 필요 |
 | 보안 및 신뢰성 향상 (서비스 실패 시 나머지 영향 없음) | 마이크로커널 성장의 가장 큰 장애물 |
 
+## 관련 개념
+
+- [모놀리식 구조 (Monolithic Structure)](/knowledge/os/monolithic-structure/) - 모든 기능을 커널에 넣는 반대 접근 방식
+- [적재 가능 커널 모듈 (LKM)](/knowledge/os/loadable-kernel-modules/) - 마이크로커널처럼 모듈식이지만 메시지 패싱 불필요한 방식
+- [Darwin](/knowledge/os/darwin/) - Mach 마이크로커널과 BSD를 결합한 하이브리드 커널 환경
+- [하이브리드 시스템 (Hybrid Systems)](/knowledge/os/hybrid-systems/) - 마이크로커널의 유연성과 모놀리식의 성능을 결합한 시스템
+- [정책과 메커니즘 (Policy and Mechanism)](/knowledge/os/policy-mechanism/) - 마이크로커널이 극단적으로 적용하는 설계 원칙
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 2, p.84-86

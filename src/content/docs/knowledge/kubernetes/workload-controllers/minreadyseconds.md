@@ -56,7 +56,6 @@ kubectl get deploy kiada
 
 ## 관련 개념
 
-- [RollingUpdate Strategy](/knowledge/kubernetes/rollingupdate-strategy/) - minReadySeconds가 롤아웃 속도를 제어
 - [Readiness Probe](/knowledge/kubernetes/readiness-probe/) - available 판단의 전제 조건
 - [Deployment](/knowledge/kubernetes/deployment/) - minReadySeconds 필드가 정의되는 오브젝트
 - [Deployment Rollback](/knowledge/kubernetes/deployment-rollback/) - 결함 감지 시 롤백과 연계

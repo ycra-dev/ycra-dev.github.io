@@ -91,6 +91,3 @@ print(f"Q_3 평면 가능? {is_possibly_planar(8, 12, False)}")
 
 - [Planar Graph](/knowledge/mathematics/planar-graph/) - 오일러 공식이 적용되는 그래프
 - [Graph](/knowledge/mathematics/graph/) - 정점, 간선, 영역의 관계
-- [Kuratowski's Theorem](/knowledge/mathematics/kuratowskis-theorem/) - 평면성의 완전 특성화
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 수학적 귀납법을 이용한 증명
-- [Graph Coloring](/knowledge/mathematics/graph-coloring/) - 따름정리 2가 5색 정리 증명에 활용됨

@@ -65,7 +65,4 @@ spec:
 ## 관련 개념
 
 - [StatefulSet](/knowledge/kubernetes/statefulset/) - PVC 템플릿을 포함하는 오브젝트
-- [PersistentVolumeClaim](/knowledge/kubernetes/persistentvolumeclaim/) - 각 Pod에 할당되는 개별 스토리지 요청
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - PVC에 바인딩되는 실제 스토리지
-- [StorageClass](/knowledge/kubernetes/storageclass/) - PVC 동적 프로비저닝을 위한 클래스
 - [ReplicaSet Scaling](/knowledge/kubernetes/replicaset-scaling/) - Deployment의 다른 스케일링 방식

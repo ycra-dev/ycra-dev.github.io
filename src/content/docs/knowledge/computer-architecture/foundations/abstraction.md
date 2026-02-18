@@ -33,6 +33,6 @@ sidebar:
 ## 관련 개념
 
 - [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Compiler](/knowledge/computer-architecture/compiler/)
+- [Compiler](/knowledge/language/compiler/)
 - [Operating System](/knowledge/computer-architecture/operating-system/)
 - [Application Binary Interface](/knowledge/computer-architecture/application-binary-interface/)

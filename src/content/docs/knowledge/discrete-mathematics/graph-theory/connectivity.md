@@ -75,5 +75,4 @@ def is_connected(graph):
 - [Graph](/knowledge/mathematics/graph/) - 연결성이 정의되는 기본 구조
 - [Adjacency Matrix](/knowledge/mathematics/adjacency-matrix/) - A^r로 경로 수 계산 및 연결성 판단
 - [Euler Path and Circuit](/knowledge/mathematics/euler-path-and-circuit/) - 연결 그래프에서의 간선 순회
-- [Relation](/knowledge/mathematics/relation/) - 경로 존재 관계는 동치 관계
-- [Algorithm](/knowledge/mathematics/algorithm/) - BFS/DFS로 연결성 판별
+- [Algorithm](/knowledge/algorithms/algorithm/) - BFS/DFS로 연결성 판별

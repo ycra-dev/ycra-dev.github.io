@@ -46,6 +46,5 @@ CREATE TABLE student (
 
 - [Partial Participation](/knowledge/database/partial-participation/)
 - [Mapping Cardinality](/knowledge/database/mapping-cardinality/)
-- [E-R Diagram](/knowledge/database/e-r-diagram/)
 - [Weak Entity Set](/knowledge/database/weak-entity-set/)
 - [Relationship Set](/knowledge/database/relationship-set/)

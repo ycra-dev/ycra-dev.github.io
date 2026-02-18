@@ -39,6 +39,4 @@ where instructor.dept_name = department.dept_name
 
 ## 관련 개념
 
-- [Database Management System (DBMS)](/knowledge/database/database-management-system-dbms/)
-- [Database Language (DDL/DML)](/knowledge/database/database-language-ddldml/)
 - [Storage Manager](/knowledge/database/storage-manager/)

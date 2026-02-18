@@ -56,6 +56,14 @@ sidebar:
   - 사용자에게 친숙한 인터페이스 제공
 - **단점**: 시스템 리소스 소비, 보안 취약점 가능성
 
+## 관련 개념
+
+- [커널 (Kernel)](/knowledge/os/kernel/) - 시스템 프로그램과 구분되는 운영체제의 핵심 프로그램
+- [운영체제 서비스 (Operating-System Services)](/knowledge/os/os-services/) - 시스템 프로그램이 사용자에게 제공하는 운영체제의 서비스
+- [명령 인터프리터 (Command Interpreter)](/knowledge/os/command-interpreter/) - 시스템 프로그램을 실행하는 셸 인터페이스
+- [링커와 로더 (Linkers and Loaders)](/knowledge/os/linker-loader/) - 프로그램 적재 및 실행 범주에 해당하는 시스템 소프트웨어
+- [부트스트랩 프로그램 (Bootstrap Program)](/knowledge/os/bootstrap-program/) - 부팅 시 데몬 프로세스를 시작하는 과정과 관련된 프로그램
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 2, p.74-75

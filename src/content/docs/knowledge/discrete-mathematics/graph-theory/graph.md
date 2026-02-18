@@ -58,4 +58,3 @@ graph = {
 - [Bipartite Graph](/knowledge/mathematics/bipartite-graph/) - 특수한 그래프 유형
 - [Graph Isomorphism](/knowledge/mathematics/graph-isomorphism/) - 그래프 구조의 동등성
 - [Set](/knowledge/mathematics/set/) - 그래프 정의의 기초
-- [Relation](/knowledge/mathematics/relation/) - 그래프와 관계의 연결

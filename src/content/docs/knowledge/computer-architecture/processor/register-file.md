@@ -55,7 +55,6 @@ Verilog:
 - [Datapath](/knowledge/computer-architecture/datapath/)
 - [State Element](/knowledge/computer-architecture/state-element/)
 - [Forwarding](/knowledge/computer-architecture/forwarding/)
-- [R-Format Instruction](/knowledge/computer-architecture/r-format-instruction/)
 - [Flip-Flop](/knowledge/computer-architecture/flip-flop/)
 - [Decoder](/knowledge/computer-architecture/decoder/)
 - [Multiplexor](/knowledge/computer-architecture/multiplexor/)

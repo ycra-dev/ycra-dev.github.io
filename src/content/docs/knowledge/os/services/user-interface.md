@@ -46,6 +46,13 @@ CLI vs GUI 선택은 대부분 개인 선호의 문제이다.
 | **CLI** | 반복 작업에 효율적, 셸 스크립트로 자동화 가능 | 학습 곡선 존재 |
 | **터치스크린** | 모바일 시스템에 적합 | 정밀한 입력이 어려움 |
 
+## 관련 개념
+
+- [명령 인터프리터 (Command Interpreter)](/knowledge/os/command-interpreter/) - CLI 형태의 사용자 인터페이스를 제공하는 셸 프로그램
+- [GUI (Graphical User Interface)](/knowledge/os/gui/) - 마우스 기반 윈도우-메뉴 시스템의 그래픽 인터페이스
+- [터치스크린 인터페이스 (Touch-Screen Interface)](/knowledge/os/touch-screen-interface/) - 모바일 환경에서 제스처로 상호작용하는 인터페이스
+- [운영체제 서비스 (Operating-System Services)](/knowledge/os/os-services/) - 사용자 인터페이스가 제공하는 운영체제 서비스의 전체 목록
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 2, p.56, 58-61

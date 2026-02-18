@@ -81,4 +81,3 @@ NFA:  s0 --1--> s1, s0 --0--> s2(최종), s1 --0,1--> s1, s1 --1--> s2
 - [Finite-State Automaton](/knowledge/mathematics/finite-state-automaton/): 클리네 정리의 다른 쪽 (FSA 인식)
 - [Nondeterministic Finite-State Automaton](/knowledge/mathematics/nondeterministic-finite-state-automaton/): 증명에서 NFA 구성이 핵심
 - [Regular Grammar and Regular Language](/knowledge/mathematics/regular-grammar-and-regular-language/): 정규 문법과 정규 집합의 동치 (정리 2)
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/): 비정규 집합 증명에 비둘기집 원리 사용

@@ -68,3 +68,11 @@ import StepFlow from '../../../../../components/StepFlow.astro';
 - 디스크 I/O 대폭 감소, 쓰기 지연(write-back)으로 성능 향상
 - 디스크 드라이버가 요청 정렬 가능 → seek 최적화
 - 단점: 시스템 크래시 시 dirty 버퍼 손실 위험, 동기 쓰기 필요 시 성능 저하
+
+## 관련 개념
+
+- [버퍼링 (Buffering)](/knowledge/os/buffering/) - 속도 차이 해소를 위한 임시 메모리 영역으로, 블록 버퍼 캐시의 기반 개념
+- [캐시 (Cache)](/knowledge/os/cache/) - 자주 사용되는 데이터를 빠른 저장 장치에 복사하는 일반적 메커니즘
+- [UNIX 파일 디스크립터](/knowledge/os/unix-file-descriptor/) - read()/write() 시스템 콜이 블록 버퍼 캐시를 경유하여 처리됨
+- [VFS (Virtual File System)](/knowledge/os/vfs/) - 파일 시스템 추상화 계층으로, 블록 버퍼 캐시와 함께 I/O 성능을 향상
+- [저널링 파일 시스템](/knowledge/os/journaling/) - dirty 버퍼 손실 문제를 해결하기 위한 로그 기반 복구 기법

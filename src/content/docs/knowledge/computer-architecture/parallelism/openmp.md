@@ -32,7 +32,6 @@ for (int i = 0; i < N; i += BLOCKSIZE)
 
 ## 관련 개념
 
-- [Thread-Level Parallelism](/knowledge/computer-architecture/thread-level-parallelism/)
 - [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
 - [DGEMM](/knowledge/computer-architecture/dgemm/)
 - [Strong Scaling](/knowledge/computer-architecture/strong-scaling/)

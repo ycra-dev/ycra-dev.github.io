@@ -36,4 +36,3 @@ sidebar:
 - [DRAM](/knowledge/computer-architecture/dram/)
 - [SRAM](/knowledge/computer-architecture/sram/)
 - [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Hamming Code](/knowledge/computer-architecture/hamming-code/)

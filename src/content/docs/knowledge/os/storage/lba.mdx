@@ -85,3 +85,11 @@ import NestedDiagram from '../../../../../components/NestedDiagram.astro';
 
 - 장점: 저장장치 추상화로 OS 단순화, 장치 독립적 프로그래밍, 물리적 결함 은닉
 - 단점: LBA와 물리 위치 관계가 불투명, HDD에서 LBA 순서와 물리 인접이 항상 일치하지 않음
+
+## 관련 개념
+
+- [HDD (Hard Disk Drive)](/knowledge/os/hdd/) - LBA가 추상화하는 CHS(실린더/헤드/섹터) 물리 구조를 가진 장치
+- [SSD (Solid-State Drive)](/knowledge/os/ssd/) - FTL이 LBA를 NAND 물리 페이지로 변환하는 전자식 저장장치
+- [NAND 플래시 관리 알고리즘](/knowledge/os/nand-flash-management/) - LBA → 물리 페이지 변환을 담당하는 FTL의 상세 동작
+- [저장장치 초기화](/knowledge/os/storage-initialization/) - 저수준 포매팅으로 LBA가 매핑되는 섹터/페이지 구조를 생성
+- [디바이스 드라이버](/knowledge/os/device-driver/) - OS의 LBA 요청을 저장장치 컨트롤러에 전달하는 커널 모듈

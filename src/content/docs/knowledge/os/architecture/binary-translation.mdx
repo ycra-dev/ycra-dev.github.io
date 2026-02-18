@@ -105,3 +105,11 @@ popf                     ; 안전한 플래그만 실제 CPU에 반영
 | 대부분 네이티브 실행 | 초기 번역 오버헤드 |
 | Cache로 오버헤드 최소화 | TLB 미스 증가 |
 | | HW 가상화로 필요성 감소 |
+
+## 관련 개념
+
+- [트랩 앤 에뮬레이트 (Trap-and-Emulate)](/knowledge/os/trap-and-emulate/) - 바이너리 변환이 해결하려 한 기존 가상화 기법으로, 특권 명령어 트랩 기반 에뮬레이션
+- [하드웨어 가상화 지원 (VT-x/AMD-V)](/knowledge/os/hw-virtualization/) - 바이너리 변환을 대체한 CPU 수준의 가상화 지원 기능
+- [가상화 (Virtualization)](/knowledge/os/virtualization/) - 가상화의 전체 개념과 VMM의 역할
+- [준가상화 (Paravirtualization)](/knowledge/os/paravirtualization/) - 게스트 OS 수정을 통한 또 다른 가상화 접근법
+- [VMM 메모리 관리 (VMM Memory Management)](/knowledge/os/vmm-memory-management/) - 바이너리 변환과 함께 사용되는 Nested Page Tables 등 메모리 관리 기법

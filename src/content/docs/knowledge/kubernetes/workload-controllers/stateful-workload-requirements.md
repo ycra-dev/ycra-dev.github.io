@@ -57,6 +57,4 @@ kubectl scale deploy quiz --replicas 3
 
 - [StatefulSet](/knowledge/kubernetes/statefulset/) - 상태 유지 워크로드를 위한 해결책
 - [Deployment](/knowledge/kubernetes/deployment/) - 무상태 워크로드에 적합한 오브젝트
-- [PersistentVolumeClaim](/knowledge/kubernetes/persistentvolumeclaim/) - 개별 스토리지 할당에 필요
 - [Headless Service for StatefulSet](/knowledge/kubernetes/headless-service-for-statefulset/) - 안정적인 네트워크 정체성 제공
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - 실제 스토리지 리소스

@@ -83,7 +83,4 @@ print(check_planarity_bound(6, 9, True))
 ## 관련 개념
 
 - [Graph](/knowledge/mathematics/graph/) - 평면 그래프는 그래프의 특수한 성질
-- [Euler's Formula for Planar Graphs](/knowledge/mathematics/eulers-formula-for-planar-graphs/) - 핵심 공식
-- [Kuratowski's Theorem](/knowledge/mathematics/kuratowskis-theorem/) - 평면성 완전 특성화
-- [Graph Coloring](/knowledge/mathematics/graph-coloring/) - 사색 정리와의 연결
 - [Bipartite Graph](/knowledge/mathematics/bipartite-graph/) - K_{3,3}은 비평면 이분 그래프

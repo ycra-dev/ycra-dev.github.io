@@ -61,7 +61,6 @@ __global__ void reduce(float *input, float *total, int n) {
 
 ## 관련 개념
 
-- [Parallel Scan (Prefix Sum)](/knowledge/computer-architecture/parallel-scan-prefix-sum/)
 - [Atomic Memory Operation](/knowledge/computer-architecture/atomic-memory-operation/)
 - [CUDA](/knowledge/computer-architecture/cuda/)
 - [GPU Memory Hierarchy](/knowledge/computer-architecture/gpu-memory-hierarchy/)

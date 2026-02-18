@@ -47,8 +47,5 @@ MIPS에서 PC 업데이트 경로:
 - [Conditional Branch](/knowledge/computer-architecture/conditional-branch/)
 - [PC-Relative Addressing](/knowledge/computer-architecture/pc-relative-addressing/)
 - [Stored-Program Concept](/knowledge/computer-architecture/stored-program-concept/)
-- [Central Processing Unit](/knowledge/computer-architecture/central-processing-unit/)
 - [Datapath](/knowledge/computer-architecture/datapath/)
-- [Branch Target Address](/knowledge/computer-architecture/branch-target-address/)
 - [Control Hazard](/knowledge/computer-architecture/control-hazard/)
-- [Instruction Fetch](/knowledge/computer-architecture/instruction-fetch/)

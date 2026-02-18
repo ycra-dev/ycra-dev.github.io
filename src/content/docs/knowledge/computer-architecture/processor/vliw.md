@@ -37,5 +37,5 @@ TPUv3 VLIW 명령어 구조 (322비트):
 - [Instruction-Level Parallelism](/knowledge/computer-architecture/instruction-level-parallelism/)
 - [Superscalar](/knowledge/computer-architecture/superscalar/)
 - [Multiple Issue](/knowledge/computer-architecture/multiple-issue/)
-- [Loop Unrolling](/knowledge/computer-architecture/loop-unrolling/)
+- [Loop Unrolling](/knowledge/language/loop-unrolling/)
 - [Register Renaming](/knowledge/computer-architecture/register-renaming/)

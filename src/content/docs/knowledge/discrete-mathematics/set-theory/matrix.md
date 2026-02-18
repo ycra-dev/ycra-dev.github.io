@@ -110,4 +110,3 @@ print(A.T)  # 전치
 - [Set Operations](/knowledge/mathematics/set-operations/) - 0-1 행렬과 집합의 비트열 표현
 - [Function](/knowledge/mathematics/function/) - 행렬은 선형 함수(변환)를 표현
 - [Cartesian Product](/knowledge/mathematics/cartesian-product/) - 행렬의 인덱스는 행 × 열의 데카르트 곱
-- [Propositional Logic](/knowledge/mathematics/propositional-logic/) - 부울 행렬 연산과 논리 연산의 대응

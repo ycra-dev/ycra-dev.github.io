@@ -60,5 +60,4 @@ SIMD 덧셈 예시 (4 × 32비트):
 
 - [RISC Architecture](/knowledge/computer-architecture/risc-architecture/)
 - [x86 Architecture](/knowledge/computer-architecture/x86-architecture/)
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)
 - [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)

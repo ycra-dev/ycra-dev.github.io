@@ -31,7 +31,4 @@ Spectre 공격 과정:
 
 ## 관련 개념
 
-- [Speculative Execution](/knowledge/computer-architecture/speculative-execution/)
-- [Cache](/knowledge/computer-architecture/cache/)
 - [Hardware Multithreading](/knowledge/computer-architecture/hardware-multithreading/)
-- [ISA](/knowledge/computer-architecture/isa/)

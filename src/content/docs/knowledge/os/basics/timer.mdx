@@ -57,6 +57,13 @@ import StepFlow from '../../../../../components/StepFlow.astro';
 - **장점**: 운영체제의 CPU 제어 보장, 무한 루프 프로그램으로부터 시스템 보호
 - **단점**: 타이머 인터럽트 처리 오버헤드
 
+## 관련 개념
+
+- [인터럽트 (Interrupt)](/knowledge/os/interrupt/) - 타이머가 CPU에 신호를 보내는 데 사용하는 메커니즘
+- [특권 명령어 (Privileged Instructions)](/knowledge/os/privileged-instructions/) - 타이머 수정 명령어가 속하는 커널 모드 전용 명령어
+- [이중 모드 연산 (Dual-Mode Operation)](/knowledge/os/dual-mode-operation/) - 타이머가 보호를 제공하는 대상인 사용자/커널 모드 구분
+- [커널 (Kernel)](/knowledge/os/kernel/) - 타이머 인터럽트 발생 시 제어를 넘겨받는 운영체제 핵심 프로그램
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 1, p.26-27

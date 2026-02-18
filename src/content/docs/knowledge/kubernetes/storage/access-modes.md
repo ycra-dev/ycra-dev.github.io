@@ -94,8 +94,6 @@ kubectl get pvc
 
 ## 관련 개념
 
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - 접근 모드가 정의되는 스토리지 리소스
-- [PersistentVolumeClaim](/knowledge/kubernetes/persistentvolumeclaim/) - 접근 모드를 요청하는 클레임
 - [Network Storage Volume](/knowledge/kubernetes/network-storage-volume/) - 접근 모드가 스토리지 기술에 따라 제한됨
 - [StatefulSet](/knowledge/kubernetes/statefulset/) - 각 Pod가 고유한 PV를 갖는 워크로드
 - [Volume Mount](/knowledge/kubernetes/volume-mount/) - 실제 읽기/쓰기 모드를 설정하는 마운트 옵션

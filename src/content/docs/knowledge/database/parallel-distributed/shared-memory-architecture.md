@@ -32,4 +32,3 @@ Intel Xeon 프로세서 기반 서버 시스템은 대표적인 공유 메모리
 
 - [Shared-Nothing Architecture](/knowledge/database/shared-nothing-architecture/)
 - [Parallel Database System](/knowledge/database/parallel-database-system/)
-- [Cloud-Based Database Services](/knowledge/database/cloud-based-database-services/)

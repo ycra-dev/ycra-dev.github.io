@@ -73,8 +73,6 @@ kubectl get pvc quiz-data-default
 
 ## 관련 개념
 
-- [StorageClass](/knowledge/kubernetes/storageclass/) - 바인딩 모드가 설정되는 오브젝트
 - [Dynamic Provisioning](/knowledge/kubernetes/dynamic-provisioning/) - 바인딩 모드가 프로비저닝 타이밍을 결정
 - [Local Persistent Volume](/knowledge/kubernetes/local-persistent-volume/) - WaitForFirstConsumer가 필수인 볼륨 유형
-- [PersistentVolumeClaim](/knowledge/kubernetes/persistentvolumeclaim/) - 바인딩 모드에 따라 Pending 또는 즉시 Bound
 - [Scheduler](/knowledge/kubernetes/scheduler/) - WaitForFirstConsumer에서 스케줄링과 바인딩이 연계

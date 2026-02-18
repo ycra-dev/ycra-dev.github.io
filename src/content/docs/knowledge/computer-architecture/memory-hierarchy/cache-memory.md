@@ -33,7 +33,6 @@ sidebar:
 - [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
 - [SRAM](/knowledge/computer-architecture/sram/)
 - [DRAM](/knowledge/computer-architecture/dram/)
-- [Central Processing Unit](/knowledge/computer-architecture/central-processing-unit/)
 - [Direct-Mapped Cache](/knowledge/computer-architecture/direct-mapped-cache/)
 - [Set-Associative Cache](/knowledge/computer-architecture/set-associative-cache/)
 - [Write-Through](/knowledge/computer-architecture/write-through/)

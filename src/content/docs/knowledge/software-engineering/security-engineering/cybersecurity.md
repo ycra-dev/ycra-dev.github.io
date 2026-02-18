@@ -21,8 +21,6 @@ sidebar:
 ## 관련 개념
 
 - [Resilience](/knowledge/software-engineering/resilience/)
-- [Confidentiality, Integrity, and Availability](/knowledge/software-engineering/confidentiality-integrity-and-availability/)
 - [Defense in Depth](/knowledge/software-engineering/defense-in-depth/)
 - [Vulnerability](/knowledge/software-engineering/vulnerability/)
-- [Recognition, Resistance, Recovery, and Reinstatement](/knowledge/software-engineering/recognition-resistance-recovery-and-reinstatement/)
 - [Sociotechnical Resilience](/knowledge/software-engineering/sociotechnical-resilience/)

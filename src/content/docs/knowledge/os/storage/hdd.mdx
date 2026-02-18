@@ -63,3 +63,11 @@ LP 레코드 플레이어와 유사하다. 바늘(헤드)이 돌아가는 레코
 
 - **장점**: 대용량을 저렴하게 제공 (TB당 비용이 SSD보다 낮음), 순차 읽기/쓰기 성능 양호, 기술 성숙
 - **단점**: 기계적 부품으로 인한 느린 랜덤 접근 (수 ms 지연), 헤드 충돌 시 데이터 손실, 소음/발열/전력 소비
+
+## 관련 개념
+
+- [SSD (Solid-State Drive)](/knowledge/os/ssd/) - HDD의 기계적 한계를 해결한 전자식 비휘발성 저장장치
+- [논리 블록 주소 (LBA)](/knowledge/os/lba/) - HDD의 물리적 CHS 주소를 추상화한 선형 블록 주소 체계
+- [I/O 스케줄링](/knowledge/os/io-scheduling/) - HDD의 탐색 시간을 최소화하기 위한 요청 순서 최적화
+- [BSD 실린더 그룹](/knowledge/os/bsd-cylinder-group/) - HDD의 실린더 구조를 활용하여 seek를 최소화하는 파일 시스템 할당 단위
+- [오류 검출과 정정 (ECC)](/knowledge/os/ecc/) - HDD 각 섹터에 적용되는 오류 검출/정정 코드

@@ -81,7 +81,6 @@ P = P6 + P7 + P8 = 2,684,483,063,360
 - [Sum Rule](/knowledge/mathematics/sum-rule/) - 서로소 집합에 대한 특수 경우
 - [Product Rule](/knowledge/mathematics/product-rule/) - 순차적 작업에 대한 계수 원리
 - [Set](/knowledge/mathematics/set/) - 합집합과 교집합 연산에 기반
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 이중 계수 증명 기법의 기초
 - [Combination](/knowledge/mathematics/combination/) - 포함-배제 공식의 증명에 이항 계수 사용
 - [Permutation](/knowledge/mathematics/permutation/) - 완전순열(derangement) 계산에 포함-배제 적용
 - [Function](/knowledge/mathematics/function/) - 전사함수의 수를 포함-배제로 계산

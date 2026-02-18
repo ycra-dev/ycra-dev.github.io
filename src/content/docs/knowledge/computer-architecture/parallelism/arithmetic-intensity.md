@@ -28,6 +28,5 @@ sidebar:
 ## 관련 개념
 
 - [Roofline Model](/knowledge/computer-architecture/roofline-model/)
-- [Memory Bandwidth](/knowledge/computer-architecture/memory-bandwidth/)
 - [Software Prefetching](/knowledge/computer-architecture/software-prefetching/)
 - [Cache Blocking](/knowledge/computer-architecture/cache-blocking/)

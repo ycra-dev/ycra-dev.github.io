@@ -68,4 +68,3 @@ print(cart)
 - [Set](/knowledge/mathematics/set/) - 집합의 기본 개념
 - [Function](/knowledge/mathematics/function/) - 함수는 A × B의 특별한 부분집합(관계)
 - [Matrix](/knowledge/mathematics/matrix/) - 행렬의 원소 인덱싱은 행 집합 × 열 집합의 데카르트 곱
-- [Predicate Logic](/knowledge/mathematics/predicate-logic/) - 다변수 술어의 정의역은 데카르트 곱

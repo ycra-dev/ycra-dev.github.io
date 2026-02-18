@@ -86,3 +86,11 @@ SSD(Solid-State Drive)는 NAND 플래시 메모리 칩을 사용하여 데이터
 ```
 
 기존 위치의 데이터는 '무효'로 표시되고, 새 위치에 수정된 데이터가 기록된다. 무효 페이지는 가비지 컬렉션(GC)으로 정리.
+
+## 관련 개념
+
+- [HDD (Hard Disk Drive)](/knowledge/os/hdd/) - SSD가 대체하는 기계식 저장장치로, 물리 구조와 성능 특성이 다름
+- [NAND 플래시 관리 알고리즘](/knowledge/os/nand-flash-management/) - FTL, GC, 웨어 레벨링 등 SSD 컨트롤러의 내부 관리 기법 상세
+- [논리 블록 주소 (LBA)](/knowledge/os/lba/) - OS가 SSD에 접근할 때 사용하는 논리 주소 체계
+- [오류 검출과 정정 (ECC)](/knowledge/os/ecc/) - SSD 페이지 단위로 적용되는 비트 오류 정정 코드
+- [I/O 스케줄링](/knowledge/os/io-scheduling/) - SSD에서는 탐색 시간이 없어 NOOP 스케줄러가 적합

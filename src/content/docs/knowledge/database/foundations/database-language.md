@@ -39,7 +39,6 @@ where instructor.dept_name = 'History';
 
 ## 관련 개념
 
-- [Database Management System (DBMS)](/knowledge/database/database-management-system-dbms/)
 - [Database Schema](/knowledge/database/database-schema/)
 - [SQL](/knowledge/database/sql/)
 - [Query Processor](/knowledge/database/query-processor/)

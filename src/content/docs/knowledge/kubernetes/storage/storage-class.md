@@ -96,8 +96,6 @@ kubectl get sc
 ## 관련 개념
 
 - [Dynamic Provisioning](/knowledge/kubernetes/dynamic-provisioning/) - StorageClass를 기반으로 자동 PV 생성
-- [PersistentVolumeClaim](/knowledge/kubernetes/persistentvolumeclaim/) - StorageClass를 참조하여 스토리지를 요청
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - StorageClass에 의해 동적으로 생성되는 리소스
 - [Volume Binding Mode](/knowledge/kubernetes/volume-binding-mode/) - StorageClass에서 설정하는 바인딩 시점
 - [Reclaim Policy](/knowledge/kubernetes/reclaim-policy/) - StorageClass에서 기본 회수 정책을 설정
 - [Annotation](/knowledge/kubernetes/annotation/) - 기본 스토리지 클래스를 지정하는 데 사용되는 메타데이터

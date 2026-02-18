@@ -97,5 +97,4 @@ spec:
 - [Volume](/knowledge/kubernetes/volume/) - hostPath가 속하는 상위 볼륨 개념
 - [Network Storage Volume](/knowledge/kubernetes/network-storage-volume/) - hostPath의 대안인 네트워크 스토리지
 - [Local Persistent Volume](/knowledge/kubernetes/local-persistent-volume/) - hostPath보다 안전한 노드 로컬 스토리지
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - 개발 환경에서 hostPath를 PV로 사용 가능
 - [Pod](/knowledge/kubernetes/pod/) - 볼륨이 정의되는 리소스

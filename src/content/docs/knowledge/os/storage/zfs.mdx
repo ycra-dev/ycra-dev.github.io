@@ -125,3 +125,11 @@ zfs snapshot mypool/home@backup1
 
 - **장점**: 강력한 데이터 무결성 (silent corruption 방지), 유연한 공간 관리, 통합 관리 (볼륨 + 파일 시스템 + RAID), 스냅샷과 복제 등 고급 기능
 - **단점**: 체크섬 계산 오버헤드 (미미), 메모리 사용량 높음 (ARC 캐시), Linux에서 라이선스 이슈 (CDDL vs GPL), 학습 곡선
+
+## 관련 개념
+
+- [RAID (Redundant Array of Independent Disks)](/knowledge/os/raid/) - ZFS RAID-Z가 대체하는 전통적 디스크 중복성 기술
+- [RAID 레벨](/knowledge/os/raid-levels/) - RAID-Z1/Z2/Z3에 대응하는 전통적 RAID 5/6 레벨 비교
+- [저널링 파일 시스템](/knowledge/os/journaling/) - ZFS COW 방식과 대비되는 WAL 기반 크래시 복구 기법
+- [오류 검출과 정정 (ECC)](/knowledge/os/ecc/) - ZFS 체크섬과 함께 데이터 무결성을 보장하는 하드웨어 수준 기법
+- [저장장치 초기화](/knowledge/os/storage-initialization/) - ZFS가 볼륨 관리와 파일 시스템을 통합하여 기존 초기화 과정을 단순화

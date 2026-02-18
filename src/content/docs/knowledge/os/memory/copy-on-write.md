@@ -100,6 +100,4 @@ fork() 직후:
 ## 관련 개념
 
 - [가상 메모리](/knowledge/os/virtual-memory/)
-- [프로세스 생성 (fork-exec)](/knowledge/os/process-creation/)
 - [요구 페이징 (Demand Paging)](/knowledge/os/demand-paging/)
-- [공유 메모리 (Shared Memory)](/knowledge/os/shared-memory/)

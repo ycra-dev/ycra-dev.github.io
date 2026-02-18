@@ -23,7 +23,6 @@ sidebar:
 - [Dependability](/knowledge/software-engineering/dependability/)
 - [Cybersecurity](/knowledge/software-engineering/cybersecurity/)
 - [Sociotechnical Resilience](/knowledge/software-engineering/sociotechnical-resilience/)
-- [Recognition, Resistance, Recovery, and Reinstatement](/knowledge/software-engineering/recognition-resistance-recovery-and-reinstatement/)
 - [Resilient Systems Design](/knowledge/software-engineering/resilient-systems-design/)
 - [Redundancy and Diversity](/knowledge/software-engineering/redundancy-and-diversity/)
 - [Availability](/knowledge/software-engineering/availability/)

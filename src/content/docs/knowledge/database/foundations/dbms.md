@@ -46,4 +46,3 @@ create table department
 - [Database Schema](/knowledge/database/database-schema/)
 - [Storage Manager](/knowledge/database/storage-manager/)
 - [Query Processor](/knowledge/database/query-processor/)
-- [Transaction Management](/knowledge/database/transaction-management/)

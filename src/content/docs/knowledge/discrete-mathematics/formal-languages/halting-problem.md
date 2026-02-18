@@ -56,8 +56,8 @@ K(K)를 호출하면?
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/mathematics/algorithm/) - 알고리즘의 한계를 보여주는 문제
+- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘의 한계를 보여주는 문제
 - [Proof by Contradiction](/knowledge/mathematics/proof-by-contradiction/) - 정지 문제의 증명에 사용된 증명 기법
-- [Tractability](/knowledge/mathematics/tractability/) - 풀 수 없는 문제 vs. 다루기 어려운 문제의 구분
+- [Tractability](/knowledge/algorithms/tractability/) - 풀 수 없는 문제 vs. 다루기 어려운 문제의 구분
 - [Proposition](/knowledge/mathematics/proposition/) - 증명의 논리적 구조
 - [Cardinality](/knowledge/mathematics/cardinality/) - 대각선 논법과의 연관성

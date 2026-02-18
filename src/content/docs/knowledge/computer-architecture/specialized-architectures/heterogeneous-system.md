@@ -41,7 +41,6 @@ GPU 메모리 --[PCIe]--> CPU (결과 반환)
 
 ## 관련 개념
 
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)
 - [CUDA](/knowledge/computer-architecture/cuda/)
 - [PCI-Express](/knowledge/computer-architecture/pci-express/)
 - [Unified Memory Architecture](/knowledge/computer-architecture/unified-memory-architecture/)

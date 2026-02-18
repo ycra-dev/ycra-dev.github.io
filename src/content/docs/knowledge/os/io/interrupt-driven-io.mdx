@@ -47,3 +47,11 @@ import StepFlow from '../../../../../components/StepFlow.astro';
 - 인터럽트 처리 오버헤드 (상태 저장/복원, 컨텍스트 스위치)
 - 초당 수십만 개 인터럽트 처리 시 오버헤드 누적
 - 고처리량 I/O에서는 폴링이 더 효율적일 수 있음
+
+## 관련 개념
+
+- [Polling](/knowledge/os/polling/) - CPU가 장치 상태를 반복 확인하는 방식으로, 인터럽트의 대안
+- [DMA (Direct Memory Access)](/knowledge/os/dma/) - 대량 데이터 전송 시 인터럽트 횟수를 블록당 1개로 줄이는 기법
+- [인터럽트 (Interrupt)](/knowledge/os/interrupt/) - 인터럽트의 기본 개념과 하드웨어 메커니즘
+- [인터럽트 벡터 (Interrupt Vector)](/knowledge/os/interrupt-vector/) - 인터럽트 발생 시 적절한 핸들러를 찾기 위한 주소 테이블
+- [디바이스 드라이버](/knowledge/os/device-driver/) - 인터럽트 핸들러를 구현하고 장치를 제어하는 커널 모듈

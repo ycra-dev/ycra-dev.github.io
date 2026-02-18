@@ -72,3 +72,11 @@ mount -o data=writeback /dev/sda1 /mnt/fast
 # 저널 상태 확인
 dumpe2fs /dev/sda1 | grep -i journal
 ```
+
+## 관련 개념
+
+- [NTFS 복구 메커니즘](/knowledge/os/ntfs-recovery/) - NTFS에서 트랜잭션 로깅을 통해 메타데이터 일관성을 복구하는 방식
+- [ZFS (Zettabyte File System)](/knowledge/os/zfs/) - COW 방식으로 저널링 없이도 일관성을 보장하는 현대적 파일 시스템
+- [UNIX 블록 버퍼 캐시](/knowledge/os/unix-block-buffer-cache/) - dirty 버퍼 손실 위험을 저널링으로 해결
+- [UNIX 아이노드 (Inode)](/knowledge/os/unix-inode/) - 저널링이 보호하는 파일 시스템 메타데이터 구조
+- [저장장치 초기화](/knowledge/os/storage-initialization/) - mkfs로 논리적 포매팅 시 저널 영역을 생성하는 과정

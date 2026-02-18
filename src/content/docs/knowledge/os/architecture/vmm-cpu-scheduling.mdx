@@ -92,3 +92,11 @@ VMM도 게스트 관리, I/O 관리, 라이브 마이그레이션 등을 위해 
 |------|------|
 | **장점** | 유연한 자원 할당 (오버커밋 가능), 물리 CPU보다 많은 VCPU 제공, 공정한 자원 분배 |
 | **단점** | 시간 왜곡으로 게스트 스케줄링 예측 불가, 실시간 워크로드에 부적합, 성능 변동성 |
+
+## 관련 개념
+
+- [VMM 메모리 관리 (VMM Memory Management)](/knowledge/os/vmm-memory-management/) - CPU 스케줄링과 함께 VMM의 핵심 자원 관리 기능인 메모리 관리
+- [가상화 (Virtualization)](/knowledge/os/virtualization/) - VCPU 개념을 포함한 가상화의 전체 구조
+- [하이퍼바이저 유형 (Type 0/1/2 Hypervisor)](/knowledge/os/hypervisor-types/) - CPU 스케줄링 방식이 달라지는 하이퍼바이저 유형별 특성
+- [라이브 마이그레이션 (Live Migration)](/knowledge/os/live-migration/) - VMM의 CPU 시간을 소모하는 주요 관리 작업
+- [멀티프로세서 시스템 (Multiprocessor System)](/knowledge/os/multiprocessor-system/) - VCPU가 매핑되는 물리적 멀티프로세서 구조

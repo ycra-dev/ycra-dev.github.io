@@ -77,7 +77,6 @@ API 리소스 구조:
 
 ## 관련 개념
 
-- [Kubernetes API Server](/knowledge/kubernetes/kubernetes-api-server/) - API를 제공하는 서버 컴포넌트
 - [Object Manifest](/knowledge/kubernetes/object-manifest/) - API 객체의 YAML/JSON 표현
 - [kubectl](/knowledge/kubernetes/kubectl/) - API와 상호작용하는 CLI 도구
 - [Spec and Status](/knowledge/kubernetes/spec-and-status/) - API 객체의 핵심 구조

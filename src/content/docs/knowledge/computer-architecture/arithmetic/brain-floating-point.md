@@ -34,5 +34,3 @@ bf16의 장점:
 
 - [TPUv3 Supercomputer](/knowledge/computer-architecture/tpuv3-supercomputer/)
 - [DNN Training](/knowledge/computer-architecture/dnn-training/)
-- [Floating-Point Representation](/knowledge/computer-architecture/floating-point-representation/)
-- [Matrix Multiply Unit](/knowledge/computer-architecture/matrix-multiply-unit/)

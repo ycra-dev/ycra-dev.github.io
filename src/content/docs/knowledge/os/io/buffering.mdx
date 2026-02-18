@@ -65,3 +65,11 @@ import StepFlow from '../../../../../components/StepFlow.astro';
 - 메모리 사용량 증가
 - 데이터 복사 오버헤드
 - 버퍼 overflow 시 데이터 손실 가능
+
+## 관련 개념
+
+- [스풀링 (Spooling)](/knowledge/os/spooling/) - 디스크를 버퍼로 사용하여 전용 장치 접근을 직렬화하는 기법
+- [UNIX 블록 버퍼 캐시](/knowledge/os/unix-block-buffer-cache/) - 디스크 블록을 메모리에 캐싱하여 I/O 횟수를 줄이는 커널 메커니즘
+- [DMA (Direct Memory Access)](/knowledge/os/dma/) - CPU 개입 없이 장치와 메모리 간 데이터를 버퍼로 직접 전송
+- [캐시 (Cache)](/knowledge/os/cache/) - 자주 사용되는 데이터를 빠른 저장 장치에 복사하는 메커니즘으로, 버퍼와 목적이 다름
+- [블로킹 vs 논블로킹 I/O](/knowledge/os/blocking-nonblocking-io/) - 버퍼링과 결합하여 비동기 I/O를 가능하게 하는 I/O 모델

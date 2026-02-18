@@ -52,5 +52,4 @@ sudo wg show
 
 - [ssh-port-forwarding](/knowledge/linux/ssh-port-forwarding/) - 간이 VPN으로 사용 가능한 SSH 터널링
 - [firewall](/knowledge/linux/firewall/) - VPN과 방화벽의 상호작용
-- [ipsec](/knowledge/linux/ipsec/) - VPN의 핵심 프로토콜
 - [tls-ssl](/knowledge/linux/tls-ssl/) - VPN과 유사한 암호화 기술

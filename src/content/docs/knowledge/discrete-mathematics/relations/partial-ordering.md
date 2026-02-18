@@ -91,5 +91,3 @@ P({a,b,c}) 위의 포함 관계 (⊆):
 - [Binary Relation](/knowledge/mathematics/binary-relation/) - 반순서는 특수한 이항 관계
 - [Equivalence Relation](/knowledge/mathematics/equivalence-relation/) - 대칭 대신 반대칭을 사용
 - [Hasse Diagram](/knowledge/mathematics/hasse-diagram/) - 포셋의 시각적 표현
-- [Topological Sorting](/knowledge/mathematics/topological-sorting/) - 반순서에서 전순서를 구성
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 정렬순서 귀납법 증명 기법

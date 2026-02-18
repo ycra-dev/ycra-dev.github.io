@@ -61,4 +61,3 @@ DDR: 상승+하강 에지 전송 → 2배 대역폭
 - [Volatile Memory](/knowledge/computer-architecture/volatile-memory/)
 - [High Bandwidth Memory](/knowledge/computer-architecture/high-bandwidth-memory/)
 - [Error Detection Code](/knowledge/computer-architecture/error-detection-code/)
-- [Cache](/knowledge/computer-architecture/cache/)

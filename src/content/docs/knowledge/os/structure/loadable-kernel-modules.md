@@ -75,3 +75,11 @@ LKM은 4가지 핵심 컴포넌트로 구성됩니다:
 | 마이크로커널과 달리 메시지 패싱 불필요 | 보안 취약점이 될 수 있음 |
 | 커널 크기 최소화 (필요한 모듈만 로드) | 커널 모드 버그 시 시스템 크래시 |
 | 전체 커널 재컴파일 없이 모듈 개발/테스트 가능 | ABI 호환성 관리 필요 |
+
+## 관련 개념
+
+- [모놀리식 구조 (Monolithic Structure)](/knowledge/os/monolithic-structure/) - LKM이 성능 이점을 유지하는 기반 구조
+- [마이크로커널 (Microkernel)](/knowledge/os/microkernel/) - LKM과 유사한 모듈성을 가지지만 메시지 패싱 방식을 사용
+- [계층적 접근 (Layered Approach)](/knowledge/os/layered-approach/) - LKM과 유사한 보호 인터페이스를 가지지만 유연성이 낮은 구조
+- [Linux 시스템 구조](/knowledge/os/linux-system-architecture/) - LKM을 활용하여 유연성을 확보한 Linux의 전체 아키텍처
+- [하이브리드 시스템 (Hybrid Systems)](/knowledge/os/hybrid-systems/) - LKM을 통해 모놀리식과 모듈식을 결합한 실제 시스템들

@@ -86,4 +86,3 @@ print("추이적 폐포:", transitive_closure(R, A))
 - [Relation Composition](/knowledge/mathematics/relation-composition/) - R^n은 합성으로 정의됨
 - [Warshall Algorithm](/knowledge/mathematics/warshall-algorithm/) - 추이적 폐포를 효율적으로 계산하는 알고리즘
 - [Relation Representation](/knowledge/mathematics/relation-representation/) - 행렬로 폐포를 계산
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 보조정리 1에서 비둘기집 원리 사용

@@ -58,5 +58,3 @@ sidebar:
 - [Three Cs Model](/knowledge/computer-architecture/three-cs-model/)
 - [Cache Blocking](/knowledge/computer-architecture/cache-blocking/)
 - [Amdahl's Law](/knowledge/computer-architecture/amdahls-law/)
-- [Parallel Benchmarks](/knowledge/computer-architecture/parallel-benchmarks/)
-- [Thread-Level Parallelism](/knowledge/computer-architecture/thread-level-parallelism/)

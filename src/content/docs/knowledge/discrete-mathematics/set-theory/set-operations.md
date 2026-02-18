@@ -77,6 +77,5 @@ print(A ^ B)   # {2, 5}        대칭차집합
 
 - [Set](/knowledge/mathematics/set/) - 집합의 기본 정의와 표기법
 - [Power Set](/knowledge/mathematics/power-set/) - 멱집합과 부분집합 관계
-- [Propositional Equivalence](/knowledge/mathematics/propositional-equivalence/) - 집합 항등식과 대응하는 명제 동치 법칙
 - [Truth Table](/knowledge/mathematics/truth-table/) - 멤버십 표와의 유사성
 - [Logical Connective](/knowledge/mathematics/logical-connective/) - ∧, ∨, ¬와 ∩, ∪, 여집합의 대응 관계

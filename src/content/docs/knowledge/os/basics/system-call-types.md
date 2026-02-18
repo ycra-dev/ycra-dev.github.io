@@ -115,3 +115,10 @@ UNIX/Linux에서 시스템 콜 인터페이스의 일부를 제공합니다.
 
 - **Arduino** (싱글태스킹): 한 번에 하나의 스케치만 메모리에 존재
 - **FreeBSD** (멀티태스킹): 셸이 fork()로 새 프로세스 생성, exec()로 프로그램 로드
+
+## 관련 개념
+
+- [시스템 콜 (System Call)](/knowledge/os/system-call/) - 프로세스가 운영체제에게 동작을 요청하는 기본 메커니즘
+- [시스템 콜 인터페이스 (System-call Interface)](/knowledge/os/system-call-interface/) - 시스템 콜에 대한 연결 역할을 하는 인터페이스
+- [API (Application Programming Interface)](/knowledge/os/api/) - 시스템 콜을 추상화하여 프로그래머에게 제공하는 함수 집합
+- [운영체제 서비스 (Operating-System Services)](/knowledge/os/os-services/) - 시스템 콜을 통해 접근하는 운영체제의 서비스

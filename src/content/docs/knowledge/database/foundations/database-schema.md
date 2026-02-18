@@ -40,5 +40,4 @@ student(ID, name, dept_name, tot_cred)
 
 - [Data Abstraction](/knowledge/database/data-abstraction/)
 - [Data Model](/knowledge/database/data-model/)
-- [Database Management System (DBMS)](/knowledge/database/database-management-system-dbms/)
 - [Schema Diagram](/knowledge/database/schema-diagram/)

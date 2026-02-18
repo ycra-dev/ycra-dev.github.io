@@ -51,5 +51,4 @@ docker exec kind-worker2 ip link set eth0 up
 
 - [StatefulSet](/knowledge/kubernetes/statefulset/) - at-most-one 보장을 제공하는 오브젝트
 - [ReplicaSet Node Failure Handling](/knowledge/kubernetes/replicaset-node-failure-handling/) - ReplicaSet의 다른 노드 장애 처리 방식
-- [PersistentVolumeClaim](/knowledge/kubernetes/persistentvolumeclaim/) - 동시 접근 방지가 필요한 스토리지
 - [Kubelet](/knowledge/kubernetes/kubelet/) - 노드 상태를 보고하는 에이전트

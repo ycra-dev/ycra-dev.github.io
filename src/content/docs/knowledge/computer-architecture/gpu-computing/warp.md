@@ -65,4 +65,3 @@ sidebar:
 - [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)
 - [Thread Block](/knowledge/computer-architecture/thread-block/)
 - [Cooperative Thread Array](/knowledge/computer-architecture/cooperative-thread-array/)
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)

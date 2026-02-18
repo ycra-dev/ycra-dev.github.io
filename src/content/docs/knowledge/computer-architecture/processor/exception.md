@@ -49,7 +49,6 @@ add $1, $2, $1  # 산술 오버플로우 발생 (EX 단계에서 검출)
 
 - [Overflow Detection](/knowledge/computer-architecture/overflow-detection/)
 - [Arithmetic Logic Unit](/knowledge/computer-architecture/arithmetic-logic-unit/)
-- [Interrupt](/knowledge/computer-architecture/interrupt/)
 - [Control Hazard](/knowledge/computer-architecture/control-hazard/)
 - [Precise Interrupt](/knowledge/computer-architecture/precise-interrupt/)
 - [Pipelining](/knowledge/computer-architecture/pipelining/)

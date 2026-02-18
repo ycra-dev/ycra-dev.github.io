@@ -24,4 +24,3 @@ SQL 인젝션 공격에 대한 테스팅에서는 SQL 명령을 포함하는 입
 - [Static Analysis](/knowledge/software-engineering/static-analysis/)
 - [Secure Systems Design](/knowledge/software-engineering/secure-systems-design/)
 - [Security Risk Assessment](/knowledge/software-engineering/security-risk-assessment/)
-- [Confidentiality, Integrity, and Availability](/knowledge/software-engineering/confidentiality-integrity-and-availability/)

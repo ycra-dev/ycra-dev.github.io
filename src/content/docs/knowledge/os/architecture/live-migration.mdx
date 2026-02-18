@@ -92,3 +92,11 @@ import NestedDiagram from '../../../../../components/NestedDiagram.astro';
 2. 게스트 VM의 메모리를 B로 전송 (게스트는 계속 실행)
 3. 최종 dirty 페이지 전송 후 B에서 게스트 재개
 4. 사용자는 중단을 인식하지 못함
+
+## 관련 개념
+
+- [가상화 (Virtualization)](/knowledge/os/virtualization/) - 라이브 마이그레이션을 가능하게 하는 가상화의 기본 개념
+- [VMM CPU 스케줄링 (VMM CPU Scheduling)](/knowledge/os/vmm-cpu-scheduling/) - 마이그레이션 후 대상 서버에서의 VCPU 스케줄링
+- [VMM 메모리 관리 (VMM Memory Management)](/knowledge/os/vmm-memory-management/) - 마이그레이션 시 전송되는 메모리 페이지 관리 기법
+- [하이퍼바이저 유형 (Type 0/1/2 Hypervisor)](/knowledge/os/hypervisor-types/) - 라이브 마이그레이션을 지원하는 Type 1 하이퍼바이저
+- [컨테이너 (Container)](/knowledge/os/container/) - VM 대비 가벼운 격리 기술로, 컨테이너 오케스트레이션에서도 유사한 이동 개념 존재

@@ -23,5 +23,4 @@ Mentcare 시스템의 "데이터 전송" 사용 사례에 대한 오용 사례 "
 - [Security Risk Assessment](/knowledge/software-engineering/security-risk-assessment/)
 - [Vulnerability](/knowledge/software-engineering/vulnerability/)
 - [Secure Systems Design](/knowledge/software-engineering/secure-systems-design/)
-- [Confidentiality, Integrity, and Availability](/knowledge/software-engineering/confidentiality-integrity-and-availability/)
 - [Penetration Testing](/knowledge/software-engineering/penetration-testing/)

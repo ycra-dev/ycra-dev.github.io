@@ -67,6 +67,13 @@ sidebar:
 3. 내부 레지스터에서 증가 연산 수행
 4. 새 값이 하드 디스크에 다시 쓰여질 때만 모든 저장 시스템에서 A 값이 동일해짐
 
+## 관련 개념
+
+- [캐시 일관성 (Cache Coherency)](/knowledge/os/cache-coherency/) - 멀티프로세서 환경에서 캐시 간 데이터 일관성을 유지하는 문제
+- [저장장치 계층구조](/knowledge/os/storage-hierarchy/) - 캐시가 위치하는 전체 저장장치 계층 구조
+- [버퍼링 (Buffering)](/knowledge/os/buffering/) - 캐시와 혼동되기 쉬운 임시 저장 기법으로, 목적과 사용 패턴이 다름
+- [UNIX 블록 버퍼 캐시](/knowledge/os/unix-block-buffer-cache/) - 디스크 블록을 메모리에 캐싱하는 커널 메커니즘의 구체적 구현
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 1, p.30-32

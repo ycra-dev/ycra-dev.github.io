@@ -55,5 +55,4 @@ kiada-9d785b578-jmnj8   ...  10.244.2.4  kind-worker2
 - [Control Plane](/knowledge/kubernetes/control-plane/) - Scheduler가 속한 제어 영역
 - [Pod](/knowledge/kubernetes/pod/) - Scheduler가 노드에 할당하는 기본 배포 단위
 - [Kubelet](/knowledge/kubernetes/kubelet/) - 노드에서 스케줄된 Pod를 실행하는 에이전트
-- [Kubernetes API Server](/knowledge/kubernetes/kubernetes-api-server/) - Scheduler가 통신하는 API
 - [Deployment](/knowledge/kubernetes/deployment/) - Pod 생성을 유발하는 상위 객체

@@ -30,5 +30,4 @@ blt  x10, x11, Label   # 직접 비교 후 분기
 ## 관련 개념
 
 - [ARMv8 Instruction Set](/knowledge/computer-architecture/armv8-instruction-set/)
-- [MIPS Instruction Set](/knowledge/computer-architecture/mips-instruction-set/)
 - [Load-Store Architecture](/knowledge/computer-architecture/load-store-architecture/)

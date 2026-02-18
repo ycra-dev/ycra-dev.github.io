@@ -86,4 +86,3 @@ print(gof(1))  # 6*1 + 11 = 17 ← (g ∘ f)(1) = g(f(1)) = g(5) = 17
 - [Function](/knowledge/mathematics/function/) - 함수의 정의, 정의역, 공역
 - [Injection Surjection Bijection](/knowledge/mathematics/injection-surjection-bijection/) - 합성이 보존하는 함수의 성질
 - [Cardinality](/knowledge/mathematics/cardinality/) - 전단사 합성을 이용한 크기 비교의 추이성
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 합성함수의 성질 증명 기법

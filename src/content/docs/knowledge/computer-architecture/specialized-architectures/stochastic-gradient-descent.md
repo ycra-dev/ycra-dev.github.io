@@ -42,4 +42,3 @@ SGD 알고리즘:
 - [DNN Training](/knowledge/computer-architecture/dnn-training/)
 - [Brain Floating Point](/knowledge/computer-architecture/brain-floating-point/)
 - [TPUv3 Supercomputer](/knowledge/computer-architecture/tpuv3-supercomputer/)
-- [Matrix Multiply Unit](/knowledge/computer-architecture/matrix-multiply-unit/)

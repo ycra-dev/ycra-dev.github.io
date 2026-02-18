@@ -65,8 +65,7 @@ C(m+n, r)는 m개와 n개의 원소를 합친 집합에서 r개 선택하는 수
 
 ## 관련 개념
 
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 증명 기법의 하나
 - [Binomial Coefficient](/knowledge/mathematics/binomial-coefficient/) - 조합적 증명이 가장 많이 적용되는 대상
 - [Pascal's Identity](/knowledge/mathematics/pascals-identity/) - 조합적 증명의 대표적인 예시
-- [Bijection](/knowledge/mathematics/bijection/) - 전사 증명의 핵심 도구
+- [Bijection](/knowledge/mathematics/injection-surjection-bijection/) - 전사 증명의 핵심 도구
 - [Set](/knowledge/mathematics/set/) - 부분집합 세기에 기반한 증명

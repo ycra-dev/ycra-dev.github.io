@@ -44,5 +44,4 @@ kubectl delete po kiada-78j7m
 
 - [ReplicaSet](/knowledge/kubernetes/replicaset/) - Pod 분리의 대상이 되는 컨트롤러
 - [Label](/knowledge/kubernetes/label/) - Pod 분리에 사용되는 메커니즘
-- [Selector](/knowledge/kubernetes/selector/) - ReplicaSet의 Pod 소속을 결정하는 기준
 - [Readiness Probe](/knowledge/kubernetes/readiness-probe/) - 실패해도 Pod가 자동 교체되지 않는 관련 개념

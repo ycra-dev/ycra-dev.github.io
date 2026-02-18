@@ -41,7 +41,6 @@ saxpy<<<nblocks, 256>>>(n, 2.0f, x, y);
 
 ## 관련 개념
 
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)
 - [Thread Block](/knowledge/computer-architecture/thread-block/)
 - [Kernel](/knowledge/computer-architecture/kernel/)
 - [SPMD](/knowledge/computer-architecture/spmd/)

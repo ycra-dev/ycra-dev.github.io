@@ -59,6 +59,4 @@ Ainvert  Bnegate  Operation  기능
 - [Twos Complement](/knowledge/computer-architecture/twos-complement/)
 - [Multiplication Hardware](/knowledge/computer-architecture/multiplication-hardware/)
 - [Carry Lookahead Adder](/knowledge/computer-architecture/carry-lookahead-adder/)
-- [Ripple Carry Adder](/knowledge/computer-architecture/ripple-carry-adder/)
-- [MIPS Architecture](/knowledge/computer-architecture/mips-architecture/)
 - [Datapath](/knowledge/computer-architecture/datapath/)

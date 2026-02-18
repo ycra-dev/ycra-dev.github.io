@@ -34,4 +34,3 @@ CPU 시간 = 20 × 10^9 / (4 × 10^9) = 5초
 - [CPU Performance Equation](/knowledge/computer-architecture/cpu-performance-equation/)
 - [CPI](/knowledge/computer-architecture/cpi/)
 - [Response Time](/knowledge/computer-architecture/response-time/)
-- [Central Processing Unit](/knowledge/computer-architecture/central-processing-unit/)

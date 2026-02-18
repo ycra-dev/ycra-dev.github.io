@@ -64,4 +64,4 @@ C(52, 5) = C(52, 47) = 2,598,960
 - [Binomial Coefficient](/knowledge/mathematics/binomial-coefficient/) - C(n, r)은 이항계수로도 불림
 - [Binomial Theorem](/knowledge/mathematics/binomial-theorem/) - 이항계수가 이항 전개의 계수로 등장
 - [Set](/knowledge/mathematics/set/) - r-조합은 크기 r인 부분집합
-- [Bijection](/knowledge/mathematics/bijection/) - 전사 증명에 사용
+- [Bijection](/knowledge/mathematics/injection-surjection-bijection/) - 전사 증명에 사용

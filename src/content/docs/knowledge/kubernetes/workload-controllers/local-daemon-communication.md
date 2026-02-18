@@ -78,6 +78,5 @@ env:
 ## 관련 개념
 
 - [DaemonSet](/knowledge/kubernetes/daemonset/) - 데몬 Pod를 배포하는 오브젝트
-- [Service Discovery](/knowledge/kubernetes/service-discovery/) - Service를 통한 데몬 Pod 접근
 - [Downward API](/knowledge/kubernetes/downward-api/) - 노드 IP를 Pod에 전달하는 방법
 - [Host Network and Privileged Containers](/knowledge/kubernetes/host-network-and-privileged-containers/) - hostNetwork의 상세 설명

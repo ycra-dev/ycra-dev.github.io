@@ -113,5 +113,3 @@ def is_lattice(R, S):
 
 - [Partial Ordering](/knowledge/mathematics/partial-ordering/) - 하세 다이어그램으로 표현되는 반순서
 - [Relation Representation](/knowledge/mathematics/relation-representation/) - 유향 그래프의 간소화된 표현
-- [Set Operation](/knowledge/mathematics/set-operation/) - 거듭집합의 포함 관계에서 lub=합집합, glb=교집합
-- [Topological Sorting](/knowledge/mathematics/topological-sorting/) - 하세 다이어그램에서 호환 전순서 구성

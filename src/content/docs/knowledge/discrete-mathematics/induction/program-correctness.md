@@ -116,8 +116,6 @@ return product
 ## 관련 개념
 
 - [Loop Invariant](/knowledge/mathematics/loop-invariant/) - 반복문 정확성 증명의 핵심 도구
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 프로그램 검증은 형식적 증명의 응용
-- [Algorithm](/knowledge/mathematics/algorithm/) - 알고리즘의 정확성 보장
-- [Predicate Logic](/knowledge/mathematics/predicate-logic/) - 단언(assertion)은 술어 논리로 표현
+- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘의 정확성 보장
 - [Mathematical Induction](/knowledge/mathematics/mathematical-induction/) - 재귀 프로그램 검증에 사용
 - [Proposition](/knowledge/mathematics/proposition/) - 초기/최종 단언은 명제

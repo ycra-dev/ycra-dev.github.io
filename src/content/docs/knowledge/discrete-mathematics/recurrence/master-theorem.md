@@ -70,6 +70,6 @@ a = 2 > 2^0 = 1 = b^d (a > b^d)
 ## 관련 개념
 
 - [Divide-and-Conquer Algorithm](/knowledge/mathematics/divide-and-conquer-algorithm/) - 마스터 정리가 분석하는 알고리즘 유형
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - 마스터 정리의 결과가 Big-O로 표현됨
+- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 마스터 정리의 결과가 Big-O로 표현됨
 - [Recurrence Relation](/knowledge/mathematics/recurrence-relation/) - 마스터 정리가 해결하는 점화식의 유형
-- [Algorithm](/knowledge/mathematics/algorithm/) - 알고리즘 복잡도 분석의 핵심 도구
+- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘 복잡도 분석의 핵심 도구

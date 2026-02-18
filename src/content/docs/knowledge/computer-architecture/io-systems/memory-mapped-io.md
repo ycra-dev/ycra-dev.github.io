@@ -69,6 +69,4 @@ wait_send:
 - [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
 - [Supervisor Mode](/knowledge/computer-architecture/supervisor-mode/)
 - [Polling](/knowledge/computer-architecture/polling/)
-- [Interrupt](/knowledge/computer-architecture/interrupt/)
 - [Exception Handler](/knowledge/computer-architecture/exception-handler/)
-- [Device Driver](/knowledge/computer-architecture/device-driver/)

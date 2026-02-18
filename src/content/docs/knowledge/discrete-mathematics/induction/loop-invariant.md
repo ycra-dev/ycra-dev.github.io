@@ -106,6 +106,4 @@ while i <= n
 
 - [Program Correctness](/knowledge/mathematics/program-correctness/) - 루프 불변식은 프로그램 정확성 증명의 핵심
 - [Mathematical Induction](/knowledge/mathematics/mathematical-induction/) - 루프 불변식 증명은 수학적 귀납법과 유사
-- [Algorithm](/knowledge/mathematics/algorithm/) - 루프를 포함한 알고리즘의 정확성 보장
-- [Predicate Logic](/knowledge/mathematics/predicate-logic/) - 루프 불변식은 술어 논리의 명제로 표현
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 프로그램 검증에 증명 기법 적용
+- [Algorithm](/knowledge/algorithms/algorithm/) - 루프를 포함한 알고리즘의 정확성 보장

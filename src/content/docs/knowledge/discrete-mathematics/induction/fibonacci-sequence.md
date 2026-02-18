@@ -104,5 +104,5 @@ gcd(a, b)에서 b = 999 (3자리)일 때, 유클리드 알고리즘의 나눗셈
 - [Strong Induction](/knowledge/mathematics/strong-induction/) - 피보나치 수의 성질 증명에 강한 귀납법 사용
 - [Recursive Algorithm](/knowledge/mathematics/recursive-algorithm/) - 재귀 vs 반복의 효율성 비교 사례
 - [Sequence](/knowledge/mathematics/sequence/) - 피보나치 수열은 대표적인 수열
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - 유클리드 알고리즘의 O(log b) 복잡도 유도
-- [Algorithm](/knowledge/mathematics/algorithm/) - 유클리드 알고리즘 분석에 핵심 역할
+- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 유클리드 알고리즘의 O(log b) 복잡도 유도
+- [Algorithm](/knowledge/algorithms/algorithm/) - 유클리드 알고리즘 분석에 핵심 역할

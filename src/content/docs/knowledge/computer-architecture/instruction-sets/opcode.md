@@ -40,4 +40,3 @@ op 필드 값 → 명령어
 - [Instruction Format](/knowledge/computer-architecture/instruction-format/)
 - [Machine Language](/knowledge/computer-architecture/machine-language/)
 - [Instruction Set](/knowledge/computer-architecture/instruction-set/)
-- [Central Processing Unit](/knowledge/computer-architecture/central-processing-unit/)

@@ -33,6 +33,6 @@ SGD 훈련 과정:
 ## 관련 개념
 
 - [Stochastic Gradient Descent](/knowledge/computer-architecture/stochastic-gradient-descent/)
-- [TPUv3](/knowledge/computer-architecture/tpuv3/)
+- [TPUv3](/knowledge/computer-architecture/tpuv3-supercomputer/)
 - [Brain Floating Point](/knowledge/computer-architecture/brain-floating-point/)
 - [Domain-Specific Architecture](/knowledge/computer-architecture/domain-specific-architecture/)

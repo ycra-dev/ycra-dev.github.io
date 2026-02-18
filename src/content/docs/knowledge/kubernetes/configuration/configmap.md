@@ -74,4 +74,3 @@ envFrom:
 - [Projected Volume](/knowledge/kubernetes/projected-volume/) - 여러 소스를 하나의 볼륨으로 결합
 - [Volume](/knowledge/kubernetes/volume/) - ConfigMap 볼륨의 기반이 되는 볼륨 개념
 - [etcd](/knowledge/kubernetes/etcd/) - ConfigMap이 저장되는 백엔드 저장소
-- [Pod Manifest](/knowledge/kubernetes/pod-manifest/) - ConfigMap을 참조하는 파드 정의

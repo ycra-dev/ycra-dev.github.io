@@ -58,6 +58,4 @@ SRAM 내부 구조 (4x2 SRAM 예시):
 - [DRAM](/knowledge/computer-architecture/dram/)
 - [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
 - [Transistor](/knowledge/computer-architecture/transistor/)
-- [Cache](/knowledge/computer-architecture/cache/)
 - [Register File](/knowledge/computer-architecture/register-file/)
-- [Tristate Buffer](/knowledge/computer-architecture/tristate-buffer/)

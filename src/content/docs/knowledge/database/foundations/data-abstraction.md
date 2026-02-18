@@ -40,6 +40,5 @@ end;
 
 ## 관련 개념
 
-- [Database Management System (DBMS)](/knowledge/database/database-management-system-dbms/)
 - [Database Schema](/knowledge/database/database-schema/)
 - [Data Model](/knowledge/database/data-model/)

@@ -106,8 +106,6 @@ spec:
 
 ## 관련 개념
 
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - Local PV가 사용하는 상위 리소스 유형
-- [StorageClass](/knowledge/kubernetes/storageclass/) - 로컬 스토리지에 대한 클래스 정의
 - [Volume Binding Mode](/knowledge/kubernetes/volume-binding-mode/) - WaitForFirstConsumer 모드가 필수인 이유
 - [hostPath Volume](/knowledge/kubernetes/hostpath-volume/) - Local PV와 비교되는 덜 안전한 대안
 - [StatefulSet](/knowledge/kubernetes/statefulset/) - 로컬 PV를 주로 사용하는 상태 저장 워크로드

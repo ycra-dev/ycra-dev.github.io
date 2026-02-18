@@ -64,9 +64,7 @@ n^3 - n 이 3으로 나누어 떨어짐을 증명한다.
 
 ## 관련 개념
 
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 수학적 귀납법은 증명 기법의 한 종류이다
 - [Strong Induction](/knowledge/mathematics/strong-induction/) - 수학적 귀납법의 확장된 형태
 - [Well-Ordering Property](/knowledge/mathematics/well-ordering-property/) - 수학적 귀납법의 타당성 근거
-- [Predicate Logic](/knowledge/mathematics/predicate-logic/) - P(n)은 술어 논리의 명제 함수이다
 - [Quantifier](/knowledge/mathematics/quantifier/) - 전칭 양화사 ∀nP(n)을 증명하는 방법이다
 - [Proposition](/knowledge/mathematics/proposition/) - 기초 단계에서 검증하는 개별 명제

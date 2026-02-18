@@ -55,5 +55,4 @@ kubectl get rs -o wide  # 컨테이너, 이미지, 셀렉터 정보 표시
 - [Pod](/knowledge/kubernetes/pod/) - ReplicaSet이 관리하는 기본 단위
 - [Deployment](/knowledge/kubernetes/deployment/) - ReplicaSet 위에 업데이트 기능을 추가한 상위 오브젝트
 - [Label](/knowledge/kubernetes/label/) - ReplicaSet의 셀렉터가 사용하는 메커니즘
-- [Selector](/knowledge/kubernetes/selector/) - Pod를 ReplicaSet에 연결하는 방법
 - [Controller](/knowledge/kubernetes/controller/) - ReplicaSet 컨트롤러가 조정 루프를 실행

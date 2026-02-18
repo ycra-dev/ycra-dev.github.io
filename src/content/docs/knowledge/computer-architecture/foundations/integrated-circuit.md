@@ -34,4 +34,3 @@ IC 제조 공정:
 - [Transistor](/knowledge/computer-architecture/transistor/)
 - [Semiconductor](/knowledge/computer-architecture/semiconductor/)
 - [CMOS](/knowledge/computer-architecture/cmos/)
-- [Central Processing Unit](/knowledge/computer-architecture/central-processing-unit/)

@@ -50,7 +50,7 @@ procedure Maximum_Attendees(s, e, w: 강연 시작/종료/참석자 정보)
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/mathematics/algorithm/) - 상위 개념
+- [Algorithm](/knowledge/algorithms/algorithm/) - 상위 개념
 - [Recurrence Relation](/knowledge/mathematics/recurrence-relation/) - 동적 프로그래밍의 핵심 도구
 - [Divide-and-Conquer Algorithm](/knowledge/mathematics/divide-and-conquer-algorithm/) - 부분 문제가 겹치지 않는 대안적 패러다임
 - [Recursive Algorithm](/knowledge/mathematics/recursive-algorithm/) - 동적 프로그래밍은 재귀적 구조를 기반으로 함

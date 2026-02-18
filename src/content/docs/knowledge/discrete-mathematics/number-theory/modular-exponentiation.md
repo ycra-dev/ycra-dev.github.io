@@ -100,5 +100,5 @@ print(pow(1819, 13, 2537))   # RSA 암호화 예시
 - [RSA Cryptosystem](/knowledge/mathematics/rsa-cryptosystem/) - RSA 암호화/복호화의 핵심 연산
 - [Integer Representation](/knowledge/mathematics/integer-representation/) - 이진 전개를 활용한 효율적 계산
 - [Modular Arithmetic](/knowledge/mathematics/modular-arithmetic/) - mod 연산의 성질 활용
-- [Algorithm](/knowledge/mathematics/algorithm/) - 효율적 알고리즘 설계의 전형적 예
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - O((log m)^2 * log n) 비트 연산 복잡도
+- [Algorithm](/knowledge/algorithms/algorithm/) - 효율적 알고리즘 설계의 전형적 예
+- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - O((log m)^2 * log n) 비트 연산 복잡도

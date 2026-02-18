@@ -54,4 +54,4 @@ aws cloudfront create-invalidation \
 - [HTTP](/knowledge/linux/http/)
 - [Load Balancer](/knowledge/linux/load-balancer/)
 - [Web Server](/knowledge/linux/web-server/)
-- [DNS MX Record](/knowledge/linux/dns-mx-record/)
+- [DNS MX Record](/knowledge/network/dns-mx-record/)

@@ -94,4 +94,3 @@ chebyshev_demo(100)
 - [Expected Value](/knowledge/mathematics/expected-value/) - 기대값으로부터의 편차를 제한
 - [Random Variable](/knowledge/mathematics/random-variable/) - 임의의 확률변수에 적용 가능
 - [Bernoulli Trial](/knowledge/mathematics/bernoulli-trial/) - 이항분포에서의 편차 추정에 활용
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 간결하지만 강력한 부등식 증명

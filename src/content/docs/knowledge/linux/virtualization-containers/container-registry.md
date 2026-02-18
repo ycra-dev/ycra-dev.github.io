@@ -59,4 +59,3 @@ export DOCKER_CONTENT_TRUST=1
 - [Docker](/knowledge/linux/docker/)
 - [Dockerfile](/knowledge/linux/dockerfile/)
 - [Container](/knowledge/linux/container/)
-- [Continuous Integration and Delivery](/knowledge/linux/continuous-integration-and-delivery/)

@@ -81,4 +81,4 @@ print(np.array_equal(A_G, A_H))  # True
 - [Adjacency Matrix](/knowledge/mathematics/adjacency-matrix/) - 동형 검증에 행렬 활용
 - [Function](/knowledge/mathematics/function/) - 동형 사상은 전단사 함수
 - [Equivalence Relation](/knowledge/mathematics/equivalence-relation/) - 그래프 동형은 동치 관계
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - 알고리즘의 계산 복잡도
+- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 알고리즘의 계산 복잡도

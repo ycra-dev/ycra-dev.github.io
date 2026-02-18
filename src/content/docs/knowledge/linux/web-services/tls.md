@@ -56,4 +56,4 @@ certbot certonly --nginx -d www.admin.com
 - [Web Server](/knowledge/linux/web-server/)
 - [Virtual Host](/knowledge/linux/virtual-host/)
 - [NGINX](/knowledge/linux/nginx/)
-- [Email Encryption](/knowledge/linux/email-encryption/)
+- [Email Encryption](/knowledge/network/email-encryption/)

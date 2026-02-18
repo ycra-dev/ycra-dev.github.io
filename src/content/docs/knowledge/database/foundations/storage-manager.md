@@ -33,6 +33,4 @@ sidebar:
 
 ## 관련 개념
 
-- [Database Management System (DBMS)](/knowledge/database/database-management-system-dbms/)
 - [Query Processor](/knowledge/database/query-processor/)
-- [Transaction Management](/knowledge/database/transaction-management/)

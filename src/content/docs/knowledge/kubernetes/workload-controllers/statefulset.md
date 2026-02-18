@@ -72,6 +72,4 @@ kubectl get pvc -l app=quiz  # 개별 PVC 확인
 
 - [Deployment](/knowledge/kubernetes/deployment/) - 무상태 워크로드를 위한 대안
 - [Headless Service for StatefulSet](/knowledge/kubernetes/headless-service-for-statefulset/) - StatefulSet에 네트워크 정체성을 부여
-- [PersistentVolumeClaim](/knowledge/kubernetes/persistentvolumeclaim/) - 각 Pod마다 개별 PVC가 생성됨
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - PVC에 바인딩되는 실제 스토리지
 - [Pod](/knowledge/kubernetes/pod/) - StatefulSet이 직접 소유하는 오브젝트

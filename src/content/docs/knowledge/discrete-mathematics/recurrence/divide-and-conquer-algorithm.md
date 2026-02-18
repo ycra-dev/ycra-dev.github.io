@@ -59,9 +59,9 @@ f(n) = 7f(n/2) + 15n^2/4
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/mathematics/algorithm/) - 상위 개념
+- [Algorithm](/knowledge/algorithms/algorithm/) - 상위 개념
 - [Recursive Algorithm](/knowledge/mathematics/recursive-algorithm/) - 분할 정복은 재귀적 알고리즘의 한 유형
 - [Master Theorem](/knowledge/mathematics/master-theorem/) - 분할 정복 점화식의 복잡도 분석 도구
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - 분할 정복 알고리즘의 복잡도 표현
+- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 분할 정복 알고리즘의 복잡도 표현
 - [Recurrence Relation](/knowledge/mathematics/recurrence-relation/) - 분할 정복 알고리즘의 복잡도가 점화식으로 표현됨
 - [Dynamic Programming](/knowledge/mathematics/dynamic-programming/) - 부분 문제가 겹치는 경우의 대안적 패러다임

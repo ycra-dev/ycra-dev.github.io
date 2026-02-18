@@ -69,5 +69,4 @@ def has_euler_path(graph):
 - [Graph](/knowledge/mathematics/graph/) - 오일러 경로/회로가 정의되는 구조
 - [Connectivity](/knowledge/mathematics/connectivity/) - 연결 그래프에서만 존재
 - [Hamilton Path and Circuit](/knowledge/mathematics/hamilton-path-and-circuit/) - 정점 순회 vs 간선 순회
-- [Algorithm](/knowledge/mathematics/algorithm/) - O(m) 시간에 구성 가능
-- [Mathematical Proof](/knowledge/mathematics/mathematical-proof/) - 필요충분조건의 증명
+- [Algorithm](/knowledge/algorithms/algorithm/) - O(m) 시간에 구성 가능

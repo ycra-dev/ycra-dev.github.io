@@ -63,6 +63,5 @@ kubectl delete po demo-k2d6k --wait=false
 ## 관련 개념
 
 - [DaemonSet](/knowledge/kubernetes/daemonset/) - 업데이트 전략이 적용되는 오브젝트
-- [RollingUpdate Strategy](/knowledge/kubernetes/rollingupdate-strategy/) - Deployment의 롤링 업데이트와 비교
 - [StatefulSet Update Strategies](/knowledge/kubernetes/statefulset-update-strategies/) - StatefulSet의 OnDelete 전략과 동일
 - [minReadySeconds](/knowledge/kubernetes/minreadyseconds/) - 업데이트 속도를 제어하는 공통 필드

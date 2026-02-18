@@ -67,7 +67,7 @@ A: 111, B: 110, C: 011, D: 010, E: 10, F: 00
 
 ## 관련 개념
 
-- [Greedy Algorithm](/knowledge/mathematics/greedy-algorithm/) - 허프만 코딩은 탐욕 알고리즘의 대표적 응용
+- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/) - 허프만 코딩은 탐욕 알고리즘의 대표적 응용
 - [Rooted Tree](/knowledge/mathematics/rooted-tree/) - 허프만 트리는 이진 루트 트리
 - [Decision Tree](/knowledge/mathematics/decision-tree/) - 코드 생성을 위한 트리 기반 결정 과정
-- [Algorithm](/knowledge/mathematics/algorithm/) - 허프만 코딩 알고리즘의 절차적 구조
+- [Algorithm](/knowledge/algorithms/algorithm/) - 허프만 코딩 알고리즘의 절차적 구조

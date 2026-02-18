@@ -29,5 +29,4 @@ MIPS의 load/store 및 분기 명령어에서 16비트 즉시 값(immediate fiel
 ## 관련 개념
 
 - [Datapath](/knowledge/computer-architecture/datapath/)
-- [Branch Target Address](/knowledge/computer-architecture/branch-target-address/)
 - [ALU Control](/knowledge/computer-architecture/alu-control/)

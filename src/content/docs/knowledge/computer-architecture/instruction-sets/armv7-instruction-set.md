@@ -32,4 +32,3 @@ ARM은 MIPS와 같은 해에 출시되었으며 유사한 철학을 따른다. M
 - [ARMv8 Instruction Set](/knowledge/computer-architecture/armv8-instruction-set/)
 - [RISC-V Instruction Set](/knowledge/computer-architecture/risc-v-instruction-set/)
 - [Condition Code](/knowledge/computer-architecture/condition-code/)
-- [MIPS Instruction Set](/knowledge/computer-architecture/mips-instruction-set/)

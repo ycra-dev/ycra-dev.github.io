@@ -41,4 +41,4 @@ void render(Shape* shape) {
 
 ## 관련 개념
 
-[Encapsulation](/knowledge/language/design-patterns/encapsulation/), [Dynamic Binding](/knowledge/language/design-patterns/dynamic-binding/), [Abstract Class](/knowledge/language/design-patterns/abstract-class/), [Program to Interface](/knowledge/language/design-patterns/program-to-interface/)
+[Encapsulation](/knowledge/language/design-patterns/encapsulation/), [Abstract Class](/knowledge/language/design-patterns/abstract-class/), [Program to Interface](/knowledge/language/design-patterns/program-to-interface/)

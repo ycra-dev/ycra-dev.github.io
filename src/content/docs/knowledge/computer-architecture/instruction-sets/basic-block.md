@@ -36,6 +36,6 @@ Exit: ...
 ## 관련 개념
 
 - [Conditional Branch](/knowledge/computer-architecture/conditional-branch/)
-- [Compiler](/knowledge/computer-architecture/compiler/)
+- [Compiler](/knowledge/language/compiler/)
 - [Instruction-Level Parallelism](/knowledge/computer-architecture/instruction-level-parallelism/)
 - [Pipelining](/knowledge/computer-architecture/pipelining/)

@@ -51,7 +51,6 @@ Time(pipelined) = Time(non-pipelined) / Number of stages
 - [Clock Cycle](/knowledge/computer-architecture/clock-cycle/)
 - [Throughput](/knowledge/computer-architecture/throughput/)
 - [Multicore Processor](/knowledge/computer-architecture/multicore-processor/)
-- [Pipeline Hazard](/knowledge/computer-architecture/pipeline-hazard/)
 - [Pipeline Register](/knowledge/computer-architecture/pipeline-register/)
 - [Forwarding](/knowledge/computer-architecture/forwarding/)
 - [Single-Cycle Implementation](/knowledge/computer-architecture/single-cycle-implementation/)

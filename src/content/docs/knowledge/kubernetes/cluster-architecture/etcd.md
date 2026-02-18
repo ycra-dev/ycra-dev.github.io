@@ -54,7 +54,6 @@ etcd에 저장되는 데이터의 예:
 
 ## 관련 개념
 
-- [Kubernetes API Server](/knowledge/kubernetes/kubernetes-api-server/) - etcd와 독점적으로 통신하는 유일한 컴포넌트
 - [Control Plane](/knowledge/kubernetes/control-plane/) - etcd가 속한 제어 영역
 - [Event Object](/knowledge/kubernetes/event-object/) - etcd 부담을 줄이기 위해 일정 시간 후 삭제되는 객체
 - [Object Manifest](/knowledge/kubernetes/object-manifest/) - etcd에 저장되는 객체의 형식

@@ -83,3 +83,11 @@ import LayerStack from '../../../../../components/LayerStack.astro';
 - 슈퍼블록 복제로 안정성 향상
 - Version 7 대비 약 10배 성능 향상 (3% → 30% 디스크 대역폭 활용)
 - 단점: 10% 정도 여유 공간 필요, 프래그먼트 재할당 시 복사 오버헤드
+
+## 관련 개념
+
+- [UNIX 아이노드 (Inode)](/knowledge/os/unix-inode/) - 실린더 그룹 내에 배치되는 파일 메타데이터 구조
+- [HDD (Hard Disk Drive)](/knowledge/os/hdd/) - 실린더 그룹이 최적화하는 대상인 기계식 디스크의 물리 구조
+- [I/O 스케줄링](/knowledge/os/io-scheduling/) - 실린더 그룹과 함께 디스크 seek 시간을 줄이는 기법
+- [저널링 파일 시스템](/knowledge/os/journaling/) - FFS 이후 등장한 크래시 복구 기법으로, 슈퍼블록 복제와 다른 접근
+- [논리 블록 주소 (LBA)](/knowledge/os/lba/) - 물리적 실린더 위치를 추상화한 논리 주소 체계

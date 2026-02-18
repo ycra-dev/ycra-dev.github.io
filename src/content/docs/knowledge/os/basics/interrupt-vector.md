@@ -51,6 +51,13 @@ sidebar:
 
 > 거대한 인터럽트 테이블의 오버헤드와 단일 핸들러 디스패치의 비효율성 사이의 절충안
 
+## 관련 개념
+
+- [인터럽트 (Interrupt)](/knowledge/os/interrupt/) - 하드웨어가 CPU에게 이벤트 발생을 알리는 메커니즘
+- [트랩 (Trap)](/knowledge/os/trap/) - 오류 또는 시스템 콜에 의해 발생하는 소프트웨어 생성 인터럽트
+- [폰 노이만 아키텍처 (Von Neumann Architecture)](/knowledge/os/von-neumann-architecture/) - 인터럽트 벡터가 저장되는 메모리 구조의 기반 아키텍처
+- [시스템 콜 (System Call)](/knowledge/os/system-call/) - 인터럽트 벡터의 특정 위치로 트랩을 발생시켜 OS 서비스에 접근하는 방법
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 1, p.9-11

@@ -38,6 +38,5 @@ OR 평면: 3 출력 x 7 곱항
 
 - [Combinational Logic](/knowledge/computer-architecture/combinational-logic/)
 - [Boolean Algebra](/knowledge/computer-architecture/boolean-algebra/)
-- [ROM](/knowledge/computer-architecture/rom/)
 - [Finite-State Machine](/knowledge/computer-architecture/finite-state-machine/)
-- [Sum of Products](/knowledge/computer-architecture/sum-of-products/)
+- [Sum of Products Expansion](/knowledge/mathematics/sum-of-products-expansion/)

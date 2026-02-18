@@ -40,4 +40,3 @@ UMA 시스템:
 
 - [Heterogeneous System](/knowledge/computer-architecture/heterogeneous-system/)
 - [PCI-Express](/knowledge/computer-architecture/pci-express/)
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)

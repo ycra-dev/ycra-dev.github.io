@@ -59,4 +59,3 @@ top
 - [load-average](/knowledge/linux/load-average/) - CPU 부하 측정의 또 다른 방식
 - [memory-paging](/knowledge/linux/memory-paging/) - vmstat으로 확인하는 메모리 페이징 활동
 - [iostat](/knowledge/linux/iostat/) - 디스크 I/O 성능의 상세 분석
-- [sar-command](/knowledge/linux/sar-command/) - 역사적 데이터 포함 성능 보고

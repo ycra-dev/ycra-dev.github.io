@@ -76,8 +76,6 @@ x(x + y) = (x + 0)(x + y)   [항등법칙]
 
 ## 관련 개념
 
-- [Propositional Equivalence](/knowledge/mathematics/propositional-equivalence/) - 불리언 항등식과 명제 동치의 대응 관계
 - [Logical Connective](/knowledge/mathematics/logical-connective/) - 불리언 연산에 대응하는 논리 연결자
-- [Set Operation](/knowledge/mathematics/set-operation/) - 불리언 대수와 동형인 집합 연산 구조
 - [Boolean Function](/knowledge/mathematics/boolean-function/) - 불리언 대수 위에서 정의되는 함수
 - [Truth Table](/knowledge/mathematics/truth-table/) - 불리언 항등식의 검증 방법

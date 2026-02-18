@@ -72,4 +72,3 @@ GRANT SELECT ON instructor_info TO public;
 
 - [View](/knowledge/database/view/)
 - [SQL](/knowledge/database/sql/)
-- [Database Management System (DBMS)](/knowledge/database/database-management-system-dbms/)

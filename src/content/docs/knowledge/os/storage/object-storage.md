@@ -68,3 +68,10 @@ Amazon S3, HDFS (Hadoop), Ceph, OpenStack Swift, MinIO
 - 단점: 낮은 랜덤 I/O 성능, 부분 수정 불가, 디렉터리 탐색 불가
 - 적합: 백업/아카이브, 미디어 스트리밍, 빅데이터 분석
 - 부적합: 데이터베이스, 빈번한 부분 수정, 저지연 요구
+
+## 관련 개념
+
+- [저장장치 연결 방식](/knowledge/os/storage-connectivity/) - Cloud Storage에서 객체 스토리지가 API 기반으로 접근되는 방식
+- [VFS (Virtual File System)](/knowledge/os/vfs/) - POSIX 파일 인터페이스를 제공하는 전통적 파일 시스템과의 차이
+- [RAID (Redundant Array of Independent Disks)](/knowledge/os/raid/) - 객체 스토리지의 복제(replication) 기반 데이터 보호와 비교되는 디스크 수준 중복성
+- [저장장치 계층구조](/knowledge/os/storage-hierarchy/) - 객체 스토리지가 위치하는 전체 저장 시스템의 계층적 관계

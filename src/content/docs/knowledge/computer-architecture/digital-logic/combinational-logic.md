@@ -35,7 +35,6 @@ PLA 구조:
 ## 관련 개념
 
 - [Boolean Algebra](/knowledge/computer-architecture/boolean-algebra/)
-- [Logic Gates](/knowledge/computer-architecture/logic-gates/)
 - [Decoder](/knowledge/computer-architecture/decoder/)
 - [Multiplexor](/knowledge/computer-architecture/multiplexor/)
 - [Programmable Logic Array](/knowledge/computer-architecture/programmable-logic-array/)

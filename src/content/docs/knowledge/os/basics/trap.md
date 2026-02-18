@@ -56,6 +56,14 @@ sidebar:
 | 소프트웨어 이벤트에 대한 체계적 처리 | 모드 전환 오버헤드 |
 | 사용자-커널 모드 전환 메커니즘 제공 | |
 
+## 관련 개념
+
+- [인터럽트 (Interrupt)](/knowledge/os/interrupt/) - 하드웨어가 CPU에게 이벤트 발생을 알리는 메커니즘으로, 트랩은 소프트웨어 생성 인터럽트
+- [인터럽트 벡터 (Interrupt Vector)](/knowledge/os/interrupt-vector/) - 트랩 발생 시 핸들러 주소를 찾는 데 사용되는 주소 배열
+- [이중 모드 연산 (Dual-Mode Operation)](/knowledge/os/dual-mode-operation/) - 트랩 발생 시 사용자 모드에서 커널 모드로 전환되는 메커니즘
+- [시스템 콜 (System Call)](/knowledge/os/system-call/) - 트랩을 통해 운영체제 서비스에 접근하는 방법
+- [특권 명령어 (Privileged Instructions)](/knowledge/os/privileged-instructions/) - 사용자 모드에서 실행 시도 시 트랩이 발생하는 명령어
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 1, p.22, 25-26

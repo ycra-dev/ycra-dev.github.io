@@ -53,6 +53,14 @@ import StepFlow from '../../../../../components/StepFlow.astro';
 - **장점**: CPU 실행 부하 감소, 대량 데이터 전송 효율성 향상, 시스템 전체 성능 개선
 - **단점**: 추가 하드웨어(DMA 컨트롤러) 필요, cycle stealing으로 CPU의 메모리 접근 일시 지연
 
+## 관련 개념
+
+- [Interrupt-Driven I/O](/knowledge/os/interrupt-driven-io/) - 바이트당 인터럽트를 발생시키는 방식으로, DMA는 이 오버헤드를 블록당 인터럽트로 줄임
+- [Polling](/knowledge/os/polling/) - CPU가 장치 상태를 반복 확인하는 가장 단순한 I/O 방식
+- [디바이스 드라이버](/knowledge/os/device-driver/) - DMA 전송을 설정하고 완료를 처리하는 커널 모듈
+- [버퍼링 (Buffering)](/knowledge/os/buffering/) - DMA가 데이터를 전송할 대상 메모리 버퍼를 관리하는 기법
+- [인터럽트 (Interrupt)](/knowledge/os/interrupt/) - DMA 전송 완료 시 CPU에 알림을 보내는 하드웨어 메커니즘
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 1, p.15

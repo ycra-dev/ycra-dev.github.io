@@ -60,8 +60,6 @@ getent passwd username
 ## 관련 개념
 
 - [PAM](/knowledge/linux/pam/)
-- [Passwd and Shadow Files](/knowledge/linux/passwd-and-shadow-files/)
-- [UID/GID](/knowledge/linux/uidgid/)
 - [Sudo](/knowledge/linux/sudo/)
 - [Single Sign-On](/knowledge/linux/single-sign-on/)
 - [Kerberos](/knowledge/linux/kerberos/)

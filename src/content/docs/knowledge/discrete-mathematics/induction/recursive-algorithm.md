@@ -93,9 +93,9 @@ procedure binary_search(i, j, x: integers)
 ## 관련 개념
 
 - [Recursive Definition](/knowledge/mathematics/recursive-definition/) - 재귀 알고리즘의 이론적 기반
-- [Algorithm](/knowledge/mathematics/algorithm/) - 재귀 알고리즘은 알고리즘의 한 분류
+- [Algorithm](/knowledge/algorithms/algorithm/) - 재귀 알고리즘은 알고리즘의 한 분류
 - [Mathematical Induction](/knowledge/mathematics/mathematical-induction/) - 재귀 알고리즘의 정확성 증명에 사용
 - [Strong Induction](/knowledge/mathematics/strong-induction/) - 재귀 알고리즘의 정확성 증명에 더 자주 사용
 - [Merge Sort](/knowledge/mathematics/merge-sort/) - 대표적인 재귀 정렬 알고리즘
 - [Fibonacci Sequence](/knowledge/mathematics/fibonacci-sequence/) - 재귀 vs 반복의 효율성 비교 사례
-- [Complexity](/knowledge/mathematics/complexity/) - 재귀 알고리즘의 시간 복잡도 분석
+- [Complexity](/knowledge/algorithms/time-complexity/) - 재귀 알고리즘의 시간 복잡도 분석

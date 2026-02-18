@@ -99,3 +99,11 @@ NFS는 데이터에 주기적 flush, **메타데이터는 동기적 write** (구
 />
 
 Write-on-Close 사용 시, 같은 파일을 여러 클라이언트가 동시에 열면 일관성 문제가 발생할 수 있다.
+
+## 관련 개념
+
+- [분산 파일 시스템 (DFS)](/knowledge/os/dfs/) - 캐싱이 적용되는 분산 파일 시스템의 전체 개념
+- [클라이언트-서버 DFS (NFS, OpenAFS)](/knowledge/os/client-server-dfs/) - NFS와 OpenAFS의 캐싱 전략이 다른 이유와 구조
+- [클러스터 기반 DFS (GFS, HDFS)](/knowledge/os/cluster-dfs/) - append-only 등 단순화된 일관성 모델을 사용하는 클러스터 DFS
+- [분산 시스템의 투명성 (Transparency)](/knowledge/os/distributed-transparency/) - 캐싱이 사용자에게 투명하게 동작하는 원리
+- [분산 시스템의 견고성 (Robustness)](/knowledge/os/distributed-robustness/) - 캐시와 서버 간 장애 시 일관성 유지 문제

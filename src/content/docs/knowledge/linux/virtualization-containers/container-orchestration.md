@@ -50,4 +50,3 @@ kubectl get services
 - [Docker](/knowledge/linux/docker/)
 - [Container](/knowledge/linux/container/)
 - [Service Discovery](/knowledge/linux/service-discovery/)
-- [Continuous Integration and Delivery](/knowledge/linux/continuous-integration-and-delivery/)

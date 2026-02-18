@@ -46,6 +46,5 @@ print(is_related(R, 3, 2))  # False (3은 2를 나누지 않는다)
 
 - [Set](/knowledge/mathematics/set/) - 관계는 카르테시안 곱의 부분집합으로 정의
 - [Function](/knowledge/mathematics/function/) - 함수는 관계의 특수한 경우
-- [Set Operation](/knowledge/mathematics/set-operation/) - 관계들 간에 합집합, 교집합 등 집합 연산 가능
 - [Relation Properties](/knowledge/mathematics/relation-properties/) - 관계가 가질 수 있는 성질들
 - [Relation Representation](/knowledge/mathematics/relation-representation/) - 행렬과 유향 그래프로 관계 표현

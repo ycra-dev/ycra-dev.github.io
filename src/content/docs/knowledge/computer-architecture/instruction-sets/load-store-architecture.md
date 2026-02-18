@@ -29,7 +29,6 @@ sw   $t2, 8($s0)    # 레지스터 → 메모리 (스토어)
 
 ## 관련 개념
 
-- [MIPS Instruction Set](/knowledge/computer-architecture/mips-instruction-set/)
 - [RISC-V Instruction Set](/knowledge/computer-architecture/risc-v-instruction-set/)
 - [x86 Instruction Set](/knowledge/computer-architecture/x86-instruction-set/)
 - [ARMv7 Instruction Set](/knowledge/computer-architecture/armv7-instruction-set/)

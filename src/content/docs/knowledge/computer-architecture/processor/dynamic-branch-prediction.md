@@ -33,4 +33,3 @@ sidebar:
 - [Branch Prediction](/knowledge/computer-architecture/branch-prediction/)
 - [Branch Prediction Buffer](/knowledge/computer-architecture/branch-prediction-buffer/)
 - [Control Hazard](/knowledge/computer-architecture/control-hazard/)
-- [Tournament Branch Predictor](/knowledge/computer-architecture/tournament-branch-predictor/)

@@ -47,7 +47,6 @@ sudo auditctl -w /etc/shadow -p wa -k shadow_changes
 - [LDAP](/knowledge/linux/ldap/)
 - [PAM](/knowledge/linux/pam/)
 - [Sudo](/knowledge/linux/sudo/)
-- [UID/GID](/knowledge/linux/uidgid/)
 - [DevOps](/knowledge/linux/devops/)
 - [Single Sign-On](/knowledge/linux/single-sign-on/)
 - [Kerberos](/knowledge/linux/kerberos/)

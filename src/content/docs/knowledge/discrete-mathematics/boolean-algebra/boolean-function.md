@@ -66,8 +66,6 @@ sidebar:
 ## 관련 개념
 
 - [Truth Table](/knowledge/mathematics/truth-table/) - 불리언 함수의 값을 표로 나타내는 방법
-- [Propositional Logic](/knowledge/mathematics/propositional-logic/) - 불리언 대수와 직접적으로 대응되는 논리 체계
-- [Propositional Equivalence](/knowledge/mathematics/propositional-equivalence/) - 불리언 식의 동치와 대응
 - [Boolean Algebra](/knowledge/mathematics/boolean-algebra/) - 불리언 함수가 정의되는 대수적 구조
 - [Minterm](/knowledge/mathematics/minterm/) - 불리언 함수를 표현하는 기본 단위
 - [Sum-of-Products Expansion](/knowledge/mathematics/sum-of-products-expansion/) - 불리언 함수의 표준 표현 방식

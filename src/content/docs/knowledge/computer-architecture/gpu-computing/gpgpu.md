@@ -51,7 +51,6 @@ GPU Computing 방식 (CUDA):
 
 ## 관련 개념
 
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)
 - [CUDA](/knowledge/computer-architecture/cuda/)
 - [Shader](/knowledge/computer-architecture/shader/)
 - [Texture](/knowledge/computer-architecture/texture/)

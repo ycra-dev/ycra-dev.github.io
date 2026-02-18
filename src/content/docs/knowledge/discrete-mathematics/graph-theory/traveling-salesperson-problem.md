@@ -79,7 +79,6 @@ Detroit-Toledo-Saginaw-Grand Rapids-Kalamazoo-Detroit: 504
 ## 관련 개념
 
 - [Hamilton Path and Circuit](/knowledge/mathematics/hamilton-path-and-circuit/) - TSP는 최소 가중치 해밀턴 회로 문제
-- [Dijkstra's Algorithm](/knowledge/mathematics/dijkstras-algorithm/) - 최단 경로와의 관계
 - [Graph](/knowledge/mathematics/graph/) - 가중 완전 그래프에서 정의
-- [Big-O Notation](/knowledge/mathematics/big-o-notation/) - NP-완전 문제의 복잡도
-- [Algorithm](/knowledge/mathematics/algorithm/) - 탐욕 알고리즘 및 근사 알고리즘
+- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - NP-완전 문제의 복잡도
+- [Algorithm](/knowledge/algorithms/algorithm/) - 탐욕 알고리즘 및 근사 알고리즘

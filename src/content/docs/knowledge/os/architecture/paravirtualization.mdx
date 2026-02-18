@@ -80,3 +80,11 @@ int result = HYPERVISOR_mmu_update(reqs, count, ...);
 
 - **일반 가상화**: 게스트가 특권 명령어 실행 → 트랩 → VMM 에뮬레이션
 - **준가상화**: 게스트가 hypercall 호출 → VMM이 직접 처리 (트랩 없이)
+
+## 관련 개념
+
+- [트랩 앤 에뮬레이트 (Trap-and-Emulate)](/knowledge/os/trap-and-emulate/) - 준가상화와 대비되는 트랩 기반 가상화 기법
+- [하드웨어 가상화 지원 (VT-x/AMD-V)](/knowledge/os/hw-virtualization/) - 준가상화의 필요성을 줄인 CPU 수준 가상화 지원
+- [바이너리 변환 (Binary Translation)](/knowledge/os/binary-translation/) - 게스트 OS 수정 없이 코드 변환으로 가상화하는 대안 기법
+- [가상화 (Virtualization)](/knowledge/os/virtualization/) - 준가상화를 포함한 가상화의 전체 개념과 방식 분류
+- [하이퍼바이저 유형 (Type 0/1/2 Hypervisor)](/knowledge/os/hypervisor-types/) - Xen 등 준가상화를 지원하는 하이퍼바이저의 유형

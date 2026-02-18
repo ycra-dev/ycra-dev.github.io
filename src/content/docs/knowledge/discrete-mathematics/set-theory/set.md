@@ -58,5 +58,4 @@ print(len(A))        # 5 (cardinality)
 - [Power Set](/knowledge/mathematics/power-set/) - 집합의 모든 부분집합으로 이루어진 집합
 - [Cartesian Product](/knowledge/mathematics/cartesian-product/) - 집합들의 순서쌍 구성
 - [Cardinality](/knowledge/mathematics/cardinality/) - 무한 집합의 크기 비교
-- [Predicate Logic](/knowledge/mathematics/predicate-logic/) - 집합의 정의에 사용되는 한정자와 술어
 - [Quantifier](/knowledge/mathematics/quantifier/) - ∀x(x ∈ A → x ∈ B) 형태의 부분집합 정의

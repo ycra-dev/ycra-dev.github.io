@@ -38,6 +38,4 @@ sidebar:
 ## 관련 개념
 
 - [Arithmetic Logic Unit](/knowledge/computer-architecture/arithmetic-logic-unit/)
-- [Ripple Carry Adder](/knowledge/computer-architecture/ripple-carry-adder/)
 - [Combinational Logic](/knowledge/computer-architecture/combinational-logic/)
-- [Logic Gates](/knowledge/computer-architecture/logic-gates/)

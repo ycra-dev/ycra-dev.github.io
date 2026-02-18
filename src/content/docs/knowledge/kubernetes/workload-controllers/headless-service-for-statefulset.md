@@ -59,6 +59,5 @@ nslookup -type=SRV _mongodb._tcp.quiz-pods.kiada.svc.cluster.local
 ## 관련 개념
 
 - [StatefulSet](/knowledge/kubernetes/statefulset/) - headless Service와 반드시 결합하는 오브젝트
-- [Service Discovery](/knowledge/kubernetes/service-discovery/) - DNS 기반 서비스 발견의 고급 형태
-- [ClusterIP](/knowledge/kubernetes/clusterip/) - headless Service는 ClusterIP가 None
-- [Endpoints](/knowledge/kubernetes/endpoints/) - headless Service의 엔드포인트는 개별 Pod IP
+- [ClusterIP](/knowledge/kubernetes/clusterip-service/) - headless Service는 ClusterIP가 None
+- [Endpoints](/knowledge/kubernetes/endpoints-object/) - headless Service의 엔드포인트는 개별 Pod IP

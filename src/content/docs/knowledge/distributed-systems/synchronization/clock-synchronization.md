@@ -48,5 +48,4 @@ A (클라이언트)                    B (시간 서버)
 
 - [Lamport Logical Clock](/knowledge/distributed-systems/lamport-logical-clock/)
 - [Vector Clock](/knowledge/distributed-systems/vector-clock/)
-- [Network Time Protocol](/knowledge/distributed-systems/network-time-protocol/)
 - [Distributed System](/knowledge/distributed-systems/distributed-system/)

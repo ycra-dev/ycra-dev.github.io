@@ -44,7 +44,6 @@ void env_map_shader(
 
 ## 관련 개념
 
-- [Graphics Processing Unit (GPU)](/knowledge/computer-architecture/graphics-processing-unit-gpu/)
 - [Texture](/knowledge/computer-architecture/texture/)
 - [SPMD](/knowledge/computer-architecture/spmd/)
 - [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)

@@ -47,7 +47,5 @@ sudo passwd newuser
 
 ## 관련 개념
 
-- [Passwd and Shadow Files](/knowledge/linux/passwd-and-shadow-files/)
-- [UID/GID](/knowledge/linux/uidgid/)
 - [File Permissions](/knowledge/linux/file-permissions/)
 - [PAM](/knowledge/linux/pam/)

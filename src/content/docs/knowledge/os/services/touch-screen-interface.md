@@ -43,6 +43,13 @@ sidebar:
   - 정밀한 입력이 어려울 수 있음
   - 긴 텍스트 입력에 비효율적
 
+## 관련 개념
+
+- [사용자 인터페이스 (User Interface)](/knowledge/os/user-interface/) - 터치스크린을 포함한 사용자 상호작용 방식의 전체 개요
+- [GUI (Graphical User Interface)](/knowledge/os/gui/) - 데스크톱 환경에서 마우스 기반으로 동작하는 그래픽 인터페이스
+- [명령 인터프리터 (Command Interpreter)](/knowledge/os/command-interpreter/) - 모바일에서 거의 사용되지 않는 텍스트 기반 인터페이스
+- [운영체제 서비스 (Operating-System Services)](/knowledge/os/os-services/) - 터치스크린 인터페이스를 통해 제공되는 운영체제의 서비스
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 2, p.60-61

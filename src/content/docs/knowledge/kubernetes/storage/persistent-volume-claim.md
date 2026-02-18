@@ -101,8 +101,6 @@ kubectl get pvc
 
 ## 관련 개념
 
-- [PersistentVolume](/knowledge/kubernetes/persistentvolume/) - PVC가 바인딩되는 실제 스토리지 리소스
-- [StorageClass](/knowledge/kubernetes/storageclass/) - 동적 프로비저닝 시 사용되는 스토리지 클래스
 - [Dynamic Provisioning](/knowledge/kubernetes/dynamic-provisioning/) - PVC 생성 시 자동으로 PV를 생성하는 메커니즘
 - [Access Modes](/knowledge/kubernetes/access-modes/) - PVC에서 요청하는 접근 모드
 - [Volume](/knowledge/kubernetes/volume/) - PVC가 Pod에서 볼륨으로 사용되는 방식

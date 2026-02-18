@@ -93,7 +93,7 @@ print(f"검증: {s}*252 + {t}*198 = {s*252 + t*198}")  # 18
 ## 관련 개념
 
 - [Greatest Common Divisor](/knowledge/mathematics/greatest-common-divisor/) - 유클리드 알고리즘이 계산하는 대상
-- [Algorithm](/knowledge/mathematics/algorithm/) - 알고리즘의 고전적 예시
-- [Complexity](/knowledge/mathematics/complexity/) - O(log b) 나눗셈 횟수
+- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘의 고전적 예시
+- [Complexity](/knowledge/algorithms/time-complexity/) - O(log b) 나눗셈 횟수
 - [RSA Cryptosystem](/knowledge/mathematics/rsa-cryptosystem/) - 역원 계산에 확장 유클리드 알고리즘 사용
-- [Greedy Algorithm](/knowledge/mathematics/greedy-algorithm/) - 반복적 나머지 축소의 그리디 성격
+- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/) - 반복적 나머지 축소의 그리디 성격

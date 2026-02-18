@@ -34,6 +34,6 @@ sidebar:
 ## 관련 개념
 
 - [Operating System](/knowledge/computer-architecture/operating-system/)
-- [Compiler](/knowledge/computer-architecture/compiler/)
+- [Compiler](/knowledge/language/compiler/)
 - [Assembly Language](/knowledge/computer-architecture/assembly-language/)
 - [Abstraction](/knowledge/computer-architecture/abstraction/)

@@ -48,6 +48,14 @@ sidebar:
 | 모듈식의 동적 확장 (유연성) | 설계/유지보수 어려움 |
 | 마이크로커널의 격리 특성 부분 적용 (안정성) | |
 
+## 관련 개념
+
+- [모놀리식 구조 (Monolithic Structure)](/knowledge/os/monolithic-structure/) - 하이브리드 시스템의 성능 기반이 되는 구조
+- [마이크로커널 (Microkernel)](/knowledge/os/microkernel/) - 하이브리드 시스템이 부분적으로 차용하는 격리 구조
+- [적재 가능 커널 모듈 (LKM)](/knowledge/os/loadable-kernel-modules/) - Linux와 Windows가 모듈식 확장을 위해 사용하는 기법
+- [Darwin](/knowledge/os/darwin/) - macOS/iOS의 Mach+BSD 하이브리드 커널 환경
+- [Android 구조](/knowledge/os/android/) - Linux 커널 기반의 모바일 하이브리드 시스템
+
 ## 출처
 
 - Operating System Concepts, 10th Edition, Chapter 2, p.86-87
