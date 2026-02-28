@@ -1,13 +1,14 @@
 // @ts-check
 import starlight from '@astrojs/starlight';
-import mermaid from 'astro-mermaid';
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://ycra-dev.github.io',
+	vite: {
+		optimizeDeps: { disabled: true },
+	},
 	integrations: [
-		mermaid(),
 		starlight({
 			title: 'ycra.dev',
 			defaultLocale: 'root',
@@ -41,15 +42,139 @@ export default defineConfig({
 					collapsed: true,
 					items: [
 						{ slug: 'knowledge' },
+						// {
+						// 	label: 'Algorithms',
+						// 	collapsed: true,
+						// 	items: [
+						// 		{ label: '기초 & 분석', collapsed: true, autogenerate: { directory: 'knowledge/algorithms/foundations' } },
+						// 		{ label: '자료구조', collapsed: true, autogenerate: { directory: 'knowledge/algorithms/data-structures' } },
+						// 		{ label: '정렬 & 선택', collapsed: true, autogenerate: { directory: 'knowledge/algorithms/sorting-selection' } },
+						// 		{ label: '설계 기법', collapsed: true, autogenerate: { directory: 'knowledge/algorithms/design-techniques' } },
+						// 		{ label: '그래프 알고리즘', collapsed: true, autogenerate: { directory: 'knowledge/algorithms/graph-algorithms' } },
+						// 		{ label: '문자열 알고리즘', collapsed: true, autogenerate: { directory: 'knowledge/algorithms/string-algorithms' } },
+						// 		{ label: '수학적 알고리즘', collapsed: true, autogenerate: { directory: 'knowledge/algorithms/mathematical-algorithms' } },
+						// 		{ label: '고급 자료구조', collapsed: true, autogenerate: { directory: 'knowledge/algorithms/advanced-data-structures' } },
+						// 		{ label: '고급 주제', collapsed: true, autogenerate: { directory: 'knowledge/algorithms/advanced-topics' } },
+						// 	],
+						// },
+						// {
+						// 	label: 'Career',
+						// 	collapsed: true,
+						// 	items: [
+						// 		{ slug: 'knowledge/career' },
+						// 		{ label: '기초', collapsed: true, autogenerate: { directory: 'knowledge/career/foundations' } },
+						// 		{ label: '생산성', collapsed: true, autogenerate: { directory: 'knowledge/career/productivity' } },
+						// 		{ label: '구직', collapsed: true, autogenerate: { directory: 'knowledge/career/job-search' } },
+						// 		{ label: '전문성 개발', collapsed: true, autogenerate: { directory: 'knowledge/career/professional-development' } },
+						// 		{ label: '직장생활', collapsed: true, autogenerate: { directory: 'knowledge/career/workplace' } },
+						// 		{ label: '퍼스널 브랜딩', collapsed: true, autogenerate: { directory: 'knowledge/career/personal-branding' } },
+						// 		{ label: '창업 & 프리랜서', collapsed: true, autogenerate: { directory: 'knowledge/career/entrepreneurship' } },
+						// 	],
+						// },
+						// {
+						// 	label: 'Computer Architecture',
+						// 	collapsed: true,
+						// 	items: [
+						// 		{ label: '기초', collapsed: true, autogenerate: { directory: 'knowledge/computer-architecture/foundations' } },
+						// 		{ label: '디지털 논리', collapsed: true, autogenerate: { directory: 'knowledge/computer-architecture/digital-logic' } },
+						// 		{ label: '산술', collapsed: true, autogenerate: { directory: 'knowledge/computer-architecture/arithmetic' } },
+						// 		{ label: '명령어 집합', collapsed: true, autogenerate: { directory: 'knowledge/computer-architecture/instruction-sets' } },
+						// 		{ label: '프로세서', collapsed: true, autogenerate: { directory: 'knowledge/computer-architecture/processor' } },
+						// 		{ label: '메모리 계층', collapsed: true, autogenerate: { directory: 'knowledge/computer-architecture/memory-hierarchy' } },
+						// 		{ label: '가상 메모리', collapsed: true, autogenerate: { directory: 'knowledge/computer-architecture/virtual-memory' } },
+						// 		{ label: 'I/O 시스템', collapsed: true, autogenerate: { directory: 'knowledge/computer-architecture/io-systems' } },
+						// 		{ label: '병렬처리', collapsed: true, autogenerate: { directory: 'knowledge/computer-architecture/parallelism' } },
+						// 		{ label: 'GPU 컴퓨팅', collapsed: true, autogenerate: { directory: 'knowledge/computer-architecture/gpu-computing' } },
+						// 		{ label: '특수 아키텍처', collapsed: true, autogenerate: { directory: 'knowledge/computer-architecture/specialized-architectures' } },
+						// 	],
+						// },
 						// { label: 'Database', collapsed: true, autogenerate: { directory: 'knowledge/database' } },
-						{
-							label: 'Language',
-							collapsed: true,
-							items: [
-								{ slug: 'knowledge/language' },
-								{ label: '컴파일 & 툴체인', collapsed: true, autogenerate: { directory: 'knowledge/language/compilation-toolchain' } },
-							],
-						},
+						// {
+						// 	label: 'Design Patterns',
+						// 	collapsed: true,
+						// 	items: [
+						// 		{ label: '기초 개념', collapsed: true, autogenerate: { directory: 'knowledge/design-patterns/foundational-concepts' } },
+						// 		{ label: '생성 패턴', collapsed: true, autogenerate: { directory: 'knowledge/design-patterns/creational-patterns' } },
+						// 		{ label: '구조 패턴', collapsed: true, autogenerate: { directory: 'knowledge/design-patterns/structural-patterns' } },
+						// 		{ label: '행동 패턴', collapsed: true, autogenerate: { directory: 'knowledge/design-patterns/behavioral-patterns' } },
+						// 	],
+						// },
+						// {
+						// 	label: 'Discrete Mathematics',
+						// 	collapsed: true,
+						// 	items: [
+						// 		{ label: '논리', collapsed: true, autogenerate: { directory: 'knowledge/discrete-mathematics/logic' } },
+						// 		{ label: '집합론', collapsed: true, autogenerate: { directory: 'knowledge/discrete-mathematics/set-theory' } },
+						// 		{ label: '관계', collapsed: true, autogenerate: { directory: 'knowledge/discrete-mathematics/relations' } },
+						// 		{ label: '부울 대수', collapsed: true, autogenerate: { directory: 'knowledge/discrete-mathematics/boolean-algebra' } },
+						// 		{ label: '수론', collapsed: true, autogenerate: { directory: 'knowledge/discrete-mathematics/number-theory' } },
+						// 		{ label: '귀납법', collapsed: true, autogenerate: { directory: 'knowledge/discrete-mathematics/induction' } },
+						// 		{ label: '점화식', collapsed: true, autogenerate: { directory: 'knowledge/discrete-mathematics/recurrence' } },
+						// 		{ label: '조합론', collapsed: true, autogenerate: { directory: 'knowledge/discrete-mathematics/combinatorics' } },
+						// 		{ label: '확률', collapsed: true, autogenerate: { directory: 'knowledge/discrete-mathematics/probability' } },
+						// 		{ label: '그래프 이론', collapsed: true, autogenerate: { directory: 'knowledge/discrete-mathematics/graph-theory' } },
+						// 		{ label: '트리', collapsed: true, autogenerate: { directory: 'knowledge/discrete-mathematics/trees' } },
+						// 		{ label: '형식 언어', collapsed: true, autogenerate: { directory: 'knowledge/discrete-mathematics/formal-languages' } },
+						// 	],
+						// },
+						// {
+						// 	label: 'Distributed Systems',
+						// 	collapsed: true,
+						// 	items: [
+						// 		{ label: '기초', collapsed: true, autogenerate: { directory: 'knowledge/distributed-systems/foundations' } },
+						// 		{ label: '아키텍처', collapsed: true, autogenerate: { directory: 'knowledge/distributed-systems/architecture' } },
+						// 		{ label: '통신', collapsed: true, autogenerate: { directory: 'knowledge/distributed-systems/communication' } },
+						// 		{ label: '동기화', collapsed: true, autogenerate: { directory: 'knowledge/distributed-systems/synchronization' } },
+						// 		{ label: '네이밍', collapsed: true, autogenerate: { directory: 'knowledge/distributed-systems/naming' } },
+						// 		{ label: '일관성 & 복제', collapsed: true, autogenerate: { directory: 'knowledge/distributed-systems/consistency-replication' } },
+						// 		{ label: '내결함성', collapsed: true, autogenerate: { directory: 'knowledge/distributed-systems/fault-tolerance' } },
+						// 		{ label: '보안', collapsed: true, autogenerate: { directory: 'knowledge/distributed-systems/security' } },
+						// 		{ label: '프로세스 & 가상화', collapsed: true, autogenerate: { directory: 'knowledge/distributed-systems/processes-virtualization' } },
+						// 	],
+						// },
+						// {
+						// 	label: 'Kubernetes',
+						// 	collapsed: true,
+						// 	items: [
+						// 		{ label: '클러스터 아키텍처', collapsed: true, autogenerate: { directory: 'knowledge/kubernetes/cluster-architecture' } },
+						// 		{ label: 'Pods', collapsed: true, autogenerate: { directory: 'knowledge/kubernetes/pods' } },
+						// 		{ label: '워크로드 컨트롤러', collapsed: true, autogenerate: { directory: 'knowledge/kubernetes/workload-controllers' } },
+						// 		{ label: '서비스 & 네트워킹', collapsed: true, autogenerate: { directory: 'knowledge/kubernetes/services-networking' } },
+						// 		{ label: '스토리지', collapsed: true, autogenerate: { directory: 'knowledge/kubernetes/storage' } },
+						// 		{ label: '설정', collapsed: true, autogenerate: { directory: 'knowledge/kubernetes/configuration' } },
+						// 		{ label: '컨테이너', collapsed: true, autogenerate: { directory: 'knowledge/kubernetes/containers' } },
+						// 		{ label: '조직', collapsed: true, autogenerate: { directory: 'knowledge/kubernetes/organization' } },
+						// 		{ label: 'API & 도구', collapsed: true, autogenerate: { directory: 'knowledge/kubernetes/api-and-tools' } },
+						// 	],
+						// },
+						// {
+						// 	label: 'Language',
+						// 	collapsed: true,
+						// 	items: [
+						// 		{ slug: 'knowledge/language' },
+						// 		{ label: '컴파일 & 툴체인', collapsed: true, autogenerate: { directory: 'knowledge/language/compilation-toolchain' } },
+						// 	],
+						// },
+						// {
+						// 	label: 'Linux',
+						// 	collapsed: true,
+						// 	items: [
+						// 		{ label: '시스템 기초', collapsed: true, autogenerate: { directory: 'knowledge/linux/system-fundamentals' } },
+						// 		{ label: '프로세스 & 커널', collapsed: true, autogenerate: { directory: 'knowledge/linux/processes-and-kernel' } },
+						// 		{ label: '사용자 & 권한', collapsed: true, autogenerate: { directory: 'knowledge/linux/users-and-permissions' } },
+						// 		{ label: '스토리지', collapsed: true, autogenerate: { directory: 'knowledge/linux/storage' } },
+						// 		{ label: '네트워킹 핵심', collapsed: true, autogenerate: { directory: 'knowledge/linux/networking-core' } },
+						// 		{ label: '네트워크 인프라', collapsed: true, autogenerate: { directory: 'knowledge/linux/network-infrastructure' } },
+						// 		{ label: '패키지 & 스크립팅', collapsed: true, autogenerate: { directory: 'knowledge/linux/packages-and-scripting' } },
+						// 		{ label: '자동화 & CI/CD', collapsed: true, autogenerate: { directory: 'knowledge/linux/automation-cicd' } },
+						// 		{ label: '모니터링 & 성능', collapsed: true, autogenerate: { directory: 'knowledge/linux/monitoring-performance' } },
+						// 		{ label: '운영', collapsed: true, autogenerate: { directory: 'knowledge/linux/operations' } },
+						// 		{ label: '보안 & 암호화', collapsed: true, autogenerate: { directory: 'knowledge/linux/security-cryptography' } },
+						// 		{ label: '가상화 & 컨테이너', collapsed: true, autogenerate: { directory: 'knowledge/linux/virtualization-containers' } },
+						// 		{ label: '웹 서비스', collapsed: true, autogenerate: { directory: 'knowledge/linux/web-services' } },
+						// 		{ label: 'ID & 인증', collapsed: true, autogenerate: { directory: 'knowledge/linux/identity' } },
+						// 	],
+						// },
 						{
 							label: 'Network',
 							collapsed: true,
@@ -79,6 +204,27 @@ export default defineConfig({
 								{ label: '운영체제 구조', collapsed: true, autogenerate: { directory: 'knowledge/os/structure' } },
 							],
 						},
+						// {
+						// 	label: 'Software Engineering',
+						// 	collapsed: true,
+						// 	items: [
+						// 		{ label: '기초', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/foundations' } },
+						// 		{ label: '요구사항 공학', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/requirements-engineering' } },
+						// 		{ label: '시스템 모델링', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/system-modeling' } },
+						// 		{ label: '아키텍처 설계', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/architectural-design' } },
+						// 		{ label: '설계 & 진화', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/design-and-evolution' } },
+						// 		{ label: '테스팅', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/testing' } },
+						// 		{ label: '품질 & 형상관리', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/quality-and-configuration' } },
+						// 		{ label: '애자일', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/agile-methods' } },
+						// 		{ label: '프로젝트 관리', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/project-management' } },
+						// 		{ label: '신뢰성', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/dependability' } },
+						// 		{ label: '안전성 & 복원력', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/safety-and-resilience' } },
+						// 		{ label: '보안 공학', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/security-engineering' } },
+						// 		{ label: '소프트웨어 재사용', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/software-reuse' } },
+						// 		{ label: '실시간 시스템', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/real-time-systems' } },
+						// 		{ label: '시스템 & 서비스', collapsed: true, autogenerate: { directory: 'knowledge/software-engineering/systems-and-services' } },
+						// 	],
+						// },
 					],
 				},
 				{

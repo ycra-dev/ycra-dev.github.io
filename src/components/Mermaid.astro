@@ -1,0 +1,47 @@
+---
+interface Props {
+  diagram: string;
+}
+
+const { diagram } = Astro.props;
+---
+
+<pre class="mermaid-diagram" set:text={diagram} />
+
+<script is:inline>
+  (function () {
+    let mermaidLoaded = null;
+
+    function loadMermaid() {
+      if (!mermaidLoaded) {
+        mermaidLoaded = import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs')
+          .then(m => m.default);
+      }
+      return mermaidLoaded;
+    }
+
+    async function renderMermaid() {
+      const diagrams = document.querySelectorAll('.mermaid-diagram:not([data-rendered])');
+      if (diagrams.length === 0) return;
+
+      const mermaid = await loadMermaid();
+      mermaid.initialize({ startOnLoad: false, theme: 'default' });
+
+      for (const el of Array.from(diagrams)) {
+        const code = el.textContent || '';
+        const id = 'mermaid-' + Math.random().toString(36).slice(2, 9);
+        try {
+          const { svg } = await mermaid.render(id, code);
+          el.innerHTML = svg;
+          el.setAttribute('data-rendered', 'true');
+        } catch (e) {
+          console.error('Mermaid render error:', e);
+        }
+      }
+    }
+
+    renderMermaid();
+    document.addEventListener('astro:page-load', renderMermaid);
+    document.addEventListener('astro:after-swap', renderMermaid);
+  })();
+</script>

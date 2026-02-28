@@ -11,6 +11,7 @@ sidebar:
 ---
 
 import StepFlow from '../../../../../components/StepFlow.astro';
+import Mermaid from '../../../../../components/Mermaid.astro';
 
 ## 핵심 개념
 
@@ -33,16 +34,17 @@ import StepFlow from '../../../../../components/StepFlow.astro';
 - 일정 시간 내 메시지 미수신 시 "Are-you-up?" 메시지 전송
 - 다른 경로로 시도하여 링크 장애 vs 사이트 장애 구분
 
-```
-[Site A]                           [Site B]
-    |------- I-am-up (주기적) --------->|
-    |<------ I-am-up (주기적) ----------|
-    |                                 |
-    |------- I-am-up --------------X  | (타임아웃)
-    |                                 |
-    |------- Are-you-up? ------------>|
-    |<------ I-am-up (살아있으면) -------|
-```
+<Mermaid diagram={`sequenceDiagram
+    participant A as Site A
+    participant B as Site B
+
+    A->>B: I-am-up (주기적)
+    B->>A: I-am-up (주기적)
+
+    A-xB: I-am-up (타임아웃)
+
+    A->>B: Are-you-up?
+    B->>A: I-am-up (살아있으면)`} />
 
 ### 2. 재구성 (Reconfiguration)
 
