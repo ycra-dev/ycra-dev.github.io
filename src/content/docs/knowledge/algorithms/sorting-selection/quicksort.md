@@ -49,6 +49,28 @@ A = [2, 8, 7, 1, 3, 5, 6, 4]를 퀵정렬 (피벗 = A[r] = 4):
 3단계: QUICKSORT(A, 5, 8) 재귀 -> [5, 6, 7, 8]
 결과: [1, 2, 3, 4, 5, 6, 7, 8]
 
+## TAOCP 분석 (Knuth, Vol.3)
+
+TAOCP의 퀵정렬(Algorithm Q, Sedgewick 개선 버전)의 주요 특성:
+
+- **분할 과정**: 포인터 i(왼쪽에서)와 j(오른쪽에서)를 동시에 이동하며 피벗보다 큰 원소와 작은 원소를 교환. "양쪽 끝에서 초를 태우는(burning the candle at both ends)" 방식.
+
+- **스택 사용**: 분할 후 더 긴 서브파일을 스택에 저장하고 짧은 서브파일을 먼저 처리. **스택 깊이 ≤ lg N 보장**.
+
+- **Sedgewick 개선사항**:
+  - M개 이하의 원소는 나중에 직선 삽입으로 처리 (캐시 지역성 활용)
+  - 동등한 키도 교환 (동등한 원소가 많을 때 균등 분할)
+  - 인공 파수꾼 키 K[0]=-∞, K[N+1]=+∞ 사용으로 경계 검사 제거
+
+- **MIX 기준 정밀 분석**:
+  - 평균 비교 횟수: ≈ **2N ln N** (≈ 1.386 N log₂ N)
+  - 최악의 경우: N(N-1)/2 비교 (이미 정렬된 경우)
+  - MIX 평균 시간: ≈ 11.67N ln N + O(N)
+
+- **최적 M값**: 일반적으로 M = 9~25 사이가 최적 (컴퓨터 아키텍처에 따라 다름)
+
+- **중앙값 세 개(median-of-three)**: 피벗으로 세 원소의 중앙값을 선택하면 최악의 경우가 극히 드물어지고 평균도 개선됨
+
 ## 관련 개념
 
 - [Partition](/knowledge/algorithms/partition/)
@@ -58,3 +80,4 @@ A = [2, 8, 7, 1, 3, 5, 6, 4]를 퀵정렬 (피벗 = A[r] = 4):
 - [Merge Sort](/knowledge/algorithms/merge-sort/)
 - [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
 - [Recurrence](/knowledge/algorithms/recurrence/)
+- [Internal Sorting Summary](/knowledge/algorithms/sorting-selection/internal-sorting-summary/)

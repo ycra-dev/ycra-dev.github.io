@@ -48,6 +48,31 @@ A = [4, 1, 3, 2, 16, 9, 10, 14, 8, 7]을 힙정렬하는 과정:
 ... (반복)
 최종: [1, 2, 3, 4, 7, 8, 9, 10, 14, 16]
 
+## TAOCP 분석 (Knuth, Vol.3)
+
+TAOCP의 힙정렬(Algorithm H, J. W. J. Williams 1964)의 주요 특성:
+
+**힙 성질**: 완전 이진 트리에서 부모 ≥ 두 자식 (최대 힙). 배열 표현: 인덱스 i의 자식은 2i와 2i+1.
+
+**성능 비교 (Table 1, MIX 컴퓨터)**:
+- 평균 시간: ≈ 2N log N × (MIX 상수)
+- 최악의 경우: 퀵정렬의 평균과 비슷 (약 2배 느림)
+- 추가 메모리: **O(1) (in-place)**
+- 안정성: **불안정 (unstable)**
+
+**퀵정렬과 비교**:
+- Heapsort: 최악 보장 O(N log N), 추가 공간 O(1)
+- Quicksort: 평균이 Heapsort보다 약 1.5배 빠르지만 최악 O(N²)
+- 실용적으로 Quicksort가 더 많이 사용됨 (지역성, 캐시 효율)
+
+**캐시 친화성**: Heapsort는 캐시 비친화적 (LaMarca-Ladner 1999):
+- 힙 접근 패턴이 랜덤하여 캐시 미스 많음
+- 현대 컴퓨터에서 이론적 장점이 상쇄됨
+
+**최소 저장 공간**: 힙 정렬은 O(log N)² 비트 이외의 추가 공간 없이 O(N log N) 성능.
+
+**Introsort**: 실용적 개선안 - Quicksort로 시작, 재귀 깊이가 O(log N)을 초과하면 Heapsort로 전환.
+
 ## 관련 개념
 
 - [Heap](/knowledge/algorithms/heap/)
@@ -57,3 +82,4 @@ A = [4, 1, 3, 2, 16, 9, 10, 14, 8, 7]을 힙정렬하는 과정:
 - [Insertion Sort](/knowledge/algorithms/insertion-sort/)
 - [Comparison Sort Lower Bound](/knowledge/algorithms/comparison-sort-lower-bound/)
 - [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
+- [Internal Sorting Summary](/knowledge/algorithms/sorting-selection/internal-sorting-summary/)

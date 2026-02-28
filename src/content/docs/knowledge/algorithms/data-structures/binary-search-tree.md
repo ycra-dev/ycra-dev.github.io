@@ -68,6 +68,31 @@ TREE-MINIMUM(x)
   return x
 ```
 
+## TAOCP 분석 (Knuth, Vol.3)
+
+TAOCP의 이진 탐색 트리(Section 6.2, Algorithm T)의 주요 특성:
+
+**대칭 순서(Symmetric Order) 성질:**
+모든 노드 x에 대해 LLINK(x) 서브트리의 모든 키 < KEY(x) < RLINK(x) 서브트리의 모든 키. 각 노드는 KEY, LLINK, RLINK 필드를 가진다.
+
+**삭제 알고리즘 (Algorithm D):**
+삭제는 세 경우로 분류:
+- 리프 노드: 직접 삭제
+- 자식 1개: 자식으로 대체
+- 자식 2개: 좌측 서브트리의 최대값(또는 우측 최소값)으로 대체
+
+**성능 분석 (Knuth 정밀 분석):**
+- 랜덤 N개 삽입 후 평균 탐색 비교 횟수: 약 **2 ln N ≈ 1.386 lg N**
+- 내부 경로 길이(Internal Path Length): 퀵정렬 분석과 동일한 구조
+- 최악의 경우 (정렬된 입력): O(N) - 편향 트리(degenerate tree) 형성
+
+**편향 트리 문제:**
+정렬된 순서로 삽입하면 선형 리스트와 동일한 구조가 되어 O(N) 탐색이 발생한다. AQUARIUS → CAPRICORN → ARIES → GEMINI 순으로 삽입하면 한쪽으로 치우친 트리가 생성된다. 이를 해결하기 위해 AVL 트리, B-트리 등의 균형 트리가 개발되었다.
+
+**BST vs 이진 탐색 비교:**
+- BST: O(log N) 평균, 동적 삽입/삭제 가능
+- 이진 탐색: O(log N) 확정적, 정적 배열만 가능
+
 ## 관련 개념
 
 - [Inorder Traversal](/knowledge/algorithms/inorder-traversal/)

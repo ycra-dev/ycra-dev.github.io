@@ -52,3 +52,11 @@ sidebar:
 - [Procedure Inlining](/knowledge/language/procedure-inlining/) - 프로시저 인라이닝(Procedure Inlining)은 프로시저 호출을 해당 프로시저 본문의 코드로 직접 대체하는 컴파일러 최적화 기법이다
 - [Loop Unrolling](/knowledge/language/loop-unrolling/) - 루프 언롤링(Loop Unrolling)은 루프 본문을 여러 번 복제하여 변환된 루프의 반복 횟수를 줄임으로써 성능을 향상시키는 최적화 기법이다
 - [Object-Oriented Language](/knowledge/language/object-oriented-language/) - 객체 지향 언어(Object-Oriented Language)는 동작(action)이나 논리(logic)보다 객체(object)를 중심으로 설계된 프로그래밍 언어이다
+
+## 표기법 및 미니 언어 (Notation and Mini-Languages)
+
+- [정규 표현식 실용 가이드 (Regular Expression)](/knowledge/language/regular-expression-practice/) - 정규 표현식은 문자열의 패턴을 기술하기 위한 간결한 표기법으로, 텍스트 검색, 치환, 유효성 검사 등에 광범위하게 사용되는 DSL의 대표적 성공 사례이다
+- [도메인 특화 언어 (DSL)](/knowledge/language/domain-specific-language/) - DSL은 특정 문제 영역을 위해 설계된 소규모 언어로, 해당 영역의 문제를 범용 언어보다 훨씬 간결하고 명확하게 표현할 수 있다
+- [코드 생성 (Code Generation)](/knowledge/language/code-generation/) - 코드 생성은 프로그램이 다른 프로그램(코드)을 작성하는 기법으로, 명세로부터 반복적이거나 정형화된 코드를 자동으로 생성하여 오류를 줄이고 생산성을 높인다
+- [가상 머신 인터프리터 (Virtual Machine Interpreter)](/knowledge/language/virtual-machine-interpreter/) - 가상 머신 인터프리터는 가상의 프로세서를 위한 명령어를 소프트웨어로 실행하는 프로그램으로, 한 번 작성하면 어디서나 실행할 수 있는 이식성을 제공한다
+- [Printf 형식 문자열 (Printf Format Strings)](/knowledge/language/printf-format/) - printf 형식 문자열은 출력 포맷을 제어하는 미니 언어(mini-language)로, %d, %s, %f 등의 변환 지정자를 통해 범용 언어 안에 내장된 도메인 특화 표기법의 대표적인 사례이다

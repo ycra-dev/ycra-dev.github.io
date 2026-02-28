@@ -45,6 +45,7 @@ sidebar:
 - [Time Complexity](/knowledge/algorithms/time-complexity/) - 시간 복잡도(Time Complexity)는 알고리즘이 특정 크기의 입력에 대해 문제를 해결하는 데 필요한 연산 횟수를 나타낸 것이다
 - [Binary Search](/knowledge/algorithms/binary-search/) - 이진 탐색(Binary Search)은 정렬된 리스트에서 중간 원소와 비교하여 탐색 범위를 반씩 줄여나가는 탐색 알고리즘이다
 - [Linear Search](/knowledge/algorithms/linear-search/) - 선형 탐색(Linear Search, Sequential Search)은 리스트의 첫 번째 원소부터 마지막 원소까지 순서대로 하나씩 비교하면서 목표 원소를 찾는 가장 기본적인 탐색 알고리즘이다
+- [마르코프 체인 (Markov Chain)](/knowledge/algorithms/markov-chain/) - 마르코프 체인은 현재 상태만으로 다음 상태를 결정하는 확률적 모델로, 텍스트 생성 알고리즘의 교과서적 예제이며 해시 테이블 기반 자료구조 설계를 보여준다
 
 ## 정렬 및 선택 (Sorting & Selection)
 

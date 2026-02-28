@@ -199,3 +199,41 @@ sidebar:
 - [Stimulus-Response Model](/knowledge/software-engineering/stimulus-response-model/) - 자극-응답 모델은 임베디드 실시간 소프트웨어 설계의 가장 일반적인 접근 방식으로, 시스템 환경에서 발생하는 자극(이벤트)과 이에 대한 시스...
 - [Timing Analysis](/knowledge/software-engineering/timing-analysis/) - 타이밍 분석은 임베디드 실시간 소프트웨어 개발에서 각 프로세스의 실행 빈도를 계산하여 모든 입력이 처리되고 시스템 응답이 적시에 생성되도록...
 - [Architectural Patterns for Real-Time Software](/knowledge/software-engineering/architectural-patterns-for-real-time-software/) - 실시간 소프트웨어 아키텍처 패턴은 임베디드 실시간 시스템 설계에서 사용되는 프로세스 지향의 추상적인 설계 실천 방식으로, 시스템 아키텍처 ...
+
+## 실용 프로그래밍 기법 (Practical Programming)
+
+- [JavaScript (자바스크립트)](/knowledge/software-engineering/javascript/) - 자바스크립트는 웹 브라우저에서 실행되는 유일한 프로그래밍 언어로, HTML/CSS와 함께 웹의 3대 핵심 기술을 이루며 동적 상호작용을 담당한다
+- [코딩 스타일 (Coding Style)](/knowledge/software-engineering/coding-style/) - 코딩 스타일은 코드의 가독성과 유지보수성을 높이기 위한 규칙 집합으로, 일관성 있는 이름, 들여쓰기, 자연스러운 표현, 관용구(idiom) 사용이 핵심이다
+- [이름 짓기 (Naming Convention)](/knowledge/software-engineering/naming-convention/) - 좋은 이름은 짧은 범위에서는 짧게, 넓은 범위에서는 길고 명확하게 짓는 원칙으로, 코드의 자기 문서화(self-documenting)를 가능하게 한다
+- [매직 넘버 (Magic Number)](/knowledge/software-engineering/magic-number/) - 매직 넘버는 코드에 직접 박혀 있는 의미 불명의 숫자로, 이름 있는 상수(named constant)나 열거형으로 대체하면 코드의 가독성과 유지보수성이 크게 향상된다
+- [코드 주석 (Code Comment)](/knowledge/software-engineering/code-comment/) - 좋은 주석은 코드가 '무엇을' 하는지가 아니라 '왜' 하는지를 설명하며, 나쁜 코드를 주석으로 가리지 말고 코드 자체를 개선해야 한다
+- [함수형 매크로 (Function Macro)](/knowledge/software-engineering/function-macro/) - C의 함수형 매크로는 부작용(side effect)과 연산자 우선순위 문제로 인한 미묘한 버그를 유발하며, 가능하면 인라인 함수로 대체하는 것이 안전하다
+- [언어 비교 (Language Comparison)](/knowledge/software-engineering/language-comparison/) - C, C++, Java, Awk, Perl 등 각 언어는 특정 문제 영역에서 강점을 가지며, 작업에 맞는 도구(right tool for the job)를 선택하는 것이 핵심이다
+- [인터페이스 설계 (Interface Design)](/knowledge/software-engineering/interface-design/) - 좋은 인터페이스는 구현을 숨기고, 작고 직교적인 연산 집합을 제공하며, 놀라움 없이(principle of least surprise) 일관성 있게 동작해야 한다
+- [정보 은닉 (Information Hiding)](/knowledge/software-engineering/information-hiding/) - 정보 은닉(Parnas principle)은 모듈의 구현 세부사항을 외부로부터 숨겨 결합도를 낮추고, 변경의 영향 범위를 제한하는 핵심 설계 원칙이다
+- [자원 관리 (Resource Management)](/knowledge/software-engineering/resource-management/) - 자원을 할당한 곳에서 해제하는 원칙으로, 메모리 누수와 댕글링 포인터를 방지하고 소유권을 명확히 하여 신뢰할 수 있는 프로그램을 만든다
+- [CSV 파서 (CSV Parser)](/knowledge/software-engineering/csv-parser/) - CSV 파서 구현은 실제 프로그래밍 설계의 교과서적 사례로, 엣지 케이스 처리, 프로토타입에서 라이브러리로의 진화, API 설계를 보여준다
+- [추상화 (Abstraction)](/knowledge/software-engineering/abstraction/) - 추상화는 복잡성을 계층으로 관리하는 기법으로, 하위 계층의 세부사항을 숨기고 상위 계층에 간단한 인터페이스를 제공하여 각 계층이 독립적으로 발전할 수 있게 한다
+- [자료구조 설계 (Data Structure Design)](/knowledge/software-engineering/data-structure-design/) - "자료구조를 올바르게 잡으면 알고리즘은 저절로 따라온다"는 원칙으로, 마르코프 체인 예제를 통해 설계 과정을 배울 수 있다
+- [스택 추적 (Stack Trace)](/knowledge/software-engineering/stack-trace/) - 스택 추적은 프로그램 오류 발생 시 함수 호출 경로를 역순으로 보여주는 디버깅의 핵심 도구로, 맨 위부터 읽어 오류 발생 지점을 찾는다
+- [디버깅 도구 (Debugging Tools)](/knowledge/software-engineering/debugging-tools/) - 효과적인 디버깅은 디버거, 출력/로그, 메모리 검사기(Valgrind), 정적 분석, 어서션을 상황에 맞게 조합하여 사용한다
+- [이식성 (Portability)](/knowledge/software-engineering/portability/) - 이식성은 프로그램이 다양한 환경에서 올바르게 동작하도록 표준을 준수하고, 플랫폼 의존적인 부분을 명시적으로 격리하는 소프트웨어 품질 속성이다
+- [바이트 순서 (Byte Order)](/knowledge/software-engineering/byte-order/) - 빅 엔디언과 리틀 엔디언의 차이는 네트워크 통신에서 데이터 오류를 유발하므로, htonl/ntohl 함수로 명시적으로 변환해야 한다
+- [조건부 컴파일 (Conditional Compilation)](/knowledge/software-engineering/conditional-compilation/) - #ifdef를 남용하면 코드가 읽기 어려워지므로, 플랫폼별 파일 분리와 표준 라이브러리 활용으로 최소화하는 것이 좋다
+- [국제화 (Internationalization)](/knowledge/software-engineering/internationalization/) - i18n은 ASCII/영어만을 가정하지 않고 UTF-8, 로케일 인식 함수 등을 사용하여 프로그램이 전 세계 사용자에게 올바르게 동작하도록 설계하는 것이다
+- [데이터 교환 형식 (Data Exchange Format)](/knowledge/software-engineering/data-exchange-format/) - 시스템 간 데이터 교환에는 텍스트 형식(JSON, CSV)이 이식성과 가독성이 뛰어나며, 이진 형식은 성능은 좋지만 엔디언과 타입 크기 문제를 수반한다
+
+## 실용 테스팅 기법 (Practical Testing)
+
+- [경계 테스팅 (Boundary Testing)](/knowledge/software-engineering/boundary-testing/) - 경계 테스팅은 크기 0, 최대값, 빈 입력 등의 경계 조건을 체계적으로 테스트하여 일반적인 케이스에서는 발견되지 않는 버그를 찾아내는 기법이다
+- [테스트 스캐폴드 (Test Scaffold)](/knowledge/software-engineering/test-scaffold/) - 테스트 스캐폴드는 테스트 드라이버와 스텁으로 구성된 테스트 지원 코드로, 모듈을 독립적으로 테스트할 수 있는 자급자족(self-contained) 환경을 만든다
+- [스트레스 테스팅 (Stress Testing)](/knowledge/software-engineering/stress-testing/) - 스트레스 테스팅은 극단적인 입력 크기와 무작위 데이터로 시스템의 한계를 시험하여, 일반적인 테스트에서 발견하기 어려운 희귀한 버그를 탐지한다
+- [어서션 (Assertion)](/knowledge/software-engineering/assertion/) - 어서션은 프로그램의 불변 조건(invariant)을 코드 안에 명시적으로 표현하여, 가정이 위반될 때 즉시 오류를 알리는 방어적 프로그래밍 기법이다
+
+## 성능 최적화 (Performance Optimization)
+
+- [프로파일링 (Profiling)](/knowledge/software-engineering/profiling/) - "측정 없이 최적화하지 마라"는 원칙 아래, 프로파일링 도구로 실제 병목(bottleneck)을 찾아 집중 최적화함으로써 효과적인 성능 개선을 달성한다
+- [코드 최적화 (Code Optimization)](/knowledge/software-engineering/code-optimization/) - 공통 부분식 제거, 비트 시프트, 루프 언롤링, 버퍼링된 I/O, 컴파일러 최적화 플래그 등 구체적인 기법으로 코드 수준의 성능을 향상시킨다
+- [병목 (Bottleneck)](/knowledge/software-engineering/bottleneck/) - 시스템 전체 성능을 좌우하는 병목은 파레토 법칙에 따라 소수(20%)의 코드가 전체 실행 시간의 대부분(80%)을 차지하므로, 먼저 측정하고 집중한다
+- [시공간 트레이드오프 (Space-Time Tradeoff)](/knowledge/software-engineering/space-time-tradeoff/) - 시간을 절약하려면 공간을 쓰고(캐싱/메모이제이션), 공간을 절약하려면 시간을 쓰는(압축) 근본적인 트레이드오프로, 설계 시 의도적으로 선택해야 한다
+- [메모리 할당자 (Memory Allocator)](/knowledge/software-engineering/memory-allocator/) - 풀 할당자(pool allocator)는 고정 크기 객체를 미리 할당해두어 O(1) 할당/해제와 캐시 지역성을 제공하는 성능 최적화 기법이다
