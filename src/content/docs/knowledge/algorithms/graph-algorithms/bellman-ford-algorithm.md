@@ -54,7 +54,7 @@ BELLMAN-FORD(G, w, s)
   +--7--> c ----4----> d
 
 Pass 1: s.d=0, a.d=6, c.d=7 (또는 5)
-Pass 2: b.d=4, d.d=7
+Pass 2: b.d=4, d.d=1  (b.d=4, w(b,d)=-3이므로 d.d=4+(-3)=1)
 Pass 3: 변경 없으면 조기 종료 가능
 Pass 4: 최종 확인
 ```

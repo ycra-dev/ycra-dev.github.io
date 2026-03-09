@@ -25,7 +25,7 @@ Trunk-Based Development vs Gitflow:
 | CI/CD | 자연스러움 | 어려움 |
 | 적합한 상황 | 서비스형 소프트웨어 | 다중 버전 유지 |
 
-Gitflow 창시자 Driesen도 CI/CD가 가능한 소프트웨어에는 Gitflow를 비추천한다. 서비스 지향 시스템(웹 서비스, SaaS)에는 보통 트렁크 기반이 적합하다.
+Gitflow 창시자 Driessen도 CI/CD가 가능한 소프트웨어에는 Gitflow를 비추천한다. 서비스 지향 시스템(웹 서비스, SaaS)에는 보통 트렁크 기반이 적합하다.
 
 트렁크가 불안정하거나 다양한 버전을 동시에 유지해야 할 때는 Gitflow가 유리하다.
 

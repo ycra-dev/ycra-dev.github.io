@@ -55,9 +55,9 @@ DIJKSTRA(G, w, s)
 실행 예시 (소스 = s):
   Step 1: S={s}, s.d=0
   Step 2: S={s,y}, y.d=5
-  Step 3: S={s,y,t}, t.d=8
-  Step 4: S={s,y,t,x}, x.d=9
-  Step 5: S={s,y,t,x,z}, z.d=7
+  Step 3: S={s,y,z}, z.d=7
+  Step 4: S={s,y,z,t}, t.d=8
+  Step 5: S={s,y,z,t,x}, x.d=9
 ```
 
 ## 관련 개념

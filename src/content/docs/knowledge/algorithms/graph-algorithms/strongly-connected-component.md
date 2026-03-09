@@ -45,17 +45,16 @@ STRONGLY-CONNECTED-COMPONENTS(G)
 
 예시:
   a --> b --> c --> d
-  ^         |     |
-  |         v     v
-  h <-- g <-- f <-- e
+  ^     |     ^     |
+  |     v     |     v
+  e <-- f --> g <-- h
 
-SCC들: {a, b, e, h}, {c, d}, {f, g}
+간선: a->b, b->c, b->f, c->d, d->h, e->a, f->e, f->g, g->c, h->g
+
+SCC들: {a, b, e, f}, {c, d, g, h}
 
 요소 그래프:
-  {a,b,e,h} --> {c,d}
-              \     |
-               v    v
-              {f,g}
+  {a,b,e,f} --> {c,d,g,h}
 ```
 
 ## 관련 개념

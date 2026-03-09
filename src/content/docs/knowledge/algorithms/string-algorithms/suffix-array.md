@@ -53,16 +53,16 @@ SA[2]=6: a$
 SA[3]=4: ana$
 SA[4]=2: anana$
 SA[5]=1: banana$
-SA[6]=3: nana$
-SA[7]=5: na$
+SA[6]=5: na$
+SA[7]=3: nana$
 
 LCP 배열:
 LCP[2]=0: $와 a$ → 0
 LCP[3]=1: a$와 ana$ → "a" (길이 1)
 LCP[4]=3: ana$와 anana$ → "ana" (길이 3)
 LCP[5]=0: anana$와 banana$ → 0
-LCP[6]=0: banana$와 nana$ → 0
-LCP[7]=2: nana$와 na$ → "na" (길이 2)
+LCP[6]=0: banana$와 na$ → 0
+LCP[7]=2: na$와 nana$ → "na" (길이 2)
 
 최장 반복 부분 문자열: max(LCP) = 3 → "ana"
 ```

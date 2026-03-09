@@ -73,11 +73,11 @@ def horner_evaluate(coeffs, x):
 coeffs = [3, 2, -5, 7]
 x = 4
 result = horner_evaluate(coeffs, x)
-print(f"p(4) = {result}")  # 3×64 + 2×16 - 5×4 + 7 = 207
+print(f"p(4) = {result}")  # 3×64 + 2×16 - 5×4 + 7 = 211
 
 # 검증
 direct = 3*4**3 + 2*4**2 - 5*4 + 7
-print(f"직접 계산: {direct}")  # 207
+print(f"직접 계산: {direct}")  # 211
 
 # 기수 변환에 Horner's Rule 적용
 def binary_to_decimal_horner(binary_str):
@@ -102,7 +102,7 @@ def synthetic_division(coeffs, r):
 
 quotient, remainder = synthetic_division([3, 2, -5, 7], 4)
 print(f"몫: {quotient}")     # [3, 14, 51]
-print(f"나머지: {remainder}") # 211... 아니 207
+print(f"나머지: {remainder}") # 211
 
 # 수치 안정성: 큰 계수에서의 정밀도
 import numpy as np

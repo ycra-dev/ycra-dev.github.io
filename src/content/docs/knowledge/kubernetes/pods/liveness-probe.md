@@ -20,7 +20,7 @@ sidebar:
 3. **Exec**: 컨테이너 내부에서 명령을 실행하고, 종료 코드 0이면 성공으로 판단
 
 **주요 설정 파라미터:**
-- `initialDelaySeconds`: 컨테이너 시작 후 첫 프로브까지의 대기 시간 (기본값: 0, 실제 동작은 10초)
+- `initialDelaySeconds`: 컨테이너 시작 후 첫 프로브까지의 대기 시간 (기본값: 0)
 - `periodSeconds`: 프로브 실행 간격 (기본값: 10)
 - `timeoutSeconds`: 프로브 응답 대기 시간 (기본값: 1)
 - `failureThreshold`: 비정상으로 판단하기 위한 연속 실패 횟수 (기본값: 3)

@@ -62,20 +62,13 @@ procedure BFS(G: connected graph with vertices v1, ..., vn)
 BFS (시작 정점: e):
 
 Level 0: e
-Level 1: b, d, f, i  (e의 인접 정점)
-Level 2: a, c, h, j, g, k  (Level 1의 인접 정점 중 미방문)
-Level 3: l, m  (Level 2의 인접 정점 중 미방문)
+Level 1: a, d, i         (e의 인접 정점)
+Level 2: b, c, f, h      (Level 1의 인접 정점 중 미방문; a→b, d→c, d→f, d→h)
+Level 3: g, k            (Level 2의 인접 정점 중 미방문; f→g, h→k)
+Level 4: j, l            (Level 3의 인접 정점 중 미방문; g→j, k→l)
+Level 5: m               (Level 4의 인접 정점 중 미방문; j→m 또는 l→m)
 
-BFS 신장 트리:
-              e
-          / | | \
-         b  d  f  i
-        /   |  |\ \
-       a    h  j g  k
-       |       |    |
-       c       m    l
-
-최단 경로: e에서 m까지 = 3 (레벨 3)
+최단 경로: e에서 m까지 = 5 (레벨 5)
 이는 원래 그래프에서의 최단 경로 길이와 동일
 ```
 

@@ -62,7 +62,7 @@ distances = [
 ]
 
 min_dist, best_route = tsp_brute_force(distances, 5)
-print(f"최소 거리: {min_dist}")  # 458
+print(f"최소 거리: {min_dist}")  # 460
 # 최적 경로: Detroit -> Toledo -> Kalamazoo -> Grand Rapids -> Saginaw -> Detroit
 
 # 검사한 회로 수: (5-1)!/2 = 12
@@ -70,9 +70,9 @@ print(f"최소 거리: {min_dist}")  # 458
 
 가능한 회로와 총 거리 비교:
 ```
-Detroit-Toledo-Grand Rapids-Saginaw-Kalamazoo-Detroit: 610
-Detroit-Toledo-Kalamazoo-Grand Rapids-Saginaw-Detroit: 458  <-- 최소
-Detroit-Toledo-Saginaw-Grand Rapids-Kalamazoo-Detroit: 504
+Detroit-Toledo-Grand Rapids-Saginaw-Kalamazoo-Detroit: 616
+Detroit-Toledo-Kalamazoo-Grand Rapids-Saginaw-Detroit: 460  <-- 최소
+Detroit-Toledo-Saginaw-Grand Rapids-Kalamazoo-Detroit: 502
 ...
 ```
 

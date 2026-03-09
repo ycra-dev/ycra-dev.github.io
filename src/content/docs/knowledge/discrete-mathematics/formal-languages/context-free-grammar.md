@@ -51,12 +51,13 @@ ALGOL 60의 식별자를 BNF로 정의:
 식별자 `x99a`의 유도 과정:
 ```
 <identifier>
-=> <identifier><letter>      (규칙 1의 세 번째 선택)
+=> <identifier><letter>      (규칙 3: <identifier> -> <identifier><letter>)
 => <identifier>a             (<letter> -> a)
-=> <identifier><digit><digit>a
-=> <identifier>99a
-=> <letter>99a
-=> x99a
+=> <identifier><digit>a      (규칙 2: <identifier> -> <identifier><digit>)
+=> <identifier><digit><digit>a  (규칙 2 재적용)
+=> <identifier>99a           (<digit> -> 9 두 번)
+=> <letter>99a               (규칙 1: <identifier> -> <letter>)
+=> x99a                      (<letter> -> x)
 ```
 
 부호 있는 정수의 BNF 정의:

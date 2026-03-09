@@ -43,7 +43,7 @@ i=0: result = a²² → n_0=1, 곱: a²³
 총 4번 제곱 + 3번 곱 = 7번
 ```
 
-**가법 연쇄 (Addition Chain)**: 이진 방법보다 더 적은 곱셈으로 가능한 최적 방법. {1, 2, 3, 5, 10, 15, 23}이 a^23에 대한 가법 연쇄 (6번의 곱셈).
+**가법 연쇄 (Addition Chain)**: 이진 방법보다 더 적은 곱셈으로 가능한 최적 방법. {1, 2, 3, 5, 10, 20, 23}이 a^23에 대한 가법 연쇄 (6번의 곱셈: 1→2, 2→3, 3→5, 5→10, 10→20, 20+3→23).
 
 **이진 방법의 변형**:
 - **M-ary 방법**: n을 m진수로 표현하여 처리, 더 큰 블록 단위
@@ -97,7 +97,7 @@ print(f"원문: {message}, 암호화: {encrypted}, 복호화: {decrypted}")
 # 가법 연쇄 vs 이진 방법 비교
 def binary_chain_length(n):
     """이진 방법의 곱셈 횟수"""
-    return bin(n).count('1') + len(bin(n)) - 3  # ν(n) - 1 + ⌊lg n⌋
+    return bin(n).count('1') - 1 + len(bin(n)) - 3  # ν(n) - 1 + ⌊lg n⌋
 
 for n in [15, 23, 64, 127]:
     print(f"a^{n}: 이진 방법 {binary_chain_length(n)}번 곱")

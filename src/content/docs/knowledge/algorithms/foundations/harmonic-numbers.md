@@ -80,7 +80,7 @@ print(f"오차 = {abs(exact - approx):.2e}")
 
 # 퀵소트: n=1000일 때 평균 비교 횟수
 print(f"QuickSort 평균 비교: {quicksort_avg_comparisons(1000):.0f}")
-# ≈ 13,816회
+# ≈ 14,971회
 ```
 
 ## 관련 개념

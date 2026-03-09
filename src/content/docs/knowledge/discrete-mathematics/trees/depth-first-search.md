@@ -55,20 +55,17 @@ procedure visit(v: vertex of G)
         |
         j --- k
 
+간선 목록: a-b, b-e, a-c, b-d, e-f, c-d, d-f, d-h, g-h, h-i, h-j, j-k
+
 DFS (시작 정점: f):
-1. f → g → h → k → j (경로 확장, j에서 막힘)
-2. k로 백트래킹 (새 경로 없음)
-3. h로 백트래킹 → h → i (새 경로)
-4. f로 백트래킹 → f → d → e → c → a (경로 확장)
-5. c로 백트래킹 → c → b (새 경로)
+1. f → e → b → a → c → d → h → g (경로 확장, g에서 막힘)
+2. h로 백트래킹 → h → i (새 경로)
+3. h로 백트래킹 → h → j → k (새 경로)
 
 결과 신장 트리:
-  f - g - h - k - j
-          |
-          i
-  f - d - e - c - a
-                  |
-                  b
+  f - e - b - a - c - d - h - g
+                          |\
+                          i j - k
 
 백트래킹 응용:
 - 그래프 색칠: n가지 색으로 그래프 색칠 가능한지 판별

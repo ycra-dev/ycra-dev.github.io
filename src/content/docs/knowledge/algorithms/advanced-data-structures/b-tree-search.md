@@ -44,11 +44,12 @@ B-TREE-SEARCH(x, k)
     return B-TREE-SEARCH(x.c_i, k)
 
 // 예: B-트리에서 키 R 탐색
-//          [G, M, P, X]
-//         /  |   |   |  \
-//   [A,C] [D,F] [J,K] [N,O] [R,S,T,U,V] [Y,Z]
+//            [G, M, P, X]
+//           /  |   |   |  \
+//   [A,C,D,F] [J,K] [N,O] [R,S,T,U,V] [Y,Z]
 //
-// 1. 루트에서 G < R, M < R, P < R, R <= X -> c_4로 이동
+// 루트 4개 키 -> 5개 자식 (c_1 ~ c_5)
+// 1. 루트에서 G < R, M < R, P < R, R <= X -> c_4로 이동 (P < keys < X)
 // 2. 노드 [R,S,T,U,V]에서 R 발견! -> 반환
 
 // 디스크 접근: 1번 (루트는 메모리에 있으므로 제외)

@@ -57,7 +57,8 @@ def has_euler_path(graph):
 
 오일러 회로 구성 (Algorithm 1):
 ```
-# 그래프: a-b, a-f, b-c, b-d, c-d, c-e, d-e, f-c
+# 그래프: a-b, a-f, b-c, c-d, c-e, d-e, f-c (7개 간선)
+# 각 정점의 차수: a=2, b=2, c=4, d=2, e=2, f=2 (모두 짝수)
 # 1단계: 시작 정점 a에서 순환 구성: a, f, c, b, a
 # 2단계: 사용하지 않은 간선에서 부분 순환: c, d, e, c
 # 3단계: 결합: a, f, c, d, e, c, b, a

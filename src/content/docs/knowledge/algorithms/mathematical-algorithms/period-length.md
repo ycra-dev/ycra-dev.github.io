@@ -84,7 +84,7 @@ def detect_period_floyd(f, x0):
 m, a, c = 10, 3, 7
 f = lambda x: (a * x + c) % m
 mu, lam = detect_period_floyd(f, 0)
-print(f"μ={mu}, λ={lam}")  # μ=0, λ=10 (최대 주기!)
+print(f"μ={mu}, λ={lam}")  # μ=0, λ=4
 
 # Brent 알고리즘 (더 빠름)
 def detect_period_brent(f, x0):

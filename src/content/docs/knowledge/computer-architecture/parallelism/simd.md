@@ -53,7 +53,6 @@ for (i = 0; i < N; i++) {
 - [Subword Parallelism](/knowledge/computer-architecture/subword-parallelism/)
 - [Advanced Vector Extensions](/knowledge/computer-architecture/advanced-vector-extensions/)
 - [x86 Instruction Set](/knowledge/computer-architecture/x86-instruction-set/)
-- [Data Level Parallelism](/knowledge/computer-architecture/data-level-parallelism/)
 - [Data-Level Parallelism](/knowledge/computer-architecture/data-level-parallelism/)
 - [Vector Architecture](/knowledge/computer-architecture/vector-architecture/)
 - [MIMD](/knowledge/computer-architecture/mimd/)
