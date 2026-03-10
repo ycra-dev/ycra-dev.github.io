@@ -3,8 +3,8 @@ title: "Declarative Model"
 description: "Kubernetes의 선언적 모델(Declarative Model)은 사용자가 시스템의 원하는 상태(desired state)를 기술하면 Kubernetes가 현재 상태를 원하는 상태에 맞추어 자동으로 조정하는 방식이다"
 tags: ['Kubernetes', 'Declarative', 'Desired State', 'Configuration']
 created: 2026-02-12
-updated: 2026-02-17
-draft: true
+updated: 2026-03-11
+draft: false
 slug: knowledge/kubernetes/declarative-model
 sidebar:
   order: 3

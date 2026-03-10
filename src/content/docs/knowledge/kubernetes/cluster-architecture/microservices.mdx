@@ -3,12 +3,14 @@ title: "Microservices Architecture"
 description: "마이크로서비스 아키텍처는 하나의 대규모 모놀리식 애플리케이션을 수십에서 수백 개의 독립적인 소규모 서비스로 분리하여 개발, 배포, 운영하는 소프트웨어 아키텍처 패턴이다"
 tags: ['Microservices', 'Architecture', 'Distributed Systems', 'DevOps']
 created: 2026-02-12
-updated: 2026-02-17
-draft: true
+updated: 2026-03-10
+draft: false
 slug: knowledge/kubernetes/microservices
 sidebar:
   order: 2
 ---
+
+import Mermaid from '../../../../../components/Mermaid.astro';
 
 ## 핵심 개념
 
@@ -32,22 +34,18 @@ Kubernetes와의 관계:
 
 모놀리식 vs 마이크로서비스 비교:
 
-```
-모놀리식:
-+-----------------------------+
-|    하나의 큰 애플리케이션      |
-|  (모든 기능이 단일 프로세스)   |
-+-----------------------------+
-     하나의 큰 팀이 개발
+<Mermaid diagram={`
+graph LR
+  subgraph mono["모놀리식"]
+    M["하나의 큰 애플리케이션\n모든 기능이 단일 프로세스\n하나의 큰 팀이 개발"]
+  end
 
-마이크로서비스 (Kiada Suite 예시):
-+----------+  +----------+  +----------+
-| Node.js  |  |  Quote   |  |   Quiz   |
-| Web App  |  | Service  |  | Service  |
-+----------+  +----------+  +----------+
-  팀 A가 개발    팀 B가 개발    팀 C가 개발
-  독립 배포       독립 배포       독립 배포
-```
+  subgraph micro["마이크로서비스"]
+    A["Node.js Web App\n팀 A · 독립 배포"]
+    B["Quote Service\n팀 B · 독립 배포"]
+    C["Quiz Service\n팀 C · 독립 배포"]
+  end
+`} />
 
 ## 관련 개념
 
