@@ -1,5 +1,5 @@
 ---
-title: "Cloud Computing"
+title: "클라우드 컴퓨팅 (Cloud Computing)"
 description: "클라우드 컴퓨팅(Cloud Computing)은 가상화된 리소스의 쉽게 사용 가능하고 접근 가능한 풀을 기반으로, 동적으로 구성 가능한 컴퓨팅 자원을 종량제(pay-per-use) 모델로 제공하는 하이브리드 분산 시스템 아키텍처이다"
 tags: ['Cloud', 'Iaas', 'Paas', 'Saas', 'Faas', 'Utility Computing', 'Virtualization']
 created: 2026-02-16
@@ -54,8 +54,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
-- [Layered Architecture](/knowledge/distributed-systems/layered-architecture/)
-- [Edge Computing](/knowledge/distributed-systems/edge-computing/)
-- [Content Delivery Network](/knowledge/distributed-systems/content-delivery-network/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)
+- [계층화 아키텍처 (Layered Architecture)](/knowledge/distributed-systems/layered-architecture/)
+- [엣지 컴퓨팅 (Edge Computing)](/knowledge/distributed-systems/edge-computing/)
+- [CDN (콘텐츠 전송 네트워크)](/knowledge/distributed-systems/content-delivery-network/)

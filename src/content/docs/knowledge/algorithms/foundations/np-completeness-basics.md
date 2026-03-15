@@ -5,7 +5,7 @@ tags: ["Algorithm", "NP-Complete", "Complexity-Theory", "P-vs-NP"]
 created: 2026-02-27
 updated: 2026-02-27
 draft: true
-slug: knowledge/algorithms/np-completeness
+slug: knowledge/algorithms/np-completeness-basics
 sidebar:
   order: 42
 ---

@@ -1,5 +1,5 @@
 ---
-title: "NP-Completeness"
+title: "NP-완전성 (NP-Completeness)"
 description: "NP-완전(NP-Complete) 문제는 NP에 속하면서 NP의 모든 문제가 다항 시간에 환원 가능한 문제로, NP에서 \"가장 어려운\" 문제 클래스이다"
 tags: ['Np Completeness', 'Npc', 'Complexity Theory', 'Intractability', 'Computational Complexity']
 created: 2026-02-15
@@ -70,9 +70,9 @@ CIRCUIT-SAT → SAT → 3-CNF-SAT → CLIQUE
 
 ## 관련 개념
 
-- [Polynomial Time](/knowledge/algorithms/polynomial-time/) - P 클래스의 정의
-- [NP-Hard](/knowledge/algorithms/np-hard/) - NP-완전의 상위 개념
-- [Reduction](/knowledge/algorithms/reduction/) - NPC 증명의 핵심 도구
-- [P vs NP](/knowledge/algorithms/p-vs-np/) - 미해결 문제
-- [Satisfiability](/knowledge/algorithms/satisfiability/) - 최초의 NPC 문제
-- [Approximation Algorithm](/knowledge/algorithms/approximation-algorithm/) - NPC 문제에 대한 실용적 접근
+- [다항 시간 (Polynomial Time)](/knowledge/algorithms/polynomial-time/) - P 클래스의 정의
+- [NP-난해 (NP-Hard)](/knowledge/algorithms/np-hard/) - NP-완전의 상위 개념
+- [환원 (Reduction)](/knowledge/algorithms/reduction/) - NPC 증명의 핵심 도구
+- [P vs NP 문제](/knowledge/algorithms/p-vs-np/) - 미해결 문제
+- [충족 가능성 (Satisfiability)](/knowledge/algorithms/satisfiability/) - 최초의 NPC 문제
+- [근사 알고리즘 (Approximation Algorithm)](/knowledge/algorithms/approximation-algorithm/) - NPC 문제에 대한 실용적 접근

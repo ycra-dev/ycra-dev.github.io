@@ -5,7 +5,7 @@ tags: ["Security", "Cloud", "Computing", "AWS", "Infrastructure"]
 created: 2026-02-27
 updated: 2026-02-27
 draft: true
-slug: knowledge/distributed-systems/cloud-computing
+slug: knowledge/distributed-systems/cloud-computing-basics
 sidebar:
   order: 25
 ---
