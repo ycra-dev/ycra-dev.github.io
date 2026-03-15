@@ -1,5 +1,5 @@
 ---
-title: "Immutable ConfigMap and Secret"
+title: "불변 컨피그맵과 시크릿 (Immutable ConfigMap and Secret)"
 description: "Immutable ConfigMap과 Secret은 `immutable: true`로 설정되어 생성 후 데이터 변경이 불가능한 구성 오브젝트로, 설정의 일관성 보장과 클러스터 성능 향상을 위해 사용된다"
 tags: ['Kubernetes', 'Configmap', 'Secret', 'Immutability', 'Configuration']
 created: 2026-02-12
@@ -37,7 +37,7 @@ immutable: true
 
 ## 관련 개념
 
-- [ConfigMap](/knowledge/kubernetes/configmap/) - 기본 ConfigMap 개념
-- [Secret](/knowledge/kubernetes/secret/) - Secret에도 동일하게 적용
-- [API Server](/knowledge/kubernetes/api-server/) - 변경 차단을 수행하는 컴포넌트
+- [컨피그맵 (ConfigMap)](/knowledge/kubernetes/configmap/) - 기본 ConfigMap 개념
+- [시크릿 (Secret)](/knowledge/kubernetes/secret/) - Secret에도 동일하게 적용
+- [쿠버네티스 API 서버 (Kubernetes API Server)](/knowledge/kubernetes/api-server/) - 변경 차단을 수행하는 컴포넌트
 - [Kubelet](/knowledge/kubernetes/kubelet/) - immutable 설정 시 감시 부하 감소

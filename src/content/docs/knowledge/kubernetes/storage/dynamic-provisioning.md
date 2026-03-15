@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Provisioning"
+title: "동적 프로비저닝 (Dynamic Provisioning)"
 description: "Dynamic Provisioning은 PersistentVolumeClaim이 생성되면 StorageClass에 정의된 프로비저너가 자동으로 기반 스토리지와 PersistentVolume 오브젝트를 생성하는 메커니즘으로, 관리자가 PV를 수동으로 사전 프로비저닝..."
 tags: ['Kubernetes', 'Storage', 'Dynamic Provisioning', 'Automation', 'Pv']
 created: 2026-02-12
@@ -87,5 +87,5 @@ kubectl describe pvc quiz-data-default
 
 ## 관련 개념
 
-- [Reclaim Policy](/knowledge/kubernetes/reclaim-policy/) - 동적 프로비저닝된 PV의 기본 Delete 정책
-- [Volume Binding Mode](/knowledge/kubernetes/volume-binding-mode/) - 프로비저닝 시점을 제어하는 설정
+- [반환 정책 (Reclaim Policy)](/knowledge/kubernetes/reclaim-policy/) - 동적 프로비저닝된 PV의 기본 Delete 정책
+- [볼륨 바인딩 모드 (Volume Binding Mode)](/knowledge/kubernetes/volume-binding-mode/) - 프로비저닝 시점을 제어하는 설정

@@ -65,7 +65,7 @@ kubectl run kiada --image=luksa/kiada:0.1 --dry-run=client -o yaml > mypod.yaml
 ## 관련 개념
 
 - [kubectl](/knowledge/kubernetes/kubectl/) - apply 명령이 속한 CLI 도구
-- [Object Manifest](/knowledge/kubernetes/object-manifest/) - apply의 입력이 되는 오브젝트 정의 파일
-- [Declarative Model](/knowledge/kubernetes/declarative-model/) - Kubernetes의 선언적 관리 모델
-- [API Server](/knowledge/kubernetes/api-server/) - 매니페스트가 제출되는 대상
-- [Pod](/knowledge/kubernetes/pod/) - 가장 흔하게 apply되는 리소스 종류 중 하나
+- [오브젝트 매니페스트 (Object Manifest)](/knowledge/kubernetes/object-manifest/) - apply의 입력이 되는 오브젝트 정의 파일
+- [선언적 모델 (Declarative Model)](/knowledge/kubernetes/declarative-model/) - 쿠버네티스의 선언적 관리 모델
+- [쿠버네티스 API 서버 (Kubernetes API Server)](/knowledge/kubernetes/api-server/) - 매니페스트가 제출되는 대상
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 가장 흔하게 apply되는 리소스 종류 중 하나

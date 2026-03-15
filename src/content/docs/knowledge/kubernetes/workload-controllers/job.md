@@ -1,5 +1,5 @@
 ---
-title: "Job"
+title: "잡 (Job)"
 description: "Job은 유한(finite) 작업을 실행하기 위한 Kubernetes API 오브젝트로, 하나 이상의 Pod를 생성하여 작업을 완료까지 실행하며, Pod가 성공적으로 종료되면 Job이 완료된 것으로 간주한다"
 tags: ['Job', 'Finite Workload', 'Batch', 'Kubernetes']
 created: 2026-02-12
@@ -71,7 +71,7 @@ kubectl patch job demo-suspend -p '{"spec":{"suspend": true}}'
 
 ## 관련 개념
 
-- [CronJob](/knowledge/kubernetes/cronjob/) - Job을 스케줄에 따라 실행하는 래퍼 오브젝트
-- [Job Completions and Parallelism](/knowledge/kubernetes/job-completions-and-parallelism/) - 병렬 실행과 다중 완료 설정
-- [Job Failure Handling](/knowledge/kubernetes/job-failure-handling/) - 실패 처리 메커니즘
-- [Init Container](/knowledge/kubernetes/init-container/) - Job Pod에서 초기화 작업에 사용
+- [크론잡 (CronJob)](/knowledge/kubernetes/cronjob/) - Job을 스케줄에 따라 실행하는 래퍼 오브젝트
+- [잡 완료 횟수와 병렬성 (Job Completions and Parallelism)](/knowledge/kubernetes/job-completions-and-parallelism/) - 병렬 실행과 다중 완료 설정
+- [잡 실패 처리 (Job Failure Handling)](/knowledge/kubernetes/job-failure-handling/) - 실패 처리 메커니즘
+- [초기화 컨테이너 (Init Container)](/knowledge/kubernetes/init-container/) - Job Pod에서 초기화 작업에 사용

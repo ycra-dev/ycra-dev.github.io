@@ -1,5 +1,5 @@
 ---
-title: "Container Registry"
+title: "컨테이너 레지스트리 (Container Registry)"
 description: "컨테이너 레지스트리는 컨테이너 이미지를 저장하고 배포하기 위한 저장소(repository)이다"
 tags: ['Container', 'Registry', 'Docker Hub', 'Image Distribution']
 created: 2026-02-12
@@ -57,7 +57,7 @@ $ kubectl create deployment kiada --image=quay.io/luksa/kiada:0.1
 
 ## 관련 개념
 
-- [Container Image](/knowledge/kubernetes/container-image/) - 레지스트리에 저장되는 이미지
-- [Container](/knowledge/kubernetes/container/) - 레지스트리에서 pull한 이미지로 생성되는 실행 인스턴스
+- [컨테이너 이미지 (Container Image)](/knowledge/kubernetes/container-image/) - 레지스트리에 저장되는 이미지
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - 레지스트리에서 pull한 이미지로 생성되는 실행 인스턴스
 - [Dockerfile](/knowledge/kubernetes/dockerfile/) - 이미지를 빌드하는 명세 파일
-- [Deployment](/knowledge/kubernetes/deployment/) - Kubernetes에서 이미지를 지정하여 배포하는 객체
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - Kubernetes에서 이미지를 지정하여 배포하는 객체

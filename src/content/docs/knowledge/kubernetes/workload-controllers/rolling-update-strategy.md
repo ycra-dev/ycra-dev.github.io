@@ -1,5 +1,5 @@
 ---
-title: "RollingUpdate Strategy"
+title: "롤링 업데이트 전략 (RollingUpdate Strategy)"
 description: "RollingUpdate 전략은 Deployment의 기본 업데이트 전략으로, 기존 Pod를 점진적으로 제거하면서 동시에 새 Pod를 생성하여 서비스 중단 없이 업데이트를 수행하는 방식이다"
 tags: ['Deployment', 'Update Strategy', 'Rolling Update', 'Zero Downtime', 'Kubernetes']
 created: 2026-02-12
@@ -56,7 +56,7 @@ rollingUpdate:
 
 ## 관련 개념
 
-- [Deployment](/knowledge/kubernetes/deployment/) - RollingUpdate가 적용되는 오브젝트
-- [Recreate Strategy](/knowledge/kubernetes/recreate-strategy/) - 전체 교체 방식의 대안 전략
-- [Readiness Probe](/knowledge/kubernetes/readiness-probe/) - Pod가 ready인지 판단하는 기준
-- [Service](/knowledge/kubernetes/service/) - 업데이트 중 트래픽 분배를 담당
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - RollingUpdate가 적용되는 오브젝트
+- [Recreate 전략 (Recreate Strategy)](/knowledge/kubernetes/recreate-strategy/) - 전체 교체 방식의 대안 전략
+- [레디니스 프로브 (Readiness Probe)](/knowledge/kubernetes/readiness-probe/) - Pod가 ready인지 판단하는 기준
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 업데이트 중 트래픽 분배를 담당

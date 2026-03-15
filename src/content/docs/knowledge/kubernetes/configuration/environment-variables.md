@@ -1,5 +1,5 @@
 ---
-title: "Environment Variables in Kubernetes"
+title: "쿠버네티스 환경 변수 (Environment Variables in Kubernetes)"
 description: "Kubernetes에서 환경 변수는 파드 매니페스트의 `env` 또는 `envFrom` 필드를 통해 컨테이너에 설정되며, 리터럴 값, ConfigMap, Secret, Downward API 등 다양한 소스에서 값을 가져올 수 있다"
 tags: ['Kubernetes', 'Configuration', 'Environment Variables', 'Container']
 created: 2026-02-12
@@ -71,8 +71,8 @@ env:
 
 ## 관련 개념
 
-- [ConfigMap](/knowledge/kubernetes/configmap/) - 환경 변수 값의 외부 소스
-- [Secret](/knowledge/kubernetes/secret/) - 민감한 환경 변수의 소스
+- [컨피그맵 (ConfigMap)](/knowledge/kubernetes/configmap/) - 환경 변수 값의 외부 소스
+- [시크릿 (Secret)](/knowledge/kubernetes/secret/) - 민감한 환경 변수의 소스
 - [Downward API](/knowledge/kubernetes/downward-api/) - 파드 메타데이터를 환경 변수로 주입
-- [Container](/knowledge/kubernetes/container/) - 환경 변수가 설정되는 단위
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - 환경 변수가 설정되는 단위
 - [Dockerfile](/knowledge/kubernetes/dockerfile/) - 이미지에서 ENV로 기본값 정의

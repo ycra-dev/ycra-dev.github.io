@@ -1,5 +1,5 @@
 ---
-title: "Secret"
+title: "시크릿 (Secret)"
 description: "Secret은 비밀번호, TLS 인증서, 암호화 키 등 민감한 데이터를 저장하기 위한 Kubernetes API 오브젝트로, ConfigMap과 유사하지만 보안에 특화된 처리 방식을 갖는다"
 tags: ['Kubernetes', 'Configuration', 'Secret', 'Security']
 created: 2026-02-12
@@ -63,7 +63,7 @@ stringData:
 
 ## 관련 개념
 
-- [ConfigMap](/knowledge/kubernetes/configmap/) - 비민감 데이터를 위한 유사 오브젝트
-- [Projected Volume](/knowledge/kubernetes/projected-volume/) - Secret과 ConfigMap을 하나의 볼륨으로 결합
-- [Volume](/knowledge/kubernetes/volume/) - Secret 볼륨의 기반 개념
-- [Container Image](/knowledge/kubernetes/container-image/) - 이미지에 민감 데이터를 넣지 말아야 하는 이유
+- [컨피그맵 (ConfigMap)](/knowledge/kubernetes/configmap/) - 비민감 데이터를 위한 유사 오브젝트
+- [프로젝티드 볼륨 (Projected Volume)](/knowledge/kubernetes/projected-volume/) - Secret과 ConfigMap을 하나의 볼륨으로 결합
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - Secret 볼륨의 기반 개념
+- [컨테이너 이미지 (Container Image)](/knowledge/kubernetes/container-image/) - 이미지에 민감 데이터를 넣지 말아야 하는 이유

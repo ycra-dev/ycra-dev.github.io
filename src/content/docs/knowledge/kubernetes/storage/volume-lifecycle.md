@@ -1,5 +1,5 @@
 ---
-title: "Volume Lifecycle"
+title: "볼륨 라이프사이클 (Volume Lifecycle)"
 description: "Volume Lifecycle은 Kubernetes에서 볼륨이 생성, 마운트, 언마운트, 삭제되는 전체 수명 주기를 말하며, 볼륨 유형에 따라 Pod 수준에서 관리되거나 Pod의 수명을 넘어 독립적으로 존재할 수 있다"
 tags: ['Kubernetes', 'Storage', 'Volume', 'Lifecycle', 'Persistence']
 created: 2026-02-12
@@ -75,8 +75,8 @@ kubectl exec -it quiz -c mongo -- mongo kiada --quiet --eval "db.questions.count
 
 ## 관련 개념
 
-- [Volume](/knowledge/kubernetes/volume/) - 수명 주기가 관리되는 스토리지 단위
-- [emptyDir Volume](/knowledge/kubernetes/emptydir-volume/) - Pod 수명에 종속되는 대표적 볼륨
-- [Network Storage Volume](/knowledge/kubernetes/network-storage-volume/) - Pod 수명과 독립적인 외부 스토리지
-- [Container Filesystem](/knowledge/kubernetes/container-filesystem/) - 볼륨과 대비되는 컨테이너의 임시 파일 시스템
-- [Pod](/knowledge/kubernetes/pod/) - 볼륨의 직접적인 소유자
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - 수명 주기가 관리되는 스토리지 단위
+- [emptyDir 볼륨 (emptyDir Volume)](/knowledge/kubernetes/emptydir-volume/) - Pod 수명에 종속되는 대표적 볼륨
+- [네트워크 스토리지 볼륨 (Network Storage Volume)](/knowledge/kubernetes/network-storage-volume/) - Pod 수명과 독립적인 외부 스토리지
+- [컨테이너 파일시스템 (Container Filesystem)](/knowledge/kubernetes/container-filesystem/) - 볼륨과 대비되는 컨테이너의 임시 파일 시스템
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 볼륨의 직접적인 소유자

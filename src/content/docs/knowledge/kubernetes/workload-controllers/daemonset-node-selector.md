@@ -1,5 +1,5 @@
 ---
-title: "DaemonSet Node Selector"
+title: "데몬셋 노드 셀렉터 (DaemonSet Node Selector)"
 description: "DaemonSet의 Node Selector는 Pod 템플릿의 `nodeSelector` 필드를 사용하여 특정 레이블을 가진 노드에만 daemon Pod를 배포하도록 제한하는 기능으로, 특수 하드웨어를 가진 노드나 특정 역할의 노드에만 에이전트를 배포할 때 사용한다"
 tags: ['Daemonset', 'Node Selector', 'Label', 'Scheduling', 'Kubernetes']
 created: 2026-02-12
@@ -71,6 +71,6 @@ kubectl patch ds demo --type='json' \
 
 ## 관련 개념
 
-- [DaemonSet](/knowledge/kubernetes/daemonset/) - Node Selector가 적용되는 오브젝트
-- [Label](/knowledge/kubernetes/label/) - 노드 필터링에 사용되는 메커니즘
-- [Scheduler](/knowledge/kubernetes/scheduler/) - DaemonSet Pod의 실제 스케줄링을 수행
+- [데몬셋 (DaemonSet)](/knowledge/kubernetes/daemonset/) - Node Selector가 적용되는 오브젝트
+- [레이블 (Label)](/knowledge/kubernetes/label/) - 노드 필터링에 사용되는 메커니즘
+- [쿠버네티스 스케줄러 (Kubernetes Scheduler)](/knowledge/kubernetes/scheduler/) - DaemonSet Pod의 실제 스케줄링을 수행

@@ -1,5 +1,5 @@
 ---
-title: "Restart Policy"
+title: "재시작 정책 (Restart Policy)"
 description: "Restart Policy는 Pod 수준에서 설정되는 컨테이너 재시작 정책으로, 컨테이너가 종료될 때 자동으로 재시작할지 여부와 조건을 결정한다"
 tags: ['Kubernetes', 'Pod', 'Restart', 'Container', 'Lifecycle', 'Resilience']
 created: 2026-02-12
@@ -70,8 +70,8 @@ kubectl get po kiada-ssl -o json | jq .status.containerStatuses
 
 ## 관련 개념
 
-- [Pod](/knowledge/kubernetes/pod/) - 재시작 정책이 설정되는 리소스
-- [Liveness Probe](/knowledge/kubernetes/liveness-probe/) - 프로브 실패 시 재시작 정책에 따라 동작
-- [Startup Probe](/knowledge/kubernetes/startup-probe/) - 시작 프로브 실패도 재시작 정책의 영향을 받음
-- [Termination Grace Period](/knowledge/kubernetes/termination-grace-period/) - 재시작 전 컨테이너 종료 과정
-- [Job](/knowledge/kubernetes/job/) - OnFailure/Never 정책을 주로 사용하는 워크로드
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 재시작 정책이 설정되는 리소스
+- [라이브니스 프로브 (Liveness Probe)](/knowledge/kubernetes/liveness-probe/) - 프로브 실패 시 재시작 정책에 따라 동작
+- [스타트업 프로브 (Startup Probe)](/knowledge/kubernetes/startup-probe/) - 시작 프로브 실패도 재시작 정책의 영향을 받음
+- [종료 유예 기간 (Termination Grace Period)](/knowledge/kubernetes/termination-grace-period/) - 재시작 전 컨테이너 종료 과정
+- [잡 (Job)](/knowledge/kubernetes/job/) - OnFailure/Never 정책을 주로 사용하는 워크로드

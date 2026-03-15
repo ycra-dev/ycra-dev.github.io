@@ -1,5 +1,5 @@
 ---
-title: "IngressClass"
+title: "인그레스클래스 (IngressClass)"
 description: "IngressClass는 Ingress 오브젝트가 어떤 Ingress Controller에 의해 처리되어야 하는지를 지정하는 Kubernetes API 오브젝트로, 클러스터에 여러 Ingress Controller가 설치된 경우 라우팅을 분류하는 데 사용된다"
 tags: ['Kubernetes', 'Ingressclass', 'Ingress Controller', 'Networking']
 created: 2026-02-12
@@ -75,6 +75,6 @@ spec:
 
 ## 관련 개념
 
-- [Ingress](/knowledge/kubernetes/ingress/) - IngressClass를 참조하는 오브젝트
-- [Ingress Controller](/knowledge/kubernetes/ingress-controller/) - IngressClass가 지정하는 대상
-- [Annotation](/knowledge/kubernetes/annotation/) - 폐지된 이전 방식의 Controller 지정 방법
+- [인그레스 (Ingress)](/knowledge/kubernetes/ingress/) - IngressClass를 참조하는 오브젝트
+- [인그레스 컨트롤러 (Ingress Controller)](/knowledge/kubernetes/ingress-controller/) - IngressClass가 지정하는 대상
+- [어노테이션 (Annotation)](/knowledge/kubernetes/annotation/) - 폐지된 이전 방식의 Controller 지정 방법

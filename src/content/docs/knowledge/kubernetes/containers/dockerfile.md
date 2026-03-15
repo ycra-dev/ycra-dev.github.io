@@ -62,7 +62,7 @@ b0ecc49d7a1d  7 min ago   ENTRYPOINT ["node", "app.js"]         0B
 
 ## 관련 개념
 
-- [Container Image](/knowledge/kubernetes/container-image/) - Dockerfile로 빌드되는 이미지
-- [Image Layer](/knowledge/kubernetes/image-layer/) - Dockerfile의 각 지시어로 생성되는 레이어
-- [Container Registry](/knowledge/kubernetes/container-registry/) - 빌드된 이미지가 배포되는 저장소
+- [컨테이너 이미지 (Container Image)](/knowledge/kubernetes/container-image/) - Dockerfile로 빌드되는 이미지
+- [이미지 레이어 (Image Layer)](/knowledge/kubernetes/image-layer/) - Dockerfile의 각 지시어로 생성되는 레이어
+- [컨테이너 레지스트리 (Container Registry)](/knowledge/kubernetes/container-registry/) - 빌드된 이미지가 배포되는 저장소
 - [Copy-on-Write](/knowledge/kubernetes/copy-on-write/) - 이미지 레이어의 CoW 메커니즘

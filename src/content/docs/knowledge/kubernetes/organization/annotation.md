@@ -1,5 +1,5 @@
 ---
-title: "Annotation"
+title: "어노테이션 (Annotation)"
 description: "Annotation은 Kubernetes 오브젝트에 부착하는 키-값 쌍으로, 레이블과 달리 비식별 메타데이터를 저장하며 오브젝트 필터링에는 사용할 수 없지만 최대 256KB의 임의 문자열을 저장할 수 있다"
 tags: ['Kubernetes', 'Annotation', 'Metadata', 'Non Identifying']
 created: 2026-02-12
@@ -60,7 +60,7 @@ kubectl get pod pod-with-annotations -o json | jq .metadata.annotations
 
 ## 관련 개념
 
-- [Label](/knowledge/kubernetes/label/) - 식별용 메타데이터 (Annotation과 대비)
-- [Label Selector](/knowledge/kubernetes/label-selector/) - Annotation은 셀렉터로 필터링 불가
-- [Ingress Controller](/knowledge/kubernetes/ingress-controller/) - Annotation으로 추가 설정 전달
-- [Controller](/knowledge/kubernetes/controller/) - 내부 메타데이터 저장에 Annotation 활용
+- [레이블 (Label)](/knowledge/kubernetes/label/) - 식별용 메타데이터 (Annotation과 대비)
+- [레이블 셀렉터 (Label Selector)](/knowledge/kubernetes/label-selector/) - Annotation은 셀렉터로 필터링 불가
+- [인그레스 컨트롤러 (Ingress Controller)](/knowledge/kubernetes/ingress-controller/) - Annotation으로 추가 설정 전달
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - 내부 메타데이터 저장에 Annotation 활용

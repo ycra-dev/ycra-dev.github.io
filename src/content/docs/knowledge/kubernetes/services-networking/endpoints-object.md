@@ -1,5 +1,5 @@
 ---
-title: "Endpoints Object"
+title: "엔드포인트 오브젝트 (Endpoints Object)"
 description: "Endpoints 오브젝트는 서비스의 백엔드 파드 IP와 포트 목록을 저장하는 Kubernetes API 오브젝트로, 서비스와 동일한 이름을 가지며 레이블 셀렉터에 매칭되는 파드가 변경될 때 자동으로 업데이트된다"
 tags: ['Kubernetes', 'Endpoints', 'Endpointslice', 'Service', 'Networking']
 created: 2026-02-12
@@ -58,7 +58,7 @@ kiada-m24zq   IPv4          8080,8443   10.244.1.7,10.244.1.8,...
 
 ## 관련 개념
 
-- [Service](/knowledge/kubernetes/service/) - Endpoints 오브젝트가 연결되는 서비스
-- [Readiness Probe](/knowledge/kubernetes/readiness-probe/) - 프로브 결과에 따라 엔드포인트 포함 여부 결정
-- [Label Selector](/knowledge/kubernetes/label-selector/) - 서비스의 셀렉터가 엔드포인트를 결정
+- [서비스 (Service)](/knowledge/kubernetes/service/) - Endpoints 오브젝트가 연결되는 서비스
+- [레디니스 프로브 (Readiness Probe)](/knowledge/kubernetes/readiness-probe/) - 프로브 결과에 따라 엔드포인트 포함 여부 결정
+- [레이블 셀렉터 (Label Selector)](/knowledge/kubernetes/label-selector/) - 서비스의 셀렉터가 엔드포인트를 결정
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - Endpoints 변경을 감지하여 네트워크 규칙 업데이트

@@ -1,5 +1,5 @@
 ---
-title: "Access Modes"
+title: "접근 모드 (Access Modes)"
 description: "Access Modes는 PersistentVolume이 워커 노드에 연결(attach)될 수 있는 방식을 정의하며, 동시에 몇 개의 노드에서 읽기/쓰기가 가능한지를 제어한다"
 tags: ['Kubernetes', 'Storage', 'Access Modes', 'Persistent Volume', 'Multi Node']
 created: 2026-02-12
@@ -94,6 +94,6 @@ kubectl get pvc
 
 ## 관련 개념
 
-- [Network Storage Volume](/knowledge/kubernetes/network-storage-volume/) - 접근 모드가 스토리지 기술에 따라 제한됨
-- [StatefulSet](/knowledge/kubernetes/statefulset/) - 각 Pod가 고유한 PV를 갖는 워크로드
-- [Volume Mount](/knowledge/kubernetes/volume-mount/) - 실제 읽기/쓰기 모드를 설정하는 마운트 옵션
+- [네트워크 스토리지 볼륨 (Network Storage Volume)](/knowledge/kubernetes/network-storage-volume/) - 접근 모드가 스토리지 기술에 따라 제한됨
+- [스테이트풀셋 (StatefulSet)](/knowledge/kubernetes/statefulset/) - 각 Pod가 고유한 PV를 갖는 워크로드
+- [볼륨 마운트 (Volume Mount)](/knowledge/kubernetes/volume-mount/) - 실제 읽기/쓰기 모드를 설정하는 마운트 옵션

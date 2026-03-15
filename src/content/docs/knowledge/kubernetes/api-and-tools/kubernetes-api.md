@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes API"
+title: "쿠버네티스 API (Kubernetes API)"
 description: "Kubernetes API는 클러스터와 상호작용하기 위한 HTTP 기반 RESTful API이다"
 tags: ['Kubernetes', 'API', 'Restful', 'HTTP', 'Crud']
 created: 2026-02-12
@@ -77,7 +77,7 @@ API 리소스 구조:
 
 ## 관련 개념
 
-- [Object Manifest](/knowledge/kubernetes/object-manifest/) - API 객체의 YAML/JSON 표현
+- [오브젝트 매니페스트 (Object Manifest)](/knowledge/kubernetes/object-manifest/) - API 객체의 YAML/JSON 표현
 - [kubectl](/knowledge/kubernetes/kubectl/) - API와 상호작용하는 CLI 도구
-- [Spec and Status](/knowledge/kubernetes/spec-and-status/) - API 객체의 핵심 구조
-- [Controller](/knowledge/kubernetes/controller/) - API를 통해 객체를 관리하는 컴포넌트
+- [스펙과 상태 (Spec and Status)](/knowledge/kubernetes/spec-and-status/) - API 객체의 핵심 구조
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - API를 통해 객체를 관리하는 컴포넌트

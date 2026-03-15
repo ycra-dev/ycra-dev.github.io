@@ -54,6 +54,6 @@ kubeconfig: Configured
 
 ## 관련 개념
 
-- [Workload Plane](/knowledge/kubernetes/workload-plane/) - Kubelet이 실행되는 워커 노드 영역
-- [Container Runtime Interface](/knowledge/kubernetes/container-runtime-interface/) - Kubelet이 컨테이너 실행을 위해 사용하는 인터페이스
-- [Pod](/knowledge/kubernetes/pod/) - Kubelet이 관리하는 기본 단위
+- [워크로드 플레인 (Workload Plane)](/knowledge/kubernetes/workload-plane/) - Kubelet이 실행되는 워커 노드 영역
+- [컨테이너 런타임 인터페이스 (Container Runtime Interface)](/knowledge/kubernetes/container-runtime-interface/) - Kubelet이 컨테이너 실행을 위해 사용하는 인터페이스
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - Kubelet이 관리하는 기본 단위

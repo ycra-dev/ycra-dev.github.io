@@ -1,5 +1,5 @@
 ---
-title: "ReplicaSet"
+title: "레플리카셋 (ReplicaSet)"
 description: "ReplicaSet은 동일한 Pod 복제본(replica) 그룹을 나타내는 Kubernetes API 오브젝트로, Pod 템플릿과 원하는 복제본 수, 레이블 셀렉터를 지정하여 Pod를 자동으로 생성하고 관리한다"
 tags: ['Replicaset', 'Kubernetes', 'Workload', 'Pod Management']
 created: 2026-02-12
@@ -52,7 +52,7 @@ kubectl get rs -o wide  # 컨테이너, 이미지, 셀렉터 정보 표시
 
 ## 관련 개념
 
-- [Pod](/knowledge/kubernetes/pod/) - ReplicaSet이 관리하는 기본 단위
-- [Deployment](/knowledge/kubernetes/deployment/) - ReplicaSet 위에 업데이트 기능을 추가한 상위 오브젝트
-- [Label](/knowledge/kubernetes/label/) - ReplicaSet의 셀렉터가 사용하는 메커니즘
-- [Controller](/knowledge/kubernetes/controller/) - ReplicaSet 컨트롤러가 조정 루프를 실행
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - ReplicaSet이 관리하는 기본 단위
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - ReplicaSet 위에 업데이트 기능을 추가한 상위 오브젝트
+- [레이블 (Label)](/knowledge/kubernetes/label/) - ReplicaSet의 셀렉터가 사용하는 메커니즘
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - ReplicaSet 컨트롤러가 조정 루프를 실행

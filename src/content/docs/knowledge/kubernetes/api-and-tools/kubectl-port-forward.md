@@ -60,8 +60,8 @@ kubectl port-forward quote-poststart 1080:80
 ## 관련 개념
 
 - [kubectl](/knowledge/kubernetes/kubectl/) - port-forward가 속한 CLI 도구
-- [Pod](/knowledge/kubernetes/pod/) - 포트 포워딩의 대상이 되는 리소스
-- [Service](/knowledge/kubernetes/service/) - 프로덕션 환경에서의 Pod 접근 방법
-- [API Server](/knowledge/kubernetes/api-server/) - 포트 포워딩 통신 경로의 중간 구성 요소
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 포트 포워딩의 대상이 되는 리소스
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 프로덕션 환경에서의 Pod 접근 방법
+- [쿠버네티스 API 서버 (Kubernetes API Server)](/knowledge/kubernetes/api-server/) - 포트 포워딩 통신 경로의 중간 구성 요소
 - [Kubelet](/knowledge/kubernetes/kubelet/) - 노드에서 Pod로의 연결을 중계하는 에이전트
-- [Pod Networking](/knowledge/kubernetes/pod-networking/) - Pod의 네트워크 통신 구조
+- [파드 네트워킹 (Pod Networking)](/knowledge/kubernetes/pod-networking/) - Pod의 네트워크 통신 구조

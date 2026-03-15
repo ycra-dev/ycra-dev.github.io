@@ -1,5 +1,5 @@
 ---
-title: "Service DNS Discovery"
+title: "서비스 DNS 디스커버리 (Service DNS Discovery)"
 description: "Service DNS Discovery는 클러스터 내부 DNS(보통 CoreDNS)를 통해 서비스 이름을 IP 주소로 해석하는 메커니즘으로, 파드가 서비스의 클러스터 IP를 직접 알 필요 없이 이름만으로 접근할 수 있게 한다"
 tags: ['Kubernetes', 'Service', 'DNS', 'Discovery', 'Coredns']
 created: 2026-02-12
@@ -66,7 +66,7 @@ QUIZ_PORT=tcp://10.96.136.190:80
 
 ## 관련 개념
 
-- [ClusterIP Service](/knowledge/kubernetes/clusterip-service/) - DNS로 해석되는 서비스 타입
-- [Headless Service](/knowledge/kubernetes/headless-service/) - 파드 IP를 직접 반환하는 특수 DNS 동작
-- [Service](/knowledge/kubernetes/service/) - DNS 디스커버리의 기반 오브젝트
-- [Pod](/knowledge/kubernetes/pod/) - DNS를 사용하여 서비스를 찾는 주체
+- [클러스터IP 서비스 (ClusterIP Service)](/knowledge/kubernetes/clusterip-service/) - DNS로 해석되는 서비스 타입
+- [헤드리스 서비스 (Headless Service)](/knowledge/kubernetes/headless-service/) - 파드 IP를 직접 반환하는 특수 DNS 동작
+- [서비스 (Service)](/knowledge/kubernetes/service/) - DNS 디스커버리의 기반 오브젝트
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - DNS를 사용하여 서비스를 찾는 주체

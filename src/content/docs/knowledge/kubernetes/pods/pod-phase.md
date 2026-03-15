@@ -1,5 +1,5 @@
 ---
-title: "Pod Phase"
+title: "파드 페이즈 (Pod Phase)"
 description: "Pod Phase는 Pod의 생명 주기에서 현재 위치를 나타내는 상위 수준의 상태 정보로, Pending, Running, Succeeded, Failed, Unknown 중 하나의 값을 가진다"
 tags: ['Kubernetes', 'Pod', 'Lifecycle', 'Status']
 created: 2026-02-12
@@ -55,8 +55,8 @@ kiada   1/1     Running   0          40m
 
 ## 관련 개념
 
-- [Pod](/knowledge/kubernetes/pod/) - Phase가 속하는 기본 리소스
-- [Pod Conditions](/knowledge/kubernetes/pod-conditions/) - Phase보다 더 상세한 Pod 상태 정보
-- [Spec and Status](/knowledge/kubernetes/spec-and-status/) - Phase가 포함된 오브젝트의 상태 섹션
-- [Scheduler](/knowledge/kubernetes/scheduler/) - Pending에서 Running으로의 전환을 담당
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - Phase가 속하는 기본 리소스
+- [파드 컨디션 (Pod Conditions)](/knowledge/kubernetes/pod-conditions/) - Phase보다 더 상세한 Pod 상태 정보
+- [스펙과 상태 (Spec and Status)](/knowledge/kubernetes/spec-and-status/) - Phase가 포함된 오브젝트의 상태 섹션
+- [쿠버네티스 스케줄러 (Kubernetes Scheduler)](/knowledge/kubernetes/scheduler/) - Pending에서 Running으로의 전환을 담당
 - [Kubelet](/knowledge/kubernetes/kubelet/) - Pod 상태를 API 서버에 보고하는 에이전트

@@ -1,5 +1,5 @@
 ---
-title: "Linux Namespaces"
+title: "리눅스 네임스페이스 (Linux Namespaces)"
 description: "Linux Namespaces는 각 프로세스가 시스템의 독립적인 뷰(view)를 갖도록 보장하는 Linux 커널 기능이다"
 tags: ['Linux', 'Namespaces', 'Container', 'Isolation', 'Kernel']
 created: 2026-02-12
@@ -69,7 +69,7 @@ PID   COMMAND
 
 ## 관련 개념
 
-- [Container](/knowledge/kubernetes/container/) - Namespaces를 통해 격리되는 프로세스
-- [Cgroups](/knowledge/kubernetes/cgroups/) - Namespaces와 함께 컨테이너를 구성하는 커널 기능
-- [Pod](/knowledge/kubernetes/pod/) - 같은 Pod의 컨테이너가 일부 Namespaces를 공유
-- [Seccomp](/knowledge/kubernetes/seccomp/) - 시스템 콜 수준의 추가 격리
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - Namespaces를 통해 격리되는 프로세스
+- [Cgroups (컨트롤 그룹)](/knowledge/kubernetes/cgroups/) - Namespaces와 함께 컨테이너를 구성하는 커널 기능
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 같은 Pod의 컨테이너가 일부 Namespaces를 공유
+- [Seccomp (보안 컴퓨팅 모드)](/knowledge/kubernetes/seccomp/) - 시스템 콜 수준의 추가 격리

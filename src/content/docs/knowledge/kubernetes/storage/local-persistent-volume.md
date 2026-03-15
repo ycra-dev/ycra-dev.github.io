@@ -1,5 +1,5 @@
 ---
-title: "Local Persistent Volume"
+title: "로컬 퍼시스턴트볼륨 (Local Persistent Volume)"
 description: "Local Persistent Volume은 워커 노드에 직접 연결된 디스크(SSD 등)를 PersistentVolume으로 노출하는 방식으로, hostPath 볼륨보다 안전하며 스케줄러가 Pod를 해당 볼륨이 있는 노드에 자동으로 배치한다"
 tags: ['Kubernetes', 'Storage', 'Local Volume', 'Persistent Volume', 'Node Affinity']
 created: 2026-02-12
@@ -106,7 +106,7 @@ spec:
 
 ## 관련 개념
 
-- [Volume Binding Mode](/knowledge/kubernetes/volume-binding-mode/) - WaitForFirstConsumer 모드가 필수인 이유
-- [hostPath Volume](/knowledge/kubernetes/hostpath-volume/) - Local PV와 비교되는 덜 안전한 대안
-- [StatefulSet](/knowledge/kubernetes/statefulset/) - 로컬 PV를 주로 사용하는 상태 저장 워크로드
-- [Scheduler](/knowledge/kubernetes/scheduler/) - 노드 어피니티를 기반으로 Pod를 배치
+- [볼륨 바인딩 모드 (Volume Binding Mode)](/knowledge/kubernetes/volume-binding-mode/) - WaitForFirstConsumer 모드가 필수인 이유
+- [hostPath 볼륨 (hostPath Volume)](/knowledge/kubernetes/hostpath-volume/) - Local PV와 비교되는 덜 안전한 대안
+- [스테이트풀셋 (StatefulSet)](/knowledge/kubernetes/statefulset/) - 로컬 PV를 주로 사용하는 상태 저장 워크로드
+- [쿠버네티스 스케줄러 (Kubernetes Scheduler)](/knowledge/kubernetes/scheduler/) - 노드 어피니티를 기반으로 Pod를 배치

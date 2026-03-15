@@ -1,5 +1,5 @@
 ---
-title: "Job Failure Handling"
+title: "잡 실패 처리 (Job Failure Handling)"
 description: "Job의 실패 처리는 Pod 수준(restartPolicy에 의한 컨테이너 재시작)과 Job 수준(Job 컨트롤러에 의한 새 Pod 생성)의 두 단계로 이루어지며, `backoffLimit`과 `activeDeadlineSeconds`로 무한 실패를 방지한다"
 tags: ['Job', 'Failure Handling', 'Backoff Limit', 'Restart Policy', 'Kubernetes']
 created: 2026-02-12
@@ -83,6 +83,6 @@ restartPolicy에 따른 Pod 상태 차이:
 
 ## 관련 개념
 
-- [Job](/knowledge/kubernetes/job/) - 실패 처리가 적용되는 오브젝트
-- [Liveness Probe](/knowledge/kubernetes/liveness-probe/) - 컨테이너 수준의 건강 확인
-- [Job Completions and Parallelism](/knowledge/kubernetes/job-completions-and-parallelism/) - 실패가 completions에 미치는 영향
+- [잡 (Job)](/knowledge/kubernetes/job/) - 실패 처리가 적용되는 오브젝트
+- [라이브니스 프로브 (Liveness Probe)](/knowledge/kubernetes/liveness-probe/) - 컨테이너 수준의 건강 확인
+- [잡 완료 횟수와 병렬성 (Job Completions and Parallelism)](/knowledge/kubernetes/job-completions-and-parallelism/) - 실패가 completions에 미치는 영향

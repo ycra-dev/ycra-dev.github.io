@@ -1,5 +1,5 @@
 ---
-title: "Horizontal Scaling"
+title: "수평 확장 (Horizontal Scaling)"
 description: "수평 확장(Horizontal Scaling)은 애플리케이션의 인스턴스(복제본) 수를 늘리거나 줄여 시스템의 처리 용량을 조절하는 방식이다"
 tags: ['Kubernetes', 'Scaling', 'Horizontal', 'Autoscaling', 'Performance']
 created: 2026-02-12
@@ -76,7 +76,7 @@ Service                     Service
 
 ## 관련 개념
 
-- [Deployment](/knowledge/kubernetes/deployment/) - 수평 확장의 대상이 되는 객체
-- [Replica](/knowledge/kubernetes/replica/) - 수평 확장으로 관리되는 Pod 복제본
-- [Service](/knowledge/kubernetes/service/) - 확장된 복제본에 대한 로드 밸런싱
-- [Kubernetes](/knowledge/kubernetes/kubernetes/) - 수평 확장을 자동화하는 플랫폼
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - 수평 확장의 대상이 되는 객체
+- [레플리카 (Replica)](/knowledge/kubernetes/replica/) - 수평 확장으로 관리되는 Pod 복제본
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 확장된 복제본에 대한 로드 밸런싱
+- [쿠버네티스 (Kubernetes)](/knowledge/kubernetes/kubernetes/) - 수평 확장을 자동화하는 플랫폼

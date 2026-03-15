@@ -1,5 +1,5 @@
 ---
-title: "Pod Networking"
+title: "파드 네트워킹 (Pod Networking)"
 description: "Pod Networking은 Pod 내부 컨테이너 간 및 Pod 간의 네트워크 통신 구조를 말하며, 같은 Pod의 컨테이너들은 Network namespace를 공유하여 동일한 IP 주소와 포트 공간을 사용한다"
 tags: ['Kubernetes', 'Pod', 'Networking', 'Namespace', 'Network Model']
 created: 2026-02-12
@@ -59,8 +59,8 @@ Envoy (port 8443, HTTPS) --> localhost:8080 --> Node.js (HTTP)
 
 ## 관련 개념
 
-- [Pod](/knowledge/kubernetes/pod/) - 네트워크 namespace를 공유하는 컨테이너 그룹
-- [Linux Namespaces](/knowledge/kubernetes/linux-namespaces/) - Pod의 네트워크 격리를 구현하는 커널 기능
-- [Service](/knowledge/kubernetes/service/) - Pod에 안정적인 네트워크 엔드포인트를 제공
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 네트워크 namespace를 공유하는 컨테이너 그룹
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/kubernetes/linux-namespaces/) - Pod의 네트워크 격리를 구현하는 커널 기능
+- [서비스 (Service)](/knowledge/kubernetes/service/) - Pod에 안정적인 네트워크 엔드포인트를 제공
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - 서비스에서 Pod로의 트래픽 라우팅을 담당
 - [kubectl port-forward](/knowledge/kubernetes/kubectl-port-forward/) - 개발 중 Pod에 직접 접근하기 위한 도구

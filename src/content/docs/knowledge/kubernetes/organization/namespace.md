@@ -1,5 +1,5 @@
 ---
-title: "Namespace"
+title: "네임스페이스 (Namespace)"
 description: "Kubernetes Namespace는 하나의 물리적 클러스터를 여러 가상 클러스터로 분할하여, 서로 다른 팀이나 프로젝트의 오브젝트를 이름 충돌 없이 격리하여 관리할 수 있게 하는 메커니즘이다"
 tags: ['Kubernetes', 'Namespace', 'Organization', 'Multi Tenancy']
 created: 2026-02-12
@@ -65,8 +65,8 @@ kubectl delete ns kiada-test2
 
 ## 관련 개념
 
-- [Label](/knowledge/kubernetes/label/) - 네임스페이스 내에서 오브젝트를 더 세밀하게 조직화
-- [Label Selector](/knowledge/kubernetes/label-selector/) - 네임스페이스 내에서 오브젝트 필터링
+- [레이블 (Label)](/knowledge/kubernetes/label/) - 네임스페이스 내에서 오브젝트를 더 세밀하게 조직화
+- [레이블 셀렉터 (Label Selector)](/knowledge/kubernetes/label-selector/) - 네임스페이스 내에서 오브젝트 필터링
 - [kubectl](/knowledge/kubernetes/kubectl/) - 네임스페이스를 지정하는 다양한 명령어
-- [Linux Namespaces](/knowledge/kubernetes/linux-namespaces/) - 컨테이너 격리에 사용되는 다른 개념 (혼동 주의)
-- [Pod](/knowledge/kubernetes/pod/) - 네임스페이스에 속하는 대표적 오브젝트
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/kubernetes/linux-namespaces/) - 컨테이너 격리에 사용되는 다른 개념 (혼동 주의)
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 네임스페이스에 속하는 대표적 오브젝트

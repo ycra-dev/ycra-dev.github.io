@@ -1,5 +1,5 @@
 ---
-title: "StatefulSet"
+title: "스테이트풀셋 (StatefulSet)"
 description: "StatefulSet은 상태를 유지해야 하는(stateful) 워크로드를 위한 Kubernetes API 오브젝트로, 각 Pod에 고유한 정체성(이름, 네트워크 ID, 스토리지)을 부여하고, Pod가 재생성되어도 동일한 정체성과 영구 스토리지를 유지한다"
 tags: ['Statefulset', 'Stateful Workload', 'Kubernetes', 'Pets Vs Cattle']
 created: 2026-02-12
@@ -70,6 +70,6 @@ kubectl get pvc -l app=quiz  # 개별 PVC 확인
 
 ## 관련 개념
 
-- [Deployment](/knowledge/kubernetes/deployment/) - 무상태 워크로드를 위한 대안
-- [Headless Service for StatefulSet](/knowledge/kubernetes/headless-service-for-statefulset/) - StatefulSet에 네트워크 정체성을 부여
-- [Pod](/knowledge/kubernetes/pod/) - StatefulSet이 직접 소유하는 오브젝트
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - 무상태 워크로드를 위한 대안
+- [스테이트풀셋을 위한 헤드리스 서비스 (Headless Service for StatefulSet)](/knowledge/kubernetes/headless-service-for-statefulset/) - StatefulSet에 네트워크 정체성을 부여
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - StatefulSet이 직접 소유하는 오브젝트

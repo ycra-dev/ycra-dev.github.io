@@ -1,5 +1,5 @@
 ---
-title: "Service"
+title: "서비스 (Service)"
 description: "Kubernetes Service는 하나 이상의 Pod에 대한 단일 통신 진입점을 제공하는 API 객체이다"
 tags: ['Kubernetes', 'Service', 'Networking', 'Load Balancing', 'Discovery']
 created: 2026-02-12
@@ -65,8 +65,8 @@ Service 로드 밸런싱 구조:
 
 ## 관련 개념
 
-- [Pod](/knowledge/kubernetes/pod/) - Service가 트래픽을 라우팅하는 대상
-- [LoadBalancer Service](/knowledge/kubernetes/loadbalancer-service/) - 외부 로드 밸런서를 사용하는 Service 유형
-- [NodePort](/knowledge/kubernetes/nodeport-service/) - 노드 포트를 통한 외부 접근
-- [Deployment](/knowledge/kubernetes/deployment/) - Service가 expose하는 배포 객체
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - Service가 트래픽을 라우팅하는 대상
+- [로드밸런서 서비스 (LoadBalancer Service)](/knowledge/kubernetes/loadbalancer-service/) - 외부 로드 밸런서를 사용하는 Service 유형
+- [노드포트 서비스 (NodePort Service)](/knowledge/kubernetes/nodeport-service/) - 노드 포트를 통한 외부 접근
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - Service가 expose하는 배포 객체
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - Service의 로드 밸런싱 규칙을 설정하는 컴포넌트

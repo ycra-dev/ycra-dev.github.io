@@ -1,5 +1,5 @@
 ---
-title: "Container"
+title: "컨테이너 (Container)"
 description: "컨테이너는 호스트 운영체제 내에서 실행되는 격리된 프로세스이다"
 tags: ['Container', 'Linux', 'Process Isolation', 'Virtualization']
 created: 2026-02-12
@@ -60,8 +60,8 @@ root  382  node app.js    # 호스트에서는 PID 382
 
 ## 관련 개념
 
-- [Container Image](/knowledge/kubernetes/container-image/) - 컨테이너를 생성하는 이미지
-- [Linux Namespaces](/knowledge/kubernetes/linux-namespaces/) - 컨테이너 격리를 위한 커널 기능
-- [Cgroups](/knowledge/kubernetes/cgroups/) - 컨테이너 리소스 제한을 위한 커널 기능
-- [Container Runtime Interface](/knowledge/kubernetes/container-runtime-interface/) - Kubernetes와 컨테이너 런타임 간의 인터페이스
-- [Pod](/knowledge/kubernetes/pod/) - Kubernetes에서 컨테이너를 묶어 관리하는 단위
+- [컨테이너 이미지 (Container Image)](/knowledge/kubernetes/container-image/) - 컨테이너를 생성하는 이미지
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/kubernetes/linux-namespaces/) - 컨테이너 격리를 위한 커널 기능
+- [Cgroups (컨트롤 그룹)](/knowledge/kubernetes/cgroups/) - 컨테이너 리소스 제한을 위한 커널 기능
+- [컨테이너 런타임 인터페이스 (Container Runtime Interface)](/knowledge/kubernetes/container-runtime-interface/) - Kubernetes와 컨테이너 런타임 간의 인터페이스
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - Kubernetes에서 컨테이너를 묶어 관리하는 단위

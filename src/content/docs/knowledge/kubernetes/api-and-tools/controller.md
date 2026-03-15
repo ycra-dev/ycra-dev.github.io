@@ -1,5 +1,5 @@
 ---
-title: "Controller"
+title: "컨트롤러 (Controller)"
 description: "Controller(컨트롤러)는 Kubernetes Control Plane에서 실행되며 API 객체를 관찰하고, 객체의 Spec에 기술된 원하는 상태를 실현하기 위한 작업을 수행하고, 실제 상태를 Status에 보고하는 컴포넌트이다"
 tags: ['Kubernetes', 'Controller', 'Reconciliation', 'Control Loop', 'Automation']
 created: 2026-02-12
@@ -69,9 +69,9 @@ LAST SEEN  TYPE    REASON     OBJECT           MESSAGE
 
 ## 관련 개념
 
-- [Spec and Status](/knowledge/kubernetes/spec-and-status/) - 컨트롤러가 읽고 쓰는 객체의 핵심 섹션
-- [Declarative Model](/knowledge/kubernetes/declarative-model/) - 컨트롤러가 실현하는 선언적 패턴
-- [Control Plane](/knowledge/kubernetes/control-plane/) - 컨트롤러가 실행되는 영역
-- [Event Object](/knowledge/kubernetes/event-object/) - 컨트롤러가 작업 수행 시 생성하는 이벤트
-- [Deployment](/knowledge/kubernetes/deployment/) - Deployment Controller가 관리하는 객체
+- [스펙과 상태 (Spec and Status)](/knowledge/kubernetes/spec-and-status/) - 컨트롤러가 읽고 쓰는 객체의 핵심 섹션
+- [선언적 모델 (Declarative Model)](/knowledge/kubernetes/declarative-model/) - 컨트롤러가 실현하는 선언적 패턴
+- [컨트롤 플레인 (Control Plane)](/knowledge/kubernetes/control-plane/) - 컨트롤러가 실행되는 영역
+- [이벤트 객체 (Event Object)](/knowledge/kubernetes/event-object/) - 컨트롤러가 작업 수행 시 생성하는 이벤트
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - Deployment Controller가 관리하는 객체
 - [Kubelet](/knowledge/kubernetes/kubelet/) - 워커 노드에서 실행되는 컨트롤러

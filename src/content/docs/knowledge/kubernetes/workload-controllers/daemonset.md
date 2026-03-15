@@ -1,5 +1,5 @@
 ---
-title: "DaemonSet"
+title: "데몬셋 (DaemonSet)"
 description: "DaemonSet은 클러스터의 각 노드(또는 선택된 노드 집합)에 정확히 하나의 Pod 복제본을 실행하도록 보장하는 Kubernetes API 오브젝트로, 로그 수집, 모니터링, 네트워크 관리 등 노드 수준 시스템 서비스를 배포하는 데 사용된다"
 tags: ['Daemonset', 'Node Agent', 'Daemon', 'Kubernetes']
 created: 2026-02-12
@@ -71,8 +71,8 @@ kubectl get pods -l app=demo -o wide  # Pod와 노드 매핑 확인
 
 ## 관련 개념
 
-- [Deployment](/knowledge/kubernetes/deployment/) - 복제본 수를 지정하는 다른 방식
-- [ReplicaSet](/knowledge/kubernetes/replicaset/) - Pod 배포 방식의 차이 (scatter vs per-node)
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - 복제본 수를 지정하는 다른 방식
+- [레플리카셋 (ReplicaSet)](/knowledge/kubernetes/replicaset/) - Pod 배포 방식의 차이 (scatter vs per-node)
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - DaemonSet으로 배포되는 대표 시스템 서비스
 - [Kubelet](/knowledge/kubernetes/kubelet/) - 노드에서 DaemonSet Pod를 실행하는 에이전트
-- [DaemonSet Node Selector](/knowledge/kubernetes/daemonset-node-selector/) - 노드 선택 기능
+- [데몬셋 노드 셀렉터 (DaemonSet Node Selector)](/knowledge/kubernetes/daemonset-node-selector/) - 노드 선택 기능

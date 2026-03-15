@@ -1,5 +1,5 @@
 ---
-title: "Projected Volume"
+title: "프로젝티드 볼륨 (Projected Volume)"
 description: "Projected Volume은 여러 소스(ConfigMap, Secret, Downward API, ServiceAccountToken)의 데이터를 하나의 볼륨으로 결합하여 단일 디렉터리에 마운트할 수 있게 하는 Kubernetes 볼륨 타입이다"
 tags: ['Kubernetes', 'Volume', 'Projected Volume', 'Configuration']
 created: 2026-02-12
@@ -49,8 +49,8 @@ spec:
 
 ## 관련 개념
 
-- [ConfigMap](/knowledge/kubernetes/configmap/) - Projected Volume의 소스 중 하나
-- [Secret](/knowledge/kubernetes/secret/) - Projected Volume의 소스 중 하나
+- [컨피그맵 (ConfigMap)](/knowledge/kubernetes/configmap/) - Projected Volume의 소스 중 하나
+- [시크릿 (Secret)](/knowledge/kubernetes/secret/) - Projected Volume의 소스 중 하나
 - [Downward API](/knowledge/kubernetes/downward-api/) - Projected Volume의 소스 중 하나
-- [Volume](/knowledge/kubernetes/volume/) - 볼륨의 기본 개념
-- [Sidecar Container](/knowledge/kubernetes/sidecar-container/) - Envoy 같은 사이드카에 설정을 주입할 때 유용
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - 볼륨의 기본 개념
+- [사이드카 컨테이너 (Sidecar Container)](/knowledge/kubernetes/sidecar-container/) - Envoy 같은 사이드카에 설정을 주입할 때 유용

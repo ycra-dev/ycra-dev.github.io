@@ -1,5 +1,5 @@
 ---
-title: "Pod"
+title: "파드 (Pod)"
 description: "Pod는 Kubernetes에서 배포의 가장 작은 단위로, 하나 이상의 밀접하게 관련된 컨테이너의 그룹이다"
 tags: ['Kubernetes', 'Pod', 'Container', 'Deployment Unit', 'Workload', 'Container Orchestration']
 created: 2026-02-12
@@ -98,12 +98,12 @@ kubectl describe pod kiada
 
 ## 관련 개념
 
-- [Deployment](/knowledge/kubernetes/deployment/) - Pod를 생성하고 관리하는 상위 객체
-- [Service](/knowledge/kubernetes/service/) - Pod에 대한 안정적인 통신 진입점 제공
-- [Container](/knowledge/kubernetes/container/) - Pod 내에서 실행되는 실제 프로세스
-- [Linux Namespaces](/knowledge/kubernetes/linux-namespaces/) - Pod 내 컨테이너 간 공유되는 격리 메커니즘
-- [Replica](/knowledge/kubernetes/replica/) - Pod의 복제본 개념
-- [Sidecar Container](/knowledge/kubernetes/sidecar-container/) - Pod 내에서 주 컨테이너를 보완하는 보조 컨테이너
-- [Init Container](/knowledge/kubernetes/init-container/) - Pod 시작 시 순차적으로 실행되는 초기화 컨테이너
-- [Pod Networking](/knowledge/kubernetes/pod-networking/) - Pod 내부 및 Pod 간의 네트워크 통신 구조
-- [Horizontal Scaling](/knowledge/kubernetes/horizontal-scaling/) - Pod 단위의 수평 확장
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - Pod를 생성하고 관리하는 상위 객체
+- [서비스 (Service)](/knowledge/kubernetes/service/) - Pod에 대한 안정적인 통신 진입점 제공
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - Pod 내에서 실행되는 실제 프로세스
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/kubernetes/linux-namespaces/) - Pod 내 컨테이너 간 공유되는 격리 메커니즘
+- [레플리카 (Replica)](/knowledge/kubernetes/replica/) - Pod의 복제본 개념
+- [사이드카 컨테이너 (Sidecar Container)](/knowledge/kubernetes/sidecar-container/) - Pod 내에서 주 컨테이너를 보완하는 보조 컨테이너
+- [초기화 컨테이너 (Init Container)](/knowledge/kubernetes/init-container/) - Pod 시작 시 순차적으로 실행되는 초기화 컨테이너
+- [파드 네트워킹 (Pod Networking)](/knowledge/kubernetes/pod-networking/) - Pod 내부 및 Pod 간의 네트워크 통신 구조
+- [수평 확장 (Horizontal Scaling)](/knowledge/kubernetes/horizontal-scaling/) - Pod 단위의 수평 확장

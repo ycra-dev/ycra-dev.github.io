@@ -1,5 +1,5 @@
 ---
-title: "Job Work Queue Pattern"
+title: "잡 워크 큐 패턴 (Job Work Queue Pattern)"
 description: "Job Work Queue 패턴은 외부 큐에서 작업 항목을 가져와 처리하는 방식으로, 정적으로 할당된 작업 대신 동적으로 작업을 분배하며, Coarse(각 Pod가 하나의 항목 처리)와 Fine(각 Pod가 여러 항목 처리) 두 가지 접근 방식이 있다"
 tags: ['Job', 'Work Queue', 'Parallel Processing', 'Pattern', 'Kubernetes']
 created: 2026-02-12
@@ -83,7 +83,7 @@ while (true) {
 
 ## 관련 개념
 
-- [Job](/knowledge/kubernetes/job/) - 워크 큐 패턴의 기반 오브젝트
-- [Job Completions and Parallelism](/knowledge/kubernetes/job-completions-and-parallelism/) - Coarse vs Fine의 completions 차이
-- [CronJob](/knowledge/kubernetes/cronjob/) - 정기적 큐 처리를 위한 대안
-- [Deployment](/knowledge/kubernetes/deployment/) - 지속적 큐 처리를 위한 대안
+- [잡 (Job)](/knowledge/kubernetes/job/) - 워크 큐 패턴의 기반 오브젝트
+- [잡 완료 횟수와 병렬성 (Job Completions and Parallelism)](/knowledge/kubernetes/job-completions-and-parallelism/) - Coarse vs Fine의 completions 차이
+- [크론잡 (CronJob)](/knowledge/kubernetes/cronjob/) - 정기적 큐 처리를 위한 대안
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - 지속적 큐 처리를 위한 대안

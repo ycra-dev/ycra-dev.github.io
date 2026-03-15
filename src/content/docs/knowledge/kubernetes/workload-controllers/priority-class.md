@@ -1,5 +1,5 @@
 ---
-title: "Priority Class"
+title: "프라이어리티 클래스 (Priority Class)"
 description: "PriorityClass는 Pod의 중요도를 나타내는 Kubernetes 오브젝트로, 높은 우선순위의 Pod가 리소스 부족 시 낮은 우선순위의 Pod를 축출(preempt)할 수 있게 하며, 특히 DaemonSet의 시스템 중요 Pod에 사용된다"
 tags: ['Priority Class', 'Scheduling', 'Preemption', 'Daemonset', 'Kubernetes']
 created: 2026-02-12
@@ -62,6 +62,6 @@ description: "For critical daemon pods"
 
 ## 관련 개념
 
-- [DaemonSet](/knowledge/kubernetes/daemonset/) - PriorityClass를 주로 사용하는 워크로드 유형
-- [Scheduler](/knowledge/kubernetes/scheduler/) - PriorityClass에 따라 Pod 배치와 축출 결정
+- [데몬셋 (DaemonSet)](/knowledge/kubernetes/daemonset/) - PriorityClass를 주로 사용하는 워크로드 유형
+- [쿠버네티스 스케줄러 (Kubernetes Scheduler)](/knowledge/kubernetes/scheduler/) - PriorityClass에 따라 Pod 배치와 축출 결정
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - system-node-critical을 사용하는 대표 서비스

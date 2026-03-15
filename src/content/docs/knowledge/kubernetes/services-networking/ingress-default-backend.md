@@ -1,5 +1,5 @@
 ---
-title: "Ingress Default Backend"
+title: "인그레스 기본 백엔드 (Ingress Default Backend)"
 description: "Ingress Default Backend은 Ingress의 어떤 규칙에도 매칭되지 않는 요청을 처리하는 폴백(fallback) 서비스로, `spec"
 tags: ['Kubernetes', 'Ingress', 'Default Backend', 'Routing', 'Fallback']
 created: 2026-02-12
@@ -77,6 +77,6 @@ This isn't the URL you're looking for.
 
 ## 관련 개념
 
-- [Ingress](/knowledge/kubernetes/ingress/) - Default Backend이 설정되는 오브젝트
-- [Ingress Path Routing](/knowledge/kubernetes/ingress-path-routing/) - 규칙에 매칭되지 않을 때 Default Backend 사용
-- [Service](/knowledge/kubernetes/service/) - Default Backend의 대상
+- [인그레스 (Ingress)](/knowledge/kubernetes/ingress/) - Default Backend이 설정되는 오브젝트
+- [인그레스 경로 라우팅 (Ingress Path Routing)](/knowledge/kubernetes/ingress-path-routing/) - 규칙에 매칭되지 않을 때 Default Backend 사용
+- [서비스 (Service)](/knowledge/kubernetes/service/) - Default Backend의 대상

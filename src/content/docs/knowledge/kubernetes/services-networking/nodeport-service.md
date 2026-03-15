@@ -1,5 +1,5 @@
 ---
-title: "NodePort Service"
+title: "노드포트 서비스 (NodePort Service)"
 description: "NodePort Service는 ClusterIP의 확장으로, 클러스터의 모든 노드에서 특정 포트(30000-32767)를 통해 서비스에 접근할 수 있게 하여 외부 클라이언트가 노드 IP와 포트로 서비스에 도달할 수 있게 하는 서비스 타입이다"
 tags: ['Kubernetes', 'Service', 'Nodeport', 'External Access', 'Networking']
 created: 2026-02-12
@@ -63,8 +63,8 @@ curl 172.18.0.4:30080    # 노드 IP:노드 포트
 
 ## 관련 개념
 
-- [ClusterIP Service](/knowledge/kubernetes/clusterip-service/) - NodePort의 기반이 되는 서비스 타입
-- [LoadBalancer Service](/knowledge/kubernetes/loadbalancer-service/) - NodePort를 확장하여 로드 밸런서 추가
-- [Service](/knowledge/kubernetes/service/) - 서비스의 상위 개념
-- [External Traffic Policy](/knowledge/kubernetes/external-traffic-policy/) - 노드 간 트래픽 전달 정책
-- [Node Port](/knowledge/kubernetes/node-port/) - Chapter 3에서 소개된 기본 개념
+- [클러스터IP 서비스 (ClusterIP Service)](/knowledge/kubernetes/clusterip-service/) - NodePort의 기반이 되는 서비스 타입
+- [로드밸런서 서비스 (LoadBalancer Service)](/knowledge/kubernetes/loadbalancer-service/) - NodePort를 확장하여 로드 밸런서 추가
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 서비스의 상위 개념
+- [외부 트래픽 정책 (External Traffic Policy)](/knowledge/kubernetes/external-traffic-policy/) - 노드 간 트래픽 전달 정책
+- [노드포트 (NodePort)](/knowledge/kubernetes/node-port/) - Chapter 3에서 소개된 기본 개념

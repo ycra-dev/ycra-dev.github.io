@@ -1,5 +1,5 @@
 ---
-title: "Image Pull Policy"
+title: "이미지 풀 정책 (Image Pull Policy)"
 description: "Image Pull Policy는 컨테이너 이미지를 워커 노드로 다운로드하는 시기와 조건을 결정하는 정책으로, 컨테이너가 생성(또는 재시작)될 때마다 적용된다"
 tags: ['Kubernetes', 'Container', 'Image', 'Registry', 'Deployment']
 created: 2026-02-12
@@ -63,8 +63,8 @@ containers:
 
 ## 관련 개념
 
-- [Container Image](/knowledge/kubernetes/container-image/) - 풀 정책의 대상이 되는 이미지
-- [Container Registry](/knowledge/kubernetes/container-registry/) - 이미지가 저장되는 저장소
-- [Restart Policy](/knowledge/kubernetes/restart-policy/) - 재시작 시 이미지 풀 정책이 다시 적용됨
-- [Pod Phase](/knowledge/kubernetes/pod-phase/) - 이미지 풀 실패 시 Pod가 Pending 상태에 머무름
-- [Container](/knowledge/kubernetes/container/) - 이미지 풀 정책이 적용되는 단위
+- [컨테이너 이미지 (Container Image)](/knowledge/kubernetes/container-image/) - 풀 정책의 대상이 되는 이미지
+- [컨테이너 레지스트리 (Container Registry)](/knowledge/kubernetes/container-registry/) - 이미지가 저장되는 저장소
+- [재시작 정책 (Restart Policy)](/knowledge/kubernetes/restart-policy/) - 재시작 시 이미지 풀 정책이 다시 적용됨
+- [파드 페이즈 (Pod Phase)](/knowledge/kubernetes/pod-phase/) - 이미지 풀 실패 시 Pod가 Pending 상태에 머무름
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - 이미지 풀 정책이 적용되는 단위

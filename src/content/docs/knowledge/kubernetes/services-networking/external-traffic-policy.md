@@ -1,5 +1,5 @@
 ---
-title: "External Traffic Policy"
+title: "외부 트래픽 정책 (External Traffic Policy)"
 description: "External Traffic Policy는 NodePort나 LoadBalancer 서비스에서 외부 트래픽이 도착했을 때 해당 노드의 로컬 파드로만 전달할지(Local), 클러스터 전체의 파드로 전달할지(Cluster)를 결정하는 서비스 설정이다"
 tags: ['Kubernetes', 'Service', 'Traffic Policy', 'Networking', 'Source IP']
 created: 2026-02-12
@@ -48,7 +48,7 @@ spec:
 
 ## 관련 개념
 
-- [NodePort Service](/knowledge/kubernetes/nodeport-service/) - External Traffic Policy가 적용되는 서비스 타입
-- [LoadBalancer Service](/knowledge/kubernetes/loadbalancer-service/) - External Traffic Policy가 적용되는 서비스 타입
-- [Service](/knowledge/kubernetes/service/) - 서비스의 상위 개념
+- [노드포트 서비스 (NodePort Service)](/knowledge/kubernetes/nodeport-service/) - External Traffic Policy가 적용되는 서비스 타입
+- [로드밸런서 서비스 (LoadBalancer Service)](/knowledge/kubernetes/loadbalancer-service/) - External Traffic Policy가 적용되는 서비스 타입
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 서비스의 상위 개념
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - 트래픽 정책을 실제로 적용하는 컴포넌트

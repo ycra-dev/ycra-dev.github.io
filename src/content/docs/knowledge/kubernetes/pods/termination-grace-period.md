@@ -1,5 +1,5 @@
 ---
-title: "Termination Grace Period"
+title: "종료 유예 기간 (Termination Grace Period)"
 description: "Termination Grace Period는 컨테이너가 자발적으로 종료할 수 있도록 주어지는 유예 시간으로, 이 시간이 경과하면 프로세스가 KILL 시그널로 강제 종료된다"
 tags: ['Kubernetes', 'Pod', 'Termination', 'Graceful Shutdown', 'Lifecycle']
 created: 2026-02-12
@@ -70,8 +70,8 @@ kubectl delete po kiada --wait=false
 
 ## 관련 개념
 
-- [Pre-Stop Hook](/knowledge/kubernetes/pre-stop-hook/) - 유예 시간 내에 실행되는 종료 전 훅
-- [Restart Policy](/knowledge/kubernetes/restart-policy/) - 종료 후 컨테이너 재시작 여부를 결정
-- [Pod Phase](/knowledge/kubernetes/pod-phase/) - 종료 중 Pod는 Terminating 상태를 표시
-- [Pod](/knowledge/kubernetes/pod/) - 유예 시간이 설정되는 리소스
+- [Pre-Stop 훅 (Pre-Stop Hook)](/knowledge/kubernetes/pre-stop-hook/) - 유예 시간 내에 실행되는 종료 전 훅
+- [재시작 정책 (Restart Policy)](/knowledge/kubernetes/restart-policy/) - 종료 후 컨테이너 재시작 여부를 결정
+- [파드 페이즈 (Pod Phase)](/knowledge/kubernetes/pod-phase/) - 종료 중 Pod는 Terminating 상태를 표시
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 유예 시간이 설정되는 리소스
 - [Kubelet](/knowledge/kubernetes/kubelet/) - 실제 컨테이너 종료를 수행하는 에이전트

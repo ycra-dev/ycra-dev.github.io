@@ -1,5 +1,5 @@
 ---
-title: "ReplicaSet Scaling"
+title: "레플리카셋 스케일링 (ReplicaSet Scaling)"
 description: "ReplicaSet 스케일링은 ReplicaSet의 `replicas` 필드 값을 변경하여 Pod 복제본 수를 늘리거나(scale up) 줄이는(scale down) 작업으로, kubectl scale 명령, kubectl edit, 또는 매니페스트 재적용으로 수..."
 tags: ['Scaling', 'Replicaset', 'Horizontal Scaling', 'Kubernetes']
 created: 2026-02-12
@@ -50,7 +50,7 @@ kubectl annotate pod kiada-001 controller.kubernetes.io/pod-deletion-cost="100"
 
 ## 관련 개념
 
-- [ReplicaSet](/knowledge/kubernetes/replicaset/) - 스케일링의 대상 오브젝트
-- [Horizontal Scaling](/knowledge/kubernetes/horizontal-scaling/) - ReplicaSet 스케일링은 수평 확장의 구현
-- [Reconciliation Control Loop](/knowledge/kubernetes/reconciliation-control-loop/) - 스케일링 변경을 감지하고 조정하는 메커니즘
-- [Deployment](/knowledge/kubernetes/deployment/) - Deployment를 통한 스케일링도 동일한 원리
+- [레플리카셋 (ReplicaSet)](/knowledge/kubernetes/replicaset/) - 스케일링의 대상 오브젝트
+- [수평 확장 (Horizontal Scaling)](/knowledge/kubernetes/horizontal-scaling/) - ReplicaSet 스케일링은 수평 확장의 구현
+- [조정 제어 루프 (Reconciliation Control Loop)](/knowledge/kubernetes/reconciliation-control-loop/) - 스케일링 변경을 감지하고 조정하는 메커니즘
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - Deployment를 통한 스케일링도 동일한 원리

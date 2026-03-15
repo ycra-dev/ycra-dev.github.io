@@ -1,5 +1,5 @@
 ---
-title: "ReplicaSet Pod Template Update"
+title: "레플리카셋 파드 템플릿 업데이트 (ReplicaSet Pod Template Update)"
 description: "ReplicaSet의 Pod 템플릿을 변경하면 이후 새로 생성되는 Pod에만 적용되며, 기존 실행 중인 Pod에는 영향을 주지 않는 특성으로, 이것이 ReplicaSet 대신 Deployment를 사용하는 주된 이유이다"
 tags: ['Replicaset', 'Pod Template', 'Update', 'Kubernetes']
 created: 2026-02-12
@@ -43,6 +43,6 @@ kubectl get pods -l app=kiada --show-labels
 
 ## 관련 개념
 
-- [ReplicaSet](/knowledge/kubernetes/replicaset/) - 템플릿 업데이트의 대상
-- [Deployment](/knowledge/kubernetes/deployment/) - 템플릿 업데이트 시 자동 롤아웃을 지원하는 상위 오브젝트
-- [Reconciliation Control Loop](/knowledge/kubernetes/reconciliation-control-loop/) - 기존 Pod를 업데이트하지 않는 이유와 관련
+- [레플리카셋 (ReplicaSet)](/knowledge/kubernetes/replicaset/) - 템플릿 업데이트의 대상
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - 템플릿 업데이트 시 자동 롤아웃을 지원하는 상위 오브젝트
+- [조정 제어 루프 (Reconciliation Control Loop)](/knowledge/kubernetes/reconciliation-control-loop/) - 기존 Pod를 업데이트하지 않는 이유와 관련

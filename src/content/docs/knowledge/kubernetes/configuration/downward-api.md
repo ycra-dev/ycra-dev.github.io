@@ -72,7 +72,7 @@ containers:
 
 ## 관련 개념
 
-- [ConfigMap](/knowledge/kubernetes/configmap/) - 정적 설정 데이터를 주입하는 방법
-- [Secret](/knowledge/kubernetes/secret/) - 민감한 데이터를 주입하는 방법
-- [Projected Volume](/knowledge/kubernetes/projected-volume/) - Downward API를 다른 소스와 결합
+- [컨피그맵 (ConfigMap)](/knowledge/kubernetes/configmap/) - 정적 설정 데이터를 주입하는 방법
+- [시크릿 (Secret)](/knowledge/kubernetes/secret/) - 민감한 데이터를 주입하는 방법
+- [프로젝티드 볼륨 (Projected Volume)](/knowledge/kubernetes/projected-volume/) - Downward API를 다른 소스와 결합
 - [Kubelet](/knowledge/kubernetes/kubelet/) - Downward API 값을 컨테이너에 주입하는 주체

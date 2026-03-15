@@ -1,5 +1,5 @@
 ---
-title: "Readiness Probe"
+title: "레디니스 프로브 (Readiness Probe)"
 description: "Readiness Probe는 컨테이너가 트래픽을 수신할 준비가 되었는지 주기적으로 확인하는 메커니즘으로, 실패 시 해당 파드를 서비스 엔드포인트에서 제거하여 준비되지 않은 파드로의 트래픽 전달을 방지한다"
 tags: ['Kubernetes', 'Probe', 'Readiness', 'Service', 'Health Check']
 created: 2026-02-12
@@ -74,7 +74,7 @@ func (s *HTTPServer) handleReadiness(res http.ResponseWriter, req *http.Request)
 
 ## 관련 개념
 
-- [Liveness Probe](/knowledge/kubernetes/liveness-probe/) - 컨테이너 생존 여부 확인 (Readiness와 목적이 다름)
-- [Startup Probe](/knowledge/kubernetes/startup-probe/) - 느린 시작 애플리케이션을 위한 프로브
-- [Service](/knowledge/kubernetes/service/) - Readiness Probe 결과에 따라 엔드포인트 변경
-- [Endpoints Object](/knowledge/kubernetes/endpoints-object/) - Ready/NotReady 상태를 반영하는 오브젝트
+- [라이브니스 프로브 (Liveness Probe)](/knowledge/kubernetes/liveness-probe/) - 컨테이너 생존 여부 확인 (Readiness와 목적이 다름)
+- [스타트업 프로브 (Startup Probe)](/knowledge/kubernetes/startup-probe/) - 느린 시작 애플리케이션을 위한 프로브
+- [서비스 (Service)](/knowledge/kubernetes/service/) - Readiness Probe 결과에 따라 엔드포인트 변경
+- [엔드포인트 오브젝트 (Endpoints Object)](/knowledge/kubernetes/endpoints-object/) - Ready/NotReady 상태를 반영하는 오브젝트

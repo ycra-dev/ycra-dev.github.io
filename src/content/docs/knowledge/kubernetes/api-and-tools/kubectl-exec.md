@@ -57,6 +57,6 @@ kubectl exec -it kiada-ssl -c envoy -- bash
 ## 관련 개념
 
 - [kubectl](/knowledge/kubernetes/kubectl/) - exec가 속한 Kubernetes CLI 도구
-- [Pod](/knowledge/kubernetes/pod/) - exec 명령이 실행되는 대상
-- [Container](/knowledge/kubernetes/container/) - 명령이 실제로 실행되는 격리된 환경
-- [Container Runtime Interface](/knowledge/kubernetes/container-runtime-interface/) - 컨테이너 내부 명령 실행을 가능하게 하는 인터페이스
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - exec 명령이 실행되는 대상
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - 명령이 실제로 실행되는 격리된 환경
+- [컨테이너 런타임 인터페이스 (Container Runtime Interface)](/knowledge/kubernetes/container-runtime-interface/) - 컨테이너 내부 명령 실행을 가능하게 하는 인터페이스

@@ -1,5 +1,5 @@
 ---
-title: "Container Runtime Interface"
+title: "컨테이너 런타임 인터페이스 (Container Runtime Interface)"
 description: "Container Runtime Interface(CRI)는 Kubernetes가 다양한 컨테이너 런타임을 지원할 수 있도록 정의된 표준 인터페이스이다"
 tags: ['Kubernetes', 'Cri', 'Container Runtime', 'Oci', 'Docker']
 created: 2026-02-12
@@ -67,7 +67,7 @@ Kubelet --> CRI --> Docker
 
 ## 관련 개념
 
-- [Container](/knowledge/kubernetes/container/) - CRI를 통해 관리되는 실행 인스턴스
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - CRI를 통해 관리되는 실행 인스턴스
 - [Kubelet](/knowledge/kubernetes/kubelet/) - CRI를 통해 컨테이너 런타임과 통신하는 에이전트
-- [Container Image](/knowledge/kubernetes/container-image/) - OCI 표준 형식의 이미지
-- [Workload Plane](/knowledge/kubernetes/workload-plane/) - 컨테이너 런타임이 실행되는 영역
+- [컨테이너 이미지 (Container Image)](/knowledge/kubernetes/container-image/) - OCI 표준 형식의 이미지
+- [워크로드 플레인 (Workload Plane)](/knowledge/kubernetes/workload-plane/) - 컨테이너 런타임이 실행되는 영역

@@ -1,5 +1,5 @@
 ---
-title: "Ingress"
+title: "인그레스 (Ingress)"
 description: "Ingress는 클러스터 외부에서 내부 서비스로의 HTTP/HTTPS 트래픽을 관리하는 Kubernetes API 오브젝트로, 호스트 이름과 URL 경로 기반의 라우팅 규칙을 정의하여 단일 IP로 여러 서비스를 노출할 수 있다"
 tags: ['Kubernetes', 'Ingress', 'Networking', 'L7 Routing', 'Reverse Proxy']
 created: 2026-02-12
@@ -79,9 +79,9 @@ curl --resolve kiada.example.com:80:11.22.33.44 http://kiada.example.com
 
 ## 관련 개념
 
-- [Ingress Controller](/knowledge/kubernetes/ingress-controller/) - Ingress 오브젝트를 실현하는 컨트롤러
-- [Ingress TLS](/knowledge/kubernetes/ingress-tls/) - HTTPS 지원 설정
-- [IngressClass](/knowledge/kubernetes/ingressclass/) - 어떤 컨트롤러가 처리할지 지정
-- [LoadBalancer Service](/knowledge/kubernetes/loadbalancer-service/) - L4 수준의 외부 노출 대안
-- [Service](/knowledge/kubernetes/service/) - Ingress가 라우팅하는 대상
-- [Annotation](/knowledge/kubernetes/annotation/) - 컨트롤러별 추가 설정 전달 방법
+- [인그레스 컨트롤러 (Ingress Controller)](/knowledge/kubernetes/ingress-controller/) - Ingress 오브젝트를 실현하는 컨트롤러
+- [인그레스 TLS (Ingress TLS)](/knowledge/kubernetes/ingress-tls/) - HTTPS 지원 설정
+- [인그레스클래스 (IngressClass)](/knowledge/kubernetes/ingressclass/) - 어떤 컨트롤러가 처리할지 지정
+- [로드밸런서 서비스 (LoadBalancer Service)](/knowledge/kubernetes/loadbalancer-service/) - L4 수준의 외부 노출 대안
+- [서비스 (Service)](/knowledge/kubernetes/service/) - Ingress가 라우팅하는 대상
+- [어노테이션 (Annotation)](/knowledge/kubernetes/annotation/) - 컨트롤러별 추가 설정 전달 방법

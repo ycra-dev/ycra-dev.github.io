@@ -1,5 +1,5 @@
 ---
-title: "Session Affinity"
+title: "세션 어피니티 (Session Affinity)"
 description: "Session Affinity는 Kubernetes 서비스에서 동일한 클라이언트의 연속적인 연결을 동일한 백엔드 파드로 전달하는 메커니즘으로, 서비스 수준에서는 `ClientIP` 기반만 지원하고, Ingress 수준에서는 쿠키 기반도 지원한다"
 tags: ['Kubernetes', 'Service', 'Session Affinity', 'Load Balancing', 'Networking']
 created: 2026-02-12
@@ -53,7 +53,7 @@ metadata:
 
 ## 관련 개념
 
-- [Service](/knowledge/kubernetes/service/) - 세션 어피니티가 설정되는 오브젝트
-- [ClusterIP Service](/knowledge/kubernetes/clusterip-service/) - 기본 서비스에서의 어피니티 동작
-- [Ingress Controller](/knowledge/kubernetes/ingress-controller/) - 쿠키 기반 어피니티를 제공
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 세션 어피니티가 설정되는 오브젝트
+- [클러스터IP 서비스 (ClusterIP Service)](/knowledge/kubernetes/clusterip-service/) - 기본 서비스에서의 어피니티 동작
+- [인그레스 컨트롤러 (Ingress Controller)](/knowledge/kubernetes/ingress-controller/) - 쿠키 기반 어피니티를 제공
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - 세션 어피니티를 실제로 적용하는 컴포넌트

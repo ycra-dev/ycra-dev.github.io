@@ -1,5 +1,5 @@
 ---
-title: "Spec and Status"
+title: "스펙과 상태 (Spec and Status)"
 description: "Spec과 Status는 대부분의 Kubernetes API 객체가 가진 두 핵심 섹션이다"
 tags: ['Kubernetes', 'Spec', 'Status', 'Desired State', 'Actual State', 'Reconciliation']
 created: 2026-02-12
@@ -89,8 +89,8 @@ $ kubectl explain pod.status.conditions
 
 ## 관련 개념
 
-- [Object Manifest](/knowledge/kubernetes/object-manifest/) - Spec과 Status를 포함하는 전체 매니페스트
-- [Controller](/knowledge/kubernetes/controller/) - Spec을 읽고 Status를 작성하는 주체
-- [Declarative Model](/knowledge/kubernetes/declarative-model/) - Spec을 통한 선언적 상태 관리
-- [Status Conditions](/knowledge/kubernetes/status-conditions/) - Status 내의 세부 상태 정보
-- [Kubernetes API](/knowledge/kubernetes/kubernetes-api/) - Spec과 Status가 전달되는 API
+- [오브젝트 매니페스트 (Object Manifest)](/knowledge/kubernetes/object-manifest/) - Spec과 Status를 포함하는 전체 매니페스트
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - Spec을 읽고 Status를 작성하는 주체
+- [선언적 모델 (Declarative Model)](/knowledge/kubernetes/declarative-model/) - Spec을 통한 선언적 상태 관리
+- [상태 조건 (Status Conditions)](/knowledge/kubernetes/status-conditions/) - Status 내의 세부 상태 정보
+- [쿠버네티스 API (Kubernetes API)](/knowledge/kubernetes/kubernetes-api/) - Spec과 Status가 전달되는 API

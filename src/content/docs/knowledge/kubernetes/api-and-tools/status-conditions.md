@@ -1,5 +1,5 @@
 ---
-title: "Status Conditions"
+title: "상태 조건 (Status Conditions)"
 description: "Status Conditions는 Kubernetes 객체의 상태(status) 섹션에 포함된 조건 목록으로, 객체가 현재 처해 있는 여러 상태를 독립적으로(직교적으로, orthogonally) 표현한다"
 tags: ['Kubernetes', 'Status', 'Conditions', 'Monitoring', 'Troubleshooting']
 created: 2026-02-12
@@ -89,8 +89,8 @@ Conditions:
 
 ## 관련 개념
 
-- [Spec and Status](/knowledge/kubernetes/spec-and-status/) - Conditions가 속한 Status 섹션
-- [Object Manifest](/knowledge/kubernetes/object-manifest/) - Conditions를 포함하는 전체 매니페스트
-- [Controller](/knowledge/kubernetes/controller/) - Conditions를 업데이트하는 컨트롤러
-- [Event Object](/knowledge/kubernetes/event-object/) - Conditions와 함께 상태를 파악하는 수단
+- [스펙과 상태 (Spec and Status)](/knowledge/kubernetes/spec-and-status/) - Conditions가 속한 Status 섹션
+- [오브젝트 매니페스트 (Object Manifest)](/knowledge/kubernetes/object-manifest/) - Conditions를 포함하는 전체 매니페스트
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - Conditions를 업데이트하는 컨트롤러
+- [이벤트 객체 (Event Object)](/knowledge/kubernetes/event-object/) - Conditions와 함께 상태를 파악하는 수단
 - [Kubelet](/knowledge/kubernetes/kubelet/) - Node의 Conditions를 보고하는 에이전트

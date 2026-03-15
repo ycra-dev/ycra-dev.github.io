@@ -1,5 +1,5 @@
 ---
-title: "Pre-Stop Hook"
+title: "Pre-Stop 훅 (Pre-Stop Hook)"
 description: "Pre-Stop Hook은 컨테이너가 종료되기 직전에 실행되는 생명 주기 훅으로, 애플리케이션의 정상적인(graceful) 종료 절차를 수행하거나 추가적인 정리 작업을 실행한다"
 tags: ['Kubernetes', 'Lifecycle', 'Hook', 'Container', 'Graceful Shutdown']
 created: 2026-02-12
@@ -78,8 +78,8 @@ process.on('SIGTERM', function () {
 
 ## 관련 개념
 
-- [Post-Start Hook](/knowledge/kubernetes/post-start-hook/) - 컨테이너 시작 시 실행되는 생명 주기 훅
-- [Termination Grace Period](/knowledge/kubernetes/termination-grace-period/) - Pre-Stop Hook 실행 시간을 포함하는 종료 유예 시간
-- [Liveness Probe](/knowledge/kubernetes/liveness-probe/) - 프로브 실패로 인한 컨테이너 종료 시에도 Pre-Stop Hook이 실행됨
-- [Restart Policy](/knowledge/kubernetes/restart-policy/) - 종료 후 재시작 여부를 결정
-- [Pod](/knowledge/kubernetes/pod/) - 훅이 속하는 리소스
+- [Post-Start 훅 (Post-Start Hook)](/knowledge/kubernetes/post-start-hook/) - 컨테이너 시작 시 실행되는 생명 주기 훅
+- [종료 유예 기간 (Termination Grace Period)](/knowledge/kubernetes/termination-grace-period/) - Pre-Stop Hook 실행 시간을 포함하는 종료 유예 시간
+- [라이브니스 프로브 (Liveness Probe)](/knowledge/kubernetes/liveness-probe/) - 프로브 실패로 인한 컨테이너 종료 시에도 Pre-Stop Hook이 실행됨
+- [재시작 정책 (Restart Policy)](/knowledge/kubernetes/restart-policy/) - 종료 후 재시작 여부를 결정
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 훅이 속하는 리소스

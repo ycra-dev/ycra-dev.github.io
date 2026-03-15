@@ -1,5 +1,5 @@
 ---
-title: "ExternalName Service"
+title: "익스터널네임 서비스 (ExternalName Service)"
 description: "ExternalName Service는 DNS CNAME 레코드를 생성하여, 클러스터 내부의 서비스 이름을 외부 도메인 이름으로 매핑하는 서비스 타입으로, 클러스터 IP 없이 DNS 수준에서만 동작한다"
 tags: ['Kubernetes', 'Service', 'Externalname', 'DNS', 'Cname']
 created: 2026-02-12
@@ -60,7 +60,7 @@ time-api   ExternalName   <none>       worldtimeapi.org   80/TCP
 
 ## 관련 개념
 
-- [Service DNS Discovery](/knowledge/kubernetes/service-dns-discovery/) - ExternalName이 CNAME 레코드로 동작
-- [Headless Service](/knowledge/kubernetes/headless-service/) - 클러스터 IP가 없는 또 다른 서비스 타입
-- [ClusterIP Service](/knowledge/kubernetes/clusterip-service/) - 일반적인 내부 서비스 타입
-- [Service](/knowledge/kubernetes/service/) - 서비스의 상위 개념
+- [서비스 DNS 디스커버리 (Service DNS Discovery)](/knowledge/kubernetes/service-dns-discovery/) - ExternalName이 CNAME 레코드로 동작
+- [헤드리스 서비스 (Headless Service)](/knowledge/kubernetes/headless-service/) - 클러스터 IP가 없는 또 다른 서비스 타입
+- [클러스터IP 서비스 (ClusterIP Service)](/knowledge/kubernetes/clusterip-service/) - 일반적인 내부 서비스 타입
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 서비스의 상위 개념

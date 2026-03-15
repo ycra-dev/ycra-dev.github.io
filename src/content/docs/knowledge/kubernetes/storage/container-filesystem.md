@@ -1,5 +1,5 @@
 ---
-title: "Container Filesystem"
+title: "컨테이너 파일시스템 (Container Filesystem)"
 description: "Container Filesystem은 컨테이너 이미지에서 제공되는 격리된 파일 시스템으로, 각 컨테이너가 독립적으로 가지며, 컨테이너가 종료되고 재생성될 때 초기 상태(이미지 빌드 시점)로 리셋된다"
 tags: ['Kubernetes', 'Container', 'Filesystem', 'Ephemeral', 'Storage']
 created: 2026-02-12
@@ -64,9 +64,9 @@ spec:
 
 ## 관련 개념
 
-- [Container Image](/knowledge/kubernetes/container-image/) - 컨테이너 파일 시스템의 초기 상태를 정의
-- [Image Layer](/knowledge/kubernetes/image-layer/) - 파일 시스템을 구성하는 읽기 전용 레이어
+- [컨테이너 이미지 (Container Image)](/knowledge/kubernetes/container-image/) - 컨테이너 파일 시스템의 초기 상태를 정의
+- [이미지 레이어 (Image Layer)](/knowledge/kubernetes/image-layer/) - 파일 시스템을 구성하는 읽기 전용 레이어
 - [Copy-on-Write](/knowledge/kubernetes/copy-on-write/) - 컨테이너 파일 시스템의 쓰기 메커니즘
-- [Volume](/knowledge/kubernetes/volume/) - 임시적 파일 시스템의 한계를 극복하는 스토리지
-- [emptyDir Volume](/knowledge/kubernetes/emptydir-volume/) - 컨테이너 재시작 간 데이터를 보존하는 가장 기본적인 방법
-- [Container](/knowledge/kubernetes/container/) - 파일 시스템을 소유하는 실행 단위
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - 임시적 파일 시스템의 한계를 극복하는 스토리지
+- [emptyDir 볼륨 (emptyDir Volume)](/knowledge/kubernetes/emptydir-volume/) - 컨테이너 재시작 간 데이터를 보존하는 가장 기본적인 방법
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - 파일 시스템을 소유하는 실행 단위

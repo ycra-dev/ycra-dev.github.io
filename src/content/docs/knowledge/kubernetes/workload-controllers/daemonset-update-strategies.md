@@ -1,5 +1,5 @@
 ---
-title: "DaemonSet Update Strategies"
+title: "데몬셋 업데이트 전략 (DaemonSet Update Strategies)"
 description: "DaemonSet은 RollingUpdate와 OnDelete 두 가지 업데이트 전략을 지원하며, RollingUpdate의 기본 설정은 maxSurge=0, maxUnavailable=1로 한 번에 한 노드씩 기존 Pod를 삭제 후 새 Pod를 생성하는 방식이다"
 tags: ['Daemonset', 'Update Strategy', 'Rolling Update', 'On Delete', 'Kubernetes']
 created: 2026-02-12
@@ -62,6 +62,6 @@ kubectl delete po demo-k2d6k --wait=false
 
 ## 관련 개념
 
-- [DaemonSet](/knowledge/kubernetes/daemonset/) - 업데이트 전략이 적용되는 오브젝트
-- [StatefulSet Update Strategies](/knowledge/kubernetes/statefulset-update-strategies/) - StatefulSet의 OnDelete 전략과 동일
+- [데몬셋 (DaemonSet)](/knowledge/kubernetes/daemonset/) - 업데이트 전략이 적용되는 오브젝트
+- [스테이트풀셋 업데이트 전략 (StatefulSet Update Strategies)](/knowledge/kubernetes/statefulset-update-strategies/) - StatefulSet의 OnDelete 전략과 동일
 - [minReadySeconds](/knowledge/kubernetes/minreadyseconds/) - 업데이트 속도를 제어하는 공통 필드

@@ -1,5 +1,5 @@
 ---
-title: "Ingress TLS"
+title: "인그레스 TLS (Ingress TLS)"
 description: "Ingress TLS는 Kubernetes Secret에 저장된 TLS 인증서와 키를 Ingress 오브젝트에 연결하여, 클라이언트와 프록시 간의 HTTPS 통신을 지원하는 설정이다"
 tags: ['Kubernetes', 'Ingress', 'Tls', 'Ssl', 'Security', 'HTTPS']
 created: 2026-02-12
@@ -79,7 +79,7 @@ metadata:
 
 ## 관련 개념
 
-- [Ingress](/knowledge/kubernetes/ingress/) - TLS가 설정되는 오브젝트
-- [Secret](/knowledge/kubernetes/secret/) - TLS 인증서와 키를 저장하는 오브젝트
-- [Ingress Controller](/knowledge/kubernetes/ingress-controller/) - TLS 종료를 수행하는 프록시를 관리
-- [Service](/knowledge/kubernetes/service/) - TLS 종료 후 HTTP로 연결되는 백엔드
+- [인그레스 (Ingress)](/knowledge/kubernetes/ingress/) - TLS가 설정되는 오브젝트
+- [시크릿 (Secret)](/knowledge/kubernetes/secret/) - TLS 인증서와 키를 저장하는 오브젝트
+- [인그레스 컨트롤러 (Ingress Controller)](/knowledge/kubernetes/ingress-controller/) - TLS 종료를 수행하는 프록시를 관리
+- [서비스 (Service)](/knowledge/kubernetes/service/) - TLS 종료 후 HTTP로 연결되는 백엔드

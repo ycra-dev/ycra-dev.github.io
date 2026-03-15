@@ -1,5 +1,5 @@
 ---
-title: "ConfigMap"
+title: "컨피그맵 (ConfigMap)"
 description: "ConfigMap은 키-값 쌍으로 구성된 Kubernetes API 오브젝트로, 컨테이너 이미지에서 설정 데이터를 분리하여 애플리케이션 구성을 외부화하는 데 사용된다"
 tags: ['Kubernetes', 'Configuration', 'Configmap', 'Decoupling']
 created: 2026-02-12
@@ -69,8 +69,8 @@ envFrom:
 
 ## 관련 개념
 
-- [Secret](/knowledge/kubernetes/secret/) - 민감한 데이터를 위한 유사한 오브젝트
+- [시크릿 (Secret)](/knowledge/kubernetes/secret/) - 민감한 데이터를 위한 유사한 오브젝트
 - [Downward API](/knowledge/kubernetes/downward-api/) - 파드 메타데이터를 주입하는 또 다른 방법
-- [Projected Volume](/knowledge/kubernetes/projected-volume/) - 여러 소스를 하나의 볼륨으로 결합
-- [Volume](/knowledge/kubernetes/volume/) - ConfigMap 볼륨의 기반이 되는 볼륨 개념
+- [프로젝티드 볼륨 (Projected Volume)](/knowledge/kubernetes/projected-volume/) - 여러 소스를 하나의 볼륨으로 결합
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - ConfigMap 볼륨의 기반이 되는 볼륨 개념
 - [etcd](/knowledge/kubernetes/etcd/) - ConfigMap이 저장되는 백엔드 저장소

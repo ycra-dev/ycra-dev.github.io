@@ -1,5 +1,5 @@
 ---
-title: "Seccomp"
+title: "Seccomp (보안 컴퓨팅 모드)"
 description: "Seccomp(Secure Computing Mode)는 프로그램이 수행할 수 있는 시스템 콜(sys-calls)을 개별적으로 필터링할 수 있게 하는 Linux 커널 보안 기능이다"
 tags: ['Linux', 'Security', 'Seccomp', 'Container', 'Syscall']
 created: 2026-02-12
@@ -66,7 +66,7 @@ $ docker run --security-opt seccomp=my-profile.json ...
 
 ## 관련 개념
 
-- [Container](/knowledge/kubernetes/container/) - Seccomp에 의해 보안이 강화되는 프로세스
-- [Linux Namespaces](/knowledge/kubernetes/linux-namespaces/) - 네임스페이스와 함께 격리를 구성
-- [Cgroups](/knowledge/kubernetes/cgroups/) - 리소스 제한을 통한 격리
-- [Kubernetes](/knowledge/kubernetes/kubernetes/) - Pod 보안 정책을 통해 seccomp 프로필 적용 가능
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - Seccomp에 의해 보안이 강화되는 프로세스
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/kubernetes/linux-namespaces/) - 네임스페이스와 함께 격리를 구성
+- [Cgroups (컨트롤 그룹)](/knowledge/kubernetes/cgroups/) - 리소스 제한을 통한 격리
+- [쿠버네티스 (Kubernetes)](/knowledge/kubernetes/kubernetes/) - Pod 보안 정책을 통해 seccomp 프로필 적용 가능

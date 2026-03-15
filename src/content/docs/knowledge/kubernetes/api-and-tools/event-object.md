@@ -1,5 +1,5 @@
 ---
-title: "Event Object"
+title: "이벤트 객체 (Event Object)"
 description: "Event Object는 Kubernetes 클러스터에서 발생하는 사건을 기록하는 API 객체이다"
 tags: ['Kubernetes', 'Event', 'Monitoring', 'Debugging', 'API Object']
 created: 2026-02-12
@@ -92,9 +92,9 @@ type: Normal               # 이벤트 유형
 
 ## 관련 개념
 
-- [Controller](/knowledge/kubernetes/controller/) - Event를 생성하는 주체
-- [Kubernetes API](/knowledge/kubernetes/kubernetes-api/) - Event가 저장되고 조회되는 API
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - Event를 생성하는 주체
+- [쿠버네티스 API (Kubernetes API)](/knowledge/kubernetes/kubernetes-api/) - Event가 저장되고 조회되는 API
 - [etcd](/knowledge/kubernetes/etcd/) - Event가 저장되는 데이터스토어 (1시간 후 자동 삭제)
 - [kubectl](/knowledge/kubernetes/kubectl/) - Event를 조회하는 도구
-- [Status Conditions](/knowledge/kubernetes/status-conditions/) - Event와 함께 객체 상태를 파악하는 수단
-- [Field Selector](/knowledge/kubernetes/field-selector/) - Warning 이벤트만 필터링하는 방법
+- [상태 조건 (Status Conditions)](/knowledge/kubernetes/status-conditions/) - Event와 함께 객체 상태를 파악하는 수단
+- [필드 셀렉터 (Field Selector)](/knowledge/kubernetes/field-selector/) - Warning 이벤트만 필터링하는 방법

@@ -1,5 +1,5 @@
 ---
-title: "Init Container"
+title: "초기화 컨테이너 (Init Container)"
 description: "Init Container는 Pod의 주 컨테이너(main container)가 시작되기 전에 순차적으로 실행되는 특수한 컨테이너로, Pod의 초기화 작업을 수행한다"
 tags: ['Kubernetes', 'Pod', 'Init Container', 'Initialization', 'Container']
 created: 2026-02-12
@@ -73,8 +73,8 @@ kubectl logs kiada-init -c network-check
 
 ## 관련 개념
 
-- [Pod](/knowledge/kubernetes/pod/) - Init 컨테이너가 속하는 기본 실행 단위
-- [Sidecar Container](/knowledge/kubernetes/sidecar-container/) - Pod 내에서 동작하는 또 다른 보조 컨테이너 유형
-- [Volume](/knowledge/kubernetes/volume/) - Init 컨테이너가 초기화할 수 있는 스토리지
-- [Pod Phase](/knowledge/kubernetes/pod-phase/) - Init 실행 중의 Pod 상태 단계
-- [Container](/knowledge/kubernetes/container/) - Init 컨테이너의 기반이 되는 컨테이너 개념
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - Init 컨테이너가 속하는 기본 실행 단위
+- [사이드카 컨테이너 (Sidecar Container)](/knowledge/kubernetes/sidecar-container/) - Pod 내에서 동작하는 또 다른 보조 컨테이너 유형
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - Init 컨테이너가 초기화할 수 있는 스토리지
+- [파드 페이즈 (Pod Phase)](/knowledge/kubernetes/pod-phase/) - Init 실행 중의 Pod 상태 단계
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - Init 컨테이너의 기반이 되는 컨테이너 개념

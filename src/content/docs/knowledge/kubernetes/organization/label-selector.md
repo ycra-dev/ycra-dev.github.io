@@ -1,5 +1,5 @@
 ---
-title: "Label Selector"
+title: "레이블 셀렉터 (Label Selector)"
 description: "Label Selector는 레이블의 키-값 쌍을 기준으로 Kubernetes 오브젝트를 필터링하는 메커니즘으로, kubectl 명령어와 Kubernetes 내부 오브젝트(Service, Deployment 등) 모두에서 사용된다"
 tags: ['Kubernetes', 'Label Selector', 'Filtering', 'Organization']
 created: 2026-02-12
@@ -73,8 +73,8 @@ spec:
 
 ## 관련 개념
 
-- [Label](/knowledge/kubernetes/label/) - 셀렉터가 필터링하는 대상
-- [Service](/knowledge/kubernetes/service/) - 파드 셀렉터로 엔드포인트 결정
-- [Field Selector](/knowledge/kubernetes/field-selector/) - 레이블이 아닌 오브젝트 필드로 필터링
-- [ReplicaSet](/knowledge/kubernetes/replicaset/) - 셀렉터로 관리 대상 파드 식별
-- [Deployment](/knowledge/kubernetes/deployment/) - 셀렉터로 파드 세트 관리
+- [레이블 (Label)](/knowledge/kubernetes/label/) - 셀렉터가 필터링하는 대상
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 파드 셀렉터로 엔드포인트 결정
+- [필드 셀렉터 (Field Selector)](/knowledge/kubernetes/field-selector/) - 레이블이 아닌 오브젝트 필드로 필터링
+- [레플리카셋 (ReplicaSet)](/knowledge/kubernetes/replicaset/) - 셀렉터로 관리 대상 파드 식별
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - 셀렉터로 파드 세트 관리

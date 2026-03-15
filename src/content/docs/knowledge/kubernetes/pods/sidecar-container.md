@@ -1,5 +1,5 @@
 ---
-title: "Sidecar Container"
+title: "사이드카 컨테이너 (Sidecar Container)"
 description: "Sidecar Container는 Pod 내에서 주 컨테이너(primary container)의 기능을 보완하는 보조 컨테이너로, 오토바이의 사이드카처럼 주 프로세스와 함께 동작하면서 추가적인 기능을 제공한다"
 tags: ['Kubernetes', 'Pod', 'Sidecar', 'Container Pattern', 'Design Pattern']
 created: 2026-02-12
@@ -73,7 +73,7 @@ kubectl logs kiada-ssl --all-containers
 
 ## 관련 개념
 
-- [Pod](/knowledge/kubernetes/pod/) - 사이드카 컨테이너가 배치되는 기본 단위
-- [Container](/knowledge/kubernetes/container/) - 사이드카 패턴의 구성 요소
-- [Service](/knowledge/kubernetes/service/) - Pod의 여러 포트를 외부에 노출하는 방법
-- [Init Container](/knowledge/kubernetes/init-container/) - Pod 시작 시 실행되는 또 다른 보조 컨테이너 유형
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 사이드카 컨테이너가 배치되는 기본 단위
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - 사이드카 패턴의 구성 요소
+- [서비스 (Service)](/knowledge/kubernetes/service/) - Pod의 여러 포트를 외부에 노출하는 방법
+- [초기화 컨테이너 (Init Container)](/knowledge/kubernetes/init-container/) - Pod 시작 시 실행되는 또 다른 보조 컨테이너 유형

@@ -1,5 +1,5 @@
 ---
-title: "StorageClass"
+title: "스토리지클래스 (StorageClass)"
 description: "StorageClass는 클러스터에서 사용 가능한 스토리지의 \"클래스\"를 정의하는 Kubernetes 오브젝트로, 동적 프로비저닝 시 어떤 프로비저너와 파라미터를 사용하여 PersistentVolume을 생성할지 지정한다"
 tags: ['Kubernetes', 'Storage', 'Storage Class', 'Dynamic Provisioning', 'Abstraction']
 created: 2026-02-12
@@ -95,7 +95,7 @@ kubectl get sc
 
 ## 관련 개념
 
-- [Dynamic Provisioning](/knowledge/kubernetes/dynamic-provisioning/) - StorageClass를 기반으로 자동 PV 생성
-- [Volume Binding Mode](/knowledge/kubernetes/volume-binding-mode/) - StorageClass에서 설정하는 바인딩 시점
-- [Reclaim Policy](/knowledge/kubernetes/reclaim-policy/) - StorageClass에서 기본 회수 정책을 설정
-- [Annotation](/knowledge/kubernetes/annotation/) - 기본 스토리지 클래스를 지정하는 데 사용되는 메타데이터
+- [동적 프로비저닝 (Dynamic Provisioning)](/knowledge/kubernetes/dynamic-provisioning/) - StorageClass를 기반으로 자동 PV 생성
+- [볼륨 바인딩 모드 (Volume Binding Mode)](/knowledge/kubernetes/volume-binding-mode/) - StorageClass에서 설정하는 바인딩 시점
+- [반환 정책 (Reclaim Policy)](/knowledge/kubernetes/reclaim-policy/) - StorageClass에서 기본 회수 정책을 설정
+- [어노테이션 (Annotation)](/knowledge/kubernetes/annotation/) - 기본 스토리지 클래스를 지정하는 데 사용되는 메타데이터

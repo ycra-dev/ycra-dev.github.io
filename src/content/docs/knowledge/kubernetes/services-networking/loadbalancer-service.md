@@ -1,5 +1,5 @@
 ---
-title: "LoadBalancer Service"
+title: "로드밸런서 서비스 (LoadBalancer Service)"
 description: "LoadBalancer Service는 Kubernetes Service의 한 유형으로, 클라우드 인프라에 외부 로드 밸런서를 프로비저닝하여 애플리케이션을 공개 IP 주소를 통해 외부에 노출하는 방식이다"
 tags: ['Kubernetes', 'Service', 'Load Balancer', 'Cloud', 'Networking', 'External Access']
 created: 2026-02-12
@@ -105,10 +105,10 @@ spec:
 
 ## 관련 개념
 
-- [Service](/knowledge/kubernetes/service/) - LoadBalancer는 Service의 한 유형
-- [NodePort Service](/knowledge/kubernetes/nodeport-service/) - LoadBalancer의 기반 서비스 타입
-- [ClusterIP Service](/knowledge/kubernetes/clusterip-service/) - 내부 전용 서비스 타입
+- [서비스 (Service)](/knowledge/kubernetes/service/) - LoadBalancer는 Service의 한 유형
+- [노드포트 서비스 (NodePort Service)](/knowledge/kubernetes/nodeport-service/) - LoadBalancer의 기반 서비스 타입
+- [클러스터IP 서비스 (ClusterIP Service)](/knowledge/kubernetes/clusterip-service/) - 내부 전용 서비스 타입
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - 노드 내에서 Pod로 트래픽을 분산하는 컴포넌트
-- [Deployment](/knowledge/kubernetes/deployment/) - LoadBalancer Service가 expose하는 대상
-- [External Traffic Policy](/knowledge/kubernetes/external-traffic-policy/) - 트래픽 전달 정책
-- [Ingress Controller](/knowledge/kubernetes/ingress-controller/) - HTTP 수준의 외부 노출 대안
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - LoadBalancer Service가 expose하는 대상
+- [외부 트래픽 정책 (External Traffic Policy)](/knowledge/kubernetes/external-traffic-policy/) - 트래픽 전달 정책
+- [인그레스 컨트롤러 (Ingress Controller)](/knowledge/kubernetes/ingress-controller/) - HTTP 수준의 외부 노출 대안

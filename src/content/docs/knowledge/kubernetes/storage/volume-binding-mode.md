@@ -1,5 +1,5 @@
 ---
-title: "Volume Binding Mode"
+title: "볼륨 바인딩 모드 (Volume Binding Mode)"
 description: "Volume Binding Mode는 StorageClass에서 설정하는 필드로, PersistentVolumeClaim이 PersistentVolume에 바인딩되는 시점을 결정한다"
 tags: ['Kubernetes', 'Storage', 'Binding', 'Storage Class', 'Scheduling']
 created: 2026-02-12
@@ -73,6 +73,6 @@ kubectl get pvc quiz-data-default
 
 ## 관련 개념
 
-- [Dynamic Provisioning](/knowledge/kubernetes/dynamic-provisioning/) - 바인딩 모드가 프로비저닝 타이밍을 결정
-- [Local Persistent Volume](/knowledge/kubernetes/local-persistent-volume/) - WaitForFirstConsumer가 필수인 볼륨 유형
-- [Scheduler](/knowledge/kubernetes/scheduler/) - WaitForFirstConsumer에서 스케줄링과 바인딩이 연계
+- [동적 프로비저닝 (Dynamic Provisioning)](/knowledge/kubernetes/dynamic-provisioning/) - 바인딩 모드가 프로비저닝 타이밍을 결정
+- [로컬 퍼시스턴트볼륨 (Local Persistent Volume)](/knowledge/kubernetes/local-persistent-volume/) - WaitForFirstConsumer가 필수인 볼륨 유형
+- [쿠버네티스 스케줄러 (Kubernetes Scheduler)](/knowledge/kubernetes/scheduler/) - WaitForFirstConsumer에서 스케줄링과 바인딩이 연계

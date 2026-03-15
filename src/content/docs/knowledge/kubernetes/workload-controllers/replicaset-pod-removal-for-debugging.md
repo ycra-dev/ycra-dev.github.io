@@ -1,5 +1,5 @@
 ---
-title: "ReplicaSet Pod Removal for Debugging"
+title: "레플리카셋 파드 제거를 통한 디버깅 (ReplicaSet Pod Removal for Debugging)"
 description: "ReplicaSet에서 문제가 있는 Pod의 레이블을 변경하여 ReplicaSet의 관리 범위에서 분리하는 기법으로, 컨트롤러가 새 Pod를 자동 생성하면서 기존 문제 Pod를 디버깅용으로 보존할 수 있다"
 tags: ['Replicaset', 'Debugging', 'Label', 'Pod Management', 'Kubernetes']
 created: 2026-02-12
@@ -42,6 +42,6 @@ kubectl delete po kiada-78j7m
 
 ## 관련 개념
 
-- [ReplicaSet](/knowledge/kubernetes/replicaset/) - Pod 분리의 대상이 되는 컨트롤러
-- [Label](/knowledge/kubernetes/label/) - Pod 분리에 사용되는 메커니즘
-- [Readiness Probe](/knowledge/kubernetes/readiness-probe/) - 실패해도 Pod가 자동 교체되지 않는 관련 개념
+- [레플리카셋 (ReplicaSet)](/knowledge/kubernetes/replicaset/) - Pod 분리의 대상이 되는 컨트롤러
+- [레이블 (Label)](/knowledge/kubernetes/label/) - Pod 분리에 사용되는 메커니즘
+- [레디니스 프로브 (Readiness Probe)](/knowledge/kubernetes/readiness-probe/) - 실패해도 Pod가 자동 교체되지 않는 관련 개념

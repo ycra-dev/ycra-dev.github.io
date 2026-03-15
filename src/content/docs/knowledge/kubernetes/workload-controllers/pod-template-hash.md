@@ -1,5 +1,5 @@
 ---
-title: "Pod Template Hash"
+title: "파드 템플릿 해시 (Pod Template Hash)"
 description: "`pod-template-hash`는 Deployment가 생성하는 ReplicaSet과 Pod에 자동으로 추가되는 레이블로, Pod 템플릿의 내용에서 계산된 해시 값이며, 서로 다른 리비전의 ReplicaSet과 Pod를 구분하는 데 사용된다"
 tags: ['Deployment', 'Replicaset', 'Pod Template Hash', 'Label', 'Kubernetes']
 created: 2026-02-12
@@ -41,7 +41,7 @@ kubectl delete po -l 'app=kiada,rel=stable,!pod-template-hash'
 
 ## 관련 개념
 
-- [Deployment](/knowledge/kubernetes/deployment/) - pod-template-hash를 생성하는 오브젝트
-- [ReplicaSet](/knowledge/kubernetes/replicaset/) - 해시 값이 이름과 selector에 포함됨
-- [Label](/knowledge/kubernetes/label/) - pod-template-hash가 레이블로 저장됨
-- [Deployment Rollback](/knowledge/kubernetes/deployment-rollback/) - 이전 ReplicaSet의 해시로 리비전을 식별
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - pod-template-hash를 생성하는 오브젝트
+- [레플리카셋 (ReplicaSet)](/knowledge/kubernetes/replicaset/) - 해시 값이 이름과 selector에 포함됨
+- [레이블 (Label)](/knowledge/kubernetes/label/) - pod-template-hash가 레이블로 저장됨
+- [디플로이먼트 롤백 (Deployment Rollback)](/knowledge/kubernetes/deployment-rollback/) - 이전 ReplicaSet의 해시로 리비전을 식별

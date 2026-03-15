@@ -1,5 +1,5 @@
 ---
-title: "Deployment Rollback"
+title: "디플로이먼트 롤백 (Deployment Rollback)"
 description: "Deployment 롤백은 결함이 있는 버전의 배포를 이전 버전으로 되돌리는 기능으로, Deployment의 리비전 히스토리(이전 ReplicaSet들)를 활용하여 특정 리비전으로 복원할 수 있다"
 tags: ['Deployment', 'Rollback', 'Revision History', 'Kubernetes']
 created: 2026-02-12
@@ -47,6 +47,6 @@ kubectl get rs -o wide  # 이미지 태그로 버전 구분
 
 ## 관련 개념
 
-- [Deployment](/knowledge/kubernetes/deployment/) - 롤백 대상 오브젝트
-- [ReplicaSet](/knowledge/kubernetes/replicaset/) - 리비전 히스토리를 저장하는 오브젝트
-- [Readiness Probe](/knowledge/kubernetes/readiness-probe/) - 결함 있는 Pod 감지에 사용
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - 롤백 대상 오브젝트
+- [레플리카셋 (ReplicaSet)](/knowledge/kubernetes/replicaset/) - 리비전 히스토리를 저장하는 오브젝트
+- [레디니스 프로브 (Readiness Probe)](/knowledge/kubernetes/readiness-probe/) - 결함 있는 Pod 감지에 사용

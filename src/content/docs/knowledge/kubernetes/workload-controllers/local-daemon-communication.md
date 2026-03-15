@@ -1,5 +1,5 @@
 ---
-title: "Local Daemon Communication"
+title: "로컬 데몬 통신 (Local Daemon Communication)"
 description: "로컬 데몬 통신은 클라이언트 Pod가 동일한 노드에서 실행 중인 데몬 Pod에만 연결하도록 보장하는 패턴으로, hostPort, hostNetwork, 또는 internalTrafficPolicy가 Local인 Service를 통해 구현할 수 있다"
 tags: ['Daemonset', 'Service', 'Internal Traffic Policy', 'Host Port', 'Kubernetes']
 created: 2026-02-12
@@ -77,6 +77,6 @@ env:
 
 ## 관련 개념
 
-- [DaemonSet](/knowledge/kubernetes/daemonset/) - 데몬 Pod를 배포하는 오브젝트
+- [데몬셋 (DaemonSet)](/knowledge/kubernetes/daemonset/) - 데몬 Pod를 배포하는 오브젝트
 - [Downward API](/knowledge/kubernetes/downward-api/) - 노드 IP를 Pod에 전달하는 방법
-- [Host Network and Privileged Containers](/knowledge/kubernetes/host-network-and-privileged-containers/) - hostNetwork의 상세 설명
+- [호스트 네트워크와 특권 컨테이너 (Host Network and Privileged Containers)](/knowledge/kubernetes/host-network-and-privileged-containers/) - hostNetwork의 상세 설명

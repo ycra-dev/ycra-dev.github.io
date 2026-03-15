@@ -1,5 +1,5 @@
 ---
-title: "Object Manifest"
+title: "오브젝트 매니페스트 (Object Manifest)"
 description: "Object Manifest(객체 매니페스트)는 Kubernetes API 객체의 구조화된 텍스트 표현으로, YAML 또는 JSON 형식으로 작성된다"
 tags: ['Kubernetes', 'Manifest', 'YAML', 'JSON', 'API Object']
 created: 2026-02-12
@@ -88,8 +88,8 @@ $ kubectl explain node.status
 
 ## 관련 개념
 
-- [Kubernetes API](/knowledge/kubernetes/kubernetes-api/) - 매니페스트가 사용되는 API
-- [Spec and Status](/knowledge/kubernetes/spec-and-status/) - 매니페스트의 핵심 섹션
-- [Declarative Model](/knowledge/kubernetes/declarative-model/) - 매니페스트를 통한 선언적 설정
-- [Controller](/knowledge/kubernetes/controller/) - Spec을 읽고 Status를 작성하는 컴포넌트
+- [쿠버네티스 API (Kubernetes API)](/knowledge/kubernetes/kubernetes-api/) - 매니페스트가 사용되는 API
+- [스펙과 상태 (Spec and Status)](/knowledge/kubernetes/spec-and-status/) - 매니페스트의 핵심 섹션
+- [선언적 모델 (Declarative Model)](/knowledge/kubernetes/declarative-model/) - 매니페스트를 통한 선언적 설정
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - Spec을 읽고 Status를 작성하는 컴포넌트
 - [kubectl](/knowledge/kubernetes/kubectl/) - 매니페스트를 조회하고 적용하는 도구

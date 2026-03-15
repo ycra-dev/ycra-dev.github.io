@@ -1,5 +1,5 @@
 ---
-title: "StatefulSet At-Most-One Semantics"
+title: "스테이트풀셋 최대 하나 시맨틱스 (StatefulSet At-Most-One Semantics)"
 description: "StatefulSet의 at-most-one 보장은 동일한 정체성(이름, 스토리지)을 가진 두 개의 Pod가 동시에 실행되지 않도록 보장하는 메커니즘으로, 노드 장애 시 ReplicaSet과 다른 보수적인 대응 방식을 채택한다"
 tags: ['Statefulset', 'Node Failure', 'Consistency', 'Kubernetes']
 created: 2026-02-12
@@ -49,6 +49,6 @@ docker exec kind-worker2 ip link set eth0 up
 
 ## 관련 개념
 
-- [StatefulSet](/knowledge/kubernetes/statefulset/) - at-most-one 보장을 제공하는 오브젝트
-- [ReplicaSet Node Failure Handling](/knowledge/kubernetes/replicaset-node-failure-handling/) - ReplicaSet의 다른 노드 장애 처리 방식
+- [스테이트풀셋 (StatefulSet)](/knowledge/kubernetes/statefulset/) - at-most-one 보장을 제공하는 오브젝트
+- [레플리카셋 노드 장애 처리 (ReplicaSet Node Failure Handling)](/knowledge/kubernetes/replicaset-node-failure-handling/) - ReplicaSet의 다른 노드 장애 처리 방식
 - [Kubelet](/knowledge/kubernetes/kubelet/) - 노드 상태를 보고하는 에이전트

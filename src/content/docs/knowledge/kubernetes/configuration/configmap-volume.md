@@ -1,5 +1,5 @@
 ---
-title: "ConfigMap Volume"
+title: "컨피그맵 볼륨 (ConfigMap Volume)"
 description: "ConfigMap Volume은 ConfigMap의 키-값 쌍을 컨테이너의 파일 시스템에 파일로 마운트하는 Kubernetes 볼륨 타입으로, 대용량 설정 파일을 컨테이너에 주입하는 데 주로 사용된다"
 tags: ['Kubernetes', 'Volume', 'Configmap', 'Configuration', 'Filesystem']
 created: 2026-02-12
@@ -59,7 +59,7 @@ lrwxrwxrwx  envoy.yaml -> ..data/envoy.yaml
 
 ## 관련 개념
 
-- [ConfigMap](/knowledge/kubernetes/configmap/) - 이 볼륨의 데이터 소스
-- [Volume](/knowledge/kubernetes/volume/) - 볼륨의 기본 개념
-- [Projected Volume](/knowledge/kubernetes/projected-volume/) - 여러 소스를 결합하는 볼륨
-- [Secret](/knowledge/kubernetes/secret/) - 유사한 Secret Volume 타입 존재
+- [컨피그맵 (ConfigMap)](/knowledge/kubernetes/configmap/) - 이 볼륨의 데이터 소스
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - 볼륨의 기본 개념
+- [프로젝티드 볼륨 (Projected Volume)](/knowledge/kubernetes/projected-volume/) - 여러 소스를 결합하는 볼륨
+- [시크릿 (Secret)](/knowledge/kubernetes/secret/) - 유사한 Secret Volume 타입 존재

@@ -1,5 +1,5 @@
 ---
-title: "Post-Start Hook"
+title: "Post-Start 훅 (Post-Start Hook)"
 description: "Post-Start Hook은 컨테이너가 생성된 직후 실행되는 생명 주기 훅(lifecycle hook)으로, 메인 프로세스와 비동기적으로 실행되어 추가적인 초기화 작업이나 알림 기능을 수행한다"
 tags: ['Kubernetes', 'Lifecycle', 'Hook', 'Container', 'Initialization']
 created: 2026-02-12
@@ -72,8 +72,8 @@ lifecycle:
 
 ## 관련 개념
 
-- [Pre-Stop Hook](/knowledge/kubernetes/pre-stop-hook/) - 컨테이너 종료 직전에 실행되는 생명 주기 훅
-- [Init Container](/knowledge/kubernetes/init-container/) - Pod 수준의 초기화를 위한 또 다른 메커니즘
-- [Pod Phase](/knowledge/kubernetes/pod-phase/) - 훅 실행 중의 Pod 상태
-- [Restart Policy](/knowledge/kubernetes/restart-policy/) - 훅 실패 시 재시작 동작을 결정
-- [Container](/knowledge/kubernetes/container/) - 훅이 정의되는 대상
+- [Pre-Stop 훅 (Pre-Stop Hook)](/knowledge/kubernetes/pre-stop-hook/) - 컨테이너 종료 직전에 실행되는 생명 주기 훅
+- [초기화 컨테이너 (Init Container)](/knowledge/kubernetes/init-container/) - Pod 수준의 초기화를 위한 또 다른 메커니즘
+- [파드 페이즈 (Pod Phase)](/knowledge/kubernetes/pod-phase/) - 훅 실행 중의 Pod 상태
+- [재시작 정책 (Restart Policy)](/knowledge/kubernetes/restart-policy/) - 훅 실패 시 재시작 동작을 결정
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - 훅이 정의되는 대상

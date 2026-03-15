@@ -1,5 +1,5 @@
 ---
-title: "Job Completions and Parallelism"
+title: "잡 완료 횟수와 병렬성 (Job Completions and Parallelism)"
 description: "Job의 `completions`와 `parallelism` 필드는 작업이 몇 번 완료되어야 하는지, 그리고 동시에 몇 개의 Pod를 실행할 수 있는지를 제어하며, 이 두 필드의 조합으로 순차 실행, 병렬 실행, 워크 큐 처리 등 다양한 패턴을 구현할 수 있다"
 tags: ['Job', 'Parallelism', 'Completions', 'Batch Processing', 'Kubernetes']
 created: 2026-02-12
@@ -66,6 +66,6 @@ kubectl get po -l job-name=generate-responses
 
 ## 관련 개념
 
-- [Job](/knowledge/kubernetes/job/) - completions와 parallelism이 설정되는 오브젝트
-- [Job Failure Handling](/knowledge/kubernetes/job-failure-handling/) - 실패한 Pod가 completions 수에 미치는 영향
-- [Indexed Job Completion Mode](/knowledge/kubernetes/indexed-job-completion-mode/) - Pod별 고유 인덱스를 제공하는 모드
+- [잡 (Job)](/knowledge/kubernetes/job/) - completions와 parallelism이 설정되는 오브젝트
+- [잡 실패 처리 (Job Failure Handling)](/knowledge/kubernetes/job-failure-handling/) - 실패한 Pod가 completions 수에 미치는 영향
+- [인덱스드 잡 완료 모드 (Indexed Job Completion Mode)](/knowledge/kubernetes/indexed-job-completion-mode/) - Pod별 고유 인덱스를 제공하는 모드

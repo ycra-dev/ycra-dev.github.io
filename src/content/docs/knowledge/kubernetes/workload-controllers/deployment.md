@@ -1,5 +1,5 @@
 ---
-title: "Deployment"
+title: "디플로이먼트 (Deployment)"
 description: "Deployment는 Kubernetes에서 애플리케이션 배포를 나타내는 API 객체이다"
 tags: ['Kubernetes', 'Deployment', 'Application Management', 'Replica', 'Declarative', 'Workload', 'Stateless']
 created: 2026-02-12
@@ -95,12 +95,12 @@ kubectl create deployment my-app --image=my-image --dry-run=client -o yaml > dep
 
 ## 관련 개념
 
-- [Pod](/knowledge/kubernetes/pod/) - Deployment가 생성하고 관리하는 기본 단위
-- [Replica](/knowledge/kubernetes/replica/) - Deployment에서 관리하는 Pod 복제본
-- [Service](/knowledge/kubernetes/service/) - Deployment의 Pod를 외부에 노출하는 객체
-- [Horizontal Scaling](/knowledge/kubernetes/horizontal-scaling/) - Deployment를 통한 수평 확장
-- [Declarative Model](/knowledge/kubernetes/declarative-model/) - Deployment가 따르는 선언적 패턴
-- [Controller](/knowledge/kubernetes/controller/) - Deployment 객체를 관리하는 Deployment Controller
-- [ReplicaSet](/knowledge/kubernetes/replicaset/) - Deployment가 내부적으로 생성하고 관리하는 오브젝트
-- [Reconciliation Control Loop](/knowledge/kubernetes/reconciliation-control-loop/) - Deployment 컨트롤러의 작동 원리
-- [StatefulSet](/knowledge/kubernetes/statefulset/) - 상태 유지가 필요한 워크로드를 위한 대안
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - Deployment가 생성하고 관리하는 기본 단위
+- [레플리카 (Replica)](/knowledge/kubernetes/replica/) - Deployment에서 관리하는 Pod 복제본
+- [서비스 (Service)](/knowledge/kubernetes/service/) - Deployment의 Pod를 외부에 노출하는 객체
+- [수평 확장 (Horizontal Scaling)](/knowledge/kubernetes/horizontal-scaling/) - Deployment를 통한 수평 확장
+- [선언적 모델 (Declarative Model)](/knowledge/kubernetes/declarative-model/) - Deployment가 따르는 선언적 패턴
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - Deployment 객체를 관리하는 Deployment Controller
+- [레플리카셋 (ReplicaSet)](/knowledge/kubernetes/replicaset/) - Deployment가 내부적으로 생성하고 관리하는 오브젝트
+- [조정 제어 루프 (Reconciliation Control Loop)](/knowledge/kubernetes/reconciliation-control-loop/) - Deployment 컨트롤러의 작동 원리
+- [스테이트풀셋 (StatefulSet)](/knowledge/kubernetes/statefulset/) - 상태 유지가 필요한 워크로드를 위한 대안

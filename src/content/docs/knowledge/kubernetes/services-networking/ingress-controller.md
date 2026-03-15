@@ -1,5 +1,5 @@
 ---
-title: "Ingress Controller"
+title: "인그레스 컨트롤러 (Ingress Controller)"
 description: "Ingress Controller는 Kubernetes API를 감시하여 Ingress, Service, Endpoints 오브젝트의 변경을 감지하고, 이를 기반으로 L7 로드 밸런서(리버스 프록시)를 프로비저닝하고 설정하는 클러스터 애드온 컴포넌트이다"
 tags: ['Kubernetes', 'Ingress Controller', 'Nginx', 'Reverse Proxy', 'Networking']
 created: 2026-02-12
@@ -51,8 +51,8 @@ Events:
 
 ## 관련 개념
 
-- [Ingress](/knowledge/kubernetes/ingress/) - Controller가 처리하는 API 오브젝트
-- [IngressClass](/knowledge/kubernetes/ingressclass/) - 어떤 Controller가 Ingress를 처리할지 결정
-- [Controller](/knowledge/kubernetes/controller/) - Kubernetes의 일반적인 컨트롤러 패턴
-- [LoadBalancer Service](/knowledge/kubernetes/loadbalancer-service/) - 프록시를 외부에 노출하는 방법
-- [Service](/knowledge/kubernetes/service/) - Controller가 참조하는 백엔드 정보
+- [인그레스 (Ingress)](/knowledge/kubernetes/ingress/) - Controller가 처리하는 API 오브젝트
+- [인그레스클래스 (IngressClass)](/knowledge/kubernetes/ingressclass/) - 어떤 Controller가 Ingress를 처리할지 결정
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - Kubernetes의 일반적인 컨트롤러 패턴
+- [로드밸런서 서비스 (LoadBalancer Service)](/knowledge/kubernetes/loadbalancer-service/) - 프록시를 외부에 노출하는 방법
+- [서비스 (Service)](/knowledge/kubernetes/service/) - Controller가 참조하는 백엔드 정보

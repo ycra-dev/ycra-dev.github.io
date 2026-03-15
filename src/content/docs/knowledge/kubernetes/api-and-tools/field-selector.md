@@ -1,5 +1,5 @@
 ---
-title: "Field Selector"
+title: "필드 셀렉터 (Field Selector)"
 description: "Field Selector(필드 선택기)는 Kubernetes API에서 특정 필드 값을 기준으로 객체를 필터링하는 메커니즘이다"
 tags: ['Kubernetes', 'Field Selector', 'Filtering', 'API', 'Kubectl']
 created: 2026-02-12
@@ -87,9 +87,9 @@ kubectl get pods --field-selector status.phase!=Running --all-namespaces
 
 ## 관련 개념
 
-- [Kubernetes API](/knowledge/kubernetes/kubernetes-api/) - Field Selector가 적용되는 API
-- [Event Object](/knowledge/kubernetes/event-object/) - Field Selector로 Warning 이벤트를 필터링하는 대표적 사례
+- [쿠버네티스 API (Kubernetes API)](/knowledge/kubernetes/kubernetes-api/) - Field Selector가 적용되는 API
+- [이벤트 객체 (Event Object)](/knowledge/kubernetes/event-object/) - Field Selector로 Warning 이벤트를 필터링하는 대표적 사례
 - [kubectl](/knowledge/kubernetes/kubectl/) - Field Selector를 사용하는 CLI 도구
-- [Object Manifest](/knowledge/kubernetes/object-manifest/) - 필터링 대상이 되는 객체의 필드 구조
-- [Label Selector](/knowledge/kubernetes/label-selector/) - 레이블 기반 필터링 (Field Selector와 대비)
-- [Annotation](/knowledge/kubernetes/annotation/) - Field Selector로 필터링할 수 없는 메타데이터
+- [오브젝트 매니페스트 (Object Manifest)](/knowledge/kubernetes/object-manifest/) - 필터링 대상이 되는 객체의 필드 구조
+- [레이블 셀렉터 (Label Selector)](/knowledge/kubernetes/label-selector/) - 레이블 기반 필터링 (Field Selector와 대비)
+- [어노테이션 (Annotation)](/knowledge/kubernetes/annotation/) - Field Selector로 필터링할 수 없는 메타데이터

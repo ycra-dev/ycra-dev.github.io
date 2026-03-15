@@ -1,5 +1,5 @@
 ---
-title: "Headless Service for StatefulSet"
+title: "스테이트풀셋을 위한 헤드리스 서비스 (Headless Service for StatefulSet)"
 description: "StatefulSet과 연결된 Headless Service는 각 Pod에 개별 DNS 레코드를 생성하여 안정적인 네트워크 정체성을 부여하는 서비스로, ClusterIP가 None으로 설정되며 개별 Pod의 IP 주소를 직접 해석(resolve)할 수 있게 한다"
 tags: ['Headless Service', 'Statefulset', 'DNS', 'Service Discovery', 'Kubernetes']
 created: 2026-02-12
@@ -58,6 +58,6 @@ nslookup -type=SRV _mongodb._tcp.quiz-pods.kiada.svc.cluster.local
 
 ## 관련 개념
 
-- [StatefulSet](/knowledge/kubernetes/statefulset/) - headless Service와 반드시 결합하는 오브젝트
-- [ClusterIP](/knowledge/kubernetes/clusterip-service/) - headless Service는 ClusterIP가 None
-- [Endpoints](/knowledge/kubernetes/endpoints-object/) - headless Service의 엔드포인트는 개별 Pod IP
+- [스테이트풀셋 (StatefulSet)](/knowledge/kubernetes/statefulset/) - headless Service와 반드시 결합하는 오브젝트
+- [클러스터IP 서비스 (ClusterIP Service)](/knowledge/kubernetes/clusterip-service/) - headless Service는 ClusterIP가 None
+- [엔드포인트 오브젝트 (Endpoints Object)](/knowledge/kubernetes/endpoints-object/) - headless Service의 엔드포인트는 개별 Pod IP

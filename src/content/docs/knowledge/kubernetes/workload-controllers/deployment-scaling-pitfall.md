@@ -1,5 +1,5 @@
 ---
-title: "Deployment Scaling Pitfall"
+title: "디플로이먼트 스케일링 함정 (Deployment Scaling Pitfall)"
 description: "Deployment 매니페스트를 재적용할 때 `replicas` 필드가 포함되어 있으면 현재 스케일 설정을 의도치 않게 덮어쓸 수 있는 문제로, 프로덕션 환경에서 서비스 장애를 유발할 수 있다"
 tags: ['Deployment', 'Scaling', 'Kubectl Apply', 'Kubernetes']
 created: 2026-02-12
@@ -46,6 +46,6 @@ kubectl apply edit-last-applied deploy kiada
 
 ## 관련 개념
 
-- [Deployment](/knowledge/kubernetes/deployment/) - 스케일링 함정이 발생하는 대상
-- [Horizontal Scaling](/knowledge/kubernetes/horizontal-scaling/) - 자동 스케일링으로 이 문제를 완화할 수 있음
-- [Declarative Model](/knowledge/kubernetes/declarative-model/) - kubectl apply의 선언적 모델이 원인
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - 스케일링 함정이 발생하는 대상
+- [수평 확장 (Horizontal Scaling)](/knowledge/kubernetes/horizontal-scaling/) - 자동 스케일링으로 이 문제를 완화할 수 있음
+- [선언적 모델 (Declarative Model)](/knowledge/kubernetes/declarative-model/) - kubectl apply의 선언적 모델이 원인

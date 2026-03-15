@@ -1,5 +1,5 @@
 ---
-title: "Ingress Path Routing"
+title: "인그레스 경로 라우팅 (Ingress Path Routing)"
 description: "Ingress Path Routing은 HTTP 요청의 URL 경로를 기준으로 서로 다른 백엔드 서비스로 트래픽을 라우팅하는 Ingress 규칙으로, `Exact`, `Prefix`, `ImplementationSpecific` 세 가지 경로 매칭 타입을 지원한다"
 tags: ['Kubernetes', 'Ingress', 'Routing', 'Path Matching', 'HTTP']
 created: 2026-02-12
@@ -65,7 +65,7 @@ curl --resolve api.example.com:80:11.22.33.44 api.example.com/questions/random
 
 ## 관련 개념
 
-- [Ingress](/knowledge/kubernetes/ingress/) - 경로 라우팅이 정의되는 오브젝트
-- [Service](/knowledge/kubernetes/service/) - 라우팅의 대상 백엔드
-- [Ingress Controller](/knowledge/kubernetes/ingress-controller/) - 라우팅 규칙을 프록시에 적용
-- [Ingress TLS](/knowledge/kubernetes/ingress-tls/) - HTTPS와 함께 사용되는 경로 라우팅
+- [인그레스 (Ingress)](/knowledge/kubernetes/ingress/) - 경로 라우팅이 정의되는 오브젝트
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 라우팅의 대상 백엔드
+- [인그레스 컨트롤러 (Ingress Controller)](/knowledge/kubernetes/ingress-controller/) - 라우팅 규칙을 프록시에 적용
+- [인그레스 TLS (Ingress TLS)](/knowledge/kubernetes/ingress-tls/) - HTTPS와 함께 사용되는 경로 라우팅

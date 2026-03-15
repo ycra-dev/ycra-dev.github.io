@@ -56,6 +56,6 @@ kubectl get deploy kiada
 
 ## 관련 개념
 
-- [Readiness Probe](/knowledge/kubernetes/readiness-probe/) - available 판단의 전제 조건
-- [Deployment](/knowledge/kubernetes/deployment/) - minReadySeconds 필드가 정의되는 오브젝트
-- [Deployment Rollback](/knowledge/kubernetes/deployment-rollback/) - 결함 감지 시 롤백과 연계
+- [레디니스 프로브 (Readiness Probe)](/knowledge/kubernetes/readiness-probe/) - available 판단의 전제 조건
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - minReadySeconds 필드가 정의되는 오브젝트
+- [디플로이먼트 롤백 (Deployment Rollback)](/knowledge/kubernetes/deployment-rollback/) - 결함 감지 시 롤백과 연계

@@ -1,5 +1,5 @@
 ---
-title: "Container Command and Args"
+title: "컨테이너 커맨드와 인자 (Container Command and Args)"
 description: "Kubernetes에서 `command`와 `args` 필드는 Dockerfile의 `ENTRYPOINT`와 `CMD`에 대응하며, 컨테이너 이미지를 재빌드하지 않고도 파드 매니페스트에서 실행 명령어와 인자를 오버라이드할 수 있다"
 tags: ['Kubernetes', 'Container', 'Command', 'Args', 'Entrypoint']
 created: 2026-02-12
@@ -64,6 +64,6 @@ containers:
 
 ## 관련 개념
 
-- [Container](/knowledge/kubernetes/container/) - 명령어가 실행되는 단위
-- [Container Image](/knowledge/kubernetes/container-image/) - 기본 ENTRYPOINT와 CMD가 정의되는 곳
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - 명령어가 실행되는 단위
+- [컨테이너 이미지 (Container Image)](/knowledge/kubernetes/container-image/) - 기본 ENTRYPOINT와 CMD가 정의되는 곳
 - [Dockerfile](/knowledge/kubernetes/dockerfile/) - 이미지 레벨의 명령어 설정

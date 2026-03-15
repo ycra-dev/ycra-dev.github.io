@@ -1,5 +1,5 @@
 ---
-title: "Container Logging"
+title: "컨테이너 로깅 (Container Logging)"
 description: "Container Logging은 컨테이너화된 애플리케이션이 표준 출력(stdout)과 표준 에러(stderr)에 쓰는 로그를 컨테이너 런타임이 캡처하여 저장하고, `kubectl logs` 명령으로 조회할 수 있게 하는 메커니즘이다"
 tags: ['Kubernetes', 'Logging', 'Container', 'Kubectl', 'Observability']
 created: 2026-02-12
@@ -79,7 +79,7 @@ kubectl logs kiada-ssl -c envoy
 
 ## 관련 개념
 
-- [Pod](/knowledge/kubernetes/pod/) - 로그가 수집되는 대상 리소스
-- [Container](/knowledge/kubernetes/container/) - 실제 로그를 생성하는 실행 단위
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 로그가 수집되는 대상 리소스
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - 실제 로그를 생성하는 실행 단위
 - [kubectl](/knowledge/kubernetes/kubectl/) - 로그 조회에 사용되는 CLI 도구
-- [Sidecar Container](/knowledge/kubernetes/sidecar-container/) - 로그 수집/회전을 위한 사이드카 패턴 활용
+- [사이드카 컨테이너 (Sidecar Container)](/knowledge/kubernetes/sidecar-container/) - 로그 수집/회전을 위한 사이드카 패턴 활용

@@ -1,5 +1,5 @@
 ---
-title: "Container Port"
+title: "컨테이너 포트 (Container Port)"
 description: "Container Port는 Pod 매니페스트에서 컨테이너가 수신 대기하는 네트워크 포트를 선언하는 필드로, 순전히 정보 제공 목적이지만 서비스를 통한 노출 시 포트 이름 참조에 활용된다"
 tags: ['Kubernetes', 'Pod', 'Container', 'Port', 'Networking']
 created: 2026-02-12
@@ -57,7 +57,7 @@ livenessProbe:
 
 ## 관련 개념
 
-- [Pod](/knowledge/kubernetes/pod/) - 포트가 정의되는 리소스
-- [Pod Networking](/knowledge/kubernetes/pod-networking/) - 포트 공간 공유의 기본이 되는 네트워크 구조
-- [Service](/knowledge/kubernetes/service/) - 포트 이름을 활용하여 Pod를 외부에 노출
-- [Liveness Probe](/knowledge/kubernetes/liveness-probe/) - 포트 이름 또는 번호를 사용하여 컨테이너 상태를 확인
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 포트가 정의되는 리소스
+- [파드 네트워킹 (Pod Networking)](/knowledge/kubernetes/pod-networking/) - 포트 공간 공유의 기본이 되는 네트워크 구조
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 포트 이름을 활용하여 Pod를 외부에 노출
+- [라이브니스 프로브 (Liveness Probe)](/knowledge/kubernetes/liveness-probe/) - 포트 이름 또는 번호를 사용하여 컨테이너 상태를 확인

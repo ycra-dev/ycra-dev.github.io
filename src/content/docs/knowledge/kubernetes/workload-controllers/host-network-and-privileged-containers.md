@@ -1,5 +1,5 @@
 ---
-title: "Host Network and Privileged Containers"
+title: "호스트 네트워크와 특권 컨테이너 (Host Network and Privileged Containers)"
 description: "DaemonSet Pod는 노드의 리소스에 대한 특별한 접근이 필요할 수 있으며, `hostNetwork`, `hostPort`, `privileged` 설정, 그리고 capabilities를 통해 노드의 네트워크, 파일시스템, 커널에 대한 접근 수준을 제어할 수 있다"
 tags: ['Daemonset', 'Host Network', 'Privileged', 'Security Context', 'Kubernetes']
 created: 2026-02-12
@@ -87,6 +87,6 @@ containers:
 
 ## 관련 개념
 
-- [DaemonSet](/knowledge/kubernetes/daemonset/) - 호스트 리소스 접근이 필요한 워크로드를 배포
-- [Linux Namespaces](/knowledge/kubernetes/linux-namespaces/) - Pod 격리의 기반이 되는 기술
+- [데몬셋 (DaemonSet)](/knowledge/kubernetes/daemonset/) - 호스트 리소스 접근이 필요한 워크로드를 배포
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/kubernetes/linux-namespaces/) - Pod 격리의 기반이 되는 기술
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - privileged와 hostNetwork를 사용하는 대표 데몬

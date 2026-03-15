@@ -1,5 +1,5 @@
 ---
-title: "Pod Ownership and Garbage Collection"
+title: "파드 소유권과 가비지 컬렉션 (Pod Ownership and Garbage Collection)"
 description: "Kubernetes에서 소유권(ownership)은 오브젝트 간의 종속 관계를 나타내며, 소유자(owner) 오브젝트가 삭제되면 가비지 컬렉터(garbage collector)가 종속(dependent) 오브젝트를 자동으로 삭제하는 메커니즘이다"
 tags: ['Ownership', 'Garbage Collection', 'Owner References', 'Kubernetes']
 created: 2026-02-12
@@ -43,7 +43,7 @@ kubectl delete rs kiada --cascade=orphan
 
 ## 관련 개념
 
-- [ReplicaSet](/knowledge/kubernetes/replicaset/) - Pod의 소유자 역할을 하는 대표적 오브젝트
-- [Deployment](/knowledge/kubernetes/deployment/) - ReplicaSet의 소유자이며, 삭제 시 연쇄 삭제 발생
-- [Controller](/knowledge/kubernetes/controller/) - ownerReferences에서 controller 필드로 지정
-- [Spec and Status](/knowledge/kubernetes/spec-and-status/) - 소유권은 metadata에 기록됨
+- [레플리카셋 (ReplicaSet)](/knowledge/kubernetes/replicaset/) - Pod의 소유자 역할을 하는 대표적 오브젝트
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - ReplicaSet의 소유자이며, 삭제 시 연쇄 삭제 발생
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - ownerReferences에서 controller 필드로 지정
+- [스펙과 상태 (Spec and Status)](/knowledge/kubernetes/spec-and-status/) - 소유권은 metadata에 기록됨

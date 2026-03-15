@@ -1,5 +1,5 @@
 ---
-title: "Ingress Annotations Configuration"
+title: "인그레스 어노테이션 설정 (Ingress Annotations Configuration)"
 description: "Ingress Annotations Configuration은 Ingress 오브젝트의 표준 스펙으로 표현할 수 없는 컨트롤러별 고급 설정(세션 어피니티, URL 재작성, CORS, HTTP 인증 등)을 어노테이션을 통해 전달하는 방법이다"
 tags: ['Kubernetes', 'Ingress', 'Annotations', 'Nginx', 'Configuration']
 created: 2026-02-12
@@ -77,8 +77,8 @@ metadata:
 
 ## 관련 개념
 
-- [Ingress](/knowledge/kubernetes/ingress/) - 어노테이션이 부착되는 오브젝트
-- [Ingress Controller](/knowledge/kubernetes/ingress-controller/) - 어노테이션을 해석하고 적용하는 주체
-- [Annotation](/knowledge/kubernetes/annotation/) - Kubernetes의 일반적인 어노테이션 메커니즘
-- [Session Affinity](/knowledge/kubernetes/session-affinity/) - 어노테이션으로 설정하는 대표적 기능
-- [IngressClass](/knowledge/kubernetes/ingressclass/) - 커스텀 파라미터를 통한 또 다른 설정 방법
+- [인그레스 (Ingress)](/knowledge/kubernetes/ingress/) - 어노테이션이 부착되는 오브젝트
+- [인그레스 컨트롤러 (Ingress Controller)](/knowledge/kubernetes/ingress-controller/) - 어노테이션을 해석하고 적용하는 주체
+- [어노테이션 (Annotation)](/knowledge/kubernetes/annotation/) - Kubernetes의 일반적인 어노테이션 메커니즘
+- [세션 어피니티 (Session Affinity)](/knowledge/kubernetes/session-affinity/) - 어노테이션으로 설정하는 대표적 기능
+- [인그레스클래스 (IngressClass)](/knowledge/kubernetes/ingressclass/) - 커스텀 파라미터를 통한 또 다른 설정 방법

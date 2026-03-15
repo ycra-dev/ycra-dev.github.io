@@ -1,5 +1,5 @@
 ---
-title: "Startup Probe"
+title: "스타트업 프로브 (Startup Probe)"
 description: "Startup Probe는 컨테이너 내 애플리케이션이 완전히 시작되었는지 확인하는 프로브로, 시작에 오랜 시간이 걸리는 애플리케이션이 Liveness Probe에 의해 조기 재시작되는 것을 방지한다"
 tags: ['Kubernetes', 'Health Check', 'Startup', 'Probe', 'Container']
 created: 2026-02-12
@@ -57,8 +57,8 @@ containers:
 
 ## 관련 개념
 
-- [Liveness Probe](/knowledge/kubernetes/liveness-probe/) - Startup Probe 성공 후 전환되는 상시 헬스 체크
-- [Restart Policy](/knowledge/kubernetes/restart-policy/) - 프로브 실패 시 재시작 동작을 결정
-- [Pod Phase](/knowledge/kubernetes/pod-phase/) - 프로브 결과에 따른 Pod 상태 변화
-- [Init Container](/knowledge/kubernetes/init-container/) - 또 다른 시작 지연 메커니즘
-- [Pod](/knowledge/kubernetes/pod/) - 프로브가 정의되는 리소스
+- [라이브니스 프로브 (Liveness Probe)](/knowledge/kubernetes/liveness-probe/) - Startup Probe 성공 후 전환되는 상시 헬스 체크
+- [재시작 정책 (Restart Policy)](/knowledge/kubernetes/restart-policy/) - 프로브 실패 시 재시작 동작을 결정
+- [파드 페이즈 (Pod Phase)](/knowledge/kubernetes/pod-phase/) - 프로브 결과에 따른 Pod 상태 변화
+- [초기화 컨테이너 (Init Container)](/knowledge/kubernetes/init-container/) - 또 다른 시작 지연 메커니즘
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 프로브가 정의되는 리소스

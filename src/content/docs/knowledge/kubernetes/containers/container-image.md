@@ -1,5 +1,5 @@
 ---
-title: "Container Image"
+title: "컨테이너 이미지 (Container Image)"
 description: "컨테이너 이미지는 애플리케이션과 그 환경(라이브러리, 의존성, OS 파일시스템 전체)을 하나의 휴대 가능한 패키지로 묶은 것이다"
 tags: ['Container', 'Image', 'Docker', 'Packaging', 'Distribution']
 created: 2026-02-12
@@ -58,8 +58,8 @@ $ docker rmi kiada:latest
 
 ## 관련 개념
 
-- [Container](/knowledge/kubernetes/container/) - 이미지로부터 생성되는 실행 인스턴스
-- [Container Registry](/knowledge/kubernetes/container-registry/) - 이미지가 저장되고 배포되는 저장소
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - 이미지로부터 생성되는 실행 인스턴스
+- [컨테이너 레지스트리 (Container Registry)](/knowledge/kubernetes/container-registry/) - 이미지가 저장되고 배포되는 저장소
 - [Dockerfile](/knowledge/kubernetes/dockerfile/) - 이미지를 빌드하기 위한 명세 파일
-- [Image Layer](/knowledge/kubernetes/image-layer/) - 이미지를 구성하는 레이어 구조
+- [이미지 레이어 (Image Layer)](/knowledge/kubernetes/image-layer/) - 이미지를 구성하는 레이어 구조
 - [Copy-on-Write](/knowledge/kubernetes/copy-on-write/) - 이미지 레이어의 읽기 전용 특성과 관련된 메커니즘

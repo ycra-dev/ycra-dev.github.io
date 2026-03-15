@@ -1,5 +1,5 @@
 ---
-title: "Replica"
+title: "레플리카 (Replica)"
 description: "Replica(복제본)는 동일한 Pod 템플릿에서 생성된 Pod의 각 인스턴스를 의미한다"
 tags: ['Kubernetes', 'Replica', 'Scaling', 'Availability', 'Deployment']
 created: 2026-02-12
@@ -72,8 +72,8 @@ Controller: 현재 Pod 1개 -> 원하는 Pod 3개 -> 2개 추가 생성
 
 ## 관련 개념
 
-- [Deployment](/knowledge/kubernetes/deployment/) - Replica 수를 관리하는 상위 객체
-- [Pod](/knowledge/kubernetes/pod/) - 각 Replica가 나타내는 실행 단위
-- [Horizontal Scaling](/knowledge/kubernetes/horizontal-scaling/) - Replica 수 조정을 통한 수평 확장
-- [Service](/knowledge/kubernetes/service/) - 여러 Replica에 대한 로드 밸런싱 제공
-- [Declarative Model](/knowledge/kubernetes/declarative-model/) - Replica 수의 선언적 관리
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - Replica 수를 관리하는 상위 객체
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 각 Replica가 나타내는 실행 단위
+- [수평 확장 (Horizontal Scaling)](/knowledge/kubernetes/horizontal-scaling/) - Replica 수 조정을 통한 수평 확장
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 여러 Replica에 대한 로드 밸런싱 제공
+- [선언적 모델 (Declarative Model)](/knowledge/kubernetes/declarative-model/) - Replica 수의 선언적 관리

@@ -1,5 +1,5 @@
 ---
-title: "NodePort"
+title: "노드포트 (NodePort)"
 description: "NodePort는 Kubernetes Service의 한 유형이자 메커니즘으로, 클러스터의 모든 워커 노드에서 특정 포트를 열어 외부 트래픽이 Service에 접근할 수 있게 한다"
 tags: ['Kubernetes', 'Service', 'Networking', 'Node Port', 'External Access']
 created: 2026-02-12
@@ -68,7 +68,7 @@ Service (kiada)  --> 로드 밸런싱
 
 ## 관련 개념
 
-- [Service](/knowledge/kubernetes/service/) - NodePort는 Service의 한 유형/메커니즘
-- [LoadBalancer Service](/knowledge/kubernetes/loadbalancer-service/) - NodePort를 내부적으로 사용하는 상위 Service 유형
+- [서비스 (Service)](/knowledge/kubernetes/service/) - NodePort는 Service의 한 유형/메커니즘
+- [로드밸런서 서비스 (LoadBalancer Service)](/knowledge/kubernetes/loadbalancer-service/) - NodePort를 내부적으로 사용하는 상위 Service 유형
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - NodePort에서 Pod로의 트래픽 라우팅을 담당
-- [Pod](/knowledge/kubernetes/pod/) - NodePort를 통해 접근되는 최종 대상
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - NodePort를 통해 접근되는 최종 대상

@@ -74,7 +74,7 @@ RUN curl -o /data/large-file.dat ... && \
 
 ## 관련 개념
 
-- [Image Layer](/knowledge/kubernetes/image-layer/) - CoW가 적용되는 읽기 전용 레이어
-- [Container Image](/knowledge/kubernetes/container-image/) - CoW 메커니즘의 기반이 되는 이미지
-- [Container](/knowledge/kubernetes/container/) - 각 컨테이너가 자체 R/W 레이어를 소유
+- [이미지 레이어 (Image Layer)](/knowledge/kubernetes/image-layer/) - CoW가 적용되는 읽기 전용 레이어
+- [컨테이너 이미지 (Container Image)](/knowledge/kubernetes/container-image/) - CoW 메커니즘의 기반이 되는 이미지
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - 각 컨테이너가 자체 R/W 레이어를 소유
 - [Dockerfile](/knowledge/kubernetes/dockerfile/) - 레이어 생성에 영향을 미치는 빌드 명세

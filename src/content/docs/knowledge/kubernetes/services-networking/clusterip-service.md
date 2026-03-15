@@ -1,5 +1,5 @@
 ---
-title: "ClusterIP Service"
+title: "클러스터IP 서비스 (ClusterIP Service)"
 description: "ClusterIP Service는 Kubernetes의 기본 서비스 타입으로, 클러스터 내부에서만 접근 가능한 안정적인 가상 IP 주소를 제공하여 여러 파드에 대한 로드 밸런싱과 서비스 디스커버리를 수행한다"
 tags: ['Kubernetes', 'Service', 'Clusterip', 'Networking', 'Internal']
 created: 2026-02-12
@@ -63,9 +63,9 @@ kubectl exec -it quote-001 -c nginx -- ping quiz
 
 ## 관련 개념
 
-- [Service](/knowledge/kubernetes/service/) - 서비스의 상위 개념
-- [NodePort Service](/knowledge/kubernetes/nodeport-service/) - 외부 접근을 추가로 제공하는 서비스 타입
-- [LoadBalancer Service](/knowledge/kubernetes/loadbalancer-service/) - 외부 로드 밸런서를 프로비저닝하는 서비스 타입
-- [Headless Service](/knowledge/kubernetes/headless-service/) - ClusterIP가 없는 특수한 서비스
-- [Label Selector](/knowledge/kubernetes/label-selector/) - 백엔드 파드를 결정하는 메커니즘
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 서비스의 상위 개념
+- [노드포트 서비스 (NodePort Service)](/knowledge/kubernetes/nodeport-service/) - 외부 접근을 추가로 제공하는 서비스 타입
+- [로드밸런서 서비스 (LoadBalancer Service)](/knowledge/kubernetes/loadbalancer-service/) - 외부 로드 밸런서를 프로비저닝하는 서비스 타입
+- [헤드리스 서비스 (Headless Service)](/knowledge/kubernetes/headless-service/) - ClusterIP가 없는 특수한 서비스
+- [레이블 셀렉터 (Label Selector)](/knowledge/kubernetes/label-selector/) - 백엔드 파드를 결정하는 메커니즘
 - [Kube Proxy](/knowledge/kubernetes/kube-proxy/) - 서비스의 네트워크 규칙을 관리하는 컴포넌트

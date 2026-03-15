@@ -1,5 +1,5 @@
 ---
-title: "Recreate Strategy"
+title: "Recreate 전략 (Recreate Strategy)"
 description: "Recreate 전략은 Deployment의 업데이트 전략 중 하나로, 모든 기존 Pod를 동시에 삭제한 후 새 버전의 Pod를 동시에 생성하는 방식이며, 업데이트 중 서비스가 일시적으로 중단된다"
 tags: ['Deployment', 'Update Strategy', 'Recreate', 'Kubernetes']
 created: 2026-02-12
@@ -48,5 +48,5 @@ kubectl set image deployment kiada kiada=luksa/kiada:0.6
 
 ## 관련 개념
 
-- [Deployment](/knowledge/kubernetes/deployment/) - Recreate 전략이 적용되는 오브젝트
-- [ReplicaSet](/knowledge/kubernetes/replicaset/) - Deployment가 내부적으로 ReplicaSet을 조작하여 전략 수행
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - Recreate 전략이 적용되는 오브젝트
+- [레플리카셋 (ReplicaSet)](/knowledge/kubernetes/replicaset/) - Deployment가 내부적으로 ReplicaSet을 조작하여 전략 수행

@@ -1,5 +1,5 @@
 ---
-title: "Namespace Isolation"
+title: "네임스페이스 격리 (Namespace Isolation)"
 description: "Kubernetes에서 Namespace는 이름 범위 격리만 제공하며, 기본적으로 런타임 격리나 네트워크 격리를 제공하지 않는다"
 tags: ['Kubernetes', 'Namespace', 'Isolation', 'Security', 'Network Policy']
 created: 2026-02-12
@@ -57,7 +57,7 @@ kubectl get pods -A -o wide
 
 ## 관련 개념
 
-- [Namespace](/knowledge/kubernetes/namespace/) - 격리의 기본 단위
-- [Linux Namespaces](/knowledge/kubernetes/linux-namespaces/) - OS 수준의 프로세스 격리 (Kubernetes Namespace와 다름)
-- [Cgroups](/knowledge/kubernetes/cgroups/) - 컨테이너의 리소스 제한 메커니즘
-- [Pod](/knowledge/kubernetes/pod/) - 네임스페이스에 속하는 워크로드 단위
+- [네임스페이스 (Namespace)](/knowledge/kubernetes/namespace/) - 격리의 기본 단위
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/kubernetes/linux-namespaces/) - OS 수준의 프로세스 격리 (Kubernetes Namespace와 다름)
+- [Cgroups (컨트롤 그룹)](/knowledge/kubernetes/cgroups/) - 컨테이너의 리소스 제한 메커니즘
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 네임스페이스에 속하는 워크로드 단위

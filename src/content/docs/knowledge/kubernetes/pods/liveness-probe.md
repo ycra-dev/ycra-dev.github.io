@@ -1,5 +1,5 @@
 ---
-title: "Liveness Probe"
+title: "라이브니스 프로브 (Liveness Probe)"
 description: "Liveness Probe는 컨테이너 내 애플리케이션이 정상적으로 동작하고 있는지 주기적으로 확인하는 메커니즘으로, 프로브가 실패하면 컨테이너를 비정상으로 판단하여 재시작한다"
 tags: ['Kubernetes', 'Health Check', 'Liveness', 'Probe', 'Container', 'Resilience']
 created: 2026-02-12
@@ -93,8 +93,8 @@ livenessProbe:
 
 ## 관련 개념
 
-- [Startup Probe](/knowledge/kubernetes/startup-probe/) - 시작이 느린 애플리케이션을 위한 보완적 프로브
-- [Restart Policy](/knowledge/kubernetes/restart-policy/) - 프로브 실패 시 컨테이너 재시작 동작을 결정
-- [Pod Conditions](/knowledge/kubernetes/pod-conditions/) - 프로브 결과가 반영되는 Pod 상태 조건
-- [Container Port](/knowledge/kubernetes/container-port/) - 프로브 대상이 되는 포트 정의
-- [Pod](/knowledge/kubernetes/pod/) - 프로브가 정의되는 리소스
+- [스타트업 프로브 (Startup Probe)](/knowledge/kubernetes/startup-probe/) - 시작이 느린 애플리케이션을 위한 보완적 프로브
+- [재시작 정책 (Restart Policy)](/knowledge/kubernetes/restart-policy/) - 프로브 실패 시 컨테이너 재시작 동작을 결정
+- [파드 컨디션 (Pod Conditions)](/knowledge/kubernetes/pod-conditions/) - 프로브 결과가 반영되는 Pod 상태 조건
+- [컨테이너 포트 (Container Port)](/knowledge/kubernetes/container-port/) - 프로브 대상이 되는 포트 정의
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 프로브가 정의되는 리소스

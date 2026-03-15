@@ -1,5 +1,5 @@
 ---
-title: "Job Pod Communication"
+title: "잡 파드 통신 (Job Pod Communication)"
 description: "Job Pod 간 통신은 Indexed completion mode, Headless Service, 그리고 Pod 템플릿의 `subdomain` 설정을 결합하여 구현하며, 각 Pod가 예측 가능한 DNS 이름으로 다른 Pod에 접근할 수 있게 한다"
 tags: ['Job', 'Pod Communication', 'Headless Service', 'Indexed', 'Kubernetes']
 created: 2026-02-12
@@ -87,6 +87,6 @@ kubectl exec comm-demo-1-kvpb4 -- ping comm-demo-0.demo-service
 
 ## 관련 개념
 
-- [Indexed Job Completion Mode](/knowledge/kubernetes/indexed-job-completion-mode/) - Pod 간 통신의 전제 조건
-- [Headless Service for StatefulSet](/knowledge/kubernetes/headless-service-for-statefulset/) - StatefulSet에서의 유사한 DNS 패턴
-- [Job](/knowledge/kubernetes/job/) - 통신 패턴이 적용되는 오브젝트
+- [인덱스드 잡 완료 모드 (Indexed Job Completion Mode)](/knowledge/kubernetes/indexed-job-completion-mode/) - Pod 간 통신의 전제 조건
+- [스테이트풀셋을 위한 헤드리스 서비스 (Headless Service for StatefulSet)](/knowledge/kubernetes/headless-service-for-statefulset/) - StatefulSet에서의 유사한 DNS 패턴
+- [잡 (Job)](/knowledge/kubernetes/job/) - 통신 패턴이 적용되는 오브젝트

@@ -1,5 +1,5 @@
 ---
-title: "Stateful Workload Requirements"
+title: "스테이트풀 워크로드 요구사항 (Stateful Workload Requirements)"
 description: "상태 유지 워크로드(stateful workload)는 재시작이나 재배치 시에도 상태를 보존해야 하는 소프트웨어로, 각 복제본에 전용 스토리지와 안정적인 네트워크 주소가 필요하며, Deployment로는 이러한 요구사항을 충족할 수 없다"
 tags: ['Stateful', 'Workload', 'Storage', 'Network Identity', 'Kubernetes']
 created: 2026-02-12
@@ -55,6 +55,6 @@ kubectl scale deploy quiz --replicas 3
 
 ## 관련 개념
 
-- [StatefulSet](/knowledge/kubernetes/statefulset/) - 상태 유지 워크로드를 위한 해결책
-- [Deployment](/knowledge/kubernetes/deployment/) - 무상태 워크로드에 적합한 오브젝트
-- [Headless Service for StatefulSet](/knowledge/kubernetes/headless-service-for-statefulset/) - 안정적인 네트워크 정체성 제공
+- [스테이트풀셋 (StatefulSet)](/knowledge/kubernetes/statefulset/) - 상태 유지 워크로드를 위한 해결책
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - 무상태 워크로드에 적합한 오브젝트
+- [스테이트풀셋을 위한 헤드리스 서비스 (Headless Service for StatefulSet)](/knowledge/kubernetes/headless-service-for-statefulset/) - 안정적인 네트워크 정체성 제공

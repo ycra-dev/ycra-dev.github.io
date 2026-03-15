@@ -1,5 +1,5 @@
 ---
-title: "Ingress Virtual Hosting"
+title: "인그레스 가상 호스팅 (Ingress Virtual Hosting)"
 description: "Ingress Virtual Hosting은 HTTP 요청의 `Host` 헤더를 기반으로 단일 IP 주소에서 여러 도메인의 트래픽을 서로 다른 백엔드 서비스로 라우팅하는 Ingress의 핵심 기능이다"
 tags: ['Kubernetes', 'Ingress', 'Virtual Hosting', 'Host Routing', 'DNS']
 created: 2026-02-12
@@ -86,8 +86,8 @@ curl --resolve api.example.com:80:11.22.33.44 http://api.example.com/quote
 
 ## 관련 개념
 
-- [Ingress](/knowledge/kubernetes/ingress/) - Virtual Hosting이 구현되는 오브젝트
-- [Ingress Path Routing](/knowledge/kubernetes/ingress-path-routing/) - 호스트 내에서의 경로 기반 라우팅
-- [Ingress TLS](/knowledge/kubernetes/ingress-tls/) - 호스트별 TLS 인증서 설정
-- [Service](/knowledge/kubernetes/service/) - 가상 호스트가 라우팅하는 대상
-- [LoadBalancer Service](/knowledge/kubernetes/loadbalancer-service/) - 서비스당 별도 IP가 필요한 대안
+- [인그레스 (Ingress)](/knowledge/kubernetes/ingress/) - Virtual Hosting이 구현되는 오브젝트
+- [인그레스 경로 라우팅 (Ingress Path Routing)](/knowledge/kubernetes/ingress-path-routing/) - 호스트 내에서의 경로 기반 라우팅
+- [인그레스 TLS (Ingress TLS)](/knowledge/kubernetes/ingress-tls/) - 호스트별 TLS 인증서 설정
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 가상 호스트가 라우팅하는 대상
+- [로드밸런서 서비스 (LoadBalancer Service)](/knowledge/kubernetes/loadbalancer-service/) - 서비스당 별도 IP가 필요한 대안

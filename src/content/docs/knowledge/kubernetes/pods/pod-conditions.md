@@ -1,5 +1,5 @@
 ---
-title: "Pod Conditions"
+title: "파드 컨디션 (Pod Conditions)"
 description: "Pod Conditions는 Pod가 특정 상태에 도달했는지 여부와 그 이유를 나타내는 조건 목록으로, Pod phase보다 더 세밀한 상태 정보를 제공한다"
 tags: ['Kubernetes', 'Pod', 'Status', 'Conditions', 'Lifecycle']
 created: 2026-02-12
@@ -60,8 +60,8 @@ kubectl get po kiada -o json | jq .status.conditions
 
 ## 관련 개념
 
-- [Pod Phase](/knowledge/kubernetes/pod-phase/) - 조건보다 상위 수준의 Pod 상태 정보
-- [Status Conditions](/knowledge/kubernetes/status-conditions/) - 다양한 Kubernetes 오브젝트에 공통으로 존재하는 조건 메커니즘
-- [Liveness Probe](/knowledge/kubernetes/liveness-probe/) - ContainersReady 조건에 영향을 미치는 헬스 체크
-- [Spec and Status](/knowledge/kubernetes/spec-and-status/) - 조건이 포함된 오브젝트의 상태 섹션
-- [Pod](/knowledge/kubernetes/pod/) - 조건이 속하는 기본 리소스
+- [파드 페이즈 (Pod Phase)](/knowledge/kubernetes/pod-phase/) - 조건보다 상위 수준의 Pod 상태 정보
+- [상태 조건 (Status Conditions)](/knowledge/kubernetes/status-conditions/) - 다양한 Kubernetes 오브젝트에 공통으로 존재하는 조건 메커니즘
+- [라이브니스 프로브 (Liveness Probe)](/knowledge/kubernetes/liveness-probe/) - ContainersReady 조건에 영향을 미치는 헬스 체크
+- [스펙과 상태 (Spec and Status)](/knowledge/kubernetes/spec-and-status/) - 조건이 포함된 오브젝트의 상태 섹션
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 조건이 속하는 기본 리소스

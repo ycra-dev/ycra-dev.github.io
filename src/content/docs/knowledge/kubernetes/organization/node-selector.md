@@ -1,5 +1,5 @@
 ---
-title: "Node Selector"
+title: "노드 셀렉터 (Node Selector)"
 description: "Node Selector는 파드의 `spec"
 tags: ['Kubernetes', 'Scheduling', 'Node Selector', 'Label']
 created: 2026-02-12
@@ -54,7 +54,7 @@ kubectl get pod kiada-front-end -o wide
 
 ## 관련 개념
 
-- [Label](/knowledge/kubernetes/label/) - 노드에 부착하여 셀렉터의 기준이 되는 레이블
-- [Label Selector](/knowledge/kubernetes/label-selector/) - Node Selector는 레이블 셀렉터의 특수한 사용 사례
-- [Scheduler](/knowledge/kubernetes/scheduler/) - Node Selector 조건을 평가하여 파드를 배치하는 컴포넌트
-- [Pod](/knowledge/kubernetes/pod/) - nodeSelector가 정의되는 오브젝트
+- [레이블 (Label)](/knowledge/kubernetes/label/) - 노드에 부착하여 셀렉터의 기준이 되는 레이블
+- [레이블 셀렉터 (Label Selector)](/knowledge/kubernetes/label-selector/) - Node Selector는 레이블 셀렉터의 특수한 사용 사례
+- [쿠버네티스 스케줄러 (Kubernetes Scheduler)](/knowledge/kubernetes/scheduler/) - Node Selector 조건을 평가하여 파드를 배치하는 컴포넌트
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - nodeSelector가 정의되는 오브젝트

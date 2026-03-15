@@ -1,5 +1,5 @@
 ---
-title: "Canary Deployment"
+title: "카나리 디플로이먼트 (Canary Deployment)"
 description: "Canary Deployment는 새 버전의 애플리케이션을 안정 버전과 함께 배포하되, 트래픽의 일부만 새 버전으로 전달하여 전체 사용자에게 영향을 주기 전에 문제를 발견하는 배포 패턴이다"
 tags: ['Kubernetes', 'Deployment', 'Canary', 'Release Strategy', 'Deployment Strategy', 'Blue Green']
 created: 2026-02-12
@@ -118,10 +118,10 @@ kubectl rollout resume deployment kiada
 
 ## 관련 개념
 
-- [Label](/knowledge/kubernetes/label/) - 카나리와 안정 버전을 구분하는 핵심 메커니즘
-- [Label Selector](/knowledge/kubernetes/label-selector/) - 서비스에서 파드를 선택하는 방법
-- [Service](/knowledge/kubernetes/service/) - 카나리와 안정 버전 파드로 트래픽을 분배
-- [Deployment](/knowledge/kubernetes/deployment/) - Canary 배포의 기반 오브젝트
-- [Rolling Update Strategy](/knowledge/kubernetes/rolling-update-strategy/) - Canary의 기본 매커니즘
-- [Ingress](/knowledge/kubernetes/ingress/) - A/B 테스트에서 조건 기반 라우팅 담당
+- [레이블 (Label)](/knowledge/kubernetes/label/) - 카나리와 안정 버전을 구분하는 핵심 메커니즘
+- [레이블 셀렉터 (Label Selector)](/knowledge/kubernetes/label-selector/) - 서비스에서 파드를 선택하는 방법
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 카나리와 안정 버전 파드로 트래픽을 분배
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - Canary 배포의 기반 오브젝트
+- [롤링 업데이트 전략 (RollingUpdate Strategy)](/knowledge/kubernetes/rolling-update-strategy/) - Canary의 기본 매커니즘
+- [인그레스 (Ingress)](/knowledge/kubernetes/ingress/) - A/B 테스트에서 조건 기반 라우팅 담당
 - [minReadySeconds](/knowledge/kubernetes/minreadyseconds/) - 자동 Canary 효과를 제공

@@ -1,5 +1,5 @@
 ---
-title: "Image Layer"
+title: "이미지 레이어 (Image Layer)"
 description: "이미지 레이어(Image Layer)는 컨테이너 이미지를 구성하는 읽기 전용(read-only)의 파일시스템 변경분이다"
 tags: ['Container', 'Image Layer', 'Docker', 'Storage', 'Optimization']
 created: 2026-02-12
@@ -62,7 +62,7 @@ e498dabfee1c  2 days ago  CMD ["node"]                          0B    # 베이�
 
 ## 관련 개념
 
-- [Container Image](/knowledge/kubernetes/container-image/) - 레이어로 구성되는 이미지
+- [컨테이너 이미지 (Container Image)](/knowledge/kubernetes/container-image/) - 레이어로 구성되는 이미지
 - [Dockerfile](/knowledge/kubernetes/dockerfile/) - 각 지시어가 레이어를 생성하는 빌드 명세
 - [Copy-on-Write](/knowledge/kubernetes/copy-on-write/) - 레이어의 읽기 전용 특성을 보완하는 메커니즘
-- [Container Registry](/knowledge/kubernetes/container-registry/) - 레이어 단위로 이미지를 효율적으로 전송
+- [컨테이너 레지스트리 (Container Registry)](/knowledge/kubernetes/container-registry/) - 레이어 단위로 이미지를 효율적으로 전송

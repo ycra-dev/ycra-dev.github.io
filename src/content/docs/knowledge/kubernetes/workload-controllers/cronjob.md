@@ -1,5 +1,5 @@
 ---
-title: "CronJob"
+title: "크론잡 (CronJob)"
 description: "CronJob은 crontab 형식의 스케줄에 따라 Job을 주기적으로 생성하는 Kubernetes API 오브젝트로, 특정 시간이나 정기적인 간격으로 유한 작업을 자동 실행할 수 있게 한다"
 tags: ['Cronjob', 'Scheduling', 'Cron', 'Periodic Job', 'Kubernetes']
 created: 2026-02-12
@@ -89,7 +89,7 @@ kubectl patch cj my-cronjob -p '{"spec":{"suspend": false}}'
 
 ## 관련 개념
 
-- [Job](/knowledge/kubernetes/job/) - CronJob이 생성하는 오브젝트
-- [Job Completions and Parallelism](/knowledge/kubernetes/job-completions-and-parallelism/) - 생성되는 Job의 설정
-- [Controller](/knowledge/kubernetes/controller/) - CronJob 컨트롤러의 스케줄 관리
-- [Reconciliation Control Loop](/knowledge/kubernetes/reconciliation-control-loop/) - CronJob 컨트롤러의 동작 원리
+- [잡 (Job)](/knowledge/kubernetes/job/) - CronJob이 생성하는 오브젝트
+- [잡 완료 횟수와 병렬성 (Job Completions and Parallelism)](/knowledge/kubernetes/job-completions-and-parallelism/) - 생성되는 Job의 설정
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - CronJob 컨트롤러의 스케줄 관리
+- [조정 제어 루프 (Reconciliation Control Loop)](/knowledge/kubernetes/reconciliation-control-loop/) - CronJob 컨트롤러의 동작 원리

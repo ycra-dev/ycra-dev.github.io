@@ -1,5 +1,5 @@
 ---
-title: "PersistentVolume"
+title: "퍼시스턴트볼륨 (PersistentVolume)"
 description: "PersistentVolume(PV)은 클러스터 관리자가 프로비저닝한 스토리지를 나타내는 Kubernetes 오브젝트로, 인프라별 스토리지 세부사항을 Pod 매니페스트에서 분리하여 이식성을 제공한다"
 tags: ['Kubernetes', 'Storage', 'Persistent Volume', 'Pv', 'Abstraction']
 created: 2026-02-12
@@ -93,7 +93,7 @@ kubectl apply -f pv.quiz-data.gcepd.yaml
 
 ## 관련 개념
 
-- [Access Modes](/knowledge/kubernetes/access-modes/) - PV의 접근 모드 정의
-- [Reclaim Policy](/knowledge/kubernetes/reclaim-policy/) - PV 릴리즈 시 처리 정책
-- [Volume](/knowledge/kubernetes/volume/) - PV가 추상화하는 기본 볼륨 개념
-- [Network Storage Volume](/knowledge/kubernetes/network-storage-volume/) - PV가 참조하는 실제 스토리지
+- [접근 모드 (Access Modes)](/knowledge/kubernetes/access-modes/) - PV의 접근 모드 정의
+- [반환 정책 (Reclaim Policy)](/knowledge/kubernetes/reclaim-policy/) - PV 릴리즈 시 처리 정책
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - PV가 추상화하는 기본 볼륨 개념
+- [네트워크 스토리지 볼륨 (Network Storage Volume)](/knowledge/kubernetes/network-storage-volume/) - PV가 참조하는 실제 스토리지

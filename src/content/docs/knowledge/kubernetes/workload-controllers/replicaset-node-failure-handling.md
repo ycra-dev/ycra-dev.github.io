@@ -1,5 +1,5 @@
 ---
-title: "ReplicaSet Node Failure Handling"
+title: "레플리카셋 노드 장애 처리 (ReplicaSet Node Failure Handling)"
 description: "ReplicaSet의 노드 장애 처리는 클러스터 노드가 응답하지 않을 때 해당 노드의 Pod를 다른 정상 노드에 자동으로 재생성하여 서비스 가용성을 유지하는 메커니즘이다"
 tags: ['Replicaset', 'Node Failure', 'High Availability', 'Kubernetes']
 created: 2026-02-12
@@ -47,7 +47,7 @@ docker exec kind-worker2 ip link set eth0 up
 
 ## 관련 개념
 
-- [ReplicaSet](/knowledge/kubernetes/replicaset/) - 노드 장애 복구를 수행하는 컨트롤러
+- [레플리카셋 (ReplicaSet)](/knowledge/kubernetes/replicaset/) - 노드 장애 복구를 수행하는 컨트롤러
 - [Kubelet](/knowledge/kubernetes/kubelet/) - 노드 상태를 API 서버에 보고하는 에이전트
-- [Reconciliation Control Loop](/knowledge/kubernetes/reconciliation-control-loop/) - 장애 감지 및 복구의 기반 메커니즘
-- [Scheduler](/knowledge/kubernetes/scheduler/) - 새 Pod를 정상 노드에 배치하는 역할
+- [조정 제어 루프 (Reconciliation Control Loop)](/knowledge/kubernetes/reconciliation-control-loop/) - 장애 감지 및 복구의 기반 메커니즘
+- [쿠버네티스 스케줄러 (Kubernetes Scheduler)](/knowledge/kubernetes/scheduler/) - 새 Pod를 정상 노드에 배치하는 역할

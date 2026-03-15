@@ -1,5 +1,5 @@
 ---
-title: "emptyDir Volume"
+title: "emptyDir 볼륨 (emptyDir Volume)"
 description: "emptyDir Volume은 Pod가 시작될 때 빈 디렉터리로 생성되어 Pod의 수명 동안 데이터를 저장하는 가장 기본적인 볼륨 유형으로, Pod가 삭제되면 데이터도 함께 삭제된다"
 tags: ['Kubernetes', 'Storage', 'Volume', 'Emptydir', 'Ephemeral']
 created: 2026-02-12
@@ -96,8 +96,8 @@ spec:
 
 ## 관련 개념
 
-- [Volume](/knowledge/kubernetes/volume/) - emptyDir이 속하는 상위 볼륨 개념
-- [Volume Mount](/knowledge/kubernetes/volume-mount/) - 볼륨을 컨테이너에 연결하는 설정
-- [Init Container](/knowledge/kubernetes/init-container/) - emptyDir을 초기화하는 데 자주 사용되는 패턴
-- [Sharing Files Between Containers](/knowledge/kubernetes/sharing-files-between-containers/) - emptyDir의 주요 활용 패턴
-- [Secret](/knowledge/kubernetes/secret/) - 민감한 데이터에 인메모리 볼륨을 사용하는 유사 사례
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - emptyDir이 속하는 상위 볼륨 개념
+- [볼륨 마운트 (Volume Mount)](/knowledge/kubernetes/volume-mount/) - 볼륨을 컨테이너에 연결하는 설정
+- [초기화 컨테이너 (Init Container)](/knowledge/kubernetes/init-container/) - emptyDir을 초기화하는 데 자주 사용되는 패턴
+- [컨테이너 간 파일 공유 (Sharing Files Between Containers)](/knowledge/kubernetes/sharing-files-between-containers/) - emptyDir의 주요 활용 패턴
+- [시크릿 (Secret)](/knowledge/kubernetes/secret/) - 민감한 데이터에 인메모리 볼륨을 사용하는 유사 사례

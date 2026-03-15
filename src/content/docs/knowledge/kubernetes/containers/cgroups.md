@@ -1,5 +1,5 @@
 ---
-title: "Cgroups"
+title: "Cgroups (컨트롤 그룹)"
 description: "Linux Control Groups(cgroups)는 프로세스 또는 프로세스 그룹의 CPU, 메모리, 디스크, 네트워크 대역폭과 같은 시스템 리소스 사용량을 제한, 계측, 격리하는 Linux 커널 기능이다"
 tags: ['Linux', 'Cgroups', 'Resource Management', 'Container', 'Kernel']
 created: 2026-02-12
@@ -52,7 +52,7 @@ Docker의 리소스 제한 옵션들:
 
 ## 관련 개념
 
-- [Linux Namespaces](/knowledge/kubernetes/linux-namespaces/) - Cgroups와 함께 컨테이너 격리를 구성하는 커널 기능
-- [Container](/knowledge/kubernetes/container/) - Cgroups에 의해 리소스가 제한되는 프로세스
-- [Horizontal Scaling](/knowledge/kubernetes/horizontal-scaling/) - 리소스 제한이 스케일링 결정에 영향
-- [Kubernetes](/knowledge/kubernetes/kubernetes/) - Cgroups를 통해 Pod의 리소스 요청과 제한을 관리
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/kubernetes/linux-namespaces/) - Cgroups와 함께 컨테이너 격리를 구성하는 커널 기능
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - Cgroups에 의해 리소스가 제한되는 프로세스
+- [수평 확장 (Horizontal Scaling)](/knowledge/kubernetes/horizontal-scaling/) - 리소스 제한이 스케일링 결정에 영향
+- [쿠버네티스 (Kubernetes)](/knowledge/kubernetes/kubernetes/) - Cgroups를 통해 Pod의 리소스 요청과 제한을 관리

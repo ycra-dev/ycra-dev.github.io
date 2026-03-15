@@ -1,5 +1,5 @@
 ---
-title: "Indexed Job Completion Mode"
+title: "인덱스드 잡 완료 모드 (Indexed Job Completion Mode)"
 description: "Indexed completion mode는 Job의 각 Pod에 고유한 완료 인덱스(0부터 시작)를 부여하여 각 Pod가 서로 다른 작업을 수행할 수 있게 하는 Job 모드로, `JOB_COMPLETION_INDEX` 환경 변수와 Pod 어노테이션을 통해 인덱스..."
 tags: ['Job', 'Indexed', 'Completion Mode', 'Parameterization', 'Kubernetes']
 created: 2026-02-12
@@ -76,8 +76,8 @@ kubectl get pods -l job-name=aggregate-responses-2021
 
 ## 관련 개념
 
-- [Job](/knowledge/kubernetes/job/) - Indexed mode가 설정되는 오브젝트
-- [Job Completions and Parallelism](/knowledge/kubernetes/job-completions-and-parallelism/) - completions가 인덱스 범위 결정
-- [Init Container](/knowledge/kubernetes/init-container/) - 인덱스를 복잡한 입력으로 변환하는 데 사용
+- [잡 (Job)](/knowledge/kubernetes/job/) - Indexed mode가 설정되는 오브젝트
+- [잡 완료 횟수와 병렬성 (Job Completions and Parallelism)](/knowledge/kubernetes/job-completions-and-parallelism/) - completions가 인덱스 범위 결정
+- [초기화 컨테이너 (Init Container)](/knowledge/kubernetes/init-container/) - 인덱스를 복잡한 입력으로 변환하는 데 사용
 - [Downward API](/knowledge/kubernetes/downward-api/) - 어노테이션의 인덱스 값을 환경 변수로 전달
-- [ConfigMap](/knowledge/kubernetes/configmap/) - 스크립트를 Pod에 주입하는 데 사용
+- [컨피그맵 (ConfigMap)](/knowledge/kubernetes/configmap/) - 스크립트를 Pod에 주입하는 데 사용

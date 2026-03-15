@@ -1,5 +1,5 @@
 ---
-title: "Label"
+title: "레이블 (Label)"
 description: "Label은 Kubernetes 오브젝트에 부착하는 키-값 쌍으로, 오브젝트를 식별하고 그룹화하여 시스템의 역할과 구조를 명확하게 표현하는 데 사용된다"
 tags: ['Kubernetes', 'Label', 'Organization', 'Metadata']
 created: 2026-02-12
@@ -60,8 +60,8 @@ kubectl get pods -L app,rel
 
 ## 관련 개념
 
-- [Label Selector](/knowledge/kubernetes/label-selector/) - 레이블을 기반으로 오브젝트 필터링
-- [Annotation](/knowledge/kubernetes/annotation/) - 비식별 메타데이터를 위한 유사 기능
-- [Namespace](/knowledge/kubernetes/namespace/) - 더 큰 범위의 오브젝트 분리
-- [Service](/knowledge/kubernetes/service/) - 레이블 셀렉터로 백엔드 파드 결정
-- [Deployment](/knowledge/kubernetes/deployment/) - 레이블로 관리 대상 파드 식별
+- [레이블 셀렉터 (Label Selector)](/knowledge/kubernetes/label-selector/) - 레이블을 기반으로 오브젝트 필터링
+- [어노테이션 (Annotation)](/knowledge/kubernetes/annotation/) - 비식별 메타데이터를 위한 유사 기능
+- [네임스페이스 (Namespace)](/knowledge/kubernetes/namespace/) - 더 큰 범위의 오브젝트 분리
+- [서비스 (Service)](/knowledge/kubernetes/service/) - 레이블 셀렉터로 백엔드 파드 결정
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - 레이블로 관리 대상 파드 식별

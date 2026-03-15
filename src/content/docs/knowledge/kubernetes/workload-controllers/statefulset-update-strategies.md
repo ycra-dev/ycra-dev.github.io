@@ -1,5 +1,5 @@
 ---
-title: "StatefulSet Update Strategies"
+title: "스테이트풀셋 업데이트 전략 (StatefulSet Update Strategies)"
 description: "StatefulSet은 RollingUpdate와 OnDelete 두 가지 업데이트 전략을 지원하며, RollingUpdate에서는 Partition 기능을 통해 특정 ordinal 이상의 Pod만 선택적으로 업데이트할 수 있는 독특한 기능을 제공한다"
 tags: ['Statefulset', 'Update Strategy', 'Rolling Update', 'On Delete', 'Kubernetes']
 created: 2026-02-12
@@ -66,6 +66,6 @@ kubectl delete pod quiz-0
 
 ## 관련 개념
 
-- [StatefulSet](/knowledge/kubernetes/statefulset/) - 업데이트 전략이 적용되는 대상
-- [Canary Deployment](/knowledge/kubernetes/canary-deployment/) - Partition을 이용한 Canary 효과
-- [StatefulSet At-Most-One Semantics](/knowledge/kubernetes/statefulset-at-most-one-semantics/) - maxSurge를 지원하지 않는 이유
+- [스테이트풀셋 (StatefulSet)](/knowledge/kubernetes/statefulset/) - 업데이트 전략이 적용되는 대상
+- [카나리 디플로이먼트 (Canary Deployment)](/knowledge/kubernetes/canary-deployment/) - Partition을 이용한 Canary 효과
+- [스테이트풀셋 최대 하나 시맨틱스 (StatefulSet At-Most-One Semantics)](/knowledge/kubernetes/statefulset-at-most-one-semantics/) - maxSurge를 지원하지 않는 이유

@@ -1,5 +1,5 @@
 ---
-title: "PersistentVolumeClaim"
+title: "퍼시스턴트볼륨클레임 (PersistentVolumeClaim)"
 description: "PersistentVolumeClaim(PVC)은 사용자가 영구 스토리지를 요청하는 오브젝트로, 필요한 용량, 접근 모드, 스토리지 클래스 등의 요구사항을 명시하여 PersistentVolume에 바인딩된다"
 tags: ['Kubernetes', 'Storage', 'Pvc', 'Claim', 'Persistence']
 created: 2026-02-12
@@ -101,7 +101,7 @@ kubectl get pvc
 
 ## 관련 개념
 
-- [Dynamic Provisioning](/knowledge/kubernetes/dynamic-provisioning/) - PVC 생성 시 자동으로 PV를 생성하는 메커니즘
-- [Access Modes](/knowledge/kubernetes/access-modes/) - PVC에서 요청하는 접근 모드
-- [Volume](/knowledge/kubernetes/volume/) - PVC가 Pod에서 볼륨으로 사용되는 방식
-- [Namespace](/knowledge/kubernetes/namespace/) - PVC가 속하는 네임스페이스
+- [동적 프로비저닝 (Dynamic Provisioning)](/knowledge/kubernetes/dynamic-provisioning/) - PVC 생성 시 자동으로 PV를 생성하는 메커니즘
+- [접근 모드 (Access Modes)](/knowledge/kubernetes/access-modes/) - PVC에서 요청하는 접근 모드
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - PVC가 Pod에서 볼륨으로 사용되는 방식
+- [네임스페이스 (Namespace)](/knowledge/kubernetes/namespace/) - PVC가 속하는 네임스페이스

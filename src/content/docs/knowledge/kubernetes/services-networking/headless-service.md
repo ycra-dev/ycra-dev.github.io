@@ -1,5 +1,5 @@
 ---
-title: "Headless Service"
+title: "헤드리스 서비스 (Headless Service)"
 description: "Headless Service는 `clusterIP: None`으로 설정하여 클러스터 IP를 할당받지 않고, DNS 조회 시 서비스 IP 대신 백엔드 파드들의 개별 IP를 직접 반환하는 특수한 서비스 타입이다"
 tags: ['Kubernetes', 'Service', 'Headless', 'DNS', 'Direct Connection']
 created: 2026-02-12
@@ -71,7 +71,7 @@ Address: 10.244.1.10
 
 ## 관련 개념
 
-- [ClusterIP Service](/knowledge/kubernetes/clusterip-service/) - Headless의 반대 개념 (클러스터 IP 할당)
-- [Service DNS Discovery](/knowledge/kubernetes/service-dns-discovery/) - Headless에서 DNS 동작이 다름
-- [StatefulSet](/knowledge/kubernetes/statefulset/) - Headless Service와 함께 사용되는 대표적 워크로드
-- [Endpoints Object](/knowledge/kubernetes/endpoints-object/) - Headless Service에서도 관리되는 엔드포인트
+- [클러스터IP 서비스 (ClusterIP Service)](/knowledge/kubernetes/clusterip-service/) - Headless의 반대 개념 (클러스터 IP 할당)
+- [서비스 DNS 디스커버리 (Service DNS Discovery)](/knowledge/kubernetes/service-dns-discovery/) - Headless에서 DNS 동작이 다름
+- [스테이트풀셋 (StatefulSet)](/knowledge/kubernetes/statefulset/) - Headless Service와 함께 사용되는 대표적 워크로드
+- [엔드포인트 오브젝트 (Endpoints Object)](/knowledge/kubernetes/endpoints-object/) - Headless Service에서도 관리되는 엔드포인트

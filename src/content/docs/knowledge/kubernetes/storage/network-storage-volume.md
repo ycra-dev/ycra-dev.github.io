@@ -1,5 +1,5 @@
 ---
-title: "Network Storage Volume"
+title: "네트워크 스토리지 볼륨 (Network Storage Volume)"
 description: "Network Storage Volume은 네트워크를 통해 연결된 외부 스토리지를 Pod에 마운트하는 볼륨 유형으로, Pod가 삭제되거나 다른 노드로 재스케줄링되어도 데이터가 유지된다"
 tags: ['Kubernetes', 'Storage', 'Volume', 'Network', 'Cloud', 'Persistence']
 created: 2026-02-12
@@ -82,7 +82,7 @@ kubectl get node <node-name> -o json | jq .status.volumesAttached
 
 ## 관련 개념
 
-- [Volume](/knowledge/kubernetes/volume/) - 네트워크 스토리지 볼륨이 속하는 상위 개념
-- [Access Modes](/knowledge/kubernetes/access-modes/) - 네트워크 볼륨의 동시 접근 모드를 정의
-- [emptyDir Volume](/knowledge/kubernetes/emptydir-volume/) - Pod 수명에 종속되는 임시 볼륨과의 대비
-- [hostPath Volume](/knowledge/kubernetes/hostpath-volume/) - 노드 로컬 스토리지와의 대비
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - 네트워크 스토리지 볼륨이 속하는 상위 개념
+- [접근 모드 (Access Modes)](/knowledge/kubernetes/access-modes/) - 네트워크 볼륨의 동시 접근 모드를 정의
+- [emptyDir 볼륨 (emptyDir Volume)](/knowledge/kubernetes/emptydir-volume/) - Pod 수명에 종속되는 임시 볼륨과의 대비
+- [hostPath 볼륨 (hostPath Volume)](/knowledge/kubernetes/hostpath-volume/) - 노드 로컬 스토리지와의 대비

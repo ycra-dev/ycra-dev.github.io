@@ -54,6 +54,6 @@ etcd에 저장되는 데이터의 예:
 
 ## 관련 개념
 
-- [Control Plane](/knowledge/kubernetes/control-plane/) - etcd가 속한 제어 영역
-- [Event Object](/knowledge/kubernetes/event-object/) - etcd 부담을 줄이기 위해 일정 시간 후 삭제되는 객체
-- [Object Manifest](/knowledge/kubernetes/object-manifest/) - etcd에 저장되는 객체의 형식
+- [컨트롤 플레인 (Control Plane)](/knowledge/kubernetes/control-plane/) - etcd가 속한 제어 영역
+- [이벤트 객체 (Event Object)](/knowledge/kubernetes/event-object/) - etcd 부담을 줄이기 위해 일정 시간 후 삭제되는 객체
+- [오브젝트 매니페스트 (Object Manifest)](/knowledge/kubernetes/object-manifest/) - etcd에 저장되는 객체의 형식

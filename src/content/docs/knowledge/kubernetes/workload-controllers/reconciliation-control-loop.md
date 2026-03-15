@@ -1,5 +1,5 @@
 ---
-title: "Reconciliation Control Loop"
+title: "조정 제어 루프 (Reconciliation Control Loop)"
 description: "Reconciliation Control Loop(조정 제어 루프)는 Kubernetes 컨트롤러가 소유 오브젝트의 원하는 상태(desired state)와 종속 오브젝트의 실제 상태(actual state)를 지속적으로 비교하고, 차이가 있으면 실제 상태를 원하..."
 tags: ['Reconciliation', 'Control Loop', 'Controller', 'Kubernetes']
 created: 2026-02-12
@@ -44,8 +44,8 @@ kubectl describe rs kiada
 
 ## 관련 개념
 
-- [ReplicaSet](/knowledge/kubernetes/replicaset/) - 조정 루프의 대표적인 구현 사례
-- [Controller](/knowledge/kubernetes/controller/) - 조정 루프를 실행하는 Kubernetes 컴포넌트
-- [Declarative Model](/knowledge/kubernetes/declarative-model/) - 원하는 상태를 선언하면 컨트롤러가 조정하는 패턴
-- [Event Object](/knowledge/kubernetes/event-object/) - 컨트롤러가 작업 기록을 남기는 방식
-- [API Server](/knowledge/kubernetes/api-server/) - 컨트롤러가 상태 변경을 감지하는 통로
+- [레플리카셋 (ReplicaSet)](/knowledge/kubernetes/replicaset/) - 조정 루프의 대표적인 구현 사례
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - 조정 루프를 실행하는 Kubernetes 컴포넌트
+- [선언적 모델 (Declarative Model)](/knowledge/kubernetes/declarative-model/) - 원하는 상태를 선언하면 컨트롤러가 조정하는 패턴
+- [이벤트 객체 (Event Object)](/knowledge/kubernetes/event-object/) - 컨트롤러가 작업 기록을 남기는 방식
+- [쿠버네티스 API 서버 (Kubernetes API Server)](/knowledge/kubernetes/api-server/) - 컨트롤러가 상태 변경을 감지하는 통로

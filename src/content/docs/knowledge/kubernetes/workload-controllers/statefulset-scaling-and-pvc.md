@@ -1,5 +1,5 @@
 ---
-title: "StatefulSet Scaling and PVC Retention"
+title: "스테이트풀셋 스케일링과 PVC 보존 (StatefulSet Scaling and PVC Retention)"
 description: "StatefulSet의 스케일링은 Deployment와 달리 각 Pod에 고유한 PersistentVolumeClaim이 연결되며, 스케일 다운 시 Pod는 삭제되지만 PVC는 기본적으로 보존되어 나중에 스케일 업 시 재사용할 수 있다"
 tags: ['Statefulset', 'Scaling', 'Persistent Volume Claim', 'Kubernetes']
 created: 2026-02-12
@@ -64,5 +64,5 @@ spec:
 
 ## 관련 개념
 
-- [StatefulSet](/knowledge/kubernetes/statefulset/) - PVC 템플릿을 포함하는 오브젝트
-- [ReplicaSet Scaling](/knowledge/kubernetes/replicaset-scaling/) - Deployment의 다른 스케일링 방식
+- [스테이트풀셋 (StatefulSet)](/knowledge/kubernetes/statefulset/) - PVC 템플릿을 포함하는 오브젝트
+- [레플리카셋 스케일링 (ReplicaSet Scaling)](/knowledge/kubernetes/replicaset-scaling/) - Deployment의 다른 스케일링 방식

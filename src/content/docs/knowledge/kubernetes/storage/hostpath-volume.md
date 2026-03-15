@@ -1,5 +1,5 @@
 ---
-title: "hostPath Volume"
+title: "hostPath 볼륨 (hostPath Volume)"
 description: "hostPath Volume은 워커 노드의 파일 시스템에 있는 특정 파일이나 디렉터리를 Pod의 컨테이너에 마운트하는 볼륨 유형으로, 노드의 로컬 파일에 직접 접근할 수 있게 한다"
 tags: ['Kubernetes', 'Storage', 'Volume', 'Hostpath', 'Node', 'Security']
 created: 2026-02-12
@@ -94,7 +94,7 @@ spec:
 
 ## 관련 개념
 
-- [Volume](/knowledge/kubernetes/volume/) - hostPath가 속하는 상위 볼륨 개념
-- [Network Storage Volume](/knowledge/kubernetes/network-storage-volume/) - hostPath의 대안인 네트워크 스토리지
-- [Local Persistent Volume](/knowledge/kubernetes/local-persistent-volume/) - hostPath보다 안전한 노드 로컬 스토리지
-- [Pod](/knowledge/kubernetes/pod/) - 볼륨이 정의되는 리소스
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - hostPath가 속하는 상위 볼륨 개념
+- [네트워크 스토리지 볼륨 (Network Storage Volume)](/knowledge/kubernetes/network-storage-volume/) - hostPath의 대안인 네트워크 스토리지
+- [로컬 퍼시스턴트볼륨 (Local Persistent Volume)](/knowledge/kubernetes/local-persistent-volume/) - hostPath보다 안전한 노드 로컬 스토리지
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 볼륨이 정의되는 리소스

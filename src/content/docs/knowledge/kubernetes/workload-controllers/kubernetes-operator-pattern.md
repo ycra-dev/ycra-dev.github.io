@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Operator Pattern"
+title: "쿠버네티스 오퍼레이터 패턴 (Kubernetes Operator Pattern)"
 description: "Kubernetes Operator는 특정 애플리케이션의 운영 지식을 코드로 구현한 커스텀 컨트롤러로, CustomResourceDefinition(CRD)을 통해 Kubernetes API를 확장하고 복잡한 상태 유지 워크로드의 생명주기를 자동으로 관리한다"
 tags: ['Operator', 'Custom Resource', 'Controller', 'Automation', 'Kubernetes']
 created: 2026-02-12
@@ -59,8 +59,8 @@ spec:
 
 ## 관련 개념
 
-- [StatefulSet](/knowledge/kubernetes/statefulset/) - Operator가 내부적으로 생성하는 오브젝트
-- [Controller](/knowledge/kubernetes/controller/) - Operator는 커스텀 컨트롤러의 한 형태
-- [Reconciliation Control Loop](/knowledge/kubernetes/reconciliation-control-loop/) - Operator의 핵심 동작 원리
-- [Declarative Model](/knowledge/kubernetes/declarative-model/) - 커스텀 리소스를 통한 선언적 관리
-- [API Server](/knowledge/kubernetes/api-server/) - CRD를 통해 API 확장
+- [스테이트풀셋 (StatefulSet)](/knowledge/kubernetes/statefulset/) - Operator가 내부적으로 생성하는 오브젝트
+- [컨트롤러 (Controller)](/knowledge/kubernetes/controller/) - Operator는 커스텀 컨트롤러의 한 형태
+- [조정 제어 루프 (Reconciliation Control Loop)](/knowledge/kubernetes/reconciliation-control-loop/) - Operator의 핵심 동작 원리
+- [선언적 모델 (Declarative Model)](/knowledge/kubernetes/declarative-model/) - 커스텀 리소스를 통한 선언적 관리
+- [쿠버네티스 API 서버 (Kubernetes API Server)](/knowledge/kubernetes/api-server/) - CRD를 통해 API 확장

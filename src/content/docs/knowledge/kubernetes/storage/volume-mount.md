@@ -1,5 +1,5 @@
 ---
-title: "Volume Mount"
+title: "볼륨 마운트 (Volume Mount)"
 description: "Volume Mount는 Pod에 정의된 볼륨을 컨테이너의 파일 시스템 내 특정 경로에 연결하는 설정으로, 컨테이너 정의의 `volumeMounts` 배열에서 구성된다"
 tags: ['Kubernetes', 'Storage', 'Volume', 'Mount', 'Container']
 created: 2026-02-12
@@ -79,8 +79,8 @@ spec:
 
 ## 관련 개념
 
-- [Volume](/knowledge/kubernetes/volume/) - 마운트의 대상이 되는 Pod 수준의 스토리지 정의
-- [emptyDir Volume](/knowledge/kubernetes/emptydir-volume/) - 가장 흔하게 마운트되는 볼륨 유형
-- [Sharing Files Between Containers](/knowledge/kubernetes/sharing-files-between-containers/) - 볼륨 마운트를 활용한 파일 공유 패턴
-- [Container](/knowledge/kubernetes/container/) - 마운트가 적용되는 대상
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - 마운트의 대상이 되는 Pod 수준의 스토리지 정의
+- [emptyDir 볼륨 (emptyDir Volume)](/knowledge/kubernetes/emptydir-volume/) - 가장 흔하게 마운트되는 볼륨 유형
+- [컨테이너 간 파일 공유 (Sharing Files Between Containers)](/knowledge/kubernetes/sharing-files-between-containers/) - 볼륨 마운트를 활용한 파일 공유 패턴
+- [컨테이너 (Container)](/knowledge/kubernetes/container/) - 마운트가 적용되는 대상
 - [Downward API](/knowledge/kubernetes/downward-api/) - subPathExpr에서 활용 가능한 Pod 메타데이터

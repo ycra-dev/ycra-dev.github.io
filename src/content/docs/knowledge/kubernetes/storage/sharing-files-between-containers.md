@@ -1,5 +1,5 @@
 ---
-title: "Sharing Files Between Containers"
+title: "컨테이너 간 파일 공유 (Sharing Files Between Containers)"
 description: "Sharing Files Between Containers는 같은 Pod 내의 여러 컨테이너가 공유 볼륨을 통해 파일을 읽고 쓸 수 있는 패턴으로, 사이드카 컨테이너 패턴의 핵심 활용 사례 중 하나이다"
 tags: ['Kubernetes', 'Storage', 'Volume', 'Sidecar', 'Container Pattern']
 created: 2026-02-12
@@ -90,9 +90,9 @@ spec:
 
 ## 관련 개념
 
-- [Volume](/knowledge/kubernetes/volume/) - 파일 공유의 기반이 되는 스토리지 단위
-- [emptyDir Volume](/knowledge/kubernetes/emptydir-volume/) - 파일 공유에 가장 흔히 사용되는 볼륨 유형
-- [Volume Mount](/knowledge/kubernetes/volume-mount/) - 각 컨테이너에 볼륨을 연결하는 설정
-- [Sidecar Container](/knowledge/kubernetes/sidecar-container/) - 파일 공유 패턴의 주요 구조적 요소
-- [Init Container](/knowledge/kubernetes/init-container/) - 볼륨을 미리 초기화하는 데 사용
-- [Pod](/knowledge/kubernetes/pod/) - 공유 볼륨이 정의되는 리소스
+- [볼륨 (Volume)](/knowledge/kubernetes/volume/) - 파일 공유의 기반이 되는 스토리지 단위
+- [emptyDir 볼륨 (emptyDir Volume)](/knowledge/kubernetes/emptydir-volume/) - 파일 공유에 가장 흔히 사용되는 볼륨 유형
+- [볼륨 마운트 (Volume Mount)](/knowledge/kubernetes/volume-mount/) - 각 컨테이너에 볼륨을 연결하는 설정
+- [사이드카 컨테이너 (Sidecar Container)](/knowledge/kubernetes/sidecar-container/) - 파일 공유 패턴의 주요 구조적 요소
+- [초기화 컨테이너 (Init Container)](/knowledge/kubernetes/init-container/) - 볼륨을 미리 초기화하는 데 사용
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - 공유 볼륨이 정의되는 리소스

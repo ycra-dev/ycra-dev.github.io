@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Scheduler"
+title: "쿠버네티스 스케줄러 (Kubernetes Scheduler)"
 description: "Kubernetes Scheduler는 새로 생성된 Pod를 어떤 워커 노드에서 실행할지 결정하는 Control Plane의 특수한 컨트롤러이다"
 tags: ['Kubernetes', 'Scheduler', 'Control Plane', 'Pod Scheduling']
 created: 2026-02-12
@@ -52,7 +52,7 @@ kiada-9d785b578-jmnj8   ...  10.244.2.4  kind-worker2
 
 ## 관련 개념
 
-- [Control Plane](/knowledge/kubernetes/control-plane/) - Scheduler가 속한 제어 영역
-- [Pod](/knowledge/kubernetes/pod/) - Scheduler가 노드에 할당하는 기본 배포 단위
+- [컨트롤 플레인 (Control Plane)](/knowledge/kubernetes/control-plane/) - Scheduler가 속한 제어 영역
+- [파드 (Pod)](/knowledge/kubernetes/pod/) - Scheduler가 노드에 할당하는 기본 배포 단위
 - [Kubelet](/knowledge/kubernetes/kubelet/) - 노드에서 스케줄된 Pod를 실행하는 에이전트
-- [Deployment](/knowledge/kubernetes/deployment/) - Pod 생성을 유발하는 상위 객체
+- [디플로이먼트 (Deployment)](/knowledge/kubernetes/deployment/) - Pod 생성을 유발하는 상위 객체
