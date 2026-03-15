@@ -1,5 +1,5 @@
 ---
-title: "Free Tree"
+title: "자유 트리 (Free Tree)"
 description: "방향이나 루트 없이 모든 정점이 연결되고 사이클이 없는 그래프로서의 트리 — 무방향 연결 비순환 그래프"
 tags: ["Discrete Mathematics", "Trees", "Graph Theory", "TAOCP"]
 created: 2026-02-27
@@ -96,7 +96,7 @@ Kruskal 알고리즘의 결과는 자유 트리이다:
 
 ## 관련 개념
 
-- [Rooted Tree](/knowledge/discrete-mathematics/trees/rooted-tree/)
-- [Spanning Tree](/knowledge/discrete-mathematics/trees/spanning-tree/)
-- [Minimum Spanning Tree](/knowledge/discrete-mathematics/trees/minimum-spanning-tree/)
-- [Graph](/knowledge/algorithms/graph-algorithms/graph/)
+- [루트 트리 (Rooted Tree)](/knowledge/discrete-mathematics/trees/rooted-tree/)
+- [신장 트리 (Spanning Tree)](/knowledge/discrete-mathematics/trees/spanning-tree/)
+- [최소 신장 트리 (Minimum Spanning Tree)](/knowledge/discrete-mathematics/trees/minimum-spanning-tree/)
+- [그래프 (Graph)](/knowledge/algorithms/graph-algorithms/graph/)

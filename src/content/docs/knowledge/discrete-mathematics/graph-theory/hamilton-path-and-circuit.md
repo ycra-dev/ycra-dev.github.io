@@ -1,5 +1,5 @@
 ---
-title: "Hamilton Path and Circuit"
+title: "해밀턴 경로와 회로 (Hamilton Path and Circuit)"
 description: "그래프 G에서 해밀턴 경로(Hamilton path)는 G의 모든 정점을 정확히 한 번씩 지나는 단순 경로이다"
 tags: ['Hamilton Path', 'Hamilton Circuit', 'Np Complete', 'Traveling Salesperson', 'Gray Code']
 created: 2026-02-16
@@ -83,5 +83,5 @@ for i in range(len(gray_code_3)):
 - [Graph](/knowledge/mathematics/graph/) - 해밀턴 경로/회로가 정의되는 구조
 - [Euler Path and Circuit](/knowledge/mathematics/euler-path-and-circuit/) - 간선 순회(오일러) vs 정점 순회(해밀턴)
 - [Traveling Salesperson Problem](/knowledge/mathematics/traveling-salesperson-problem/) - 최소 가중치 해밀턴 회로
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - NP-완전 문제의 복잡도
-- [Algorithm](/knowledge/algorithms/algorithm/) - 백트래킹 알고리즘
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - NP-완전 문제의 복잡도
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 백트래킹 알고리즘

@@ -1,5 +1,5 @@
 ---
-title: "Equivalence Relation"
+title: "동치 관계 (Equivalence Relation)"
 description: "집합 A 위의 관계 R이 반사적(reflexive), 대칭적(symmetric), 추이적(transitive)인 세 성질을 모두 만족하면 동치관계(equivalence relation)라 한다"
 tags: ['Equivalence Relation', 'Reflexive', 'Symmetric', 'Transitive', 'Congruence', 'Modular Arithmetic']
 created: 2026-02-16

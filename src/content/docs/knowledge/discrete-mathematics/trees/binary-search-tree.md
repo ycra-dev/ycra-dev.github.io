@@ -1,5 +1,5 @@
 ---
-title: "Binary Search Tree"
+title: "이진 탐색 트리 (Binary Search Tree)"
 description: "이진 탐색 트리(Binary Search Tree, BST)는 각 정점에 키(key)가 부여된 이진 트리로, 모든 정점의 키가 왼쪽 서브트리의 모든 키보다 크고, 오른쪽 서브트리의 모든 키보다 작은 성질을 만족하는 자료 구조이다"
 tags: ['Binary Search Tree', 'Bst', 'Tree', 'Searching', 'Data Structure', 'Binary Tree']
 created: 2026-02-16
@@ -59,6 +59,6 @@ sidebar:
 ## 관련 개념
 
 - [Rooted Tree](/knowledge/mathematics/rooted-tree/) - BST의 기반이 되는 이진 트리 구조
-- [Algorithm](/knowledge/algorithms/algorithm/) - BST 삽입/탐색 알고리즘
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - BST 연산의 복잡도 분석
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - BST 삽입/탐색 알고리즘
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - BST 연산의 복잡도 분석
 - [Tree Traversal](/knowledge/mathematics/tree-traversal/) - BST에서 중위 순회(inorder)는 정렬된 순서 생성

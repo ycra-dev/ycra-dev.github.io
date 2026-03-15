@@ -1,5 +1,5 @@
 ---
-title: "Bell Number"
+title: "벨 수 (Bell Number)"
 description: "n원소 집합의 집합 분할 총 개수 Bₙ — Peirce의 삼각형으로 계산하며 지수 생성 함수는 e^(eˣ-1), Stirling 2종 수의 합으로 표현"
 tags: ["Combinatorics", "Counting", "Set Partitions", "Algorithms"]
 created: 2026-02-27
@@ -91,7 +91,7 @@ for n in range(8):
 
 ## 관련 개념
 
-- [Set Partition](/knowledge/discrete-mathematics/combinatorics/set-partition/)
-- [Restricted Growth String](/knowledge/discrete-mathematics/combinatorics/restricted-growth-string/)
-- [Stirling Numbers](/knowledge/discrete-mathematics/combinatorics/stirling-numbers/)
-- [Combination Generation](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
+- [집합 분할 (Set Partition)](/knowledge/discrete-mathematics/combinatorics/set-partition/)
+- [제한 성장 문자열 (Restricted Growth String)](/knowledge/discrete-mathematics/combinatorics/restricted-growth-string/)
+- [스털링 수 (Stirling Numbers)](/knowledge/discrete-mathematics/combinatorics/stirling-numbers/)
+- [조합 생성 (Combination Generation)](/knowledge/discrete-mathematics/combinatorics/combination-generation/)

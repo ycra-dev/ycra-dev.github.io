@@ -1,5 +1,5 @@
 ---
-title: "Finite-State Machine with Output"
+title: "출력이 있는 유한 상태 기계 (Finite-State Machine with Output)"
 description: "출력이 있는 유한 상태 기계(finite-state machine with output)는 M = (S, I, O, f, g, s0)로 정의되며, 유한한 상태 집합 S, 입력 알파벳 I, 출력 알파벳 O, 전이 함수 f, 출력 함수 g, 초기 상태 s0로 구성되어..."
 tags: ['Finite State Machine', 'Mealy Machine', 'Moore Machine', 'Transducer', 'State Diagram', 'State Table']
 created: 2026-02-16

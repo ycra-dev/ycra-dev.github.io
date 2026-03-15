@@ -1,5 +1,5 @@
 ---
-title: "Monte Carlo Algorithm"
+title: "몬테카를로 알고리즘 (Monte Carlo Algorithm)"
 description: "몬테카를로 알고리즘(Monte Carlo algorithm)은 하나 이상의 단계에서 무작위 선택을 하는 확률적 알고리즘으로, 항상 답을 내지만 작은 확률로 잘못된 답을 낼 수 있으며, 계산을 충분히 수행하면 오류 확률이 급격히 감소한다"
 tags: ['Monte Carlo', 'Probabilistic Algorithm', 'Randomized Algorithm', 'Primality Testing', 'Probability']
 created: 2026-02-16
@@ -118,5 +118,5 @@ def find_large_prime(digits):
 
 - [Bernoulli Trial](/knowledge/mathematics/bernoulli-trial/) - 각 테스트는 독립적인 베르누이 시행
 - [Independence](/knowledge/mathematics/independence/) - 반복 시행의 독립성이 오류 확률 분석의 기반
-- [Algorithm](/knowledge/algorithms/algorithm/) - 결정론적 알고리즘 vs 확률적 알고리즘
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 결정론적 알고리즘 vs 확률적 알고리즘
 - [Probability Distribution](/knowledge/mathematics/probability-distribution/) - 오류 확률은 기하분포적으로 감소

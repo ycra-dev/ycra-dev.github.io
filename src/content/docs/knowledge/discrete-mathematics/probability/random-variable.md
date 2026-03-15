@@ -1,5 +1,5 @@
 ---
-title: "Random Variable"
+title: "확률 변수 (Random Variable)"
 description: "확률변수(random variable)는 실험의 표본공간에서 실수 집합으로의 함수로, 각 가능한 결과에 실수 값을 할당한다"
 tags: ['Random Variable', 'Probability', 'Distribution', 'Sample Space', 'Function']
 created: 2026-02-16

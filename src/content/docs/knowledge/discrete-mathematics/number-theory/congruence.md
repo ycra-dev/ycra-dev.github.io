@@ -1,5 +1,5 @@
 ---
-title: "Congruence"
+title: "합동 (Congruence)"
 description: "합동(Congruence)은 두 정수 a, b가 양의 정수 m으로 나누었을 때 같은 나머지를 가지는 관계이다"
 tags: ['Congruence', 'Modular Arithmetic', 'Number Theory', 'Equivalence Relation']
 created: 2026-02-16

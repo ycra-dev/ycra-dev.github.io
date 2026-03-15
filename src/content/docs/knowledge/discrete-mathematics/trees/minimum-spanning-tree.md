@@ -1,5 +1,5 @@
 ---
-title: "Minimum Spanning Tree"
+title: "최소 신장 트리 (Minimum Spanning Tree)"
 description: "최소 신장 트리(Minimum Spanning Tree, MST)는 연결 가중 그래프의 신장 트리 중에서 간선 가중치의 합이 가장 작은 신장 트리이다"
 tags: ['Minimum Spanning Tree', 'Mst', 'Weighted Graph', 'Optimization', 'Network Design']
 created: 2026-02-16
@@ -73,6 +73,6 @@ Step 4: {샌프란시스코, 덴버} $900
 ## 관련 개념
 
 - [Spanning Tree](/knowledge/mathematics/spanning-tree/) - MST의 기반 개념
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/) - Prim, Kruskal 모두 탐욕 알고리즘
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/) - Prim, Kruskal 모두 탐욕 알고리즘
 - [Graph](/knowledge/mathematics/graph/) - MST가 구축되는 가중 그래프
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - MST 알고리즘의 복잡도 분석
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - MST 알고리즘의 복잡도 분석

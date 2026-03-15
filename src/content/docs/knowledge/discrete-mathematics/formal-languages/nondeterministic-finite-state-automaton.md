@@ -1,5 +1,5 @@
 ---
-title: "Nondeterministic Finite-State Automaton"
+title: "비결정적 유한 상태 오토마타 (Nondeterministic Finite-State Automaton)"
 description: "비결정적 유한 상태 오토마타(NFA)는 M = (S, I, f, s0, F)로 정의되며, 전이 함수 f: S x I -> P(S)가 각 (상태, 입력) 쌍에 대해 가능한 다음 상태들의 집합을 반환하는 유한 상태 오토마타로, 하나의 입력에 대해 여러 가능한 경로가 ..."
 tags: ['Nfa', 'Nondeterministic', 'Automaton', 'Subset Construction', 'Dfa Equivalence', 'Language Recognition']
 created: 2026-02-16

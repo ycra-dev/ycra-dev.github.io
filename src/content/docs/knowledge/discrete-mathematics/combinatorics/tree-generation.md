@@ -1,5 +1,5 @@
 ---
-title: "Tree Generation"
+title: "트리 생성 (Tree Generation)"
 description: "n개의 노드를 가진 모든 비표지 또는 표지 트리를 체계적으로 열거하는 알고리즘 — 중첩 괄호·레벨 수열·Prufer 수열 표현과 Catalan 수를 활용"
 tags: ["Combinatorics", "Trees", "Forests", "Catalan", "Enumeration", "Algorithms"]
 created: 2026-02-27
@@ -107,7 +107,7 @@ print(f"n=5 표지 트리 수: {5**3}")  # 125
 
 ## 관련 개념
 
-- [Catalan Number](/knowledge/discrete-mathematics/combinatorics/catalan-number/)
-- [Free Tree](/knowledge/discrete-mathematics/trees/free-tree/)
-- [Combination Generation](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
-- [Permutation Generation](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)
+- [카탈란 수 (Catalan Number)](/knowledge/discrete-mathematics/combinatorics/catalan-number/)
+- [자유 트리 (Free Tree)](/knowledge/discrete-mathematics/trees/free-tree/)
+- [조합 생성 (Combination Generation)](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
+- [순열 생성 (Permutation Generation)](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)

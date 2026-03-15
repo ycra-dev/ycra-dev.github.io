@@ -1,5 +1,5 @@
 ---
-title: "Binomial Theorem"
+title: "이항정리 (Binomial Theorem)"
 description: "이항정리(Binomial Theorem)란 x와 y가 변수이고 n이 음이 아닌 정수일 때, (x + y)^n을 이항계수를 사용하여 전개하는 공식이다: (x + y)^n = sum_{j=0}^{n} C(n, j) * x^(n-j) * y^j"
 tags: ['Binomial Theorem', 'Polynomial Expansion', 'Binomial Coefficient', 'Combinatorial Proof', 'Algebra']
 created: 2026-02-16

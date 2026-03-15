@@ -1,5 +1,5 @@
 ---
-title: "Halting Problem"
+title: "정지 문제 (Halting Problem)"
 description: "정지 문제(Halting Problem)는 \"임의의 프로그램 P와 입력 I가 주어졌을 때, P가 입력 I로 실행되면 유한 시간 내에 정지하는지 판별할 수 있는 일반적인 절차가 존재하는가?\"라는 문제이다"
 tags: ['Halting Problem', 'Undecidability', 'Unsolvable Problem', 'Turing', 'Computability']
 created: 2026-02-16
@@ -56,8 +56,8 @@ K(K)를 호출하면?
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘의 한계를 보여주는 문제
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 알고리즘의 한계를 보여주는 문제
 - [Proof by Contradiction](/knowledge/mathematics/proof-by-contradiction/) - 정지 문제의 증명에 사용된 증명 기법
-- [Tractability](/knowledge/algorithms/tractability/) - 풀 수 없는 문제 vs. 다루기 어려운 문제의 구분
+- [다루기 쉬움 (Tractability)](/knowledge/algorithms/tractability/) - 풀 수 없는 문제 vs. 다루기 어려운 문제의 구분
 - [Proposition](/knowledge/mathematics/proposition/) - 증명의 논리적 구조
 - [Cardinality](/knowledge/mathematics/cardinality/) - 대각선 논법과의 연관성

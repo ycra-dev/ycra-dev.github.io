@@ -1,5 +1,5 @@
 ---
-title: "Breadth-First Search"
+title: "너비 우선 탐색 (Breadth-First Search)"
 description: "너비 우선 탐색(Breadth-First Search, BFS)은 그래프의 정점을 탐색하는 알고리즘으로, 시작 정점에서 레벨 단위로 확장하여 같은 레벨의 모든 정점을 먼저 방문한 후 다음 레벨로 진행하는 방식이다"
 tags: ['Breadth First Search', 'Bfs', 'Spanning Tree', 'Graph Traversal', 'Shortest Path', 'Algorithm']
 created: 2026-02-16
@@ -77,4 +77,4 @@ Level 5: m               (Level 4의 인접 정점 중 미방문; j→m 또는 l
 - [Spanning Tree](/knowledge/mathematics/spanning-tree/) - BFS의 결과물인 신장 트리
 - [Depth-First Search](/knowledge/mathematics/depth-first-search/) - BFS와 대비되는 그래프 탐색 알고리즘
 - [Graph](/knowledge/mathematics/graph/) - BFS의 입력 그래프
-- [Algorithm](/knowledge/algorithms/algorithm/) - BFS의 알고리즘 구조
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - BFS의 알고리즘 구조

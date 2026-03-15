@@ -1,5 +1,5 @@
 ---
-title: "Monotone Boolean Function"
+title: "단조 불 함수 (Monotone Boolean Function)"
 description: "임의의 두 입력 x ⊆ y이면 f(x) ≤ f(y)인 부울 함수 — AND/OR만으로 표현 가능하며 Dedekind 수열로 개수가 정의됨"
 tags: ["Boolean Algebra", "Monotone", "Antichain", "Algorithms"]
 created: 2026-02-27
@@ -75,7 +75,7 @@ def is_monotone(truth_table, n):
 
 ## 관련 개념
 
-- [Prime Implicant](/knowledge/discrete-mathematics/boolean-algebra/prime-implicant/)
-- [Binary Decision Diagram](/knowledge/discrete-mathematics/boolean-algebra/binary-decision-diagram/)
-- [DNF and CNF](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)
-- [Boolean Chain](/knowledge/discrete-mathematics/boolean-algebra/boolean-chain/)
+- [주항 (Prime Implicant)](/knowledge/discrete-mathematics/boolean-algebra/prime-implicant/)
+- [이진 결정 다이어그램 (Binary Decision Diagram)](/knowledge/discrete-mathematics/boolean-algebra/binary-decision-diagram/)
+- [DNF와 CNF (DNF and CNF)](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)
+- [불 체인 (Boolean Chain)](/knowledge/discrete-mathematics/boolean-algebra/boolean-chain/)

@@ -1,5 +1,5 @@
 ---
-title: "Minterm"
+title: "최소항 (Minterm)"
 description: "리터럴(literal)은 불리언 변수 또는 그 보수를 말하며, 최소항(minterm)은 불리언 변수 x₁, x₂, "
 tags: ['Minterm', 'Maxterm', 'Boolean Algebra', 'Normal Form', 'Literal', 'Discrete Mathematics']
 created: 2026-02-16

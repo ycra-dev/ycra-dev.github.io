@@ -1,5 +1,5 @@
 ---
-title: "Quine-McCluskey Method"
+title: "콰인-맥클러스키 방법 (Quine-McCluskey Method)"
 description: "Quine-McCluskey 방법은 불리언 함수의 곱의 합 전개를 체계적으로 최소화하는 알고리즘적 절차이다"
 tags: ['Quine Mccluskey', 'Circuit Minimization', 'Prime Implicant', 'Boolean Simplification', 'Algorithm', 'Discrete Mathematics']
 created: 2026-02-16
@@ -99,6 +99,6 @@ wxyz + wxȳz + w̄xyz + wxyz̄ + wxȳz̄ + w̄x̄yz + w̄x̄ȳz 에 대해:
 - [Karnaugh Map](/knowledge/mathematics/karnaugh-map/) - Quine-McCluskey의 시각적 대안 (소규모에 적합)
 - [Sum-of-Products Expansion](/knowledge/mathematics/sum-of-products-expansion/) - 최소화의 출발점이 되는 표현
 - [Minterm](/knowledge/mathematics/minterm/) - 비트 문자열로 표현되어 알고리즘에 입력
-- [Algorithm](/knowledge/algorithms/algorithm/) - 체계적이고 기계화 가능한 절차
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 체계적이고 기계화 가능한 절차
 - [Boolean Function](/knowledge/mathematics/boolean-function/) - 최소화하려는 대상 함수
 - [Logic Gate](/knowledge/mathematics/logic-gate/) - 최소화된 표현으로 효율적인 회로 구현

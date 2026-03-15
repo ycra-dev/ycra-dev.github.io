@@ -1,5 +1,5 @@
 ---
-title: "Independence"
+title: "독립 (Independence)"
 description: "두 사건 E와 F가 독립(independent)이란, p(E ∩ F) = p(E)p(F)를 만족하는 것이다"
 tags: ['Independence', 'Probability', 'Pairwise Independence', 'Mutual Independence', 'Events']
 created: 2026-02-16

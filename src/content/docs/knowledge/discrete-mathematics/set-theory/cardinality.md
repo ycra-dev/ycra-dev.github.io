@@ -1,5 +1,5 @@
 ---
-title: "Cardinality"
+title: "가산성 (Cardinality)"
 description: "두 집합 A와 B의 크기(cardinality)가 같다 함은 A에서 B로의 전단사함수(bijection)가 존재하는 것이며, |A| = |B|로 표기한다"
 tags: ['Cardinality', 'Countable', 'Uncountable', 'Aleph Null', 'Cantor', 'Diagonalization', 'Computability']
 created: 2026-02-16

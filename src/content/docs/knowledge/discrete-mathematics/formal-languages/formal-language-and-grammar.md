@@ -1,5 +1,5 @@
 ---
-title: "Formal Language and Grammar"
+title: "형식 언어와 문법 (Formal Language and Grammar)"
 description: "형식 언어(formal language)는 알파벳(vocabulary) V 위의 문자열 집합 V*의 부분집합이며, 구(phrase-structure) 문법 G = (V, T, S, P)는 알파벳 V, 터미널 기호 집합 T, 시작 기호 S, 생성 규칙 집합 P로 구..."
 tags: ['Formal Language', 'Phrase Structure Grammar', 'Vocabulary', 'Production', 'Derivation', 'Computation Theory']
 created: 2026-02-16

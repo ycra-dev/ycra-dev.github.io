@@ -1,5 +1,5 @@
 ---
-title: "Backtracking"
+title: "백트래킹 (Backtracking)"
 description: "백트래킹(backtracking)은 가능한 모든 해를 체계적으로 탐색하는 기법으로, 결정 트리의 경로를 따라 해를 구성하다가 더 이상 유효한 해가 나올 수 없다고 판단되면 이전 결정 지점으로 되돌아가 다른 선택을 시도하는 깊이 우선 탐색 기반의 알고리즘이다"
 tags: ['Backtracking', 'Depth First Search', 'Constraint Satisfaction', 'N Queens', 'Graph Coloring', 'Algorithm']
 created: 2026-02-16
@@ -86,5 +86,5 @@ Step 7: 1열 2행에 퀸 배치 → 최종 해:
 
 - [Depth-First Search](/knowledge/mathematics/depth-first-search/) - 백트래킹의 기반이 되는 탐색 방법
 - [Hamilton Path](/knowledge/mathematics/hamilton-path-and-circuit/) - 백트래킹으로 탐색 가능한 경로 문제
-- [Algorithm](/knowledge/algorithms/algorithm/) - 백트래킹 알고리즘의 일반적 구조
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 백트래킹 알고리즘의 일반적 구조
 - [Decision Tree](/knowledge/mathematics/decision-tree/) - 백트래킹의 탐색 공간을 표현하는 트리

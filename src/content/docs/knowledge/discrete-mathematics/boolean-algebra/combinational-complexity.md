@@ -1,5 +1,5 @@
 ---
-title: "Combinational Complexity"
+title: "조합 복잡도 (Combinational Complexity)"
 description: "부울 함수 f를 계산하는 가장 짧은 부울 체인의 길이 C(f) — 하드웨어 게이트 수 최소화와 회로 복잡도 이론의 핵심 측도"
 tags: ["Boolean Algebra", "Circuit Complexity", "Lower Bounds", "Algorithms"]
 created: 2026-02-27
@@ -61,7 +61,7 @@ DNF 표현: 11개 단계 (길이 10)
 
 ## 관련 개념
 
-- [Boolean Chain](/knowledge/discrete-mathematics/boolean-algebra/boolean-chain/)
-- [Binary Decision Diagram](/knowledge/discrete-mathematics/boolean-algebra/binary-decision-diagram/)
-- [DNF and CNF](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)
-- [Bitwise Operations](/knowledge/algorithms/foundations/bitwise-operations/)
+- [불 체인 (Boolean Chain)](/knowledge/discrete-mathematics/boolean-algebra/boolean-chain/)
+- [이진 결정 다이어그램 (Binary Decision Diagram)](/knowledge/discrete-mathematics/boolean-algebra/binary-decision-diagram/)
+- [DNF와 CNF (DNF and CNF)](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)
+- [비트 연산 (Bitwise Operations)](/knowledge/algorithms/foundations/bitwise-operations/)

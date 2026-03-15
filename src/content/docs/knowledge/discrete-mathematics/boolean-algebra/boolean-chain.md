@@ -1,5 +1,5 @@
 ---
-title: "Boolean Chain"
+title: "불 체인 (Boolean Chain)"
 description: "n개의 입력 변수에 대해 각 단계가 이전 두 결과의 이진 부울 연산인 계산 시퀀스 — 게이트 네트워크와 1:1 대응하는 회로 복잡도의 기본 모델"
 tags: ["Boolean Algebra", "Circuit Complexity", "Algorithms"]
 created: 2026-02-27
@@ -69,7 +69,7 @@ x₁₀ = x₈ ∧ x₉
 
 ## 관련 개념
 
-- [Combinational Complexity](/knowledge/discrete-mathematics/boolean-algebra/combinational-complexity/)
-- [Binary Decision Diagram](/knowledge/discrete-mathematics/boolean-algebra/binary-decision-diagram/)
-- [Bitwise Operations](/knowledge/algorithms/foundations/bitwise-operations/)
-- [DNF and CNF](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)
+- [조합 복잡도 (Combinational Complexity)](/knowledge/discrete-mathematics/boolean-algebra/combinational-complexity/)
+- [이진 결정 다이어그램 (Binary Decision Diagram)](/knowledge/discrete-mathematics/boolean-algebra/binary-decision-diagram/)
+- [비트 연산 (Bitwise Operations)](/knowledge/algorithms/foundations/bitwise-operations/)
+- [DNF와 CNF (DNF and CNF)](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)

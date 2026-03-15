@@ -1,5 +1,5 @@
 ---
-title: "Chebyshev's Inequality"
+title: "체비셰프 부등식 (Chebyshev's Inequality)"
 description: "체비셰프 부등식(Chebyshev's inequality)은 양의 실수 r에 대해 p(|X(s) - E(X)| ≥ r) ≤ V(X)/r²을 만족하며, 확률변수가 기대값으로부터 r 이상 벗어날 확률의 상한을 분산으로 제한하는 부등식이다"
 tags: ['Chebyshev Inequality', 'Variance', 'Probability Bound', 'Random Variable', 'Law Of Large Numbers']
 created: 2026-02-16

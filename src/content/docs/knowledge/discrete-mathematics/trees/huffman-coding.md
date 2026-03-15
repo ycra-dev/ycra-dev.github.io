@@ -1,5 +1,5 @@
 ---
-title: "Huffman Coding"
+title: "허프만 코딩 (Huffman Coding)"
 description: "허프만 코딩(Huffman coding)은 심볼들의 빈도(frequency)를 입력으로 받아, 가능한 모든 이진 접두사 코드(binary prefix code) 중에서 가장 적은 비트를 사용하는 최적의 접두사 코드를 생성하는 탐욕 알고리즘이다"
 tags: ['Huffman Coding', 'Prefix Code', 'Data Compression', 'Greedy Algorithm', 'Binary Tree', 'Encoding']
 created: 2026-02-16
@@ -67,7 +67,7 @@ A: 111, B: 110, C: 011, D: 010, E: 10, F: 00
 
 ## 관련 개념
 
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/) - 허프만 코딩은 탐욕 알고리즘의 대표적 응용
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/) - 허프만 코딩은 탐욕 알고리즘의 대표적 응용
 - [Rooted Tree](/knowledge/mathematics/rooted-tree/) - 허프만 트리는 이진 루트 트리
 - [Decision Tree](/knowledge/mathematics/decision-tree/) - 코드 생성을 위한 트리 기반 결정 과정
-- [Algorithm](/knowledge/algorithms/algorithm/) - 허프만 코딩 알고리즘의 절차적 구조
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 허프만 코딩 알고리즘의 절차적 구조

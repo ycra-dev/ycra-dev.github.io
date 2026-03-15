@@ -1,5 +1,5 @@
 ---
-title: "Relation Properties"
+title: "관계의 성질 (Relation Properties)"
 description: "집합 A 위의 관계 R이 가질 수 있는 네 가지 핵심 성질: (1) 반사적(reflexive): 모든 a in A에 대해 (a,a) in R, (2) 대칭적(symmetric): (a,b) in R이면 (b,a) in R, (3) 반대칭적(antisymmetric..."
 tags: ['Relation', 'Reflexive', 'Symmetric', 'Antisymmetric', 'Transitive', 'Properties']
 created: 2026-02-16

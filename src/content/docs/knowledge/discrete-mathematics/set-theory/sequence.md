@@ -1,5 +1,5 @@
 ---
-title: "Sequence"
+title: "수열 (Sequence)"
 description: "수열(Sequence)은 정수의 부분집합(보통 {0, 1, 2, "
 tags: ['Sequence', 'Arithmetic Progression', 'Geometric Progression', 'String', 'Summation']
 created: 2026-02-16

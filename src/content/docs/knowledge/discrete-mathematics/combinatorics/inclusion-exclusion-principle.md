@@ -1,5 +1,5 @@
 ---
-title: "Inclusion-Exclusion Principle"
+title: "포함-배제 원리 (Inclusion-Exclusion Principle)"
 description: "포함-배제의 원리(Inclusion-Exclusion Principle)란 두 방법 중 하나로 수행 가능한 작업에서, 공통되는 방법이 있을 때, 전체 방법의 수는 n1 + n2에서 공통 방법의 수를 뺀 것이라는 계수 원리이다"
 tags: ['Inclusion Exclusion', 'Subtraction Rule', 'Counting', 'Set Union', 'Overcounting']
 created: 2026-02-16

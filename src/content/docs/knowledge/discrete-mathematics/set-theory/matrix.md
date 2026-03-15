@@ -1,5 +1,5 @@
 ---
-title: "Matrix"
+title: "행렬 (Matrix)"
 description: "행렬(Matrix)은 수를 직사각형 형태로 배열한 것이다"
 tags: ['Matrix', 'Matrix Multiplication', 'Transpose', 'Identity Matrix', 'Boolean Matrix', 'Linear Algebra']
 created: 2026-02-16

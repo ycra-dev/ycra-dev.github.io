@@ -1,5 +1,5 @@
 ---
-title: "Recurrence Relation"
+title: "점화식 (Recurrence Relation)"
 description: "수열 {aₙ}에 대한 점화식(Recurrence Relation)은 aₙ을 이전 항들 a₀, a₁, "
 tags: ['Recurrence Relation', 'Recursion', 'Fibonacci', 'Iteration', 'Closed Form', 'Dynamic Programming']
 created: 2026-02-16

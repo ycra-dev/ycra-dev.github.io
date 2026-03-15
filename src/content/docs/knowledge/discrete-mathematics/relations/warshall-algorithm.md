@@ -1,5 +1,5 @@
 ---
-title: "Warshall's Algorithm"
+title: "워셜 알고리즘 (Warshall's Algorithm)"
 description: "워셜 알고리즘(Warshall's Algorithm)은 관계의 추이적 폐포를 효율적으로 계산하는 알고리즘이다"
 tags: ['Warshall', 'Transitive Closure', 'Algorithm', 'Dynamic Programming', 'Graph', 'Boolean Matrix']
 created: 2026-02-16
@@ -83,7 +83,7 @@ W_4: v_4=d를 경유 가능 -> a->d->c 경로 추가 (a,c)=1 등
 ## 관련 개념
 
 - [Closure of Relations](/knowledge/mathematics/closure-of-relations/) - 추이적 폐포의 정의와 필요성
-- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘의 정확성 증명과 복잡도 분석
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 알고리즘의 정확성 증명과 복잡도 분석
 - [Relation Representation](/knowledge/mathematics/relation-representation/) - 영-일 행렬을 사용한 관계 표현
 - [Matrix](/knowledge/mathematics/matrix/) - 불리언 행렬 연산의 활용
 - [Relation Composition](/knowledge/mathematics/relation-composition/) - R^n 계산 대신 더 효율적인 방법 제공

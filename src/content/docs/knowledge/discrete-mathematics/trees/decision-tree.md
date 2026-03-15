@@ -1,5 +1,5 @@
 ---
-title: "Decision Tree"
+title: "결정 트리 (Decision Tree)"
 description: "결정 트리(decision tree)는 각 내부 정점이 하나의 결정(decision)에 대응하고, 그 결정의 가능한 결과에 대해 서브트리가 존재하는 루트 트리이다"
 tags: ['Decision Tree', 'Tree', 'Sorting Complexity', 'Lower Bound', 'Comparison Sort']
 created: 2026-02-16
@@ -62,6 +62,6 @@ n = 10일 때:
 ## 관련 개념
 
 - [Rooted Tree](/knowledge/mathematics/rooted-tree/) - 결정 트리의 기반 구조
-- [Algorithm](/knowledge/algorithms/algorithm/) - 결정 트리로 모델링되는 알고리즘
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 정렬 알고리즘의 하한 분석
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 결정 트리로 모델링되는 알고리즘
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - 정렬 알고리즘의 하한 분석
 - [Binary Search Tree](/knowledge/mathematics/binary-search-tree/) - 결정 트리의 특수한 경우

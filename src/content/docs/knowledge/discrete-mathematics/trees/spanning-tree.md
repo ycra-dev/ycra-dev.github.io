@@ -1,5 +1,5 @@
 ---
-title: "Spanning Tree"
+title: "신장 트리 (Spanning Tree)"
 description: "단순 그래프 G의 신장 트리(spanning tree)는 G의 모든 정점을 포함하면서 트리인 G의 부분 그래프이다"
 tags: ['Spanning Tree', 'Graph', 'Connected Graph', 'Subgraph', 'Network', 'Tree']
 created: 2026-02-16

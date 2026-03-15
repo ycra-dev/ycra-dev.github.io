@@ -1,5 +1,5 @@
 ---
-title: "Integer Representation"
+title: "정수 표현 (Integer Representation)"
 description: "정수 표현(Integer Representation)은 양의 정수 n을 1보다 큰 정수 b를 밑(base)으로 하여 n = a_k*b^k + a_{k-1}*b^{k-1} + "
 tags: ['Integer Representation', 'Binary', 'Hexadecimal', 'Octal', 'Base Conversion', 'Number System']
 created: 2026-02-16
@@ -98,8 +98,8 @@ print(to_base(175627, 16)) # 2AE0B
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/algorithm/) - 진법 변환 알고리즘, 산술 알고리즘
-- [Complexity](/knowledge/algorithms/time-complexity/) - 이진 산술의 비트 연산 복잡도
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 덧셈 O(n), 곱셈 O(n^2)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 진법 변환 알고리즘, 산술 알고리즘
+- [시간 복잡도 (Time Complexity)](/knowledge/algorithms/time-complexity/) - 이진 산술의 비트 연산 복잡도
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - 덧셈 O(n), 곱셈 O(n^2)
 - [Modular Exponentiation](/knowledge/mathematics/modular-exponentiation/) - 이진 전개를 활용한 효율적 거듭제곱
 - [Modular Arithmetic](/knowledge/mathematics/modular-arithmetic/) - mod, div 연산

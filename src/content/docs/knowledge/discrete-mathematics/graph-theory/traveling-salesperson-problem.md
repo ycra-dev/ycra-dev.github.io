@@ -1,5 +1,5 @@
 ---
-title: "Traveling Salesperson Problem"
+title: "외판원 문제 (Traveling Salesperson Problem)"
 description: "순회 판매원 문제(Traveling Salesperson Problem, TSP)는 가중 완전 비방향 그래프에서 모든 정점을 정확히 한 번씩 방문하고 출발점으로 돌아오는 최소 총 가중치의 해밀턴 회로를 찾는 문제이다"
 tags: ['Tsp', 'Np Complete', 'Hamilton Circuit', 'Optimization', 'Approximation Algorithm']
 created: 2026-02-16
@@ -80,5 +80,5 @@ Detroit-Toledo-Saginaw-Grand Rapids-Kalamazoo-Detroit: 502
 
 - [Hamilton Path and Circuit](/knowledge/mathematics/hamilton-path-and-circuit/) - TSP는 최소 가중치 해밀턴 회로 문제
 - [Graph](/knowledge/mathematics/graph/) - 가중 완전 그래프에서 정의
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - NP-완전 문제의 복잡도
-- [Algorithm](/knowledge/algorithms/algorithm/) - 탐욕 알고리즘 및 근사 알고리즘
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - NP-완전 문제의 복잡도
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 탐욕 알고리즘 및 근사 알고리즘

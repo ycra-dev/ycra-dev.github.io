@@ -1,5 +1,5 @@
 ---
-title: "Pigeonhole Principle"
+title: "비둘기집 원리 (Pigeonhole Principle)"
 description: "비둘기집 원리(Pigeonhole Principle)란 k+1개 이상의 물체를 k개의 상자에 넣으면, 적어도 하나의 상자에는 2개 이상의 물체가 들어간다는 원리이다"
 tags: ['Pigeonhole Principle', 'Dirichlet Drawer Principle', 'Counting', 'Proof Technique', 'Combinatorics']
 created: 2026-02-16

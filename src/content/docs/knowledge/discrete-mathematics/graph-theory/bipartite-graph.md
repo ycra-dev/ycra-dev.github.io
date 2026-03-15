@@ -1,5 +1,5 @@
 ---
-title: "Bipartite Graph"
+title: "이분 그래프 (Bipartite Graph)"
 description: "이분 그래프(bipartite graph)는 정점 집합 V를 두 개의 부분집합 V1과 V2로 분할할 수 있어서, 모든 간선이 V1의 정점과 V2의 정점을 연결하는 그래프이다"
 tags: ['Bipartite Graph', 'Graph', 'Matching', 'Hall Theorem', 'Graph Coloring']
 created: 2026-02-16

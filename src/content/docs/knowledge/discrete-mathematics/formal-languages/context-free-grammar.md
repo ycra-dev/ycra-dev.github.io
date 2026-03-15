@@ -1,5 +1,5 @@
 ---
-title: "Context-Free Grammar"
+title: "문맥 자유 문법 (Context-Free Grammar)"
 description: "문맥 자유 문법(context-free grammar, CFG)은 모든 생성 규칙이 w1 -> w2 형태이며 w1이 단일 비터미널 기호인 type 2 문법으로, 비터미널 기호를 주변 문맥에 관계없이 대체할 수 있어 프로그래밍 언어의 구문 정의에 핵심적으로 사용된다"
 tags: ['Context Free Grammar', 'Type 2 Grammar', 'Derivation Tree', 'Parse Tree', 'Backus Naur Form', 'Bnf', 'Compiler']
 created: 2026-02-16
@@ -74,4 +74,4 @@ ALGOL 60의 식별자를 BNF로 정의:
 - [Chomsky Hierarchy](/knowledge/mathematics/chomsky-hierarchy/): CFG의 위치 (Type 2)
 - [Regular Grammar and Regular Language](/knowledge/mathematics/regular-grammar-and-regular-language/): CFG보다 제한적인 Type 3 문법
 - [Tree](/knowledge/mathematics/tree/): 유도 트리는 순서 있는 루트 트리의 한 예
-- [Algorithm](/knowledge/algorithms/algorithm/): 파싱 알고리즘 (하향식, 상향식)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/): 파싱 알고리즘 (하향식, 상향식)

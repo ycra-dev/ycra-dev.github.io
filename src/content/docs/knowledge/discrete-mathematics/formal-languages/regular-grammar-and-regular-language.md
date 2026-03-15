@@ -1,5 +1,5 @@
 ---
-title: "Regular Grammar and Regular Language"
+title: "정규 문법과 정규 언어 (Regular Grammar and Regular Language)"
 description: "정규 문법(regular grammar)은 모든 생성 규칙이 A -> aB, A -> a, 또는 S -> lambda 형태만 허용하는 type 3 문법이며, 정규 언어(regular language)는 정규 문법에 의해 생성되는 언어로, 유한 상태 오토마타에 의해..."
 tags: ['Regular Grammar', 'Regular Language', 'Type 3 Grammar', 'Lexical Analysis', 'Finite State Automaton']
 created: 2026-02-16

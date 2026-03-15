@@ -1,5 +1,5 @@
 ---
-title: "Characteristic Equation"
+title: "특성 방정식 (Characteristic Equation)"
 description: "특성 방정식(characteristic equation)은 선형 동차 점화식 a_n = c_1*a_{n-1} + c_2*a_{n-2} + "
 tags: ['Characteristic Equation', 'Characteristic Root', 'Recurrence Relation', 'Polynomial', 'Discrete Mathematics']
 created: 2026-02-16

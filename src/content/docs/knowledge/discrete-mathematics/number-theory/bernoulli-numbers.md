@@ -1,5 +1,5 @@
 ---
-title: "Bernoulli Numbers"
+title: "베르누이 수 (Bernoulli Numbers)"
 description: "지수 생성 함수 z/(e^z - 1)의 계수로 정의되며, 거듭제곱합 공식과 점근 전개(오일러 합산 공식)에 핵심적으로 사용되는 유리수 수열"
 tags: ["Number Theory", "Mathematics", "Analysis", "TAOCP"]
 created: 2026-02-27
@@ -112,7 +112,7 @@ print(f"H_100 정확 = {sum(1/k for k in range(1, 101)):.10f}")
 
 ## 관련 개념
 
-- [Harmonic Numbers](/knowledge/algorithms/foundations/harmonic-numbers/)
-- [Generating Functions](/knowledge/discrete-mathematics/combinatorics/generating-functions/)
-- [Gamma Function](/knowledge/discrete-mathematics/combinatorics/gamma-function/)
-- [Modular Arithmetic](/knowledge/discrete-mathematics/number-theory/modular-arithmetic/)
+- [조화수 (Harmonic Numbers)](/knowledge/algorithms/foundations/harmonic-numbers/)
+- [생성 함수 (Generating Functions)](/knowledge/discrete-mathematics/combinatorics/generating-functions/)
+- [감마 함수 (Gamma Function)](/knowledge/discrete-mathematics/combinatorics/gamma-function/)
+- [모듈러 산술 (Modular Arithmetic)](/knowledge/discrete-mathematics/number-theory/modular-arithmetic/)

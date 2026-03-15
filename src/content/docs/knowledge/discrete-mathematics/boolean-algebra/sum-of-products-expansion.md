@@ -1,5 +1,5 @@
 ---
-title: "Sum-of-Products Expansion"
+title: "곱의 합 전개 (Sum-of-Products Expansion)"
 description: "곱의 합 전개(sum-of-products expansion)란 불리언 함수를 최소항(minterm)들의 불리언 합으로 표현한 것이다"
 tags: ['Sum Of Products', 'Disjunctive Normal Form', 'Boolean Function', 'Canonical Form', 'Discrete Mathematics']
 created: 2026-02-16

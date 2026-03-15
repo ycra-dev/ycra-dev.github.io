@@ -1,5 +1,5 @@
 ---
-title: "Boolean Function"
+title: "불 함수 (Boolean Function)"
 description: "불리언 함수(Boolean function)란 B = {0, 1}에서 B^n에서 B로의 함수로, n개의 불리언 변수를 입력으로 받아 0 또는 1의 값을 출력하는 함수이다"
 tags: ['Boolean Algebra', 'Boolean Function', 'Truth Table', 'Digital Logic', 'Discrete Mathematics']
 created: 2026-02-16

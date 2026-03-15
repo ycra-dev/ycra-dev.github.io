@@ -1,5 +1,5 @@
 ---
-title: "Partial Ordering"
+title: "부분 순서 (Partial Ordering)"
 description: "집합 S 위의 관계 R이 반사적(reflexive), 반대칭적(antisymmetric), 추이적(transitive)이면 반순서(partial ordering 또는 partial order)라 한다"
 tags: ['Partial Order', 'Poset', 'Comparable', 'Total Order', 'Well Ordered', 'Antisymmetric']
 created: 2026-02-16

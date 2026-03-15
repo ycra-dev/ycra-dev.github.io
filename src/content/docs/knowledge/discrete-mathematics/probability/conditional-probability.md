@@ -1,5 +1,5 @@
 ---
-title: "Conditional Probability"
+title: "조건부 확률 (Conditional Probability)"
 description: "조건부 확률(conditional probability)은 사건 F가 발생했다는 조건 하에서 사건 E가 발생할 확률로, p(F) > 0일 때 p(E|F) = p(E ∩ F) / p(F)로 정의된다"
 tags: ['Conditional Probability', 'Probability', 'Bayes Theorem', 'Independence']
 created: 2026-02-16

@@ -1,5 +1,5 @@
 ---
-title: "Catalan Number"
+title: "카탈란 수 (Catalan Number)"
 description: "n개의 노드를 가진 이진 트리의 수이자 n쌍의 올바른 괄호 배열의 수 Cₙ = C(2n,n)/(n+1) — 42가지 이상의 동치 조합론적 구조를 셈"
 tags: ["Combinatorics", "Counting", "Trees", "Parentheses", "Algorithms"]
 created: 2026-02-27
@@ -91,7 +91,7 @@ for n in range(1, 8):
 
 ## 관련 개념
 
-- [Tree Generation](/knowledge/discrete-mathematics/combinatorics/tree-generation/)
-- [Bell Number](/knowledge/discrete-mathematics/combinatorics/bell-number/)
-- [Combination Generation](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
-- [Generating Functions](/knowledge/discrete-mathematics/combinatorics/generating-functions/)
+- [트리 생성 (Tree Generation)](/knowledge/discrete-mathematics/combinatorics/tree-generation/)
+- [벨 수 (Bell Number)](/knowledge/discrete-mathematics/combinatorics/bell-number/)
+- [조합 생성 (Combination Generation)](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
+- [생성 함수 (Generating Functions)](/knowledge/discrete-mathematics/combinatorics/generating-functions/)

@@ -1,5 +1,5 @@
 ---
-title: "Satisfiability"
+title: "충족 가능성 (Satisfiability)"
 description: "합성 명제가 만족가능(satisfiable)하다는 것은 그 명제의 변수들에 대해 참으로 만드는 진리값 할당이 존재한다는 것이다"
 tags: ['Satisfiability', 'Sat Problem', 'Np Completeness', 'Tautology', 'Contradiction']
 created: 2026-02-16

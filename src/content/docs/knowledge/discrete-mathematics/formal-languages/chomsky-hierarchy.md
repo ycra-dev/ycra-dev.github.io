@@ -1,5 +1,5 @@
 ---
-title: "Chomsky Hierarchy"
+title: "촘스키 계층 (Chomsky Hierarchy)"
 description: "촘스키 위계(Chomsky hierarchy)는 구문법(phrase-structure grammar)을 생성 규칙의 제한 수준에 따라 type 0부터 type 3까지 네 가지 유형으로 분류하는 체계로, 각 유형은 인식 가능한 언어의 범위와 이를 인식하는 계산 모델..."
 tags: ['Chomsky Hierarchy', 'Grammar Types', 'Type 0', 'Type 1', 'Type 2', 'Type 3', 'Context Sensitive', 'Computation Theory']
 created: 2026-02-16

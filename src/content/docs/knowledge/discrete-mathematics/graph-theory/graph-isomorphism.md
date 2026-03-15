@@ -1,5 +1,5 @@
 ---
-title: "Graph Isomorphism"
+title: "그래프 동형 (Graph Isomorphism)"
 description: "두 단순 그래프 G1 = (V1, E1)과 G2 = (V2, E2)가 동형(isomorphic)이라 함은, V1에서 V2로의 일대일 대응 함수 f가 존재하여, V1의 모든 정점 a, b에 대해 a와 b가 G1에서 인접할 때에만 f(a)와 f(b)가 G2에서 인접하..."
 tags: ['Graph Isomorphism', 'Invariant', 'Bijection', 'Np Problem', 'Graph Theory']
 created: 2026-02-16
@@ -84,4 +84,4 @@ print(np.array_equal(A_G, A_H))  # True
 - [Adjacency Matrix](/knowledge/mathematics/adjacency-matrix/) - 동형 검증에 행렬 활용
 - [Function](/knowledge/mathematics/function/) - 동형 사상은 전단사 함수
 - [Equivalence Relation](/knowledge/mathematics/equivalence-relation/) - 그래프 동형은 동치 관계
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 알고리즘의 계산 복잡도
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - 알고리즘의 계산 복잡도

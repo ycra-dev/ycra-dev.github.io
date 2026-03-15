@@ -1,5 +1,5 @@
 ---
-title: "Planar Graph"
+title: "평면 그래프 (Planar Graph)"
 description: "평면 그래프(planar graph)는 평면 위에 간선의 교차 없이 그릴 수 있는 그래프이다"
 tags: ['Planar Graph', 'Euler Formula', 'Circuit Design', 'Kuratowski', 'Graph Theory']
 created: 2026-02-16

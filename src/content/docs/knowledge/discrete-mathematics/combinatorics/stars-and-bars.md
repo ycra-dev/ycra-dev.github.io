@@ -1,5 +1,5 @@
 ---
-title: "Stars and Bars"
+title: "별과 막대 (Stars and Bars)"
 description: "별과 막대(Stars and Bars)는 n가지 종류의 원소에서 반복을 허용하여 r개를 선택하는 문제(반복 조합)를 해결하는 기법으로, r개의 별(stars)과 (n-1)개의 막대(bars)의 배열로 변환하여 C(n+r-1, r)가지임을 보이는 방법이다"
 tags: ['Stars And Bars', 'Combination With Repetition', 'Counting', 'Integer Partition', 'Distributing Objects']
 created: 2026-02-16

@@ -1,5 +1,5 @@
 ---
-title: "Functional Completeness"
+title: "기능적 완전성 (Functional Completeness)"
 description: "연산자 집합이 함수적으로 완전(functionally complete)하다는 것은, 모든 불리언 함수를 해당 연산자들만으로 표현할 수 있다는 것을 의미한다"
 tags: ['Functional Completeness', 'Nand', 'Nor', 'Boolean Operators', 'Digital Logic', 'Discrete Mathematics']
 created: 2026-02-16

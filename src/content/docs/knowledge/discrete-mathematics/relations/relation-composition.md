@@ -1,5 +1,5 @@
 ---
-title: "Relation Composition"
+title: "관계의 합성 (Relation Composition)"
 description: "집합 A에서 B로의 관계 R과 B에서 C로의 관계 S의 합성(composite) S ∘ R은, (a, b) in R이고 (b, c) in S인 원소 b in B가 존재하는 모든 순서쌍 (a, c)의 집합이다"
 tags: ['Relation', 'Composition', 'Combining Relations', 'Power Of Relation', 'Inverse Relation']
 created: 2026-02-16

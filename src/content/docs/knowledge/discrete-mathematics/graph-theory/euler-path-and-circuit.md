@@ -1,5 +1,5 @@
 ---
-title: "Euler Path and Circuit"
+title: "오일러 경로와 회로 (Euler Path and Circuit)"
 description: "그래프 G에서 오일러 회로(Euler circuit)는 G의 모든 간선을 정확히 한 번씩 포함하는 단순 순환이다"
 tags: ['Euler Path', 'Euler Circuit', 'Graph Traversal', 'Konigsberg Bridges', 'Multigraph']
 created: 2026-02-16
@@ -70,4 +70,4 @@ def has_euler_path(graph):
 - [Graph](/knowledge/mathematics/graph/) - 오일러 경로/회로가 정의되는 구조
 - [Connectivity](/knowledge/mathematics/connectivity/) - 연결 그래프에서만 존재
 - [Hamilton Path and Circuit](/knowledge/mathematics/hamilton-path-and-circuit/) - 정점 순회 vs 간선 순회
-- [Algorithm](/knowledge/algorithms/algorithm/) - O(m) 시간에 구성 가능
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - O(m) 시간에 구성 가능

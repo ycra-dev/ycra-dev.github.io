@@ -1,5 +1,5 @@
 ---
-title: "Greatest Common Divisor"
+title: "최대공약수 (Greatest Common Divisor)"
 description: "최대공약수(Greatest Common Divisor, GCD)는 두 정수 a, b(둘 다 0이 아닌)를 동시에 나누는 가장 큰 양의 정수 d이다"
 tags: ['Gcd', 'Lcm', 'Number Theory', 'Divisibility', 'Bezout Identity']
 created: 2026-02-16

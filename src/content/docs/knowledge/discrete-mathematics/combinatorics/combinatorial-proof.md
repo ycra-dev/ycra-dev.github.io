@@ -1,5 +1,5 @@
 ---
-title: "Combinatorial Proof"
+title: "조합적 증명 (Combinatorial Proof)"
 description: "조합적 증명(Combinatorial Proof)이란 대수적 조작 대신 계수 논증(counting argument)을 사용하여 항등식을 증명하는 방법이다"
 tags: ['Combinatorial Proof', 'Double Counting', 'Bijective Proof', 'Identity', 'Counting Argument']
 created: 2026-02-16

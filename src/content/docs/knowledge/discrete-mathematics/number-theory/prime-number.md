@@ -1,5 +1,5 @@
 ---
-title: "Prime Number"
+title: "소수 (Prime Number)"
 description: "소수(Prime Number)는 1보다 큰 정수 중 양의 인수(factor)가 1과 자기 자신뿐인 수이다"
 tags: ['Prime Number', 'Fundamental Theorem Of Arithmetic', 'Factorization', 'Number Theory', 'Sieve Of Eratosthenes']
 created: 2026-02-16
@@ -75,5 +75,5 @@ print(sieve_of_eratosthenes(100))
 - [RSA Cryptosystem](/knowledge/mathematics/rsa-cryptosystem/) - 큰 소수를 활용한 공개키 암호
 - [Fermat's Little Theorem](/knowledge/mathematics/fermats-little-theorem/) - 소수 모듈러 연산의 핵심 정리
 - [Proof by Contradiction](/knowledge/mathematics/proof-by-contradiction/) - 소수 무한성의 증명 방법
-- [Algorithm](/knowledge/algorithms/algorithm/) - 소수 판별 및 체 알고리즘
-- [Complexity](/knowledge/algorithms/time-complexity/) - 소수 판별의 다항 시간 알고리즘 (AKS)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 소수 판별 및 체 알고리즘
+- [시간 복잡도 (Time Complexity)](/knowledge/algorithms/time-complexity/) - 소수 판별의 다항 시간 알고리즘 (AKS)

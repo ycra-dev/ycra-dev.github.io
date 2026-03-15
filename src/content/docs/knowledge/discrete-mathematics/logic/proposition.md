@@ -1,5 +1,5 @@
 ---
-title: "Proposition"
+title: "명제 (Proposition)"
 description: "명제(Proposition)란 참(True) 또는 거짓(False) 중 하나의 진리값을 가지며, 동시에 둘 다가 될 수 없는 선언적 문장이다"
 tags: ['Proposition', 'Propositional Logic', 'Truth Value', 'Declarative Sentence']
 created: 2026-02-16

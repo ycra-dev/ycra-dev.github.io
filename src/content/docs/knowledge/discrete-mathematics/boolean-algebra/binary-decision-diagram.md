@@ -1,5 +1,5 @@
 ---
-title: "Binary Decision Diagram"
+title: "이진 결정 다이어그램 (Binary Decision Diagram)"
 description: "부울 함수를 순서 있는 이진 결정 트리를 압축한 DAG로 표현하는 자료구조 — 각 내부 노드가 변수를 나타내고 LO/HI 두 자식을 가짐"
 tags: ["Boolean Algebra", "BDD", "DAG", "Algorithms"]
 created: 2026-02-27
@@ -73,6 +73,6 @@ def AND(f, g):
 ## 관련 개념
 
 - [ROBDD](/knowledge/discrete-mathematics/boolean-algebra/robdd/)
-- [Boolean Chain](/knowledge/discrete-mathematics/boolean-algebra/boolean-chain/)
-- [Boolean Satisfiability](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
-- [Monotone Boolean Function](/knowledge/discrete-mathematics/boolean-algebra/monotone-boolean-function/)
+- [불 체인 (Boolean Chain)](/knowledge/discrete-mathematics/boolean-algebra/boolean-chain/)
+- [부울 충족 가능성 (Boolean Satisfiability)](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
+- [단조 불 함수 (Monotone Boolean Function)](/knowledge/discrete-mathematics/boolean-algebra/monotone-boolean-function/)

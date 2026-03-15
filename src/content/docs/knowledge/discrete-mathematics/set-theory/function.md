@@ -1,5 +1,5 @@
 ---
-title: "Function"
+title: "함수 (Function)"
 description: "함수(Function) f: A → B는 집합 A의 각 원소에 집합 B의 정확히 하나의 원소를 대응시키는 할당(assignment)이다"
 tags: ['Function', 'Mapping', 'Domain', 'Codomain', 'Range', 'Image', 'Preimage']
 created: 2026-02-16

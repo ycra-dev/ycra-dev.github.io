@@ -1,5 +1,5 @@
 ---
-title: "Sample Space"
+title: "표본 공간 (Sample Space)"
 description: "표본공간(sample space)은 실험에서 발생할 수 있는 모든 가능한 결과(outcome)의 집합이며, 사건(event)은 표본공간의 부분집합이다"
 tags: ['Sample Space', 'Probability', 'Event', 'Experiment', 'Discrete Probability']
 created: 2026-02-16

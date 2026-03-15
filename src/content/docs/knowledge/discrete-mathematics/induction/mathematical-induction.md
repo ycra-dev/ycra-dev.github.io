@@ -1,5 +1,5 @@
 ---
-title: "Mathematical Induction"
+title: "수학적 귀납법 (Mathematical Induction)"
 description: "수학적 귀납법(Mathematical Induction)은 모든 양의 정수 n에 대해 명제 P(n)이 참임을 증명하는 증명 기법으로, 기초 단계(Basis Step)에서 P(1)이 참임을 보이고, 귀납 단계(Inductive Step)에서 임의의 양의 정수 k에 ..."
 tags: ['Mathematical Induction', 'Proof Technique', 'Basis Step', 'Inductive Step', 'Inductive Hypothesis']
 created: 2026-02-16

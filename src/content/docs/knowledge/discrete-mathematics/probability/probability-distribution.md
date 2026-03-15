@@ -1,5 +1,5 @@
 ---
-title: "Probability Distribution"
+title: "확률 분포 (Probability Distribution)"
 description: "확률분포(probability distribution)는 표본공간 S의 각 결과 s에 확률 p(s)를 할당하는 함수로, (i) 모든 s ∈ S에 대해 0 ≤ p(s) ≤ 1이고, (ii) 모든 확률의 합 Σp(s) = 1을 만족해야 한다"
 tags: ['Probability Distribution', 'Uniform Distribution', 'Probability', 'Sample Space']
 created: 2026-02-16

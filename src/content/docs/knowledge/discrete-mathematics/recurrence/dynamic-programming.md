@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Programming"
+title: "동적 프로그래밍 (Dynamic Programming)"
 description: "동적 프로그래밍(dynamic programming)은 문제를 겹치는(overlapping) 부분 문제들로 재귀적으로 분해하고, 각 부분 문제의 해를 저장(memoization)하여 중복 계산을 방지하면서 점화식을 통해 전체 최적해를 구하는 알고리즘 패러다임이다"
 tags: ['Dynamic Programming', 'Algorithm', 'Optimization', 'Memoization', 'Recurrence Relation']
 created: 2026-02-16
@@ -50,7 +50,7 @@ procedure Maximum_Attendees(s, e, w: 강연 시작/종료/참석자 정보)
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/algorithm/) - 상위 개념
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 상위 개념
 - [Recurrence Relation](/knowledge/mathematics/recurrence-relation/) - 동적 프로그래밍의 핵심 도구
 - [Divide-and-Conquer Algorithm](/knowledge/mathematics/divide-and-conquer-algorithm/) - 부분 문제가 겹치지 않는 대안적 패러다임
 - [Recursive Algorithm](/knowledge/mathematics/recursive-algorithm/) - 동적 프로그래밍은 재귀적 구조를 기반으로 함

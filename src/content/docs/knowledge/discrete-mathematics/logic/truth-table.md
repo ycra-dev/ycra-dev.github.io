@@ -1,5 +1,5 @@
 ---
-title: "Truth Table"
+title: "진리표 (Truth Table)"
 description: "진리표(Truth Table)는 합성 명제를 구성하는 모든 명제 변수의 가능한 진리값 조합에 대해 해당 합성 명제의 진리값을 체계적으로 나열한 표이다"
 tags: ['Truth Table', 'Propositional Logic', 'Evaluation', 'Compound Proposition']
 created: 2026-02-16

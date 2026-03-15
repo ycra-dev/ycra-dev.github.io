@@ -1,5 +1,5 @@
 ---
-title: "Combination Generation"
+title: "조합 생성 (Combination Generation)"
 description: "n개의 원소에서 t개를 선택하는 C(n,t)가지 조합을 체계적으로 열거하는 알고리즘 — 8가지 동치 표현과 루프 없는 O(1)/step 방법 포함"
 tags: ["Combinatorics", "Combinations", "Enumeration", "Binomial", "Algorithms"]
 created: 2026-02-27
@@ -97,7 +97,7 @@ for combo in combinations_lex(5, 3):
 
 ## 관련 개념
 
-- [Permutation Generation](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)
-- [Set Partition](/knowledge/discrete-mathematics/combinatorics/set-partition/)
-- [Gray Code](/knowledge/discrete-mathematics/combinatorics/gray-code/)
-- [Loopless Algorithm](/knowledge/algorithms/foundations/loopless-algorithm/)
+- [순열 생성 (Permutation Generation)](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)
+- [집합 분할 (Set Partition)](/knowledge/discrete-mathematics/combinatorics/set-partition/)
+- [그레이 코드 (Gray Code)](/knowledge/discrete-mathematics/combinatorics/gray-code/)
+- [루프 없는 알고리즘 (Loopless Algorithm)](/knowledge/algorithms/foundations/loopless-algorithm/)

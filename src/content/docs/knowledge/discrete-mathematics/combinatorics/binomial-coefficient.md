@@ -1,5 +1,5 @@
 ---
-title: "Binomial Coefficient"
+title: "이항계수 (Binomial Coefficient)"
 description: "이항계수(Binomial Coefficient) (n choose r), 즉 C(n, r)은 n개의 원소를 가진 집합에서 r개의 원소를 선택하는 방법의 수이며, n! / (r! * (n-r)!)로 계산된다"
 tags: ['Binomial Coefficient', 'N Choose R', 'Combinatorics', 'Pascals Triangle', 'Counting']
 created: 2026-02-16

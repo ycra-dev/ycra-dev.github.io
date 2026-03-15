@@ -1,5 +1,5 @@
 ---
-title: "Linear Homogeneous Recurrence Relation"
+title: "선형 동차 점화식 (Linear Homogeneous Recurrence Relation)"
 description: "상수 계수 선형 동차 점화식(linear homogeneous recurrence relation with constant coefficients)은 a_n = c_1 * a_{n-1} + c_2 * a_{n-2} + "
 tags: ['Recurrence Relation', 'Linear Recurrence', 'Characteristic Equation', 'Discrete Mathematics']
 created: 2026-02-16

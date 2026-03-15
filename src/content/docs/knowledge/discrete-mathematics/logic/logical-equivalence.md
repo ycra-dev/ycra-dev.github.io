@@ -1,5 +1,5 @@
 ---
-title: "Logical Equivalence"
+title: "논리적 동치 (Logical Equivalence)"
 description: "두 합성 명제 p와 q가 모든 가능한 진리값 조합에서 동일한 진리값을 가지면 논리적 동치(logically equivalent)라 하며, p ≡ q로 표기한다"
 tags: ['Logical Equivalence', 'De Morgans Law', 'Tautology', 'Contradiction', 'Propositional Equivalence']
 created: 2026-02-16

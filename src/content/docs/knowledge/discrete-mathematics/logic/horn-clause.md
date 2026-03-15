@@ -1,5 +1,5 @@
 ---
-title: "Horn Clause"
+title: "호른 절 (Horn Clause)"
 description: "최대 하나의 양 리터럴을 포함하는 논리합 절 — Prolog의 기반이며 선형 시간 O(N)으로 SAT를 풀 수 있는 Horn-SAT의 핵심"
 tags: ["Logic", "SAT", "Prolog", "Linear Time", "Algorithms"]
 created: 2026-02-27
@@ -85,7 +85,7 @@ def horn_sat_core(clauses, n_vars):
 
 ## 관련 개념
 
-- [Boolean Satisfiability](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
-- [Krom Clause](/knowledge/discrete-mathematics/logic/krom-clause/)
+- [부울 충족 가능성 (Boolean Satisfiability)](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
+- [크롬 절 (Krom Clause)](/knowledge/discrete-mathematics/logic/krom-clause/)
 - [3SAT](/knowledge/discrete-mathematics/logic/3sat/)
-- [DNF and CNF](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)
+- [DNF와 CNF (DNF and CNF)](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)

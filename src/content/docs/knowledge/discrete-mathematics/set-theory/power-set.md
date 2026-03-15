@@ -1,5 +1,5 @@
 ---
-title: "Power Set"
+title: "멱집합 (Power Set)"
 description: "집합 S의 멱집합(Power Set) P(S)은 S의 모든 부분집합들의 집합이다"
 tags: ['Power Set', 'Subset', 'Combinatorics', 'Set Theory', 'Cardinality']
 created: 2026-02-16

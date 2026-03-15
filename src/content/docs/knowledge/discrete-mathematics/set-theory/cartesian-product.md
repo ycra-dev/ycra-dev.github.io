@@ -1,5 +1,5 @@
 ---
-title: "Cartesian Product"
+title: "곱집합 (Cartesian Product)"
 description: "두 집합 A와 B의 데카르트 곱(Cartesian Product) A × B는 a ∈ A이고 b ∈ B인 모든 순서쌍(ordered pair) (a, b)의 집합이다"
 tags: ['Cartesian Product', 'Ordered Pair', 'Tuple', 'Relation', 'Set Theory']
 created: 2026-02-16

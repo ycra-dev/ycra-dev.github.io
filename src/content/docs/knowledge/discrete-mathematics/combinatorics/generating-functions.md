@@ -1,5 +1,5 @@
 ---
-title: "Generating Functions"
+title: "생성 함수 (Generating Functions)"
 description: "수열 a_0, a_1, a_2, ...를 G(z) = Σ a_n z^n 형태의 형식적 거듭제곱급수로 표현하여 수열의 성질을 연속 함수의 도구로 분석하는 기법"
 tags: ["Combinatorics", "Discrete Mathematics", "Series", "TAOCP"]
 created: 2026-02-27
@@ -85,7 +85,7 @@ for i in range(10):
 
 ## 관련 개념
 
-- [Binomial Coefficient](/knowledge/discrete-mathematics/combinatorics/binomial-coefficient/)
-- [Stirling Numbers](/knowledge/discrete-mathematics/combinatorics/stirling-numbers/)
-- [Harmonic Numbers](/knowledge/algorithms/foundations/harmonic-numbers/)
-- [Recurrence Relation](/knowledge/discrete-mathematics/recurrence/)
+- [이항계수 (Binomial Coefficient)](/knowledge/discrete-mathematics/combinatorics/binomial-coefficient/)
+- [스털링 수 (Stirling Numbers)](/knowledge/discrete-mathematics/combinatorics/stirling-numbers/)
+- [조화수 (Harmonic Numbers)](/knowledge/algorithms/foundations/harmonic-numbers/)
+- [점화식 (Recurrence Relation)](/knowledge/discrete-mathematics/recurrence/)

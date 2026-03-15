@@ -1,5 +1,5 @@
 ---
-title: "Derangement"
+title: "완전순열 (Derangement)"
 description: "완전순열(derangement)은 어떤 원소도 원래 위치에 남아 있지 않은 순열로, n개의 원소의 완전순열의 수 D_n은 포함-배제 원리를 사용하여 D_n = n! * [1 - 1/1! + 1/2! - 1/3! + "
 tags: ['Derangement', 'Permutation', 'Inclusion Exclusion', 'Counting', 'Combinatorics']
 created: 2026-02-16

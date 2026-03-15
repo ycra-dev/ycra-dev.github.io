@@ -1,5 +1,5 @@
 ---
-title: "Pascal's Identity"
+title: "파스칼 항등식 (Pascal's Identity)"
 description: "파스칼 항등식(Pascal's Identity)이란 n과 k가 n >= k인 양의 정수일 때, C(n+1, k) = C(n, k-1) + C(n, k)가 성립한다는 이항계수의 재귀적 관계식이다"
 tags: ['Pascals Identity', 'Pascals Triangle', 'Binomial Coefficient', 'Recurrence Relation', 'Combinatorial Proof']
 created: 2026-02-16

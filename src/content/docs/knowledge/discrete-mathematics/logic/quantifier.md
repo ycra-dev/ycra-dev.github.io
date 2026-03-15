@@ -1,5 +1,5 @@
 ---
-title: "Quantifier"
+title: "한정자 (Quantifier)"
 description: "양화사(Quantifier)는 술어가 정의역(domain of discourse)의 원소에 대해 참인 범위를 표현하여 술어를 명제로 변환하는 논리적 장치이다"
 tags: ['Quantifier', 'Universal Quantifier', 'Existential Quantifier', 'Domain Of Discourse', 'Predicate Logic']
 created: 2026-02-16

@@ -1,5 +1,5 @@
 ---
-title: "Latin Square"
+title: "라틴 방진 (Latin Square)"
 description: "n×n 격자에 n가지 기호를 배치하되 각 행과 열에 모든 기호가 정확히 한 번씩 나타나는 배열 — 실험 설계와 오류 정정 코드의 수학적 기반"
 tags: ["Combinatorics", "Latin Square", "Design of Experiments", "Algorithms"]
 created: 2026-02-27
@@ -88,7 +88,7 @@ print(are_orthogonal(L1, L2))  # True이면 직교
 
 ## 관련 개념
 
-- [Orthogonal Latin Square](/knowledge/discrete-mathematics/combinatorics/orthogonal-latin-square/)
-- [Exact Cover Problem](/knowledge/discrete-mathematics/combinatorics/exact-cover-problem/)
-- [Combinatorial Searching](/knowledge/algorithms/foundations/combinatorial-searching/)
-- [Graph Isomorphism](/knowledge/algorithms/graph-algorithms/graph-isomorphism/)
+- [직교 라틴 방진 (Orthogonal Latin Square)](/knowledge/discrete-mathematics/combinatorics/orthogonal-latin-square/)
+- [정확 덮개 문제 (Exact Cover Problem)](/knowledge/discrete-mathematics/combinatorics/exact-cover-problem/)
+- [조합 탐색 (Combinatorial Searching)](/knowledge/algorithms/foundations/combinatorial-searching/)
+- [그래프 동형 (Graph Isomorphism)](/knowledge/algorithms/graph-algorithms/graph-isomorphism/)

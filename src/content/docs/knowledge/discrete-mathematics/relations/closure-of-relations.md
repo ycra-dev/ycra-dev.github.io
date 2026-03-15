@@ -1,5 +1,5 @@
 ---
-title: "Closure of Relations"
+title: "관계의 폐포 (Closure of Relations)"
 description: "관계 R의 성질 P에 대한 폐포(closure)는, R을 포함하고 성질 P를 만족하며, R을 포함하면서 성질 P를 만족하는 모든 관계의 부분집합인 관계 S이다"
 tags: ['Closure', 'Reflexive Closure', 'Symmetric Closure', 'Transitive Closure', 'Connectivity Relation']
 created: 2026-02-16

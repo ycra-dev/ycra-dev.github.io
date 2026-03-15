@@ -1,5 +1,5 @@
 ---
-title: "Nim Game"
+title: "님 게임 (Nim Game)"
 description: "k개 돌 더미에서 번갈아 돌을 제거하는 게임 — XOR 합이 0이 아닌 쪽이 필승이며 Sprague-Grundy 정리로 모든 조합 게임을 분석하는 기반"
 tags: ["Combinatorics", "Game Theory", "XOR", "Sprague-Grundy", "Algorithms"]
 created: 2026-02-27
@@ -89,6 +89,6 @@ def grundy_general(state, moves_fn, memo={}):
 
 ## 관련 개념
 
-- [Bitwise Operations](/knowledge/algorithms/foundations/bitwise-operations/)
-- [Combinatorial Searching](/knowledge/algorithms/foundations/combinatorial-searching/)
-- [Combination Generation](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
+- [비트 연산 (Bitwise Operations)](/knowledge/algorithms/foundations/bitwise-operations/)
+- [조합 탐색 (Combinatorial Searching)](/knowledge/algorithms/foundations/combinatorial-searching/)
+- [조합 생성 (Combination Generation)](/knowledge/discrete-mathematics/combinatorics/combination-generation/)

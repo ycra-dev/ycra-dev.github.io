@@ -1,5 +1,5 @@
 ---
-title: "Integer Partition"
+title: "정수 분할 (Integer Partition)"
 description: "양의 정수 n을 순서에 무관하게 하나 이상의 양의 정수들의 합으로 나타내는 방법 — 오각수 정리, Young 다이어그램, 켤레 분할이 핵심"
 tags: ["Combinatorics", "Partitions", "Number Theory", "Enumeration", "Algorithms"]
 created: 2026-02-27
@@ -95,7 +95,7 @@ for p in integer_partitions(5):
 
 ## 관련 개념
 
-- [Set Partition](/knowledge/discrete-mathematics/combinatorics/set-partition/)
-- [Bell Number](/knowledge/discrete-mathematics/combinatorics/bell-number/)
-- [Combination Generation](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
-- [Generating Functions](/knowledge/discrete-mathematics/combinatorics/generating-functions/)
+- [집합 분할 (Set Partition)](/knowledge/discrete-mathematics/combinatorics/set-partition/)
+- [벨 수 (Bell Number)](/knowledge/discrete-mathematics/combinatorics/bell-number/)
+- [조합 생성 (Combination Generation)](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
+- [생성 함수 (Generating Functions)](/knowledge/discrete-mathematics/combinatorics/generating-functions/)

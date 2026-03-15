@@ -1,5 +1,5 @@
 ---
-title: "Bernoulli Trial"
+title: "베르누이 시행 (Bernoulli Trial)"
 description: "베르누이 시행(Bernoulli trial)은 성공(success)과 실패(failure) 두 가지 결과만 가능한 실험이며, n번의 상호 독립적인 베르누이 시행에서 정확히 k번 성공할 확률은 C(n,k)p^k q^(n-k)이다 (p: 성공 확률, q = 1-p)"
 tags: ['Bernoulli Trial', 'Binomial Distribution', 'Probability', 'Independence', 'Combinatorics']
 created: 2026-02-16

@@ -1,5 +1,5 @@
 ---
-title: "Euclidean Algorithm"
+title: "유클리드 알고리즘 (Euclidean Algorithm)"
 description: "유클리드 알고리즘(Euclidean Algorithm)은 두 양의 정수의 최대공약수(GCD)를 효율적으로 계산하는 알고리즘이다"
 tags: ['Euclidean Algorithm', 'Gcd', 'Number Theory', 'Algorithm', 'Bezout Coefficients']
 created: 2026-02-16
@@ -93,7 +93,7 @@ print(f"검증: {s}*252 + {t}*198 = {s*252 + t*198}")  # 18
 ## 관련 개념
 
 - [Greatest Common Divisor](/knowledge/mathematics/greatest-common-divisor/) - 유클리드 알고리즘이 계산하는 대상
-- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘의 고전적 예시
-- [Complexity](/knowledge/algorithms/time-complexity/) - O(log b) 나눗셈 횟수
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 알고리즘의 고전적 예시
+- [시간 복잡도 (Time Complexity)](/knowledge/algorithms/time-complexity/) - O(log b) 나눗셈 횟수
 - [RSA Cryptosystem](/knowledge/mathematics/rsa-cryptosystem/) - 역원 계산에 확장 유클리드 알고리즘 사용
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/) - 반복적 나머지 축소의 그리디 성격
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/) - 반복적 나머지 축소의 그리디 성격

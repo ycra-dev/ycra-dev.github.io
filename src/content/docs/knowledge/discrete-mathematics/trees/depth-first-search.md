@@ -1,5 +1,5 @@
 ---
-title: "Depth-First Search"
+title: "깊이 우선 탐색 (Depth-First Search)"
 description: "깊이 우선 탐색(Depth-First Search, DFS)은 그래프의 정점을 탐색하는 알고리즘으로, 시작 정점에서 가능한 한 깊이 경로를 확장한 후, 더 이상 새로운 정점으로 갈 수 없을 때 이전 정점으로 되돌아가(backtracking) 다른 경로를 탐색하는 ..."
 tags: ['Depth First Search', 'Dfs', 'Backtracking', 'Spanning Tree', 'Graph Traversal', 'Algorithm']
 created: 2026-02-16

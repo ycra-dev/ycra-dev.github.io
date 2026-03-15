@@ -1,5 +1,5 @@
 ---
-title: "Modular Exponentiation"
+title: "모듈러 거듭제곱 (Modular Exponentiation)"
 description: "모듈러 거듭제곱(Modular Exponentiation)은 b^n mod m을 효율적으로 계산하는 알고리즘이다"
 tags: ['Modular Exponentiation', 'Fast Exponentiation', 'Binary Expansion', 'Cryptography', 'Algorithm']
 created: 2026-02-16
@@ -100,5 +100,5 @@ print(pow(1819, 13, 2537))   # RSA 암호화 예시
 - [RSA Cryptosystem](/knowledge/mathematics/rsa-cryptosystem/) - RSA 암호화/복호화의 핵심 연산
 - [Integer Representation](/knowledge/mathematics/integer-representation/) - 이진 전개를 활용한 효율적 계산
 - [Modular Arithmetic](/knowledge/mathematics/modular-arithmetic/) - mod 연산의 성질 활용
-- [Algorithm](/knowledge/algorithms/algorithm/) - 효율적 알고리즘 설계의 전형적 예
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - O((log m)^2 * log n) 비트 연산 복잡도
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 효율적 알고리즘 설계의 전형적 예
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - O((log m)^2 * log n) 비트 연산 복잡도

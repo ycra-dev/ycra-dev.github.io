@@ -1,5 +1,5 @@
 ---
-title: "Kleene's Theorem"
+title: "클리니 정리 (Kleene's Theorem)"
 description: "클리네의 정리(Kleene's theorem, 1956)는 집합이 정규 집합(regular set)인 것과 유한 상태 오토마타에 의해 인식되는 것이 동치임을 증명하는 오토마타 이론의 핵심 정리이다"
 tags: ['Kleenes Theorem', 'Regular Set', 'Finite State Automaton', 'Automata Theory', 'Equivalence']
 created: 2026-02-16

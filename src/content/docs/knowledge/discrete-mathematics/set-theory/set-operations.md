@@ -1,5 +1,5 @@
 ---
-title: "Set Operations"
+title: "집합 연산 (Set Operations)"
 description: "집합 연산(Set Operations)은 두 개 이상의 집합을 결합하여 새로운 집합을 만드는 연산이다"
 tags: ['Set Operations', 'Union', 'Intersection', 'Complement', 'Difference', 'De Morgan', 'Set Identity']
 created: 2026-02-16

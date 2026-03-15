@@ -1,5 +1,5 @@
 ---
-title: "Tree Traversal"
+title: "트리 순회 (Tree Traversal)"
 description: "트리 순회(tree traversal)는 순서 루트 트리(ordered rooted tree)의 모든 정점을 체계적으로 방문하는 절차이다"
 tags: ['Tree Traversal', 'Preorder', 'Inorder', 'Postorder', 'Prefix Notation', 'Postfix Notation', 'Expression Tree']
 created: 2026-02-16
@@ -71,4 +71,4 @@ x y + 2 ^ x 4 - 3 / +
 - [Rooted Tree](/knowledge/mathematics/rooted-tree/) - 순회 대상이 되는 순서 루트 트리
 - [Binary Search Tree](/knowledge/mathematics/binary-search-tree/) - 중위 순회가 정렬 순서를 생성하는 트리
 - [Recursive Algorithm](/knowledge/mathematics/recursive-algorithm/) - 순회 알고리즘의 재귀적 구조
-- [Algorithm](/knowledge/algorithms/algorithm/) - 순회의 알고리즘적 구현
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 순회의 알고리즘적 구현

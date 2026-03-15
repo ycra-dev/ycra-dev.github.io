@@ -1,5 +1,5 @@
 ---
-title: "Proof by Contraposition"
+title: "대우 증명 (Proof by Contraposition)"
 description: "대우 증명(Proof by Contraposition)은 조건문 p → q를 증명하기 위해, 그 대우인 ¬q → ¬p를 증명하는 간접 증명 방법이다"
 tags: ['Proof By Contraposition', 'Indirect Proof', 'Contrapositive', 'Proof Method']
 created: 2026-02-16

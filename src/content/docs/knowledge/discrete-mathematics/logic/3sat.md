@@ -82,7 +82,7 @@ def random_walk_sat(clauses, n_vars, max_flips=1000):
 
 ## 관련 개념
 
-- [Boolean Satisfiability](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
-- [Horn Clause](/knowledge/discrete-mathematics/logic/horn-clause/)
-- [Krom Clause](/knowledge/discrete-mathematics/logic/krom-clause/)
-- [DNF and CNF](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)
+- [부울 충족 가능성 (Boolean Satisfiability)](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
+- [호른 절 (Horn Clause)](/knowledge/discrete-mathematics/logic/horn-clause/)
+- [크롬 절 (Krom Clause)](/knowledge/discrete-mathematics/logic/krom-clause/)
+- [DNF와 CNF (DNF and CNF)](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)

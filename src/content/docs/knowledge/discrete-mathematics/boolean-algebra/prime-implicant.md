@@ -1,5 +1,5 @@
 ---
-title: "Prime Implicant"
+title: "주항 (Prime Implicant)"
 description: "부울 함수에서 리터럴을 하나라도 제거하면 함축식이 되지 않는 최소 단항식 — 논리 최소화와 최단 DNF 계산의 핵심 개념"
 tags: ["Boolean Algebra", "Logic Minimization", "DNF", "Algorithms"]
 created: 2026-02-27
@@ -86,7 +86,7 @@ def quine_mccluskey(minterms, n_vars):
 
 ## 관련 개념
 
-- [DNF and CNF](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)
-- [Monotone Boolean Function](/knowledge/discrete-mathematics/boolean-algebra/monotone-boolean-function/)
-- [Boolean Satisfiability](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
-- [Karnaugh Map](/knowledge/discrete-mathematics/boolean-algebra/karnaugh-map/)
+- [DNF와 CNF (DNF and CNF)](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)
+- [단조 불 함수 (Monotone Boolean Function)](/knowledge/discrete-mathematics/boolean-algebra/monotone-boolean-function/)
+- [부울 충족 가능성 (Boolean Satisfiability)](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
+- [카르노 맵 (Karnaugh Map)](/knowledge/discrete-mathematics/boolean-algebra/karnaugh-map/)

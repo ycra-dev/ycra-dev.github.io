@@ -1,5 +1,5 @@
 ---
-title: "Chinese Remainder Theorem"
+title: "중국인의 나머지 정리 (Chinese Remainder Theorem)"
 description: "중국인의 나머지 정리(Chinese Remainder Theorem, CRT)는 모듈러스 m1, m2, "
 tags: ['Chinese Remainder Theorem', 'Congruence', 'Number Theory', 'System Of Congruences', 'Modular Arithmetic']
 created: 2026-02-16

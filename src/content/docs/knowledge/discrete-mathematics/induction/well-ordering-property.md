@@ -1,5 +1,5 @@
 ---
-title: "Well-Ordering Property"
+title: "정렬 원리 (Well-Ordering Property)"
 description: "정렬 원리(Well-Ordering Property)는 \"음이 아닌 정수의 모든 비어있지 않은 부분집합은 최소 원소(least element)를 가진다\"는 공리이다"
 tags: ['Well Ordering', 'Axiom', 'Nonnegative Integers', 'Least Element', 'Mathematical Induction']
 created: 2026-02-16

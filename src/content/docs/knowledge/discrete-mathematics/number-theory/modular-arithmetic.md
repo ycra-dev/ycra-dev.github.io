@@ -1,5 +1,5 @@
 ---
-title: "Modular Arithmetic"
+title: "모듈러 산술 (Modular Arithmetic)"
 description: "모듈러 산술(Modular Arithmetic)은 정수를 고정된 양의 정수 m(모듈러스)으로 나눈 나머지를 기반으로 수행하는 산술 체계이다"
 tags: ['Modular Arithmetic', 'Number Theory', 'Congruence', 'Remainder', 'Cryptography']
 created: 2026-02-16
@@ -70,5 +70,5 @@ hour = (20 + 50) % 24  # = 70 % 24 = 22시
 - [Congruence](/knowledge/mathematics/congruence/) - 모듈러 산술의 기반이 되는 합동 관계
 - [Modular Exponentiation](/knowledge/mathematics/modular-exponentiation/) - 모듈러 거듭제곱 알고리즘
 - [RSA Cryptosystem](/knowledge/mathematics/rsa-cryptosystem/) - 모듈러 산술의 핵심 응용
-- [Algorithm](/knowledge/algorithms/algorithm/) - 나눗셈 알고리즘
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 나눗셈 알고리즘
 - [Set](/knowledge/mathematics/set/) - Z_m 집합의 정의

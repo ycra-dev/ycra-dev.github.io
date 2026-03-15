@@ -1,5 +1,5 @@
 ---
-title: "Recursive Definition"
+title: "재귀적 정의 (Recursive Definition)"
 description: "재귀적 정의(Recursive Definition)는 객체를 자기 자신을 이용하여 정의하는 방법으로, 초기값을 지정하는 기초 단계(Basis Step)와 이전에 정의된 값으로부터 새로운 값을 구하는 규칙을 제공하는 재귀 단계(Recursive Step)로 구성된다"
 tags: ['Recursive Definition', 'Recursion', 'Basis Step', 'Recursive Step', 'Recurrence Relation', 'Inductive Definition']
 created: 2026-02-16

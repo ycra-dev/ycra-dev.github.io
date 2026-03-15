@@ -1,5 +1,5 @@
 ---
-title: "Hasse Diagram"
+title: "하세 다이어그램 (Hasse Diagram)"
 description: "하세 다이어그램(Hasse Diagram)은 유한 반순서집합(poset)을 시각적으로 표현하는 방법이다"
 tags: ['Hasse Diagram', 'Poset', 'Partial Order', 'Maximal', 'Minimal', 'Lattice', 'Upper Bound', 'Lower Bound']
 created: 2026-02-16

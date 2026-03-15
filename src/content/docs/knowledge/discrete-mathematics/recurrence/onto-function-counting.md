@@ -1,5 +1,5 @@
 ---
-title: "Onto Function Counting"
+title: "전사 함수 세기 (Onto Function Counting)"
 description: "m개의 원소를 가진 집합에서 n개의 원소를 가진 집합으로의 전사함수(onto function)의 수는 포함-배제 원리를 적용하여 n^m - C(n,1)(n-1)^m + C(n,2)(n-2)^m - "
 tags: ['Onto Function', 'Surjection', 'Inclusion Exclusion', 'Counting', 'Stirling Number']
 created: 2026-02-16

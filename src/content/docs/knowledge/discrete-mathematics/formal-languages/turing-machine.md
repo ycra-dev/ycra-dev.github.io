@@ -1,5 +1,5 @@
 ---
-title: "Turing Machine"
+title: "튜링 머신 (Turing Machine)"
 description: "튜링 기계(Turing machine)는 T = (S, I, f, s0)로 정의되며, 유한한 상태 집합 S, 공백 기호 B를 포함하는 알파벳 I, 부분 함수 f: S x I -> S x I x {R, L}, 시작 상태 s0로 구성되어 양방향 무한 테이프 위에서 읽..."
 tags: ['Turing Machine', 'Computation Model', 'Tape', 'Transition Function', 'Church Turing Thesis', 'Computability']
 created: 2026-02-16
@@ -91,5 +91,5 @@ f(s, x)가 정의되지 않은 경우(부분 함수이므로) 기계는 **정지
 
 - [Finite-State Automaton](/knowledge/mathematics/finite-state-automaton/): 튜링 기계보다 제한적인 계산 모델
 - [Chomsky Hierarchy](/knowledge/mathematics/chomsky-hierarchy/): Type 0 문법과 튜링 기계의 동치
-- [P vs NP](/knowledge/algorithms/p-vs-np/): 결정적/비결정적 튜링 기계를 이용한 복잡도 분류
-- [Algorithm](/knowledge/algorithms/algorithm/): 처치-튜링 논제에 의해 모든 효과적 알고리즘은 튜링 기계로 구현 가능
+- [P vs NP 문제](/knowledge/algorithms/p-vs-np/): 결정적/비결정적 튜링 기계를 이용한 복잡도 분류
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/): 처치-튜링 논제에 의해 모든 효과적 알고리즘은 튜링 기계로 구현 가능

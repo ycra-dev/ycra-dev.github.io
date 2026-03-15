@@ -1,5 +1,5 @@
 ---
-title: "Lexicographic Ordering"
+title: "사전식 순서 (Lexicographic Ordering)"
 description: "사전식 순서(Lexicographic Ordering)란 순열이나 조합을 사전에서 단어를 나열하듯이 정렬하는 방법이다"
 tags: ['Lexicographic Order', 'Permutation Generation', 'Combination Generation', 'Algorithm', 'Enumeration']
 created: 2026-02-16
@@ -85,6 +85,6 @@ a4 = 3+2 = 5
 
 - [Permutation](/knowledge/mathematics/permutation/) - 순열을 체계적으로 생성
 - [Combination](/knowledge/mathematics/combination/) - 조합을 체계적으로 생성
-- [Algorithm](/knowledge/algorithms/algorithm/) - 사전식 순서 생성은 알고리즘 설계의 기초
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 생성 알고리즘의 시간 복잡도 분석
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 사전식 순서 생성은 알고리즘 설계의 기초
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - 생성 알고리즘의 시간 복잡도 분석
 - [Sequence](/knowledge/mathematics/sequence/) - 사전식 순서는 수열의 자연스러운 정렬

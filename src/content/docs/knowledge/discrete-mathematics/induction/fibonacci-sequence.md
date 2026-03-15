@@ -1,5 +1,5 @@
 ---
-title: "Fibonacci Sequence"
+title: "피보나치 수열 (Fibonacci Sequence)"
 description: "피보나치 수열(Fibonacci Sequence)은 f(0) = 0, f(1) = 1이고, n >= 2에 대해 f(n) = f(n-1) + f(n-2)로 정의되는 재귀적 수열이다"
 tags: ['Fibonacci', 'Recurrence Relation', 'Recursive Definition', 'Golden Ratio', 'Lame Theorem']
 created: 2026-02-16
@@ -104,5 +104,5 @@ gcd(a, b)에서 b = 999 (3자리)일 때, 유클리드 알고리즘의 나눗셈
 - [Strong Induction](/knowledge/mathematics/strong-induction/) - 피보나치 수의 성질 증명에 강한 귀납법 사용
 - [Recursive Algorithm](/knowledge/mathematics/recursive-algorithm/) - 재귀 vs 반복의 효율성 비교 사례
 - [Sequence](/knowledge/mathematics/sequence/) - 피보나치 수열은 대표적인 수열
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 유클리드 알고리즘의 O(log b) 복잡도 유도
-- [Algorithm](/knowledge/algorithms/algorithm/) - 유클리드 알고리즘 분석에 핵심 역할
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - 유클리드 알고리즘의 O(log b) 복잡도 유도
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 유클리드 알고리즘 분석에 핵심 역할

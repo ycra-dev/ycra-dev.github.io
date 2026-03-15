@@ -1,5 +1,5 @@
 ---
-title: "Regular Expression"
+title: "정규 표현식 (Regular Expression)"
 description: "정규 표현식(regular expression)은 공집합 기호, 공문자열 기호, 단일 기호로부터 결합(concatenation), 합집합(union), 클리네 폐포(Kleene closure) 연산을 재귀적으로 적용하여 구성되는 표현식으로, 이에 의해 표현되는 집..."
 tags: ['Regular Expression', 'Regular Set', 'Kleene Closure', 'Concatenation', 'Union', 'Pattern Matching']
 created: 2026-02-16

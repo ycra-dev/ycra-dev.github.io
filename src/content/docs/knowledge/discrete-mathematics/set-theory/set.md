@@ -1,5 +1,5 @@
 ---
-title: "Set"
+title: "집합 (Set)"
 description: "집합(Set)은 서로 구별 가능한 객체(원소, element)들의 순서 없는 모음이다"
 tags: ['Set', 'Discrete Mathematics', 'Data Structure', 'Collection', 'Membership']
 created: 2026-02-16

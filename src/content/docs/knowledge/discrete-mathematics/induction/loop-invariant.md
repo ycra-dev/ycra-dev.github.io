@@ -1,5 +1,5 @@
 ---
-title: "Loop Invariant"
+title: "루프 불변량 (Loop Invariant)"
 description: "루프 불변식(Loop Invariant)은 반복문(loop)의 매 반복 실행 전후에 항상 참으로 유지되는 단언(assertion)이다"
 tags: ['Loop Invariant', 'Program Correctness', 'Partial Correctness', 'Hoare Triple', 'Verification']
 created: 2026-02-16
@@ -106,4 +106,4 @@ while i <= n
 
 - [Program Correctness](/knowledge/mathematics/program-correctness/) - 루프 불변식은 프로그램 정확성 증명의 핵심
 - [Mathematical Induction](/knowledge/mathematics/mathematical-induction/) - 루프 불변식 증명은 수학적 귀납법과 유사
-- [Algorithm](/knowledge/algorithms/algorithm/) - 루프를 포함한 알고리즘의 정확성 보장
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 루프를 포함한 알고리즘의 정확성 보장

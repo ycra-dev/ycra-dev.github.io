@@ -1,5 +1,5 @@
 ---
-title: "n-ary Relation and Relational Database"
+title: "n항 관계와 관계형 데이터베이스 (n-ary Relation and Relational Database)"
 description: "집합 A1, A2, "
 tags: ['N Ary Relation', 'Database', 'Relational Model', 'Primary Key', 'SQL', 'Data Mining']
 created: 2026-02-16

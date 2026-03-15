@@ -1,5 +1,5 @@
 ---
-title: "Finite-State Automaton"
+title: "유한 상태 오토마타 (Finite-State Automaton)"
 description: "유한 상태 오토마타(finite-state automaton, FSA)는 M = (S, I, f, s0, F)로 정의되며, 유한한 상태 집합 S, 입력 알파벳 I, 전이 함수 f: S x I -> S, 초기 상태 s0, 최종(수용) 상태 집합 F로 구성되어 출력을..."
 tags: ['Finite State Automaton', 'Dfa', 'Deterministic', 'Language Recognition', 'Accepting State', 'Transition Function']
 created: 2026-02-16

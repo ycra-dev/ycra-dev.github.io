@@ -1,5 +1,5 @@
 ---
-title: "Generating Function"
+title: "생성 함수 (Generating Function)"
 description: "수열 a_0, a_1, a_2, "
 tags: ['Generating Function', 'Power Series', 'Counting', 'Combinatorics', 'Recurrence Relation']
 created: 2026-02-16

@@ -1,5 +1,5 @@
 ---
-title: "Sum Rule"
+title: "합의 법칙 (Sum Rule)"
 description: "합의 법칙(Sum Rule)이란 어떤 작업을 n1가지 방법 또는 n2가지 방법으로 수행할 수 있고, 이 두 방법의 집합이 서로 겹치지 않을 때, 그 작업을 수행하는 총 방법의 수는 n1 + n2가지라는 계수 원리이다"
 tags: ['Sum Rule', 'Counting', 'Combinatorics', 'Disjoint Sets', 'Enumeration']
 created: 2026-02-16

@@ -1,5 +1,5 @@
 ---
-title: "DNF and CNF"
+title: "DNF와 CNF (DNF and CNF)"
 description: "부울 함수를 리터럴들의 AND인 단항식들의 OR(DNF)이나 리터럴들의 OR인 절들의 AND(CNF)로 표현하는 정규형 — SAT와 논리 최소화의 기반"
 tags: ["Boolean Algebra", "Normal Forms", "Logic", "Algorithms"]
 created: 2026-02-27
@@ -93,7 +93,7 @@ def full_dnf(truth_table, n):
 
 ## 관련 개념
 
-- [Prime Implicant](/knowledge/discrete-mathematics/boolean-algebra/prime-implicant/)
-- [Boolean Satisfiability](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
-- [Binary Decision Diagram](/knowledge/discrete-mathematics/boolean-algebra/binary-decision-diagram/)
-- [Monotone Boolean Function](/knowledge/discrete-mathematics/boolean-algebra/monotone-boolean-function/)
+- [주항 (Prime Implicant)](/knowledge/discrete-mathematics/boolean-algebra/prime-implicant/)
+- [부울 충족 가능성 (Boolean Satisfiability)](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
+- [이진 결정 다이어그램 (Binary Decision Diagram)](/knowledge/discrete-mathematics/boolean-algebra/binary-decision-diagram/)
+- [단조 불 함수 (Monotone Boolean Function)](/knowledge/discrete-mathematics/boolean-algebra/monotone-boolean-function/)

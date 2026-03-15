@@ -1,5 +1,5 @@
 ---
-title: "Logical Connective"
+title: "논리 연결사 (Logical Connective)"
 description: "논리 연결사(Logical Connective)는 기존 명제들을 결합하여 새로운 합성 명제(compound proposition)를 형성하는 논리 연산자이다"
 tags: ['Logical Connective', 'Conjunction', 'Disjunction', 'Negation', 'Implication', 'Biconditional', 'Exclusive Or']
 created: 2026-02-16

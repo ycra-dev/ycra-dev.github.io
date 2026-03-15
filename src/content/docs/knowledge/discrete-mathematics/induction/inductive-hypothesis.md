@@ -1,5 +1,5 @@
 ---
-title: "Inductive Hypothesis"
+title: "귀납 가설 (Inductive Hypothesis)"
 description: "귀납 가설(Inductive Hypothesis)은 수학적 귀납법의 귀납 단계에서 임의의 정수 k에 대해 P(k)가 참이라고 가정하는 것이다"
 tags: ['Inductive Hypothesis', 'Mathematical Induction', 'Proof Technique', 'Inductive Step', 'Assumption']
 created: 2026-02-16

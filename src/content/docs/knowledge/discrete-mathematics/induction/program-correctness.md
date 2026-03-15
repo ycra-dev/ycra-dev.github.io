@@ -1,5 +1,5 @@
 ---
-title: "Program Correctness"
+title: "프로그램 정확성 (Program Correctness)"
 description: "프로그램 정확성(Program Correctness)은 프로그램이 모든 가능한 입력에 대해 올바른 출력을 생성함을 형식적으로 증명하는 것이다"
 tags: ['Program Correctness', 'Program Verification', 'Partial Correctness', 'Hoare Triple', 'Formal Verification']
 created: 2026-02-16
@@ -116,6 +116,6 @@ return product
 ## 관련 개념
 
 - [Loop Invariant](/knowledge/mathematics/loop-invariant/) - 반복문 정확성 증명의 핵심 도구
-- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘의 정확성 보장
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 알고리즘의 정확성 보장
 - [Mathematical Induction](/knowledge/mathematics/mathematical-induction/) - 재귀 프로그램 검증에 사용
 - [Proposition](/knowledge/mathematics/proposition/) - 초기/최종 단언은 명제

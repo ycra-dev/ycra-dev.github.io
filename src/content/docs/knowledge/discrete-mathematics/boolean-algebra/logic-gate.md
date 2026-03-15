@@ -1,5 +1,5 @@
 ---
-title: "Logic Gate"
+title: "논리 게이트 (Logic Gate)"
 description: "논리 게이트(logic gate)란 불리언 연산을 물리적으로 구현하는 전자 회로의 기본 요소이다"
 tags: ['Logic Gate', 'Combinational Circuit', 'Inverter', 'And Gate', 'Or Gate', 'Digital Logic', 'Discrete Mathematics']
 created: 2026-02-16
@@ -94,4 +94,4 @@ x̄ ─┬─[AND]── x̄ȳ ──┘
 - [Sum-of-Products Expansion](/knowledge/mathematics/sum-of-products-expansion/) - 곱의 합 전개로부터 직접 회로 구성 가능
 - [Functional Completeness](/knowledge/mathematics/functional-completeness/) - NAND/NOR 게이트만으로 모든 회로 구현 가능
 - [Karnaugh Map](/knowledge/mathematics/karnaugh-map/) - 최소 게이트 수의 회로를 설계하기 위한 최적화 도구
-- [Algorithm](/knowledge/algorithms/algorithm/) - 가산기 등의 회로는 알고리즘의 하드웨어 구현
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 가산기 등의 회로는 알고리즘의 하드웨어 구현

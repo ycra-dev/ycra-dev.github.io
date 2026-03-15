@@ -1,5 +1,5 @@
 ---
-title: "Gamma Function"
+title: "감마 함수 (Gamma Function)"
 description: "팩토리얼을 실수(및 복소수)로 확장한 함수 Γ(n) = (n-1)!로, 확률 분포와 점근 공식에 광범위하게 사용됨"
 tags: ["Mathematics", "Combinatorics", "Analysis", "TAOCP"]
 created: 2026-02-27
@@ -101,7 +101,7 @@ print(generalized_binom(0.5, 2))  # -0.125
 
 ## 관련 개념
 
-- [Binomial Coefficient](/knowledge/discrete-mathematics/combinatorics/binomial-coefficient/)
-- [Stirling Numbers](/knowledge/discrete-mathematics/combinatorics/stirling-numbers/)
-- [Bernoulli Numbers](/knowledge/discrete-mathematics/number-theory/bernoulli-numbers/)
-- [Generating Functions](/knowledge/discrete-mathematics/combinatorics/generating-functions/)
+- [이항계수 (Binomial Coefficient)](/knowledge/discrete-mathematics/combinatorics/binomial-coefficient/)
+- [스털링 수 (Stirling Numbers)](/knowledge/discrete-mathematics/combinatorics/stirling-numbers/)
+- [베르누이 수 (Bernoulli Numbers)](/knowledge/discrete-mathematics/number-theory/bernoulli-numbers/)
+- [생성 함수 (Generating Functions)](/knowledge/discrete-mathematics/combinatorics/generating-functions/)

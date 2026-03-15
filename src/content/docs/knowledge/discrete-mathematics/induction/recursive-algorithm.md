@@ -1,5 +1,5 @@
 ---
-title: "Recursive Algorithm"
+title: "재귀 알고리즘 (Recursive Algorithm)"
 description: "재귀 알고리즘(Recursive Algorithm)은 문제를 동일한 문제의 더 작은 입력으로 환원(reduce)하여 해결하는 알고리즘이다"
 tags: ['Recursive Algorithm', 'Recursion', 'Divide And Conquer', 'Base Case', 'Algorithm Correctness']
 created: 2026-02-16
@@ -93,9 +93,9 @@ procedure binary_search(i, j, x: integers)
 ## 관련 개념
 
 - [Recursive Definition](/knowledge/mathematics/recursive-definition/) - 재귀 알고리즘의 이론적 기반
-- [Algorithm](/knowledge/algorithms/algorithm/) - 재귀 알고리즘은 알고리즘의 한 분류
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 재귀 알고리즘은 알고리즘의 한 분류
 - [Mathematical Induction](/knowledge/mathematics/mathematical-induction/) - 재귀 알고리즘의 정확성 증명에 사용
 - [Strong Induction](/knowledge/mathematics/strong-induction/) - 재귀 알고리즘의 정확성 증명에 더 자주 사용
 - [Merge Sort](/knowledge/mathematics/merge-sort/) - 대표적인 재귀 정렬 알고리즘
 - [Fibonacci Sequence](/knowledge/mathematics/fibonacci-sequence/) - 재귀 vs 반복의 효율성 비교 사례
-- [Complexity](/knowledge/algorithms/time-complexity/) - 재귀 알고리즘의 시간 복잡도 분석
+- [시간 복잡도 (Time Complexity)](/knowledge/algorithms/time-complexity/) - 재귀 알고리즘의 시간 복잡도 분석

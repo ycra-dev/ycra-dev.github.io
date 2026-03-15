@@ -1,5 +1,5 @@
 ---
-title: "Binary Relation"
+title: "이항 관계 (Binary Relation)"
 description: "집합 A에서 집합 B로의 이항 관계(binary relation)는 카르테시안 곱 A x B의 부분집합이다"
 tags: ['Binary Relation', 'Relation', 'Set', 'Cartesian Product', 'Ordered Pair']
 created: 2026-02-16

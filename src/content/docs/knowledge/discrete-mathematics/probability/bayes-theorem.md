@@ -1,5 +1,5 @@
 ---
-title: "Bayes' Theorem"
+title: "베이즈 정리 (Bayes' Theorem)"
 description: "베이즈 정리(Bayes' theorem)는 사건 E와 F에 대해 p(E) ≠ 0이고 p(F) ≠ 0일 때, p(F|E) = p(E|F)p(F) / [p(E|F)p(F) + p(E|F̅)p(F̅)]로 사후확률을 계산하는 정리이다"
 tags: ['Bayes Theorem', 'Conditional Probability', 'Bayesian Inference', 'Spam Filter', 'Probability']
 created: 2026-02-16

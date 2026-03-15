@@ -1,5 +1,5 @@
 ---
-title: "Proof by Contradiction"
+title: "귀류법 (Proof by Contradiction)"
 description: "귀류법(Proof by Contradiction)은 증명하고자 하는 명제 p의 부정 ¬p를 가정한 후, 모순(r ∧ ¬r 형태)을 도출하여 ¬p가 거짓임을, 따라서 p가 참임을 보이는 간접 증명 방법이다"
 tags: ['Proof By Contradiction', 'Indirect Proof', 'Reductio Ad Absurdum', 'Proof Method']
 created: 2026-02-16

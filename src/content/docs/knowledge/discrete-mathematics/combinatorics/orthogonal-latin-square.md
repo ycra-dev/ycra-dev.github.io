@@ -1,5 +1,5 @@
 ---
-title: "Orthogonal Latin Square"
+title: "직교 라틴 방진 (Orthogonal Latin Square)"
 description: "두 라틴 방진을 겹쳤을 때 n² 가지 쌍이 모두 서로 다른 그레코-라틴 방진 — Euler의 추측을 Bose-Shrikhande-Parker가 반박하며 수학사를 바꾼 사례"
 tags: ["Combinatorics", "Latin Square", "Graeco-Latin", "Algorithms"]
 created: 2026-02-27
@@ -70,7 +70,7 @@ print(verify_orthogonality(L1, L2))  # True
 
 ## 관련 개념
 
-- [Latin Square](/knowledge/discrete-mathematics/combinatorics/latin-square/)
-- [Exact Cover Problem](/knowledge/discrete-mathematics/combinatorics/exact-cover-problem/)
-- [Combinatorial Searching](/knowledge/algorithms/foundations/combinatorial-searching/)
-- [Graph Isomorphism](/knowledge/algorithms/graph-algorithms/graph-isomorphism/)
+- [라틴 방진 (Latin Square)](/knowledge/discrete-mathematics/combinatorics/latin-square/)
+- [정확 덮개 문제 (Exact Cover Problem)](/knowledge/discrete-mathematics/combinatorics/exact-cover-problem/)
+- [조합 탐색 (Combinatorial Searching)](/knowledge/algorithms/foundations/combinatorial-searching/)
+- [그래프 동형 (Graph Isomorphism)](/knowledge/algorithms/graph-algorithms/graph-isomorphism/)

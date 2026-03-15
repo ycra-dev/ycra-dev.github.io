@@ -1,5 +1,5 @@
 ---
-title: "Game Tree"
+title: "게임 트리 (Game Tree)"
 description: "게임 트리(game tree)는 두 플레이어가 번갈아 수를 두는 게임의 진행 상태를 모델링하는 루트 트리이다"
 tags: ['Game Tree', 'Minmax Strategy', 'Combinatorial Game Theory', 'Tree', 'Nim', 'Decision Making']
 created: 2026-02-16
@@ -61,4 +61,4 @@ Nim 게임: 초기 위치 (2, 2, 1) - 세 더미의 돌
 - [Decision Tree](/knowledge/mathematics/decision-tree/) - 게임 트리는 결정 트리의 일종
 - [Rooted Tree](/knowledge/mathematics/rooted-tree/) - 게임 트리의 기반 구조
 - [Recursive Algorithm](/knowledge/mathematics/recursive-algorithm/) - 민맥스 전략의 재귀적 계산
-- [Algorithm](/knowledge/algorithms/algorithm/) - 알파-베타 가지치기 등 게임 트리 알고리즘
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 알파-베타 가지치기 등 게임 트리 알고리즘

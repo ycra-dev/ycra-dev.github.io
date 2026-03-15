@@ -1,5 +1,5 @@
 ---
-title: "Variance"
+title: "분산 (Variance)"
 description: "확률변수 X의 분산(variance)은 V(X) = Σ_{s∈S} (X(s) - E(X))² p(s)로, 기대값으로부터의 편차의 제곱의 가중 평균이다"
 tags: ['Variance', 'Standard Deviation', 'Random Variable', 'Bienayme Formula', 'Probability']
 created: 2026-02-16

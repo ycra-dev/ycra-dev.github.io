@@ -1,5 +1,5 @@
 ---
-title: "Set Partition"
+title: "집합 분할 (Set Partition)"
 description: "집합 {1,...,n}을 서로소인 비어있지 않은 부분집합들의 합집합으로 나누는 방법 — 동치 관계와 1:1 대응하며 RGS(제한 증가 문자열)로 컴퓨터 내부 표현"
 tags: ["Combinatorics", "Partitions", "Equivalence", "Bell Number", "Algorithms"]
 created: 2026-02-27
@@ -89,7 +89,7 @@ for rgs in set_partitions(3):
 
 ## 관련 개념
 
-- [Bell Number](/knowledge/discrete-mathematics/combinatorics/bell-number/)
-- [Restricted Growth String](/knowledge/discrete-mathematics/combinatorics/restricted-growth-string/)
-- [Gray Code](/knowledge/discrete-mathematics/combinatorics/gray-code/)
-- [Permutation Generation](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)
+- [벨 수 (Bell Number)](/knowledge/discrete-mathematics/combinatorics/bell-number/)
+- [제한 성장 문자열 (Restricted Growth String)](/knowledge/discrete-mathematics/combinatorics/restricted-growth-string/)
+- [그레이 코드 (Gray Code)](/knowledge/discrete-mathematics/combinatorics/gray-code/)
+- [순열 생성 (Permutation Generation)](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)

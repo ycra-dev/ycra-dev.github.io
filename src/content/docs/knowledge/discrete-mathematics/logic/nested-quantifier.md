@@ -1,5 +1,5 @@
 ---
-title: "Nested Quantifier"
+title: "중첩 한정자 (Nested Quantifier)"
 description: "중첩 양화사(Nested Quantifier)는 하나의 양화사가 다른 양화사의 범위(scope) 안에 있는 구조로, ∀x∃y(x + y = 0)처럼 여러 양화사가 겹쳐 사용되는 것이다"
 tags: ['Nested Quantifier', 'Quantifier Order', 'Predicate Logic', 'Mathematical Statement']
 created: 2026-02-16

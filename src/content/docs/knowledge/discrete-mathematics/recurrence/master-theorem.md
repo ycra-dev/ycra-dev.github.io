@@ -1,5 +1,5 @@
 ---
-title: "Master Theorem"
+title: "마스터 정리 (Master Theorem)"
 description: "마스터 정리(Master Theorem)는 분할 정복 점화식 f(n) = a * f(n/b) + c * n^d 형태의 해의 점근적 크기를 a, b^d의 관계에 따라 세 가지 경우로 분류하여 즉시 판별할 수 있게 하는 정리이다"
 tags: ['Master Theorem', 'Divide And Conquer', 'Complexity Analysis', 'Big O', 'Recurrence Relation']
 created: 2026-02-16
@@ -70,6 +70,6 @@ a = 2 > 2^0 = 1 = b^d (a > b^d)
 ## 관련 개념
 
 - [Divide-and-Conquer Algorithm](/knowledge/mathematics/divide-and-conquer-algorithm/) - 마스터 정리가 분석하는 알고리즘 유형
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 마스터 정리의 결과가 Big-O로 표현됨
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - 마스터 정리의 결과가 Big-O로 표현됨
 - [Recurrence Relation](/knowledge/mathematics/recurrence-relation/) - 마스터 정리가 해결하는 점화식의 유형
-- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘 복잡도 분석의 핵심 도구
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 알고리즘 복잡도 분석의 핵심 도구

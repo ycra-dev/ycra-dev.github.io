@@ -1,5 +1,5 @@
 ---
-title: "Gray Code"
+title: "그레이 코드 (Gray Code)"
 description: "연속한 두 코드워드가 정확히 하나의 비트만 다른 이진 수열 — 최소 변화 원칙으로 조합론적 객체를 열거하는 기반이며 b↔g 변환이 XOR 연산으로 O(1)"
 tags: ["Combinatorics", "Enumeration", "Hamiltonian", "Algorithms"]
 created: 2026-02-27
@@ -77,7 +77,7 @@ for i in range(8):
 
 ## 관련 개념
 
-- [Permutation Generation](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)
-- [De Bruijn Sequence](/knowledge/discrete-mathematics/combinatorics/de-bruijn-sequence/)
-- [Combination Generation](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
-- [Loopless Algorithm](/knowledge/algorithms/foundations/loopless-algorithm/)
+- [순열 생성 (Permutation Generation)](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)
+- [드 브루인 수열 (De Bruijn Sequence)](/knowledge/discrete-mathematics/combinatorics/de-bruijn-sequence/)
+- [조합 생성 (Combination Generation)](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
+- [루프 없는 알고리즘 (Loopless Algorithm)](/knowledge/algorithms/foundations/loopless-algorithm/)

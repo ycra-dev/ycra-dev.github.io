@@ -1,5 +1,5 @@
 ---
-title: "Equivalence Class and Partition"
+title: "동치류와 분할 (Equivalence Class and Partition)"
 description: "동치관계 R에 대해, 원소 a의 동치류(equivalence class) [a]_R은 a와 동치인 모든 원소의 집합, 즉 [a]_R = {s | (a,s) in R}이다"
 tags: ['Equivalence Class', 'Partition', 'Congruence Class', 'Quotient Set', 'Equivalence Relation']
 created: 2026-02-16

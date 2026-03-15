@@ -1,5 +1,5 @@
 ---
-title: "Function Composition"
+title: "함수 합성 (Function Composition)"
 description: "함수 g: A → B와 f: B → C가 주어졌을 때, f와 g의 합성(composition) f ∘ g는 A에서 C로의 함수로, 모든 a ∈ A에 대해 (f ∘ g)(a) = f(g(a))로 정의된다"
 tags: ['Function Composition', 'Inverse Function', 'Identity Function', 'Composability']
 created: 2026-02-16

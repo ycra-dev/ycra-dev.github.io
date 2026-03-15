@@ -1,5 +1,5 @@
 ---
-title: "Euler's Formula for Planar Graphs"
+title: "평면 그래프의 오일러 공식 (Euler's Formula for Planar Graphs)"
 description: "오일러 공식(Euler's formula)은 연결 평면 단순 그래프의 정점 수 v, 간선 수 e, 영역 수 r 사이의 관계를 나타내는 공식이다: r = e - v + 2"
 tags: ['Euler Formula', 'Planar Graph', 'Regions', 'Graph Theory', 'Combinatorics']
 created: 2026-02-16

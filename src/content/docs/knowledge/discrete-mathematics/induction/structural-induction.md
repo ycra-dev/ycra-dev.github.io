@@ -1,5 +1,5 @@
 ---
-title: "Structural Induction"
+title: "구조적 귀납법 (Structural Induction)"
 description: "구조적 귀납법(Structural Induction)은 재귀적으로 정의된 집합의 모든 원소가 특정 성질을 만족함을 증명하는 기법으로, 기초 단계에서 초기 원소들에 대해 성질이 성립함을 보이고, 재귀 단계에서 성질이 성립하는 원소들로부터 새로 생성된 원소에 대해서도..."
 tags: ['Structural Induction', 'Proof Technique', 'Recursive Definition', 'Recursively Defined Sets', 'Binary Tree']
 created: 2026-02-16

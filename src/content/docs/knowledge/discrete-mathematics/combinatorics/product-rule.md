@@ -1,5 +1,5 @@
 ---
-title: "Product Rule"
+title: "곱의 법칙 (Product Rule)"
 description: "곱의 법칙(Product Rule)이란 어떤 절차가 연속적인 작업들로 구성될 때, 첫 번째 작업을 수행하는 방법이 n1가지이고 각각에 대해 두 번째 작업을 수행하는 방법이 n2가지이면, 전체 절차를 수행하는 방법의 수는 n1 x n2가지라는 계수 원리이다"
 tags: ['Product Rule', 'Counting', 'Combinatorics', 'Cartesian Product', 'Enumeration']
 created: 2026-02-16

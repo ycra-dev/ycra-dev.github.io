@@ -1,5 +1,5 @@
 ---
-title: "Predicate"
+title: "술어 (Predicate)"
 description: "술어(Predicate)는 변수를 포함하는 문장으로, 변수에 특정 값을 대입하면 참 또는 거짓의 진리값을 갖는 명제가 되는 명제 함수(propositional function)이다"
 tags: ['Predicate', 'Propositional Function', 'Predicate Logic', 'Precondition', 'Postcondition']
 created: 2026-02-16

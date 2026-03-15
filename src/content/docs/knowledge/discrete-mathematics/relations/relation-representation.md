@@ -1,5 +1,5 @@
 ---
-title: "Relation Representation"
+title: "관계의 표현 (Relation Representation)"
 description: "유한 집합 위의 관계는 두 가지 방법으로 표현할 수 있다: (1) 영-일 행렬(zero-one matrix): 원소 (i,j)가 1이면 (a_i, b_j) in R, 0이면 관련되지 않음"
 tags: ['Relation', 'Matrix', 'Directed Graph', 'Digraph', 'Zero One Matrix', 'Boolean Product']
 created: 2026-02-16

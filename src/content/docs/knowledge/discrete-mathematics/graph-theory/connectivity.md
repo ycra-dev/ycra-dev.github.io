@@ -1,5 +1,5 @@
 ---
-title: "Connectivity"
+title: "연결성 (Connectivity)"
 description: "비방향 그래프가 연결(connected)되어 있다 함은 모든 서로 다른 정점 쌍 사이에 경로가 존재하는 것이다"
 tags: ['Connectivity', 'Connected Graph', 'Cut Vertex', 'Strong Connectivity', 'Graph Theory']
 created: 2026-02-16
@@ -75,4 +75,4 @@ def is_connected(graph):
 - [Graph](/knowledge/mathematics/graph/) - 연결성이 정의되는 기본 구조
 - [Adjacency Matrix](/knowledge/mathematics/adjacency-matrix/) - A^r로 경로 수 계산 및 연결성 판단
 - [Euler Path and Circuit](/knowledge/mathematics/euler-path-and-circuit/) - 연결 그래프에서의 간선 순회
-- [Algorithm](/knowledge/algorithms/algorithm/) - BFS/DFS로 연결성 판별
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - BFS/DFS로 연결성 판별

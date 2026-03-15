@@ -1,5 +1,5 @@
 ---
-title: "Tree (Graph Theory)"
+title: "트리 (Tree)"
 description: "트리(tree)는 단순 순환(simple circuit)이 없는 연결 비방향 그래프이다"
 tags: ['Tree', 'Graph', 'Connected Graph', 'Acyclic Graph', 'Forest', 'Discrete Mathematics']
 created: 2026-02-16

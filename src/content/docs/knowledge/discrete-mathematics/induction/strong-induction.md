@@ -1,5 +1,5 @@
 ---
-title: "Strong Induction"
+title: "강한 귀납법 (Strong Induction)"
 description: "강한 귀납법(Strong Induction)은 수학적 귀납법의 변형으로, 귀납 단계에서 P(k)만 가정하는 대신 P(1), P(2), "
 tags: ['Strong Induction', 'Complete Induction', 'Proof Technique', 'Well Ordering', 'Mathematical Induction']
 created: 2026-02-16

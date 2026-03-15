@@ -1,5 +1,5 @@
 ---
-title: "Discrete Logarithm"
+title: "이산 로그 (Discrete Logarithm)"
 description: "이산 로그(Discrete Logarithm)는 소수 p의 원시근(primitive root) r에 대해, r^e mod p = a를 만족하는 지수 e (0 <= e <= p-1)를 말한다"
 tags: ['Discrete Logarithm', 'Primitive Root', 'Diffie Hellman', 'Key Exchange', 'Cryptography']
 created: 2026-02-16

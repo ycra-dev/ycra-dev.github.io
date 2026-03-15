@@ -1,5 +1,5 @@
 ---
-title: "De Bruijn Sequence"
+title: "드 브루인 수열 (De Bruijn Sequence)"
 description: "m진 알파벳에 대한 순환 수열로 길이 n인 모든 mⁿ가지 n-튜플이 정확히 한 번씩 나타나는 최소 길이(mⁿ) 수열 — 엔코더·LFSR·테스트 패턴의 핵심"
 tags: ["Combinatorics", "Enumeration", "N-Tuples", "Cyclic", "Algorithms"]
 created: 2026-02-27
@@ -90,7 +90,7 @@ def lfsr_debruijn(n, taps):
 
 ## 관련 개념
 
-- [Gray Code](/knowledge/discrete-mathematics/combinatorics/gray-code/)
-- [Permutation Generation](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)
-- [Combination Generation](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
-- [Bitwise Operations](/knowledge/algorithms/foundations/bitwise-operations/)
+- [그레이 코드 (Gray Code)](/knowledge/discrete-mathematics/combinatorics/gray-code/)
+- [순열 생성 (Permutation Generation)](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)
+- [조합 생성 (Combination Generation)](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
+- [비트 연산 (Bitwise Operations)](/knowledge/algorithms/foundations/bitwise-operations/)

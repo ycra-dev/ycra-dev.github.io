@@ -1,5 +1,5 @@
 ---
-title: "Rules of Inference"
+title: "추론 규칙 (Rules of Inference)"
 description: "추론 규칙(Rules of Inference)은 타당한 논증(valid argument)을 구성하기 위한 기본 템플릿으로, 전제(premises)가 모두 참일 때 결론(conclusion)이 반드시 참이 되는 논증 형식이다"
 tags: ['Rules Of Inference', 'Modus Ponens', 'Modus Tollens', 'Syllogism', 'Resolution', 'Valid Argument']
 created: 2026-02-16

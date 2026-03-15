@@ -1,5 +1,5 @@
 ---
-title: "Graph"
+title: "그래프 (Graph)"
 description: "그래프(graph)는 정점(vertices)의 집합 V와 이 정점들을 연결하는 간선(edges)의 집합 E로 구성된 이산 구조 G = (V, E)이다"
 tags: ['Graph', 'Discrete Mathematics', 'Vertices', 'Edges', 'Data Structure']
 created: 2026-02-16

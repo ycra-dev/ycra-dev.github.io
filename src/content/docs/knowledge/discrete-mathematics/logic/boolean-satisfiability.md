@@ -1,5 +1,5 @@
 ---
-title: "Boolean Satisfiability"
+title: "부울 충족 가능성 (Boolean Satisfiability)"
 description: "주어진 부울 함수 f가 f(x)=1이 되는 입력 벡터를 갖는지 판단하는 문제 — P vs NP의 핵심이며 회로 검증·계획·모델 검사에 광범위하게 사용됨"
 tags: ["Logic", "SAT", "NP-Complete", "Complexity", "Algorithms"]
 created: 2026-02-27
@@ -83,7 +83,7 @@ def dpll(clauses, assignment={}):
 ## 관련 개념
 
 - [3SAT](/knowledge/discrete-mathematics/logic/3sat/)
-- [Horn Clause](/knowledge/discrete-mathematics/logic/horn-clause/)
-- [Krom Clause](/knowledge/discrete-mathematics/logic/krom-clause/)
-- [Prime Implicant](/knowledge/discrete-mathematics/boolean-algebra/prime-implicant/)
-- [DNF and CNF](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)
+- [호른 절 (Horn Clause)](/knowledge/discrete-mathematics/logic/horn-clause/)
+- [크롬 절 (Krom Clause)](/knowledge/discrete-mathematics/logic/krom-clause/)
+- [주항 (Prime Implicant)](/knowledge/discrete-mathematics/boolean-algebra/prime-implicant/)
+- [DNF와 CNF (DNF and CNF)](/knowledge/discrete-mathematics/boolean-algebra/dnf-cnf/)

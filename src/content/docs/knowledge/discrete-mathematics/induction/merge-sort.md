@@ -1,5 +1,5 @@
 ---
-title: "Merge Sort"
+title: "병합 정렬 (Merge Sort)"
 description: "병합 정렬(Merge Sort)은 리스트를 반으로 나누어 각각을 재귀적으로 정렬한 후, 두 정렬된 리스트를 하나의 정렬된 리스트로 병합(merge)하는 분할 정복(divide and conquer) 기반의 재귀적 정렬 알고리즘이다"
 tags: ['Merge Sort', 'Sorting Algorithm', 'Divide And Conquer', 'Recursive Algorithm', 'Complexity Analysis']
 created: 2026-02-16
@@ -98,8 +98,8 @@ procedure mergesort(L = a1, ..., an)
 ## 관련 개념
 
 - [Recursive Algorithm](/knowledge/mathematics/recursive-algorithm/) - 병합 정렬은 대표적인 재귀 알고리즘
-- [Algorithm](/knowledge/algorithms/algorithm/) - 정렬 알고리즘의 한 종류
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 병합 정렬의 복잡도는 O(n log n)으로 표현
-- [Complexity](/knowledge/algorithms/time-complexity/) - 비교 기반 정렬의 최적 복잡도 달성
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 정렬 알고리즘의 한 종류
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - 병합 정렬의 복잡도는 O(n log n)으로 표현
+- [시간 복잡도 (Time Complexity)](/knowledge/algorithms/time-complexity/) - 비교 기반 정렬의 최적 복잡도 달성
 - [Mathematical Induction](/knowledge/mathematics/mathematical-induction/) - 병합 정렬의 정확성 증명에 사용
 - [Sequence](/knowledge/mathematics/sequence/) - 정렬 대상인 수열/리스트

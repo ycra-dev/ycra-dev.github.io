@@ -1,5 +1,5 @@
 ---
-title: "Direct Proof"
+title: "직접 증명 (Direct Proof)"
 description: "직접 증명(Direct Proof)은 조건문 p → q를 증명하기 위해 p가 참임을 가정한 후, 공리, 정의, 이전에 증명된 정리, 추론 규칙을 사용하여 q도 반드시 참임을 단계적으로 보이는 증명 방법이다"
 tags: ['Direct Proof', 'Proof Method', 'Conditional Statement', 'Theorem']
 created: 2026-02-16

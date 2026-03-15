@@ -1,5 +1,5 @@
 ---
-title: "Injection Surjection Bijection"
+title: "단사·전사·전단사 함수 (Injection, Surjection, Bijection)"
 description: "함수 f: A → B에 대해, **단사함수(injection)**는 서로 다른 입력에 서로 다른 출력을 대응시키는 함수이고, **전사함수(surjection)**는 공역의 모든 원소가 치역에 포함되는 함수이며, **전단사함수(bijection)**는 단사이면서 동..."
 tags: ['Injection', 'Surjection', 'Bijection', 'One To One', 'Onto', 'Function Types', 'Invertible']
 created: 2026-02-16

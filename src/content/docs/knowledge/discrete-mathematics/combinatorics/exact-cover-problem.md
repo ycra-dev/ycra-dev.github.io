@@ -1,5 +1,5 @@
 ---
-title: "Exact Cover Problem"
+title: "정확 덮개 문제 (Exact Cover Problem)"
 description: "주어진 전체 집합 U와 부분집합 컬렉션에서 모든 원소를 정확히 한 번씩 포함하는 부분집합들을 선택하는 문제 — Sudoku·N-Queens를 포괄하는 일반화 모델"
 tags: ["Combinatorics", "NP-Complete", "Dancing Links", "Backtracking", "Algorithms"]
 created: 2026-02-27
@@ -82,7 +82,7 @@ def select(X, Y, row):
 
 ## 관련 개념
 
-- [Combinatorial Searching](/knowledge/algorithms/foundations/combinatorial-searching/)
-- [Latin Square](/knowledge/discrete-mathematics/combinatorics/latin-square/)
-- [Boolean Satisfiability](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
-- [Doubly Linked List](/knowledge/algorithms/data-structures/doubly-linked-list/)
+- [조합 탐색 (Combinatorial Searching)](/knowledge/algorithms/foundations/combinatorial-searching/)
+- [라틴 방진 (Latin Square)](/knowledge/discrete-mathematics/combinatorics/latin-square/)
+- [부울 충족 가능성 (Boolean Satisfiability)](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
+- [이중 연결 리스트 (Doubly Linked List)](/knowledge/algorithms/data-structures/doubly-linked-list/)

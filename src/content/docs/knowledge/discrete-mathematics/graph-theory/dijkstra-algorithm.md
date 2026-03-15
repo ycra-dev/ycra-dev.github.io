@@ -1,5 +1,5 @@
 ---
-title: "Dijkstra's Algorithm"
+title: "다익스트라 알고리즘 (Dijkstra's Algorithm)"
 description: "다익스트라 알고리즘(Dijkstra's algorithm)은 가중 연결 단순 그래프에서 두 정점 사이의 최단 경로(shortest path)를 찾는 탐욕 알고리즘이다"
 tags: ['Dijkstra', 'Shortest Path', 'Greedy Algorithm', 'Weighted Graph', 'Graph Algorithm']
 created: 2026-02-16
@@ -100,7 +100,7 @@ print(f"최단 경로: {' -> '.join(path)}")  # a -> c -> b -> d -> e -> z
 ## 관련 개념
 
 - [Graph](/knowledge/mathematics/graph/) - 알고리즘이 적용되는 가중 그래프
-- [Algorithm](/knowledge/algorithms/algorithm/) - 탐욕 알고리즘의 대표적 예
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - O(n^2) 시간 복잡도
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 탐욕 알고리즘의 대표적 예
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - O(n^2) 시간 복잡도
 - [Traveling Salesperson Problem](/knowledge/mathematics/traveling-salesperson-problem/) - 최단 경로의 확장 문제
 - [Hamilton Path and Circuit](/knowledge/mathematics/hamilton-path-and-circuit/) - 정점 방문 경로와의 관계

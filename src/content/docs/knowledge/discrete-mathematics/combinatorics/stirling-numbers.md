@@ -1,5 +1,5 @@
 ---
-title: "Stirling Numbers"
+title: "스털링 수 (Stirling Numbers)"
 description: "다항식을 팩토리얼 거듭제곱과 일반 거듭제곱 사이에서 변환할 때 등장하는 계수 — 제1종(사이클 분해)과 제2종(집합 분할)으로 나뉨"
 tags: ["Combinatorics", "Discrete Mathematics", "Permutation", "TAOCP"]
 created: 2026-02-27
@@ -105,7 +105,7 @@ S(4, 2) = 7: {1,2,3,4}를 두 비공 부분집합으로 나누는 7가지 방법
 
 ## 관련 개념
 
-- [Binomial Coefficient](/knowledge/discrete-mathematics/combinatorics/binomial-coefficient/)
-- [Permutation](/knowledge/discrete-mathematics/combinatorics/permutation/)
-- [Harmonic Numbers](/knowledge/algorithms/foundations/harmonic-numbers/)
-- [Generating Functions](/knowledge/discrete-mathematics/combinatorics/generating-functions/)
+- [이항계수 (Binomial Coefficient)](/knowledge/discrete-mathematics/combinatorics/binomial-coefficient/)
+- [순열 (Permutation)](/knowledge/discrete-mathematics/combinatorics/permutation/)
+- [조화수 (Harmonic Numbers)](/knowledge/algorithms/foundations/harmonic-numbers/)
+- [생성 함수 (Generating Functions)](/knowledge/discrete-mathematics/combinatorics/generating-functions/)

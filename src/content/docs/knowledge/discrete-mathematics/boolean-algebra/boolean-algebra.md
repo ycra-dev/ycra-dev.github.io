@@ -1,5 +1,5 @@
 ---
-title: "Boolean Algebra"
+title: "불 대수 (Boolean Algebra)"
 description: "불리언 대수(Boolean algebra)란 두 개의 이항 연산 ∨(합)와 ∧(곱), 원소 0과 1, 그리고 단항 연산(보수)을 갖는 집합 B로, 항등법칙, 보수법칙, 결합법칙, 교환법칙, 분배법칙을 모두 만족하는 대수적 구조이다"
 tags: ['Boolean Algebra', 'Algebraic Structure', 'Duality', 'Identities', 'Discrete Mathematics']
 created: 2026-02-16

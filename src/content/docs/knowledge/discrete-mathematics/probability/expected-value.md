@@ -1,5 +1,5 @@
 ---
-title: "Expected Value"
+title: "기대값 (Expected Value)"
 description: "확률변수 X의 기대값(expected value)은 E(X) = Σ_{s∈S} p(s)X(s)로 정의되며, 각 결과의 확률로 가중된 확률변수 값들의 가중 평균이다"
 tags: ['Expected Value', 'Expectation', 'Mean', 'Linearity Of Expectations', 'Random Variable', 'Average Case Complexity']
 created: 2026-02-16
@@ -94,5 +94,5 @@ E(X) = Σᵢ₌₂ⁿ (i+1)/2 = (n² + 3n - 4)/4 = Θ(n²)
 - [Random Variable](/knowledge/mathematics/random-variable/) - 기대값은 확률변수에 대해 정의
 - [Variance](/knowledge/mathematics/variance/) - 분산은 기대값으로부터의 편차의 제곱의 기대값
 - [Bernoulli Trial](/knowledge/mathematics/bernoulli-trial/) - 이항분포의 기대값은 np
-- [Algorithm](/knowledge/algorithms/algorithm/) - 평균 사례 복잡도는 기대값으로 계산
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 평균 사례 복잡도는 기대값으로 계산
 - [Permutation](/knowledge/mathematics/permutation/) - 순열의 전도 수 기대값은 n(n-1)/4

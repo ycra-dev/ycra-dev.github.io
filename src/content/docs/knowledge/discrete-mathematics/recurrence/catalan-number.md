@@ -1,5 +1,5 @@
 ---
-title: "Catalan Number"
+title: "카탈란 수 (Catalan Number)"
 description: "카탈란 수(Catalan number) C_n은 n+1개의 수의 곱에서 곱셈 순서를 지정하기 위해 괄호를 넣는 방법의 수로, 점화식 C_n = sum_{k=0}^{n-1} C_k * C_{n-k-1}을 만족하며, 닫힌 공식은 C_n = C(2n, n) / (n+1)이다"
 tags: ['Catalan Number', 'Recurrence Relation', 'Generating Function', 'Counting', 'Combinatorics']
 created: 2026-02-16

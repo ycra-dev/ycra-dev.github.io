@@ -1,5 +1,5 @@
 ---
-title: "Fermat's Little Theorem"
+title: "페르마 소정리 (Fermat's Little Theorem)"
 description: "페르마의 소정리(Fermat's Little Theorem)는 p가 소수이고 a가 p로 나누어지지 않는 정수일 때, a^{p-1} ≡ 1 (mod p)가 성립한다는 정리이다"
 tags: ['Fermats Little Theorem', 'Prime', 'Congruence', 'Number Theory', 'Pseudoprime', 'Carmichael Number']
 created: 2026-02-16

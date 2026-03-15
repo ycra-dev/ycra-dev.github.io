@@ -1,5 +1,5 @@
 ---
-title: "Rooted Tree"
+title: "루트 트리 (Rooted Tree)"
 description: "루트 트리(rooted tree)는 하나의 정점이 루트(root)로 지정되고, 모든 간선이 루트로부터 멀어지는 방향으로 향하는 트리이다"
 tags: ['Rooted Tree', 'Tree', 'Binary Tree', 'M Ary Tree', 'Balanced Tree', 'Discrete Mathematics']
 created: 2026-02-16

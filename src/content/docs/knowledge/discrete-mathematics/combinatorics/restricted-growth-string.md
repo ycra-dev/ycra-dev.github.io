@@ -1,5 +1,5 @@
 ---
-title: "Restricted Growth String"
+title: "제한 성장 문자열 (Restricted Growth String)"
 description: "집합 {1,...,n}의 분할을 나타내는 문자열 a₁...aₙ으로 a₁=0이고 각 aⱼ ≤ 1+max(a₁,...,aⱼ₋₁)를 만족하는 정규 표현 — Ehrlich 그레이 코드 열거의 기반"
 tags: ["Combinatorics", "Set Partitions", "Encoding", "Algorithms"]
 created: 2026-02-27
@@ -96,7 +96,7 @@ for rgs in all_rgs(3):
 
 ## 관련 개념
 
-- [Set Partition](/knowledge/discrete-mathematics/combinatorics/set-partition/)
-- [Bell Number](/knowledge/discrete-mathematics/combinatorics/bell-number/)
-- [Gray Code](/knowledge/discrete-mathematics/combinatorics/gray-code/)
-- [Loopless Algorithm](/knowledge/algorithms/foundations/loopless-algorithm/)
+- [집합 분할 (Set Partition)](/knowledge/discrete-mathematics/combinatorics/set-partition/)
+- [벨 수 (Bell Number)](/knowledge/discrete-mathematics/combinatorics/bell-number/)
+- [그레이 코드 (Gray Code)](/knowledge/discrete-mathematics/combinatorics/gray-code/)
+- [루프 없는 알고리즘 (Loopless Algorithm)](/knowledge/algorithms/foundations/loopless-algorithm/)

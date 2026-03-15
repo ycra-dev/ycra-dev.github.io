@@ -1,5 +1,5 @@
 ---
-title: "Karnaugh Map"
+title: "카르노 맵 (Karnaugh Map)"
 description: "카르노 맵(Karnaugh map, K-map)은 불리언 함수의 곱의 합 전개를 최소화하기 위한 시각적 방법으로, 각 셀이 하나의 최소항을 나타내는 직사각형 격자이다"
 tags: ['Karnaugh Map', 'K Map', 'Circuit Minimization', 'Prime Implicant', 'Boolean Simplification', 'Discrete Mathematics']
 created: 2026-02-16

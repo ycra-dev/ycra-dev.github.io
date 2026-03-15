@@ -84,7 +84,7 @@ def make_node(var, lo, hi):
 
 ## 관련 개념
 
-- [Binary Decision Diagram](/knowledge/discrete-mathematics/boolean-algebra/binary-decision-diagram/)
-- [Boolean Satisfiability](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
-- [Combinational Complexity](/knowledge/discrete-mathematics/boolean-algebra/combinational-complexity/)
-- [Monotone Boolean Function](/knowledge/discrete-mathematics/boolean-algebra/monotone-boolean-function/)
+- [이진 결정 다이어그램 (Binary Decision Diagram)](/knowledge/discrete-mathematics/boolean-algebra/binary-decision-diagram/)
+- [부울 충족 가능성 (Boolean Satisfiability)](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
+- [조합 복잡도 (Combinational Complexity)](/knowledge/discrete-mathematics/boolean-algebra/combinational-complexity/)
+- [단조 불 함수 (Monotone Boolean Function)](/knowledge/discrete-mathematics/boolean-algebra/monotone-boolean-function/)

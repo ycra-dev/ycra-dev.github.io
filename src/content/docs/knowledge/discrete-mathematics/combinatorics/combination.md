@@ -1,5 +1,5 @@
 ---
-title: "Combination"
+title: "조합 (Combination)"
 description: "조합(Combination)이란 집합에서 순서를 고려하지 않고 r개의 원소를 선택하는 것이다"
 tags: ['Combination', 'R Combination', 'Counting', 'Subset', 'Unordered Selection']
 created: 2026-02-16

@@ -1,5 +1,5 @@
 ---
-title: "Krom Clause"
+title: "크롬 절 (Krom Clause)"
 description: "정확히 2개의 리터럴로 구성된 논리합 절 — Krom 절만으로 이루어진 2-SAT를 함의 그래프와 강한 연결 성분으로 선형 시간에 해결"
 tags: ["Logic", "2-SAT", "Linear Time", "Algorithms"]
 created: 2026-02-27
@@ -120,7 +120,7 @@ def solve_2sat(n, clauses):
 
 ## 관련 개념
 
-- [Horn Clause](/knowledge/discrete-mathematics/logic/horn-clause/)
-- [Boolean Satisfiability](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
+- [호른 절 (Horn Clause)](/knowledge/discrete-mathematics/logic/horn-clause/)
+- [부울 충족 가능성 (Boolean Satisfiability)](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
 - [3SAT](/knowledge/discrete-mathematics/logic/3sat/)
-- [Depth First Search](/knowledge/algorithms/graph-algorithms/depth-first-search/)
+- [깊이 우선 탐색 (Depth-First Search)](/knowledge/algorithms/graph-algorithms/depth-first-search/)

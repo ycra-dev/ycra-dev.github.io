@@ -1,5 +1,5 @@
 ---
-title: "RSA Cryptosystem"
+title: "RSA 암호 체계 (RSA Cryptosystem)"
 description: "RSA 암호 시스템은 1977년 Rivest, Shamir, Adleman이 발표한(1973년 Clifford Cocks가 비밀리에 발견) 공개키 암호 시스템이다"
 tags: ['Rsa', 'Public Key Cryptography', 'Encryption', 'Decryption', 'Number Theory', 'Cryptosystem']
 created: 2026-02-16

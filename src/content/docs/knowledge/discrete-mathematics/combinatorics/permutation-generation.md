@@ -1,5 +1,5 @@
 ---
-title: "Permutation Generation"
+title: "순열 생성 (Permutation Generation)"
 description: "n개의 원소로 이루어진 모든 n! 가지 순열을 체계적으로 열거하는 알고리즘 — 사전순·최소 변화(Heap)·팩토라딕 세 가지 주요 방법"
 tags: ["Combinatorics", "Permutations", "Enumeration", "Algorithms"]
 created: 2026-02-27
@@ -93,7 +93,7 @@ for p in permutations_lex([1, 2, 3]):
 
 ## 관련 개념
 
-- [Gray Code](/knowledge/discrete-mathematics/combinatorics/gray-code/)
-- [Combination Generation](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
-- [Set Partition](/knowledge/discrete-mathematics/combinatorics/set-partition/)
-- [Loopless Algorithm](/knowledge/algorithms/foundations/loopless-algorithm/)
+- [그레이 코드 (Gray Code)](/knowledge/discrete-mathematics/combinatorics/gray-code/)
+- [조합 생성 (Combination Generation)](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
+- [집합 분할 (Set Partition)](/knowledge/discrete-mathematics/combinatorics/set-partition/)
+- [루프 없는 알고리즘 (Loopless Algorithm)](/knowledge/algorithms/foundations/loopless-algorithm/)
