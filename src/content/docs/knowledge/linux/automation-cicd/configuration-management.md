@@ -1,5 +1,5 @@
 ---
-title: "Configuration Management"
+title: "구성 관리 (Configuration Management)"
 description: "구성 관리(Configuration Management, CM)는 네트워크상의 운영체제를 자동으로 관리하는 소프트웨어로, 관리자가 서버의 바람직한 상태를 명세로 작성하면 CM 시스템이 현실을 해당 명세에 맞게 조정하는 자동화 도구이다"
 tags: ['Configuration Management', 'Automation', 'Infrastructure', 'Declarative', 'Cm']
 created: 2026-02-12
@@ -59,10 +59,10 @@ sshd:
 
 ## 관련 개념
 
-- [Ansible](/knowledge/linux/ansible/)
-- [Salt](/knowledge/linux/salt/)
-- [Infrastructure as Code](/knowledge/linux/infrastructure-as-code/)
-- [DevOps](/knowledge/linux/devops/)
-- [Idempotence](/knowledge/linux/idempotence/)
-- [YAML](/knowledge/linux/yaml/)
-- [Declarative Configuration](/knowledge/linux/declarative-configuration/)
+- [Ansible (자동화 도구)](/knowledge/linux/ansible/)
+- [Salt (솔트)](/knowledge/linux/salt/)
+- [코드형 인프라 (Infrastructure as Code)](/knowledge/linux/infrastructure-as-code/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)
+- [멱등성 (Idempotence)](/knowledge/linux/idempotence/)
+- [YAML (야믈)](/knowledge/linux/yaml/)
+- [선언적 구성 (Declarative Configuration)](/knowledge/linux/declarative-configuration/)

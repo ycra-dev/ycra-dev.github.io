@@ -1,5 +1,5 @@
 ---
-title: "ARP (Address Resolution Protocol)"
+title: "ARP (주소 결정 프로토콜)"
 description: "ARP(Address Resolution Protocol, RFC826)는 IPv4에서 IP 주소를 해당 네트워크 인터페이스의 하드웨어(MAC) 주소로 변환하는 링크 계층 프로토콜로, 브로드캐스트를 통해 로컬 네트워크의 장치 주소를 자동으로 발견한다"
 tags: ['Arp', 'Networking', 'Mac Address', 'IP Address', 'Link Layer']
 created: 2026-02-12
@@ -49,8 +49,8 @@ ndp -a
 
 ## 관련 개념
 
-- [mac-address](/knowledge/linux/mac-address/) - ARP가 해석하는 하드웨어 주소
-- [ip-address](/knowledge/linux/ip-address/) - ARP가 변환하는 출발 주소
-- [ethernet](/knowledge/linux/ethernet/) - ARP 브로드캐스트가 동작하는 네트워크
-- [ipv6](/knowledge/linux/ipv6/) - ARP 대신 Neighbor Discovery 사용
-- [network-interface](/knowledge/linux/network-interface/) - ARP 캐시가 인터페이스별로 관리됨
+- [MAC 주소 (MAC Address)](/knowledge/linux/mac-address/) - ARP가 해석하는 하드웨어 주소
+- [IP 주소 (IP Address)](/knowledge/linux/ip-address/) - ARP가 변환하는 출발 주소
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - ARP 브로드캐스트가 동작하는 네트워크
+- [IPv6 (인터넷 프로토콜 버전 6)](/knowledge/linux/ipv6/) - ARP 대신 Neighbor Discovery 사용
+- [네트워크 인터페이스 (Network Interface)](/knowledge/linux/network-interface/) - ARP 캐시가 인터페이스별로 관리됨

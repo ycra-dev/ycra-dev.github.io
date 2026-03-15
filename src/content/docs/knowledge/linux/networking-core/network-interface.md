@@ -1,5 +1,5 @@
 ---
-title: "Network Interface"
+title: "네트워크 인터페이스 (Network Interface)"
 description: "네트워크 인터페이스(Network Interface)는 네트워크에 연결될 수 있는 하드웨어(또는 가상) 장치로, 각 인터페이스는 독립적으로 IP 주소와 네트워크 프로토콜을 구성할 수 있으며, 시스템에는 최소한 루프백(loopback)과 하나의 물리 인터페이스가 존재한다"
 tags: ['Network Interface', 'Networking', 'IP Configuration', 'Ethernet', 'Linux']
 created: 2026-02-12
@@ -70,9 +70,9 @@ ethtool eth0
 
 ## 관련 개념
 
-- [ip-address](/knowledge/linux/ip-address/) - 인터페이스에 할당되는 주소
-- [ethernet](/knowledge/linux/ethernet/) - 일반적인 물리 인터페이스 기술
-- [mac-address](/knowledge/linux/mac-address/) - 인터페이스의 하드웨어 주소
-- [dhcp](/knowledge/linux/dhcp/) - 인터페이스의 동적 구성
-- [routing-table](/knowledge/linux/routing-table/) - 인터페이스와 연결된 라우팅 항목
-- [sysctl](/knowledge/linux/sysctl/) - 인터페이스별 커널 매개변수
+- [IP 주소 (IP Address)](/knowledge/linux/ip-address/) - 인터페이스에 할당되는 주소
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - 일반적인 물리 인터페이스 기술
+- [MAC 주소 (MAC Address)](/knowledge/linux/mac-address/) - 인터페이스의 하드웨어 주소
+- [DHCP (동적 호스트 구성 프로토콜)](/knowledge/linux/dhcp/) - 인터페이스의 동적 구성
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - 인터페이스와 연결된 라우팅 항목
+- [sysctl (커널 파라미터 설정)](/knowledge/linux/sysctl/) - 인터페이스별 커널 매개변수

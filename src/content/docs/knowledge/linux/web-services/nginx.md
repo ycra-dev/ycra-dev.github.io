@@ -1,5 +1,5 @@
 ---
-title: "NGINX"
+title: "NGINX (엔진엑스)"
 description: "NGINX는 이벤트 기반 아키텍처를 사용하는 고성능 웹 서버로, 정적 콘텐츠 서비스, 리버스 프록시, 로드 밸런싱, 캐싱 기능을 단일 소프트웨어에서 제공한다"
 tags: ['Nginx', 'Web Server', 'Reverse Proxy', 'Load Balancer', 'Event Driven']
 created: 2026-02-12
@@ -68,10 +68,10 @@ server {
 
 ## 관련 개념
 
-- [Web Server](/knowledge/linux/web-server/)
-- [Load Balancer](/knowledge/linux/load-balancer/)
-- [Reverse Proxy](/knowledge/linux/reverse-proxy/)
-- [HTTP](/knowledge/linux/http/)
-- [TLS](/knowledge/linux/tls/)
-- [Virtual Host](/knowledge/linux/virtual-host/)
-- [Web Cache](/knowledge/linux/web-cache/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [로드 밸런서 (Load Balancer)](/knowledge/linux/load-balancer/)
+- [리버스 프록시 (Reverse Proxy)](/knowledge/linux/reverse-proxy/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)
+- [TLS (전송 계층 보안)](/knowledge/linux/tls/)
+- [가상 호스트 (Virtual Host)](/knowledge/linux/virtual-host/)
+- [웹 캐시 (Web Cache)](/knowledge/linux/web-cache/)

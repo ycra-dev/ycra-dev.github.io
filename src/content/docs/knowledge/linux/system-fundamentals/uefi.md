@@ -1,5 +1,5 @@
 ---
-title: "UEFI"
+title: "UEFI (통합 확장 펌웨어 인터페이스)"
 description: "UEFI(Unified Extensible Firmware Interface)는 레거시 BIOS를 대체하는 현대적 시스템 펌웨어 표준으로, GPT 파티셔닝, FAT 파일시스템 인식, 표준 API를 제공한다"
 tags: ['Uefi', 'Firmware', 'Bios', 'Boot', 'Efi', 'Gpt']
 created: 2026-02-12
@@ -37,5 +37,5 @@ gpart show
 
 ## 관련 개념
 
-- [Boot Process](/knowledge/linux/boot-process/)
-- [GRUB](/knowledge/linux/grub/)
+- [부트 프로세스 (Boot Process)](/knowledge/linux/boot-process/)
+- [GRUB (부트로더)](/knowledge/linux/grub/)

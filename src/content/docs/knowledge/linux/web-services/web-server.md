@@ -1,5 +1,5 @@
 ---
-title: "Web Server"
+title: "웹 서버 (Web Server)"
 description: "웹 서버는 HTTP 요청을 수신하여 정적 콘텐츠를 직접 제공하거나 애플리케이션 서버로 요청을 프록시하는 소프트웨어로, 가상 호스트, TLS 처리, 로깅, 인증, URL 라우팅 등의 기능을 제공한다"
 tags: ['Web Server', 'Apache', 'Nginx', 'Httpd', 'HTTP Proxy']
 created: 2026-02-12
@@ -53,10 +53,10 @@ sudo yum install httpd      # RHEL/CentOS
 
 ## 관련 개념
 
-- [HTTP](/knowledge/linux/http/)
-- [NGINX](/knowledge/linux/nginx/)
-- [Apache httpd](/knowledge/linux/apache-httpd/)
-- [Virtual Host](/knowledge/linux/virtual-host/)
-- [TLS](/knowledge/linux/tls/)
-- [Load Balancer](/knowledge/linux/load-balancer/)
-- [Reverse Proxy](/knowledge/linux/reverse-proxy/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)
+- [NGINX (엔진엑스)](/knowledge/linux/nginx/)
+- [Apache httpd (아파치 웹 서버)](/knowledge/linux/apache-httpd/)
+- [가상 호스트 (Virtual Host)](/knowledge/linux/virtual-host/)
+- [TLS (전송 계층 보안)](/knowledge/linux/tls/)
+- [로드 밸런서 (Load Balancer)](/knowledge/linux/load-balancer/)
+- [리버스 프록시 (Reverse Proxy)](/knowledge/linux/reverse-proxy/)

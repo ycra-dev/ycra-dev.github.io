@@ -1,5 +1,5 @@
 ---
-title: "Jenkins"
+title: "Jenkins (젠킨스)"
 description: "Jenkins는 Java로 작성된 오픈소스 자동화 서버로, CI/CD 구현에 가장 널리 사용되는 소프트웨어이며, 광범위한 플러그인 생태계를 통해 다양한 빌드, 테스트, 배포 시나리오를 지원한다"
 tags: ['Jenkins', 'Ci Cd', 'Automation Server', 'Pipeline', 'Java', 'Build']
 created: 2026-02-12
@@ -68,8 +68,8 @@ java -jar jenkins-cli.jar -s http://localhost:8080/ \
 
 ## 관련 개념
 
-- [CI/CD Pipeline](/knowledge/linux/cicd-pipeline/)
-- [Continuous Integration](/knowledge/linux/continuous-integration/)
-- [Continuous Delivery](/knowledge/linux/continuous-delivery/)
-- [Docker](/knowledge/linux/docker/)
-- [DevOps](/knowledge/linux/devops/)
+- [CI/CD 파이프라인 (CI/CD Pipeline)](/knowledge/linux/cicd-pipeline/)
+- [지속적 통합 (Continuous Integration)](/knowledge/linux/continuous-integration/)
+- [지속적 전달 (Continuous Delivery)](/knowledge/linux/continuous-delivery/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)

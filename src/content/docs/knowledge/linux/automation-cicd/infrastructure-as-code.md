@@ -1,5 +1,5 @@
 ---
-title: "Infrastructure as Code"
+title: "코드형 인프라 (Infrastructure as Code)"
 description: "인프라스트럭처 애즈 코드(IaC)는 시스템 및 네트워크 인프라의 전체 수명 주기를 선언적 코드로 작성하여 자동화하는 개념으로, 수동 서버 프로비저닝과 대조된다"
 tags: ['Iac', 'Automation', 'Terraform', 'Cloudformation', 'DevOps', 'Cloud Computing']
 created: 2026-02-12
@@ -54,11 +54,11 @@ IaC는 가장 중요한 형태의 문서화이기도 하다. Puppet 모듈이나
 
 ## 관련 개념
 
-- [Infrastructure as a Service](/knowledge/linux/infrastructure-as-a-service/)
-- [DevOps](/knowledge/linux/devops/)
-- [Site Reliability Engineering](/knowledge/linux/site-reliability-engineering/)
-- [Terraform](/knowledge/linux/terraform/)
-- [Packer](/knowledge/linux/packer/)
-- [Configuration Management](/knowledge/linux/configuration-management/)
-- [Continuous Delivery](/knowledge/linux/continuous-delivery/)
-- [Change Management](/knowledge/linux/change-management/) - IaC를 통한 변경 추적과 관리
+- [서비스형 인프라 (Infrastructure as a Service)](/knowledge/linux/infrastructure-as-a-service/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)
+- [사이트 신뢰성 공학 (Site Reliability Engineering)](/knowledge/linux/site-reliability-engineering/)
+- [Terraform (테라폼)](/knowledge/linux/terraform/)
+- [Packer (패커)](/knowledge/linux/packer/)
+- [구성 관리 (Configuration Management)](/knowledge/linux/configuration-management/)
+- [지속적 전달 (Continuous Delivery)](/knowledge/linux/continuous-delivery/)
+- [변경 관리 (Change Management)](/knowledge/linux/change-management/) - IaC를 통한 변경 추적과 관리

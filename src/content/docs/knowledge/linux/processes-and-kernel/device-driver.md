@@ -1,5 +1,5 @@
 ---
-title: "Device Driver"
+title: "디바이스 드라이버 (Device Driver)"
 description: "디바이스 드라이버는 하드웨어 장치와 시스템의 상호작용을 관리하는 추상화 계층으로, 하드웨어 명령과 커널의 표준화된 인터페이스 사이를 번역한다"
 tags: ['Kernel', 'Hardware', 'Driver', 'Device', 'Abstraction', 'Major Minor']
 created: 2026-02-12
@@ -43,7 +43,7 @@ udevadm info --query=all --name=/dev/sda
 
 ## 관련 개념
 
-- [Kernel Module](/knowledge/linux/kernel-module/)
-- [Device File](/knowledge/linux/device-file/)
-- [udev](/knowledge/linux/udev/)
-- [Proc Filesystem](/knowledge/linux/proc-filesystem/)
+- [커널 모듈 (Kernel Module)](/knowledge/linux/kernel-module/)
+- [디바이스 파일 (Device File)](/knowledge/linux/device-file/)
+- [udev (장치 관리자)](/knowledge/linux/udev/)
+- [Proc 파일 시스템 (Proc Filesystem)](/knowledge/linux/proc-filesystem/)

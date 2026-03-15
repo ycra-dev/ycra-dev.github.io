@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes"
+title: "Kubernetes (쿠버네티스)"
 description: "Kubernetes(k8s)는 Google에서 시작되어 오픈소스로 공개된 컨테이너 관리 시스템으로, 컨테이너화된 워크로드의 배포, 스케일링, 운영을 자동화하며, 컨테이너 관리 분야의 리더로 자리잡았다"
 tags: ['Kubernetes', 'K8s', 'Container Orchestration', 'Google', 'Pod', 'Cluster']
 created: 2026-02-12
@@ -62,7 +62,7 @@ kubectl exec -it pod-name -- /bin/bash
 
 ## 관련 개념
 
-- [Container Orchestration](/knowledge/linux/container-orchestration/)
-- [Container](/knowledge/linux/container/)
-- [Docker](/knowledge/linux/docker/)
-- [Service Discovery](/knowledge/linux/service-discovery/)
+- [컨테이너 오케스트레이션 (Container Orchestration)](/knowledge/linux/container-orchestration/)
+- [컨테이너 (Container)](/knowledge/linux/container/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [서비스 디스커버리 (Service Discovery)](/knowledge/linux/service-discovery/)

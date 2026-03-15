@@ -1,5 +1,5 @@
 ---
-title: "sar"
+title: "sar (시스템 활동 리포터)"
 description: "sar(System Activity Reporter)는 CPU, 디스크, 네트워크 등의 시스템 활동을 수집하고 보고하는 성능 모니터링 도구로, vmstat/iostat과 달리 **과거 데이터에 대한 히스토리 조회**가 가능하다"
 tags: ['Performance', 'Monitoring', 'Historical Data', 'Sysstat', 'CPU', 'Disk', 'Network']
 created: 2026-02-12
@@ -57,7 +57,7 @@ sudo yum install sysstat
 
 ## 관련 개념
 
-- [vmstat](/knowledge/linux/vmstat/) - 실시간 시스템 통계 모니터링
-- [iostat](/knowledge/linux/iostat/) - 디스크 I/O 성능 모니터링
-- [Grafana](/knowledge/linux/grafana/) - 장기 성능 모니터링 대시보드
-- [cron](/knowledge/linux/cron/) - sa1 데이터 수집 스케줄링
+- [vmstat (가상 메모리 통계 도구)](/knowledge/linux/vmstat/) - 실시간 시스템 통계 모니터링
+- [iostat (I/O 통계 도구)](/knowledge/linux/iostat/) - 디스크 I/O 성능 모니터링
+- [Grafana (그라파나)](/knowledge/linux/grafana/) - 장기 성능 모니터링 대시보드
+- [크론 (Cron)](/knowledge/linux/cron/) - sa1 데이터 수집 스케줄링

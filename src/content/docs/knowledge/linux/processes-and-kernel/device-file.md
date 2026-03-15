@@ -1,5 +1,5 @@
 ---
-title: "Device File"
+title: "디바이스 파일 (Device File)"
 description: "디바이스 파일은 /dev에 위치하며 하드웨어 장치나 가상 장치에 대한 인터페이스를 제공하는 특수 파일로, \"모든 것은 파일이다\"라는 UNIX 철학의 핵심 구현이다"
 tags: ['Dev', 'Major Number', 'Minor Number', 'Block Device', 'Character Device', 'Mknod']
 created: 2026-02-12
@@ -48,10 +48,10 @@ lsblk
 
 ## 관련 개념
 
-- [Device Driver](/knowledge/linux/device-driver/)
-- [udev](/knowledge/linux/udev/)
-- [Inode](/knowledge/linux/inode/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Kernel Module](/knowledge/linux/kernel-module/)
-- [Disk Partitioning](/knowledge/linux/disk-partitioning/)
-- [RAID](/knowledge/linux/raid/)
+- [디바이스 드라이버 (Device Driver)](/knowledge/linux/device-driver/)
+- [udev (장치 관리자)](/knowledge/linux/udev/)
+- [아이노드 (Inode)](/knowledge/linux/inode/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [커널 모듈 (Kernel Module)](/knowledge/linux/kernel-module/)
+- [디스크 파티셔닝 (Disk Partitioning)](/knowledge/linux/disk-partitioning/)
+- [RAID (독립 디스크의 중복 배열)](/knowledge/linux/raid/)

@@ -1,5 +1,5 @@
 ---
-title: "DNS Resolution"
+title: "DNS 이름 해석 (DNS Resolution)"
 description: "DNS 해석(DNS Resolution)은 사람이 읽을 수 있는 호스트명(예: google"
 tags: ['DNS', 'Name Resolution', 'Networking', 'Resolv Conf', 'Hostname']
 created: 2026-02-12
@@ -59,8 +59,8 @@ sudo hostnamectl set-hostname myhost.example.com
 
 ## 관련 개념
 
-- [ip-address](/knowledge/linux/ip-address/) - DNS가 매핑하는 대상 주소
-- [dhcp](/knowledge/linux/dhcp/) - DNS 서버 주소를 자동 구성
-- [network-interface](/knowledge/linux/network-interface/) - DNS 설정이 필요한 네트워크 구성
-- [ldap](/knowledge/linux/ldap/) - DNS의 대안적 이름 해석 시스템
-- [ping](/knowledge/linux/ping/) - DNS 문제 진단에 활용
+- [IP 주소 (IP Address)](/knowledge/linux/ip-address/) - DNS가 매핑하는 대상 주소
+- [DHCP (동적 호스트 구성 프로토콜)](/knowledge/linux/dhcp/) - DNS 서버 주소를 자동 구성
+- [네트워크 인터페이스 (Network Interface)](/knowledge/linux/network-interface/) - DNS 설정이 필요한 네트워크 구성
+- [LDAP (경량 디렉토리 접근 프로토콜)](/knowledge/linux/ldap/) - DNS의 대안적 이름 해석 시스템
+- [ping (핑)](/knowledge/linux/ping/) - DNS 문제 진단에 활용

@@ -1,5 +1,5 @@
 ---
-title: "Vagrant"
+title: "Vagrant (베이그런트)"
 description: "Vagrant는 HashiCorp에서 개발한 가상 환경 프로비저닝 및 구성 래퍼(wrapper)로, VMware, VirtualBox, Docker 등의 가상화 플랫폼 위에서 일회용 개발 환경을 빠르고 쉽게 생성한다"
 tags: ['Vagrant', 'Hashicorp', 'Development Environment', 'Virtualization', 'Provisioning']
 created: 2026-02-12
@@ -52,7 +52,7 @@ end
 
 ## 관련 개념
 
-- [Virtual Machine](/knowledge/linux/virtual-machine/)
-- [Packer](/knowledge/linux/packer/)
-- [Infrastructure as Code](/knowledge/linux/infrastructure-as-code/)
-- [DevOps](/knowledge/linux/devops/)
+- [가상 머신 (Virtual Machine)](/knowledge/linux/virtual-machine/)
+- [Packer (패커)](/knowledge/linux/packer/)
+- [코드형 인프라 (Infrastructure as Code)](/knowledge/linux/infrastructure-as-code/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)

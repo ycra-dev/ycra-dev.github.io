@@ -1,5 +1,5 @@
 ---
-title: "GRUB"
+title: "GRUB (부트로더)"
 description: "GRUB(GRand Unified Boot Loader)은 GNU 프로젝트가 개발한 Linux의 기본 부트 로더로, 커널을 식별하고 로드하며 부팅 시 사용자 인터페이스를 제공한다"
 tags: ['Grub', 'Boot Loader', 'Linux', 'Boot', 'Kernel']
 created: 2026-02-12
@@ -39,6 +39,6 @@ GRUB_DEFAULT=0                     # 기본 부트 항목
 
 ## 관련 개념
 
-- [Boot Process](/knowledge/linux/boot-process/)
-- [UEFI](/knowledge/linux/uefi/)
-- [Systemd](/knowledge/linux/systemd/)
+- [부트 프로세스 (Boot Process)](/knowledge/linux/boot-process/)
+- [UEFI (통합 확장 펌웨어 인터페이스)](/knowledge/linux/uefi/)
+- [Systemd (시스템 관리 데몬)](/knowledge/linux/systemd/)

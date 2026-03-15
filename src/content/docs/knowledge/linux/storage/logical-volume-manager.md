@@ -1,5 +1,5 @@
 ---
-title: "Logical Volume Manager"
+title: "논리 볼륨 관리자 (Logical Volume Manager)"
 description: "LVM(Logical Volume Manager)은 물리적 저장 장치를 볼륨 그룹(Volume Group)으로 묶고, 이를 논리 볼륨(Logical Volume)으로 유연하게 분할하는 추상화 계층으로, 디스크 파티셔닝의 한계를 극복한다"
 tags: ['Lvm', 'Lvm2', 'Volume Group', 'Logical Volume', 'Physical Volume', 'Storage']
 created: 2026-02-12
@@ -60,9 +60,9 @@ sudo xfs_growfs /mnt/web1
 
 ## 관련 개념
 
-- [RAID](/knowledge/linux/raid/)
-- [Disk Partitioning](/knowledge/linux/disk-partitioning/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [ZFS](/knowledge/linux/zfs/)
-- [Btrfs](/knowledge/linux/btrfs/)
-- [Device File](/knowledge/linux/device-file/)
+- [RAID (독립 디스크의 중복 배열)](/knowledge/linux/raid/)
+- [디스크 파티셔닝 (Disk Partitioning)](/knowledge/linux/disk-partitioning/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [ZFS (Z 파일 시스템)](/knowledge/linux/zfs/)
+- [Btrfs (B-트리 파일 시스템)](/knowledge/linux/btrfs/)
+- [디바이스 파일 (Device File)](/knowledge/linux/device-file/)

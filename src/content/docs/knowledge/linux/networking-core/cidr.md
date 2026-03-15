@@ -1,5 +1,5 @@
 ---
-title: "CIDR (Classless Inter-Domain Routing)"
+title: "CIDR (클래스리스 라우팅)"
 description: "CIDR(Classless Inter-Domain Routing)는 IP 주소의 암묵적 클래스 경계를 무시하고 명시적 넷마스크로 네트워크/호스트 경계를 자유롭게 정의하는 주소 체계로, 서브네팅의 직접적인 확장이자 라우팅 테이블 축소를 가능하게 하는 슈퍼네팅(sup..."
 tags: ['Cidr', 'Networking', 'Routing', 'Subnetting', 'IP Address']
 created: 2026-02-12
@@ -51,7 +51,7 @@ ipcalc 192.144.0.0/21
 
 ## 관련 개념
 
-- [subnet-mask](/knowledge/linux/subnet-mask/) - CIDR의 기반이 되는 넷마스크 개념
-- [ipv4](/knowledge/linux/ipv4/) - CIDR가 적용되는 주소 체계
-- [routing-table](/knowledge/linux/routing-table/) - CIDR로 축소되는 라우팅 항목
-- [nat](/knowledge/linux/nat/) - CIDR와 함께 IPv4 주소 고갈 대응 기술
+- [서브넷 마스크 (Subnet Mask)](/knowledge/linux/subnet-mask/) - CIDR의 기반이 되는 넷마스크 개념
+- [IPv4 (인터넷 프로토콜 버전 4)](/knowledge/linux/ipv4/) - CIDR가 적용되는 주소 체계
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - CIDR로 축소되는 라우팅 항목
+- [NAT (네트워크 주소 변환)](/knowledge/linux/nat/) - CIDR와 함께 IPv4 주소 고갈 대응 기술

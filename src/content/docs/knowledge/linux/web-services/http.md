@@ -1,5 +1,5 @@
 ---
-title: "HTTP"
+title: "HTTP (하이퍼텍스트 전송 프로토콜)"
 description: "HTTP(Hypertext Transfer Protocol)는 웹에서 클라이언트와 서버 간 통신을 위한 핵심 네트워크 프로토콜로, 상태 비저장(stateless) 요청-응답 모델을 기반으로 한다"
 tags: ['HTTP', 'Protocol', 'Web', 'HTTPS', 'Http2', 'Stateless']
 created: 2026-02-12
@@ -48,9 +48,9 @@ Host: www.example.com
 
 ## 관련 개념
 
-- [TLS](/knowledge/linux/tls/)
-- [Virtual Host](/knowledge/linux/virtual-host/)
-- [Web Server](/knowledge/linux/web-server/)
-- [Load Balancer](/knowledge/linux/load-balancer/)
-- [REST API](/knowledge/linux/rest-api/)
-- [Web Cache](/knowledge/linux/web-cache/)
+- [TLS (전송 계층 보안)](/knowledge/linux/tls/)
+- [가상 호스트 (Virtual Host)](/knowledge/linux/virtual-host/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [로드 밸런서 (Load Balancer)](/knowledge/linux/load-balancer/)
+- [REST API (레스트 API)](/knowledge/linux/rest-api/)
+- [웹 캐시 (Web Cache)](/knowledge/linux/web-cache/)

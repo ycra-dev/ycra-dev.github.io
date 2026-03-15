@@ -1,5 +1,5 @@
 ---
-title: "Kerberos"
+title: "Kerberos (커버로스)"
 description: "Kerberos는 MIT에서 개발된 티켓 기반 인증 시스템으로, 대칭 키 암호화를 사용하여 네트워크 환경에서 사용자와 서비스 간의 상호 인증을 제공한다"
 tags: ['Kerberos', 'Authentication', 'Ticket', 'Symmetric Key', 'Active Directory', 'Sso', 'Security']
 created: 2026-02-12
@@ -59,10 +59,10 @@ net ads join -U trent
 
 ## 관련 개념
 
-- [Single Sign-On](/knowledge/linux/single-sign-on/)
-- [LDAP](/knowledge/linux/ldap/)
-- [Active Directory](/knowledge/linux/active-directory/)
-- [SSSD](/knowledge/linux/sssd/)
-- [PAM](/knowledge/linux/pam/)
-- [SSH](/knowledge/linux/ssh/) - Kerberos GSSAPI 인증 지원
-- [Multifactor Authentication](/knowledge/linux/multifactor-authentication/) - 인증 강화 방법
+- [싱글 사인온 (Single Sign-On)](/knowledge/linux/single-sign-on/)
+- [LDAP (경량 디렉토리 접근 프로토콜)](/knowledge/linux/ldap/)
+- [Active Directory (액티브 디렉토리)](/knowledge/linux/active-directory/)
+- [SSSD (시스템 보안 서비스 데몬)](/knowledge/linux/sssd/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)
+- [SSH (보안 셸)](/knowledge/linux/ssh/) - Kerberos GSSAPI 인증 지원
+- [다중 인증 (Multifactor Authentication)](/knowledge/linux/multifactor-authentication/) - 인증 강화 방법

@@ -1,5 +1,5 @@
 ---
-title: "Process"
+title: "프로세스 (Process)"
 description: "프로세스는 실행 중인 프로그램의 추상화로, 메모리, 프로세서 시간, I/O 리소스를 관리하고 모니터링하는 단위이다"
 tags: ['Process', 'Pid', 'Fork', 'Exec', 'Unix', 'Kernel']
 created: 2026-02-12
@@ -51,6 +51,6 @@ renice +5 -p 12345
 
 ## 관련 개념
 
-- [Signal](/knowledge/linux/signal/)
-- [Cron](/knowledge/linux/cron/)
-- [Proc Filesystem](/knowledge/linux/proc-filesystem/)
+- [시그널 (Signal)](/knowledge/linux/signal/)
+- [크론 (Cron)](/knowledge/linux/cron/)
+- [Proc 파일 시스템 (Proc Filesystem)](/knowledge/linux/proc-filesystem/)

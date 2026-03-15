@@ -1,5 +1,5 @@
 ---
-title: "TLS/SSL"
+title: "TLS/SSL (전송 계층 보안)"
 description: "TLS(Transport Layer Security)는 공개 키 암호화와 PKI를 사용하여 네트워크 노드 간 통신을 보호하는 프로토콜로, SSL(Secure Sockets Layer)의 후속 버전이다"
 tags: ['Security', 'Cryptography', 'HTTPS', 'Transport Layer', 'Encryption', 'Certificate']
 created: 2026-02-12
@@ -54,7 +54,7 @@ sudo certbot --nginx -d www.example.com
 
 ## 관련 개념
 
-- [pki-certificate-authority](/knowledge/linux/pki-certificate-authority/) - TLS 인증서의 신뢰 체계
-- [public-key-cryptography](/knowledge/linux/public-key-cryptography/) - TLS의 기반 암호화 기술
-- [symmetric-key-cryptography](/knowledge/linux/symmetric-key-cryptography/) - TLS 세션에서의 데이터 암호화
-- [ssh](/knowledge/linux/ssh/) - TLS와 유사한 보안 원칙을 사용하는 프로토콜
+- [PKI와 인증 기관 (PKI and Certificate Authority)](/knowledge/linux/pki-certificate-authority/) - TLS 인증서의 신뢰 체계
+- [공개 키 암호화 (Public Key Cryptography)](/knowledge/linux/public-key-cryptography/) - TLS의 기반 암호화 기술
+- [대칭 키 암호화 (Symmetric Key Cryptography)](/knowledge/linux/symmetric-key-cryptography/) - TLS 세션에서의 데이터 암호화
+- [SSH (보안 셸)](/knowledge/linux/ssh/) - TLS와 유사한 보안 원칙을 사용하는 프로토콜

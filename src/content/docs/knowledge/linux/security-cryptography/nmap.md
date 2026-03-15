@@ -1,5 +1,5 @@
 ---
-title: "Nmap"
+title: "Nmap (네트워크 스캐너)"
 description: "Nmap(Network Mapper)은 대상 호스트의 TCP/UDP 포트에서 리스닝 중인 서비스를 탐지하고, 운영체제 및 소프트웨어를 식별하는 네트워크 포트 스캐너이다"
 tags: ['Security', 'Port Scanner', 'Network Reconnaissance', 'Vulnerability Assessment']
 created: 2026-02-12
@@ -53,7 +53,7 @@ sudo nmap -sS target.example.com
 
 ## 관련 개념
 
-- [firewall](/knowledge/linux/firewall/) - nmap으로 방화벽 규칙의 효과를 검증
-- [vulnerability-scanner](/knowledge/linux/vulnerability-scanner/) - 더 심층적인 취약점 스캐닝 도구
-- [penetration-testing](/knowledge/linux/penetration-testing/) - 보안 테스트 워크플로우의 일부
-- [iptables](/knowledge/linux/iptables/) - nmap 결과를 기반으로 방화벽 규칙 설정
+- [방화벽 (Firewall)](/knowledge/linux/firewall/) - nmap으로 방화벽 규칙의 효과를 검증
+- [취약점 스캐너 (Vulnerability Scanner)](/knowledge/linux/vulnerability-scanner/) - 더 심층적인 취약점 스캐닝 도구
+- [침투 테스트 (Penetration Testing)](/knowledge/linux/penetration-testing/) - 보안 테스트 워크플로우의 일부
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - nmap 결과를 기반으로 방화벽 규칙 설정

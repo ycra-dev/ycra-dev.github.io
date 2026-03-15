@@ -1,5 +1,5 @@
 ---
-title: "QEMU"
+title: "QEMU (큐이뮤)"
 description: "QEMU(Quick Emulator)는 오픈소스 하드웨어 에뮬레이션 패키지로, 하이퍼바이저가 가상 머신에 가상화된 하드웨어(디스크, 네트워크, 인터럽트 컨트롤러, BIOS 등)를 제공하기 위해 사용하는 가장 일반적인 에뮬레이터이다"
 tags: ['Qemu', 'Emulation', 'Virtualization', 'Hardware Emulation', 'Kvm']
 created: 2026-02-12
@@ -34,7 +34,7 @@ virt-install --connect qemu:///system \
 
 ## 관련 개념
 
-- [KVM](/knowledge/linux/kvm/)
-- [Hypervisor](/knowledge/linux/hypervisor/)
-- [Virtual Machine](/knowledge/linux/virtual-machine/)
-- [Device Driver](/knowledge/linux/device-driver/)
+- [KVM (커널 기반 가상 머신)](/knowledge/linux/kvm/)
+- [하이퍼바이저 (Hypervisor)](/knowledge/linux/hypervisor/)
+- [가상 머신 (Virtual Machine)](/knowledge/linux/virtual-machine/)
+- [디바이스 드라이버 (Device Driver)](/knowledge/linux/device-driver/)

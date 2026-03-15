@@ -1,5 +1,5 @@
 ---
-title: "Network Monitoring"
+title: "네트워크 모니터링 (Network Monitoring)"
 description: "네트워크 모니터링은 ICMP 핑, SNMP, 대역폭 측정 등을 통해 네트워크 장치와 경로의 가용성, 성능, 오류율을 지속적으로 감시하는 활동이다"
 tags: ['Monitoring', 'Network', 'Ping', 'Icmp', 'Throughput', 'Availability']
 created: 2026-02-12
@@ -61,7 +61,7 @@ ip -s link      # 인터페이스 통계
 
 ## 관련 개념
 
-- [snmp](/knowledge/linux/snmp/) - 네트워크 장치 모니터링 프로토콜
-- [nagios](/knowledge/linux/nagios/) - 네트워크 상태 모니터링 플랫폼
-- [grafana](/knowledge/linux/grafana/) - 네트워크 메트릭 시각화
-- [ddos-attack](/knowledge/linux/ddos-attack/) - 네트워크 모니터링으로 탐지하는 공격
+- [SNMP (네트워크 관리 프로토콜)](/knowledge/linux/snmp/) - 네트워크 장치 모니터링 프로토콜
+- [Nagios (나기오스)](/knowledge/linux/nagios/) - 네트워크 상태 모니터링 플랫폼
+- [Grafana (그라파나)](/knowledge/linux/grafana/) - 네트워크 메트릭 시각화
+- [DDoS 공격 (DDoS Attack)](/knowledge/linux/ddos-attack/) - 네트워크 모니터링으로 탐지하는 공격

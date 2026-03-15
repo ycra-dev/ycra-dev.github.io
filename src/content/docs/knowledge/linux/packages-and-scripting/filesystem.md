@@ -1,5 +1,5 @@
 ---
-title: "Filesystem"
+title: "파일 시스템 (Filesystem)"
 description: "UNIX/Linux 파일시스템은 `/`(루트)에서 시작하는 단일 통합 계층 구조로, 파일, 프로세스, 디바이스, 커널 데이터 구조까지 다양한 객체를 표현하고 조직하는 시스템이다"
 tags: ['Filesystem', 'Mount', 'Fstab', 'Vfs', 'Unix', 'Linux', 'Hierarchy']
 created: 2026-02-12
@@ -59,12 +59,12 @@ sudo tune2fs -c 50 /dev/sdb1
 
 ## 관련 개념
 
-- [File Permissions](/knowledge/linux/file-permissions/)
-- [Access Control List](/knowledge/linux/access-control-list/)
-- [Proc Filesystem](/knowledge/linux/proc-filesystem/)
-- [Disk Partitioning](/knowledge/linux/disk-partitioning/)
-- [RAID](/knowledge/linux/raid/)
-- [Logical Volume Manager](/knowledge/linux/logical-volume-manager/)
-- [ZFS](/knowledge/linux/zfs/)
-- [Btrfs](/knowledge/linux/btrfs/)
-- [Inode](/knowledge/linux/inode/)
+- [파일 권한 (File Permissions)](/knowledge/linux/file-permissions/)
+- [접근 제어 목록 (Access Control List)](/knowledge/linux/access-control-list/)
+- [Proc 파일 시스템 (Proc Filesystem)](/knowledge/linux/proc-filesystem/)
+- [디스크 파티셔닝 (Disk Partitioning)](/knowledge/linux/disk-partitioning/)
+- [RAID (독립 디스크의 중복 배열)](/knowledge/linux/raid/)
+- [논리 볼륨 관리자 (Logical Volume Manager)](/knowledge/linux/logical-volume-manager/)
+- [ZFS (Z 파일 시스템)](/knowledge/linux/zfs/)
+- [Btrfs (B-트리 파일 시스템)](/knowledge/linux/btrfs/)
+- [아이노드 (Inode)](/knowledge/linux/inode/)

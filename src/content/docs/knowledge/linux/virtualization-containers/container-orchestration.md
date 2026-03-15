@@ -1,5 +1,5 @@
 ---
-title: "Container Orchestration"
+title: "컨테이너 오케스트레이션 (Container Orchestration)"
 description: "컨테이너 오케스트레이션(Container Orchestration)은 분산 호스트 네트워크에서 대량의 컨테이너를 배포, 스케줄링, 관리하는 소프트웨어로, 서버 팜을 컴퓨트 용량의 풀로 추상화하여 컨테이너를 최적 노드에 배치한다"
 tags: ['Container Orchestration', 'Scheduling', 'Cluster Management', 'Kubernetes', 'Swarm', 'Mesos']
 created: 2026-02-12
@@ -46,7 +46,7 @@ kubectl get services
 
 ## 관련 개념
 
-- [Kubernetes](/knowledge/linux/kubernetes/)
-- [Docker](/knowledge/linux/docker/)
-- [Container](/knowledge/linux/container/)
-- [Service Discovery](/knowledge/linux/service-discovery/)
+- [Kubernetes (쿠버네티스)](/knowledge/linux/kubernetes/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [컨테이너 (Container)](/knowledge/linux/container/)
+- [서비스 디스커버리 (Service Discovery)](/knowledge/linux/service-discovery/)

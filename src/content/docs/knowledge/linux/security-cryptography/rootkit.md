@@ -1,5 +1,5 @@
 ---
-title: "Rootkit"
+title: "루트킷 (Rootkit)"
 description: "루트킷은 프로세스, 디스크, 네트워크 활동 등 중요한 시스템 정보를 숨기는 프로그램과 패치의 모음으로, 공격자가 침해된 시스템에서 탐지를 회피하기 위해 사용한다"
 tags: ['Security', 'Malware', 'Stealth', 'Intrusion', 'Detection Evasion']
 created: 2026-02-12
@@ -50,7 +50,7 @@ mtree -p /sbin < /root/sbin_baseline.mtree
 
 ## 관련 개념
 
-- [intrusion-detection-system](/knowledge/linux/intrusion-detection-system/) - 루트킷 탐지에 사용되는 IDS 시스템
-- [cryptographic-hash](/knowledge/linux/cryptographic-hash/) - 파일 무결성 검증 기술
-- [kernel-module](/knowledge/linux/kernel-module/) - 커널 수준 루트킷의 작동 메커니즘
-- [file-permissions](/knowledge/linux/file-permissions/) - 시스템 실행 파일 보호
+- [침입 탐지 시스템 (Intrusion Detection System)](/knowledge/linux/intrusion-detection-system/) - 루트킷 탐지에 사용되는 IDS 시스템
+- [암호화 해시 함수 (Cryptographic Hash Function)](/knowledge/linux/cryptographic-hash/) - 파일 무결성 검증 기술
+- [커널 모듈 (Kernel Module)](/knowledge/linux/kernel-module/) - 커널 수준 루트킷의 작동 메커니즘
+- [파일 권한 (File Permissions)](/knowledge/linux/file-permissions/) - 시스템 실행 파일 보호

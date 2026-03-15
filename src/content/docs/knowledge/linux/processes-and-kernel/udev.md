@@ -1,5 +1,5 @@
 ---
-title: "udev"
+title: "udev (장치 관리자)"
 description: "udev는 Linux에서 디바이스 파일을 동적으로 관리하는 사용자 공간 데몬으로, 커널의 장치 이벤트를 수신하여 /dev에 디바이스 파일을 자동 생성/제거하며, 규칙(rules) 기반으로 영구적 이름 지정, 자동 마운트, 권한 설정을 지원한다"
 tags: ['Udev', 'Linux', 'Device Management', 'Sysfs', 'Hotplug', 'Rules']
 created: 2026-02-12
@@ -42,7 +42,7 @@ ls -l /dev/disk/by-id/
 
 ## 관련 개념
 
-- [Device Driver](/knowledge/linux/device-driver/)
-- [Device File](/knowledge/linux/device-file/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Systemd](/knowledge/linux/systemd/)
+- [디바이스 드라이버 (Device Driver)](/knowledge/linux/device-driver/)
+- [디바이스 파일 (Device File)](/knowledge/linux/device-file/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [Systemd (시스템 관리 데몬)](/knowledge/linux/systemd/)

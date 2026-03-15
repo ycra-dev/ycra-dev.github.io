@@ -1,5 +1,5 @@
 ---
-title: "Object Storage"
+title: "오브젝트 스토리지 (Object Storage)"
 description: "객체 스토리지는 평면 네임스페이스에서 개별 객체(파일)를 저장하는 클라우드 스토리지 시스템으로, 사실상 무제한의 데이터를 매우 높은 신뢰성(99"
 tags: ['Cloud Storage', 'S3', 'Blob Storage', 'Distributed Storage', 'Backup']
 created: 2026-02-12
@@ -43,6 +43,6 @@ aws s3api put-bucket-lifecycle-configuration \
 
 ## 관련 개념
 
-- [Infrastructure as a Service](/knowledge/linux/infrastructure-as-a-service/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [DevOps](/knowledge/linux/devops/)
+- [서비스형 인프라 (Infrastructure as a Service)](/knowledge/linux/infrastructure-as-a-service/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)

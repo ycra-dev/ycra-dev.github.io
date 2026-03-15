@@ -1,5 +1,5 @@
 ---
-title: "Passwd and Shadow Files"
+title: "Passwd와 Shadow 파일 (Passwd and Shadow Files)"
 description: "/etc/passwd와 /etc/shadow는 UNIX/Linux에서 사용자 계정 정보를 저장하는 핵심 파일로, passwd는 기본 사용자 정보(world-readable)를, shadow는 암호화된 비밀번호와 보안 정보(superuser만 읽기 가능)를 포함한다"
 tags: ['Authentication', 'Security', 'User Management', 'Password', 'Shadow']
 created: 2026-02-12
@@ -45,6 +45,6 @@ sudo usermod -U username
 
 ## 관련 개념
 
-- [PAM](/knowledge/linux/pam/)
-- [Sudo](/knowledge/linux/sudo/)
-- [File Permissions](/knowledge/linux/file-permissions/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)
+- [Sudo (관리자 권한 실행)](/knowledge/linux/sudo/)
+- [파일 권한 (File Permissions)](/knowledge/linux/file-permissions/)

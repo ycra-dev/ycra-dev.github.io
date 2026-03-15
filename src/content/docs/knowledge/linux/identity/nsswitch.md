@@ -1,5 +1,5 @@
 ---
-title: "NSSwitch"
+title: "NSSwitch (네임 서비스 스위치)"
 description: "NSSwitch(Name Service Switch)는 /etc/nsswitch"
 tags: ['Nsswitch', 'Name Service', 'Configuration', 'Login', 'Identity Resolution']
 created: 2026-02-12
@@ -41,7 +41,7 @@ hosts    dns files
 
 ## 관련 개념
 
-- [Single Sign-On](/knowledge/linux/single-sign-on/)
-- [SSSD](/knowledge/linux/sssd/)
-- [LDAP](/knowledge/linux/ldap/)
-- [PAM](/knowledge/linux/pam/)
+- [싱글 사인온 (Single Sign-On)](/knowledge/linux/single-sign-on/)
+- [SSSD (시스템 보안 서비스 데몬)](/knowledge/linux/sssd/)
+- [LDAP (경량 디렉토리 접근 프로토콜)](/knowledge/linux/ldap/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)

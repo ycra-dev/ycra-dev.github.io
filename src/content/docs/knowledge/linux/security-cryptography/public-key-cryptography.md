@@ -1,5 +1,5 @@
 ---
-title: "Public Key Cryptography"
+title: "공개 키 암호화 (Public Key Cryptography)"
 description: "공개 키 암호화(비대칭 암호화)는 수학적으로 연결된 공개 키와 개인 키 쌍을 사용하여, 사전 키 교환 없이 안전한 통신과 디지털 서명을 가능하게 하는 암호화 방식이다"
 tags: ['Security', 'Cryptography', 'Rsa', 'Asymmetric', 'Digital Signature', 'Diffie Hellman']
 created: 2026-02-12
@@ -57,7 +57,7 @@ openssl dgst -sha256 -verify public.pem \
 
 ## 관련 개념
 
-- [symmetric-key-cryptography](/knowledge/linux/symmetric-key-cryptography/) - 하이브리드 암호화에서 함께 사용
-- [pki-certificate-authority](/knowledge/linux/pki-certificate-authority/) - 공개 키의 신뢰성 보장 인프라
-- [tls-ssl](/knowledge/linux/tls-ssl/) - 공개 키 암호화를 활용하는 프로토콜
-- [ssh](/knowledge/linux/ssh/) - SSH 공개 키 인증
+- [대칭 키 암호화 (Symmetric Key Cryptography)](/knowledge/linux/symmetric-key-cryptography/) - 하이브리드 암호화에서 함께 사용
+- [PKI와 인증 기관 (PKI and Certificate Authority)](/knowledge/linux/pki-certificate-authority/) - 공개 키의 신뢰성 보장 인프라
+- [TLS/SSL (전송 계층 보안)](/knowledge/linux/tls-ssl/) - 공개 키 암호화를 활용하는 프로토콜
+- [SSH (보안 셸)](/knowledge/linux/ssh/) - SSH 공개 키 인증

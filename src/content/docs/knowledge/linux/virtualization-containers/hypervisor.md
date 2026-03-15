@@ -1,5 +1,5 @@
 ---
-title: "Hypervisor"
+title: "하이퍼바이저 (Hypervisor)"
 description: "하이퍼바이저(Hypervisor, 가상 머신 모니터)는 가상 머신(VM)과 물리 하드웨어 사이에서 중재하는 소프트웨어 계층으로, 게스트 운영체제 간에 시스템 자원을 공유하고 격리를 보장하는 역할을 한다"
 tags: ['Hypervisor', 'Virtualization', 'Vmm', 'Type1', 'Type2', 'Kvm', 'Xen']
 created: 2026-02-12
@@ -52,8 +52,8 @@ xl shutdown chef              # 도메인 종료
 
 ## 관련 개념
 
-- [Virtual Machine](/knowledge/linux/virtual-machine/)
-- [KVM](/knowledge/linux/kvm/)
-- [Live Migration](/knowledge/linux/live-migration/)
-- [Container](/knowledge/linux/container/)
-- [QEMU](/knowledge/linux/qemu/)
+- [가상 머신 (Virtual Machine)](/knowledge/linux/virtual-machine/)
+- [KVM (커널 기반 가상 머신)](/knowledge/linux/kvm/)
+- [라이브 마이그레이션 (Live Migration)](/knowledge/linux/live-migration/)
+- [컨테이너 (Container)](/knowledge/linux/container/)
+- [QEMU (큐이뮤)](/knowledge/linux/qemu/)

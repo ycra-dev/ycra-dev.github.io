@@ -1,5 +1,5 @@
 ---
-title: "ping"
+title: "ping (핑)"
 description: "ping은 ICMP ECHO_REQUEST 패킷을 대상 호스트에 전송하고 ECHO_REPLY 응답을 기다려 네트워크 연결성, 패킷 손실률, 왕복 시간(RTT)을 측정하는 가장 기본적인 네트워크 진단 도구이다"
 tags: ['Ping', 'Networking', 'Icmp', 'Diagnostics', 'Troubleshooting']
 created: 2026-02-12
@@ -59,8 +59,8 @@ ping6 ::1
 
 ## 관련 개념
 
-- [icmp](/knowledge/linux/icmp/) - ping의 기반 프로토콜
-- [traceroute](/knowledge/linux/traceroute/) - ping 다음 단계의 진단 도구
-- [mtu](/knowledge/linux/mtu/) - ping으로 MTU 문제 진단
-- [dns-resolution](/knowledge/linux/dns-resolution/) - DNS 문제 시 ping 동작에 영향
-- [iptables](/knowledge/linux/iptables/) - ICMP 차단이 ping에 미치는 영향
+- [ICMP (인터넷 제어 메시지 프로토콜)](/knowledge/linux/icmp/) - ping의 기반 프로토콜
+- [traceroute (경로 추적 도구)](/knowledge/linux/traceroute/) - ping 다음 단계의 진단 도구
+- [MTU (최대 전송 단위)](/knowledge/linux/mtu/) - ping으로 MTU 문제 진단
+- [DNS 이름 해석 (DNS Resolution)](/knowledge/linux/dns-resolution/) - DNS 문제 시 ping 동작에 영향
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - ICMP 차단이 ping에 미치는 영향

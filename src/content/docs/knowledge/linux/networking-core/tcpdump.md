@@ -1,5 +1,5 @@
 ---
-title: "tcpdump"
+title: "tcpdump (패킷 캡처 도구)"
 description: "tcpdump는 Van Jacobson이 개발한 업계 표준 명령줄 패킷 스니퍼로, libpcap 라이브러리를 기반으로 네트워크 인터페이스의 트래픽을 캡처하고 사용자가 지정한 필터 기준에 맞는 패킷을 분석하여 표시한다"
 tags: ['Tcpdump', 'Packet Sniffing', 'Networking', 'Diagnostics', 'Libpcap']
 created: 2026-02-12
@@ -57,8 +57,8 @@ sudo tcpdump 'tcp[tcpflags] & (tcp-syn) != 0'
 
 ## 관련 개념
 
-- [packet-sniffing](/knowledge/linux/packet-sniffing/) - tcpdump가 속하는 도구 분류
-- [network-interface](/knowledge/linux/network-interface/) - tcpdump가 캡처하는 인터페이스
-- [dns-resolution](/knowledge/linux/dns-resolution/) - tcpdump 출력에서 보이는 DNS 조회
-- [tcp-port](/knowledge/linux/tcp-port/) - tcpdump 필터에 사용되는 포트 번호
-- [iptables](/knowledge/linux/iptables/) - tcpdump로 방화벽 규칙 디버깅
+- [패킷 스니핑 (Packet Sniffing)](/knowledge/linux/packet-sniffing/) - tcpdump가 속하는 도구 분류
+- [네트워크 인터페이스 (Network Interface)](/knowledge/linux/network-interface/) - tcpdump가 캡처하는 인터페이스
+- [DNS 이름 해석 (DNS Resolution)](/knowledge/linux/dns-resolution/) - tcpdump 출력에서 보이는 DNS 조회
+- [TCP/UDP 포트 (TCP/UDP Port)](/knowledge/linux/tcp-port/) - tcpdump 필터에 사용되는 포트 번호
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - tcpdump로 방화벽 규칙 디버깅

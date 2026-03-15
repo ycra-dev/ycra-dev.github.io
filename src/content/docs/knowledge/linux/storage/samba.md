@@ -1,5 +1,5 @@
 ---
-title: "Samba"
+title: "Samba (삼바)"
 description: "Samba는 UNIX/Linux 호스트에서 SMB 프로토콜의 서버 측을 구현하는 GNU GPL 소프트웨어 패키지로, Windows 클라이언트에 추가 소프트웨어 없이 파일 및 프린터 공유를 제공한다"
 tags: ['Samba', 'Smbd', 'Nmbd', 'Smb Conf', 'File Sharing', 'Cross Platform']
 created: 2026-02-12
@@ -70,8 +70,8 @@ smbstatus
 
 ## 관련 개념
 
-- [SMB Protocol](/knowledge/linux/smb-protocol/)
-- [NFS](/knowledge/linux/nfs/)
-- [Active Directory](/knowledge/linux/active-directory/)
-- [File Permissions](/knowledge/linux/file-permissions/)
-- [PAM](/knowledge/linux/pam/)
+- [SMB 프로토콜 (SMB Protocol)](/knowledge/linux/smb-protocol/)
+- [NFS (네트워크 파일 시스템)](/knowledge/linux/nfs/)
+- [Active Directory (액티브 디렉토리)](/knowledge/linux/active-directory/)
+- [파일 권한 (File Permissions)](/knowledge/linux/file-permissions/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)

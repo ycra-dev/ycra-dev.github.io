@@ -1,5 +1,5 @@
 ---
-title: "StatsD"
+title: "StatsD (통계 수집 데몬)"
 description: "StatsD는 Etsy에서 개발한 UDP 기반 데이터 수집 프론트엔드 프로토콜로, 임의의 통계 데이터를 모니터링 플랫폼에 전달하여 소비, 계산, 표시할 수 있게 한다"
 tags: ['Monitoring', 'Metrics', 'UDP', 'Data Collection', 'Etsy', 'Protocol']
 created: 2026-02-12
@@ -56,7 +56,7 @@ $statsd->gauge('system.load.1min', $1);
 
 ## 관련 개념
 
-- [time-series-database](/knowledge/linux/time-series-database/) - StatsD가 데이터를 전달하는 시계열 저장소
-- [grafana](/knowledge/linux/grafana/) - StatsD 데이터를 시각화하는 도구
-- [collectd](/knowledge/linux/collectd/) - 시스템 수준 데이터 수집 대안
-- [application-monitoring](/knowledge/linux/application-monitoring/) - StatsD의 주요 활용 영역
+- [시계열 데이터베이스 (Time-Series Database)](/knowledge/linux/time-series-database/) - StatsD가 데이터를 전달하는 시계열 저장소
+- [Grafana (그라파나)](/knowledge/linux/grafana/) - StatsD 데이터를 시각화하는 도구
+- [collectd (시스템 통계 수집 데몬)](/knowledge/linux/collectd/) - 시스템 수준 데이터 수집 대안
+- [애플리케이션 모니터링 (Application Monitoring)](/knowledge/linux/application-monitoring/) - StatsD의 주요 활용 영역

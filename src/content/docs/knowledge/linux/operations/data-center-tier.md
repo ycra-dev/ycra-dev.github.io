@@ -1,5 +1,5 @@
 ---
-title: "Data Center Tier"
+title: "데이터 센터 티어 (Data Center Tier)"
 description: "데이터센터 티어는 Uptime Institute가 개발한 4단계 신뢰성 분류 체계로, 전력, 냉각, 네트워크의 이중화 수준에 따라 데이터센터의 가용성을 등급화한다"
 tags: ['Data Center', 'Reliability', 'Availability', 'Uptime Institute', 'Redundancy', 'Tier Classification']
 created: 2026-02-12
@@ -69,7 +69,7 @@ Tier IV:  99.995% →  0.4시간/년 다운타임 (26분)
 
 ## 관련 개념
 
-- [UPS Power](/knowledge/linux/ups-power/) - 전력 이중화와 백업 전원 전략
-- [Data Center Cooling](/knowledge/linux/data-center-cooling/) - 냉각 이중화와 환경 관리
-- [PUE Energy Efficiency](/knowledge/linux/pue-energy-efficiency/) - 이중화와 에너지 효율의 균형
-- [Disaster Recovery](/knowledge/linux/disaster-recovery/) - 데이터센터 장애 대비 복구 전략
+- [UPS 전원 (UPS Power)](/knowledge/linux/ups-power/) - 전력 이중화와 백업 전원 전략
+- [데이터 센터 냉각 (Data Center Cooling)](/knowledge/linux/data-center-cooling/) - 냉각 이중화와 환경 관리
+- [PUE 에너지 효율 (PUE Energy Efficiency)](/knowledge/linux/pue-energy-efficiency/) - 이중화와 에너지 효율의 균형
+- [재해 복구 (Disaster Recovery)](/knowledge/linux/disaster-recovery/) - 데이터센터 장애 대비 복구 전략

@@ -1,5 +1,5 @@
 ---
-title: "Blue-Green Deployment"
+title: "블루-그린 배포 (Blue-Green Deployment)"
 description: "블루-그린 배포(Blue-Green Deployment)는 서비스 중단 없이 소프트웨어를 업데이트하는 무중단 배포 기법으로, 대기 시스템(standby)에 새 소프트웨어를 준비한 후 트래픽을 전환하는 방식이다"
 tags: ['Blue Green', 'Deployment', 'Zero Downtime', 'Rolling', 'Canary', 'Release']
 created: 2026-02-12
@@ -59,7 +59,7 @@ spec:
 
 ## 관련 개념
 
-- [Continuous Delivery](/knowledge/linux/continuous-delivery/)
-- [CI/CD Pipeline](/knowledge/linux/cicd-pipeline/)
-- [Terraform](/knowledge/linux/terraform/)
-- [Container Orchestration](/knowledge/linux/container-orchestration/)
+- [지속적 전달 (Continuous Delivery)](/knowledge/linux/continuous-delivery/)
+- [CI/CD 파이프라인 (CI/CD Pipeline)](/knowledge/linux/cicd-pipeline/)
+- [Terraform (테라폼)](/knowledge/linux/terraform/)
+- [컨테이너 오케스트레이션 (Container Orchestration)](/knowledge/linux/container-orchestration/)

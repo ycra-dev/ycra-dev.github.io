@@ -1,5 +1,5 @@
 ---
-title: "Network Switch"
+title: "네트워크 스위치 (Network Switch)"
 description: "네트워크 스위치(Network Switch)는 링크 계층(Layer 2)에서 이더넷 세그먼트를 연결하여 하나의 논리적 네트워크로 통합하며, 동적 학습 알고리즘을 통해 패킷을 필요한 포트로만 선택적으로 전달하는 네트워크 장비이다"
 tags: ['Network Switch', 'Link Layer', 'Ethernet', 'Switching', 'Broadcast Domain']
 created: 2026-02-12
@@ -40,8 +40,8 @@ snmpwalk -v2c -c public switch_ip IF-MIB::ifInOctets
 
 ## 관련 개념
 
-- [ethernet](/knowledge/linux/ethernet/) - 스위치가 연결하는 네트워크 기술
-- [vlan](/knowledge/linux/vlan/) - 스위치 포트를 논리적으로 분할하는 기술
-- [network-router](/knowledge/linux/network-router/) - Layer 3에서 패킷을 전달하는 장비
-- [mac-address](/knowledge/linux/mac-address/) - 스위치가 학습하고 사용하는 주소 체계
-- [network-topology](/knowledge/linux/network-topology/) - 스위치 기반 네트워크 설계
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - 스위치가 연결하는 네트워크 기술
+- [VLAN (가상 랜)](/knowledge/linux/vlan/) - 스위치 포트를 논리적으로 분할하는 기술
+- [네트워크 라우터 (Network Router)](/knowledge/linux/network-router/) - Layer 3에서 패킷을 전달하는 장비
+- [MAC 주소 (MAC Address)](/knowledge/linux/mac-address/) - 스위치가 학습하고 사용하는 주소 체계
+- [네트워크 토폴로지 (Network Topology)](/knowledge/linux/network-topology/) - 스위치 기반 네트워크 설계

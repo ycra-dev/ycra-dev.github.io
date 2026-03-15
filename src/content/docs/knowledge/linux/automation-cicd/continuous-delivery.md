@@ -1,5 +1,5 @@
 ---
-title: "Continuous Delivery"
+title: "지속적 전달 (Continuous Delivery)"
 description: "지속적 배포(Continuous Delivery, CD)는 CI 프로세스 완료 후 빌드를 비프로덕션 환경에 자동 배포하는 프로세스이며, 지속적 배치(Continuous Deployment)는 이를 확장하여 실제 사용자에게 서비스하는 라이브 시스템에 운영자 개입 없..."
 tags: ['Continuous Delivery', 'Cd', 'Deployment', 'Automation', 'Release', 'Pipeline']
 created: 2026-02-12
@@ -61,9 +61,9 @@ terraform apply -auto-approve
 
 ## 관련 개념
 
-- [Continuous Integration](/knowledge/linux/continuous-integration/)
-- [CI/CD Pipeline](/knowledge/linux/cicd-pipeline/)
-- [Jenkins](/knowledge/linux/jenkins/)
-- [Blue-Green Deployment](/knowledge/linux/blue-green-deployment/)
-- [Terraform](/knowledge/linux/terraform/)
-- [DevOps](/knowledge/linux/devops/)
+- [지속적 통합 (Continuous Integration)](/knowledge/linux/continuous-integration/)
+- [CI/CD 파이프라인 (CI/CD Pipeline)](/knowledge/linux/cicd-pipeline/)
+- [Jenkins (젠킨스)](/knowledge/linux/jenkins/)
+- [블루-그린 배포 (Blue-Green Deployment)](/knowledge/linux/blue-green-deployment/)
+- [Terraform (테라폼)](/knowledge/linux/terraform/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)

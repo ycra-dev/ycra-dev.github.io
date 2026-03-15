@@ -1,5 +1,5 @@
 ---
-title: "Software-Defined Networking (SDN)"
+title: "소프트웨어 정의 네트워킹 (SDN)"
 description: "소프트웨어 정의 네트워킹(SDN)은 네트워크를 관리하는 제어 평면(control plane)을 패킷을 전달하는 데이터 평면(data plane)으로부터 물리적으로 분리하여, API를 통해 네트워크 구성을 프로그래밍 가능하게 만드는 네트워킹 패러다임이다"
 tags: ['Sdn', 'Networking', 'Control Plane', 'Data Plane', 'Virtualization', 'DevOps']
 created: 2026-02-12
@@ -54,8 +54,8 @@ aws ec2 create-subnet --vpc-id vpc-xxx --cidr-block 10.0.1.0/24
 
 ## 관련 개념
 
-- [network-switch](/knowledge/linux/network-switch/) - SDN이 프로그래밍하는 데이터 평면 장비
-- [network-router](/knowledge/linux/network-router/) - SDN으로 제어되는 라우팅 장비
-- [vlan](/knowledge/linux/vlan/) - SDN 이전의 네트워크 분할 방식
-- [devops](/knowledge/linux/devops/) - SDN과 통합 가능한 운영 방법론
-- [infrastructure-as-code](/knowledge/linux/infrastructure-as-code/) - SDN의 API 기반 구성과 유사한 접근
+- [네트워크 스위치 (Network Switch)](/knowledge/linux/network-switch/) - SDN이 프로그래밍하는 데이터 평면 장비
+- [네트워크 라우터 (Network Router)](/knowledge/linux/network-router/) - SDN으로 제어되는 라우팅 장비
+- [VLAN (가상 랜)](/knowledge/linux/vlan/) - SDN 이전의 네트워크 분할 방식
+- [DevOps (데브옵스)](/knowledge/linux/devops/) - SDN과 통합 가능한 운영 방법론
+- [코드형 인프라 (Infrastructure as Code)](/knowledge/linux/infrastructure-as-code/) - SDN의 API 기반 구성과 유사한 접근

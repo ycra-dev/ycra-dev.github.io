@@ -1,5 +1,5 @@
 ---
-title: "Setuid"
+title: "Setuid (사용자 ID 설정)"
 description: "Setuid(Set User ID)는 실행 파일에 설정되는 특수 권한 비트로, 실행 시 프로세스의 유효 UID를 실행자가 아닌 파일 소유자의 UID로 변경하여 권한을 상승시키는 메커니즘이다"
 tags: ['Setuid', 'Setgid', 'Permissions', 'Security', 'Unix', 'Access Control']
 created: 2026-02-12
@@ -43,6 +43,6 @@ mount -o nosuid /dev/sda2 /home
 
 ## 관련 개념
 
-- [Sudo](/knowledge/linux/sudo/)
-- [Linux Capabilities](/knowledge/linux/linux-capabilities/)
-- [PAM](/knowledge/linux/pam/)
+- [Sudo (관리자 권한 실행)](/knowledge/linux/sudo/)
+- [리눅스 캐퍼빌리티 (Linux Capabilities)](/knowledge/linux/linux-capabilities/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)

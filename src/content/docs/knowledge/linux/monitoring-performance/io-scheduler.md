@@ -1,5 +1,5 @@
 ---
-title: "I/O Scheduler"
+title: "I/O 스케줄러 (I/O Scheduler)"
 description: "I/O 스케줄러는 디스크 I/O를 위해 경쟁하는 프로세스들 사이를 중재하여, 디스크 요청의 순서와 타이밍을 최적화하는 Linux 커널의 알고리즘이다"
 tags: ['Performance', 'Linux', 'Disk', 'Storage', 'Scheduling', 'Kernel']
 created: 2026-02-12
@@ -53,7 +53,7 @@ fio --name=randread --ioengine=libaio --rw=randread \
 
 ## 관련 개념
 
-- [iostat](/knowledge/linux/iostat/) - 디스크 I/O 성능 모니터링
-- [vmstat](/knowledge/linux/vmstat/) - 시스템 전체 I/O 활동 확인
-- [filesystem](/knowledge/linux/filesystem/) - I/O 스케줄러가 동작하는 파일시스템 레이어
-- [grub](/knowledge/linux/grub/) - I/O 스케줄러 부팅 설정
+- [iostat (I/O 통계 도구)](/knowledge/linux/iostat/) - 디스크 I/O 성능 모니터링
+- [vmstat (가상 메모리 통계 도구)](/knowledge/linux/vmstat/) - 시스템 전체 I/O 활동 확인
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/) - I/O 스케줄러가 동작하는 파일시스템 레이어
+- [GRUB (부트로더)](/knowledge/linux/grub/) - I/O 스케줄러 부팅 설정

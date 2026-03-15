@@ -1,5 +1,5 @@
 ---
-title: "Container"
+title: "컨테이너 (Container)"
 description: "컨테이너(Container)는 Linux 커널의 네임스페이스, cgroups, capabilities 등을 활용하여 프로세스를 격리된 실행 환경에서 실행하는 OS 수준의 가상화 기술로, 호스트 커널을 공유하면서도 독립적인 파일시스템과 프로세스 네임스페이스를 제공한다"
 tags: ['Container', 'Docker', 'Containerization', 'Isolation', 'Linux', 'Cgroups', 'Namespaces']
 created: 2026-02-12
@@ -50,10 +50,10 @@ docker ps -a     # 전체 컨테이너 (중지된 것 포함)
 
 ## 관련 개념
 
-- [Docker](/knowledge/linux/docker/)
-- [Linux Namespaces](/knowledge/linux/linux-namespaces/)
-- [Cgroups](/knowledge/linux/cgroups/)
-- [Linux Capabilities](/knowledge/linux/linux-capabilities/)
-- [Virtual Machine](/knowledge/linux/virtual-machine/)
-- [Kubernetes](/knowledge/linux/kubernetes/)
-- [Container Orchestration](/knowledge/linux/container-orchestration/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/linux/linux-namespaces/)
+- [Cgroups (컨트롤 그룹)](/knowledge/linux/cgroups/)
+- [리눅스 캐퍼빌리티 (Linux Capabilities)](/knowledge/linux/linux-capabilities/)
+- [가상 머신 (Virtual Machine)](/knowledge/linux/virtual-machine/)
+- [Kubernetes (쿠버네티스)](/knowledge/linux/kubernetes/)
+- [컨테이너 오케스트레이션 (Container Orchestration)](/knowledge/linux/container-orchestration/)

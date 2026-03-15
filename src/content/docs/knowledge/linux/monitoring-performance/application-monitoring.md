@@ -1,5 +1,5 @@
 ---
-title: "Application Monitoring"
+title: "애플리케이션 모니터링 (Application Monitoring)"
 description: "애플리케이션 모니터링(APM)은 시스템이나 네트워크 전체가 아닌 특정 소프트웨어의 상태, 성능, 내부 동작을 검증하고 프로파일링하는 모니터링 영역이다"
 tags: ['Monitoring', 'Apm', 'DevOps', 'New Relic', 'Performance', 'Log Monitoring']
 created: 2026-02-12
@@ -55,7 +55,7 @@ awk '$NF > 5000000' /var/log/apache2/access.log
 
 ## 관련 개념
 
-- [grafana](/knowledge/linux/grafana/) - 애플리케이션 메트릭 시각화 대시보드
-- [prometheus](/knowledge/linux/prometheus/) - 애플리케이션 메트릭 수집 플랫폼
-- [statsd](/knowledge/linux/statsd/) - 애플리케이션에서 커스텀 메트릭 전송
-- [devops](/knowledge/linux/devops/) - APM이 핵심인 DevOps 문화
+- [Grafana (그라파나)](/knowledge/linux/grafana/) - 애플리케이션 메트릭 시각화 대시보드
+- [Prometheus (프로메테우스)](/knowledge/linux/prometheus/) - 애플리케이션 메트릭 수집 플랫폼
+- [StatsD (통계 수집 데몬)](/knowledge/linux/statsd/) - 애플리케이션에서 커스텀 메트릭 전송
+- [DevOps (데브옵스)](/knowledge/linux/devops/) - APM이 핵심인 DevOps 문화

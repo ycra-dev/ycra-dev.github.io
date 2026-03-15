@@ -1,5 +1,5 @@
 ---
-title: "Journald"
+title: "Journald (저널 데몬)"
 description: "journald는 systemd의 통합 로깅 프레임워크로, 초기 부팅부터 최종 종료까지 모든 커널 및 서비스 메시지를 캡처하고 관리하는 데몬이다"
 tags: ['Journald', 'Logging', 'Systemd', 'Journal', 'Journalctl']
 created: 2026-02-12
@@ -59,7 +59,7 @@ journalctl -f
 
 ## 관련 개념
 
-- [Systemd](/knowledge/linux/systemd/)
-- [Boot Process](/knowledge/linux/boot-process/)
-- [Syslog](/knowledge/linux/syslog/)
-- [Log Rotation](/knowledge/linux/log-rotation/)
+- [Systemd (시스템 관리 데몬)](/knowledge/linux/systemd/)
+- [부트 프로세스 (Boot Process)](/knowledge/linux/boot-process/)
+- [Syslog (시스템 로그)](/knowledge/linux/syslog/)
+- [로그 로테이션 (Log Rotation)](/knowledge/linux/log-rotation/)

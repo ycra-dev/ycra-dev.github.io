@@ -1,5 +1,5 @@
 ---
-title: "Routing Table"
+title: "라우팅 테이블 (Routing Table)"
 description: "라우팅 테이블(Routing Table)은 커널이 유지하는 네트워크 경로 정보의 집합으로, 패킷의 목적지 IP 주소를 마스크와 비교하여 가장 구체적인(가장 긴 마스크) 경로를 선택해 다음 홉(next-hop) 게이트웨이로 전달하는 규칙을 담고 있다"
 tags: ['Routing Table', 'Networking', 'IP Routing', 'Gateway', 'Kernel', 'Packet Forwarding', 'Next Hop']
 created: 2026-02-12
@@ -49,11 +49,11 @@ sudo sysctl -w net.ipv4.conf.all.accept_redirects=0
 
 ## 관련 개념
 
-- [routing-protocol](/knowledge/linux/routing-protocol/) - 라우팅 테이블을 자동으로 관리하는 프로토콜
-- [network-router](/knowledge/linux/network-router/) - 라우팅 테이블을 사용하여 패킷을 전달하는 장비
-- [subnet-mask](/knowledge/linux/subnet-mask/) - 라우팅 결정에 사용되는 마스크
-- [cidr](/knowledge/linux/cidr/) - 라우팅 테이블 축소를 가능하게 하는 표기법
-- [icmp](/knowledge/linux/icmp/) - 라우팅 리디렉트와 오류 메시지
-- [ip-forwarding](/knowledge/linux/ip-forwarding/) - 라우터로서 패킷을 전달하는 기능
-- [bgp](/knowledge/linux/bgp/) - 인터넷 백본 라우팅 프로토콜
-- [ospf](/knowledge/linux/ospf/) - 대규모 네트워크의 내부 라우팅 프로토콜
+- [라우팅 프로토콜 (Routing Protocol)](/knowledge/linux/routing-protocol/) - 라우팅 테이블을 자동으로 관리하는 프로토콜
+- [네트워크 라우터 (Network Router)](/knowledge/linux/network-router/) - 라우팅 테이블을 사용하여 패킷을 전달하는 장비
+- [서브넷 마스크 (Subnet Mask)](/knowledge/linux/subnet-mask/) - 라우팅 결정에 사용되는 마스크
+- [CIDR (클래스리스 라우팅)](/knowledge/linux/cidr/) - 라우팅 테이블 축소를 가능하게 하는 표기법
+- [ICMP (인터넷 제어 메시지 프로토콜)](/knowledge/linux/icmp/) - 라우팅 리디렉트와 오류 메시지
+- [IP 포워딩 (IP Forwarding)](/knowledge/linux/ip-forwarding/) - 라우터로서 패킷을 전달하는 기능
+- [BGP (경계 게이트웨이 프로토콜)](/knowledge/linux/bgp/) - 인터넷 백본 라우팅 프로토콜
+- [OSPF (최단 경로 우선 프로토콜)](/knowledge/linux/ospf/) - 대규모 네트워크의 내부 라우팅 프로토콜

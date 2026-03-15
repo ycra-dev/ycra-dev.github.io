@@ -1,5 +1,5 @@
 ---
-title: "CIA Triad"
+title: "CIA 삼원칙 (CIA Triad)"
 description: "CIA 트라이어드는 정보 보안의 세 가지 핵심 원칙인 기밀성(Confidentiality), 무결성(Integrity), 가용성(Availability)을 나타내는 보안 모델이다"
 tags: ['Security', 'Confidentiality', 'Integrity', 'Availability', 'Information Security']
 created: 2026-02-12
@@ -38,7 +38,7 @@ uptime
 
 ## 관련 개념
 
-- [file-permissions](/knowledge/linux/file-permissions/) - 기밀성을 위한 접근 제어 메커니즘
-- [access-control-list](/knowledge/linux/access-control-list/) - 세밀한 접근 권한 관리
-- [tls-ssl](/knowledge/linux/tls-ssl/) - 네트워크 통신에서의 기밀성과 무결성 보장
-- [cryptographic-hash](/knowledge/linux/cryptographic-hash/) - 데이터 무결성 검증 기술
+- [파일 권한 (File Permissions)](/knowledge/linux/file-permissions/) - 기밀성을 위한 접근 제어 메커니즘
+- [접근 제어 목록 (Access Control List)](/knowledge/linux/access-control-list/) - 세밀한 접근 권한 관리
+- [TLS/SSL (전송 계층 보안)](/knowledge/linux/tls-ssl/) - 네트워크 통신에서의 기밀성과 무결성 보장
+- [암호화 해시 함수 (Cryptographic Hash Function)](/knowledge/linux/cryptographic-hash/) - 데이터 무결성 검증 기술

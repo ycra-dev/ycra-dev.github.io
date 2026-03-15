@@ -1,5 +1,5 @@
 ---
-title: "Platform as a Service"
+title: "서비스형 플랫폼 (Platform as a Service)"
 description: "PaaS(Platform as a Service)는 인프라 관리를 제거하여 웹 호스팅을 단순화하는 클라우드 서비스 모델로, 개발자가 코드를 패키징하여 업로드하면 제공자가 자동으로 시스템을 프로비저닝하고 실행한다"
 tags: ['Paas', 'Cloud', 'Web Hosting', 'Heroku', 'App Engine', 'Elastic Beanstalk']
 created: 2026-02-12
@@ -49,8 +49,8 @@ heroku logs --tail
 
 ## 관련 개념
 
-- [Infrastructure as a Service](/knowledge/linux/infrastructure-as-a-service/)
-- [Serverless Computing](/knowledge/linux/serverless-computing/)
-- [Load Balancer](/knowledge/linux/load-balancer/)
-- [Web Server](/knowledge/linux/web-server/)
-- [HTTP](/knowledge/linux/http/)
+- [서비스형 인프라 (Infrastructure as a Service)](/knowledge/linux/infrastructure-as-a-service/)
+- [서버리스 컴퓨팅 (Serverless Computing)](/knowledge/linux/serverless-computing/)
+- [로드 밸런서 (Load Balancer)](/knowledge/linux/load-balancer/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)

@@ -1,5 +1,5 @@
 ---
-title: "Log Rotation"
+title: "로그 로테이션 (Log Rotation)"
 description: "로그 로테이션은 로그 파일의 무한 증가를 방지하기 위해 주기적으로 파일명을 변경하여 보관하고 새로운 빈 파일을 생성하는 프로세스로, Linux에서는 logrotate, FreeBSD에서는 newsyslog이 자동화한다"
 tags: ['Logrotate', 'Logging', 'Maintenance', 'Disk Management', 'Automation']
 created: 2026-02-12
@@ -45,8 +45,8 @@ logrotate -f /etc/logrotate.conf
 
 ## 관련 개념
 
-- [Syslog](/knowledge/linux/syslog/)
-- [Journald](/knowledge/linux/journald/)
-- [Cron](/knowledge/linux/cron/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Signal](/knowledge/linux/signal/)
+- [Syslog (시스템 로그)](/knowledge/linux/syslog/)
+- [Journald (저널 데몬)](/knowledge/linux/journald/)
+- [크론 (Cron)](/knowledge/linux/cron/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [시그널 (Signal)](/knowledge/linux/signal/)

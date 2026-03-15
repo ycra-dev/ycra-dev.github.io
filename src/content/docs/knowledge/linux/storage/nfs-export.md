@@ -1,5 +1,5 @@
 ---
-title: "NFS Export"
+title: "NFS 익스포트 (NFS Export)"
 description: "NFS 익스포트(export)는 NFS 서버가 네트워크를 통해 클라이언트에게 제공하는 디렉토리로, `/etc/exports` 파일에서 접근 권한과 옵션을 정의한다"
 tags: ['Nfs Export', 'Exports File', 'Exportfs', 'File Sharing', 'Server Config']
 created: 2026-02-12
@@ -50,7 +50,7 @@ sudo exportfs -v
 
 ## 관련 개념
 
-- [NFS](/knowledge/linux/nfs/)
-- [Kerberos Authentication](/knowledge/linux/kerberos-authentication/)
-- [File Permissions](/knowledge/linux/file-permissions/)
-- [fstab](/knowledge/linux/fstab/)
+- [NFS (네트워크 파일 시스템)](/knowledge/linux/nfs/)
+- [Kerberos 인증 (Kerberos Authentication)](/knowledge/linux/kerberos-authentication/)
+- [파일 권한 (File Permissions)](/knowledge/linux/file-permissions/)
+- [fstab (파일 시스템 테이블)](/knowledge/linux/fstab/)

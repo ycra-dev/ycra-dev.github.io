@@ -1,5 +1,5 @@
 ---
-title: "Disk Partitioning"
+title: "디스크 파티셔닝 (Disk Partitioning)"
 description: "디스크 파티셔닝은 물리적 저장 장치를 고정 크기의 독립적인 하위 섹션(파티션)으로 분할하는 것으로, 각 파티션은 자체 디바이스 파일을 가지며 독립적인 저장 장치처럼 동작한다"
 tags: ['Partition', 'Gpt', 'Mbr', 'Fdisk', 'Parted', 'Storage']
 created: 2026-02-12
@@ -42,8 +42,8 @@ sudo gpart add -t freebsd-ufs -l spare ada1
 
 ## 관련 개념
 
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Logical Volume Manager](/knowledge/linux/logical-volume-manager/)
-- [RAID](/knowledge/linux/raid/)
-- [Device File](/knowledge/linux/device-file/)
-- [UEFI](/knowledge/linux/uefi/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [논리 볼륨 관리자 (Logical Volume Manager)](/knowledge/linux/logical-volume-manager/)
+- [RAID (독립 디스크의 중복 배열)](/knowledge/linux/raid/)
+- [디바이스 파일 (Device File)](/knowledge/linux/device-file/)
+- [UEFI (통합 확장 펌웨어 인터페이스)](/knowledge/linux/uefi/)

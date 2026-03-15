@@ -1,5 +1,5 @@
 ---
-title: "Signal"
+title: "시그널 (Signal)"
 description: "시그널(Signal)은 프로세스 수준의 인터럽트 요청으로, 약 30종이 정의되어 있으며 프로세스 간 통신, 종료 요청, 에러 알림 등에 사용된다"
 tags: ['Signal', 'Process', 'Ipc', 'Unix', 'Kill', 'Interrupt']
 created: 2026-02-12
@@ -50,5 +50,5 @@ kill -HUP $(pidof nginx)
 
 ## 관련 개념
 
-- [Process](/knowledge/linux/process/)
-- [Systemd](/knowledge/linux/systemd/)
+- [프로세스 (Process)](/knowledge/linux/process/)
+- [Systemd (시스템 관리 데몬)](/knowledge/linux/systemd/)

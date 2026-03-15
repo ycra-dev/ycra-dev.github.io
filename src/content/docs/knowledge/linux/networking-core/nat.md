@@ -1,5 +1,5 @@
 ---
-title: "NAT (Network Address Translation)"
+title: "NAT (네트워크 주소 변환)"
 description: "NAT(Network Address Translation)는 사설 IP 주소를 사용하는 내부 네트워크 호스트가 인터넷과 통신할 수 있도록 경계 라우터에서 패킷의 소스 주소를 공인 IP 주소로 변환하고, 내부/외부 주소 쌍의 매핑 테이블을 유지하는 기술이다"
 tags: ['Nat', 'Networking', 'Firewall', 'Private Address', 'Ipv4']
 created: 2026-02-12
@@ -53,9 +53,9 @@ sudo iptables -t nat -A POSTROUTING -o eth1 \
 
 ## 관련 개념
 
-- [ipv4](/knowledge/linux/ipv4/) - NAT가 주소 고갈을 완화하는 대상
-- [cidr](/knowledge/linux/cidr/) - NAT와 함께 IPv4 주소 효율성을 높이는 기술
-- [iptables](/knowledge/linux/iptables/) - Linux에서 NAT를 구현하는 도구
-- [vpn](/knowledge/linux/vpn/) - NAT 환경에서 호환성 문제가 있을 수 있는 기술
-- [dhcp](/knowledge/linux/dhcp/) - NAT 내부 네트워크의 IP 주소 관리
-- [vpc](/knowledge/linux/vpc/) - 클라우드 환경의 NAT 게이트웨이
+- [IPv4 (인터넷 프로토콜 버전 4)](/knowledge/linux/ipv4/) - NAT가 주소 고갈을 완화하는 대상
+- [CIDR (클래스리스 라우팅)](/knowledge/linux/cidr/) - NAT와 함께 IPv4 주소 효율성을 높이는 기술
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - Linux에서 NAT를 구현하는 도구
+- [VPN (가상 사설 네트워크)](/knowledge/linux/vpn/) - NAT 환경에서 호환성 문제가 있을 수 있는 기술
+- [DHCP (동적 호스트 구성 프로토콜)](/knowledge/linux/dhcp/) - NAT 내부 네트워크의 IP 주소 관리
+- [VPC (가상 사설 클라우드)](/knowledge/linux/vpc/) - 클라우드 환경의 NAT 게이트웨이

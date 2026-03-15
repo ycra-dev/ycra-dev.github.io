@@ -1,5 +1,5 @@
 ---
-title: "Load Balancer"
+title: "로드 밸런서 (Load Balancer)"
 description: "로드 밸런서는 수신 요청을 여러 다운스트림 웹 서버에 분산하는 프록시 서버 유형으로, 서버 상태 모니터링, TLS 종료, 트래픽 분산을 통해 고가용성과 확장성을 제공한다"
 tags: ['Load Balancer', 'High Availability', 'Proxy', 'Haproxy', 'Scaling']
 created: 2026-02-12
@@ -63,10 +63,10 @@ aws elb create-load-balancer \
 
 ## 관련 개념
 
-- [NGINX](/knowledge/linux/nginx/)
-- [HAProxy](/knowledge/linux/haproxy/)
-- [Web Server](/knowledge/linux/web-server/)
-- [HTTP](/knowledge/linux/http/)
-- [TLS](/knowledge/linux/tls/)
-- [High Availability](/knowledge/linux/high-availability/)
-- [Reverse Proxy](/knowledge/linux/reverse-proxy/)
+- [NGINX (엔진엑스)](/knowledge/linux/nginx/)
+- [HAProxy (고가용성 프록시)](/knowledge/linux/haproxy/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)
+- [TLS (전송 계층 보안)](/knowledge/linux/tls/)
+- [고가용성 (High Availability)](/knowledge/linux/high-availability/)
+- [리버스 프록시 (Reverse Proxy)](/knowledge/linux/reverse-proxy/)

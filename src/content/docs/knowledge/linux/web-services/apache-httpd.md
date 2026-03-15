@@ -1,5 +1,5 @@
 ---
-title: "Apache httpd"
+title: "Apache httpd (아파치 웹 서버)"
 description: "Apache httpd는 Apache Software Foundation의 오리지널 프로젝트로, 1995년부터 개발되어 온 HTTP 서버 참조 구현이며, 모듈러 아키텍처와 풍부한 기능으로 가장 널리 사용되는 웹 서버이다"
 tags: ['Apache', 'Httpd', 'Web Server', 'Modules', 'Mpm']
 created: 2026-02-12
@@ -64,8 +64,8 @@ chmod 400 /etc/apache2/.htpasswd
 
 ## 관련 개념
 
-- [Web Server](/knowledge/linux/web-server/)
-- [Virtual Host](/knowledge/linux/virtual-host/)
-- [TLS](/knowledge/linux/tls/)
-- [HTTP](/knowledge/linux/http/)
-- [NGINX](/knowledge/linux/nginx/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [가상 호스트 (Virtual Host)](/knowledge/linux/virtual-host/)
+- [TLS (전송 계층 보안)](/knowledge/linux/tls/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)
+- [NGINX (엔진엑스)](/knowledge/linux/nginx/)

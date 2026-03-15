@@ -1,5 +1,5 @@
 ---
-title: "MAC Address"
+title: "MAC 주소 (MAC Address)"
 description: "MAC 주소(Media Access Control Address)는 네트워크 인터페이스에 제조 시 할당되는 6바이트(48비트)의 고유한 하드웨어 주소로, 물리 네트워크에서 장치를 식별하는 링크 계층 주소 체계이다"
 tags: ['Mac Address', 'Ethernet', 'Hardware Address', 'Networking', 'Link Layer']
 created: 2026-02-12
@@ -43,8 +43,8 @@ ip neigh show
 
 ## 관련 개념
 
-- [ethernet](/knowledge/linux/ethernet/) - MAC 주소를 사용하는 링크 계층 기술
-- [arp](/knowledge/linux/arp/) - IP 주소를 MAC 주소로 변환하는 프로토콜
-- [ipv6](/knowledge/linux/ipv6/) - MAC 기반 자동 호스트 번호 생성 (EUI-64)
-- [ip-address](/knowledge/linux/ip-address/) - MAC 위에서 동작하는 논리 주소
-- [dhcp](/knowledge/linux/dhcp/) - MAC 주소 기반 IP 주소 할당
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - MAC 주소를 사용하는 링크 계층 기술
+- [ARP (주소 결정 프로토콜)](/knowledge/linux/arp/) - IP 주소를 MAC 주소로 변환하는 프로토콜
+- [IPv6 (인터넷 프로토콜 버전 6)](/knowledge/linux/ipv6/) - MAC 기반 자동 호스트 번호 생성 (EUI-64)
+- [IP 주소 (IP Address)](/knowledge/linux/ip-address/) - MAC 위에서 동작하는 논리 주소
+- [DHCP (동적 호스트 구성 프로토콜)](/knowledge/linux/dhcp/) - MAC 주소 기반 IP 주소 할당

@@ -1,5 +1,5 @@
 ---
-title: "Access Control List"
+title: "접근 제어 목록 (Access Control List)"
 description: "ACL(Access Control List)은 전통적인 소유자/그룹/기타 9비트 권한 모델을 확장하여 여러 사용자와 그룹에 대해 개별적으로 권한을 지정할 수 있는 파일 접근 제어 메커니즘이다"
 tags: ['Acl', 'Permissions', 'Security', 'Filesystem', 'Nfsv4']
 created: 2026-02-12
@@ -43,6 +43,6 @@ setfacl -d -m g:developers:rwx /shared/project/
 
 ## 관련 개념
 
-- [File Permissions](/knowledge/linux/file-permissions/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [PAM](/knowledge/linux/pam/)
+- [파일 권한 (File Permissions)](/knowledge/linux/file-permissions/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)

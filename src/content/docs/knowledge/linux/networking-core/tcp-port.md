@@ -1,5 +1,5 @@
 ---
-title: "TCP/UDP Port"
+title: "TCP/UDP 포트 (TCP/UDP Port)"
 description: "포트(Port)는 IP 주소를 보완하는 16비트 숫자(1-65535)로, TCP와 UDP가 네트워크를 동시에 사용하는 여러 프로세스나 서비스를 구분하기 위해 사용하는 통신 채널 식별자이다"
 tags: ['TCP Port', 'UDP Port', 'Networking', 'Socket', 'Transport Layer']
 created: 2026-02-12
@@ -51,7 +51,7 @@ sudo iptables -A INPUT -p udp --dport 53 -j ACCEPT
 
 ## 관련 개념
 
-- [tcp-ip](/knowledge/linux/tcp-ip/) - 포트를 정의하는 전송 계층 프로토콜
-- [ip-address](/knowledge/linux/ip-address/) - 포트와 결합하여 소켓 주소 구성
-- [iptables](/knowledge/linux/iptables/) - 포트 기반 방화벽 규칙
-- [linux-capabilities](/knowledge/linux/linux-capabilities/) - 특권 포트 바인딩 제어
+- [TCP/IP 프로토콜 스위트 (TCP/IP Protocol Suite)](/knowledge/linux/tcp-ip/) - 포트를 정의하는 전송 계층 프로토콜
+- [IP 주소 (IP Address)](/knowledge/linux/ip-address/) - 포트와 결합하여 소켓 주소 구성
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - 포트 기반 방화벽 규칙
+- [리눅스 캐퍼빌리티 (Linux Capabilities)](/knowledge/linux/linux-capabilities/) - 특권 포트 바인딩 제어

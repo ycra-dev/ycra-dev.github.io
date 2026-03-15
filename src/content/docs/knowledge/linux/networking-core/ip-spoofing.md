@@ -1,5 +1,5 @@
 ---
-title: "IP Spoofing"
+title: "IP 스푸핑 (IP Spoofing)"
 description: "IP 스푸핑(IP Spoofing)은 IP 패킷의 소스 주소를 실제 발신자가 아닌 다른 주소로 위조하는 기법으로, 원시 소켓(raw socket)을 사용하여 커널의 정상적인 주소 할당을 우회하며, 주로 악의적 네트워크 행위에 사용된다"
 tags: ['IP Spoofing', 'Security', 'Networking', 'Ddos', 'Firewall']
 created: 2026-02-12
@@ -52,7 +52,7 @@ sudo iptables -A OUTPUT -o eth1 \
 
 ## 관련 개념
 
-- [iptables](/knowledge/linux/iptables/) - 안티스푸핑 규칙 설정 도구
-- [ip-forwarding](/knowledge/linux/ip-forwarding/) - 스푸핑 공격에 악용될 수 있는 기능
-- [nat](/knowledge/linux/nat/) - 스푸핑된 사설 주소 패킷의 인터넷 유출
-- [icmp](/knowledge/linux/icmp/) - 스푸핑된 패킷의 오류 메시지 전달
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - 안티스푸핑 규칙 설정 도구
+- [IP 포워딩 (IP Forwarding)](/knowledge/linux/ip-forwarding/) - 스푸핑 공격에 악용될 수 있는 기능
+- [NAT (네트워크 주소 변환)](/knowledge/linux/nat/) - 스푸핑된 사설 주소 패킷의 인터넷 유출
+- [ICMP (인터넷 제어 메시지 프로토콜)](/knowledge/linux/icmp/) - 스푸핑된 패킷의 오류 메시지 전달

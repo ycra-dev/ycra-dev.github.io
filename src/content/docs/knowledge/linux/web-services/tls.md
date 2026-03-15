@@ -1,5 +1,5 @@
 ---
-title: "TLS"
+title: "TLS (전송 계층 보안)"
 description: "TLS(Transport Layer Security)는 TCP와 HTTP 사이에서 동작하는 보안 계층으로, 서버 인증, 통신 암호화, 데이터 무결성 보호를 제공하며, 이전 명칭인 SSL의 후속 프로토콜이다"
 tags: ['Tls', 'Ssl', 'Encryption', 'HTTPS', 'Certificate', 'Security']
 created: 2026-02-12
@@ -52,8 +52,8 @@ certbot certonly --nginx -d www.admin.com
 
 ## 관련 개념
 
-- [HTTP](/knowledge/linux/http/)
-- [Web Server](/knowledge/linux/web-server/)
-- [Virtual Host](/knowledge/linux/virtual-host/)
-- [NGINX](/knowledge/linux/nginx/)
-- [Email Encryption](/knowledge/network/email-encryption/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [가상 호스트 (Virtual Host)](/knowledge/linux/virtual-host/)
+- [NGINX (엔진엑스)](/knowledge/linux/nginx/)
+- [이메일 암호화 (Email Encryption)](/knowledge/network/email-encryption/)

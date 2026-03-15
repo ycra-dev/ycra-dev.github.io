@@ -1,5 +1,5 @@
 ---
-title: "Boot Process"
+title: "부트 프로세스 (Boot Process)"
 description: "부팅(Booting)은 컴퓨터를 시작하는 과정으로, \"bootstrapping\"의 줄임말이다"
 tags: ['Boot', 'Bootstrapping', 'Startup', 'Firmware', 'Kernel']
 created: 2026-02-12
@@ -38,6 +38,6 @@ sudo halt -p
 
 ## 관련 개념
 
-- [UEFI](/knowledge/linux/uefi/)
-- [GRUB](/knowledge/linux/grub/)
-- [Systemd](/knowledge/linux/systemd/)
+- [UEFI (통합 확장 펌웨어 인터페이스)](/knowledge/linux/uefi/)
+- [GRUB (부트로더)](/knowledge/linux/grub/)
+- [Systemd (시스템 관리 데몬)](/knowledge/linux/systemd/)

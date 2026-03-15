@@ -1,5 +1,5 @@
 ---
-title: "Jumbo Frame"
+title: "점보 프레임 (Jumbo Frame)"
 description: "점보 프레임(Jumbo Frame)은 표준 이더넷 MTU인 1,500바이트를 초과하는 비표준 대형 이더넷 패킷으로, 일반적으로 9,000바이트(프레이밍 포함 9,018바이트)의 MTU를 사용하여 기가비트 이더넷에서 처리량을 개선한다"
 tags: ['Jumbo Frame', 'Mtu', 'Ethernet', 'Network Performance', 'Throughput']
 created: 2026-02-12
@@ -47,7 +47,7 @@ ping -s 8972 -M do target-host
 
 ## 관련 개념
 
-- [mtu](/knowledge/linux/mtu/) - 점보 프레임이 변경하는 최대 전송 단위
-- [ethernet](/knowledge/linux/ethernet/) - 점보 프레임의 기반 기술
-- [nfs](/knowledge/linux/nfs/) - 점보 프레임으로 성능이 향상되는 서비스
-- [network-switch](/knowledge/linux/network-switch/) - 점보 프레임을 지원해야 하는 장비
+- [MTU (최대 전송 단위)](/knowledge/linux/mtu/) - 점보 프레임이 변경하는 최대 전송 단위
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - 점보 프레임의 기반 기술
+- [NFS (네트워크 파일 시스템)](/knowledge/linux/nfs/) - 점보 프레임으로 성능이 향상되는 서비스
+- [네트워크 스위치 (Network Switch)](/knowledge/linux/network-switch/) - 점보 프레임을 지원해야 하는 장비

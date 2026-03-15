@@ -1,5 +1,5 @@
 ---
-title: "perf"
+title: "perf (성능 분석 도구)"
 description: "perf는 Linux 커널 2"
 tags: ['Performance', 'Profiling', 'Linux Kernel', 'CPU', 'Perf Events', 'Tracing']
 created: 2026-02-12
@@ -53,7 +53,7 @@ sudo perf stat -e cache-misses,cache-references ./my_program
 
 ## 관련 개념
 
-- [vmstat](/knowledge/linux/vmstat/) - 시스템 전반 성능 요약
-- [Load Average](/knowledge/linux/load-average/) - 시스템 부하 측정 지표
-- [iostat](/knowledge/linux/iostat/) - 디스크 I/O 성능 분석
-- [strace](/knowledge/linux/strace/) - 시스템 콜 수준 추적
+- [vmstat (가상 메모리 통계 도구)](/knowledge/linux/vmstat/) - 시스템 전반 성능 요약
+- [로드 평균 (Load Average)](/knowledge/linux/load-average/) - 시스템 부하 측정 지표
+- [iostat (I/O 통계 도구)](/knowledge/linux/iostat/) - 디스크 I/O 성능 분석
+- [Strace (시스템 콜 추적 도구)](/knowledge/linux/strace/) - 시스템 콜 수준 추적

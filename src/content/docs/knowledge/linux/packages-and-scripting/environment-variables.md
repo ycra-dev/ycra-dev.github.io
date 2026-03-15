@@ -1,5 +1,5 @@
 ---
-title: "Environment Variables"
+title: "환경 변수 (Environment Variables)"
 description: "환경 변수는 유닉스/리눅스 프로세스가 시작할 때 받는 키-값 쌍의 설정 정보로, 프로그램의 동작 방식을 제어하고 시스템 전역 설정을 전달하는 메커니즘이다"
 tags: ['Shell', 'Configuration', 'Process', 'Unix', 'Environment', 'Path']
 created: 2026-02-12
@@ -44,7 +44,7 @@ export HISTFILESIZE=20000
 
 ## 관련 개념
 
-- [Shell Scripting](/knowledge/linux/shell-scripting/)
-- [Process](/knowledge/linux/process/)
-- [Sudo](/knowledge/linux/sudo/)
-- [Systemd](/knowledge/linux/systemd/)
+- [셸 스크립팅 (Shell Scripting)](/knowledge/linux/shell-scripting/)
+- [프로세스 (Process)](/knowledge/linux/process/)
+- [Sudo (관리자 권한 실행)](/knowledge/linux/sudo/)
+- [Systemd (시스템 관리 데몬)](/knowledge/linux/systemd/)

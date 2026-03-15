@@ -1,5 +1,5 @@
 ---
-title: "Declarative Configuration"
+title: "선언적 구성 (Declarative Configuration)"
 description: "선언적 구성(Declarative Configuration)은 시스템에 어떤 변경을 가할지(절차적/명령적)가 아니라, 달성하고자 하는 최종 상태(desired state)를 기술하는 구성 방식으로, 대부분의 구성 관리 시스템이 채택하는 핵심 패러다임이다"
 tags: ['Declarative', 'Imperative', 'Configuration Management', 'Desired State']
 created: 2026-02-12
@@ -53,8 +53,8 @@ systemctl enable nginx
 
 ## 관련 개념
 
-- [Configuration Management](/knowledge/linux/configuration-management/)
-- [Idempotence](/knowledge/linux/idempotence/)
-- [Infrastructure as Code](/knowledge/linux/infrastructure-as-code/)
-- [Ansible](/knowledge/linux/ansible/)
-- [Salt](/knowledge/linux/salt/)
+- [구성 관리 (Configuration Management)](/knowledge/linux/configuration-management/)
+- [멱등성 (Idempotence)](/knowledge/linux/idempotence/)
+- [코드형 인프라 (Infrastructure as Code)](/knowledge/linux/infrastructure-as-code/)
+- [Ansible (자동화 도구)](/knowledge/linux/ansible/)
+- [Salt (솔트)](/knowledge/linux/salt/)

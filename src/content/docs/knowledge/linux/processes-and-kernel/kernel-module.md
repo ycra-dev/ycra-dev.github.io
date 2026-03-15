@@ -1,5 +1,5 @@
 ---
-title: "Kernel Module"
+title: "커널 모듈 (Kernel Module)"
 description: "커널 모듈(Loadable Kernel Module, LKM)은 시스템 재부팅 없이 실행 중인 커널에 동적으로 로드하거나 제거할 수 있는 코드 조각으로, 주로 디바이스 드라이버나 파일시스템 기능을 추가하는 데 사용된다"
 tags: ['Kernel', 'Driver', 'Linux', 'Lkm', 'Modprobe', 'Insmod']
 created: 2026-02-12
@@ -45,7 +45,7 @@ echo "options snd-usb-audio index=0" | sudo tee /etc/modprobe.d/usb-audio.conf
 
 ## 관련 개념
 
-- [Device Driver](/knowledge/linux/device-driver/)
-- [Device File](/knowledge/linux/device-file/)
-- [Boot Process](/knowledge/linux/boot-process/)
-- [Systemd](/knowledge/linux/systemd/)
+- [디바이스 드라이버 (Device Driver)](/knowledge/linux/device-driver/)
+- [디바이스 파일 (Device File)](/knowledge/linux/device-file/)
+- [부트 프로세스 (Boot Process)](/knowledge/linux/boot-process/)
+- [Systemd (시스템 관리 데몬)](/knowledge/linux/systemd/)

@@ -1,5 +1,5 @@
 ---
-title: "Multifactor Authentication"
+title: "다중 인증 (Multifactor Authentication)"
 description: "다중 인증(MFA)은 사용자의 신원을 두 가지 이상의 독립적인 인증 요소(알고 있는 것, 가지고 있는 것, 존재 자체)를 통해 검증하는 보안 메커니즘이다"
 tags: ['Security', 'Authentication', 'Mfa', '2fa', 'Password', 'Identity']
 created: 2026-02-12
@@ -54,7 +54,7 @@ sudo chage -l username
 
 ## 관련 개념
 
-- [pam](/knowledge/linux/pam/) - MFA를 구현하는 PAM 모듈
-- [ssh](/knowledge/linux/ssh/) - MFA로 보호해야 할 핵심 서비스
-- [sudo](/knowledge/linux/sudo/) - 관리 권한 접근 시 MFA 적용
-- [social-engineering](/knowledge/linux/social-engineering/) - MFA가 방어하는 공격 유형
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/) - MFA를 구현하는 PAM 모듈
+- [SSH (보안 셸)](/knowledge/linux/ssh/) - MFA로 보호해야 할 핵심 서비스
+- [Sudo (관리자 권한 실행)](/knowledge/linux/sudo/) - 관리 권한 접근 시 MFA 적용
+- [사회 공학 (Social Engineering)](/knowledge/linux/social-engineering/) - MFA가 방어하는 공격 유형

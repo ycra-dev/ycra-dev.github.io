@@ -1,5 +1,5 @@
 ---
-title: "Packet Sniffing"
+title: "패킷 스니핑 (Packet Sniffing)"
 description: "패킷 스니핑(Packet Sniffing)은 네트워크 트래픽을 수신하여 패킷의 내용을 검사하고 분석하는 기술로, 네트워크 문제 해결, 프로토콜 분석, 보안 감사에 사용된다"
 tags: ['Packet Sniffing', 'Networking', 'Security', 'Wireshark', 'Tcpdump']
 created: 2026-02-12
@@ -57,7 +57,7 @@ ip link show eth0
 
 ## 관련 개념
 
-- [tcpdump](/knowledge/linux/tcpdump/) - 명령줄 패킷 스니퍼
-- [network-interface](/knowledge/linux/network-interface/) - 프로미스큐어스 모드로 설정되는 인터페이스
-- [ethernet](/knowledge/linux/ethernet/) - 패킷 스니핑이 가능한 브로드캐스트 네트워크
-- [tcp-ip](/knowledge/linux/tcp-ip/) - 스니퍼가 분석하는 프로토콜 스택
+- [tcpdump (패킷 캡처 도구)](/knowledge/linux/tcpdump/) - 명령줄 패킷 스니퍼
+- [네트워크 인터페이스 (Network Interface)](/knowledge/linux/network-interface/) - 프로미스큐어스 모드로 설정되는 인터페이스
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - 패킷 스니핑이 가능한 브로드캐스트 네트워크
+- [TCP/IP 프로토콜 스위트 (TCP/IP Protocol Suite)](/knowledge/linux/tcp-ip/) - 스니퍼가 분석하는 프로토콜 스택

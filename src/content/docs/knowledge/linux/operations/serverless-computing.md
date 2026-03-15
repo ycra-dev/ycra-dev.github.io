@@ -1,5 +1,5 @@
 ---
-title: "Serverless Computing"
+title: "서버리스 컴퓨팅 (Serverless Computing)"
 description: "서버리스 컴퓨팅(Functions-as-a-Service)은 장기 실행 인프라 없이 이벤트(HTTP 요청, 파일 업로드 등)에 응답하여 함수를 실행하는 모델로, 서버나 OS를 관리할 필요 없이 함수 실행 시간에 대해서만 비용을 지불한다"
 tags: ['Serverless', 'Lambda', 'Faas', 'Event Driven', 'Cloud Functions', 'Microservices']
 created: 2026-02-12
@@ -49,7 +49,7 @@ gcloud functions deploy hello --runtime python39 \
 
 ## 관련 개념
 
-- [Infrastructure as a Service](/knowledge/linux/infrastructure-as-a-service/)
-- [Cron](/knowledge/linux/cron/)
-- [Process](/knowledge/linux/process/)
-- [DevOps](/knowledge/linux/devops/)
+- [서비스형 인프라 (Infrastructure as a Service)](/knowledge/linux/infrastructure-as-a-service/)
+- [크론 (Cron)](/knowledge/linux/cron/)
+- [프로세스 (Process)](/knowledge/linux/process/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)

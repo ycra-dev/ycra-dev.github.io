@@ -1,5 +1,5 @@
 ---
-title: "Firewall"
+title: "방화벽 (Firewall)"
 description: "방화벽은 미리 정의된 규칙에 따라 네트워크 트래픽을 필터링하여 원치 않는 패킷이 네트워크와 시스템에 접근하는 것을 차단하는 장치 또는 소프트웨어이다"
 tags: ['Security', 'Network', 'Packet Filtering', 'Dmz', 'Defense In Depth']
 created: 2026-02-12
@@ -51,7 +51,7 @@ sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT  # HTTP 허용
 
 ## 관련 개념
 
-- [iptables](/knowledge/linux/iptables/) - Linux 패킷 필터링 상세
-- [ddos-attack](/knowledge/linux/ddos-attack/) - 방화벽으로 방어해야 할 네트워크 공격
-- [ssh](/knowledge/linux/ssh/) - 방화벽을 통해 허용해야 할 필수 서비스
-- [vpn](/knowledge/linux/vpn/) - 방화벽과 함께 사용하는 보안 터널링
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - Linux 패킷 필터링 상세
+- [DDoS 공격 (DDoS Attack)](/knowledge/linux/ddos-attack/) - 방화벽으로 방어해야 할 네트워크 공격
+- [SSH (보안 셸)](/knowledge/linux/ssh/) - 방화벽을 통해 허용해야 할 필수 서비스
+- [VPN (가상 사설 네트워크)](/knowledge/linux/vpn/) - 방화벽과 함께 사용하는 보안 터널링

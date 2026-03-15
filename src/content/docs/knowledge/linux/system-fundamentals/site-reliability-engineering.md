@@ -1,5 +1,5 @@
 ---
-title: "Site Reliability Engineering"
+title: "사이트 신뢰성 공학 (Site Reliability Engineering)"
 description: "SRE(Site Reliability Engineering)는 시스템의 가용성(uptime)과 정확성(correctness)을 최우선으로 하는 엔지니어링 분야로, 대규모 서비스의 안정적 운영을 책임진다"
 tags: ['Sre', 'Reliability', 'Uptime', 'Monitoring', 'Operations', 'DevOps', 'System Administration']
 created: 2026-02-12
@@ -36,9 +36,9 @@ journalctl -u nginx --since "1 hour ago"
 
 ## 관련 개념
 
-- [DevOps](/knowledge/linux/devops/)
-- [Man Pages](/knowledge/linux/man-pages/)
-- [ChatOps](/knowledge/linux/chatops/) - DevOps 소통 채널
-- [SLA](/knowledge/linux/sla/) - 서비스 수준 합의와 가용성 목표
-- [Change Management](/knowledge/linux/change-management/) - 변경 관리와 운영 자동화
-- [Ticketing System](/knowledge/linux/ticketing-system/) - IT 업무 관리와 추적
+- [DevOps (데브옵스)](/knowledge/linux/devops/)
+- [매뉴얼 페이지 (Man Pages)](/knowledge/linux/man-pages/)
+- [ChatOps (챗옵스)](/knowledge/linux/chatops/) - DevOps 소통 채널
+- [SLA (서비스 수준 계약)](/knowledge/linux/sla/) - 서비스 수준 합의와 가용성 목표
+- [변경 관리 (Change Management)](/knowledge/linux/change-management/) - 변경 관리와 운영 자동화
+- [티켓 시스템 (Ticketing System)](/knowledge/linux/ticketing-system/) - IT 업무 관리와 추적

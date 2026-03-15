@@ -1,5 +1,5 @@
 ---
-title: "Linux Namespaces"
+title: "리눅스 네임스페이스 (Linux Namespaces)"
 description: "Linux namespaces는 프로세스를 계층적 파티션으로 격리하여 시스템의 파일, 네트워크 포트, 프로세스의 부분 집합만 볼 수 있게 하는 커널 메커니즘이다"
 tags: ['Namespaces', 'Linux', 'Isolation', 'Container', 'Docker', 'Security']
 created: 2026-02-12
@@ -44,8 +44,8 @@ sudo unshare --pid --fork --mount-proc /bin/bash
 
 ## 관련 개념
 
-- [Linux Capabilities](/knowledge/linux/linux-capabilities/)
-- [DevOps](/knowledge/linux/devops/)
-- [Container](/knowledge/linux/container/)
-- [Docker](/knowledge/linux/docker/)
-- [Cgroups](/knowledge/linux/cgroups/)
+- [리눅스 캐퍼빌리티 (Linux Capabilities)](/knowledge/linux/linux-capabilities/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)
+- [컨테이너 (Container)](/knowledge/linux/container/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [Cgroups (컨트롤 그룹)](/knowledge/linux/cgroups/)

@@ -1,5 +1,5 @@
 ---
-title: "IP Forwarding"
+title: "IP 포워딩 (IP Forwarding)"
 description: "IP 포워딩(IP Forwarding)은 UNIX/Linux 시스템이 하나의 네트워크 인터페이스에서 수신한 제3자 패킷을 다른 인터페이스를 통해 재전송하여 라우터 역할을 할 수 있게 하는 커널 기능이다"
 tags: ['IP Forwarding', 'Routing', 'Networking', 'Security', 'Kernel']
 created: 2026-02-12
@@ -47,8 +47,8 @@ sudo sysctl -w net.ipv4.conf.all.rp_filter=1
 
 ## 관련 개념
 
-- [routing-table](/knowledge/linux/routing-table/) - 포워딩 시 참조하는 경로 정보
-- [nat](/knowledge/linux/nat/) - IP 포워딩이 필요한 NAT 구성
-- [iptables](/knowledge/linux/iptables/) - IP 포워딩과 함께 사용하는 패킷 필터링
-- [sysctl](/knowledge/linux/sysctl/) - IP 포워딩 커널 매개변수 설정
-- [network-interface](/knowledge/linux/network-interface/) - 포워딩이 이루어지는 인터페이스
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - 포워딩 시 참조하는 경로 정보
+- [NAT (네트워크 주소 변환)](/knowledge/linux/nat/) - IP 포워딩이 필요한 NAT 구성
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - IP 포워딩과 함께 사용하는 패킷 필터링
+- [sysctl (커널 파라미터 설정)](/knowledge/linux/sysctl/) - IP 포워딩 커널 매개변수 설정
+- [네트워크 인터페이스 (Network Interface)](/knowledge/linux/network-interface/) - 포워딩이 이루어지는 인터페이스

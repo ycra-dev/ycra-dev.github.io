@@ -1,5 +1,5 @@
 ---
-title: "IP Address"
+title: "IP 주소 (IP Address)"
 description: "IP 주소(Internet Protocol Address)는 하드웨어에 독립적인 소프트웨어 수준의 네트워크 주소로, 특정 네트워크 컨텍스트 내에서 고유한 목적지를 식별하며 네트워크 인터페이스를 가리킨다(기계가 아님)"
 tags: ['IP Address', 'Networking', 'Ipv4', 'Ipv6', 'Addressing']
 created: 2026-02-12
@@ -53,9 +53,9 @@ sudo hostnamectl set-hostname myhost.example.com
 
 ## 관련 개념
 
-- [ipv4](/knowledge/linux/ipv4/) - 32비트 IP 주소 체계
-- [ipv6](/knowledge/linux/ipv6/) - 128비트 IP 주소 체계
-- [subnet-mask](/knowledge/linux/subnet-mask/) - IP 주소의 네트워크/호스트 경계 정의
-- [mac-address](/knowledge/linux/mac-address/) - IP 주소가 매핑되는 하드웨어 주소
-- [dns-resolution](/knowledge/linux/dns-resolution/) - 호스트명을 IP 주소로 변환
-- [dhcp](/knowledge/linux/dhcp/) - IP 주소 자동 할당
+- [IPv4 (인터넷 프로토콜 버전 4)](/knowledge/linux/ipv4/) - 32비트 IP 주소 체계
+- [IPv6 (인터넷 프로토콜 버전 6)](/knowledge/linux/ipv6/) - 128비트 IP 주소 체계
+- [서브넷 마스크 (Subnet Mask)](/knowledge/linux/subnet-mask/) - IP 주소의 네트워크/호스트 경계 정의
+- [MAC 주소 (MAC Address)](/knowledge/linux/mac-address/) - IP 주소가 매핑되는 하드웨어 주소
+- [DNS 이름 해석 (DNS Resolution)](/knowledge/linux/dns-resolution/) - 호스트명을 IP 주소로 변환
+- [DHCP (동적 호스트 구성 프로토콜)](/knowledge/linux/dhcp/) - IP 주소 자동 할당

@@ -1,5 +1,5 @@
 ---
-title: "DHCP (Dynamic Host Configuration Protocol)"
+title: "DHCP (동적 호스트 구성 프로토콜)"
 description: "DHCP(Dynamic Host Configuration Protocol, RFC2131/2132/3315)는 네트워크 장치가 중앙 서버로부터 IP 주소, 넷마스크, 게이트웨이, DNS 서버 등 네트워크 매개변수를 자동으로 임대(lease)받을 수 있게 하는 프로..."
 tags: ['Dhcp', 'Networking', 'IP Address', 'Bootp', 'Network Configuration']
 created: 2026-02-12
@@ -57,8 +57,8 @@ sudo apt install isc-dhcp-server
 
 ## 관련 개념
 
-- [ip-address](/knowledge/linux/ip-address/) - DHCP가 할당하는 핵심 매개변수
-- [dns-resolution](/knowledge/linux/dns-resolution/) - DHCP와 연동되는 이름 해석
-- [nat](/knowledge/linux/nat/) - DHCP가 사설 네트워크에서 주소를 관리
-- [routing-table](/knowledge/linux/routing-table/) - DHCP가 기본 라우트를 전달
-- [network-interface](/knowledge/linux/network-interface/) - DHCP가 구성하는 대상
+- [IP 주소 (IP Address)](/knowledge/linux/ip-address/) - DHCP가 할당하는 핵심 매개변수
+- [DNS 이름 해석 (DNS Resolution)](/knowledge/linux/dns-resolution/) - DHCP와 연동되는 이름 해석
+- [NAT (네트워크 주소 변환)](/knowledge/linux/nat/) - DHCP가 사설 네트워크에서 주소를 관리
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - DHCP가 기본 라우트를 전달
+- [네트워크 인터페이스 (Network Interface)](/knowledge/linux/network-interface/) - DHCP가 구성하는 대상

@@ -1,5 +1,5 @@
 ---
-title: "NFS"
+title: "NFS (네트워크 파일 시스템)"
 description: "NFS(Network File System)는 네트워크를 통해 원격 파일시스템을 로컬 파일시스템처럼 투명하게 공유하는 프로토콜로, 1984년 Sun Microsystems에서 개발되어 UNIX/Linux 환경의 표준 파일 공유 솔루션이 되었다"
 tags: ['Nfs', 'Network Filesystem', 'File Sharing', 'Rpc', 'Nfsv4']
 created: 2026-02-12
@@ -54,9 +54,9 @@ sudo systemctl restart nfs-server
 
 ## 관련 개념
 
-- [SMB Protocol](/knowledge/linux/smb-protocol/)
-- [Samba](/knowledge/linux/samba/)
-- [Kerberos Authentication](/knowledge/linux/kerberos-authentication/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [fstab](/knowledge/linux/fstab/)
-- [Automount](/knowledge/linux/automount/)
+- [SMB 프로토콜 (SMB Protocol)](/knowledge/linux/smb-protocol/)
+- [Samba (삼바)](/knowledge/linux/samba/)
+- [Kerberos 인증 (Kerberos Authentication)](/knowledge/linux/kerberos-authentication/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [fstab (파일 시스템 테이블)](/knowledge/linux/fstab/)
+- [자동 마운트 (Automount)](/knowledge/linux/automount/)

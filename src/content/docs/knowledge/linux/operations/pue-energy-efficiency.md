@@ -1,5 +1,5 @@
 ---
-title: "PUE Energy Efficiency"
+title: "PUE 에너지 효율 (PUE Energy Efficiency)"
 description: "PUE(Power Usage Effectiveness)는 데이터센터의 에너지 효율성을 평가하는 표준 지표로, 전체 시설 전력 대비 IT 장비 전력의 비율로 산출되며, 1"
 tags: ['Data Center', 'Energy Efficiency', 'Pue', 'Green Computing', 'Cost Optimization']
 created: 2026-02-12
@@ -55,6 +55,6 @@ sidebar:
 
 ## 관련 개념
 
-- [UPS Power](/knowledge/linux/ups-power/) - 전력 공급과 kVA/kW 변환
-- [Data Center Cooling](/knowledge/linux/data-center-cooling/) - 냉각이 PUE에 미치는 영향
-- [Data Center Tier](/knowledge/linux/data-center-tier/) - 이중화 수준과 에너지 효율의 균형
+- [UPS 전원 (UPS Power)](/knowledge/linux/ups-power/) - 전력 공급과 kVA/kW 변환
+- [데이터 센터 냉각 (Data Center Cooling)](/knowledge/linux/data-center-cooling/) - 냉각이 PUE에 미치는 영향
+- [데이터 센터 티어 (Data Center Tier)](/knowledge/linux/data-center-tier/) - 이중화 수준과 에너지 효율의 균형

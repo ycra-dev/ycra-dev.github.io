@@ -1,5 +1,5 @@
 ---
-title: "Reverse Proxy"
+title: "리버스 프록시 (Reverse Proxy)"
 description: "리버스 프록시(Reverse Proxy)는 클라이언트로부터 HTTP 요청을 수신하여 처리하거나 백엔드 서버로 전달하는 중간 서버로, 로드 밸런싱, 캐싱, TLS 종료, 보안 강화의 역할을 수행한다"
 tags: ['Reverse Proxy', 'Proxy', 'Web Server', 'Load Balancing', 'Security']
 created: 2026-02-12
@@ -54,9 +54,9 @@ server {
 
 ## 관련 개념
 
-- [NGINX](/knowledge/linux/nginx/)
-- [Load Balancer](/knowledge/linux/load-balancer/)
-- [Web Cache](/knowledge/linux/web-cache/)
-- [Web Server](/knowledge/linux/web-server/)
-- [HTTP](/knowledge/linux/http/)
-- [CDN](/knowledge/linux/cdn/)
+- [NGINX (엔진엑스)](/knowledge/linux/nginx/)
+- [로드 밸런서 (Load Balancer)](/knowledge/linux/load-balancer/)
+- [웹 캐시 (Web Cache)](/knowledge/linux/web-cache/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)
+- [CDN (콘텐츠 전송 네트워크)](/knowledge/linux/cdn/)

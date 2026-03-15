@@ -1,5 +1,5 @@
 ---
-title: "Single Sign-On"
+title: "싱글 사인온 (Single Sign-On)"
 description: "Single Sign-On(SSO)은 사용자가 하나의 인증 자격 증명으로 여러 시스템과 애플리케이션에 접근할 수 있게 하는 인증 메커니즘으로, 사용자 ID와 인증 정보를 중앙에서 관리하여 모든 환경의 컴퓨터에 동일한 자격 증명으로 로그인할 수 있게 한다"
 tags: ['Sso', 'Authentication', 'Identity', 'Centralized Login', 'Directory Service']
 created: 2026-02-12
@@ -53,10 +53,10 @@ getent passwd domain_user
 
 ## 관련 개념
 
-- [LDAP](/knowledge/linux/ldap/)
-- [Kerberos](/knowledge/linux/kerberos/)
-- [SSSD](/knowledge/linux/sssd/)
-- [PAM](/knowledge/linux/pam/)
-- [NSSwitch](/knowledge/linux/nsswitch/)
-- [Active Directory](/knowledge/linux/active-directory/)
-- [Identity Management](/knowledge/linux/identity-management/)
+- [LDAP (경량 디렉토리 접근 프로토콜)](/knowledge/linux/ldap/)
+- [Kerberos (커버로스)](/knowledge/linux/kerberos/)
+- [SSSD (시스템 보안 서비스 데몬)](/knowledge/linux/sssd/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)
+- [NSSwitch (네임 서비스 스위치)](/knowledge/linux/nsswitch/)
+- [Active Directory (액티브 디렉토리)](/knowledge/linux/active-directory/)
+- [ID 관리 (Identity Management)](/knowledge/linux/identity-management/)

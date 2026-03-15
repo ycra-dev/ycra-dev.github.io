@@ -1,5 +1,5 @@
 ---
-title: "Proc Filesystem"
+title: "Proc 파일 시스템 (Proc Filesystem)"
 description: "/proc는 커널이 시스템 상태 정보를 노출하는 의사 파일시스템(pseudo-filesystem)으로, 프로세스 정보뿐 아니라 다양한 커널 통계와 설정 파라미터를 포함한다"
 tags: ['Proc', 'Filesystem', 'Linux', 'Kernel', 'Pseudo Filesystem', 'Monitoring']
 created: 2026-02-12
@@ -47,6 +47,6 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 
 ## 관련 개념
 
-- [Process](/knowledge/linux/process/)
-- [Signal](/knowledge/linux/signal/)
-- [Systemd](/knowledge/linux/systemd/)
+- [프로세스 (Process)](/knowledge/linux/process/)
+- [시그널 (Signal)](/knowledge/linux/signal/)
+- [Systemd (시스템 관리 데몬)](/knowledge/linux/systemd/)

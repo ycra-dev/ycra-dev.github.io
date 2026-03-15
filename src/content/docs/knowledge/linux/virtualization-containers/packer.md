@@ -1,5 +1,5 @@
 ---
-title: "Packer"
+title: "Packer (패커)"
 description: "Packer는 HashiCorp에서 개발한 오픈소스 도구로, 명세 파일(specification file)로부터 다양한 가상화 및 클라우드 플랫폼용 가상 머신 이미지를 자동으로 빌드하는 도구이다"
 tags: ['Packer', 'Hashicorp', 'Image Building', 'Virtualization', 'Infrastructure As Code']
 created: 2026-02-12
@@ -56,6 +56,6 @@ packer build -debug custom_ami.json
 
 ## 관련 개념
 
-- [Virtual Machine](/knowledge/linux/virtual-machine/)
-- [Infrastructure as Code](/knowledge/linux/infrastructure-as-code/)
-- [Vagrant](/knowledge/linux/vagrant/)
+- [가상 머신 (Virtual Machine)](/knowledge/linux/virtual-machine/)
+- [코드형 인프라 (Infrastructure as Code)](/knowledge/linux/infrastructure-as-code/)
+- [Vagrant (베이그런트)](/knowledge/linux/vagrant/)

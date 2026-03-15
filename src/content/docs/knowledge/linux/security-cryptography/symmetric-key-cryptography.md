@@ -1,5 +1,5 @@
 ---
-title: "Symmetric Key Cryptography"
+title: "대칭 키 암호화 (Symmetric Key Cryptography)"
 description: "대칭 키 암호화는 송신자와 수신자가 동일한 비밀 키를 사용하여 메시지를 암호화하고 복호화하는 암호화 방식이다"
 tags: ['Security', 'Cryptography', 'Aes', 'Encryption', 'Shared Secret']
 created: 2026-02-12
@@ -46,7 +46,7 @@ openssl enc -aes-256-cbc -salt -in data.txt -out data.enc \
 
 ## 관련 개념
 
-- [public-key-cryptography](/knowledge/linux/public-key-cryptography/) - 대칭 키 교환 문제를 해결하는 비대칭 암호화
-- [tls-ssl](/knowledge/linux/tls-ssl/) - 대칭/비대칭 하이브리드 암호화 사용
-- [ssh](/knowledge/linux/ssh/) - 세션 암호화에 대칭 키 사용
-- [vpn](/knowledge/linux/vpn/) - VPN 터널의 데이터 암호화
+- [공개 키 암호화 (Public Key Cryptography)](/knowledge/linux/public-key-cryptography/) - 대칭 키 교환 문제를 해결하는 비대칭 암호화
+- [TLS/SSL (전송 계층 보안)](/knowledge/linux/tls-ssl/) - 대칭/비대칭 하이브리드 암호화 사용
+- [SSH (보안 셸)](/knowledge/linux/ssh/) - 세션 암호화에 대칭 키 사용
+- [VPN (가상 사설 네트워크)](/knowledge/linux/vpn/) - VPN 터널의 데이터 암호화

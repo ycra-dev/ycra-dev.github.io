@@ -1,5 +1,5 @@
 ---
-title: "CI/CD Pipeline"
+title: "CI/CD 파이프라인 (CI/CD Pipeline)"
 description: "CI/CD 파이프라인은 소프트웨어를 빌드, 테스트, 배포하는 순차적 단계(stages)의 시리즈로, 코드 변경이 프로덕션에 이르기까지의 자동화된 워크플로를 정의한다"
 tags: ['CI/CD Pipeline', 'Stages', 'Build', 'Test', 'Deploy', 'Automation']
 created: 2026-02-12
@@ -70,9 +70,9 @@ pipeline {
 
 ## 관련 개념
 
-- [Continuous Integration](/knowledge/linux/continuous-integration/)
-- [Continuous Delivery](/knowledge/linux/continuous-delivery/)
-- [Jenkins](/knowledge/linux/jenkins/)
-- [Blue-Green Deployment](/knowledge/linux/blue-green-deployment/)
-- [Feature Flag](/knowledge/linux/feature-flag/)
-- [Build Artifact](/knowledge/linux/build-artifact/)
+- [지속적 통합 (Continuous Integration)](/knowledge/linux/continuous-integration/)
+- [지속적 전달 (Continuous Delivery)](/knowledge/linux/continuous-delivery/)
+- [Jenkins (젠킨스)](/knowledge/linux/jenkins/)
+- [블루-그린 배포 (Blue-Green Deployment)](/knowledge/linux/blue-green-deployment/)
+- [기능 플래그 (Feature Flag)](/knowledge/linux/feature-flag/)
+- [빌드 아티팩트 (Build Artifact)](/knowledge/linux/build-artifact/)

@@ -1,5 +1,5 @@
 ---
-title: "iostat"
+title: "iostat (I/O 통계 도구)"
 description: "iostat은 디스크 I/O 성능을 모니터링하는 명령으로, 각 디스크 장치의 초당 전송 수(tps), 읽기/쓰기 속도, 총 읽기/쓰기 바이트를 보여준다"
 tags: ['Performance', 'Disk I/O', 'Monitoring', 'Storage', 'Iops', 'Throughput']
 created: 2026-02-12
@@ -53,8 +53,8 @@ fio --name=randread --ioengine=libaio --rw=randread \
 
 ## 관련 개념
 
-- [vmstat](/knowledge/linux/vmstat/) - CPU, 메모리, 페이징 활동 모니터링
-- [Memory Paging](/knowledge/linux/memory-paging/) - 스왑 영역 분산의 중요성
-- [I/O Scheduler](/knowledge/linux/io-scheduler/) - 디스크 I/O 스케줄링 알고리즘
-- [Solid State Drive](/knowledge/linux/solid-state-drive/) - SSD와 기계식 디스크의 성능 차이
-- [sar](/knowledge/linux/sar/) - 히스토리 기반 디스크 활동 보고
+- [vmstat (가상 메모리 통계 도구)](/knowledge/linux/vmstat/) - CPU, 메모리, 페이징 활동 모니터링
+- [메모리 페이징 (Memory Paging)](/knowledge/linux/memory-paging/) - 스왑 영역 분산의 중요성
+- [I/O 스케줄러 (I/O Scheduler)](/knowledge/linux/io-scheduler/) - 디스크 I/O 스케줄링 알고리즘
+- [솔리드 스테이트 드라이브 (Solid State Drive)](/knowledge/linux/solid-state-drive/) - SSD와 기계식 디스크의 성능 차이
+- [sar (시스템 활동 리포터)](/knowledge/linux/sar/) - 히스토리 기반 디스크 활동 보고

@@ -1,5 +1,5 @@
 ---
-title: "vmstat"
+title: "vmstat (가상 메모리 통계 도구)"
 description: "vmstat(Virtual Memory Statistics)는 CPU 사용률, 메모리, 페이징, 디스크 I/O, 프로세스 상태 등의 시스템 성능 정보를 실시간으로 요약하여 출력하는 성능 모니터링 명령이다"
 tags: ['Performance', 'CPU', 'Memory', 'Paging', 'Monitoring', 'Linux Command']
 created: 2026-02-12
@@ -56,6 +56,6 @@ top
 
 ## 관련 개념
 
-- [load-average](/knowledge/linux/load-average/) - CPU 부하 측정의 또 다른 방식
-- [memory-paging](/knowledge/linux/memory-paging/) - vmstat으로 확인하는 메모리 페이징 활동
-- [iostat](/knowledge/linux/iostat/) - 디스크 I/O 성능의 상세 분석
+- [로드 평균 (Load Average)](/knowledge/linux/load-average/) - CPU 부하 측정의 또 다른 방식
+- [메모리 페이징 (Memory Paging)](/knowledge/linux/memory-paging/) - vmstat으로 확인하는 메모리 페이징 활동
+- [iostat (I/O 통계 도구)](/knowledge/linux/iostat/) - 디스크 I/O 성능의 상세 분석

@@ -1,5 +1,5 @@
 ---
-title: "KVM"
+title: "KVM (커널 기반 가상 머신)"
 description: "KVM(Kernel-based Virtual Machine)은 Linux 커널에 통합된 전가상화 플랫폼으로, Intel VT/AMD-V CPU 확장을 활용하며 커널 자체가 하이퍼바이저 역할을 수행한다"
 tags: ['Kvm', 'Virtualization', 'Linux', 'Kernel', 'Hypervisor', 'Qemu']
 created: 2026-02-12
@@ -47,7 +47,7 @@ virsh undefine ubuntu-server  # VM 정의 제거
 
 ## 관련 개념
 
-- [Hypervisor](/knowledge/linux/hypervisor/)
-- [Virtual Machine](/knowledge/linux/virtual-machine/)
-- [QEMU](/knowledge/linux/qemu/)
-- [Kernel Module](/knowledge/linux/kernel-module/)
+- [하이퍼바이저 (Hypervisor)](/knowledge/linux/hypervisor/)
+- [가상 머신 (Virtual Machine)](/knowledge/linux/virtual-machine/)
+- [QEMU (큐이뮤)](/knowledge/linux/qemu/)
+- [커널 모듈 (Kernel Module)](/knowledge/linux/kernel-module/)

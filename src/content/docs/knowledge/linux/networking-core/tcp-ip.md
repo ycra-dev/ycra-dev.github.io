@@ -1,5 +1,5 @@
 ---
-title: "TCP/IP Protocol Suite"
+title: "TCP/IP 프로토콜 스위트 (TCP/IP Protocol Suite)"
 description: "TCP/IP(Transmission Control Protocol/Internet Protocol)는 인터넷의 기반이 되는 네트워크 프로토콜 모음(suite)으로, 하드웨어나 운영체제에 독립적으로 동작하며 서로 다른 장치 간의 데이터 통신(상호운용성)을 가능하게 한다"
 tags: ['TCP IP', 'Networking', 'Protocol', 'Internet', 'Osi Model']
 created: 2026-02-12
@@ -45,9 +45,9 @@ netstat -an
 
 ## 관련 개념
 
-- [ipv4](/knowledge/linux/ipv4/) - TCP/IP의 현재 주류 네트워크 계층 프로토콜
-- [ipv6](/knowledge/linux/ipv6/) - 차세대 네트워크 계층 프로토콜
-- [tcp-port](/knowledge/linux/tcp-port/) - 전송 계층의 포트 주소 체계
-- [ethernet](/knowledge/linux/ethernet/) - 링크 계층 프로토콜
-- [routing-table](/knowledge/linux/routing-table/) - IP 계층의 패킷 전달 메커니즘
-- [network-packet-encapsulation](/knowledge/linux/network-packet-encapsulation/) - 계층 간 데이터 포장 방식
+- [IPv4 (인터넷 프로토콜 버전 4)](/knowledge/linux/ipv4/) - TCP/IP의 현재 주류 네트워크 계층 프로토콜
+- [IPv6 (인터넷 프로토콜 버전 6)](/knowledge/linux/ipv6/) - 차세대 네트워크 계층 프로토콜
+- [TCP/UDP 포트 (TCP/UDP Port)](/knowledge/linux/tcp-port/) - 전송 계층의 포트 주소 체계
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - 링크 계층 프로토콜
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - IP 계층의 패킷 전달 메커니즘
+- [네트워크 패킷 캡슐화 (Network Packet Encapsulation)](/knowledge/linux/network-packet-encapsulation/) - 계층 간 데이터 포장 방식

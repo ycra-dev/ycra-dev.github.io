@@ -1,5 +1,5 @@
 ---
-title: "Journaling"
+title: "저널링 (Journaling)"
 description: "저널링(Journaling)은 파일시스템 연산의 변경사항을 먼저 저널(로그)에 기록한 뒤 실제 파일시스템에 반영하는 기법으로, 정전이나 충돌 시 데이터 구조의 일관성을 보장한다"
 tags: ['Journaling', 'Filesystem', 'Crash Recovery', 'Ext4', 'Xfs', 'Data Integrity']
 created: 2026-02-12
@@ -44,8 +44,8 @@ sudo mkfs.xfs /dev/sdb1
 
 ## 관련 개념
 
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Copy-on-Write](/knowledge/linux/copy-on-write/)
-- [Inode](/knowledge/linux/inode/)
-- [ZFS](/knowledge/linux/zfs/)
-- [Btrfs](/knowledge/linux/btrfs/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [기록 시 복사 (Copy-on-Write)](/knowledge/linux/copy-on-write/)
+- [아이노드 (Inode)](/knowledge/linux/inode/)
+- [ZFS (Z 파일 시스템)](/knowledge/linux/zfs/)
+- [Btrfs (B-트리 파일 시스템)](/knowledge/linux/btrfs/)

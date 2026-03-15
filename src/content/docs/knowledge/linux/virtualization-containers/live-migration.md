@@ -1,5 +1,5 @@
 ---
-title: "Live Migration"
+title: "라이브 마이그레이션 (Live Migration)"
 description: "라이브 마이그레이션(Live Migration)은 가상 머신을 서비스 중단이나 연결 손실 없이 서로 다른 물리 하드웨어에서 실행 중인 하이퍼바이저 간에 실시간으로 이동시키는 기술이다"
 tags: ['Live Migration', 'Virtualization', 'High Availability', 'VM', 'Hypervisor']
 created: 2026-02-12
@@ -40,6 +40,6 @@ xl migrate vm-name target-host
 
 ## 관련 개념
 
-- [Hypervisor](/knowledge/linux/hypervisor/)
-- [Virtual Machine](/knowledge/linux/virtual-machine/)
-- [KVM](/knowledge/linux/kvm/)
+- [하이퍼바이저 (Hypervisor)](/knowledge/linux/hypervisor/)
+- [가상 머신 (Virtual Machine)](/knowledge/linux/virtual-machine/)
+- [KVM (커널 기반 가상 머신)](/knowledge/linux/kvm/)

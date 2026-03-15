@@ -1,5 +1,5 @@
 ---
-title: "SSH (Secure Shell)"
+title: "SSH (보안 셸)"
 description: "SSH(Secure Shell)는 안전하지 않은 네트워크에서 원격 로그인, 명령 실행, 파일 전송, 포트 포워딩 등을 암호화된 채널로 제공하는 클라이언트/서버 프로토콜이다"
 tags: ['Security', 'Network', 'Remote Access', 'Openssh', 'Encryption', 'Authentication']
 created: 2026-02-12
@@ -76,7 +76,7 @@ ssh -A user@jump-server
 
 ## 관련 개념
 
-- [public-key-cryptography](/knowledge/linux/public-key-cryptography/) - SSH 인증의 기반 암호화
-- [ssh-port-forwarding](/knowledge/linux/ssh-port-forwarding/) - SSH 터널링 기능
-- [pam](/knowledge/linux/pam/) - SSH와 통합되는 인증 프레임워크
-- [multifactor-authentication](/knowledge/linux/multifactor-authentication/) - SSH 접근에 적용하는 MFA
+- [공개 키 암호화 (Public Key Cryptography)](/knowledge/linux/public-key-cryptography/) - SSH 인증의 기반 암호화
+- [SSH 포트 포워딩 (SSH Port Forwarding)](/knowledge/linux/ssh-port-forwarding/) - SSH 터널링 기능
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/) - SSH와 통합되는 인증 프레임워크
+- [다중 인증 (Multifactor Authentication)](/knowledge/linux/multifactor-authentication/) - SSH 접근에 적용하는 MFA

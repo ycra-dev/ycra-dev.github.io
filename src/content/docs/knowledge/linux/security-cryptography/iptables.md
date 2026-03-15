@@ -1,5 +1,5 @@
 ---
-title: "iptables"
+title: "iptables (방화벽 규칙)"
 description: "iptables는 Linux 커널의 netfilter 프레임워크를 사용하여 네트워크 패킷의 필터링, NAT, 포트 포워딩 등을 수행하는 호스트 기반 패킷 필터링 도구이다"
 tags: ['Security', 'Linux', 'Packet Filtering', 'Firewall', 'Netfilter']
 created: 2026-02-12
@@ -53,7 +53,7 @@ sudo ufw allow from 192.168.1.0/24 to any port 22
 
 ## 관련 개념
 
-- [firewall](/knowledge/linux/firewall/) - 방화벽의 개념과 유형
-- [ssh](/knowledge/linux/ssh/) - iptables로 보호해야 할 핵심 서비스
-- [linux-capabilities](/knowledge/linux/linux-capabilities/) - 특권 포트 바인딩에 필요한 권한
-- [network-monitoring](/knowledge/linux/network-monitoring/) - 네트워크 상태 모니터링
+- [방화벽 (Firewall)](/knowledge/linux/firewall/) - 방화벽의 개념과 유형
+- [SSH (보안 셸)](/knowledge/linux/ssh/) - iptables로 보호해야 할 핵심 서비스
+- [리눅스 캐퍼빌리티 (Linux Capabilities)](/knowledge/linux/linux-capabilities/) - 특권 포트 바인딩에 필요한 권한
+- [네트워크 모니터링 (Network Monitoring)](/knowledge/linux/network-monitoring/) - 네트워크 상태 모니터링

@@ -1,5 +1,5 @@
 ---
-title: "SMART Monitoring"
+title: "SMART 모니터링 (SMART Monitoring)"
 description: "SMART(Self-Monitoring, Analysis, and Reporting Technology)는 SATA 디스크에 구현된 자기 진단 및 상태 보고 표준으로, 50개 이상의 운영 매개변수를 호스트 컴퓨터에 노출하여 디스크 장애를 사전에 예측할 수 있게 한다"
 tags: ['Smart', 'Disk Monitoring', 'Smartmontools', 'Smartctl', 'Reliability']
 created: 2026-02-12
@@ -46,6 +46,6 @@ sudo systemctl start smartd
 
 ## 관련 개념
 
-- [Solid State Drive](/knowledge/linux/solid-state-drive/)
-- [RAID](/knowledge/linux/raid/)
-- [Device File](/knowledge/linux/device-file/)
+- [솔리드 스테이트 드라이브 (Solid State Drive)](/knowledge/linux/solid-state-drive/)
+- [RAID (독립 디스크의 중복 배열)](/knowledge/linux/raid/)
+- [디바이스 파일 (Device File)](/knowledge/linux/device-file/)

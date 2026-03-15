@@ -1,5 +1,5 @@
 ---
-title: "UPS Power"
+title: "UPS 전원 (UPS Power)"
 description: "UPS(Uninterruptible Power Supply)는 상용 전원이 중단될 때 서버와 네트워크 장비에 지속적인 전력을 공급하는 장치로, 수 분에서 수 시간까지 백업 전력을 제공하지만 장기 정전에는 발전기가 필요하다"
 tags: ['Data Center', 'Power', 'Ups', 'Generator', 'Redundancy', 'Availability']
 created: 2026-02-12
@@ -54,6 +54,6 @@ sudo lsusb | grep -i ups
 
 ## 관련 개념
 
-- [Data Center Tier](/knowledge/linux/data-center-tier/) - 데이터센터 가용성 등급과 전력 이중화
-- [Data Center Cooling](/knowledge/linux/data-center-cooling/) - 전력과 냉각의 상호 의존성
-- [PUE Energy Efficiency](/knowledge/linux/pue-energy-efficiency/) - 전력 사용 효율성 지표
+- [데이터 센터 티어 (Data Center Tier)](/knowledge/linux/data-center-tier/) - 데이터센터 가용성 등급과 전력 이중화
+- [데이터 센터 냉각 (Data Center Cooling)](/knowledge/linux/data-center-cooling/) - 전력과 냉각의 상호 의존성
+- [PUE 에너지 효율 (PUE Energy Efficiency)](/knowledge/linux/pue-energy-efficiency/) - 전력 사용 효율성 지표

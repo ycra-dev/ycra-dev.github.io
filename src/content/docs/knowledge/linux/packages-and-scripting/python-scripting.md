@@ -1,5 +1,5 @@
 ---
-title: "Python Scripting"
+title: "Python 스크립팅 (Python Scripting)"
 description: "Python 스크립팅은 쉘 스크립트보다 복잡한 로직을 다루면서 높은 가독성과 풍부한 라이브러리를 제공하는 현대적인 시스템 관리 자동화 방법이다"
 tags: ['Python', 'Scripting', 'Automation', 'Programming', 'System Administration']
 created: 2026-02-12
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
 ## 관련 개념
 
-- [Shell Scripting](/knowledge/linux/shell-scripting/)
-- [Regular Expressions](/knowledge/linux/regular-expressions/)
-- [DevOps](/knowledge/linux/devops/)
-- [Package Management](/knowledge/linux/package-management/)
+- [셸 스크립팅 (Shell Scripting)](/knowledge/linux/shell-scripting/)
+- [정규 표현식 (Regular Expressions)](/knowledge/linux/regular-expressions/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)
+- [패키지 관리 (Package Management)](/knowledge/linux/package-management/)

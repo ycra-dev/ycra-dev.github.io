@@ -1,5 +1,5 @@
 ---
-title: "RIP (Routing Information Protocol)"
+title: "RIP (라우팅 정보 프로토콜)"
 description: "RIP(Routing Information Protocol)는 홉 수를 비용 메트릭으로 사용하는 간단한 거리 벡터 라우팅 프로토콜로, RFC1058(1988)에 정의되었으며 RIPv1, RIPv2, RIPng(IPv6)의 세 가지 버전이 존재한다"
 tags: ['Rip', 'Routing Protocol', 'Distance Vector', 'Hop Count', 'Ripv2']
 created: 2026-02-12
@@ -49,8 +49,8 @@ sudo tcpdump -i eth0 port 520
 
 ## 관련 개념
 
-- [distance-vector-routing](/knowledge/linux/distance-vector-routing/) - RIP이 속하는 라우팅 프로토콜 유형
-- [routing-protocol](/knowledge/linux/routing-protocol/) - RIP을 포함하는 상위 개념
-- [ospf](/knowledge/linux/ospf/) - RIP의 대안인 링크 상태 프로토콜
-- [routing-daemon](/knowledge/linux/routing-daemon/) - RIP을 구현하는 소프트웨어
-- [routing-table](/knowledge/linux/routing-table/) - RIP이 관리하는 경로 정보
+- [거리 벡터 라우팅 (Distance-Vector Routing)](/knowledge/linux/distance-vector-routing/) - RIP이 속하는 라우팅 프로토콜 유형
+- [라우팅 프로토콜 (Routing Protocol)](/knowledge/linux/routing-protocol/) - RIP을 포함하는 상위 개념
+- [OSPF (최단 경로 우선 프로토콜)](/knowledge/linux/ospf/) - RIP의 대안인 링크 상태 프로토콜
+- [라우팅 데몬 (Routing Daemon)](/knowledge/linux/routing-daemon/) - RIP을 구현하는 소프트웨어
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - RIP이 관리하는 경로 정보

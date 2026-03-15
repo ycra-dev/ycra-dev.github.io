@@ -1,5 +1,5 @@
 ---
-title: "Identity Management"
+title: "ID 관리 (Identity Management)"
 description: "Identity Management(IAM)는 시스템 사용자를 식별하고, 신원을 인증하며, 인증된 신원에 따라 권한을 부여하는 프로세스와 시스템으로, 사용자 계정 관리, 역할 기반 접근 제어, 감사 추적을 통합한다"
 tags: ['Iam', 'Authentication', 'Authorization', 'Access Control', 'Compliance', 'Rbac']
 created: 2026-02-12
@@ -44,10 +44,10 @@ sudo auditctl -w /etc/shadow -p wa -k shadow_changes
 
 ## 관련 개념
 
-- [LDAP](/knowledge/linux/ldap/)
-- [PAM](/knowledge/linux/pam/)
-- [Sudo](/knowledge/linux/sudo/)
-- [DevOps](/knowledge/linux/devops/)
-- [Single Sign-On](/knowledge/linux/single-sign-on/)
-- [Kerberos](/knowledge/linux/kerberos/)
-- [SSSD](/knowledge/linux/sssd/)
+- [LDAP (경량 디렉토리 접근 프로토콜)](/knowledge/linux/ldap/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)
+- [Sudo (관리자 권한 실행)](/knowledge/linux/sudo/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)
+- [싱글 사인온 (Single Sign-On)](/knowledge/linux/single-sign-on/)
+- [Kerberos (커버로스)](/knowledge/linux/kerberos/)
+- [SSSD (시스템 보안 서비스 데몬)](/knowledge/linux/sssd/)

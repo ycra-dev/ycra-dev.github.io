@@ -1,5 +1,5 @@
 ---
-title: "Union Filesystem"
+title: "유니온 파일 시스템 (Union Filesystem)"
 description: "유니온 파일시스템(Union Filesystem)은 여러 파일시스템을 오버레이하여 하나의 일관된 계층 구조를 생성하는 기술로, Docker 컨테이너의 이미지 레이어링과 copy-on-write 전략의 기반이다"
 tags: ['Union Filesystem', 'Overlay', 'Copy On Write', 'Docker', 'Container', 'Storage']
 created: 2026-02-12
@@ -56,7 +56,7 @@ docker history nginx
 
 ## 관련 개념
 
-- [Docker](/knowledge/linux/docker/)
-- [Dockerfile](/knowledge/linux/dockerfile/)
-- [Container](/knowledge/linux/container/)
-- [Filesystem](/knowledge/linux/filesystem/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [Dockerfile (도커파일)](/knowledge/linux/dockerfile/)
+- [컨테이너 (Container)](/knowledge/linux/container/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)

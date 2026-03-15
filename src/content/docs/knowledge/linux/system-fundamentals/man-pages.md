@@ -1,5 +1,5 @@
 ---
-title: "Man Pages"
+title: "매뉴얼 페이지 (Man Pages)"
 description: "Man pages(매뉴얼 페이지)는 UNIX/Linux 시스템에서 명령어, 드라이버, 파일 형식, 라이브러리 루틴 등을 설명하는 전통적인 온라인 문서 시스템이다"
 tags: ['Documentation', 'Unix', 'Linux', 'Manual', 'Cli']
 created: 2026-02-12
@@ -34,5 +34,5 @@ manpath
 
 ## 관련 개념
 
-- [Linux Distribution](/knowledge/linux/linux-distribution/)
-- [Package Management](/knowledge/linux/package-management/)
+- [리눅스 배포판 (Linux Distribution)](/knowledge/linux/linux-distribution/)
+- [패키지 관리 (Package Management)](/knowledge/linux/package-management/)

@@ -1,5 +1,5 @@
 ---
-title: "Storage Area Network"
+title: "스토리지 에어리어 네트워크 (Storage Area Network)"
 description: "SAN(Storage Area Network)은 네트워크를 통해 블록 수준의 디스크 접근을 제공하는 고성능 저장소 시스템으로, NFS/SMB와 달리 파일시스템이 아닌 원시 디스크 블록을 전송한다"
 tags: ['San', 'Block Storage', 'Iscsi', 'Fibre Channel', 'Network Storage']
 created: 2026-02-12
@@ -36,8 +36,8 @@ sudo mount /dev/sdc /mnt/san-storage
 
 ## 관련 개념
 
-- [NFS](/knowledge/linux/nfs/)
-- [SMB Protocol](/knowledge/linux/smb-protocol/)
-- [RAID](/knowledge/linux/raid/)
-- [Object Storage](/knowledge/linux/object-storage/)
-- [Filesystem](/knowledge/linux/filesystem/)
+- [NFS (네트워크 파일 시스템)](/knowledge/linux/nfs/)
+- [SMB 프로토콜 (SMB Protocol)](/knowledge/linux/smb-protocol/)
+- [RAID (독립 디스크의 중복 배열)](/knowledge/linux/raid/)
+- [오브젝트 스토리지 (Object Storage)](/knowledge/linux/object-storage/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)

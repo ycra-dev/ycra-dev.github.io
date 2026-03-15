@@ -1,5 +1,5 @@
 ---
-title: "Buffer Overflow"
+title: "버퍼 오버플로우 (Buffer Overflow)"
 description: "버퍼 오버플로우는 프로그램이 할당된 메모리 버퍼의 크기를 초과하는 데이터를 기록할 때 발생하는 보안 취약점으로, 인접 메모리를 덮어써 프로그램 충돌이나 임의 코드 실행을 유발할 수 있다"
 tags: ['Security', 'Vulnerability', 'Input Validation', 'Memory Safety', 'Exploit']
 created: 2026-02-12
@@ -55,7 +55,7 @@ setcap cap_net_bind_service=+ep /usr/sbin/nginx
 
 ## 관련 개념
 
-- [linux-capabilities](/knowledge/linux/linux-capabilities/) - 프로세스 권한을 세밀하게 제한하는 메커니즘
-- [linux-namespaces](/knowledge/linux/linux-namespaces/) - 컨테이너를 통한 격리
-- [setuid](/knowledge/linux/setuid/) - 특권 프로그램의 보안 위험
-- [process](/knowledge/linux/process/) - 프로세스 권한과 보안의 관계
+- [리눅스 캐퍼빌리티 (Linux Capabilities)](/knowledge/linux/linux-capabilities/) - 프로세스 권한을 세밀하게 제한하는 메커니즘
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/linux/linux-namespaces/) - 컨테이너를 통한 격리
+- [Setuid (사용자 ID 설정)](/knowledge/linux/setuid/) - 특권 프로그램의 보안 위험
+- [프로세스 (Process)](/knowledge/linux/process/) - 프로세스 권한과 보안의 관계

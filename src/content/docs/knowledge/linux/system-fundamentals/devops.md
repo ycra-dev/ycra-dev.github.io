@@ -1,5 +1,5 @@
 ---
-title: "DevOps"
+title: "DevOps (데브옵스)"
 description: "DevOps는 특정 직무가 아닌 문화 또는 운영 철학으로, 소프트웨어의 빌드와 배포 효율성을 개선하는 것을 목표로 하며, 개발(Development)과 운영(Operations) 팀 간의 통합을 촉진한다"
 tags: ['DevOps', 'Culture', 'Operations', 'Development', 'Automation', 'Clams', 'Lean', 'Measurement', 'Sharing']
 created: 2026-02-12
@@ -44,15 +44,15 @@ git push origin main  # → 자동 빌드 → 자동 테스트 → 자동 배포
 
 ## 관련 개념
 
-- [Site Reliability Engineering](/knowledge/linux/site-reliability-engineering/)
-- [Package Management](/knowledge/linux/package-management/)
-- [Linux Distribution](/knowledge/linux/linux-distribution/)
-- [Configuration Management](/knowledge/linux/configuration-management/)
-- [Continuous Integration](/knowledge/linux/continuous-integration/)
-- [Continuous Delivery](/knowledge/linux/continuous-delivery/)
-- [CI/CD Pipeline](/knowledge/linux/cicd-pipeline/)
-- [Infrastructure as Code](/knowledge/linux/infrastructure-as-code/)
-- [ChatOps](/knowledge/linux/chatops/) - 실시간 소통 채널
-- [Ticketing System](/knowledge/linux/ticketing-system/) - 통합 업무 관리
-- [Change Management](/knowledge/linux/change-management/) - 자동화된 변경 관리
-- [Compliance Standards](/knowledge/linux/compliance-standards/) - ITIL에서 DevOps로의 전환
+- [사이트 신뢰성 공학 (Site Reliability Engineering)](/knowledge/linux/site-reliability-engineering/)
+- [패키지 관리 (Package Management)](/knowledge/linux/package-management/)
+- [리눅스 배포판 (Linux Distribution)](/knowledge/linux/linux-distribution/)
+- [구성 관리 (Configuration Management)](/knowledge/linux/configuration-management/)
+- [지속적 통합 (Continuous Integration)](/knowledge/linux/continuous-integration/)
+- [지속적 전달 (Continuous Delivery)](/knowledge/linux/continuous-delivery/)
+- [CI/CD 파이프라인 (CI/CD Pipeline)](/knowledge/linux/cicd-pipeline/)
+- [코드형 인프라 (Infrastructure as Code)](/knowledge/linux/infrastructure-as-code/)
+- [ChatOps (챗옵스)](/knowledge/linux/chatops/) - 실시간 소통 채널
+- [티켓 시스템 (Ticketing System)](/knowledge/linux/ticketing-system/) - 통합 업무 관리
+- [변경 관리 (Change Management)](/knowledge/linux/change-management/) - 자동화된 변경 관리
+- [컴플라이언스 표준 (Compliance Standards)](/knowledge/linux/compliance-standards/) - ITIL에서 DevOps로의 전환

@@ -1,5 +1,5 @@
 ---
-title: "Infrastructure as a Service"
+title: "서비스형 인프라 (Infrastructure as a Service)"
 description: "IaaS는 가상화된 컴퓨팅, 메모리, 네트워크, 스토리지 리소스를 요청하고 관리하는 클라우드 서비스 모델로, 클라우드 제공업체는 물리적 인프라만 담당하고 사용자는 OS 이상의 모든 계층을 직접 관리한다"
 tags: ['Iaas', 'Cloud Computing', 'Virtualization', 'Vps', 'AWS', 'GCP']
 created: 2026-02-12
@@ -41,8 +41,8 @@ aws ec2 terminate-instances --instance-ids i-123456
 
 ## 관련 개념
 
-- [Infrastructure as Code](/knowledge/linux/infrastructure-as-code/)
-- [Object Storage](/knowledge/linux/object-storage/)
-- [DevOps](/knowledge/linux/devops/)
-- [Site Reliability Engineering](/knowledge/linux/site-reliability-engineering/)
-- [Linux Namespaces](/knowledge/linux/linux-namespaces/)
+- [코드형 인프라 (Infrastructure as Code)](/knowledge/linux/infrastructure-as-code/)
+- [오브젝트 스토리지 (Object Storage)](/knowledge/linux/object-storage/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)
+- [사이트 신뢰성 공학 (Site Reliability Engineering)](/knowledge/linux/site-reliability-engineering/)
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/linux/linux-namespaces/)

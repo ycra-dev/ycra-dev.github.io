@@ -1,5 +1,5 @@
 ---
-title: "Btrfs"
+title: "Btrfs (B-트리 파일 시스템)"
 description: "Btrfs(B-tree File System)는 Linux용 차세대 파일시스템으로, ZFS와 유사하게 copy-on-write, 체크섬, 볼륨 관리, RAID 기능을 통합하지만, 하드웨어 재구성의 유연성에서 ZFS를 능가한다"
 tags: ['Btrfs', 'Copy On Write', 'Subvolume', 'Snapshot', 'Linux Filesystem']
 created: 2026-02-12
@@ -57,8 +57,8 @@ sudo btrfs filesystem usage /mnt/demo
 
 ## 관련 개념
 
-- [ZFS](/knowledge/linux/zfs/)
-- [RAID](/knowledge/linux/raid/)
-- [Logical Volume Manager](/knowledge/linux/logical-volume-manager/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Copy-on-Write](/knowledge/linux/copy-on-write/)
+- [ZFS (Z 파일 시스템)](/knowledge/linux/zfs/)
+- [RAID (독립 디스크의 중복 배열)](/knowledge/linux/raid/)
+- [논리 볼륨 관리자 (Logical Volume Manager)](/knowledge/linux/logical-volume-manager/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [기록 시 복사 (Copy-on-Write)](/knowledge/linux/copy-on-write/)

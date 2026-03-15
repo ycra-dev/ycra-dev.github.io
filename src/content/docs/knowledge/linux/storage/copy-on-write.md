@@ -1,5 +1,5 @@
 ---
-title: "Copy-on-Write"
+title: "기록 시 복사 (Copy-on-Write)"
 description: "Copy-on-Write(COW)는 자원이 실제로 수정될 때만 복사본을 생성하는 최적화 전략으로, 컨테이너 이미지의 레이어 시스템과 가상 머신의 디스크 관리에서 핵심적으로 사용된다"
 tags: ['Copy On Write', 'Cow', 'Filesystem', 'Container', 'Virtualization', 'Storage']
 created: 2026-02-12
@@ -41,7 +41,7 @@ btrfs subvolume snapshot /mnt/data /mnt/data-snapshot
 
 ## 관련 개념
 
-- [Union Filesystem](/knowledge/linux/union-filesystem/)
-- [Docker](/knowledge/linux/docker/)
-- [Container](/knowledge/linux/container/)
-- [Filesystem](/knowledge/linux/filesystem/)
+- [유니온 파일 시스템 (Union Filesystem)](/knowledge/linux/union-filesystem/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [컨테이너 (Container)](/knowledge/linux/container/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)

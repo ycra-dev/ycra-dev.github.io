@@ -1,5 +1,5 @@
 ---
-title: "Autonomous System (AS)"
+title: "자율 시스템 (Autonomous System, AS)"
 description: "자율 시스템(Autonomous System, AS)은 단일 관리 주체의 통제 하에 있는 네트워크 그룹으로, 내부 라우팅과 외부 라우팅의 경계를 정의하며 BGP 등 외부 라우팅 프로토콜에서 라우팅 단위로 사용된다"
 tags: ['Autonomous System', 'As Number', 'Bgp', 'Internet Routing', 'Arin']
 created: 2026-02-12
@@ -47,7 +47,7 @@ whois -h whois.radb.net 8.8.8.8
 
 ## 관련 개념
 
-- [bgp](/knowledge/linux/bgp/) - AS 간 라우팅을 담당하는 프로토콜
-- [ospf](/knowledge/linux/ospf/) - AS 내부 라우팅 프로토콜
-- [routing-protocol](/knowledge/linux/routing-protocol/) - AS 구분에 따른 프로토콜 분류
-- [network-router](/knowledge/linux/network-router/) - AS 경계에서 동작하는 장비
+- [BGP (경계 게이트웨이 프로토콜)](/knowledge/linux/bgp/) - AS 간 라우팅을 담당하는 프로토콜
+- [OSPF (최단 경로 우선 프로토콜)](/knowledge/linux/ospf/) - AS 내부 라우팅 프로토콜
+- [라우팅 프로토콜 (Routing Protocol)](/knowledge/linux/routing-protocol/) - AS 구분에 따른 프로토콜 분류
+- [네트워크 라우터 (Network Router)](/knowledge/linux/network-router/) - AS 경계에서 동작하는 장비

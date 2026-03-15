@@ -1,5 +1,5 @@
 ---
-title: "VLAN (Virtual Local Area Network)"
+title: "VLAN (가상 랜)"
 description: "VLAN(Virtual Local Area Network)은 네트워크 스위치의 포트를 소프트웨어 설정으로 논리적 그룹으로 분할하여, 각 그룹이 독립된 물리적 스위치에 연결된 것처럼 동작하게 하는 기술이다"
 tags: ['Vlan', 'Network Switch', 'Layer2', '802.1q', 'Network Segmentation']
 created: 2026-02-12
@@ -48,8 +48,8 @@ sudo ip link delete eth0.100
 
 ## 관련 개념
 
-- [network-switch](/knowledge/linux/network-switch/) - VLAN이 구현되는 장비
-- [network-router](/knowledge/linux/network-router/) - VLAN 간 트래픽을 라우팅하는 장비
-- [firewall](/knowledge/linux/firewall/) - VLAN 간 트래픽을 필터링하는 보안 도구
-- [wireless-networking](/knowledge/linux/wireless-networking/) - SSID와 VLAN 매핑을 통한 무선 보안
-- [ethernet](/knowledge/linux/ethernet/) - VLAN이 기반으로 하는 네트워크 기술
+- [네트워크 스위치 (Network Switch)](/knowledge/linux/network-switch/) - VLAN이 구현되는 장비
+- [네트워크 라우터 (Network Router)](/knowledge/linux/network-router/) - VLAN 간 트래픽을 라우팅하는 장비
+- [방화벽 (Firewall)](/knowledge/linux/firewall/) - VLAN 간 트래픽을 필터링하는 보안 도구
+- [무선 네트워킹 (Wireless Networking)](/knowledge/linux/wireless-networking/) - SSID와 VLAN 매핑을 통한 무선 보안
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - VLAN이 기반으로 하는 네트워크 기술

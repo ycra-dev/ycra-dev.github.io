@@ -1,5 +1,5 @@
 ---
-title: "MTU (Maximum Transfer Unit)"
+title: "MTU (최대 전송 단위)"
 description: "MTU(Maximum Transfer Unit)는 네트워크 링크 계층에서 단일 프레임에 담을 수 있는 최대 페이로드 크기로, 하드웨어 규격과 프로토콜 규약에 의해 결정되며 표준 이더넷의 경우 1,500바이트이다"
 tags: ['Mtu', 'Networking', 'Ethernet', 'Fragmentation', 'Packet']
 created: 2026-02-12
@@ -46,8 +46,8 @@ sudo ip link set tun0 mtu 1400
 
 ## 관련 개념
 
-- [ethernet](/knowledge/linux/ethernet/) - 표준 1,500바이트 MTU의 기반 기술
-- [network-packet-encapsulation](/knowledge/linux/network-packet-encapsulation/) - MTU가 제한하는 캡슐화 크기
-- [icmp](/knowledge/linux/icmp/) - 경로 MTU 발견에 사용되는 프로토콜
-- [vpn](/knowledge/linux/vpn/) - MTU 설정이 중요한 터널링 환경
-- [ping](/knowledge/linux/ping/) - MTU 문제 진단 도구
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - 표준 1,500바이트 MTU의 기반 기술
+- [네트워크 패킷 캡슐화 (Network Packet Encapsulation)](/knowledge/linux/network-packet-encapsulation/) - MTU가 제한하는 캡슐화 크기
+- [ICMP (인터넷 제어 메시지 프로토콜)](/knowledge/linux/icmp/) - 경로 MTU 발견에 사용되는 프로토콜
+- [VPN (가상 사설 네트워크)](/knowledge/linux/vpn/) - MTU 설정이 중요한 터널링 환경
+- [ping (핑)](/knowledge/linux/ping/) - MTU 문제 진단 도구

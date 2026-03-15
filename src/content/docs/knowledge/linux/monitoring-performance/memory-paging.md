@@ -1,5 +1,5 @@
 ---
-title: "Memory Paging"
+title: "메모리 페이징 (Memory Paging)"
 description: "메모리 페이징은 커널이 가상 메모리 페이지를 물리적 RAM과 디스크의 스왑 공간 사이에서 이동시키는 메모리 관리 메커니즘으로, 물리적 메모리보다 더 많은 메모리를 프로세스에 할당할 수 있게 한다"
 tags: ['Performance', 'Memory', 'Virtual Memory', 'Swap', 'Oom Killer', 'Kernel']
 created: 2026-02-12
@@ -64,7 +64,7 @@ ulimit -v 32768    # 가상 메모리 32MB 제한
 
 ## 관련 개념
 
-- [vmstat](/knowledge/linux/vmstat/) - 페이징 활동 모니터링 명령
-- [load-average](/knowledge/linux/load-average/) - 메모리 부족이 시스템 부하에 미치는 영향
-- [sysctl](/knowledge/linux/sysctl/) - swappiness 파라미터 조정
-- [proc-filesystem](/knowledge/linux/proc-filesystem/) - 메모리 관련 커널 파라미터
+- [vmstat (가상 메모리 통계 도구)](/knowledge/linux/vmstat/) - 페이징 활동 모니터링 명령
+- [로드 평균 (Load Average)](/knowledge/linux/load-average/) - 메모리 부족이 시스템 부하에 미치는 영향
+- [sysctl (커널 파라미터 설정)](/knowledge/linux/sysctl/) - swappiness 파라미터 조정
+- [Proc 파일 시스템 (Proc Filesystem)](/knowledge/linux/proc-filesystem/) - 메모리 관련 커널 파라미터

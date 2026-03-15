@@ -1,5 +1,5 @@
 ---
-title: "Disk Formatting"
+title: "디스크 포맷 (Disk Formatting)"
 description: "디스크 포맷팅은 저장 매체에 주소 정보와 타이밍 마크를 기록하여 섹터를 구획하는 하드웨어 수준의 작업(로우레벨 포맷)과, 파티션 테이블 작성 및 파일시스템 설치(하이레벨 초기화)를 포함하는 광의의 용어이다"
 tags: ['Formatting', 'Mkfs', 'Newfs', 'Secure Erase', 'Bad Blocks', 'Storage']
 created: 2026-02-12
@@ -42,7 +42,7 @@ sudo fdisk -l /dev/sda | grep "Sector size"
 
 ## 관련 개념
 
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Disk Partitioning](/knowledge/linux/disk-partitioning/)
-- [Solid State Drive](/knowledge/linux/solid-state-drive/)
-- [Device File](/knowledge/linux/device-file/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [디스크 파티셔닝 (Disk Partitioning)](/knowledge/linux/disk-partitioning/)
+- [솔리드 스테이트 드라이브 (Solid State Drive)](/knowledge/linux/solid-state-drive/)
+- [디바이스 파일 (Device File)](/knowledge/linux/device-file/)

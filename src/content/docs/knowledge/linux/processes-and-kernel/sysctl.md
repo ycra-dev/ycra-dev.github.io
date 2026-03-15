@@ -1,5 +1,5 @@
 ---
-title: "sysctl"
+title: "sysctl (커널 파라미터 설정)"
 description: "sysctl은 실행 중인 커널의 파라미터를 동적으로 조회·수정하는 명령어이자 인터페이스로, 재부팅 없이 네트워크, 메모리, 파일시스템 등 커널 동작을 조정할 수 있다"
 tags: ['Kernel', 'Tuning', 'Parameters', 'Proc', 'Configuration', 'Performance']
 created: 2026-02-12
@@ -50,10 +50,10 @@ sudo sysctl -w vm.swappiness=10
 
 ## 관련 개념
 
-- [Kernel Module](/knowledge/linux/kernel-module/)
-- [Proc Filesystem](/knowledge/linux/proc-filesystem/)
-- [Boot Process](/knowledge/linux/boot-process/)
-- [ip-forwarding](/knowledge/linux/ip-forwarding/) - sysctl로 제어하는 IP 포워딩
-- [icmp](/knowledge/linux/icmp/) - sysctl로 제어하는 ICMP 보안 설정
-- [iptables](/knowledge/linux/iptables/) - sysctl과 함께 사용하는 보안 설정
-- [network-interface](/knowledge/linux/network-interface/) - 인터페이스별 커널 파라미터
+- [커널 모듈 (Kernel Module)](/knowledge/linux/kernel-module/)
+- [Proc 파일 시스템 (Proc Filesystem)](/knowledge/linux/proc-filesystem/)
+- [부트 프로세스 (Boot Process)](/knowledge/linux/boot-process/)
+- [IP 포워딩 (IP Forwarding)](/knowledge/linux/ip-forwarding/) - sysctl로 제어하는 IP 포워딩
+- [ICMP (인터넷 제어 메시지 프로토콜)](/knowledge/linux/icmp/) - sysctl로 제어하는 ICMP 보안 설정
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - sysctl과 함께 사용하는 보안 설정
+- [네트워크 인터페이스 (Network Interface)](/knowledge/linux/network-interface/) - 인터페이스별 커널 파라미터

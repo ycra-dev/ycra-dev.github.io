@@ -1,5 +1,5 @@
 ---
-title: "Wireless Networking"
+title: "무선 네트워킹 (Wireless Networking)"
 description: "무선 네트워킹(Wireless Networking)은 IEEE 802"
 tags: ['Wireless', 'Wifi', '802.11', 'Wap', 'Ssid', 'Wpa', 'Networking']
 created: 2026-02-12
@@ -53,8 +53,8 @@ nmcli dev wifi connect "MyNetwork" password "passphrase"
 
 ## 관련 개념
 
-- [ethernet](/knowledge/linux/ethernet/) - 무선 이더넷의 기반 기술
-- [vlan](/knowledge/linux/vlan/) - SSID와 매핑되는 논리적 네트워크
-- [network-switch](/knowledge/linux/network-switch/) - WAP가 연결되는 유선 인프라
-- [power-over-ethernet](/knowledge/linux/power-over-ethernet/) - WAP에 전력을 공급하는 기술
-- [firewall](/knowledge/linux/firewall/) - 무선 네트워크의 보안 필터링
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - 무선 이더넷의 기반 기술
+- [VLAN (가상 랜)](/knowledge/linux/vlan/) - SSID와 매핑되는 논리적 네트워크
+- [네트워크 스위치 (Network Switch)](/knowledge/linux/network-switch/) - WAP가 연결되는 유선 인프라
+- [전원 공급 이더넷 (Power over Ethernet, PoE)](/knowledge/linux/power-over-ethernet/) - WAP에 전력을 공급하는 기술
+- [방화벽 (Firewall)](/knowledge/linux/firewall/) - 무선 네트워크의 보안 필터링

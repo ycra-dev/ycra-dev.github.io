@@ -1,5 +1,5 @@
 ---
-title: "PKI and Certificate Authority"
+title: "PKI와 인증 기관 (PKI and Certificate Authority)"
 description: "PKI(Public Key Infrastructure)는 인증 기관(CA)이라는 신뢰할 수 있는 제3자를 통해 공개 키의 진정성을 보장하는 체계이며, CA는 디지털 인증서를 발급하여 공개 키와 소유자의 신원을 연결한다"
 tags: ['Security', 'Cryptography', 'Pki', 'Certificate', 'Trust', 'Lets Encrypt']
 created: 2026-02-12
@@ -63,7 +63,7 @@ sudo certbot certonly --standalone -d example.com
 
 ## 관련 개념
 
-- [tls-ssl](/knowledge/linux/tls-ssl/) - PKI 인증서를 사용하는 주요 프로토콜
-- [public-key-cryptography](/knowledge/linux/public-key-cryptography/) - PKI의 기반 암호화 기술
-- [cryptographic-hash](/knowledge/linux/cryptographic-hash/) - 인증서 서명에 사용되는 해시
-- [ssh](/knowledge/linux/ssh/) - SSH 호스트 키 검증과의 유사성
+- [TLS/SSL (전송 계층 보안)](/knowledge/linux/tls-ssl/) - PKI 인증서를 사용하는 주요 프로토콜
+- [공개 키 암호화 (Public Key Cryptography)](/knowledge/linux/public-key-cryptography/) - PKI의 기반 암호화 기술
+- [암호화 해시 함수 (Cryptographic Hash Function)](/knowledge/linux/cryptographic-hash/) - 인증서 서명에 사용되는 해시
+- [SSH (보안 셸)](/knowledge/linux/ssh/) - SSH 호스트 키 검증과의 유사성

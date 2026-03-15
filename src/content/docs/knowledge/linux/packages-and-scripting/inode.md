@@ -1,5 +1,5 @@
 ---
-title: "Inode"
+title: "아이노드 (Inode)"
 description: "Inode(index node)는 파일시스템에서 파일의 메타데이터(소유자, 권한, 크기, 타임스탬프, 데이터 블록 위치 등)를 저장하는 데이터 구조로, 파일 이름과는 별도로 관리된다"
 tags: ['Inode', 'Filesystem', 'Hard Link', 'Symbolic Link', 'Unix']
 created: 2026-02-12
@@ -40,7 +40,7 @@ find /usr/bin -xdev -inum 12345 -print
 
 ## 관련 개념
 
-- [Filesystem](/knowledge/linux/filesystem/)
-- [File Permissions](/knowledge/linux/file-permissions/)
-- [ZFS](/knowledge/linux/zfs/)
-- [Btrfs](/knowledge/linux/btrfs/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [파일 권한 (File Permissions)](/knowledge/linux/file-permissions/)
+- [ZFS (Z 파일 시스템)](/knowledge/linux/zfs/)
+- [Btrfs (B-트리 파일 시스템)](/knowledge/linux/btrfs/)

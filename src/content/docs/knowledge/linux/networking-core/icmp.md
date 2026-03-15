@@ -1,5 +1,5 @@
 ---
-title: "ICMP (Internet Control Message Protocol)"
+title: "ICMP (인터넷 제어 메시지 프로토콜)"
 description: "ICMP(Internet Control Message Protocol, RFC792)는 IP의 저수준 지원 프로토콜로, 오류 메시지(network/host unreachable), 라우팅 지원(redirect), 디버깅(echo request/reply) 등 네트..."
 tags: ['Icmp', 'Networking', 'IP', 'Error Handling', 'Diagnostics']
 created: 2026-02-12
@@ -53,9 +53,9 @@ sudo iptables -A INPUT -p icmp --icmp-type echo-reply -j ACCEPT
 
 ## 관련 개념
 
-- [ping](/knowledge/linux/ping/) - ICMP Echo를 사용하는 진단 도구
-- [traceroute](/knowledge/linux/traceroute/) - ICMP Time Exceeded를 사용하는 경로 추적 도구
-- [mtu](/knowledge/linux/mtu/) - ICMP로 경로 MTU 발견
-- [routing-table](/knowledge/linux/routing-table/) - ICMP 리디렉트가 영향을 주는 라우팅
-- [iptables](/knowledge/linux/iptables/) - ICMP 필터링 설정
-- [sysctl](/knowledge/linux/sysctl/) - ICMP 관련 커널 매개변수 설정
+- [ping (핑)](/knowledge/linux/ping/) - ICMP Echo를 사용하는 진단 도구
+- [traceroute (경로 추적 도구)](/knowledge/linux/traceroute/) - ICMP Time Exceeded를 사용하는 경로 추적 도구
+- [MTU (최대 전송 단위)](/knowledge/linux/mtu/) - ICMP로 경로 MTU 발견
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - ICMP 리디렉트가 영향을 주는 라우팅
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - ICMP 필터링 설정
+- [sysctl (커널 파라미터 설정)](/knowledge/linux/sysctl/) - ICMP 관련 커널 매개변수 설정

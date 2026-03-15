@@ -1,5 +1,5 @@
 ---
-title: "Compliance Standards"
+title: "컴플라이언스 표준 (Compliance Standards)"
 description: "IT 컴플라이언스 표준은 조직의 정보 시스템 보안, 감사, 거버넌스를 규정하는 법률적 요구사항과 자발적 프레임워크의 총체로, SOX, HIPAA, PCI DSS, FISMA, ISO 27001 등이 대표적이다"
 tags: ['Compliance', 'Regulations', 'Sox', 'Hipaa', 'Pci Dss', 'Fisma', 'Nist', 'Iso 27001', 'Itil', 'Audit']
 created: 2026-02-12
@@ -61,8 +61,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Disaster Recovery](/knowledge/linux/disaster-recovery/) - NIST 800-34 재해 복구 표준
-- [SLA](/knowledge/linux/sla/) - 서비스 수준과 규정 준수의 관계
-- [CIA Triad](/knowledge/linux/cia-triad/) - 보안의 기본 원칙과 규제의 목적
-- [Incident Response](/knowledge/linux/incident-response/) - 인시던트 관리 정책
-- [DevOps](/knowledge/linux/devops/) - ITIL에서 DevOps로의 전환
+- [재해 복구 (Disaster Recovery)](/knowledge/linux/disaster-recovery/) - NIST 800-34 재해 복구 표준
+- [SLA (서비스 수준 계약)](/knowledge/linux/sla/) - 서비스 수준과 규정 준수의 관계
+- [CIA 삼원칙 (CIA Triad)](/knowledge/linux/cia-triad/) - 보안의 기본 원칙과 규제의 목적
+- [인시던트 대응 (Incident Response)](/knowledge/linux/incident-response/) - 인시던트 관리 정책
+- [DevOps (데브옵스)](/knowledge/linux/devops/) - ITIL에서 DevOps로의 전환

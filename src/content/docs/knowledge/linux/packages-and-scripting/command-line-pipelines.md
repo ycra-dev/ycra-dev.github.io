@@ -1,5 +1,5 @@
 ---
-title: "Command-Line Pipelines"
+title: "명령줄 파이프라인 (Command-Line Pipelines)"
 description: "커맨드 라인 파이프라인은 파이프(|)로 여러 명령어를 연결하여 한 명령의 출력을 다음 명령의 입력으로 전달하는 방식으로, \"한 가지 일을 잘하는 작은 도구들의 조합\"이라는 유닉스 철학의 핵심이다"
 tags: ['Unix', 'Shell', 'Pipe', 'Filter', 'Stdin', 'Stdout', 'Text Processing']
 created: 2026-02-12
@@ -42,7 +42,7 @@ echo "Error: Invalid input" 1>&2
 
 ## 관련 개념
 
-- [Shell Scripting](/knowledge/linux/shell-scripting/)
-- [Process](/knowledge/linux/process/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Journald](/knowledge/linux/journald/)
+- [셸 스크립팅 (Shell Scripting)](/knowledge/linux/shell-scripting/)
+- [프로세스 (Process)](/knowledge/linux/process/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [Journald (저널 데몬)](/knowledge/linux/journald/)

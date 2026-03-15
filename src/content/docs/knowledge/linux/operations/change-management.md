@@ -1,5 +1,5 @@
 ---
-title: "Change Management"
+title: "변경 관리 (Change Management)"
 description: "변경 관리(Change Management)는 개발, 테스트, 프로덕션 환경 간의 소프트웨어 및 구성 변경을 체계적으로 추적하고 제어하는 프로세스로, DevOps 시대에는 코드로서의 변경 추적과 자동화된 프로모션을 핵심으로 한다"
 tags: ['Change Management', 'DevOps', 'Environment Separation', 'Git', 'Audit Trail', 'Automation']
 created: 2026-02-12
@@ -64,8 +64,8 @@ ansible-playbook -i inventory/production site.yml
 
 ## 관련 개념
 
-- [DevOps](/knowledge/linux/devops/) - CLAMS 중 Automation 원칙
-- [Configuration Management](/knowledge/linux/configuration-management/) - 자동화된 구성 관리 도구
-- [Infrastructure as Code](/knowledge/linux/infrastructure-as-code/) - 인프라 변경의 코드화
-- [Ansible](/knowledge/linux/ansible/) - 구성 관리 및 자동화 도구
-- [Continuous Integration](/knowledge/linux/continuous-integration/) - CI/CD를 통한 자동화된 배포
+- [DevOps (데브옵스)](/knowledge/linux/devops/) - CLAMS 중 Automation 원칙
+- [구성 관리 (Configuration Management)](/knowledge/linux/configuration-management/) - 자동화된 구성 관리 도구
+- [코드형 인프라 (Infrastructure as Code)](/knowledge/linux/infrastructure-as-code/) - 인프라 변경의 코드화
+- [Ansible (자동화 도구)](/knowledge/linux/ansible/) - 구성 관리 및 자동화 도구
+- [지속적 통합 (Continuous Integration)](/knowledge/linux/continuous-integration/) - CI/CD를 통한 자동화된 배포

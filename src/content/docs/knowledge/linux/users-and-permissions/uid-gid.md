@@ -1,5 +1,5 @@
 ---
-title: "UID/GID"
+title: "UID/GID (사용자/그룹 ID)"
 description: "UID(User ID)와 GID(Group ID)는 UNIX/Linux 시스템에서 사용자와 그룹을 식별하는 32비트 부호 없는 정수로, 파일 소유권, 프로세스 권한, 리소스 접근 제어 등 모든 권한 관리의 기반이다"
 tags: ['Uid', 'Gid', 'User Management', 'Authentication', 'Access Control', 'Unix']
 created: 2026-02-12
@@ -40,8 +40,8 @@ chown 1000:1000 /path/to/file
 
 ## 관련 개념
 
-- [File Permissions](/knowledge/linux/file-permissions/)
-- [Access Control List](/knowledge/linux/access-control-list/)
-- [Sudo](/knowledge/linux/sudo/)
-- [Setuid](/knowledge/linux/setuid/)
-- [PAM](/knowledge/linux/pam/)
+- [파일 권한 (File Permissions)](/knowledge/linux/file-permissions/)
+- [접근 제어 목록 (Access Control List)](/knowledge/linux/access-control-list/)
+- [Sudo (관리자 권한 실행)](/knowledge/linux/sudo/)
+- [Setuid (사용자 ID 설정)](/knowledge/linux/setuid/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)

@@ -1,5 +1,5 @@
 ---
-title: "High Availability"
+title: "고가용성 (High Availability)"
 description: "고가용성(High Availability)은 서버 장애, 로드 스파이크, 네트워크 파티션, 표적 공격에도 서비스를 지속적으로 제공할 수 있는 시스템 설계 원칙으로, 이중화, 자동 장애 조치, 건강 검사를 핵심으로 한다"
 tags: ['High Availability', 'Redundancy', 'Failover', 'Health Check', 'Web Hosting']
 created: 2026-02-12
@@ -57,9 +57,9 @@ server {
 
 ## 관련 개념
 
-- [Load Balancer](/knowledge/linux/load-balancer/)
-- [HAProxy](/knowledge/linux/haproxy/)
-- [NGINX](/knowledge/linux/nginx/)
-- [CDN](/knowledge/linux/cdn/)
-- [Web Application Stack](/knowledge/linux/web-application-stack/)
-- [Infrastructure as a Service](/knowledge/linux/infrastructure-as-a-service/)
+- [로드 밸런서 (Load Balancer)](/knowledge/linux/load-balancer/)
+- [HAProxy (고가용성 프록시)](/knowledge/linux/haproxy/)
+- [NGINX (엔진엑스)](/knowledge/linux/nginx/)
+- [CDN (콘텐츠 전송 네트워크)](/knowledge/linux/cdn/)
+- [웹 애플리케이션 스택 (Web Application Stack)](/knowledge/linux/web-application-stack/)
+- [서비스형 인프라 (Infrastructure as a Service)](/knowledge/linux/infrastructure-as-a-service/)

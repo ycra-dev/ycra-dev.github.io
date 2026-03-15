@@ -1,5 +1,5 @@
 ---
-title: "Penetration Testing"
+title: "침투 테스트 (Penetration Testing)"
 description: "침투 테스트(Penetration Testing)는 소유자의 허가를 받아 컴퓨터 네트워크나 애플리케이션에 대해 실제 공격을 시뮬레이션하여 보안 취약점을 발견하는 보안 평가 기법이다"
 tags: ['Security', 'Metasploit', 'Owasp', 'Ethical Hacking', 'Application Security']
 created: 2026-02-12
@@ -48,7 +48,7 @@ msf> exploit                              # 익스플로잇 실행
 
 ## 관련 개념
 
-- [nmap](/knowledge/linux/nmap/) - 침투 테스트의 첫 단계인 정보 수집
-- [vulnerability-scanner](/knowledge/linux/vulnerability-scanner/) - 취약점 탐지 자동화
-- [ssh](/knowledge/linux/ssh/) - 원격 시스템 접근에 사용되는 프로토콜
-- [firewall](/knowledge/linux/firewall/) - 침투 테스트로 방화벽 효과 검증
+- [Nmap (네트워크 스캐너)](/knowledge/linux/nmap/) - 침투 테스트의 첫 단계인 정보 수집
+- [취약점 스캐너 (Vulnerability Scanner)](/knowledge/linux/vulnerability-scanner/) - 취약점 탐지 자동화
+- [SSH (보안 셸)](/knowledge/linux/ssh/) - 원격 시스템 접근에 사용되는 프로토콜
+- [방화벽 (Firewall)](/knowledge/linux/firewall/) - 침투 테스트로 방화벽 효과 검증

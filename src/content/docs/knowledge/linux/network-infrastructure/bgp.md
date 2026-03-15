@@ -1,5 +1,5 @@
 ---
-title: "BGP (Border Gateway Protocol)"
+title: "BGP (경계 게이트웨이 프로토콜)"
 description: "BGP(Border Gateway Protocol)는 자율 시스템(AS) 간의 트래픽을 관리하는 외부 라우팅 프로토콜로, 인터넷 백본 라우팅의 표준이며 약 66만 개 이상의 프리픽스를 포함하는 인터넷 라우팅 테이블을 처리한다"
 tags: ['Bgp', 'Routing Protocol', 'Exterior Protocol', 'Autonomous System', 'Internet Backbone']
 created: 2026-02-12
@@ -49,9 +49,9 @@ BGP는 개별 네트워크가 아닌 자율 시스템의 집합 간 라우팅을
 
 ## 관련 개념
 
-- [routing-protocol](/knowledge/linux/routing-protocol/) - BGP를 포함하는 상위 개념
-- [autonomous-system](/knowledge/linux/autonomous-system/) - BGP가 관리하는 라우팅 단위
-- [distance-vector-routing](/knowledge/linux/distance-vector-routing/) - BGP의 프로토콜 유형
-- [ospf](/knowledge/linux/ospf/) - 내부 라우팅을 담당하는 프로토콜
-- [network-router](/knowledge/linux/network-router/) - BGP를 실행하는 장비
-- [routing-table](/knowledge/linux/routing-table/) - BGP가 관리하는 경로 정보
+- [라우팅 프로토콜 (Routing Protocol)](/knowledge/linux/routing-protocol/) - BGP를 포함하는 상위 개념
+- [자율 시스템 (Autonomous System, AS)](/knowledge/linux/autonomous-system/) - BGP가 관리하는 라우팅 단위
+- [거리 벡터 라우팅 (Distance-Vector Routing)](/knowledge/linux/distance-vector-routing/) - BGP의 프로토콜 유형
+- [OSPF (최단 경로 우선 프로토콜)](/knowledge/linux/ospf/) - 내부 라우팅을 담당하는 프로토콜
+- [네트워크 라우터 (Network Router)](/knowledge/linux/network-router/) - BGP를 실행하는 장비
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - BGP가 관리하는 경로 정보

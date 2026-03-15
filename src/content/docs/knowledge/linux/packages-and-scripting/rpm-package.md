@@ -1,5 +1,5 @@
 ---
-title: "RPM Package"
+title: "RPM 패키지 (RPM Package)"
 description: "RPM(Red Hat Package Manager)은 사전 컴파일된 바이너리, 의존성 정보, 설치 스크립트를 포함하는 패키지 관리 형식으로, RHEL, CentOS, Fedora 등에서 소프트웨어를 설치하고 관리하는 기본 메커니즘이다"
 tags: ['Rpm', 'Package Format', 'Redhat', 'Centos', 'Package Management']
 created: 2026-02-12
@@ -42,7 +42,7 @@ rpm -V openssh
 
 ## 관련 개념
 
-- [Package Management](/knowledge/linux/package-management/)
-- [Package Repository](/knowledge/linux/package-repository/)
-- [Dependency Resolution](/knowledge/linux/dependency-resolution/)
-- [Filesystem](/knowledge/linux/filesystem/)
+- [패키지 관리 (Package Management)](/knowledge/linux/package-management/)
+- [패키지 리포지토리 (Package Repository)](/knowledge/linux/package-repository/)
+- [의존성 해결 (Dependency Resolution)](/knowledge/linux/dependency-resolution/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)

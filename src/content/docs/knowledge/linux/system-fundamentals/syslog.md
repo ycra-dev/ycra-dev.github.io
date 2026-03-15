@@ -1,5 +1,5 @@
 ---
-title: "Syslog"
+title: "Syslog (시스템 로그)"
 description: "syslog는 UNIX/Linux에서 로그 메시지를 수집, 처리, 저장하는 표준 로깅 프로토콜 및 시스템으로, rsyslog 같은 현대적 구현체를 통해 네트워크 전송, 필터링, 다양한 출력 대상을 지원한다"
 tags: ['Syslog', 'Rsyslog', 'Logging', 'System Administration', 'Daemon']
 created: 2026-02-12
@@ -44,7 +44,7 @@ kill -HUP $(cat /var/run/syslogd.pid)
 
 ## 관련 개념
 
-- [Journald](/knowledge/linux/journald/)
-- [Log Rotation](/knowledge/linux/log-rotation/)
-- [Centralized Logging](/knowledge/linux/centralized-logging/)
-- [Process](/knowledge/linux/process/)
+- [Journald (저널 데몬)](/knowledge/linux/journald/)
+- [로그 로테이션 (Log Rotation)](/knowledge/linux/log-rotation/)
+- [중앙 집중 로깅 (Centralized Logging)](/knowledge/linux/centralized-logging/)
+- [프로세스 (Process)](/knowledge/linux/process/)

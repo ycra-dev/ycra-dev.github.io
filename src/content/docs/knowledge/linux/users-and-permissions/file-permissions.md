@@ -1,5 +1,5 @@
 ---
-title: "File Permissions"
+title: "파일 권한 (File Permissions)"
 description: "UNIX/Linux 파일 권한은 9개의 기본 비트(읽기/쓰기/실행 x 소유자/그룹/기타)와 3개의 특수 비트(setuid, setgid, sticky)로 구성된 12비트 모드로, 파일 접근을 제어한다"
 tags: ['Permissions', 'Chmod', 'Chown', 'Umask', 'Security', 'Unix']
 created: 2026-02-12
@@ -50,7 +50,7 @@ umask 027
 
 ## 관련 개념
 
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Setuid](/knowledge/linux/setuid/)
-- [Access Control List](/knowledge/linux/access-control-list/)
-- [Sudo](/knowledge/linux/sudo/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [Setuid (사용자 ID 설정)](/knowledge/linux/setuid/)
+- [접근 제어 목록 (Access Control List)](/knowledge/linux/access-control-list/)
+- [Sudo (관리자 권한 실행)](/knowledge/linux/sudo/)

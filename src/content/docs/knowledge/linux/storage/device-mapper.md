@@ -1,5 +1,5 @@
 ---
-title: "Device Mapper"
+title: "디바이스 매퍼 (Device Mapper)"
 description: "Device Mapper는 Linux 커널의 저장소 추상화 프레임워크로, 하나의 블록 디바이스가 다른 블록 디바이스들의 집합 위에 구축되는 개념을 추상화하여 LVM2, 전체 디스크 암호화(LUKS), 컨테이너 파일시스템 계층 등의 기반이 된다"
 tags: ['Device Mapper', 'Dm', 'Lvm2', 'Luks', 'Encryption', 'Linux Storage']
 created: 2026-02-12
@@ -46,7 +46,7 @@ ls /dev/mapper/DEMO-web1
 
 ## 관련 개념
 
-- [Logical Volume Manager](/knowledge/linux/logical-volume-manager/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Device File](/knowledge/linux/device-file/)
-- [Linux Namespaces](/knowledge/linux/linux-namespaces/)
+- [논리 볼륨 관리자 (Logical Volume Manager)](/knowledge/linux/logical-volume-manager/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [디바이스 파일 (Device File)](/knowledge/linux/device-file/)
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/linux/linux-namespaces/)

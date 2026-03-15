@@ -1,5 +1,5 @@
 ---
-title: "Network Topology"
+title: "네트워크 토폴로지 (Network Topology)"
 description: "네트워크 토폴로지(Network Topology)는 네트워크의 물리적 및 논리적 구조를 설계하는 것으로, 전송 매체의 종류, 케이블의 배치 및 경로, 스위치와 라우터의 배치를 포함하며, 네트워크의 성능, 확장성, 관리 용이성을 결정하는 핵심 요소이다"
 tags: ['Network Topology', 'Network Design', 'Backbone', 'Subnet', 'Congestion']
 created: 2026-02-12
@@ -56,9 +56,9 @@ sidebar:
 
 ## 관련 개념
 
-- [network-switch](/knowledge/linux/network-switch/) - 네트워크 토폴로지의 핵심 장비
-- [network-router](/knowledge/linux/network-router/) - 서브넷 간 연결 장비
-- [vlan](/knowledge/linux/vlan/) - 논리적 네트워크 분할
-- [utp-cabling](/knowledge/linux/utp-cabling/) - 물리적 배선 인프라
-- [optical-fiber](/knowledge/linux/optical-fiber/) - 백본 네트워크의 물리적 매체
-- [sdn](/knowledge/linux/sdn/) - 소프트웨어 정의 네트워크 토폴로지
+- [네트워크 스위치 (Network Switch)](/knowledge/linux/network-switch/) - 네트워크 토폴로지의 핵심 장비
+- [네트워크 라우터 (Network Router)](/knowledge/linux/network-router/) - 서브넷 간 연결 장비
+- [VLAN (가상 랜)](/knowledge/linux/vlan/) - 논리적 네트워크 분할
+- [UTP 케이블링 (UTP Cabling)](/knowledge/linux/utp-cabling/) - 물리적 배선 인프라
+- [광섬유 (Optical Fiber)](/knowledge/linux/optical-fiber/) - 백본 네트워크의 물리적 매체
+- [소프트웨어 정의 네트워킹 (SDN)](/knowledge/linux/sdn/) - 소프트웨어 정의 네트워크 토폴로지

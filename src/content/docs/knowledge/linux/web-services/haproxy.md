@@ -1,5 +1,5 @@
 ---
-title: "HAProxy"
+title: "HAProxy (고가용성 프록시)"
 description: "HAProxy는 가장 널리 사용되는 오픈소스 로드 밸런싱 소프트웨어로, HTTP와 TCP 프록시, 스티키 세션, 고급 건강 검사, TLS 종료를 지원한다"
 tags: ['Haproxy', 'Load Balancer', 'Proxy', 'TCP', 'HTTP', 'High Availability']
 created: 2026-02-12
@@ -63,9 +63,9 @@ listen stats
 
 ## 관련 개념
 
-- [Load Balancer](/knowledge/linux/load-balancer/)
-- [NGINX](/knowledge/linux/nginx/)
-- [TLS](/knowledge/linux/tls/)
-- [HTTP](/knowledge/linux/http/)
-- [Web Server](/knowledge/linux/web-server/)
-- [High Availability](/knowledge/linux/high-availability/)
+- [로드 밸런서 (Load Balancer)](/knowledge/linux/load-balancer/)
+- [NGINX (엔진엑스)](/knowledge/linux/nginx/)
+- [TLS (전송 계층 보안)](/knowledge/linux/tls/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [고가용성 (High Availability)](/knowledge/linux/high-availability/)

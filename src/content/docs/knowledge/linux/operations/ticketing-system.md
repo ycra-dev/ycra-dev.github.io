@@ -1,5 +1,5 @@
 ---
-title: "Ticketing System"
+title: "티켓 시스템 (Ticketing System)"
 description: "티켓팅 시스템은 IT 조직의 업무 요청을 접수, 추적, 해결까지 관리하는 핵심 도구로, 개선 요청, 이슈 관리, 소프트웨어 버그 추적을 하나의 시스템에서 통합 관리한다"
 tags: ['Ticketing', 'Task Management', 'Itil', 'Workflow', 'Help Desk', 'Jira', 'Rt']
 created: 2026-02-12
@@ -64,7 +64,7 @@ sudo apt-get install request-tracker4
 
 ## 관련 개념
 
-- [ChatOps](/knowledge/linux/chatops/) - 실시간 소통과 티켓 시스템의 통합
-- [SLA](/knowledge/linux/sla/) - 티켓 해결 시간과 서비스 수준 합의
-- [Incident Response](/knowledge/linux/incident-response/) - 보안 사고 티켓 처리 절차
-- [DevOps](/knowledge/linux/devops/) - 모든 IT 부서를 아우르는 단일 티켓 시스템의 중요성
+- [ChatOps (챗옵스)](/knowledge/linux/chatops/) - 실시간 소통과 티켓 시스템의 통합
+- [SLA (서비스 수준 계약)](/knowledge/linux/sla/) - 티켓 해결 시간과 서비스 수준 합의
+- [인시던트 대응 (Incident Response)](/knowledge/linux/incident-response/) - 보안 사고 티켓 처리 절차
+- [DevOps (데브옵스)](/knowledge/linux/devops/) - 모든 IT 부서를 아우르는 단일 티켓 시스템의 중요성

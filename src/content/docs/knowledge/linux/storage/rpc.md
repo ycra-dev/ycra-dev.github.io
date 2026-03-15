@@ -1,5 +1,5 @@
 ---
-title: "Remote Procedure Call"
+title: "원격 프로시저 호출 (Remote Procedure Call)"
 description: "RPC(Remote Procedure Call)는 네트워크를 통해 원격 시스템의 프로시저를 로컬처럼 호출할 수 있게 하는 프레임워크로, Sun Microsystems가 NFS를 위해 개발한 SunRPC가 NFS의 기반이 된다"
 tags: ['Rpc', 'Sunrpc', 'Nfs', 'Network Protocol', 'Distributed Systems']
 created: 2026-02-12
@@ -40,6 +40,6 @@ nfsstat -c   # 클라이언트 RPC 타임아웃, badxid 확인
 
 ## 관련 개념
 
-- [NFS](/knowledge/linux/nfs/)
-- [NFS File Locking](/knowledge/linux/nfs-file-locking/)
-- [Kerberos Authentication](/knowledge/linux/kerberos-authentication/)
+- [NFS (네트워크 파일 시스템)](/knowledge/linux/nfs/)
+- [NFS 파일 잠금 (NFS File Locking)](/knowledge/linux/nfs-file-locking/)
+- [Kerberos 인증 (Kerberos Authentication)](/knowledge/linux/kerberos-authentication/)

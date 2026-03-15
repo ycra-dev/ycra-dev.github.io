@@ -1,5 +1,5 @@
 ---
-title: "Regular Expressions"
+title: "정규 표현식 (Regular Expressions)"
 description: "정규 표현식(regex)은 텍스트 패턴을 표준화된 문법으로 정의하여 문자열을 검색, 매칭, 치환하는 도구로, 대부분의 프로그래밍 언어와 유닉스 명령어에서 지원된다"
 tags: ['Regex', 'Pattern Matching', 'Text Processing', 'Grep', 'Sed']
 created: 2026-02-12
@@ -38,6 +38,6 @@ lazy = re.findall(r'<img.*?>', html)    # 각 태그 매칭
 
 ## 관련 개념
 
-- [Shell Scripting](/knowledge/linux/shell-scripting/)
-- [Python Scripting](/knowledge/linux/python-scripting/)
-- [Command-Line Pipelines](/knowledge/linux/command-line-pipelines/)
+- [셸 스크립팅 (Shell Scripting)](/knowledge/linux/shell-scripting/)
+- [Python 스크립팅 (Python Scripting)](/knowledge/linux/python-scripting/)
+- [명령줄 파이프라인 (Command-Line Pipelines)](/knowledge/linux/command-line-pipelines/)

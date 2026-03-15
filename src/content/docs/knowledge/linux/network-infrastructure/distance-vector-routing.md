@@ -1,5 +1,5 @@
 ---
-title: "Distance-Vector Routing"
+title: "거리 벡터 라우팅 (Distance-Vector Routing)"
 description: "거리 벡터 라우팅(Distance-Vector Routing)은 각 라우터가 알고 있는 네트워크까지의 거리(홉 수 등)를 인접 라우터에게 주기적으로 광고하고, 이웃이 더 나은 경로를 모르면 해당 라우터를 게이트웨이로 지정하는 \"소문(gossipy)\" 방식의 라우팅..."
 tags: ['Distance Vector', 'Routing Protocol', 'Rip', 'Eigrp', 'Hop Count']
 created: 2026-02-12
@@ -49,8 +49,8 @@ EIGRP는 여러 가능 경로의 정보를 유지하여 항상 대체 경로를 
 
 ## 관련 개념
 
-- [routing-protocol](/knowledge/linux/routing-protocol/) - 거리 벡터가 속하는 라우팅 프로토콜 분류
-- [link-state-routing](/knowledge/linux/link-state-routing/) - 대안적 라우팅 프로토콜 유형
-- [rip](/knowledge/linux/rip/) - 대표적 거리 벡터 프로토콜
-- [bgp](/knowledge/linux/bgp/) - 외부 거리 벡터 프로토콜
-- [routing-table](/knowledge/linux/routing-table/) - 거리 벡터 프로토콜이 관리하는 대상
+- [라우팅 프로토콜 (Routing Protocol)](/knowledge/linux/routing-protocol/) - 거리 벡터가 속하는 라우팅 프로토콜 분류
+- [링크 상태 라우팅 (Link-State Routing)](/knowledge/linux/link-state-routing/) - 대안적 라우팅 프로토콜 유형
+- [RIP (라우팅 정보 프로토콜)](/knowledge/linux/rip/) - 대표적 거리 벡터 프로토콜
+- [BGP (경계 게이트웨이 프로토콜)](/knowledge/linux/bgp/) - 외부 거리 벡터 프로토콜
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - 거리 벡터 프로토콜이 관리하는 대상

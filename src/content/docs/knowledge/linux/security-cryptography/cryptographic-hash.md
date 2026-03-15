@@ -1,5 +1,5 @@
 ---
-title: "Cryptographic Hash Function"
+title: "암호화 해시 함수 (Cryptographic Hash Function)"
 description: "암호학적 해시 함수는 임의 길이의 입력 데이터를 고정 길이의 해시 값(다이제스트)으로 변환하는 단방향 함수로, 데이터 무결성 검증과 인증에 사용된다"
 tags: ['Security', 'Cryptography', 'Sha', 'Md5', 'Integrity', 'Hash']
 created: 2026-02-12
@@ -57,7 +57,7 @@ echo "expected_hash  downloaded_file.tar.gz" | sha256sum --check
 
 ## 관련 개념
 
-- [tls-ssl](/knowledge/linux/tls-ssl/) - 해시 함수가 사용되는 보안 프로토콜
-- [pki-certificate-authority](/knowledge/linux/pki-certificate-authority/) - 인증서 서명에 해시 함수 활용
-- [rootkit](/knowledge/linux/rootkit/) - 파일 무결성 모니터링으로 루트킷 탐지
-- [intrusion-detection-system](/knowledge/linux/intrusion-detection-system/) - FIM에서 해시 함수 사용
+- [TLS/SSL (전송 계층 보안)](/knowledge/linux/tls-ssl/) - 해시 함수가 사용되는 보안 프로토콜
+- [PKI와 인증 기관 (PKI and Certificate Authority)](/knowledge/linux/pki-certificate-authority/) - 인증서 서명에 해시 함수 활용
+- [루트킷 (Rootkit)](/knowledge/linux/rootkit/) - 파일 무결성 모니터링으로 루트킷 탐지
+- [침입 탐지 시스템 (Intrusion Detection System)](/knowledge/linux/intrusion-detection-system/) - FIM에서 해시 함수 사용

@@ -1,5 +1,5 @@
 ---
-title: "Continuous Integration"
+title: "지속적 통합 (Continuous Integration)"
 description: "지속적 통합(Continuous Integration, CI)은 팀 구성원이 작업을 자주 통합하고, 공유 코드 베이스에 병합될 때마다 자동으로 빌드와 테스트를 실행하는 소프트웨어 개발 실천 방법이다"
 tags: ['Continuous Integration', 'Ci', 'Build', 'Testing', 'Version Control', 'Automation']
 created: 2026-02-12
@@ -69,8 +69,8 @@ go build -o ulsahgo     # 바이너리 빌드
 
 ## 관련 개념
 
-- [Continuous Delivery](/knowledge/linux/continuous-delivery/)
-- [CI/CD Pipeline](/knowledge/linux/cicd-pipeline/)
-- [Jenkins](/knowledge/linux/jenkins/)
-- [DevOps](/knowledge/linux/devops/)
-- [Build Artifact](/knowledge/linux/build-artifact/)
+- [지속적 전달 (Continuous Delivery)](/knowledge/linux/continuous-delivery/)
+- [CI/CD 파이프라인 (CI/CD Pipeline)](/knowledge/linux/cicd-pipeline/)
+- [Jenkins (젠킨스)](/knowledge/linux/jenkins/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)
+- [빌드 아티팩트 (Build Artifact)](/knowledge/linux/build-artifact/)

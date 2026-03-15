@@ -1,5 +1,5 @@
 ---
-title: "SMB Protocol"
+title: "SMB 프로토콜 (SMB Protocol)"
 description: "SMB(Server Message Block)는 네트워크를 통해 파일, 프린터, 기타 리소스를 공유하는 프로토콜로, Windows와 macOS의 기본 파일 공유 시스템이며 UNIX/Linux에서는 Samba를 통해 구현된다"
 tags: ['Smb', 'Cifs', 'File Sharing', 'Windows', 'Network Protocol']
 created: 2026-02-12
@@ -46,7 +46,7 @@ smbclient //server/share -U dan
 
 ## 관련 개념
 
-- [Samba](/knowledge/linux/samba/)
-- [NFS](/knowledge/linux/nfs/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Active Directory](/knowledge/linux/active-directory/)
+- [Samba (삼바)](/knowledge/linux/samba/)
+- [NFS (네트워크 파일 시스템)](/knowledge/linux/nfs/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [Active Directory (액티브 디렉토리)](/knowledge/linux/active-directory/)

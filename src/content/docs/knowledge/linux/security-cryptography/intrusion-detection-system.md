@@ -1,5 +1,5 @@
 ---
-title: "Intrusion Detection System"
+title: "침입 탐지 시스템 (Intrusion Detection System)"
 description: "침입 탐지 시스템(IDS)은 네트워크 트래픽이나 호스트 활동을 모니터링하여 의심스러운 활동이나 보안 위반을 탐지하고 경고하는 보안 소프트웨어이다"
 tags: ['Security', 'Ids', 'Nids', 'Hids', 'Snort', 'Ossec', 'Monitoring']
 created: 2026-02-12
@@ -52,7 +52,7 @@ sudo snort -A console -c /etc/snort/snort.conf -i eth0
 
 ## 관련 개념
 
-- [rootkit](/knowledge/linux/rootkit/) - HIDS가 탐지하는 주요 위협
-- [cryptographic-hash](/knowledge/linux/cryptographic-hash/) - 파일 무결성 검사에 사용되는 기술
-- [centralized-logging](/knowledge/linux/centralized-logging/) - IDS 경고를 중앙 로그 시스템과 통합
-- [network-monitoring](/knowledge/linux/network-monitoring/) - 네트워크 수준 모니터링과의 연계
+- [루트킷 (Rootkit)](/knowledge/linux/rootkit/) - HIDS가 탐지하는 주요 위협
+- [암호화 해시 함수 (Cryptographic Hash Function)](/knowledge/linux/cryptographic-hash/) - 파일 무결성 검사에 사용되는 기술
+- [중앙 집중 로깅 (Centralized Logging)](/knowledge/linux/centralized-logging/) - IDS 경고를 중앙 로그 시스템과 통합
+- [네트워크 모니터링 (Network Monitoring)](/knowledge/linux/network-monitoring/) - 네트워크 수준 모니터링과의 연계

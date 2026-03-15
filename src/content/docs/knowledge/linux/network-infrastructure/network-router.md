@@ -1,5 +1,5 @@
 ---
-title: "Network Router"
+title: "네트워크 라우터 (Network Router)"
 description: "네트워크 라우터(Network Router)는 OSI 모델의 네트워크 계층(Layer 3)에서 TCP/IP 프로토콜 헤더 정보에 따라 패킷을 최종 목적지로 전달하며, 패킷 필터링, QoS, 네트워크 토폴로지 발견 등의 기능도 수행하는 장비이다"
 tags: ['Router', 'Layer3', 'IP Routing', 'Packet Forwarding', 'Networking']
 created: 2026-02-12
@@ -46,11 +46,11 @@ echo "net.ipv4.ip_forward = 1" | sudo tee -a /etc/sysctl.conf
 
 ## 관련 개념
 
-- [routing-table](/knowledge/linux/routing-table/) - 라우터가 참조하는 경로 정보
-- [routing-protocol](/knowledge/linux/routing-protocol/) - 라우터 간 경로 정보 교환 프로토콜
-- [network-switch](/knowledge/linux/network-switch/) - Layer 2에서 패킷을 전달하는 장비
-- [vlan](/knowledge/linux/vlan/) - 라우터가 VLAN 간 트래픽을 처리
-- [ip-forwarding](/knowledge/linux/ip-forwarding/) - 라우터의 핵심 기능
-- [firewall](/knowledge/linux/firewall/) - 라우터에서의 패킷 필터링 기능
-- [ospf](/knowledge/linux/ospf/) - 라우터가 사용하는 내부 라우팅 프로토콜
-- [bgp](/knowledge/linux/bgp/) - 라우터가 사용하는 외부 라우팅 프로토콜
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - 라우터가 참조하는 경로 정보
+- [라우팅 프로토콜 (Routing Protocol)](/knowledge/linux/routing-protocol/) - 라우터 간 경로 정보 교환 프로토콜
+- [네트워크 스위치 (Network Switch)](/knowledge/linux/network-switch/) - Layer 2에서 패킷을 전달하는 장비
+- [VLAN (가상 랜)](/knowledge/linux/vlan/) - 라우터가 VLAN 간 트래픽을 처리
+- [IP 포워딩 (IP Forwarding)](/knowledge/linux/ip-forwarding/) - 라우터의 핵심 기능
+- [방화벽 (Firewall)](/knowledge/linux/firewall/) - 라우터에서의 패킷 필터링 기능
+- [OSPF (최단 경로 우선 프로토콜)](/knowledge/linux/ospf/) - 라우터가 사용하는 내부 라우팅 프로토콜
+- [BGP (경계 게이트웨이 프로토콜)](/knowledge/linux/bgp/) - 라우터가 사용하는 외부 라우팅 프로토콜

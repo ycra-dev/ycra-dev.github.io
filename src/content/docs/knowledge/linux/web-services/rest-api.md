@@ -1,5 +1,5 @@
 ---
-title: "REST API"
+title: "REST API (레스트 API)"
 description: "REST(Representational State Transfer) API는 HTTP 동사를 사용하여 의도를 명시적으로 전달하고, 디렉터리와 유사한 경로 구조로 리소스를 위치시키는 웹 API 설계 아키텍처 스타일이다"
 tags: ['REST', 'API', 'HTTP', 'JSON', 'Web Service']
 created: 2026-02-12
@@ -54,7 +54,7 @@ curl -s https://api.example.com/data | jq '.items[] | .name'
 
 ## 관련 개념
 
-- [HTTP](/knowledge/linux/http/)
-- [Web Server](/knowledge/linux/web-server/)
-- [NGINX](/knowledge/linux/nginx/)
-- [CDN](/knowledge/linux/cdn/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [NGINX (엔진엑스)](/knowledge/linux/nginx/)
+- [CDN (콘텐츠 전송 네트워크)](/knowledge/linux/cdn/)

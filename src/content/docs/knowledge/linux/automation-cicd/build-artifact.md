@@ -1,5 +1,5 @@
 ---
-title: "Build Artifact"
+title: "빌드 아티팩트 (Build Artifact)"
 description: "빌드 아티팩트(Build Artifact)는 CI/CD 파이프라인의 빌드 단계에서 생성되는 출력물로, 이후 테스트와 배포에 사용되는 설치 가능한 소프트웨어 형태이다"
 tags: ['Build Artifact', 'Ci Cd', 'Build', 'Deployment', 'Package', 'Binary']
 created: 2026-02-12
@@ -58,8 +58,8 @@ aws s3 cp ulsahgo s3://artifacts-bucket/ulsahgo-v1.2.3
 
 ## 관련 개념
 
-- [Continuous Integration](/knowledge/linux/continuous-integration/)
-- [CI/CD Pipeline](/knowledge/linux/cicd-pipeline/)
-- [Docker](/knowledge/linux/docker/)
-- [Container Registry](/knowledge/linux/container-registry/)
-- [Packer](/knowledge/linux/packer/)
+- [지속적 통합 (Continuous Integration)](/knowledge/linux/continuous-integration/)
+- [CI/CD 파이프라인 (CI/CD Pipeline)](/knowledge/linux/cicd-pipeline/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [컨테이너 레지스트리 (Container Registry)](/knowledge/linux/container-registry/)
+- [Packer (패커)](/knowledge/linux/packer/)

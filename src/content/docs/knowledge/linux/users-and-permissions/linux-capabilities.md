@@ -1,5 +1,5 @@
 ---
-title: "Linux Capabilities"
+title: "리눅스 캐퍼빌리티 (Linux Capabilities)"
 description: "Linux capabilities는 root 계정의 권한을 약 30개의 개별 권한으로 분할하는 시스템으로, 프로세스에 필요한 최소한의 특권만 부여할 수 있게 한다"
 tags: ['Capabilities', 'Linux', 'Security', 'Root', 'Privilege', 'Access Control']
 created: 2026-02-12
@@ -49,9 +49,9 @@ docker run --cap-drop ALL --cap-add NET_BIND_SERVICE nginx
 
 ## 관련 개념
 
-- [Sudo](/knowledge/linux/sudo/)
-- [Setuid](/knowledge/linux/setuid/)
-- [Linux Namespaces](/knowledge/linux/linux-namespaces/)
-- [Container](/knowledge/linux/container/)
-- [Docker](/knowledge/linux/docker/)
-- [Cgroups](/knowledge/linux/cgroups/)
+- [Sudo (관리자 권한 실행)](/knowledge/linux/sudo/)
+- [Setuid (사용자 ID 설정)](/knowledge/linux/setuid/)
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/linux/linux-namespaces/)
+- [컨테이너 (Container)](/knowledge/linux/container/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [Cgroups (컨트롤 그룹)](/knowledge/linux/cgroups/)

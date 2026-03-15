@@ -1,5 +1,5 @@
 ---
-title: "Jinja2 Template"
+title: "Jinja2 템플릿 (Jinja2 Template)"
 description: "Jinja2는 Python 기반의 템플릿 엔진으로, Ansible과 Salt에서 YAML 구성 파일에 동적 표현력을 추가하고 구성 파일 템플릿을 렌더링하는 데 사용된다"
 tags: ['Jinja2', 'Template Engine', 'Python', 'Ansible', 'Salt', 'Configuration Management']
 created: 2026-02-12
@@ -61,7 +61,7 @@ install-apache:
 
 ## 관련 개념
 
-- [Ansible](/knowledge/linux/ansible/)
-- [Salt](/knowledge/linux/salt/)
-- [YAML](/knowledge/linux/yaml/)
-- [Configuration Management](/knowledge/linux/configuration-management/)
+- [Ansible (자동화 도구)](/knowledge/linux/ansible/)
+- [Salt (솔트)](/knowledge/linux/salt/)
+- [YAML (야믈)](/knowledge/linux/yaml/)
+- [구성 관리 (Configuration Management)](/knowledge/linux/configuration-management/)

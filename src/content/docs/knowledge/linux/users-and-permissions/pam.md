@@ -1,5 +1,5 @@
 ---
-title: "PAM"
+title: "PAM (장착형 인증 모듈)"
 description: "PAM(Pluggable Authentication Modules)은 다양한 인증 방법을 위한 래퍼 프레임워크로, 프로그램이 특정 인증 방식에 종속되지 않고 유연하게 인증을 수행할 수 있게 한다"
 tags: ['Pam', 'Authentication', 'Security', 'Pluggable', 'Login', 'Sso']
 created: 2026-02-12
@@ -50,10 +50,10 @@ ls /lib/x86_64-linux-gnu/security/
 
 ## 관련 개념
 
-- [Sudo](/knowledge/linux/sudo/)
-- [Setuid](/knowledge/linux/setuid/)
-- [LDAP](/knowledge/linux/ldap/)
-- [Kerberos](/knowledge/linux/kerberos/)
-- [SSSD](/knowledge/linux/sssd/)
-- [Single Sign-On](/knowledge/linux/single-sign-on/)
-- [Identity Management](/knowledge/linux/identity-management/)
+- [Sudo (관리자 권한 실행)](/knowledge/linux/sudo/)
+- [Setuid (사용자 ID 설정)](/knowledge/linux/setuid/)
+- [LDAP (경량 디렉토리 접근 프로토콜)](/knowledge/linux/ldap/)
+- [Kerberos (커버로스)](/knowledge/linux/kerberos/)
+- [SSSD (시스템 보안 서비스 데몬)](/knowledge/linux/sssd/)
+- [싱글 사인온 (Single Sign-On)](/knowledge/linux/single-sign-on/)
+- [ID 관리 (Identity Management)](/knowledge/linux/identity-management/)

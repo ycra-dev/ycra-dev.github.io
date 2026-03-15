@@ -1,5 +1,5 @@
 ---
-title: "Syslog Facility and Severity"
+title: "Syslog 시설과 심각도 (Syslog Facility and Severity)"
 description: "syslog facility와 severity는 로그 메시지를 분류하는 두 축으로, facility는 메시지를 생성한 시스템 컴포넌트(kern, mail, auth 등)를, severity는 심각도(emerg~debug 8단계)를 나타내며, 이 조합으로 로그를 선..."
 tags: ['Syslog', 'Logging', 'Message Classification', 'Priority', 'Filtering']
 created: 2026-02-12
@@ -45,6 +45,6 @@ if $syslogfacility-text == "auth" then {
 
 ## 관련 개념
 
-- [Syslog](/knowledge/linux/syslog/)
-- [Journald](/knowledge/linux/journald/)
-- [Log Rotation](/knowledge/linux/log-rotation/)
+- [Syslog (시스템 로그)](/knowledge/linux/syslog/)
+- [Journald (저널 데몬)](/knowledge/linux/journald/)
+- [로그 로테이션 (Log Rotation)](/knowledge/linux/log-rotation/)

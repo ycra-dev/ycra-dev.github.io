@@ -1,5 +1,5 @@
 ---
-title: "SNMP"
+title: "SNMP (네트워크 관리 프로토콜)"
 description: "SNMP(Simple Network Management Protocol)는 네트워크 장치의 관리 데이터를 표준화된 계층 구조로 명명하고 수집, 설정하는 업계 표준 프로토콜이다"
 tags: ['Monitoring', 'Network', 'Protocol', 'Mib', 'Oid', 'Net Snmp']
 created: 2026-02-12
@@ -52,7 +52,7 @@ snmpget -v2c -c public router1 sysUpTime.0
 
 ## 관련 개념
 
-- [network-monitoring](/knowledge/linux/network-monitoring/) - SNMP가 주로 사용되는 네트워크 모니터링
-- [collectd](/knowledge/linux/collectd/) - 서버 모니터링에서 SNMP의 현대적 대안
-- [time-series-database](/knowledge/linux/time-series-database/) - SNMP 데이터를 저장하는 플랫폼
-- [nagios](/knowledge/linux/nagios/) - SNMP 모니터링 플러그인을 포함하는 플랫폼
+- [네트워크 모니터링 (Network Monitoring)](/knowledge/linux/network-monitoring/) - SNMP가 주로 사용되는 네트워크 모니터링
+- [collectd (시스템 통계 수집 데몬)](/knowledge/linux/collectd/) - 서버 모니터링에서 SNMP의 현대적 대안
+- [시계열 데이터베이스 (Time-Series Database)](/knowledge/linux/time-series-database/) - SNMP 데이터를 저장하는 플랫폼
+- [Nagios (나기오스)](/knowledge/linux/nagios/) - SNMP 모니터링 플러그인을 포함하는 플랫폼

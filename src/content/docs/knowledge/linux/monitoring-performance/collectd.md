@@ -1,5 +1,5 @@
 ---
-title: "collectd"
+title: "collectd (시스템 통계 수집 데몬)"
 description: "collectd는 시스템 통계를 지정된 간격으로 수집하고 저장하는 데몬으로, 100개 이상의 플러그인을 통해 다양한 메트릭을 모니터링 플랫폼에 공급한다"
 tags: ['Monitoring', 'System Statistics', 'Daemon', 'Metrics Collection', 'Plugin']
 created: 2026-02-12
@@ -66,7 +66,7 @@ sudo systemctl status collectd
 
 ## 관련 개념
 
-- [snmp](/knowledge/linux/snmp/) - collectd가 대체하는 서버 모니터링 프로토콜
-- [time-series-database](/knowledge/linux/time-series-database/) - collectd가 데이터를 전달하는 대상
-- [prometheus](/knowledge/linux/prometheus/) - collectd와 유사한 데이터 수집 기능 내장
-- [nagios](/knowledge/linux/nagios/) - collectd 데이터를 쿼리하는 모니터링 플랫폼
+- [SNMP (네트워크 관리 프로토콜)](/knowledge/linux/snmp/) - collectd가 대체하는 서버 모니터링 프로토콜
+- [시계열 데이터베이스 (Time-Series Database)](/knowledge/linux/time-series-database/) - collectd가 데이터를 전달하는 대상
+- [Prometheus (프로메테우스)](/knowledge/linux/prometheus/) - collectd와 유사한 데이터 수집 기능 내장
+- [Nagios (나기오스)](/knowledge/linux/nagios/) - collectd 데이터를 쿼리하는 모니터링 플랫폼

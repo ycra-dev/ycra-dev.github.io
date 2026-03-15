@@ -1,5 +1,5 @@
 ---
-title: "Container Registry"
+title: "컨테이너 레지스트리 (Container Registry)"
 description: "컨테이너 레지스트리(Container Registry)는 Docker 이미지를 저장하고 배포하는 중앙 집중식 서비스로, HTTP를 통해 이미지를 push/pull할 수 있으며, Docker Hub이 기본 공개 레지스트리이다"
 tags: ['Container Registry', 'Docker Hub', 'Image', 'Docker', 'Repository']
 created: 2026-02-12
@@ -56,6 +56,6 @@ export DOCKER_CONTENT_TRUST=1
 
 ## 관련 개념
 
-- [Docker](/knowledge/linux/docker/)
-- [Dockerfile](/knowledge/linux/dockerfile/)
-- [Container](/knowledge/linux/container/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [Dockerfile (도커파일)](/knowledge/linux/dockerfile/)
+- [컨테이너 (Container)](/knowledge/linux/container/)

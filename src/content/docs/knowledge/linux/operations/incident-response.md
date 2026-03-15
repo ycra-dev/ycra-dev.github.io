@@ -1,5 +1,5 @@
 ---
-title: "Incident Response"
+title: "인시던트 대응 (Incident Response)"
 description: "인시던트 대응(Incident Response)은 보안 침해나 시스템 장애 발생 시 체계적으로 대응하기 위한 사전 계획된 절차와 역할 분담으로, 사고의 영향을 최소화하고 신속한 복구를 보장한다"
 tags: ['Incident Response', 'Security', 'Breach', 'Forensics', 'Communication', 'Crisis Management']
 created: 2026-02-12
@@ -69,8 +69,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Disaster Recovery](/knowledge/linux/disaster-recovery/) - 재해 복구와 인시던트 대응의 관계
-- [CIA Triad](/knowledge/linux/cia-triad/) - 보안의 3요소 보호
-- [Intrusion Detection System](/knowledge/linux/intrusion-detection-system/) - 인시던트 탐지 시스템
-- [Compliance Standards](/knowledge/linux/compliance-standards/) - PCI DSS, SOX 등 규정 준수 요구사항
-- [Ticketing System](/knowledge/linux/ticketing-system/) - 인시던트 티켓 관리
+- [재해 복구 (Disaster Recovery)](/knowledge/linux/disaster-recovery/) - 재해 복구와 인시던트 대응의 관계
+- [CIA 삼원칙 (CIA Triad)](/knowledge/linux/cia-triad/) - 보안의 3요소 보호
+- [침입 탐지 시스템 (Intrusion Detection System)](/knowledge/linux/intrusion-detection-system/) - 인시던트 탐지 시스템
+- [컴플라이언스 표준 (Compliance Standards)](/knowledge/linux/compliance-standards/) - PCI DSS, SOX 등 규정 준수 요구사항
+- [티켓 시스템 (Ticketing System)](/knowledge/linux/ticketing-system/) - 인시던트 티켓 관리

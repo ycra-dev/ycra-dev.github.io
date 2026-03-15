@@ -1,5 +1,5 @@
 ---
-title: "Disaster Recovery"
+title: "재해 복구 (Disaster Recovery)"
 description: "재해 복구(Disaster Recovery)는 자연재해, 보안 침해, 장비 장애 등 예측 가능한 사태에 대비하여 IT 환경을 복구하기 위한 계획과 절차의 총체로, NIST 800-34 표준을 기반으로 구성된다"
 tags: ['Disaster Recovery', 'Business Continuity', 'Risk Assessment', 'Backup', 'Nist 800 34', 'Failover']
 created: 2026-02-12
@@ -69,8 +69,8 @@ aws ec2 run-instances \
 
 ## 관련 개념
 
-- [Data Center Tier](/knowledge/linux/data-center-tier/) - 데이터센터 가용성과 이중화
-- [SLA](/knowledge/linux/sla/) - 서비스 수준 합의와 복구 목표
-- [Incident Response](/knowledge/linux/incident-response/) - 보안 사고 대응 절차
-- [CIA Triad](/knowledge/linux/cia-triad/) - 가용성(Availability) 보호
-- [Compliance Standards](/knowledge/linux/compliance-standards/) - NIST 800-34 재해 복구 표준
+- [데이터 센터 티어 (Data Center Tier)](/knowledge/linux/data-center-tier/) - 데이터센터 가용성과 이중화
+- [SLA (서비스 수준 계약)](/knowledge/linux/sla/) - 서비스 수준 합의와 복구 목표
+- [인시던트 대응 (Incident Response)](/knowledge/linux/incident-response/) - 보안 사고 대응 절차
+- [CIA 삼원칙 (CIA Triad)](/knowledge/linux/cia-triad/) - 가용성(Availability) 보호
+- [컴플라이언스 표준 (Compliance Standards)](/knowledge/linux/compliance-standards/) - NIST 800-34 재해 복구 표준

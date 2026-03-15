@@ -1,5 +1,5 @@
 ---
-title: "RAID"
+title: "RAID (독립 디스크의 중복 배열)"
 description: "RAID(Redundant Array of Inexpensive/Independent Disks)는 여러 디스크에 데이터를 분산하거나 복제하여 성능 향상, 데이터 중복성, 또는 두 가지 모두를 달성하는 시스템이다"
 tags: ['Raid', 'Redundancy', 'Striping', 'Mirroring', 'Parity', 'Mdadm', 'Storage']
 created: 2026-02-12
@@ -51,8 +51,8 @@ sudo systemctl enable mdmonitor
 
 ## 관련 개념
 
-- [Logical Volume Manager](/knowledge/linux/logical-volume-manager/)
-- [ZFS](/knowledge/linux/zfs/)
-- [Btrfs](/knowledge/linux/btrfs/)
-- [Disk Partitioning](/knowledge/linux/disk-partitioning/)
-- [Filesystem](/knowledge/linux/filesystem/)
+- [논리 볼륨 관리자 (Logical Volume Manager)](/knowledge/linux/logical-volume-manager/)
+- [ZFS (Z 파일 시스템)](/knowledge/linux/zfs/)
+- [Btrfs (B-트리 파일 시스템)](/knowledge/linux/btrfs/)
+- [디스크 파티셔닝 (Disk Partitioning)](/knowledge/linux/disk-partitioning/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)

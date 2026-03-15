@@ -1,5 +1,5 @@
 ---
-title: "Subnet Mask"
+title: "서브넷 마스크 (Subnet Mask)"
 description: "서브넷 마스크(Subnet Mask)는 IP 주소에서 네트워크 부분과 호스트 부분의 경계를 정의하는 32비트(IPv4) 값으로, 1 비트가 네트워크 부분에, 0 비트가 호스트 부분에 대응하며 왼쪽부터 연속적이어야 한다"
 tags: ['Subnet Mask', 'Subnetting', 'Networking', 'Ipv4', 'Cidr']
 created: 2026-02-12
@@ -54,7 +54,7 @@ echo "obase=2; 192" | bc
 
 ## 관련 개념
 
-- [ipv4](/knowledge/linux/ipv4/) - 서브넷 마스크가 적용되는 주소 체계
-- [cidr](/knowledge/linux/cidr/) - 서브넷 마스크의 현대적 확장
-- [ip-address](/knowledge/linux/ip-address/) - 서브넷 마스크가 분류하는 대상
-- [routing-table](/knowledge/linux/routing-table/) - 서브넷 마스크 기반 라우팅 결정
+- [IPv4 (인터넷 프로토콜 버전 4)](/knowledge/linux/ipv4/) - 서브넷 마스크가 적용되는 주소 체계
+- [CIDR (클래스리스 라우팅)](/knowledge/linux/cidr/) - 서브넷 마스크의 현대적 확장
+- [IP 주소 (IP Address)](/knowledge/linux/ip-address/) - 서브넷 마스크가 분류하는 대상
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - 서브넷 마스크 기반 라우팅 결정

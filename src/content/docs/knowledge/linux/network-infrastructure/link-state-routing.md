@@ -1,5 +1,5 @@
 ---
-title: "Link-State Routing"
+title: "링크 상태 라우팅 (Link-State Routing)"
 description: "링크 상태 라우팅(Link-State Routing)은 각 라우터가 인접 라우터와의 연결 상태(\"라우터 X는 라우터 Y에 인접, 링크 활성\")를 교환하여 전체 네트워크의 연결 맵을 구축하고, 이로부터 각자의 최적 라우팅 테이블을 독립적으로 계산하는 라우팅 프로토콜..."
 tags: ['Link State', 'Routing Protocol', 'Ospf', 'Convergence', 'Shortest Path']
 created: 2026-02-12
@@ -48,7 +48,7 @@ sidebar:
 
 ## 관련 개념
 
-- [routing-protocol](/knowledge/linux/routing-protocol/) - 링크 상태가 속하는 라우팅 프로토콜 분류
-- [distance-vector-routing](/knowledge/linux/distance-vector-routing/) - 대안적 라우팅 프로토콜 유형
-- [ospf](/knowledge/linux/ospf/) - 대표적 링크 상태 프로토콜
-- [routing-table](/knowledge/linux/routing-table/) - 링크 상태 알고리즘이 생성하는 대상
+- [라우팅 프로토콜 (Routing Protocol)](/knowledge/linux/routing-protocol/) - 링크 상태가 속하는 라우팅 프로토콜 분류
+- [거리 벡터 라우팅 (Distance-Vector Routing)](/knowledge/linux/distance-vector-routing/) - 대안적 라우팅 프로토콜 유형
+- [OSPF (최단 경로 우선 프로토콜)](/knowledge/linux/ospf/) - 대표적 링크 상태 프로토콜
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - 링크 상태 알고리즘이 생성하는 대상

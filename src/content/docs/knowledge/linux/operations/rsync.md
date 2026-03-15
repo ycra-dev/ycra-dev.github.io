@@ -1,5 +1,5 @@
 ---
-title: "Rsync"
+title: "Rsync (원격 동기화)"
 description: "rsync는 파일과 디렉터리를 네트워크를 통해 효율적으로 동기화하는 도구로, 파일 내부의 차이만 전송하여 네트워크 대역폭을 절약하며, 링크, 수정 시간, 권한을 보존한다"
 tags: ['Rsync', 'File Transfer', 'Synchronization', 'Backup', 'Ssh']
 created: 2026-02-12
@@ -42,7 +42,7 @@ rsync -avz -e ssh /data/ user@remote:/backup/
 
 ## 관련 개념
 
-- [Single Sign-On](/knowledge/linux/single-sign-on/)
-- [Shell Scripting](/knowledge/linux/shell-scripting/)
-- [Cron](/knowledge/linux/cron/)
-- [Infrastructure as Code](/knowledge/linux/infrastructure-as-code/)
+- [싱글 사인온 (Single Sign-On)](/knowledge/linux/single-sign-on/)
+- [셸 스크립팅 (Shell Scripting)](/knowledge/linux/shell-scripting/)
+- [크론 (Cron)](/knowledge/linux/cron/)
+- [코드형 인프라 (Infrastructure as Code)](/knowledge/linux/infrastructure-as-code/)

@@ -1,5 +1,5 @@
 ---
-title: "Grafana"
+title: "Grafana (그라파나)"
 description: "Grafana는 다양한 데이터 소스의 시계열 데이터를 아름답고 인터랙티브한 대시보드와 차트로 시각화하는 오픈 소스 데이터 시각화 플랫폼이다"
 tags: ['Monitoring', 'Visualization', 'Dashboard', 'Charting', 'Metrics', 'Open Source']
 created: 2026-02-12
@@ -63,7 +63,7 @@ curl -X POST http://admin:admin@localhost:3000/api/datasources \
 
 ## 관련 개념
 
-- [prometheus](/knowledge/linux/prometheus/) - Grafana의 주요 데이터 소스
-- [time-series-database](/knowledge/linux/time-series-database/) - Grafana가 시각화하는 데이터의 저장소
-- [nagios](/knowledge/linux/nagios/) - Grafana와 통합 가능한 모니터링 도구
-- [application-monitoring](/knowledge/linux/application-monitoring/) - 비즈니스 메트릭 시각화
+- [Prometheus (프로메테우스)](/knowledge/linux/prometheus/) - Grafana의 주요 데이터 소스
+- [시계열 데이터베이스 (Time-Series Database)](/knowledge/linux/time-series-database/) - Grafana가 시각화하는 데이터의 저장소
+- [Nagios (나기오스)](/knowledge/linux/nagios/) - Grafana와 통합 가능한 모니터링 도구
+- [애플리케이션 모니터링 (Application Monitoring)](/knowledge/linux/application-monitoring/) - 비즈니스 메트릭 시각화

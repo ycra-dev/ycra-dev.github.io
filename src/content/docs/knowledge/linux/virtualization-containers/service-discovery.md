@@ -1,5 +1,5 @@
 ---
-title: "Service Discovery"
+title: "서비스 디스커버리 (Service Discovery)"
 description: "서비스 디스커버리(Service Discovery)는 분산 컨테이너 환경에서 단명(ephemeral)하고 동적으로 포트가 할당되는 컨테이너에 영속적이고 친숙한 서비스 이름을 매핑하는 메커니즘이다"
 tags: ['Service Discovery', 'Container', 'Microservices', 'DNS', 'Networking']
 created: 2026-02-12
@@ -43,7 +43,7 @@ curl http://localhost:8500/v1/catalog/service/web
 
 ## 관련 개념
 
-- [Container Orchestration](/knowledge/linux/container-orchestration/)
-- [Kubernetes](/knowledge/linux/kubernetes/)
-- [Docker](/knowledge/linux/docker/)
-- [Container](/knowledge/linux/container/)
+- [컨테이너 오케스트레이션 (Container Orchestration)](/knowledge/linux/container-orchestration/)
+- [Kubernetes (쿠버네티스)](/knowledge/linux/kubernetes/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [컨테이너 (Container)](/knowledge/linux/container/)

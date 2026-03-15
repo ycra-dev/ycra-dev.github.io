@@ -1,5 +1,5 @@
 ---
-title: "Data Backup Strategy"
+title: "데이터 백업 전략 (Data Backup Strategy)"
 description: "데이터 백업 전략은 하드웨어 장애, 보안 침해, 랜섬웨어 등으로부터 중요 데이터를 보호하기 위해 불변의(immutable) 시점 복원본(point-in-time backup)을 생성하고 관리하는 체계적 계획이다"
 tags: ['Backup', 'Disaster Recovery', 'Snapshot', 'Immutability', 'Data Protection']
 created: 2026-02-12
@@ -44,7 +44,7 @@ sudo lvremove /dev/vg/backup-snap
 
 ## 관련 개념
 
-- [RAID](/knowledge/linux/raid/)
-- [ZFS](/knowledge/linux/zfs/)
-- [Btrfs](/knowledge/linux/btrfs/)
-- [Logical Volume Manager](/knowledge/linux/logical-volume-manager/)
+- [RAID (독립 디스크의 중복 배열)](/knowledge/linux/raid/)
+- [ZFS (Z 파일 시스템)](/knowledge/linux/zfs/)
+- [Btrfs (B-트리 파일 시스템)](/knowledge/linux/btrfs/)
+- [논리 볼륨 관리자 (Logical Volume Manager)](/knowledge/linux/logical-volume-manager/)

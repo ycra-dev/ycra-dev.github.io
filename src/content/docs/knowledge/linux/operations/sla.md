@@ -1,5 +1,5 @@
 ---
-title: "SLA"
+title: "SLA (서비스 수준 계약)"
 description: "SLA(Service Level Agreement)는 IT 조직이 제공하는 서비스의 구체적인 세부 사항을 협상, 합의, 문서화한 서비스 수준 합의서로, 적절한 기대치를 설정하고 질문 발생 시 참조 기준이 된다"
 tags: ['Sla', 'Service Level Agreement', 'Availability', 'Uptime', 'Compliance', 'Metrics']
 created: 2026-02-12
@@ -63,8 +63,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Ticketing System](/knowledge/linux/ticketing-system/) - SLA 준수를 위한 티켓 관리
-- [Data Center Tier](/knowledge/linux/data-center-tier/) - 인프라 가용성 등급과 SLA
-- [Site Reliability Engineering](/knowledge/linux/site-reliability-engineering/) - SRE의 가용성 목표
-- [Disaster Recovery](/knowledge/linux/disaster-recovery/) - 재해 복구와 SLA 연속성
-- [Compliance Standards](/knowledge/linux/compliance-standards/) - 규정 준수와 SLA의 관계
+- [티켓 시스템 (Ticketing System)](/knowledge/linux/ticketing-system/) - SLA 준수를 위한 티켓 관리
+- [데이터 센터 티어 (Data Center Tier)](/knowledge/linux/data-center-tier/) - 인프라 가용성 등급과 SLA
+- [사이트 신뢰성 공학 (Site Reliability Engineering)](/knowledge/linux/site-reliability-engineering/) - SRE의 가용성 목표
+- [재해 복구 (Disaster Recovery)](/knowledge/linux/disaster-recovery/) - 재해 복구와 SLA 연속성
+- [컴플라이언스 표준 (Compliance Standards)](/knowledge/linux/compliance-standards/) - 규정 준수와 SLA의 관계

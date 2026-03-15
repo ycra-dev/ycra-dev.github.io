@@ -1,5 +1,5 @@
 ---
-title: "Package Repository"
+title: "패키지 리포지토리 (Package Repository)"
 description: "패키지 저장소는 소프트웨어 패키지들을 체계적으로 저장하고 배포하기 위한 네트워크 기반 저장 시스템으로, 패키지 관리 시스템이 소프트웨어를 검색, 다운로드, 업데이트할 수 있는 중앙화된 소스를 제공한다"
 tags: ['Package Repository', 'Software Management', 'Linux', 'Distribution', 'Apt', 'Yum']
 created: 2026-02-12
@@ -41,6 +41,6 @@ sudo apt-mirror
 
 ## 관련 개념
 
-- [Package Management](/knowledge/linux/package-management/)
-- [Linux Distribution](/knowledge/linux/linux-distribution/)
-- [DevOps](/knowledge/linux/devops/)
+- [패키지 관리 (Package Management)](/knowledge/linux/package-management/)
+- [리눅스 배포판 (Linux Distribution)](/knowledge/linux/linux-distribution/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)

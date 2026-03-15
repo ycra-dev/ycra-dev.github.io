@@ -1,5 +1,5 @@
 ---
-title: "Data Center Cooling"
+title: "데이터 센터 냉각 (Data Center Cooling)"
 description: "데이터센터 냉각은 서버와 네트워크 장비를 안전한 작동 온도 범위 내로 유지하기 위한 환경 관리 시스템으로, ASHRAE 가이드라인에 따라 서버 입구 온도 18~27도C를 권장한다"
 tags: ['Data Center', 'Cooling', 'Hvac', 'Hot Aisle', 'Cold Aisle', 'Ashrae', 'Temperature']
 created: 2026-02-12
@@ -58,6 +58,6 @@ sidebar:
 
 ## 관련 개념
 
-- [UPS Power](/knowledge/linux/ups-power/) - 전력과 냉각의 상호 의존성
-- [PUE Energy Efficiency](/knowledge/linux/pue-energy-efficiency/) - 냉각 오버헤드와 에너지 효율
-- [Data Center Tier](/knowledge/linux/data-center-tier/) - 냉각 이중화와 가용성 등급
+- [UPS 전원 (UPS Power)](/knowledge/linux/ups-power/) - 전력과 냉각의 상호 의존성
+- [PUE 에너지 효율 (PUE Energy Efficiency)](/knowledge/linux/pue-energy-efficiency/) - 냉각 오버헤드와 에너지 효율
+- [데이터 센터 티어 (Data Center Tier)](/knowledge/linux/data-center-tier/) - 냉각 이중화와 가용성 등급

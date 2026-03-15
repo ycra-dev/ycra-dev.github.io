@@ -1,5 +1,5 @@
 ---
-title: "Package Management"
+title: "패키지 관리 (Package Management)"
 description: "패키지 관리는 운영체제에서 소프트웨어를 설치, 업그레이드, 설정, 제거하는 체계적 프로세스로, 패키지 매니저를 통해 소프트웨어의 의존성과 버전을 관리한다"
 tags: ['Linux', 'Software', 'Apt', 'Yum', 'Pkg', 'Installation']
 created: 2026-02-12
@@ -44,5 +44,5 @@ rpm -qa python
 
 ## 관련 개념
 
-- [Linux Distribution](/knowledge/linux/linux-distribution/)
-- [Man Pages](/knowledge/linux/man-pages/)
+- [리눅스 배포판 (Linux Distribution)](/knowledge/linux/linux-distribution/)
+- [매뉴얼 페이지 (Man Pages)](/knowledge/linux/man-pages/)

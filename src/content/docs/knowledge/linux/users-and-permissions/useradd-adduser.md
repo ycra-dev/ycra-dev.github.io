@@ -1,5 +1,5 @@
 ---
-title: "User Addition Commands"
+title: "사용자 추가 명령어 (User Addition Commands)"
 description: "useradd와 adduser는 새로운 사용자 계정을 생성하는 명령으로, passwd/shadow 파일 편집, 홈 디렉토리 생성, 기본 파일 복사, 권한 설정 등의 복잡한 과정을 자동화한다"
 tags: ['Useradd', 'Adduser', 'User Management', 'Account Provisioning', 'Automation']
 created: 2026-02-12
@@ -47,5 +47,5 @@ sudo passwd newuser
 
 ## 관련 개념
 
-- [File Permissions](/knowledge/linux/file-permissions/)
-- [PAM](/knowledge/linux/pam/)
+- [파일 권한 (File Permissions)](/knowledge/linux/file-permissions/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)

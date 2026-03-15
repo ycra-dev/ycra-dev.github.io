@@ -1,5 +1,5 @@
 ---
-title: "Idempotence"
+title: "멱등성 (Idempotence)"
 description: "멱등성(Idempotence)은 동일한 오퍼레이션을 여러 번 반복 적용해도 결과가 달라지지 않는 속성으로, 구성 관리 시스템에서 오퍼레이션의 핵심 특성이다"
 tags: ['Idempotence', 'Configuration Management', 'Automation', 'Operations']
 created: 2026-02-12
@@ -44,7 +44,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Configuration Management](/knowledge/linux/configuration-management/)
-- [Ansible](/knowledge/linux/ansible/)
-- [Salt](/knowledge/linux/salt/)
-- [Declarative Configuration](/knowledge/linux/declarative-configuration/)
+- [구성 관리 (Configuration Management)](/knowledge/linux/configuration-management/)
+- [Ansible (자동화 도구)](/knowledge/linux/ansible/)
+- [Salt (솔트)](/knowledge/linux/salt/)
+- [선언적 구성 (Declarative Configuration)](/knowledge/linux/declarative-configuration/)

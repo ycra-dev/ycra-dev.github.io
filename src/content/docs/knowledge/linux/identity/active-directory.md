@@ -1,5 +1,5 @@
 ---
-title: "Active Directory"
+title: "Active Directory (액티브 디렉토리)"
 description: "Active Directory(AD)는 Microsoft의 디렉토리 서비스로, 사용자/컴퓨터/리소스의 중앙집중식 인증 및 인가를 제공하며, UNIX/Linux 시스템은 sssd와 Samba를 통해 AD 도메인에 통합될 수 있다"
 tags: ['Active Directory', 'Ad', 'Sssd', 'Kerberos', 'Windows Domain', 'Authentication']
 created: 2026-02-12
@@ -43,9 +43,9 @@ sudo sssctl domain-status MYCOMPANY.COM
 
 ## 관련 개념
 
-- [Samba](/knowledge/linux/samba/)
-- [SMB Protocol](/knowledge/linux/smb-protocol/)
-- [Kerberos Authentication](/knowledge/linux/kerberos-authentication/)
-- [LDAP](/knowledge/linux/ldap/)
-- [Identity Management](/knowledge/linux/identity-management/)
-- [PAM](/knowledge/linux/pam/)
+- [Samba (삼바)](/knowledge/linux/samba/)
+- [SMB 프로토콜 (SMB Protocol)](/knowledge/linux/smb-protocol/)
+- [Kerberos 인증 (Kerberos Authentication)](/knowledge/linux/kerberos-authentication/)
+- [LDAP (경량 디렉토리 접근 프로토콜)](/knowledge/linux/ldap/)
+- [ID 관리 (Identity Management)](/knowledge/linux/identity-management/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)

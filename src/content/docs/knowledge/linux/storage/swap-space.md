@@ -1,5 +1,5 @@
 ---
-title: "Swap Space"
+title: "스왑 공간 (Swap Space)"
 description: "스왑 공간은 물리 메모리(RAM)가 부족할 때 프로세스의 메모리 페이지를 디스크에 저장하는 가상 메모리 영역으로, 파일시스템 대신 커널이 직접 관리하는 전용 파티션이나 논리 볼륨으로 구성된다"
 tags: ['Swap', 'Virtual Memory', 'Paging', 'Mkswap', 'Swapon']
 created: 2026-02-12
@@ -45,7 +45,7 @@ sudo swapon /swapfile
 
 ## 관련 개념
 
-- [Logical Volume Manager](/knowledge/linux/logical-volume-manager/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Disk Partitioning](/knowledge/linux/disk-partitioning/)
-- [ZFS](/knowledge/linux/zfs/)
+- [논리 볼륨 관리자 (Logical Volume Manager)](/knowledge/linux/logical-volume-manager/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [디스크 파티셔닝 (Disk Partitioning)](/knowledge/linux/disk-partitioning/)
+- [ZFS (Z 파일 시스템)](/knowledge/linux/zfs/)

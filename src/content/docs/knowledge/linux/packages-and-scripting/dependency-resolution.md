@@ -1,5 +1,5 @@
 ---
-title: "Dependency Resolution"
+title: "의존성 해결 (Dependency Resolution)"
 description: "의존성 해결은 소프트웨어 패키지가 필요로 하는 라이브러리와 지원 인프라를 자동으로 식별하고 설치하는 패키지 관리 시스템의 메커니즘이다"
 tags: ['Dependency Resolution', 'Package Management', 'Software Engineering', 'Automation']
 created: 2026-02-12
@@ -39,6 +39,6 @@ sudo apt --fix-broken install
 
 ## 관련 개념
 
-- [Package Management](/knowledge/linux/package-management/)
-- [Package Repository](/knowledge/linux/package-repository/)
-- [Linux Distribution](/knowledge/linux/linux-distribution/)
+- [패키지 관리 (Package Management)](/knowledge/linux/package-management/)
+- [패키지 리포지토리 (Package Repository)](/knowledge/linux/package-repository/)
+- [리눅스 배포판 (Linux Distribution)](/knowledge/linux/linux-distribution/)

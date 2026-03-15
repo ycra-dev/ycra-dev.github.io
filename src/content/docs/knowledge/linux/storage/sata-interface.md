@@ -1,5 +1,5 @@
 ---
-title: "SATA Interface"
+title: "SATA 인터페이스 (SATA Interface)"
 description: "SATA(Serial ATA)는 저장 장치를 컴퓨터에 연결하는 가장 보편적인 하드웨어 인터페이스로, 현재 6 Gb/s의 전송 속도를 지원하며 핫스왑 및 명령 큐잉 기능을 제공한다"
 tags: ['Sata', 'Storage Interface', 'Esata', 'Ahci', 'Hardware']
 created: 2026-02-12
@@ -38,7 +38,7 @@ ls /dev/nvme*
 
 ## 관련 개념
 
-- [Solid State Drive](/knowledge/linux/solid-state-drive/)
-- [Device File](/knowledge/linux/device-file/)
-- [RAID](/knowledge/linux/raid/)
-- [Disk Partitioning](/knowledge/linux/disk-partitioning/)
+- [솔리드 스테이트 드라이브 (Solid State Drive)](/knowledge/linux/solid-state-drive/)
+- [디바이스 파일 (Device File)](/knowledge/linux/device-file/)
+- [RAID (독립 디스크의 중복 배열)](/knowledge/linux/raid/)
+- [디스크 파티셔닝 (Disk Partitioning)](/knowledge/linux/disk-partitioning/)

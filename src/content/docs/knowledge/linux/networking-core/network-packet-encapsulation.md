@@ -1,5 +1,5 @@
 ---
-title: "Network Packet Encapsulation"
+title: "네트워크 패킷 캡슐화 (Network Packet Encapsulation)"
 description: "네트워크 패킷 캡슐화(Encapsulation)란 데이터가 프로토콜 스택을 따라 하위 계층으로 내려갈 때 각 프로토콜이 자신의 헤더 정보를 추가하고, 상위 계층의 완성된 패킷이 하위 계층 패킷의 페이로드(payload)가 되는 중첩 포장 과정이다"
 tags: ['Encapsulation', 'Packet', 'Networking', 'Protocol Stack', 'TCP IP']
 created: 2026-02-12
@@ -43,7 +43,7 @@ sudo tcpdump -i eth0 -vv -X
 
 ## 관련 개념
 
-- [tcp-ip](/knowledge/linux/tcp-ip/) - 캡슐화가 적용되는 프로토콜 스택
-- [ethernet](/knowledge/linux/ethernet/) - 링크 계층의 프레이밍
-- [mtu](/knowledge/linux/mtu/) - 패킷 크기 제한
-- [tcpdump](/knowledge/linux/tcpdump/) - 캡슐화된 패킷 분석 도구
+- [TCP/IP 프로토콜 스위트 (TCP/IP Protocol Suite)](/knowledge/linux/tcp-ip/) - 캡슐화가 적용되는 프로토콜 스택
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - 링크 계층의 프레이밍
+- [MTU (최대 전송 단위)](/knowledge/linux/mtu/) - 패킷 크기 제한
+- [tcpdump (패킷 캡처 도구)](/knowledge/linux/tcpdump/) - 캡슐화된 패킷 분석 도구

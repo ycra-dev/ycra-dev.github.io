@@ -1,5 +1,5 @@
 ---
-title: "Dockerfile"
+title: "Dockerfile (도커파일)"
 description: "Dockerfile은 Docker 이미지를 빌드하기 위한 레시피 파일로, 기본 이미지 위에 각 명령이 새로운 레이어로 커밋되는 일련의 지시어(instruction)와 셸 명령을 포함한다"
 tags: ['Dockerfile', 'Docker', 'Container', 'Image Building', 'Layers']
 created: 2026-02-12
@@ -61,7 +61,7 @@ CMD ["myapp"]
 
 ## 관련 개념
 
-- [Docker](/knowledge/linux/docker/)
-- [Container](/knowledge/linux/container/)
-- [Container Registry](/knowledge/linux/container-registry/)
-- [Union Filesystem](/knowledge/linux/union-filesystem/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [컨테이너 (Container)](/knowledge/linux/container/)
+- [컨테이너 레지스트리 (Container Registry)](/knowledge/linux/container-registry/)
+- [유니온 파일 시스템 (Union Filesystem)](/knowledge/linux/union-filesystem/)

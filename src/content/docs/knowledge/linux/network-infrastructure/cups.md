@@ -1,5 +1,5 @@
 ---
-title: "CUPS (Common UNIX Printing System)"
+title: "CUPS (공용 유닉스 인쇄 시스템)"
 description: "CUPS(Common UNIX Printing System)는 Linux, FreeBSD, macOS에서 표준으로 사용되는 네트워크 인식 인쇄 시스템으로, 브라우저 기반 GUI와 셸 레벨 명령어를 모두 제공하는 통합 인쇄 관리 플랫폼이다"
 tags: ['Cups', 'Printing', 'Unix', 'Linux', 'Network Printing']
 created: 2026-02-12
@@ -54,7 +54,7 @@ sudo systemctl restart org.cups.cupsd.service
 
 ## 관련 개념
 
-- [IPP](/knowledge/linux/ipp/) - CUPS의 기반 프로토콜
-- [print-spooler](/knowledge/linux/print-spooler/) - 인쇄 작업 관리 메커니즘
-- [systemd](/knowledge/linux/systemd/) - CUPS 데몬 관리
-- [syslog](/knowledge/linux/syslog/) - CUPS 로그 관리
+- [IPP (인터넷 인쇄 프로토콜)](/knowledge/linux/ipp/) - CUPS의 기반 프로토콜
+- [인쇄 스풀러 (Print Spooler)](/knowledge/linux/print-spooler/) - 인쇄 작업 관리 메커니즘
+- [Systemd (시스템 관리 데몬)](/knowledge/linux/systemd/) - CUPS 데몬 관리
+- [Syslog (시스템 로그)](/knowledge/linux/syslog/) - CUPS 로그 관리

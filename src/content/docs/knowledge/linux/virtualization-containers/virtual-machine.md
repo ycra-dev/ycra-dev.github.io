@@ -1,5 +1,5 @@
 ---
-title: "Virtual Machine"
+title: "가상 머신 (Virtual Machine)"
 description: "가상 머신(Virtual Machine, VM)은 하이퍼바이저가 물리 하드웨어를 분할하여 제공하는 독립적인 운영체제 실행 환경으로, 자체 커널, init 프로세스, 드라이버를 갖춘 완전한 OS 인스턴스이다"
 tags: ['Virtual Machine', 'VM', 'Virtualization', 'Guest OS', 'Image']
 created: 2026-02-12
@@ -52,9 +52,9 @@ virt-install --name chef --paravirt \
 
 ## 관련 개념
 
-- [Hypervisor](/knowledge/linux/hypervisor/)
-- [KVM](/knowledge/linux/kvm/)
-- [Container](/knowledge/linux/container/)
-- [Live Migration](/knowledge/linux/live-migration/)
-- [Packer](/knowledge/linux/packer/)
-- [Vagrant](/knowledge/linux/vagrant/)
+- [하이퍼바이저 (Hypervisor)](/knowledge/linux/hypervisor/)
+- [KVM (커널 기반 가상 머신)](/knowledge/linux/kvm/)
+- [컨테이너 (Container)](/knowledge/linux/container/)
+- [라이브 마이그레이션 (Live Migration)](/knowledge/linux/live-migration/)
+- [Packer (패커)](/knowledge/linux/packer/)
+- [Vagrant (베이그런트)](/knowledge/linux/vagrant/)

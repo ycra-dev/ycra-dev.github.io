@@ -1,5 +1,5 @@
 ---
-title: "Linux Distribution"
+title: "리눅스 배포판 (Linux Distribution)"
 description: "Linux 배포판은 Linux 커널과 사용자 명령어를 구성하는 패키지들의 조합으로, 설치 절차, 데스크톱 환경, 패키지 관리 시스템을 포함하는 완성된 운영 체제이다"
 tags: ['Linux', 'Operating System', 'Distribution', 'Debian', 'Red Hat', 'Ubuntu']
 created: 2026-02-12
@@ -37,6 +37,6 @@ cat /etc/debian_version
 
 ## 관련 개념
 
-- [Package Management](/knowledge/linux/package-management/)
-- [Man Pages](/knowledge/linux/man-pages/)
-- [DevOps](/knowledge/linux/devops/)
+- [패키지 관리 (Package Management)](/knowledge/linux/package-management/)
+- [매뉴얼 페이지 (Man Pages)](/knowledge/linux/man-pages/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)

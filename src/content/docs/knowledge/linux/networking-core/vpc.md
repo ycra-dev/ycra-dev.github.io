@@ -1,5 +1,5 @@
 ---
-title: "VPC (Virtual Private Cloud)"
+title: "VPC (가상 사설 클라우드)"
 description: "VPC(Virtual Private Cloud)는 클라우드 플랫폼에서 소프트웨어로 정의되는 사설 네트워크로, 가상 서버가 존재하는 격리된 네트워크 환경을 제공하며 서브넷, 라우팅 테이블, 보안 그룹, NAT 게이트웨이 등 전통적 네트워크 구성 요소를 가상으로 구현한다"
 tags: ['Vpc', 'Cloud Networking', 'AWS', 'GCP', 'Software Defined Networking']
 created: 2026-02-12
@@ -65,9 +65,9 @@ aws ec2 describe-vpcs
 
 ## 관련 개념
 
-- [nat](/knowledge/linux/nat/) - VPC 프라이빗 서브넷의 아웃바운드 트래픽 처리
-- [cidr](/knowledge/linux/cidr/) - VPC 주소 범위 표기법
-- [subnet-mask](/knowledge/linux/subnet-mask/) - VPC 서브넷 분할
-- [iptables](/knowledge/linux/iptables/) - 보안 그룹과 유사한 패킷 필터링
-- [infrastructure-as-code](/knowledge/linux/infrastructure-as-code/) - Terraform을 통한 VPC 관리
-- [cloud-iam](/knowledge/linux/cloud-iam/) - VPC 리소스의 접근 제어
+- [NAT (네트워크 주소 변환)](/knowledge/linux/nat/) - VPC 프라이빗 서브넷의 아웃바운드 트래픽 처리
+- [CIDR (클래스리스 라우팅)](/knowledge/linux/cidr/) - VPC 주소 범위 표기법
+- [서브넷 마스크 (Subnet Mask)](/knowledge/linux/subnet-mask/) - VPC 서브넷 분할
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - 보안 그룹과 유사한 패킷 필터링
+- [코드형 인프라 (Infrastructure as Code)](/knowledge/linux/infrastructure-as-code/) - Terraform을 통한 VPC 관리
+- [클라우드 IAM (Cloud IAM)](/knowledge/linux/cloud-iam/) - VPC 리소스의 접근 제어

@@ -1,5 +1,5 @@
 ---
-title: "Routing Protocol"
+title: "라우팅 프로토콜 (Routing Protocol)"
 description: "라우팅 프로토콜(Routing Protocol)은 라우터들이 상호 협력하여 최적의 네트워크 경로를 자동으로 발견, 계산, 배포하는 프로토콜로, 정적 라우팅의 관리 부담을 줄이고 네트워크 장애 시 대체 경로를 신속하게 찾을 수 있게 한다"
 tags: ['Routing Protocol', 'Dynamic Routing', 'Distance Vector', 'Link State', 'Networking']
 created: 2026-02-12
@@ -47,11 +47,11 @@ sidebar:
 
 ## 관련 개념
 
-- [routing-table](/knowledge/linux/routing-table/) - 라우팅 프로토콜이 관리하는 대상
-- [distance-vector-routing](/knowledge/linux/distance-vector-routing/) - 거리 벡터 방식의 라우팅
-- [link-state-routing](/knowledge/linux/link-state-routing/) - 링크 상태 방식의 라우팅
-- [ospf](/knowledge/linux/ospf/) - 대표적 링크 상태 프로토콜
-- [bgp](/knowledge/linux/bgp/) - 인터넷 백본 라우팅 프로토콜
-- [rip](/knowledge/linux/rip/) - 단순 거리 벡터 프로토콜
-- [autonomous-system](/knowledge/linux/autonomous-system/) - 라우팅 프로토콜의 관리 범위
-- [network-router](/knowledge/linux/network-router/) - 라우팅 프로토콜을 실행하는 장비
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - 라우팅 프로토콜이 관리하는 대상
+- [거리 벡터 라우팅 (Distance-Vector Routing)](/knowledge/linux/distance-vector-routing/) - 거리 벡터 방식의 라우팅
+- [링크 상태 라우팅 (Link-State Routing)](/knowledge/linux/link-state-routing/) - 링크 상태 방식의 라우팅
+- [OSPF (최단 경로 우선 프로토콜)](/knowledge/linux/ospf/) - 대표적 링크 상태 프로토콜
+- [BGP (경계 게이트웨이 프로토콜)](/knowledge/linux/bgp/) - 인터넷 백본 라우팅 프로토콜
+- [RIP (라우팅 정보 프로토콜)](/knowledge/linux/rip/) - 단순 거리 벡터 프로토콜
+- [자율 시스템 (Autonomous System, AS)](/knowledge/linux/autonomous-system/) - 라우팅 프로토콜의 관리 범위
+- [네트워크 라우터 (Network Router)](/knowledge/linux/network-router/) - 라우팅 프로토콜을 실행하는 장비

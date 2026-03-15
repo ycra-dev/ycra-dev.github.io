@@ -1,5 +1,5 @@
 ---
-title: "Web Cache"
+title: "웹 캐시 (Web Cache)"
 description: "웹 캐시는 클라이언트와 웹 서버 사이에 위치하여 자주 요청되는 콘텐츠를 저장하고, 동일한 요청에 대해 원본 서버를 거치지 않고 직접 응답하여 서버 부하를 줄이고 응답 시간을 개선하는 시스템이다"
 tags: ['Cache', 'Web Performance', 'Proxy Cache', 'Reverse Proxy', 'Cdn']
 created: 2026-02-12
@@ -62,9 +62,9 @@ Cache-Control: no-cache, no-store
 
 ## 관련 개념
 
-- [HTTP](/knowledge/linux/http/)
-- [CDN](/knowledge/linux/cdn/)
-- [NGINX](/knowledge/linux/nginx/)
-- [Reverse Proxy](/knowledge/linux/reverse-proxy/)
-- [Web Server](/knowledge/linux/web-server/)
-- [Load Balancer](/knowledge/linux/load-balancer/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)
+- [CDN (콘텐츠 전송 네트워크)](/knowledge/linux/cdn/)
+- [NGINX (엔진엑스)](/knowledge/linux/nginx/)
+- [리버스 프록시 (Reverse Proxy)](/knowledge/linux/reverse-proxy/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [로드 밸런서 (Load Balancer)](/knowledge/linux/load-balancer/)

@@ -1,5 +1,5 @@
 ---
-title: "fstab"
+title: "fstab (파일 시스템 테이블)"
 description: "`/etc/fstab`은 시스템 부팅 시 자동으로 마운트할 파일시스템 목록과 마운트 옵션을 정의하는 설정 파일로, mount, umount, swapon, fsck 명령이 참조한다"
 tags: ['Fstab', 'Mount', 'Filesystem', 'Uuid', 'Label', 'Boot']
 created: 2026-02-12
@@ -49,8 +49,8 @@ sudo mount -a -t ext4
 
 ## 관련 개념
 
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Disk Partitioning](/knowledge/linux/disk-partitioning/)
-- [NFS](/knowledge/linux/nfs/)
-- [Swap Space](/knowledge/linux/swap-space/)
-- [Device File](/knowledge/linux/device-file/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [디스크 파티셔닝 (Disk Partitioning)](/knowledge/linux/disk-partitioning/)
+- [NFS (네트워크 파일 시스템)](/knowledge/linux/nfs/)
+- [스왑 공간 (Swap Space)](/knowledge/linux/swap-space/)
+- [디바이스 파일 (Device File)](/knowledge/linux/device-file/)

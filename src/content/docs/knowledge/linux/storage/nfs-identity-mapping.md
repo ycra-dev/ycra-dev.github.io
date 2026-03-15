@@ -1,5 +1,5 @@
 ---
-title: "NFS Identity Mapping"
+title: "NFS ID 매핑 (NFS Identity Mapping)"
 description: "NFSv4 신원 매핑은 UNIX UID/GID와 NFSv4의 문자열 식별자(user@nfs-domain 형식) 사이를 변환하는 메커니즘으로, 클라이언트와 서버의 idmapd 데몬이 이를 처리한다"
 tags: ['Idmapd', 'Nfsv4', 'Uid Mapping', 'Identity', 'Nobody']
 created: 2026-02-12
@@ -42,8 +42,8 @@ sudo service nfsuserd restart          # FreeBSD
 
 ## 관련 개념
 
-- [NFS](/knowledge/linux/nfs/)
-- [UID GID](/knowledge/linux/uid-gid/)
-- [Kerberos Authentication](/knowledge/linux/kerberos-authentication/)
-- [LDAP](/knowledge/linux/ldap/)
-- [Passwd Shadow](/knowledge/linux/passwd-shadow/)
+- [NFS (네트워크 파일 시스템)](/knowledge/linux/nfs/)
+- [UID/GID (사용자/그룹 ID)](/knowledge/linux/uid-gid/)
+- [Kerberos 인증 (Kerberos Authentication)](/knowledge/linux/kerberos-authentication/)
+- [LDAP (경량 디렉토리 접근 프로토콜)](/knowledge/linux/ldap/)
+- [Passwd와 Shadow 파일 (Passwd and Shadow Files)](/knowledge/linux/passwd-shadow/)

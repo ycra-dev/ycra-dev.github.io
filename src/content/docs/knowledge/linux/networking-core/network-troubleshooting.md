@@ -1,5 +1,5 @@
 ---
-title: "Network Troubleshooting"
+title: "네트워크 문제 해결 (Network Troubleshooting)"
 description: "네트워크 트러블슈팅(Network Troubleshooting)은 TCP/IP 프로토콜 스택의 계층적 구조를 활용하여 네트워크 문제를 체계적으로 진단하고 해결하는 방법론으로, 물리 계층부터 응용 계층까지 또는 그 반대로 단계적으로 점검한다"
 tags: ['Network Troubleshooting', 'Diagnostics', 'Networking', 'Methodology', 'Debugging']
 created: 2026-02-12
@@ -69,9 +69,9 @@ iperf3 -c target-server
 
 ## 관련 개념
 
-- [ping](/knowledge/linux/ping/) - 기본 연결성 확인 도구
-- [traceroute](/knowledge/linux/traceroute/) - 경로 추적 도구
-- [tcpdump](/knowledge/linux/tcpdump/) - 패킷 분석 도구
-- [packet-sniffing](/knowledge/linux/packet-sniffing/) - 네트워크 트래픽 분석
-- [dns-resolution](/knowledge/linux/dns-resolution/) - 흔한 문제 원인인 DNS
-- [arp](/knowledge/linux/arp/) - 링크 계층 문제 진단
+- [ping (핑)](/knowledge/linux/ping/) - 기본 연결성 확인 도구
+- [traceroute (경로 추적 도구)](/knowledge/linux/traceroute/) - 경로 추적 도구
+- [tcpdump (패킷 캡처 도구)](/knowledge/linux/tcpdump/) - 패킷 분석 도구
+- [패킷 스니핑 (Packet Sniffing)](/knowledge/linux/packet-sniffing/) - 네트워크 트래픽 분석
+- [DNS 이름 해석 (DNS Resolution)](/knowledge/linux/dns-resolution/) - 흔한 문제 원인인 DNS
+- [ARP (주소 결정 프로토콜)](/knowledge/linux/arp/) - 링크 계층 문제 진단

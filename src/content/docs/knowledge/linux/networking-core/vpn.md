@@ -1,5 +1,5 @@
 ---
-title: "VPN (Virtual Private Network)"
+title: "VPN (가상 사설 네트워크)"
 description: "VPN은 인증과 암호화를 사용하여 물리적으로 떨어진 네트워크를 인터넷과 같은 비신뢰 네트워크를 통해 안전하게 연결하는 가상 사설망 기술이다"
 tags: ['Security', 'Network', 'Tunneling', 'Encryption', 'Ipsec', 'Remote Access']
 created: 2026-02-12
@@ -50,6 +50,6 @@ sudo wg show
 
 ## 관련 개념
 
-- [ssh-port-forwarding](/knowledge/linux/ssh-port-forwarding/) - 간이 VPN으로 사용 가능한 SSH 터널링
-- [firewall](/knowledge/linux/firewall/) - VPN과 방화벽의 상호작용
-- [tls-ssl](/knowledge/linux/tls-ssl/) - VPN과 유사한 암호화 기술
+- [SSH 포트 포워딩 (SSH Port Forwarding)](/knowledge/linux/ssh-port-forwarding/) - 간이 VPN으로 사용 가능한 SSH 터널링
+- [방화벽 (Firewall)](/knowledge/linux/firewall/) - VPN과 방화벽의 상호작용
+- [TLS/SSL (전송 계층 보안)](/knowledge/linux/tls-ssl/) - VPN과 유사한 암호화 기술

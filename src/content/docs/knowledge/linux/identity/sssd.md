@@ -1,5 +1,5 @@
 ---
-title: "SSSD"
+title: "SSSD (시스템 보안 서비스 데몬)"
 description: "SSSD(System Security Services Daemon)는 Linux와 FreeBSD에서 사용자 ID 관리, 인증, 계정 매핑을 통합 제공하는 데몬으로, LDAP, Kerberos, Active Directory 등 다양한 ID 제공자에 대한 단일 접근..."
 tags: ['Sssd', 'Authentication', 'Identity', 'Sso', 'Daemon']
 created: 2026-02-12
@@ -58,9 +58,9 @@ id domain_user
 
 ## 관련 개념
 
-- [Single Sign-On](/knowledge/linux/single-sign-on/)
-- [LDAP](/knowledge/linux/ldap/)
-- [Kerberos](/knowledge/linux/kerberos/)
-- [PAM](/knowledge/linux/pam/)
-- [NSSwitch](/knowledge/linux/nsswitch/)
-- [Active Directory](/knowledge/linux/active-directory/)
+- [싱글 사인온 (Single Sign-On)](/knowledge/linux/single-sign-on/)
+- [LDAP (경량 디렉토리 접근 프로토콜)](/knowledge/linux/ldap/)
+- [Kerberos (커버로스)](/knowledge/linux/kerberos/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)
+- [NSSwitch (네임 서비스 스위치)](/knowledge/linux/nsswitch/)
+- [Active Directory (액티브 디렉토리)](/knowledge/linux/active-directory/)

@@ -1,5 +1,5 @@
 ---
-title: "SSH Port Forwarding"
+title: "SSH 포트 포워딩 (SSH Port Forwarding)"
 description: "SSH 포트 포워딩은 SSH의 암호화된 채널을 통해 TCP 연결을 안전하게 터널링하여, 방화벽 뒤에 있거나 보안이 취약한 원격 서비스에 접근할 수 있게 하는 기능이다"
 tags: ['Security', 'Ssh', 'Tunneling', 'Network', 'Port Forwarding']
 created: 2026-02-12
@@ -51,7 +51,7 @@ ssh -f -N -L 3306:db.internal:3306 user@ssh-gateway.com
 
 ## 관련 개념
 
-- [ssh](/knowledge/linux/ssh/) - SSH 포트 포워딩의 기반 프로토콜
-- [firewall](/knowledge/linux/firewall/) - 포트 포워딩으로 방화벽 우회 가능성
-- [vpn](/knowledge/linux/vpn/) - 포트 포워딩의 확장된 형태
-- [iptables](/knowledge/linux/iptables/) - 네트워크 수준 포트 제어
+- [SSH (보안 셸)](/knowledge/linux/ssh/) - SSH 포트 포워딩의 기반 프로토콜
+- [방화벽 (Firewall)](/knowledge/linux/firewall/) - 포트 포워딩으로 방화벽 우회 가능성
+- [VPN (가상 사설 네트워크)](/knowledge/linux/vpn/) - 포트 포워딩의 확장된 형태
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - 네트워크 수준 포트 제어

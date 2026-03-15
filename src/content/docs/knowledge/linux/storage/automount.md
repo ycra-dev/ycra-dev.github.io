@@ -1,5 +1,5 @@
 ---
-title: "Automount"
+title: "자동 마운트 (Automount)"
 description: "Automount(자동 마운트)는 파일시스템이 참조될 때 자동으로 마운트하고, 일정 시간 미사용 시 자동으로 언마운트하는 데몬 기반 시스템으로, 대규모 네트워크에서 /etc/fstab의 유지보수 부담과 서버 장애 영향을 줄인다"
 tags: ['Autofs', 'Automount', 'Automountd', 'Nfs Mount', 'Indirect Map', 'Direct Map']
 created: 2026-02-12
@@ -54,6 +54,6 @@ sudo systemctl reload autofs  # Linux
 
 ## 관련 개념
 
-- [NFS](/knowledge/linux/nfs/)
-- [fstab](/knowledge/linux/fstab/)
-- [Filesystem](/knowledge/linux/filesystem/)
+- [NFS (네트워크 파일 시스템)](/knowledge/linux/nfs/)
+- [fstab (파일 시스템 테이블)](/knowledge/linux/fstab/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)

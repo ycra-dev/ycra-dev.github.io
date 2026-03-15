@@ -1,5 +1,5 @@
 ---
-title: "CDN"
+title: "CDN (콘텐츠 전송 네트워크)"
 description: "CDN(Content Delivery Network)은 전 세계에 분산된 에지 서버 네트워크를 통해 콘텐츠를 사용자에게 더 가까이 이동시켜 웹 성능을 향상시키는 시스템이다"
 tags: ['Cdn', 'Content Delivery Network', 'Edge Server', 'Performance', 'DNS']
 created: 2026-02-12
@@ -50,8 +50,8 @@ aws cloudfront create-invalidation \
 
 ## 관련 개념
 
-- [Web Cache](/knowledge/linux/web-cache/)
-- [HTTP](/knowledge/linux/http/)
-- [Load Balancer](/knowledge/linux/load-balancer/)
-- [Web Server](/knowledge/linux/web-server/)
-- [DNS MX Record](/knowledge/network/dns-mx-record/)
+- [웹 캐시 (Web Cache)](/knowledge/linux/web-cache/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)
+- [로드 밸런서 (Load Balancer)](/knowledge/linux/load-balancer/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [DNS MX 레코드 (DNS MX Record)](/knowledge/network/dns-mx-record/)

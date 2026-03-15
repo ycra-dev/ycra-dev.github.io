@@ -1,5 +1,5 @@
 ---
-title: "Prometheus"
+title: "Prometheus (프로메테우스)"
 description: "Prometheus는 통합 수집, 트렌딩, 경고 기능을 갖춘 종합적인 오픈 소스 시계열 모니터링 플랫폼으로, DevOps 환경에서 가장 선호되는 모니터링 도구이다"
 tags: ['Monitoring', 'Time Series', 'Metrics', 'Alerting', 'DevOps', 'Open Source']
 created: 2026-02-12
@@ -61,7 +61,7 @@ rate(node_disk_read_bytes_total[5m])
 
 ## 관련 개념
 
-- [time-series-database](/knowledge/linux/time-series-database/) - Prometheus의 데이터 저장 방식
-- [grafana](/knowledge/linux/grafana/) - Prometheus 데이터 시각화 도구
-- [nagios](/knowledge/linux/nagios/) - Prometheus가 대체하는 1세대 모니터링
-- [collectd](/knowledge/linux/collectd/) - 시스템 메트릭 수집 도구와의 비교
+- [시계열 데이터베이스 (Time-Series Database)](/knowledge/linux/time-series-database/) - Prometheus의 데이터 저장 방식
+- [Grafana (그라파나)](/knowledge/linux/grafana/) - Prometheus 데이터 시각화 도구
+- [Nagios (나기오스)](/knowledge/linux/nagios/) - Prometheus가 대체하는 1세대 모니터링
+- [collectd (시스템 통계 수집 데몬)](/knowledge/linux/collectd/) - 시스템 메트릭 수집 도구와의 비교

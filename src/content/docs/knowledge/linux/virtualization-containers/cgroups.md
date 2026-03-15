@@ -1,5 +1,5 @@
 ---
-title: "Cgroups"
+title: "Cgroups (컨트롤 그룹)"
 description: "컨트롤 그룹(Control Groups, cgroups)은 Linux 커널 기능으로, 프로세스 그룹의 시스템 자원(CPU, 메모리, 디스크 I/O, 네트워크) 사용을 제한하고 우선순위를 지정하여 폭주 프로세스가 모든 가용 자원을 소비하는 것을 방지한다"
 tags: ['Cgroups', 'Control Groups', 'Linux', 'Resource Management', 'Container']
 created: 2026-02-12
@@ -42,8 +42,8 @@ cat /proc/cgroups
 
 ## 관련 개념
 
-- [Container](/knowledge/linux/container/)
-- [Docker](/knowledge/linux/docker/)
-- [Linux Namespaces](/knowledge/linux/linux-namespaces/)
-- [Linux Capabilities](/knowledge/linux/linux-capabilities/)
-- [Process](/knowledge/linux/process/)
+- [컨테이너 (Container)](/knowledge/linux/container/)
+- [도커 (Docker)](/knowledge/linux/docker/)
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/linux/linux-namespaces/)
+- [리눅스 캐퍼빌리티 (Linux Capabilities)](/knowledge/linux/linux-capabilities/)
+- [프로세스 (Process)](/knowledge/linux/process/)

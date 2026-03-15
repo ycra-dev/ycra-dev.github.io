@@ -1,5 +1,5 @@
 ---
-title: "Cloud IAM"
+title: "클라우드 IAM (Cloud IAM)"
 description: "클라우드 IAM(Identity and Access Management)은 관리자, 개발자 및 시스템이 클라우드 서비스를 관리할 수 있도록 하는 인증 및 권한 부여 시스템으로, 최소 권한 원칙에 따라 세밀한 액세스 제어를 구현한다"
 tags: ['Iam', 'Cloud Security', 'Authentication', 'Authorization', 'Least Privilege', 'AWS']
 created: 2026-02-12
@@ -42,7 +42,7 @@ aws iam enable-mfa-device --user-name john \
 
 ## 관련 개념
 
-- [Identity Management](/knowledge/linux/identity-management/)
-- [Sudo](/knowledge/linux/sudo/)
-- [Access Control List](/knowledge/linux/access-control-list/)
-- [Infrastructure as a Service](/knowledge/linux/infrastructure-as-a-service/)
+- [ID 관리 (Identity Management)](/knowledge/linux/identity-management/)
+- [Sudo (관리자 권한 실행)](/knowledge/linux/sudo/)
+- [접근 제어 목록 (Access Control List)](/knowledge/linux/access-control-list/)
+- [서비스형 인프라 (Infrastructure as a Service)](/knowledge/linux/infrastructure-as-a-service/)

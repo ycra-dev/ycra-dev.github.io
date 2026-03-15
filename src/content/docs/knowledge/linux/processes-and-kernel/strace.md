@@ -1,5 +1,5 @@
 ---
-title: "Strace"
+title: "Strace (시스템 콜 추적 도구)"
 description: "strace(Linux) / truss(FreeBSD)는 프로세스가 수행하는 모든 시스템 콜과 수신하는 시그널을 실시간으로 추적하여 표시하는 디버깅 도구이다"
 tags: ['Strace', 'Truss', 'Debugging', 'System Call', 'Tracing']
 created: 2026-02-12
@@ -48,6 +48,6 @@ strace -o /tmp/trace.log -p 5810
 
 ## 관련 개념
 
-- [Process](/knowledge/linux/process/)
-- [Proc Filesystem](/knowledge/linux/proc-filesystem/)
-- [Signal](/knowledge/linux/signal/)
+- [프로세스 (Process)](/knowledge/linux/process/)
+- [Proc 파일 시스템 (Proc Filesystem)](/knowledge/linux/proc-filesystem/)
+- [시그널 (Signal)](/knowledge/linux/signal/)

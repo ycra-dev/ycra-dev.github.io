@@ -1,5 +1,5 @@
 ---
-title: "IPv4 (Internet Protocol version 4)"
+title: "IPv4 (인터넷 프로토콜 버전 4)"
 description: "IPv4(Internet Protocol version 4)는 4바이트(32비트) 주소 체계를 사용하는 인터넷 프로토콜의 네 번째 개정판으로, 거의 50년간 사용되어 온 TCP/IP 네트워킹의 주류 버전이다"
 tags: ['Ipv4', 'IP Address', 'Networking', 'Subnetting', 'TCP IP']
 created: 2026-02-12
@@ -48,9 +48,9 @@ ipcalc 128.138.243.100/26
 
 ## 관련 개념
 
-- [ipv6](/knowledge/linux/ipv6/) - IPv4의 후속 프로토콜
-- [subnet-mask](/knowledge/linux/subnet-mask/) - 네트워크/호스트 경계 정의
-- [cidr](/knowledge/linux/cidr/) - 클래스 없는 유연한 주소 할당
-- [nat](/knowledge/linux/nat/) - 주소 고갈 대응 기술
-- [ip-address](/knowledge/linux/ip-address/) - IP 주소 체계 일반
-- [dhcp](/knowledge/linux/dhcp/) - 동적 IP 주소 할당
+- [IPv6 (인터넷 프로토콜 버전 6)](/knowledge/linux/ipv6/) - IPv4의 후속 프로토콜
+- [서브넷 마스크 (Subnet Mask)](/knowledge/linux/subnet-mask/) - 네트워크/호스트 경계 정의
+- [CIDR (클래스리스 라우팅)](/knowledge/linux/cidr/) - 클래스 없는 유연한 주소 할당
+- [NAT (네트워크 주소 변환)](/knowledge/linux/nat/) - 주소 고갈 대응 기술
+- [IP 주소 (IP Address)](/knowledge/linux/ip-address/) - IP 주소 체계 일반
+- [DHCP (동적 호스트 구성 프로토콜)](/knowledge/linux/dhcp/) - 동적 IP 주소 할당

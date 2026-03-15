@@ -1,5 +1,5 @@
 ---
-title: "Print Spooler"
+title: "인쇄 스풀러 (Print Spooler)"
 description: "프린트 스풀러(Print Spooler)는 인쇄 작업을 수집, 큐잉, 스케줄링하는 시스템으로, \"SPOOL\"은 원래 Simultaneous Peripheral Operation On-Line의 약어에서 유래했으며 현재는 범용적인 용어로 사용된다"
 tags: ['Print Spooler', 'Spooling', 'Queue', 'Cups', 'Printing']
 created: 2026-02-12
@@ -51,6 +51,6 @@ lpoptions -p Phaser_6120/2up -o number-up=2 -o job-sheets=standard
 
 ## 관련 개념
 
-- [cups](/knowledge/linux/cups/) - 스풀러를 포함하는 인쇄 시스템
-- [ipp](/knowledge/linux/ipp/) - 스풀러 통신 프로토콜
-- [process](/knowledge/linux/process/) - 데몬 프로세스로 동작하는 cupsd
+- [CUPS (공용 유닉스 인쇄 시스템)](/knowledge/linux/cups/) - 스풀러를 포함하는 인쇄 시스템
+- [IPP (인터넷 인쇄 프로토콜)](/knowledge/linux/ipp/) - 스풀러 통신 프로토콜
+- [프로세스 (Process)](/knowledge/linux/process/) - 데몬 프로세스로 동작하는 cupsd

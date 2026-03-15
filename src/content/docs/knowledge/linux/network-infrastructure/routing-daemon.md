@@ -1,5 +1,5 @@
 ---
-title: "Routing Daemon"
+title: "라우팅 데몬 (Routing Daemon)"
 description: "라우팅 데몬(Routing Daemon)은 라우팅 프로토콜을 구현하여 라우팅 테이블을 자동으로 관리하는 소프트웨어로, 설정 파일, 기존 라우팅 테이블, 다른 시스템의 라우팅 데몬으로부터 정보를 수집하여 최적 경로를 계산한다"
 tags: ['Routing Daemon', 'Quagga', 'Routed', 'Zebra', 'Dynamic Routing']
 created: 2026-02-12
@@ -52,9 +52,9 @@ sudo systemctl start ospfd
 
 ## 관련 개념
 
-- [routing-protocol](/knowledge/linux/routing-protocol/) - 데몬이 구현하는 프로토콜들
-- [routing-table](/knowledge/linux/routing-table/) - 데몬이 관리하는 경로 정보
-- [rip](/knowledge/linux/rip/) - routed/Quagga가 구현하는 프로토콜
-- [ospf](/knowledge/linux/ospf/) - Quagga가 구현하는 프로토콜
-- [bgp](/knowledge/linux/bgp/) - Quagga가 구현하는 프로토콜
-- [network-router](/knowledge/linux/network-router/) - 데몬의 대안인 전용 라우팅 장비
+- [라우팅 프로토콜 (Routing Protocol)](/knowledge/linux/routing-protocol/) - 데몬이 구현하는 프로토콜들
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - 데몬이 관리하는 경로 정보
+- [RIP (라우팅 정보 프로토콜)](/knowledge/linux/rip/) - routed/Quagga가 구현하는 프로토콜
+- [OSPF (최단 경로 우선 프로토콜)](/knowledge/linux/ospf/) - Quagga가 구현하는 프로토콜
+- [BGP (경계 게이트웨이 프로토콜)](/knowledge/linux/bgp/) - Quagga가 구현하는 프로토콜
+- [네트워크 라우터 (Network Router)](/knowledge/linux/network-router/) - 데몬의 대안인 전용 라우팅 장비

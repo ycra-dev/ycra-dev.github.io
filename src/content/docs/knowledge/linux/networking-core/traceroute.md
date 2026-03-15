@@ -1,5 +1,5 @@
 ---
-title: "traceroute"
+title: "traceroute (경로 추적 도구)"
 description: "traceroute는 IP 패킷이 목적지까지 도달하는 경로에 있는 게이트웨이(라우터)의 순서를 밝혀내는 네트워크 진단 도구로, Van Jacobson이 개발했으며 TTL(Time-To-Live) 필드를 조작하여 각 홉의 정보를 수집한다"
 tags: ['Traceroute', 'Networking', 'Diagnostics', 'Ttl', 'Routing']
 created: 2026-02-12
@@ -56,8 +56,8 @@ sudo iptables -A INPUT -p icmp --icmp-type time-exceeded -j ACCEPT
 
 ## 관련 개념
 
-- [ping](/knowledge/linux/ping/) - traceroute 전 사용하는 기본 진단 도구
-- [icmp](/knowledge/linux/icmp/) - traceroute가 사용하는 TTL/Time Exceeded 메커니즘
-- [routing-table](/knowledge/linux/routing-table/) - traceroute로 확인하는 경로 정보
-- [dns-resolution](/knowledge/linux/dns-resolution/) - traceroute의 호스트명 해석
-- [iptables](/knowledge/linux/iptables/) - traceroute 트래픽 방화벽 설정
+- [ping (핑)](/knowledge/linux/ping/) - traceroute 전 사용하는 기본 진단 도구
+- [ICMP (인터넷 제어 메시지 프로토콜)](/knowledge/linux/icmp/) - traceroute가 사용하는 TTL/Time Exceeded 메커니즘
+- [라우팅 테이블 (Routing Table)](/knowledge/linux/routing-table/) - traceroute로 확인하는 경로 정보
+- [DNS 이름 해석 (DNS Resolution)](/knowledge/linux/dns-resolution/) - traceroute의 호스트명 해석
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - traceroute 트래픽 방화벽 설정

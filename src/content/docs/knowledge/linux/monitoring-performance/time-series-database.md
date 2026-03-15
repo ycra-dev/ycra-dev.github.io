@@ -1,5 +1,5 @@
 ---
-title: "Time-Series Database"
+title: "시계열 데이터베이스 (Time-Series Database)"
 description: "시계열 데이터베이스(TSDB)는 시간에 따른 데이터 변화를 효율적으로 저장, 조회, 집계하도록 특화된 데이터베이스로, 현대 모니터링 플랫폼의 핵심 구성 요소이다"
 tags: ['Monitoring', 'Database', 'Metrics', 'Graphite', 'Prometheus', 'Influxdb']
 created: 2026-02-12
@@ -54,7 +54,7 @@ curl -i -XPOST 'http://localhost:8086/write?db=mydb' \
 
 ## 관련 개념
 
-- [prometheus](/knowledge/linux/prometheus/) - 대표적인 시계열 모니터링 플랫폼
-- [grafana](/knowledge/linux/grafana/) - 시계열 데이터 시각화
-- [collectd](/knowledge/linux/collectd/) - 시계열 데이터베이스에 데이터를 공급하는 수집기
-- [statsd](/knowledge/linux/statsd/) - 데이터 수집 프론트엔드
+- [Prometheus (프로메테우스)](/knowledge/linux/prometheus/) - 대표적인 시계열 모니터링 플랫폼
+- [Grafana (그라파나)](/knowledge/linux/grafana/) - 시계열 데이터 시각화
+- [collectd (시스템 통계 수집 데몬)](/knowledge/linux/collectd/) - 시계열 데이터베이스에 데이터를 공급하는 수집기
+- [StatsD (통계 수집 데몬)](/knowledge/linux/statsd/) - 데이터 수집 프론트엔드

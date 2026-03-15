@@ -1,5 +1,5 @@
 ---
-title: "Cron"
+title: "크론 (Cron)"
 description: "cron은 미리 정해진 스케줄에 따라 명령을 자동 실행하는 UNIX/Linux 데몬으로, crontab(cron table) 파일에 실행 시각과 명령을 정의한다"
 tags: ['Cron', 'Scheduling', 'Crontab', 'Automation', 'Periodic Task']
 created: 2026-02-12
@@ -51,6 +51,6 @@ crontab -l
 
 ## 관련 개념
 
-- [Process](/knowledge/linux/process/)
-- [Systemd](/knowledge/linux/systemd/)
-- [Signal](/knowledge/linux/signal/)
+- [프로세스 (Process)](/knowledge/linux/process/)
+- [Systemd (시스템 관리 데몬)](/knowledge/linux/systemd/)
+- [시그널 (Signal)](/knowledge/linux/signal/)

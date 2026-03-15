@@ -1,5 +1,5 @@
 ---
-title: "NFS File Locking"
+title: "NFS 파일 잠금 (NFS File Locking)"
 description: "NFS 파일 잠금(file locking)은 네트워크를 통해 공유되는 파일에 대한 동시 접근을 관리하는 메커니즘으로, NFSv2/V3에서는 별도의 lockd/statd 데몬으로, NFSv4에서는 핵심 프로토콜에 통합되어 구현된다"
 tags: ['File Locking', 'Lockd', 'Statd', 'Nfsv4', 'Concurrency']
 created: 2026-02-12
@@ -37,6 +37,6 @@ cat /proc/locks
 
 ## 관련 개념
 
-- [NFS](/knowledge/linux/nfs/)
-- [NFS Export](/knowledge/linux/nfs-export/)
-- [SMB Protocol](/knowledge/linux/smb-protocol/)
+- [NFS (네트워크 파일 시스템)](/knowledge/linux/nfs/)
+- [NFS 익스포트 (NFS Export)](/knowledge/linux/nfs-export/)
+- [SMB 프로토콜 (SMB Protocol)](/knowledge/linux/smb-protocol/)

@@ -1,5 +1,5 @@
 ---
-title: "Terraform"
+title: "Terraform (테라폼)"
 description: "Terraform은 HashiCorp에서 개발한 인프라스트럭처 애즈 코드(IaC) 도구로, 선언적 구성 파일(\"plan\")로 클라우드 인프라를 정의하고 API 호출을 통해 자동으로 생성/관리한다"
 tags: ['Terraform', 'Hashicorp', 'Infrastructure As Code', 'Provisioning', 'Cloud']
 created: 2026-02-12
@@ -77,8 +77,8 @@ terraform destroy -auto-approve
 
 ## 관련 개념
 
-- [Infrastructure as Code](/knowledge/linux/infrastructure-as-code/)
-- [Continuous Delivery](/knowledge/linux/continuous-delivery/)
-- [CI/CD Pipeline](/knowledge/linux/cicd-pipeline/)
-- [Packer](/knowledge/linux/packer/)
-- [Jenkins](/knowledge/linux/jenkins/)
+- [코드형 인프라 (Infrastructure as Code)](/knowledge/linux/infrastructure-as-code/)
+- [지속적 전달 (Continuous Delivery)](/knowledge/linux/continuous-delivery/)
+- [CI/CD 파이프라인 (CI/CD Pipeline)](/knowledge/linux/cicd-pipeline/)
+- [Packer (패커)](/knowledge/linux/packer/)
+- [Jenkins (젠킨스)](/knowledge/linux/jenkins/)

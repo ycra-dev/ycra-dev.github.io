@@ -1,5 +1,5 @@
 ---
-title: "IPP (Internet Printing Protocol)"
+title: "IPP (인터넷 인쇄 프로토콜)"
 description: "IPP(Internet Printing Protocol)는 HTTP를 확장한 네트워크 인쇄 프로토콜로, CUPS에서 서버와 클라이언트 간의 모든 상호작용에 사용되는 기반 통신 규약이다"
 tags: ['Ipp', 'Printing', 'Protocol', 'HTTP', 'Cups']
 created: 2026-02-12
@@ -39,6 +39,6 @@ lpinfo -v
 
 ## 관련 개념
 
-- [cups](/knowledge/linux/cups/) - IPP를 기반 프로토콜로 사용하는 인쇄 시스템
-- [tcp-port](/knowledge/linux/tcp-port/) - IPP의 포트 번호 체계
-- [print-spooler](/knowledge/linux/print-spooler/) - IPP를 통해 관리되는 스풀링 시스템
+- [CUPS (공용 유닉스 인쇄 시스템)](/knowledge/linux/cups/) - IPP를 기반 프로토콜로 사용하는 인쇄 시스템
+- [TCP/UDP 포트 (TCP/UDP Port)](/knowledge/linux/tcp-port/) - IPP의 포트 번호 체계
+- [인쇄 스풀러 (Print Spooler)](/knowledge/linux/print-spooler/) - IPP를 통해 관리되는 스풀링 시스템

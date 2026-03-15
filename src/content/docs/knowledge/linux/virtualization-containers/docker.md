@@ -1,5 +1,5 @@
 ---
-title: "Docker"
+title: "도커 (Docker)"
 description: "Docker는 Go 언어로 작성된 클라이언트/서버 애플리케이션으로, 컨테이너를 빌드하고 관리하는 오픈소스 컨테이너 엔진이며, 컨테이너 기술의 주류 채택을 이끈 핵심 프로젝트이다"
 tags: ['Docker', 'Container', 'Containerization', 'Dockerfile', 'Image', 'Registry']
 created: 2026-02-12
@@ -74,9 +74,9 @@ docker login myregistry.com:5000
 
 ## 관련 개념
 
-- [Container](/knowledge/linux/container/)
-- [Dockerfile](/knowledge/linux/dockerfile/)
-- [Container Registry](/knowledge/linux/container-registry/)
-- [Container Orchestration](/knowledge/linux/container-orchestration/)
-- [Linux Namespaces](/knowledge/linux/linux-namespaces/)
-- [Cgroups](/knowledge/linux/cgroups/)
+- [컨테이너 (Container)](/knowledge/linux/container/)
+- [Dockerfile (도커파일)](/knowledge/linux/dockerfile/)
+- [컨테이너 레지스트리 (Container Registry)](/knowledge/linux/container-registry/)
+- [컨테이너 오케스트레이션 (Container Orchestration)](/knowledge/linux/container-orchestration/)
+- [리눅스 네임스페이스 (Linux Namespaces)](/knowledge/linux/linux-namespaces/)
+- [Cgroups (컨트롤 그룹)](/knowledge/linux/cgroups/)

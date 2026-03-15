@@ -1,5 +1,5 @@
 ---
-title: "Social Engineering"
+title: "사회 공학 (Social Engineering)"
 description: "소셜 엔지니어링은 기술적 취약점이 아닌 인간의 심리적 약점을 이용하여 민감한 정보를 획득하거나 보안을 우회하는 공격 기법이다"
 tags: ['Security', 'Phishing', 'Human Factor', 'Attack Vector']
 created: 2026-02-12
@@ -42,6 +42,6 @@ Banner /etc/ssh/banner.txt
 
 ## 관련 개념
 
-- [multifactor-authentication](/knowledge/linux/multifactor-authentication/) - 소셜 엔지니어링에 대한 기술적 방어 수단
-- [ssh](/knowledge/linux/ssh/) - 안전한 원격 접근 프로토콜
-- [pam](/knowledge/linux/pam/) - 인증 모듈을 통한 보안 강화
+- [다중 인증 (Multifactor Authentication)](/knowledge/linux/multifactor-authentication/) - 소셜 엔지니어링에 대한 기술적 방어 수단
+- [SSH (보안 셸)](/knowledge/linux/ssh/) - 안전한 원격 접근 프로토콜
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/) - 인증 모듈을 통한 보안 강화

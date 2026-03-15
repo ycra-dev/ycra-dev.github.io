@@ -1,5 +1,5 @@
 ---
-title: "Packet Sniffer"
+title: "패킷 스니퍼 (Packet Sniffer)"
 description: "패킷 스니퍼(Packet Sniffer)는 네트워크 링크 계층에서 전송되는 바이트를 캡처하고 네트워크 패킷을 분해하여 프로토콜 오류, 잘못된 설정, 그리고 일반적인 네트워크 문제를 진단하는 분석 도구이다"
 tags: ['Packet Sniffer', 'Wireshark', 'Network Debugging', 'Protocol Analysis', 'Tcpdump']
 created: 2026-02-12
@@ -44,7 +44,7 @@ sudo ip link set eth0 promisc on
 
 ## 관련 개념
 
-- [ethernet](/knowledge/linux/ethernet/) - 스니퍼가 캡처하는 네트워크 프로토콜
-- [network-switch](/knowledge/linux/network-switch/) - 디버깅 대상 네트워크 장비
-- [tcp-ip](/knowledge/linux/tcp-ip/) - 스니퍼로 분석하는 프로토콜 스택
-- [firewall](/knowledge/linux/firewall/) - 스니퍼와 함께 사용하는 보안 도구
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - 스니퍼가 캡처하는 네트워크 프로토콜
+- [네트워크 스위치 (Network Switch)](/knowledge/linux/network-switch/) - 디버깅 대상 네트워크 장비
+- [TCP/IP 프로토콜 스위트 (TCP/IP Protocol Suite)](/knowledge/linux/tcp-ip/) - 스니퍼로 분석하는 프로토콜 스택
+- [방화벽 (Firewall)](/knowledge/linux/firewall/) - 스니퍼와 함께 사용하는 보안 도구

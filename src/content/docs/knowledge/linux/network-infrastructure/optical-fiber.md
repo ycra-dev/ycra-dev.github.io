@@ -1,5 +1,5 @@
 ---
-title: "Optical Fiber"
+title: "광섬유 (Optical Fiber)"
 description: "광섬유(Optical Fiber)는 빛을 이용하여 데이터를 전송하는 네트워크 케이블링 매체로, 구리 케이블보다 긴 전송 거리와 전기적 간섭에 대한 내성을 제공하며, 멀티모드와 싱글모드 두 가지 유형으로 구분된다"
 tags: ['Optical Fiber', 'Fiber Optic', 'Physical Layer', 'Networking', 'Multimode', 'Single Mode']
 created: 2026-02-12
@@ -45,6 +45,6 @@ ethtool -m eth1  # 트랜시버 진단 정보
 
 ## 관련 개념
 
-- [utp-cabling](/knowledge/linux/utp-cabling/) - 광섬유의 대안적 구리 케이블링
-- [ethernet](/knowledge/linux/ethernet/) - 광섬유로 전송하는 네트워크 프로토콜
-- [network-topology](/knowledge/linux/network-topology/) - 광섬유를 포함하는 네트워크 설계
+- [UTP 케이블링 (UTP Cabling)](/knowledge/linux/utp-cabling/) - 광섬유의 대안적 구리 케이블링
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - 광섬유로 전송하는 네트워크 프로토콜
+- [네트워크 토폴로지 (Network Topology)](/knowledge/linux/network-topology/) - 광섬유를 포함하는 네트워크 설계

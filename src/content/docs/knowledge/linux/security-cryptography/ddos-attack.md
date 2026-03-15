@@ -1,5 +1,5 @@
 ---
-title: "DDoS Attack"
+title: "DDoS 공격 (DDoS Attack)"
 description: "DDoS(Distributed Denial-of-Service) 공격은 다수의 침해된 장치(봇넷)를 이용하여 대상 서비스에 대량의 네트워크 트래픽을 보내 서비스를 중단시키거나 성능을 저하시키는 공격이다"
 tags: ['Security', 'Network Attack', 'Botnet', 'Availability', 'Denial Of Service']
 created: 2026-02-12
@@ -45,7 +45,7 @@ sudo iptables -A INPUT -p tcp --dport 80 \
 
 ## 관련 개념
 
-- [firewall](/knowledge/linux/firewall/) - 네트워크 수준의 DDoS 방어
-- [iptables](/knowledge/linux/iptables/) - Linux 패킷 필터링 도구
-- [cia-triad](/knowledge/linux/cia-triad/) - 가용성 위협으로서의 DDoS
-- [network-monitoring](/knowledge/linux/network-monitoring/) - 비정상 트래픽 탐지
+- [방화벽 (Firewall)](/knowledge/linux/firewall/) - 네트워크 수준의 DDoS 방어
+- [iptables (방화벽 규칙)](/knowledge/linux/iptables/) - Linux 패킷 필터링 도구
+- [CIA 삼원칙 (CIA Triad)](/knowledge/linux/cia-triad/) - 가용성 위협으로서의 DDoS
+- [네트워크 모니터링 (Network Monitoring)](/knowledge/linux/network-monitoring/) - 비정상 트래픽 탐지

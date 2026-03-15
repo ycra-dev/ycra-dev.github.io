@@ -1,5 +1,5 @@
 ---
-title: "Solid State Drive"
+title: "솔리드 스테이트 드라이브 (Solid State Drive)"
 description: "SSD(Solid State Drive)는 플래시 메모리 셀 뱅크에 데이터를 분산하여 읽고 쓰는 저장 장치로, 기계적 움직임이 없어 랜덤 접근 성능이 뛰어나다"
 tags: ['Ssd', 'Flash Memory', 'Storage', 'Trim', 'Wear Leveling']
 created: 2026-02-12
@@ -41,7 +41,7 @@ sudo smartctl -a /dev/sda
 
 ## 관련 개념
 
-- [SMART Monitoring](/knowledge/linux/smart-monitoring/)
-- [RAID](/knowledge/linux/raid/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [SATA Interface](/knowledge/linux/sata-interface/)
+- [SMART 모니터링 (SMART Monitoring)](/knowledge/linux/smart-monitoring/)
+- [RAID (독립 디스크의 중복 배열)](/knowledge/linux/raid/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [SATA 인터페이스 (SATA Interface)](/knowledge/linux/sata-interface/)

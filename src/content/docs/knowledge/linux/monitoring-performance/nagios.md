@@ -1,5 +1,5 @@
 ---
-title: "Nagios"
+title: "Nagios (나기오스)"
 description: "Nagios는 실시간 알림과 오류 상태 감지에 특화된 오픈 소스 모니터링 플랫폼으로, 수많은 서비스 모니터링 스크립트와 SNMP 모니터링 기능을 포함한다"
 tags: ['Monitoring', 'Alerting', 'Icinga', 'Sensu', 'Real Time', 'Open Source']
 created: 2026-02-12
@@ -63,7 +63,7 @@ fi
 
 ## 관련 개념
 
-- [time-series-database](/knowledge/linux/time-series-database/) - Nagios를 대체하는 현대적 모니터링 접근법
-- [prometheus](/knowledge/linux/prometheus/) - 시계열 기반 모니터링 대안
-- [snmp](/knowledge/linux/snmp/) - Nagios의 네트워크 장치 모니터링 기능
-- [collectd](/knowledge/linux/collectd/) - 시스템 통계 수집과의 통합
+- [시계열 데이터베이스 (Time-Series Database)](/knowledge/linux/time-series-database/) - Nagios를 대체하는 현대적 모니터링 접근법
+- [Prometheus (프로메테우스)](/knowledge/linux/prometheus/) - 시계열 기반 모니터링 대안
+- [SNMP (네트워크 관리 프로토콜)](/knowledge/linux/snmp/) - Nagios의 네트워크 장치 모니터링 기능
+- [collectd (시스템 통계 수집 데몬)](/knowledge/linux/collectd/) - 시스템 통계 수집과의 통합

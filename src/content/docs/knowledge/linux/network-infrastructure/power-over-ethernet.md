@@ -1,5 +1,5 @@
 ---
-title: "Power over Ethernet (PoE)"
+title: "전원 공급 이더넷 (Power over Ethernet, PoE)"
 description: "PoE(Power over Ethernet, IEEE 802"
 tags: ['Poe', 'Ethernet', '802.3af', 'Power', 'Networking']
 created: 2026-02-12
@@ -46,7 +46,7 @@ snmpwalk -v2c -c public switch_ip POWER-ETHERNET-MIB
 
 ## 관련 개념
 
-- [ethernet](/knowledge/linux/ethernet/) - PoE가 기반으로 하는 네트워크 기술
-- [utp-cabling](/knowledge/linux/utp-cabling/) - PoE 전력을 전달하는 물리적 매체
-- [network-switch](/knowledge/linux/network-switch/) - PoE를 공급하는 스위치 장비
-- [wireless-networking](/knowledge/linux/wireless-networking/) - PoE로 전력을 공급받는 주요 장비
+- [이더넷 (Ethernet)](/knowledge/linux/ethernet/) - PoE가 기반으로 하는 네트워크 기술
+- [UTP 케이블링 (UTP Cabling)](/knowledge/linux/utp-cabling/) - PoE 전력을 전달하는 물리적 매체
+- [네트워크 스위치 (Network Switch)](/knowledge/linux/network-switch/) - PoE를 공급하는 스위치 장비
+- [무선 네트워킹 (Wireless Networking)](/knowledge/linux/wireless-networking/) - PoE로 전력을 공급받는 주요 장비

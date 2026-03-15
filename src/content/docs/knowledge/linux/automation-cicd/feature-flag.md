@@ -1,5 +1,5 @@
 ---
-title: "Feature Flag"
+title: "기능 플래그 (Feature Flag)"
 description: "피처 플래그(Feature Flag, Feature Toggle)는 구성 설정값에 따라 애플리케이션의 특정 기능을 활성화하거나 비활성화하는 기법으로, 코드 배포와 기능 릴리스를 분리할 수 있게 한다"
 tags: ['Feature Flag', 'Feature Toggle', 'Deployment', 'Release Management', 'Configuration']
 created: 2026-02-12
@@ -56,7 +56,7 @@ feature_new_checkout: false
 
 ## 관련 개념
 
-- [Continuous Delivery](/knowledge/linux/continuous-delivery/)
-- [CI/CD Pipeline](/knowledge/linux/cicd-pipeline/)
-- [Blue-Green Deployment](/knowledge/linux/blue-green-deployment/)
-- [DevOps](/knowledge/linux/devops/)
+- [지속적 전달 (Continuous Delivery)](/knowledge/linux/continuous-delivery/)
+- [CI/CD 파이프라인 (CI/CD Pipeline)](/knowledge/linux/cicd-pipeline/)
+- [블루-그린 배포 (Blue-Green Deployment)](/knowledge/linux/blue-green-deployment/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)

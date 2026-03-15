@@ -1,5 +1,5 @@
 ---
-title: "PXE Boot"
+title: "PXE 부트 (PXE Boot)"
 description: "PXE(Preboot eXecution Environment) 부트는 물리적 미디어 없이 네트워크 인터페이스를 통해 시스템을 부팅할 수 있게 하는 인텔 표준 프로토콜로, DHCP와 TFTP를 사용하여 완전 자동화된 OS 설치를 가능하게 한다"
 tags: ['Pxe', 'Network Boot', 'Deployment', 'Automation', 'Provisioning', 'Dhcp', 'Tftp']
 created: 2026-02-12
@@ -39,7 +39,7 @@ sudo cobbler import --name=ubuntu-20.04 --path=/mnt/ubuntu-iso
 
 ## 관련 개념
 
-- [Boot Process](/knowledge/linux/boot-process/)
-- [GRUB](/knowledge/linux/grub/)
-- [Linux Distribution](/knowledge/linux/linux-distribution/)
-- [DevOps](/knowledge/linux/devops/)
+- [부트 프로세스 (Boot Process)](/knowledge/linux/boot-process/)
+- [GRUB (부트로더)](/knowledge/linux/grub/)
+- [리눅스 배포판 (Linux Distribution)](/knowledge/linux/linux-distribution/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)

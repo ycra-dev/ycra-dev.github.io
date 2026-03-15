@@ -1,5 +1,5 @@
 ---
-title: "Kerberos Authentication"
+title: "Kerberos 인증 (Kerberos Authentication)"
 description: "Kerberos는 네트워크 인증을 위한 신뢰할 수 있는 제3자 프로토콜로, NFS의 RPCSEC_GSS 계층과 결합하여 중앙집중식 인증, 강력한 암호화, 데이터 무결성 보장을 제공한다"
 tags: ['Kerberos', 'Authentication', 'Rpcsec Gss', 'Nfs Security', 'Single Sign On']
 created: 2026-02-12
@@ -41,8 +41,8 @@ sudo iptables -A INPUT -p tcp --dport 2049 -s 10.0.0.0/24 -j ACCEPT
 
 ## 관련 개념
 
-- [NFS](/knowledge/linux/nfs/)
-- [NFS Export](/knowledge/linux/nfs-export/)
-- [Identity Management](/knowledge/linux/identity-management/)
-- [PAM](/knowledge/linux/pam/)
-- [LDAP](/knowledge/linux/ldap/)
+- [NFS (네트워크 파일 시스템)](/knowledge/linux/nfs/)
+- [NFS 익스포트 (NFS Export)](/knowledge/linux/nfs-export/)
+- [ID 관리 (Identity Management)](/knowledge/linux/identity-management/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)
+- [LDAP (경량 디렉토리 접근 프로토콜)](/knowledge/linux/ldap/)

@@ -1,5 +1,5 @@
 ---
-title: "Web Application Stack"
+title: "웹 애플리케이션 스택 (Web Application Stack)"
 description: "웹 애플리케이션 스택은 HTTP 요청을 처리하기 위해 분산된 여러 소프트웨어 구성 요소(로드 밸런서, 웹 서버, 애플리케이션 서버, 데이터베이스 등)가 협력하는 계층적 시스템 아키텍처이다"
 tags: ['Web Stack', 'Application Server', 'Frontend', 'Backend', 'Architecture']
 created: 2026-02-12
@@ -56,10 +56,10 @@ server {
 
 ## 관련 개념
 
-- [Web Server](/knowledge/linux/web-server/)
-- [Load Balancer](/knowledge/linux/load-balancer/)
-- [Reverse Proxy](/knowledge/linux/reverse-proxy/)
-- [Web Cache](/knowledge/linux/web-cache/)
-- [CDN](/knowledge/linux/cdn/)
-- [HTTP](/knowledge/linux/http/)
-- [REST API](/knowledge/linux/rest-api/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [로드 밸런서 (Load Balancer)](/knowledge/linux/load-balancer/)
+- [리버스 프록시 (Reverse Proxy)](/knowledge/linux/reverse-proxy/)
+- [웹 캐시 (Web Cache)](/knowledge/linux/web-cache/)
+- [CDN (콘텐츠 전송 네트워크)](/knowledge/linux/cdn/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)
+- [REST API (레스트 API)](/knowledge/linux/rest-api/)

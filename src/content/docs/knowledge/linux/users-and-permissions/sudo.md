@@ -1,5 +1,5 @@
 ---
-title: "Sudo"
+title: "Sudo (관리자 권한 실행)"
 description: "sudo(substitute user do)는 일반 사용자가 root 또는 다른 제한된 사용자로 명령을 실행할 수 있게 하는 프로그램으로, `/etc/sudoers` 파일로 권한을 세밀하게 제어한다"
 tags: ['Sudo', 'Root', 'Access Control', 'Privilege', 'Security']
 created: 2026-02-12
@@ -46,6 +46,6 @@ sudo visudo
 
 ## 관련 개념
 
-- [PAM](/knowledge/linux/pam/)
-- [Linux Capabilities](/knowledge/linux/linux-capabilities/)
-- [Systemd](/knowledge/linux/systemd/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)
+- [리눅스 캐퍼빌리티 (Linux Capabilities)](/knowledge/linux/linux-capabilities/)
+- [Systemd (시스템 관리 데몬)](/knowledge/linux/systemd/)

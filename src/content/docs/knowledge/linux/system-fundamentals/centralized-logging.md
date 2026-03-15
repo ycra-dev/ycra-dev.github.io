@@ -1,5 +1,5 @@
 ---
-title: "Centralized Logging"
+title: "중앙 집중 로깅 (Centralized Logging)"
 description: "중앙 집중식 로깅은 분산된 여러 시스템의 로그를 하나의 중앙 서버나 클러스터로 수집하여 통합 관리하는 방식으로, 대규모 환경의 로그 검색, 분석, 감사를 효율적으로 수행한다"
 tags: ['Logging', 'Distributed Systems', 'Elk Stack', 'Rsyslog', 'Monitoring']
 created: 2026-02-12
@@ -47,7 +47,7 @@ output.logstash:
 
 ## 관련 개념
 
-- [Syslog](/knowledge/linux/syslog/)
-- [Journald](/knowledge/linux/journald/)
-- [DevOps](/knowledge/linux/devops/)
-- [Site Reliability Engineering](/knowledge/linux/site-reliability-engineering/)
+- [Syslog (시스템 로그)](/knowledge/linux/syslog/)
+- [Journald (저널 데몬)](/knowledge/linux/journald/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)
+- [사이트 신뢰성 공학 (Site Reliability Engineering)](/knowledge/linux/site-reliability-engineering/)

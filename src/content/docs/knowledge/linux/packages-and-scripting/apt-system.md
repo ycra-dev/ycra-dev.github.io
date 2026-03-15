@@ -1,5 +1,5 @@
 ---
-title: "APT System"
+title: "APT 시스템 (APT System)"
 description: "APT(Advanced Package Tool)는 Debian과 Ubuntu에서 사용되는 패키지 관리 시스템으로, dpkg를 기반으로 자동화된 의존성 해결, 저장소 관리, 시스템 업그레이드 기능을 제공한다"
 tags: ['Apt', 'Debian', 'Ubuntu', 'Dpkg', 'Package Management', 'Automation']
 created: 2026-02-12
@@ -45,8 +45,8 @@ sudo apt-mark hold nginx
 
 ## 관련 개념
 
-- [Package Management](/knowledge/linux/package-management/)
-- [Package Repository](/knowledge/linux/package-repository/)
-- [Dependency Resolution](/knowledge/linux/dependency-resolution/)
-- [Cron](/knowledge/linux/cron/)
-- [Linux Distribution](/knowledge/linux/linux-distribution/)
+- [패키지 관리 (Package Management)](/knowledge/linux/package-management/)
+- [패키지 리포지토리 (Package Repository)](/knowledge/linux/package-repository/)
+- [의존성 해결 (Dependency Resolution)](/knowledge/linux/dependency-resolution/)
+- [크론 (Cron)](/knowledge/linux/cron/)
+- [리눅스 배포판 (Linux Distribution)](/knowledge/linux/linux-distribution/)

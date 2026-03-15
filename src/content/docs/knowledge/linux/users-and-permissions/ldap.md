@@ -1,5 +1,5 @@
 ---
-title: "LDAP"
+title: "LDAP (경량 디렉토리 접근 프로토콜)"
 description: "LDAP(Lightweight Directory Access Protocol)는 네트워크를 통해 디렉터리 정보를 조회하고 수정하기 위한 개방형 프로토콜로, 사용자 계정과 인증 정보를 중앙에서 관리하는 계층적 클라이언트/서버 모델을 제공한다"
 tags: ['Ldap', 'Directory Service', 'Authentication', 'Centralized Management', 'Identity', 'Sso']
 created: 2026-02-12
@@ -59,9 +59,9 @@ getent passwd username
 
 ## 관련 개념
 
-- [PAM](/knowledge/linux/pam/)
-- [Sudo](/knowledge/linux/sudo/)
-- [Single Sign-On](/knowledge/linux/single-sign-on/)
-- [Kerberos](/knowledge/linux/kerberos/)
-- [SSSD](/knowledge/linux/sssd/)
-- [NSSwitch](/knowledge/linux/nsswitch/)
+- [PAM (장착형 인증 모듈)](/knowledge/linux/pam/)
+- [Sudo (관리자 권한 실행)](/knowledge/linux/sudo/)
+- [싱글 사인온 (Single Sign-On)](/knowledge/linux/single-sign-on/)
+- [Kerberos (커버로스)](/knowledge/linux/kerberos/)
+- [SSSD (시스템 보안 서비스 데몬)](/knowledge/linux/sssd/)
+- [NSSwitch (네임 서비스 스위치)](/knowledge/linux/nsswitch/)

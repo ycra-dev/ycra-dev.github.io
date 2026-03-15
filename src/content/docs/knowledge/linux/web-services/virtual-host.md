@@ -1,5 +1,5 @@
 ---
-title: "Virtual Host"
+title: "가상 호스트 (Virtual Host)"
 description: "가상 호스트(Virtual Host)는 하나의 물리적 서버에서 여러 웹 사이트를 호스팅하는 기술로, HTTP 1"
 tags: ['Virtual Host', 'Web Server', 'HTTP', 'Hosting', 'Sni']
 created: 2026-02-12
@@ -58,8 +58,8 @@ server {
 
 ## 관련 개념
 
-- [HTTP](/knowledge/linux/http/)
-- [TLS](/knowledge/linux/tls/)
-- [Web Server](/knowledge/linux/web-server/)
-- [NGINX](/knowledge/linux/nginx/)
-- [Apache httpd](/knowledge/linux/apache-httpd/)
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/linux/http/)
+- [TLS (전송 계층 보안)](/knowledge/linux/tls/)
+- [웹 서버 (Web Server)](/knowledge/linux/web-server/)
+- [NGINX (엔진엑스)](/knowledge/linux/nginx/)
+- [Apache httpd (아파치 웹 서버)](/knowledge/linux/apache-httpd/)

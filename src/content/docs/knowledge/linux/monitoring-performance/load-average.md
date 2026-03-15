@@ -1,5 +1,5 @@
 ---
-title: "Load Average"
+title: "로드 평균 (Load Average)"
 description: "로드 평균(Load Average)은 시스템에서 실행 가능한(runnable) 프로세스의 평균 수를 나타내는 지표로, 1분, 5분, 15분 평균으로 CPU 파이가 얼마나 많은 조각으로 나뉘는지 보여준다"
 tags: ['Performance', 'CPU', 'Monitoring', 'Uptime', 'System Metrics']
 created: 2026-02-12
@@ -60,7 +60,7 @@ ionice -c 3 -p <PID>
 
 ## 관련 개념
 
-- [vmstat](/knowledge/linux/vmstat/) - CPU 사용률과 함께 성능 분석
-- [process](/knowledge/linux/process/) - 시스템 부하를 생성하는 프로세스
-- [memory-paging](/knowledge/linux/memory-paging/) - 메모리 부족이 성능에 미치는 영향
-- [proc-filesystem](/knowledge/linux/proc-filesystem/) - 로드 평균 데이터의 출처
+- [vmstat (가상 메모리 통계 도구)](/knowledge/linux/vmstat/) - CPU 사용률과 함께 성능 분석
+- [프로세스 (Process)](/knowledge/linux/process/) - 시스템 부하를 생성하는 프로세스
+- [메모리 페이징 (Memory Paging)](/knowledge/linux/memory-paging/) - 메모리 부족이 성능에 미치는 영향
+- [Proc 파일 시스템 (Proc Filesystem)](/knowledge/linux/proc-filesystem/) - 로드 평균 데이터의 출처

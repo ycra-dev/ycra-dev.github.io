@@ -1,5 +1,5 @@
 ---
-title: "Salt"
+title: "Salt (솔트)"
 description: "Salt(SaltStack)는 마스터-미니언 아키텍처 기반의 오픈소스 구성 관리 도구로, YAML과 Jinja2를 사용하며 고속 통신 버스를 통해 수천 대의 서버를 효율적으로 관리할 수 있다"
 tags: ['Salt', 'Saltstack', 'Configuration Management', 'Automation', 'Python', 'Minion']
 created: 2026-02-12
@@ -68,8 +68,8 @@ sudo:
 
 ## 관련 개념
 
-- [Configuration Management](/knowledge/linux/configuration-management/)
-- [Ansible](/knowledge/linux/ansible/)
-- [YAML](/knowledge/linux/yaml/)
-- [Jinja2 Template](/knowledge/linux/jinja2-template/)
-- [Idempotence](/knowledge/linux/idempotence/)
+- [구성 관리 (Configuration Management)](/knowledge/linux/configuration-management/)
+- [Ansible (자동화 도구)](/knowledge/linux/ansible/)
+- [YAML (야믈)](/knowledge/linux/yaml/)
+- [Jinja2 템플릿 (Jinja2 Template)](/knowledge/linux/jinja2-template/)
+- [멱등성 (Idempotence)](/knowledge/linux/idempotence/)

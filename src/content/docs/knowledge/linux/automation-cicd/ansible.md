@@ -1,5 +1,5 @@
 ---
-title: "Ansible"
+title: "Ansible (자동화 도구)"
 description: "Ansible은 서버 데몬 없이(agentless) SSH를 통해 원격 시스템을 구성하는 오픈소스 구성 관리 도구로, YAML 기반의 선언적 구성과 Jinja2 템플릿을 사용하며, 클라이언트에 별도 소프트웨어 설치가 필요 없다"
 tags: ['Ansible', 'Configuration Management', 'Automation', 'Python', 'Ssh', 'Agentless']
 created: 2026-02-12
@@ -67,9 +67,9 @@ db1.example.com
 
 ## 관련 개념
 
-- [Configuration Management](/knowledge/linux/configuration-management/)
-- [Salt](/knowledge/linux/salt/)
-- [YAML](/knowledge/linux/yaml/)
-- [Jinja2 Template](/knowledge/linux/jinja2-template/)
-- [SSH](/knowledge/linux/ssh/)
-- [DevOps](/knowledge/linux/devops/)
+- [구성 관리 (Configuration Management)](/knowledge/linux/configuration-management/)
+- [Salt (솔트)](/knowledge/linux/salt/)
+- [YAML (야믈)](/knowledge/linux/yaml/)
+- [Jinja2 템플릿 (Jinja2 Template)](/knowledge/linux/jinja2-template/)
+- [SSH (보안 셸)](/knowledge/linux/ssh/)
+- [DevOps (데브옵스)](/knowledge/linux/devops/)

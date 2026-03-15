@@ -1,5 +1,5 @@
 ---
-title: "Shell Scripting"
+title: "셸 스크립팅 (Shell Scripting)"
 description: "쉘 스크립팅은 쉘 명령어들을 파일에 작성하여 반복 작업을 자동화하는 기법으로, sh(Bourne Shell)와 bash(Bourne Again Shell)가 가장 널리 사용된다"
 tags: ['Shell', 'Bash', 'Sh', 'Automation', 'Scripting', 'System Administration']
 created: 2026-02-12
@@ -48,9 +48,9 @@ fi
 
 ## 관련 개념
 
-- [Environment Variables](/knowledge/linux/environment-variables/)
-- [Regular Expressions](/knowledge/linux/regular-expressions/)
-- [Command-Line Pipelines](/knowledge/linux/command-line-pipelines/)
-- [Process](/knowledge/linux/process/)
-- [Sudo](/knowledge/linux/sudo/)
-- [Cron](/knowledge/linux/cron/)
+- [환경 변수 (Environment Variables)](/knowledge/linux/environment-variables/)
+- [정규 표현식 (Regular Expressions)](/knowledge/linux/regular-expressions/)
+- [명령줄 파이프라인 (Command-Line Pipelines)](/knowledge/linux/command-line-pipelines/)
+- [프로세스 (Process)](/knowledge/linux/process/)
+- [Sudo (관리자 권한 실행)](/knowledge/linux/sudo/)
+- [크론 (Cron)](/knowledge/linux/cron/)

@@ -1,5 +1,5 @@
 ---
-title: "Systemd"
+title: "Systemd (시스템 관리 데몬)"
 description: "systemd는 Linux의 시스템 관리 데몬(PID 1)으로, 서비스 관리, 의존성 처리, 병렬 시작, 로깅을 포함한 통합 시스템 초기화 프레임워크이다"
 tags: ['Systemd', 'Init', 'Daemon', 'Service Management', 'Linux', 'Systemctl']
 created: 2026-02-12
@@ -48,6 +48,6 @@ sudo systemctl daemon-reload
 
 ## 관련 개념
 
-- [Boot Process](/knowledge/linux/boot-process/)
-- [GRUB](/knowledge/linux/grub/)
-- [Journald](/knowledge/linux/journald/)
+- [부트 프로세스 (Boot Process)](/knowledge/linux/boot-process/)
+- [GRUB (부트로더)](/knowledge/linux/grub/)
+- [Journald (저널 데몬)](/knowledge/linux/journald/)

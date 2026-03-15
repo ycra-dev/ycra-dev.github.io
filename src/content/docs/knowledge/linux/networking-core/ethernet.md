@@ -1,5 +1,5 @@
 ---
-title: "Ethernet"
+title: "이더넷 (Ethernet)"
 description: "이더넷(Ethernet)은 전 세계 LAN 시장의 95% 이상을 점유하는 가장 보편적인 네트워크 기술로, 링크 계층에서 패킷의 프레이밍, MAC 주소 기반 주소 지정, 물리적 미디어 접근 제어를 담당하며, 3 Mb/s에서 시작하여 현재 400 Gb/s까지 진화한 ..."
 tags: ['Ethernet', 'Link Layer', 'Networking', 'Mac', 'Framing', 'Physical Networking', 'Csma Cd']
 created: 2026-02-12
@@ -52,12 +52,12 @@ sudo ethtool -r eth0
 
 ## 관련 개념
 
-- [mac-address](/knowledge/linux/mac-address/) - 이더넷의 하드웨어 주소 체계
-- [mtu](/knowledge/linux/mtu/) - 이더넷 프레임의 최대 전송 단위
-- [network-packet-encapsulation](/knowledge/linux/network-packet-encapsulation/) - 이더넷 프레이밍과 캡슐화
-- [arp](/knowledge/linux/arp/) - 이더넷에서의 주소 해석
-- [network-switch](/knowledge/linux/network-switch/) - 이더넷 패킷을 전달하는 장비
-- [vlan](/knowledge/linux/vlan/) - 스위치 포트의 논리적 분할
-- [utp-cabling](/knowledge/linux/utp-cabling/) - 이더넷의 물리적 전송 매체
-- [jumbo-frame](/knowledge/linux/jumbo-frame/) - 표준 MTU를 초과하는 이더넷 프레임
-- [wireless-networking](/knowledge/linux/wireless-networking/) - 무선 이더넷(Wi-Fi)
+- [MAC 주소 (MAC Address)](/knowledge/linux/mac-address/) - 이더넷의 하드웨어 주소 체계
+- [MTU (최대 전송 단위)](/knowledge/linux/mtu/) - 이더넷 프레임의 최대 전송 단위
+- [네트워크 패킷 캡슐화 (Network Packet Encapsulation)](/knowledge/linux/network-packet-encapsulation/) - 이더넷 프레이밍과 캡슐화
+- [ARP (주소 결정 프로토콜)](/knowledge/linux/arp/) - 이더넷에서의 주소 해석
+- [네트워크 스위치 (Network Switch)](/knowledge/linux/network-switch/) - 이더넷 패킷을 전달하는 장비
+- [VLAN (가상 랜)](/knowledge/linux/vlan/) - 스위치 포트의 논리적 분할
+- [UTP 케이블링 (UTP Cabling)](/knowledge/linux/utp-cabling/) - 이더넷의 물리적 전송 매체
+- [점보 프레임 (Jumbo Frame)](/knowledge/linux/jumbo-frame/) - 표준 MTU를 초과하는 이더넷 프레임
+- [무선 네트워킹 (Wireless Networking)](/knowledge/linux/wireless-networking/) - 무선 이더넷(Wi-Fi)

@@ -1,5 +1,5 @@
 ---
-title: "ZFS"
+title: "ZFS (Z 파일 시스템)"
 description: "ZFS는 파일시스템, 논리 볼륨 관리자, RAID 컨트롤러를 하나의 통합 시스템으로 결합한 차세대 저장소 솔루션으로, copy-on-write 방식과 체크섬 기반 데이터 무결성을 핵심으로 한다"
 tags: ['Zfs', 'Copy On Write', 'Storage Pool', 'Raidz', 'Snapshot', 'Filesystem']
 created: 2026-02-12
@@ -65,9 +65,9 @@ sudo zfs get all demo/new_fs
 
 ## 관련 개념
 
-- [Btrfs](/knowledge/linux/btrfs/)
-- [RAID](/knowledge/linux/raid/)
-- [Logical Volume Manager](/knowledge/linux/logical-volume-manager/)
-- [Filesystem](/knowledge/linux/filesystem/)
-- [Copy-on-Write](/knowledge/linux/copy-on-write/)
-- [NFS](/knowledge/linux/nfs/)
+- [Btrfs (B-트리 파일 시스템)](/knowledge/linux/btrfs/)
+- [RAID (독립 디스크의 중복 배열)](/knowledge/linux/raid/)
+- [논리 볼륨 관리자 (Logical Volume Manager)](/knowledge/linux/logical-volume-manager/)
+- [파일 시스템 (Filesystem)](/knowledge/linux/filesystem/)
+- [기록 시 복사 (Copy-on-Write)](/knowledge/linux/copy-on-write/)
+- [NFS (네트워크 파일 시스템)](/knowledge/linux/nfs/)
