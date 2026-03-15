@@ -129,4 +129,4 @@ sock.close();
 - [UNIX 파이프 (Pipe)](/knowledge/os/unix-pipe/) — 단순하지만 제한적
 - [UNIX 파일 디스크립터 (File Descriptor)](/knowledge/os/unix-file-descriptor/)
 - [TCP/IP 프로토콜](/knowledge/network/tcp-ip/)
-- [UDP vs TCP](/knowledge/network/udp-vs-tcp/)
+- [UDP vs TCP (전송 프로토콜 비교)](/knowledge/network/udp-vs-tcp/)

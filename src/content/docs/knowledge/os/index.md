@@ -183,7 +183,7 @@ sidebar:
 - [VMM 메모리 관리](/knowledge/os/vmm-memory-management/) - Balloon, Page Sharing, Double Paging 기법으로 게스트 메모리 관리
 - [라이브 마이그레이션 (Live Migration)](/knowledge/os/live-migration/) - 실행 중인 게스트 VM을 서비스 중단 없이 다른 서버로 이동
 - [컨테이너 (Container)](/knowledge/os/container/) - 단일 커널 위에서 애플리케이션들을 격리하여 가상화와 유사한 효과를 제공하는 OS 수준 격리 기술
-- [JVM (Java Virtual Machine)](/knowledge/os/jvm/) - Java 바이트코드를 실행하는 프로그래밍 환경 가상화의 대표적 사례
+- [JVM (자바 가상 머신)](/knowledge/os/jvm/) - Java 바이트코드를 실행하는 프로그래밍 환경 가상화의 대표적 사례
 - [분산 시스템 (Distributed System)](/knowledge/os/distributed-system/) - 메모리를 공유하지 않는 프로세서들이 네트워크를 통해 통신하는 시스템
 
 ## 분산 시스템
