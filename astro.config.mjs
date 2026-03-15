@@ -1,5 +1,6 @@
 // @ts-check
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
@@ -233,6 +234,12 @@ export default defineConfig({
 					autogenerate: { directory: 'til' },
 				},
 			],
+		}),
+		sitemap({
+			serialize(item) {
+				item.lastmod = new Date();
+				return item;
+			},
 		}),
 	],
 });
