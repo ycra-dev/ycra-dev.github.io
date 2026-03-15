@@ -1,5 +1,5 @@
 ---
-title: "Code as Communication"
+title: "커뮤니케이션으로서의 코드 (Code as Communication)"
 description: "코드가 컴파일러뿐만 아니라 다른 엔지니어에게 의도를 전달하는 매체라는 인식 — 가독성과 명확성이 코드의 핵심 품질 속성이다"
 tags: ["Software Engineering", "Quality", "Readability", "Code Quality", "Communication"]
 created: 2026-02-27
@@ -44,6 +44,6 @@ active_users_by_id = {
 
 ## 관련 개념
 
-- [Style Guides and Rules](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
-- [Consistency in Codebase](/knowledge/software-engineering/quality-and-configuration/consistency-in-codebase/)
-- [Software Engineering vs Programming](/knowledge/software-engineering/foundations/software-engineering-vs-programming/)
+- [스타일 가이드와 규칙 (Style Guides and Rules)](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
+- [코드베이스의 일관성 (Consistency in Codebase)](/knowledge/software-engineering/quality-and-configuration/consistency-in-codebase/)
+- [소프트웨어 공학 vs 프로그래밍 (Software Engineering vs Programming)](/knowledge/software-engineering/foundations/software-engineering-vs-programming/)

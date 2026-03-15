@@ -1,5 +1,5 @@
 ---
-title: "Compute as a Service"
+title: "서비스형 컴퓨팅 (Compute as a Service)"
 description: "프로그램을 실행하는 데 필요한 컴퓨팅 파워를 서비스로 제공하는 것으로, 조직의 성장과 진화에 따라 복잡한 시스템으로 발전하는 인프라 패턴"
 tags: ["Software Engineering", "Infrastructure", "Cloud"]
 created: 2026-02-27
@@ -41,8 +41,8 @@ Google의 초기 도입 사례 (2002년 Global WorkQueue 설계 문서):
 
 ## 관련 개념
 
-- [Borg](/knowledge/software-engineering/systems-and-services/borg/)
-- [Containerization](/knowledge/software-engineering/systems-and-services/containerization/)
-- [Architecting for Failure](/knowledge/software-engineering/systems-and-services/architecting-for-failure/)
-- [Batch vs Serving Jobs](/knowledge/software-engineering/systems-and-services/batch-vs-serving-jobs/)
-- [Cattle vs Pets](/knowledge/software-engineering/design-and-evolution/cattle-vs-pets/)
+- [보그 (Borg)](/knowledge/software-engineering/systems-and-services/borg/)
+- [컨테이너화 (Containerization)](/knowledge/software-engineering/systems-and-services/containerization/)
+- [장애를 고려한 설계 (Architecting for Failure)](/knowledge/software-engineering/systems-and-services/architecting-for-failure/)
+- [배치 작업 vs 서빙 작업 (Batch vs Serving Jobs)](/knowledge/software-engineering/systems-and-services/batch-vs-serving-jobs/)
+- [가축 vs 애완동물 (Cattle vs Pets)](/knowledge/software-engineering/design-and-evolution/cattle-vs-pets/)

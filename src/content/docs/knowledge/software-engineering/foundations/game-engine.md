@@ -41,6 +41,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Native vs Cross-Platform Mobile Development](/knowledge/software-engineering/foundations/native-vs-cross-platform-mobile-development/)
-- [Object-Oriented Programming](/knowledge/software-engineering/design-and-evolution/object-oriented-programming/)
-- [Development Platform](/knowledge/software-engineering/foundations/development-platform/)
+- [네이티브 vs 크로스 플랫폼 모바일 개발 (Native vs Cross-Platform)](/knowledge/software-engineering/foundations/native-vs-cross-platform-mobile-development/)
+- [객체지향 프로그래밍 (Object-Oriented Programming)](/knowledge/software-engineering/design-and-evolution/object-oriented-programming/)
+- [개발 플랫폼 (Development Platform)](/knowledge/software-engineering/foundations/development-platform/)

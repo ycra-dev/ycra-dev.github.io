@@ -1,5 +1,5 @@
 ---
-title: "Information Islands"
+title: "정보의 고립 (Information Islands)"
 description: "조직의 다른 부분과 소통하지 않는 그룹들 사이에서 발생하는 지식 단편화 현상 — 정보 섬은 중복·왜곡·병목을 야기한다"
 tags: ["Software Engineering", "Agile", "Knowledge Sharing", "Organization"]
 created: 2026-02-27
@@ -34,7 +34,7 @@ Google 내에서도 각 팀이 자체적인 빌드 스크립트나 개발 워크
 
 ## 관련 개념
 
-- [Psychological Safety](/knowledge/software-engineering/agile-methods/psychological-safety/)
-- [Knowledge Sharing Culture](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
-- [Canonical Sources of Information](/knowledge/software-engineering/agile-methods/canonical-sources-of-information/)
-- [Bus Factor](/knowledge/software-engineering/agile-methods/bus-factor/)
+- [심리적 안전감 (Psychological Safety)](/knowledge/software-engineering/agile-methods/psychological-safety/)
+- [지식 공유 문화 (Knowledge Sharing Culture)](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
+- [정보의 정식 소스 (Canonical Sources of Information)](/knowledge/software-engineering/agile-methods/canonical-sources-of-information/)
+- [버스 팩터 (Bus Factor)](/knowledge/software-engineering/agile-methods/bus-factor/)

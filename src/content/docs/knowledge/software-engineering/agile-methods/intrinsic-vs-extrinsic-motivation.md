@@ -1,5 +1,5 @@
 ---
-title: "Intrinsic vs Extrinsic Motivation"
+title: "내재적 동기 vs 외재적 동기 (Intrinsic vs Extrinsic Motivation)"
 description: "내재적 동기(자율성·숙련·목적)가 외재적 동기(보너스·승진)보다 지식 노동자의 성과에 더 강력하고 지속적인 영향을 미친다"
 tags: ["Software Engineering", "Agile", "Leadership", "Motivation", "Productivity"]
 created: 2026-02-27
@@ -32,6 +32,6 @@ Google의 "20% 시간"(현재는 공식적으로 없어졌지만 문화적으로
 
 ## 관련 개념
 
-- [Servant Leadership](/knowledge/software-engineering/agile-methods/servant-leadership/)
-- [Positive Patterns in Leadership](/knowledge/software-engineering/agile-methods/positive-patterns-in-leadership/)
-- [Psychological Safety (Leadership)](/knowledge/software-engineering/agile-methods/psychological-safety-leadership/)
+- [서번트 리더십 (Servant Leadership)](/knowledge/software-engineering/agile-methods/servant-leadership/)
+- [리더십 긍정 패턴 (Positive Patterns in Leadership)](/knowledge/software-engineering/agile-methods/positive-patterns-in-leadership/)
+- [심리적 안전감 - 리더십 (Psychological Safety in Leadership)](/knowledge/software-engineering/agile-methods/psychological-safety-leadership/)

@@ -1,5 +1,5 @@
 ---
-title: "Resilience"
+title: "복원력 (Resilience)"
 description: "장비 고장이나 사이버 공격 등의 파괴적 이벤트 존재 하에서 시스템이 핵심 서비스의 연속성을 얼마나 잘 유지할 수 있는지에 대한 판단이다"
 tags: ['Resilience', 'Service Continuity', 'Recovery', 'Adaptability', 'Dependability', 'Disruption']
 created: 2026-02-16
@@ -20,9 +20,9 @@ sidebar:
 
 ## 관련 개념
 
-- [Dependability](/knowledge/software-engineering/dependability/)
-- [Cybersecurity](/knowledge/software-engineering/cybersecurity/)
-- [Sociotechnical Resilience](/knowledge/software-engineering/sociotechnical-resilience/)
-- [Resilient Systems Design](/knowledge/software-engineering/resilient-systems-design/)
-- [Redundancy and Diversity](/knowledge/software-engineering/redundancy-and-diversity/)
-- [Availability](/knowledge/software-engineering/availability/)
+- [신뢰성 (Dependability)](/knowledge/software-engineering/dependability/)
+- [사이버 보안 (Cybersecurity)](/knowledge/software-engineering/cybersecurity/)
+- [사회기술적 복원력 (Sociotechnical Resilience)](/knowledge/software-engineering/sociotechnical-resilience/)
+- [복원 시스템 설계 (Resilient Systems Design)](/knowledge/software-engineering/resilient-systems-design/)
+- [중복성과 다양성 (Redundancy and Diversity)](/knowledge/software-engineering/redundancy-and-diversity/)
+- [가용성 (Availability)](/knowledge/software-engineering/availability/)

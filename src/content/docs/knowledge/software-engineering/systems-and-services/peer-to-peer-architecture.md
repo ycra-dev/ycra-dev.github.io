@@ -1,5 +1,5 @@
 ---
-title: "Peer-to-Peer Architecture"
+title: "피어투피어 아키텍처 (Peer-to-Peer Architecture)"
 description: "P2P 아키텍처는 클라이언트와 서버의 구분 없이 네트워크의 모든 노드가 계산을 수행하고 서비스를 제공할 수 있는 분산화된 시스템 아키텍처이다"
 tags: ['P2p', 'Peer To Peer', 'Decentralized', 'Distributed Computing', 'File Sharing', 'Super Peer']
 created: 2026-02-16
@@ -20,7 +20,7 @@ BitTorrent 프로토콜 기반 파일 공유 시스템에서 사용자들은 중
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/software-engineering/distributed-system/)
-- [Client-Server Computing](/knowledge/software-engineering/client-server-computing/)
-- [Software as a Service](/knowledge/software-engineering/software-as-a-service/)
-- [Middleware](/knowledge/software-engineering/middleware/)
+- [분산 시스템 (Distributed System)](/knowledge/software-engineering/distributed-system/)
+- [클라이언트-서버 컴퓨팅 (Client-Server Computing)](/knowledge/software-engineering/client-server-computing/)
+- [서비스형 소프트웨어 (Software as a Service)](/knowledge/software-engineering/software-as-a-service/)
+- [미들웨어 (Middleware)](/knowledge/software-engineering/middleware/)

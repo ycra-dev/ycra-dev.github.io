@@ -1,5 +1,5 @@
 ---
-title: "Software Specification"
+title: "소프트웨어 명세 (Software Specification)"
 description: "소프트웨어 명세(요구사항 공학)는 어떤 서비스가 필요하고 시스템의 운영 및 개발에 어떤 제약이 있는지를 정의하는 프로세스이다"
 tags: ['Software Specification', 'Requirements', 'System Specification', 'Requirements Engineering']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Requirements Engineering](/knowledge/software-engineering/requirements-engineering/)
-- [Functional Requirements](/knowledge/software-engineering/functional-requirements/)
-- [Non-functional Requirements](/knowledge/software-engineering/non-functional-requirements/)
+- [요구사항 공학 (Requirements Engineering)](/knowledge/software-engineering/requirements-engineering/)
+- [기능적 요구사항 (Functional Requirements)](/knowledge/software-engineering/functional-requirements/)
+- [비기능적 요구사항 (Non-functional Requirements)](/knowledge/software-engineering/non-functional-requirements/)

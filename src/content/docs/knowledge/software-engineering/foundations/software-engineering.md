@@ -1,5 +1,5 @@
 ---
-title: "Software Engineering"
+title: "소프트웨어 공학 (Software Engineering)"
 description: "소프트웨어 공학은 소프트웨어 생산의 모든 측면을 다루는 공학 분야로, 초기 시스템 명세부터 유지보수까지 포함한다"
 tags: ['Software Engineering', 'Engineering Discipline', 'Software Development', 'Professional Software']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Process](/knowledge/software-engineering/software-process/)
-- [Software Quality Attributes](/knowledge/software-engineering/software-quality-attributes/)
-- [Software Specification](/knowledge/software-engineering/software-specification/)
+- [소프트웨어 프로세스 (Software Process)](/knowledge/software-engineering/software-process/)
+- [소프트웨어 품질 속성 (Software Quality Attributes)](/knowledge/software-engineering/software-quality-attributes/)
+- [소프트웨어 명세 (Software Specification)](/knowledge/software-engineering/software-specification/)

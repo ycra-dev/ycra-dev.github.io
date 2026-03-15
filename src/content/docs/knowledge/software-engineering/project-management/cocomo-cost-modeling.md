@@ -1,5 +1,5 @@
 ---
-title: "COCOMO Cost Modeling"
+title: "COCOMO 비용 모델링 (COCOMO Cost Modeling)"
 description: "COCOMO II는 대규모 소프트웨어 프로젝트 데이터를 기반으로 도출된 경험적 비용 추정 모델로, 시스템 크기와 제품/프로젝트/팀 요인을 개발 노력과 연관짓는 공식을 제공한다"
 tags: ['Cocomo', 'Cost Estimation', 'Effort Estimation', 'Software Economics', 'Parametric Model']
 created: 2026-02-16
@@ -23,6 +23,6 @@ PM = 2.94 x Size^(1.1~1.24) x M
 
 ## 관련 개념
 
-- [Algorithmic Cost Modeling](/knowledge/software-engineering/algorithmic-cost-modeling/)
-- [Software Pricing](/knowledge/software-engineering/software-pricing/)
-- [Project Planning](/knowledge/software-engineering/project-planning/)
+- [알고리즘적 비용 모델링 (Algorithmic Cost Modeling)](/knowledge/software-engineering/algorithmic-cost-modeling/)
+- [소프트웨어 가격 산정 (Software Pricing)](/knowledge/software-engineering/software-pricing/)
+- [프로젝트 계획 (Project Planning)](/knowledge/software-engineering/project-planning/)

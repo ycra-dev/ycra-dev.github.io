@@ -1,5 +1,5 @@
 ---
-title: "Software Quality Attributes"
+title: "소프트웨어 품질 속성 (Software Quality Attributes)"
 description: "소프트웨어 품질 속성은 소프트웨어 시스템이 갖추어야 할 본질적인 특성으로, 유지보수성(maintainability), 신뢰성(dependability), 효율성(efficiency), 수용성(acceptability) 등이 포함된다"
 tags: ['Software Quality', 'Maintainability', 'Dependability', 'Efficiency', 'Non Functional Properties']
 created: 2026-02-16
@@ -20,5 +20,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Engineering](/knowledge/software-engineering/software-engineering/)
-- [Software Process](/knowledge/software-engineering/software-process/)
+- [소프트웨어 공학 (Software Engineering)](/knowledge/software-engineering/software-engineering/)
+- [소프트웨어 프로세스 (Software Process)](/knowledge/software-engineering/software-process/)

@@ -1,5 +1,5 @@
 ---
-title: "Boy Scout Rule"
+title: "보이 스카우트 규칙 (Boy Scout Rule)"
 description: "코드를 수정할 때마다 주변 코드를 조금씩 개선하라는 실천 지침"
 tags: ["Software Engineering", "Code Quality", "Best Practice"]
 created: 2026-02-27
@@ -49,7 +49,7 @@ def calculate_price(base_price, quantity, tax_type):
 
 ## 관련 개념
 
-- [Refactoring](/knowledge/software-engineering/design-and-evolution/refactoring/)
-- [Legacy Systems](/knowledge/software-engineering/design-and-evolution/legacy-systems/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
-- [Broken Window Theory](/knowledge/software-engineering/foundations/broken-window-theory/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/design-and-evolution/refactoring/)
+- [레거시 시스템 (Legacy Systems)](/knowledge/software-engineering/design-and-evolution/legacy-systems/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [깨진 유리창 이론 (Broken Window Theory)](/knowledge/software-engineering/foundations/broken-window-theory/)

@@ -1,5 +1,5 @@
 ---
-title: "Advisory Deprecation"
+title: "권고적 디프리케이션 (Advisory Deprecation)"
 description: "마감 기한이 없고 조직이 높은 우선순위를 두지 않는 deprecation으로, 클라이언트가 자발적으로 새로운 시스템으로 마이그레이션하기를 희망하는 방식"
 tags: ["Software Engineering", "Design and Evolution"]
 created: 2026-02-27
@@ -31,6 +31,6 @@ Google에서 새 시스템이 기존 시스템 대비 압도적 이점을 제공
 
 ## 관련 개념
 
-- [Deprecation](/knowledge/software-engineering/design-and-evolution/deprecation/)
-- [Compulsory Deprecation](/knowledge/software-engineering/design-and-evolution/compulsory-deprecation/)
-- [Deprecation Warnings](/knowledge/software-engineering/design-and-evolution/deprecation-warnings/)
+- [디프리케이션 (Deprecation)](/knowledge/software-engineering/design-and-evolution/deprecation/)
+- [강제적 디프리케이션 (Compulsory Deprecation)](/knowledge/software-engineering/design-and-evolution/compulsory-deprecation/)
+- [디프리케이션 경고 (Deprecation Warnings)](/knowledge/software-engineering/design-and-evolution/deprecation-warnings/)

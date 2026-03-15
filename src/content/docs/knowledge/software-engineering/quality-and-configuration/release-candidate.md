@@ -1,5 +1,5 @@
 ---
-title: "Release Candidate"
+title: "릴리스 후보 (Release Candidate)"
 description: "자동화된 프로세스에 의해 조립된 응집력 있고 배포 가능한 단위로, Continuous Build를 통과한 코드와 구성을 포함"
 tags: ["Software Engineering", "CI/CD", "Deployment"]
 created: 2026-02-27
@@ -36,6 +36,6 @@ Version skew(다중 비호환 버전이 동시 배포된 상태)는 RC 프로모
 
 ## 관련 개념
 
-- [Continuous Build](/knowledge/software-engineering/quality-and-configuration/continuous-build/)
-- [Staged Rollout](/knowledge/software-engineering/quality-and-configuration/staged-rollout/)
-- [Release Train](/knowledge/software-engineering/quality-and-configuration/release-train/)
+- [지속적 빌드 (Continuous Build)](/knowledge/software-engineering/quality-and-configuration/continuous-build/)
+- [단계적 롤아웃 (Staged Rollout)](/knowledge/software-engineering/quality-and-configuration/staged-rollout/)
+- [릴리스 트레인 (Release Train)](/knowledge/software-engineering/quality-and-configuration/release-train/)

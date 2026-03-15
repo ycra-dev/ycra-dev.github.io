@@ -1,5 +1,5 @@
 ---
-title: "Source Control"
+title: "소스 관리 (Source Control)"
 description: "소스 컨트롤은 소프트웨어 프로젝트의 파일 변경 이력을 관리하고 여러 개발자가 동시에 같은 코드에서 작업할 수 있게 해주는 시스템이다."
 tags: ["Software Engineering", "Version Control", "Git", "Collaboration"]
 created: 2026-02-27
@@ -53,6 +53,6 @@ git merge feature/new-login
 
 ## 관련 개념
 
-- [Version Control](/knowledge/software-engineering/quality-and-configuration/version-control/)
-- [Branching and Merging](/knowledge/software-engineering/quality-and-configuration/branching-and-merging/)
-- [Continuous Integration](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
+- [버전 관리 (Version Control)](/knowledge/software-engineering/quality-and-configuration/version-control/)
+- [브랜칭과 병합 (Branching and Merging)](/knowledge/software-engineering/quality-and-configuration/branching-and-merging/)
+- [지속적 통합 (Continuous Integration)](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)

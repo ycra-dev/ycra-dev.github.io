@@ -1,5 +1,5 @@
 ---
-title: "Coding Standard"
+title: "코딩 표준 (Coding Standard)"
 description: "팀이나 조직에서 코드의 스타일, 구조, 관례를 통일하기 위해 합의한 규칙 집합"
 tags: ["Software Engineering", "Team Practice", "Convention"]
 created: 2026-02-27
@@ -57,6 +57,6 @@ Bike-Shedding 방지:
 
 ## 관련 개념
 
-- [Code Readability](/knowledge/software-engineering/design-and-evolution/code-readability/)
-- [Code Idiom](/knowledge/software-engineering/design-and-evolution/code-idiom/)
-- [Bike-Shedding](/knowledge/software-engineering/foundations/bike-shedding/)
+- [코드 가독성 (Code Readability)](/knowledge/software-engineering/design-and-evolution/code-readability/)
+- [코드 관용구 (Code Idiom)](/knowledge/software-engineering/design-and-evolution/code-idiom/)
+- [바이크 셰딩 (Bike-Shedding)](/knowledge/software-engineering/foundations/bike-shedding/)

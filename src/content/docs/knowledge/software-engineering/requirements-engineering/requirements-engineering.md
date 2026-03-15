@@ -1,5 +1,5 @@
 ---
-title: "Requirements Engineering"
+title: "요구사항 공학 (Requirements Engineering)"
 description: "요구사항 공학은 소프트웨어 시스템이 무엇을 해야 하는지(기능적 요구사항)와 어떤 제약 조건 하에서 동작해야 하는지(비기능적 요구사항)를 발견, 분석, 문서화, 검증하는 체계적인 프로세스이다"
 tags: ['Requirements Engineering', 'Requirements Analysis', 'Elicitation', 'Specification', 'Validation']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Functional Requirements](/knowledge/software-engineering/functional-requirements/)
-- [Non-functional Requirements](/knowledge/software-engineering/non-functional-requirements/)
-- [Requirements Elicitation](/knowledge/software-engineering/requirements-elicitation/)
-- [Requirements Validation](/knowledge/software-engineering/requirements-validation/)
+- [기능적 요구사항 (Functional Requirements)](/knowledge/software-engineering/functional-requirements/)
+- [비기능적 요구사항 (Non-functional Requirements)](/knowledge/software-engineering/non-functional-requirements/)
+- [요구사항 도출 (Requirements Elicitation)](/knowledge/software-engineering/requirements-elicitation/)
+- [요구사항 검증 (Requirements Validation)](/knowledge/software-engineering/requirements-validation/)

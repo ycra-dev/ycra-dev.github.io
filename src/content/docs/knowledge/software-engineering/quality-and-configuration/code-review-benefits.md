@@ -1,5 +1,5 @@
 ---
-title: "Code Review Benefits"
+title: "코드 리뷰의 이점 (Code Review Benefits)"
 description: "코드 리뷰의 이점은 단순한 버그 검출을 넘어 코드 정확성, 이해도, 일관성, 심리적 이점, 지식 공유 등 다양한 차원에서 조직에 가치를 제공한다"
 tags: ["Software Engineering", "Quality", "Code Review", "Knowledge Sharing", "Team Culture"]
 created: 2026-02-27
@@ -34,7 +34,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Code Review](/knowledge/software-engineering/quality-and-configuration/code-review/)
-- [Code Review Best Practices](/knowledge/software-engineering/quality-and-configuration/code-review-best-practices/)
-- [Bus Factor](/knowledge/software-engineering/agile-methods/bus-factor/)
-- [Consistency in Codebase](/knowledge/software-engineering/quality-and-configuration/consistency-in-codebase/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/quality-and-configuration/code-review/)
+- [코드 리뷰 모범 사례 (Code Review Best Practices)](/knowledge/software-engineering/quality-and-configuration/code-review-best-practices/)
+- [버스 팩터 (Bus Factor)](/knowledge/software-engineering/agile-methods/bus-factor/)
+- [코드베이스의 일관성 (Consistency in Codebase)](/knowledge/software-engineering/quality-and-configuration/consistency-in-codebase/)

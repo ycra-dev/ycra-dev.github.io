@@ -1,5 +1,5 @@
 ---
-title: "Requirements Validation"
+title: "요구사항 검증 (Requirements Validation)"
 description: "요구사항 검증은 작성된 요구사항이 고객이 실제로 원하는 시스템을 정확히 정의하고 있는지 확인하는 프로세스이다"
 tags: ['Requirements Validation', 'Requirements Review', 'Verification', 'Completeness', 'Consistency']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Requirements Engineering](/knowledge/software-engineering/requirements-engineering/)
-- [Requirements Elicitation](/knowledge/software-engineering/requirements-elicitation/)
-- [Software Prototyping](/knowledge/software-engineering/software-prototyping/)
+- [요구사항 공학 (Requirements Engineering)](/knowledge/software-engineering/requirements-engineering/)
+- [요구사항 도출 (Requirements Elicitation)](/knowledge/software-engineering/requirements-elicitation/)
+- [소프트웨어 프로토타이핑 (Software Prototyping)](/knowledge/software-engineering/software-prototyping/)

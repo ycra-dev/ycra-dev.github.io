@@ -1,5 +1,5 @@
 ---
-title: "Artifact-Based Build Systems"
+title: "아티팩트 기반 빌드 시스템 (Artifact-Based Build Systems)"
 description: "산출물과 의존성을 선언적으로 기술하고 빌드 방법은 시스템이 결정하는 빌드 시스템"
 tags: ["Software Engineering", "Build Systems"]
 created: 2026-02-27
@@ -54,7 +54,7 @@ java_library(
 
 ## 관련 개념
 
-- [Task-Based Build Systems](/knowledge/software-engineering/quality-and-configuration/task-based-build-systems/)
-- [Bazel](/knowledge/software-engineering/quality-and-configuration/bazel/)
-- [Hermetic Builds](/knowledge/software-engineering/quality-and-configuration/hermetic-builds/)
-- [Remote Execution and Caching](/knowledge/software-engineering/quality-and-configuration/remote-execution-and-caching/)
+- [태스크 기반 빌드 시스템 (Task-Based Build Systems)](/knowledge/software-engineering/quality-and-configuration/task-based-build-systems/)
+- [바젤 (Bazel)](/knowledge/software-engineering/quality-and-configuration/bazel/)
+- [밀폐 빌드 (Hermetic Builds)](/knowledge/software-engineering/quality-and-configuration/hermetic-builds/)
+- [원격 실행과 캐싱 (Remote Execution and Caching)](/knowledge/software-engineering/quality-and-configuration/remote-execution-and-caching/)

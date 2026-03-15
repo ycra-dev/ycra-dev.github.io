@@ -40,6 +40,6 @@ Agile:     [스프린트1: 설계+개발+테스트] -> [스프린트2] -> ... ->
 
 ## 관련 개념
 
-- [Agile Development](/knowledge/software-engineering/agile-methods/agile-development/)
-- [Waterfall Methodology](/knowledge/software-engineering/agile-methods/waterfall-methodology/)
-- [Scrum](/knowledge/software-engineering/agile-methods/scrum/)
+- [애자일 개발 (Agile Development)](/knowledge/software-engineering/agile-methods/agile-development/)
+- [폭포수 방법론 (Waterfall Methodology)](/knowledge/software-engineering/agile-methods/waterfall-methodology/)
+- [스크럼 (Scrum)](/knowledge/software-engineering/agile-methods/scrum/)

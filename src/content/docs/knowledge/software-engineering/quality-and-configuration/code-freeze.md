@@ -1,5 +1,5 @@
 ---
-title: "Code Freeze"
+title: "코드 프리즈 (Code Freeze)"
 description: "소프트웨어 릴리스 전에 코드베이스에 대한 변경을 제한하는 기간"
 tags: ["Software Engineering", "Release Management", "Process"]
 created: 2026-02-27
@@ -62,7 +62,7 @@ def new_checkout():
 
 ## 관련 개념
 
-- [Version Management](/knowledge/software-engineering/quality-and-configuration/version-management/)
-- [Continuous Integration](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
-- [Feature Flag](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [버전 관리 (Version Management)](/knowledge/software-engineering/quality-and-configuration/version-management/)
+- [지속적 통합 (Continuous Integration)](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
+- [기능 플래그 (Feature Flag)](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)

@@ -1,5 +1,5 @@
 ---
-title: "Code Idiom"
+title: "코드 관용구 (Code Idiom)"
 description: "특정 프로그래밍 언어에서 관례적으로 사용되는 표현 방식이나 패턴으로, 해당 언어 커뮤니티에서 자연스럽게 인정받는 작성 방식"
 tags: ["Software Engineering", "Programming Language", "Convention"]
 created: 2026-02-27
@@ -51,6 +51,6 @@ w->doWork();
 
 ## 관련 개념
 
-- [Code Readability](/knowledge/software-engineering/design-and-evolution/code-readability/)
-- [Coding Standard](/knowledge/software-engineering/foundations/coding-standard/)
-- [Refactoring](/knowledge/software-engineering/design-and-evolution/refactoring/)
+- [코드 가독성 (Code Readability)](/knowledge/software-engineering/design-and-evolution/code-readability/)
+- [코딩 표준 (Coding Standard)](/knowledge/software-engineering/foundations/coding-standard/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/design-and-evolution/refactoring/)

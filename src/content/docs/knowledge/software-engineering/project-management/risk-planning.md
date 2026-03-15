@@ -1,5 +1,5 @@
 ---
-title: "Risk Planning"
+title: "위험 계획 (Risk Planning)"
 description: "리스크 계획은 프로젝트를 위협하는 핵심 리스크를 관리하기 위한 전략을 수립하는 프로세스로, 리스크 회피, 최소화, 비상 대책의 세 가지 범주의 전략을 포함한다"
 tags: ['Risk Planning', 'Risk Management', 'Avoidance', 'Minimization', 'Contingency']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Risk Management](/knowledge/software-engineering/risk-management/)
-- [Risk Identification](/knowledge/software-engineering/risk-identification/)
-- [Software Project Management](/knowledge/software-engineering/software-project-management/)
+- [리스크 관리 (Risk Management)](/knowledge/software-engineering/risk-management/)
+- [위험 식별 (Risk Identification)](/knowledge/software-engineering/risk-identification/)
+- [소프트웨어 프로젝트 관리 (Software Project Management)](/knowledge/software-engineering/software-project-management/)

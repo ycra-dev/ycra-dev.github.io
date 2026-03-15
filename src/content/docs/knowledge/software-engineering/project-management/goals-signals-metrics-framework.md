@@ -1,5 +1,5 @@
 ---
-title: "Goals-Signals-Metrics Framework"
+title: "목표-신호-메트릭 프레임워크 (Goals-Signals-Metrics Framework)"
 description: "생산성 측정을 위한 메트릭을 체계적으로 설계하는 Google의 방법론 — 목표(Goal)에서 출발하여 신호(Signal)를 정의하고 측정 가능한 메트릭(Metric)을 도출한다"
 tags: ["Software Engineering", "Project Management", "Metrics", "Framework"]
 created: 2026-02-27
@@ -45,6 +45,6 @@ Readability 프로세스 측정:
 
 ## 관련 개념
 
-- [QUANTS Framework](/knowledge/software-engineering/project-management/quants-framework/)
-- [Measuring Engineering Productivity](/knowledge/software-engineering/project-management/measuring-engineering-productivity/)
-- [Streetlight Effect](/knowledge/software-engineering/project-management/streetlight-effect/)
+- [QUANTS 프레임워크 (QUANTS Framework)](/knowledge/software-engineering/project-management/quants-framework/)
+- [엔지니어링 생산성 측정 (Measuring Engineering Productivity)](/knowledge/software-engineering/project-management/measuring-engineering-productivity/)
+- [가로등 효과 (Streetlight Effect)](/knowledge/software-engineering/project-management/streetlight-effect/)

@@ -1,5 +1,5 @@
 ---
-title: "Code Review Best Practices"
+title: "코드 리뷰 모범 사례 (Code Review Best Practices)"
 description: "코드 리뷰를 효율적이고 생산적으로 만들기 위한 작성자와 리뷰어 양쪽의 행동 지침 — 구글의 수십 년간 경험에서 도출된 실천 방법들"
 tags: ["Software Engineering", "Quality", "Code Review", "Best Practices", "Collaboration"]
 created: 2026-02-27
@@ -38,7 +38,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Code Review](/knowledge/software-engineering/quality-and-configuration/code-review/)
-- [Code Review Benefits](/knowledge/software-engineering/quality-and-configuration/code-review-benefits/)
-- [LGTM and Approval Types](/knowledge/software-engineering/quality-and-configuration/lgtm-and-approval-types/)
-- [Psychological Safety](/knowledge/software-engineering/agile-methods/psychological-safety/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/quality-and-configuration/code-review/)
+- [코드 리뷰의 이점 (Code Review Benefits)](/knowledge/software-engineering/quality-and-configuration/code-review-benefits/)
+- [LGTM과 승인 유형 (LGTM and Approval Types)](/knowledge/software-engineering/quality-and-configuration/lgtm-and-approval-types/)
+- [심리적 안전감 (Psychological Safety)](/knowledge/software-engineering/agile-methods/psychological-safety/)

@@ -1,5 +1,5 @@
 ---
-title: "Dreyfus Model"
+title: "드레이퍼스 모델 (Dreyfus Model)"
 description: "학습자가 기술을 습득하는 과정을 5단계로 분류한 모델"
 tags: ["Software Engineering", "Skill Acquisition", "Learning"]
 created: 2026-02-27
@@ -48,5 +48,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Four Stages of Competence](/knowledge/software-engineering/foundations/four-stages-of-competence/)
-- [Knowledge Portfolio](/knowledge/software-engineering/project-management/knowledge-portfolio/)
+- [역량의 4단계 (Four Stages of Competence)](/knowledge/software-engineering/foundations/four-stages-of-competence/)
+- [지식 포트폴리오 (Knowledge Portfolio)](/knowledge/software-engineering/project-management/knowledge-portfolio/)

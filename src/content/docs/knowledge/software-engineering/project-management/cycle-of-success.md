@@ -1,5 +1,5 @@
 ---
-title: "Cycle of Success"
+title: "성공의 순환 (Cycle of Success)"
 description: "팀이 어려운 문제를 해결할 때 나타나는 패턴 — 성공의 보상은 더 많은 일과 책임이며, 분석·분투·견인력·보상·압축의 나선형 구조"
 tags: ["Software Engineering", "Project Management", "Leadership", "Organizational Growth"]
 created: 2026-02-27
@@ -36,6 +36,6 @@ Google 공동 창업자 래리 페이지는 이를 "불편하게 흥분되는(un
 
 ## 관련 개념
 
-- [Always Be Scaling](/knowledge/software-engineering/project-management/always-be-scaling/)
-- [Always Be Leaving](/knowledge/software-engineering/project-management/always-be-leaving/)
-- [Important vs Urgent](/knowledge/software-engineering/project-management/important-vs-urgent/)
+- [항상 확장하라 (Always Be Scaling)](/knowledge/software-engineering/project-management/always-be-scaling/)
+- [항상 떠날 준비를 하라 (Always Be Leaving)](/knowledge/software-engineering/project-management/always-be-leaving/)
+- [중요한 것과 긴급한 것 (Important vs Urgent)](/knowledge/software-engineering/project-management/important-vs-urgent/)

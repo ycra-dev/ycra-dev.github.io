@@ -1,5 +1,5 @@
 ---
-title: "Cattle vs Pets"
+title: "가축 vs 애완동물 (Cattle vs Pets)"
 description: "분산 컴퓨팅 환경에서 개별 인스턴스를 다루는 두 방식의 비유로, 소는 대체 가능한 익명의 인스턴스를, 반려동물은 고유하고 수동 관리되는 인스턴스를 의미"
 tags: ["Software Engineering", "Infrastructure", "DevOps"]
 created: 2026-02-27
@@ -30,7 +30,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Large-Scale Changes](/knowledge/software-engineering/design-and-evolution/large-scale-changes/)
-- [Rosie](/knowledge/software-engineering/design-and-evolution/rosie/)
-- [Architecting for Failure](/knowledge/software-engineering/systems-and-services/architecting-for-failure/)
-- [Borg](/knowledge/software-engineering/systems-and-services/borg/)
+- [대규모 코드 변경 (Large-Scale Changes)](/knowledge/software-engineering/design-and-evolution/large-scale-changes/)
+- [로지 (Rosie)](/knowledge/software-engineering/design-and-evolution/rosie/)
+- [장애를 고려한 설계 (Architecting for Failure)](/knowledge/software-engineering/systems-and-services/architecting-for-failure/)
+- [보그 (Borg)](/knowledge/software-engineering/systems-and-services/borg/)

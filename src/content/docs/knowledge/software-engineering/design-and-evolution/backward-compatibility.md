@@ -1,5 +1,5 @@
 ---
-title: "Backward Compatibility"
+title: "하위 호환성 (Backward Compatibility)"
 description: "새 버전의 라이브러리/서비스가 이전 클라이언트 코드의 변경 없이 작동하는 특성"
 tags: ["Software Engineering", "API Design", "Versioning"]
 created: 2026-02-27
@@ -57,6 +57,6 @@ GET /api/v2/users → 기존 필드 제거 또는 타입 변경
 
 ## 관련 개념
 
-- [Semantic Versioning](/knowledge/software-engineering/quality-and-configuration/semantic-versioning/)
-- [Schema Migration](/knowledge/software-engineering/quality-and-configuration/schema-migration/)
-- [Domain-Driven Design](/knowledge/software-engineering/architectural-design/domain-driven-design/)
+- [시맨틱 버전 관리 (Semantic Versioning)](/knowledge/software-engineering/quality-and-configuration/semantic-versioning/)
+- [스키마 마이그레이션 (Schema Migration)](/knowledge/software-engineering/quality-and-configuration/schema-migration/)
+- [도메인 주도 설계 (Domain-Driven Design)](/knowledge/software-engineering/architectural-design/domain-driven-design/)

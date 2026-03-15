@@ -1,5 +1,5 @@
 ---
-title: "Use Cases"
+title: "유스 케이스 (Use Cases)"
 description: "유스 케이스는 시스템과 외부 에이전트(액터) 간의 상호작용을 시나리오 형태로 기술하여 시스템 요구사항을 표현하는 UML 기법이다"
 tags: ['Use Cases', 'Uml', 'Actor', 'Scenario', 'Requirements Modeling']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Requirements Engineering](/knowledge/software-engineering/requirements-engineering/)
-- [Requirements Elicitation](/knowledge/software-engineering/requirements-elicitation/)
-- [UML](/knowledge/software-engineering/uml/)
-- [Sequence Diagram](/knowledge/software-engineering/sequence-diagram/)
+- [요구사항 공학 (Requirements Engineering)](/knowledge/software-engineering/requirements-engineering/)
+- [요구사항 도출 (Requirements Elicitation)](/knowledge/software-engineering/requirements-elicitation/)
+- [UML (통합 모델링 언어)](/knowledge/software-engineering/uml/)
+- [시퀀스 다이어그램 (Sequence Diagram)](/knowledge/software-engineering/sequence-diagram/)

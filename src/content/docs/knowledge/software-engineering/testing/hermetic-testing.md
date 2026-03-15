@@ -1,5 +1,5 @@
 ---
-title: "Hermetic Testing"
+title: "밀폐 테스팅 (Hermetic Testing)"
 description: "외부 의존성으로부터 완전히 격리된 자체 완결적 테스트 환경에서 실행되는 테스트로, 결정적인 결과를 보장하기 위해 외부 영향을 차단한다"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -43,7 +43,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Larger Testing](/knowledge/software-engineering/testing/larger-testing/)
-- [Test Fidelity](/knowledge/software-engineering/testing/test-fidelity/)
-- [Flaky Tests](/knowledge/software-engineering/testing/flaky-tests/)
-- [SUT Configuration](/knowledge/software-engineering/testing/sut-configuration/)
+- [대형 테스팅 (Larger Testing)](/knowledge/software-engineering/testing/larger-testing/)
+- [테스트 충실도 (Test Fidelity)](/knowledge/software-engineering/testing/test-fidelity/)
+- [불안정 테스트 (Flaky Tests)](/knowledge/software-engineering/testing/flaky-tests/)
+- [SUT 구성 (SUT Configuration)](/knowledge/software-engineering/testing/sut-configuration/)

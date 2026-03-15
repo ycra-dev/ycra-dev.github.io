@@ -1,5 +1,5 @@
 ---
-title: "Sociotechnical Systems"
+title: "사회기술 시스템 (Sociotechnical Systems)"
 description: "컴퓨터 하드웨어, 소프트웨어, 인간, 프로세스, 규정 등을 포함하는 광범위한 시스템으로, 조직이나 비즈니스 목적을 지원하기 위해 설계된다"
 tags: ['Sociotechnical Systems', 'System Engineering', 'Organizational Factors', 'Human Factors', 'Dependability']
 created: 2026-02-16
@@ -22,11 +22,11 @@ Mentcare 시스템(정신건강 환자 관리)은 환자 치료 품질 향상과
 
 ## 관련 개념
 
-- [Dependability](/knowledge/software-engineering/dependability/)
-- [Dependable Processes](/knowledge/software-engineering/dependable-processes/)
-- [Sociotechnical Resilience](/knowledge/software-engineering/sociotechnical-resilience/)
-- [Resilience](/knowledge/software-engineering/resilience/)
-- [Systems Engineering](/knowledge/software-engineering/systems-engineering/)
-- [Emergent Properties](/knowledge/software-engineering/emergent-properties/)
-- [Systems of Systems](/knowledge/software-engineering/systems-of-systems/)
-- [System Procurement](/knowledge/software-engineering/system-procurement/)
+- [신뢰성 (Dependability)](/knowledge/software-engineering/dependability/)
+- [신뢰 가능한 프로세스 (Dependable Processes)](/knowledge/software-engineering/dependable-processes/)
+- [사회기술적 복원력 (Sociotechnical Resilience)](/knowledge/software-engineering/sociotechnical-resilience/)
+- [복원력 (Resilience)](/knowledge/software-engineering/resilience/)
+- [시스템 공학 (Systems Engineering)](/knowledge/software-engineering/systems-engineering/)
+- [창발적 속성 (Emergent Properties)](/knowledge/software-engineering/emergent-properties/)
+- [시스템 오브 시스템즈 (Systems of Systems)](/knowledge/software-engineering/systems-of-systems/)
+- [시스템 조달 (System Procurement)](/knowledge/software-engineering/system-procurement/)

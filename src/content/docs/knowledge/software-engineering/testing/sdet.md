@@ -1,5 +1,5 @@
 ---
-title: "SDET (Software Development Engineer in Test)"
+title: "SDET (테스트 소프트웨어 개발 엔지니어)"
 description: "SDET는 프로덕션 코드 대신 테스트 코드를 작성하거나 개발 팀의 도구를 만드는 소프트웨어 개발 역할로, QA에서 개발로 가는 진입 경로로도 활용된다."
 tags: ["Software Engineering", "SDET", "Testing", "Career"]
 created: 2026-02-27
@@ -50,6 +50,6 @@ SDET → Developer → Senior Developer → Tech Lead → Architect → Director
 
 ## 관련 개념
 
-- [Automated Testing](/knowledge/software-engineering/testing/automated-testing/)
+- [자동화 테스팅 (Automated Testing)](/knowledge/software-engineering/testing/automated-testing/)
 - [QA to Development Transition](/knowledge/career/professional-development/qa-to-development-transition/)
-- [Test Automation as Bridge](/knowledge/software-engineering/testing/test-automation-as-bridge/)
+- [테스트 자동화를 통한 역할 전환 (Test Automation as Bridge)](/knowledge/software-engineering/testing/test-automation-as-bridge/)

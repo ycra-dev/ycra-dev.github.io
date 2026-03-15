@@ -1,5 +1,5 @@
 ---
-title: "Large-Scale Changes"
+title: "대규모 코드 변경 (Large-Scale Changes)"
 description: "코드베이스 전체에 걸쳐 수행되는 광범위한 코드 수정으로, 작은 독립적 조각으로 분할되어 테스트, 리뷰, 커밋되는 프로세스"
 tags: ["Software Engineering", "Refactoring", "Automation"]
 created: 2026-02-27
@@ -37,8 +37,8 @@ Operation RoseHub: 2017년 Apache Commons 취약점(Mad Gadget) 대응으로 50�
 
 ## 관련 개념
 
-- [Rosie](/knowledge/software-engineering/design-and-evolution/rosie/)
-- [TAP Train](/knowledge/software-engineering/design-and-evolution/tap-train/)
-- [LSC Infrastructure](/knowledge/software-engineering/design-and-evolution/lsc-infrastructure/)
-- [Haunted Graveyards](/knowledge/software-engineering/design-and-evolution/haunted-graveyards/)
-- [Presubmit Check](/knowledge/software-engineering/quality-and-configuration/presubmit-check/)
+- [로지 (Rosie)](/knowledge/software-engineering/design-and-evolution/rosie/)
+- [TAP 트레인 (TAP Train)](/knowledge/software-engineering/design-and-evolution/tap-train/)
+- [LSC 인프라 (LSC Infrastructure)](/knowledge/software-engineering/design-and-evolution/lsc-infrastructure/)
+- [유령 묘지 (Haunted Graveyards)](/knowledge/software-engineering/design-and-evolution/haunted-graveyards/)
+- [프리서밋 검사 (Presubmit Check)](/knowledge/software-engineering/quality-and-configuration/presubmit-check/)

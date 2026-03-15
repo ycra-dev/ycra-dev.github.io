@@ -1,5 +1,5 @@
 ---
-title: "Readability Process (Knowledge Sharing)"
+title: "가독성 프로세스 - 지식 공유 (Readability Process for Knowledge Sharing)"
 description: "프로그래밍 언어 모범 사례를 전파하기 위한 Google의 표준화된 회사 전체 멘토링 프로세스 — 지식 공유의 관점에서"
 tags: ["Software Engineering", "Agile", "Mentoring", "Knowledge Sharing", "Code Review"]
 created: 2026-02-27
@@ -35,7 +35,7 @@ EPR(Engineering Productivity Research) 팀의 연구 결과:
 
 ## 관련 개념
 
-- [Knowledge Sharing Culture](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
-- [Canonical Sources of Information](/knowledge/software-engineering/agile-methods/canonical-sources-of-information/)
-- [Constructive Criticism](/knowledge/software-engineering/agile-methods/constructive-criticism/)
-- [Chesterton's Fence](/knowledge/software-engineering/foundations/chesterton-fence/)
+- [지식 공유 문화 (Knowledge Sharing Culture)](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
+- [정보의 정식 소스 (Canonical Sources of Information)](/knowledge/software-engineering/agile-methods/canonical-sources-of-information/)
+- [건설적 비판 (Constructive Criticism)](/knowledge/software-engineering/agile-methods/constructive-criticism/)
+- [체스터턴의 울타리 (Chesterton's Fence)](/knowledge/software-engineering/foundations/chesterton-fence/)

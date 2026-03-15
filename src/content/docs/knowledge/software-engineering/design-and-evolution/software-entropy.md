@@ -1,5 +1,5 @@
 ---
-title: "Software Entropy"
+title: "소프트웨어 엔트로피 (Software Entropy)"
 description: "소프트웨어가 시간이 지남에 따라 자연스럽게 무질서해지는 경향"
 tags: ["Software Engineering", "Code Quality", "Maintenance"]
 created: 2026-02-27
@@ -57,7 +57,7 @@ def func(a, b, c, d, e, f):  # 세 번째 깨진 창문
 
 ## 관련 개념
 
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
-- [Code Smell](/knowledge/software-engineering/design-and-evolution/code-smell/)
-- [Boy Scout Rule](/knowledge/software-engineering/design-and-evolution/boy-scout-rule/)
-- [Broken Window Theory](/knowledge/software-engineering/foundations/broken-window-theory/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [코드 스멜 (Code Smell)](/knowledge/software-engineering/design-and-evolution/code-smell/)
+- [보이 스카우트 규칙 (Boy Scout Rule)](/knowledge/software-engineering/design-and-evolution/boy-scout-rule/)
+- [깨진 유리창 이론 (Broken Window Theory)](/knowledge/software-engineering/foundations/broken-window-theory/)

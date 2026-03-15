@@ -1,5 +1,5 @@
 ---
-title: "Measuring Engineering Productivity"
+title: "엔지니어링 생산성 측정 (Measuring Engineering Productivity)"
 description: "소프트웨어 엔지니어링 프로세스의 효율성과 효과를 데이터 기반으로 정량화하고 개선하는 체계적 접근법"
 tags: ["Software Engineering", "Project Management", "Metrics", "Productivity"]
 created: 2026-02-27
@@ -33,6 +33,6 @@ Google의 Readability 프로세스 사례: 수백 명의 엔지니어가 다른 
 
 ## 관련 개념
 
-- [Goals-Signals-Metrics Framework](/knowledge/software-engineering/project-management/goals-signals-metrics-framework/)
-- [QUANTS Framework](/knowledge/software-engineering/project-management/quants-framework/)
-- [Triage for Measurement](/knowledge/software-engineering/project-management/triage-for-measurement/)
+- [목표-신호-메트릭 프레임워크 (Goals-Signals-Metrics Framework)](/knowledge/software-engineering/project-management/goals-signals-metrics-framework/)
+- [QUANTS 프레임워크 (QUANTS Framework)](/knowledge/software-engineering/project-management/quants-framework/)
+- [측정을 위한 트리아지 (Triage for Measurement)](/knowledge/software-engineering/project-management/triage-for-measurement/)

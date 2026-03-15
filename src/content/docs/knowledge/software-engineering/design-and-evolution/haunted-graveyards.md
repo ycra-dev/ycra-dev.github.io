@@ -1,5 +1,5 @@
 ---
-title: "Haunted Graveyards"
+title: "유령 묘지 (Haunted Graveyards)"
 description: "너무 오래되고 복잡하여 아무도 감히 변경하지 못하는 시스템이나 코드로, 비즈니스에 중요하면서도 변경 시 예측 불가능한 방식으로 실패할 위험이 있는 동결된 시스템"
 tags: ["Software Engineering", "Technical Debt", "Legacy Systems"]
 created: 2026-02-27
@@ -35,5 +35,5 @@ Google SRE 팀의 격언: "No Haunted Graveyards." 프로덕션 서비스에서 
 
 ## 관련 개념
 
-- [Large-Scale Changes](/knowledge/software-engineering/design-and-evolution/large-scale-changes/)
-- [LSC Infrastructure](/knowledge/software-engineering/design-and-evolution/lsc-infrastructure/)
+- [대규모 코드 변경 (Large-Scale Changes)](/knowledge/software-engineering/design-and-evolution/large-scale-changes/)
+- [LSC 인프라 (LSC Infrastructure)](/knowledge/software-engineering/design-and-evolution/lsc-infrastructure/)

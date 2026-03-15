@@ -1,5 +1,5 @@
 ---
-title: "Pair Programming"
+title: "페어 프로그래밍 (Pair Programming)"
 description: "페어 프로그래밍은 두 명의 프로그래머가 하나의 컴퓨터에서 함께 코드를 작성하는 XP의 실천법으로, 한 명은 코드를 타이핑하고(driver) 다른 한 명은 실시간으로 검토하고 조언한다(navigator)"
 tags: ['Pair Programming', 'Xp', 'Code Review', 'Collaborative Development', 'Agile']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Extreme Programming](/knowledge/software-engineering/extreme-programming/)
-- [Agile Software Development](/knowledge/software-engineering/agile-software-development/)
-- [Refactoring](/knowledge/software-engineering/refactoring/)
+- [익스트림 프로그래밍 (Extreme Programming)](/knowledge/software-engineering/extreme-programming/)
+- [애자일 소프트웨어 개발 (Agile Software Development)](/knowledge/software-engineering/agile-software-development/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/refactoring/)

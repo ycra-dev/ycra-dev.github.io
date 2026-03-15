@@ -1,5 +1,5 @@
 ---
-title: "Rules vs Guidance"
+title: "규칙 vs 가이드 (Rules vs Guidance)"
 description: "규칙은 반드시 따라야 하는 필수적 법칙이고 지침은 상황에 따라 변형할 수 있는 권장 사항이다 — 구글에서 이 구분은 명확하며 스타일 가이드에서 규칙은 강제되고 지침은 안내된다"
 tags: ["Software Engineering", "Quality", "Style Guide", "Governance"]
 created: 2026-02-27
@@ -40,6 +40,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Style Guides and Rules](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
-- [Consistency in Codebase](/knowledge/software-engineering/quality-and-configuration/consistency-in-codebase/)
-- [Automated Tooling for Style](/knowledge/software-engineering/quality-and-configuration/automated-tooling-for-style/)
+- [스타일 가이드와 규칙 (Style Guides and Rules)](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
+- [코드베이스의 일관성 (Consistency in Codebase)](/knowledge/software-engineering/quality-and-configuration/consistency-in-codebase/)
+- [스타일 자동화 도구 (Automated Tooling for Style)](/knowledge/software-engineering/quality-and-configuration/automated-tooling-for-style/)

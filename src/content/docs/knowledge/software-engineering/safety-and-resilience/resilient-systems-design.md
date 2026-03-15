@@ -1,5 +1,5 @@
 ---
-title: "Resilient Systems Design"
+title: "복원 시스템 설계 (Resilient Systems Design)"
 description: "소프트웨어 장애와 사이버 공격에 저항하고 복구할 수 있도록, 핵심 서비스와 자산을 식별하고 인식, 저항, 복구, 복원을 지원하는 시스템 구성요소를 설계하는 과정이다"
 tags: ['Resilient Design', 'Resilience Engineering', 'Recovery Planning', 'Critical Services', 'System Architecture']
 created: 2026-02-16
@@ -20,8 +20,8 @@ Mentcare 시스템의 회복탄력적 아키텍처: (1) 요약 환자 기록을 
 
 ## 관련 개념
 
-- [Resilience](/knowledge/software-engineering/resilience/)
-- [Cybersecurity](/knowledge/software-engineering/cybersecurity/)
-- [Redundancy and Diversity](/knowledge/software-engineering/redundancy-and-diversity/)
-- [Sociotechnical Resilience](/knowledge/software-engineering/sociotechnical-resilience/)
-- [Secure Systems Design](/knowledge/software-engineering/secure-systems-design/)
+- [복원력 (Resilience)](/knowledge/software-engineering/resilience/)
+- [사이버 보안 (Cybersecurity)](/knowledge/software-engineering/cybersecurity/)
+- [중복성과 다양성 (Redundancy and Diversity)](/knowledge/software-engineering/redundancy-and-diversity/)
+- [사회기술적 복원력 (Sociotechnical Resilience)](/knowledge/software-engineering/sociotechnical-resilience/)
+- [보안 시스템 설계 (Secure Systems Design)](/knowledge/software-engineering/secure-systems-design/)

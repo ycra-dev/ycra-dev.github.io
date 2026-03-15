@@ -1,5 +1,5 @@
 ---
-title: "Software Architecture"
+title: "소프트웨어 아키텍처 (Software Architecture)"
 description: "소프트웨어 아키텍처는 시스템의 전체 구조를 정의하는 것으로, 주요 구성요소(컴포넌트), 그들 간의 관계, 그리고 컴포넌트 분배 방식을 포함한다"
 tags: ['Software Architecture', 'System Design', 'Architectural Views', '4plus1 View', 'Component']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Architectural Patterns](/knowledge/software-engineering/architectural-patterns/)
-- [MVC Pattern](/knowledge/software-engineering/mvc-pattern/)
-- [Layered Architecture](/knowledge/software-engineering/layered-architecture/)
-- [Non-functional Requirements](/knowledge/software-engineering/non-functional-requirements/)
+- [아키텍처 패턴 (Architectural Patterns)](/knowledge/software-engineering/architectural-patterns/)
+- [MVC 패턴 (MVC Pattern)](/knowledge/software-engineering/mvc-pattern/)
+- [계층 아키텍처 (Layered Architecture)](/knowledge/software-engineering/layered-architecture/)
+- [비기능적 요구사항 (Non-functional Requirements)](/knowledge/software-engineering/non-functional-requirements/)

@@ -1,5 +1,5 @@
 ---
-title: "Effective False Positive"
+title: "실효적 오탐 (Effective False Positive)"
 description: "개발자가 분석 결과를 본 후 어떠한 긍정적 조치도 취하지 않은 이슈를 의미하는 사용자 인식 기반의 오탐률 측정 방식"
 tags: ["Software Engineering", "Static Analysis"]
 created: 2026-02-27
@@ -35,6 +35,6 @@ Error Prone의 `printf` 경고 메시지를 개선하는 것만으로 버그 리
 
 ## 관련 개념
 
-- [Tricorder](/knowledge/software-engineering/quality-and-configuration/tricorder/)
-- [Error Prone](/knowledge/software-engineering/quality-and-configuration/error-prone/)
-- [Suggested Fixes in Static Analysis](/knowledge/software-engineering/quality-and-configuration/suggested-fixes-in-static-analysis/)
+- [트리코더 (Tricorder)](/knowledge/software-engineering/quality-and-configuration/tricorder/)
+- [에러 프론 (Error Prone)](/knowledge/software-engineering/quality-and-configuration/error-prone/)
+- [정적 분석의 수정 제안 (Suggested Fixes in Static Analysis)](/knowledge/software-engineering/quality-and-configuration/suggested-fixes-in-static-analysis/)

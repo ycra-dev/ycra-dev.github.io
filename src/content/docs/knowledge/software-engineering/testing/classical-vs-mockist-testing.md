@@ -1,5 +1,5 @@
 ---
-title: "Classical vs Mockist Testing"
+title: "고전파 vs 모의파 테스팅 (Classical vs Mockist Testing)"
 description: "Classical testing은 테스트에서 실제 구현체를 우선 사용하는 스타일이고, Mockist testing은 모킹 프레임워크를 우선 사용하는 스타일이다. Google에서는 classical testing을 선호한다"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -58,7 +58,7 @@ Foo realFoo = new Foo(new RealDependencyA(), new RealDependencyB());
 
 ## 관련 개념
 
-- [Test Doubles](/knowledge/software-engineering/testing/test-doubles/)
-- [Faking](/knowledge/software-engineering/testing/faking/)
-- [Mocking Frameworks](/knowledge/software-engineering/testing/mocking-frameworks/)
-- [State Testing vs Interaction Testing](/knowledge/software-engineering/testing/state-testing-vs-interaction-testing/)
+- [테스트 더블 (Test Doubles)](/knowledge/software-engineering/testing/test-doubles/)
+- [페이킹 (Faking)](/knowledge/software-engineering/testing/faking/)
+- [모킹 프레임워크 (Mocking Frameworks)](/knowledge/software-engineering/testing/mocking-frameworks/)
+- [상태 테스팅 vs 상호작용 테스팅 (State Testing vs Interaction Testing)](/knowledge/software-engineering/testing/state-testing-vs-interaction-testing/)

@@ -1,5 +1,5 @@
 ---
-title: "Debugging"
+title: "디버깅 (Debugging)"
 description: "소프트웨어의 결함(버그)을 발견하고, 원인을 분석하며, 수정하는 체계적인 과정"
 tags: ["Software Engineering", "Bug Hunting", "Problem Solving"]
 created: 2026-02-27
@@ -61,7 +61,7 @@ def process_order(order):
 
 ## 관련 개념
 
-- [Defensive Programming](/knowledge/software-engineering/foundations/defensive-programming/)
-- [Heisenbug](/knowledge/software-engineering/foundations/heisenbug/)
-- [Rubber Duck Debugging](/knowledge/software-engineering/foundations/rubber-duck-debugging/)
-- [Root-Cause Analysis](/knowledge/software-engineering/quality-and-configuration/root-cause-analysis/)
+- [방어적 프로그래밍 (Defensive Programming)](/knowledge/software-engineering/foundations/defensive-programming/)
+- [하이젠버그 (Heisenbug)](/knowledge/software-engineering/foundations/heisenbug/)
+- [고무 오리 디버깅 (Rubber Duck Debugging)](/knowledge/software-engineering/foundations/rubber-duck-debugging/)
+- [근본 원인 분석 (Root-Cause Analysis)](/knowledge/software-engineering/quality-and-configuration/root-cause-analysis/)

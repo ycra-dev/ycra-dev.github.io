@@ -1,5 +1,5 @@
 ---
-title: "Feature Toggle"
+title: "기능 토글 (Feature Toggle)"
 description: "코드 배포와 기능 활성화를 분리하는 기법으로, 런타임 설정으로 기능의 활성/비활성을 제어하여 장기 브랜치 없이 미완성 기능을 main에 통합할 수 있게 한다"
 tags: ["SoftwareEngineering", "ReleaseManagement", "Deployment", "Configuration"]
 created: 2026-02-27
@@ -65,5 +65,5 @@ def is_feature_enabled(feature: str) -> bool:
 
 ## 관련 개념
 
-- [Continuous Integration](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
-- [Version Control](/knowledge/software-engineering/quality-and-configuration/version-control/)
+- [지속적 통합 (Continuous Integration)](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
+- [버전 관리 (Version Control)](/knowledge/software-engineering/quality-and-configuration/version-control/)

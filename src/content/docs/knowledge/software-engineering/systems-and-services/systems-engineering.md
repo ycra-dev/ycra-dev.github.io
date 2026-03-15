@@ -1,5 +1,5 @@
 ---
-title: "Systems Engineering"
+title: "시스템 공학 (Systems Engineering)"
 description: "시스템 엔지니어링은 하드웨어, 소프트웨어, 인간 요소의 특성을 고려하여 전체 시스템을 설계하는 활동으로, 조달, 명세, 개발, 배포, 운영, 유지보수를 포함한다"
 tags: ['Systems Engineering', 'System Lifecycle', 'Procurement', 'Integration', 'Requirements', 'Deployment']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Sociotechnical Systems](/knowledge/software-engineering/sociotechnical-systems/)
-- [Emergent Properties](/knowledge/software-engineering/emergent-properties/)
-- [System Procurement](/knowledge/software-engineering/system-procurement/)
-- [Systems of Systems](/knowledge/software-engineering/systems-of-systems/)
+- [사회기술 시스템 (Sociotechnical Systems)](/knowledge/software-engineering/sociotechnical-systems/)
+- [창발적 속성 (Emergent Properties)](/knowledge/software-engineering/emergent-properties/)
+- [시스템 조달 (System Procurement)](/knowledge/software-engineering/system-procurement/)
+- [시스템 오브 시스템즈 (Systems of Systems)](/knowledge/software-engineering/systems-of-systems/)

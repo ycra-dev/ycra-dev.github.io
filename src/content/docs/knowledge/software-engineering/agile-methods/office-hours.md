@@ -1,5 +1,5 @@
 ---
-title: "Office Hours"
+title: "오피스 아워 (Office Hours)"
 description: "전문가가 주기적으로 시간을 정해놓고 누구든 질문할 수 있도록 하는 지식 공유 메커니즘 — 1:1 조언의 확장 가능한 형태"
 tags: ["Software Engineering", "Agile", "Knowledge Sharing", "Mentoring"]
 created: 2026-02-27
@@ -31,6 +31,6 @@ Google에서 엔지니어가 고정된 시간에 자리에 앉아 Bigtable이나
 
 ## 관련 개념
 
-- [Psychological Safety](/knowledge/software-engineering/agile-methods/psychological-safety/)
-- [Knowledge Sharing Culture](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
-- [Canonical Sources of Information](/knowledge/software-engineering/agile-methods/canonical-sources-of-information/)
+- [심리적 안전감 (Psychological Safety)](/knowledge/software-engineering/agile-methods/psychological-safety/)
+- [지식 공유 문화 (Knowledge Sharing Culture)](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
+- [정보의 정식 소스 (Canonical Sources of Information)](/knowledge/software-engineering/agile-methods/canonical-sources-of-information/)

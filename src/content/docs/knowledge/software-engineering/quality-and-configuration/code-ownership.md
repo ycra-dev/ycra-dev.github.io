@@ -1,5 +1,5 @@
 ---
-title: "Code Ownership"
+title: "코드 소유권 (Code Ownership)"
 description: "코드베이스의 특정 부분에 대한 책임과 권한을 정의하는 거버넌스 모델 — 구글에서는 디렉토리별 OWNERS 파일을 통해 소유자를 명시하며, 소유자만이 해당 코드에 대한 변경을 승인할 수 있다"
 tags: ["Software Engineering", "Quality", "Code Ownership", "Governance", "Collaboration"]
 created: 2026-02-27
@@ -38,7 +38,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Code Review](/knowledge/software-engineering/quality-and-configuration/code-review/)
-- [LGTM and Approval Types](/knowledge/software-engineering/quality-and-configuration/lgtm-and-approval-types/)
-- [Bus Factor](/knowledge/software-engineering/agile-methods/bus-factor/)
-- [Single Point of Failure in Teams](/knowledge/software-engineering/project-management/single-point-of-failure-in-teams/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/quality-and-configuration/code-review/)
+- [LGTM과 승인 유형 (LGTM and Approval Types)](/knowledge/software-engineering/quality-and-configuration/lgtm-and-approval-types/)
+- [버스 팩터 (Bus Factor)](/knowledge/software-engineering/agile-methods/bus-factor/)
+- [팀의 단일 장애점 (Single Point of Failure in Teams)](/knowledge/software-engineering/project-management/single-point-of-failure-in-teams/)

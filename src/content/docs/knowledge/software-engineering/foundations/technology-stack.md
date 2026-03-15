@@ -51,6 +51,6 @@ LAMP Stack (전통적 웹 개발):
 
 ## 관련 개념
 
-- [Development Platform](/knowledge/software-engineering/foundations/development-platform/)
-- [Back-End Development](/knowledge/software-engineering/foundations/back-end-development/)
-- [Full-Stack Developer](/knowledge/software-engineering/foundations/full-stack-developer/)
+- [개발 플랫폼 (Development Platform)](/knowledge/software-engineering/foundations/development-platform/)
+- [백엔드 개발 (Back-End Development)](/knowledge/software-engineering/foundations/back-end-development/)
+- [풀스택 개발자 (Full-Stack Developer)](/knowledge/software-engineering/foundations/full-stack-developer/)

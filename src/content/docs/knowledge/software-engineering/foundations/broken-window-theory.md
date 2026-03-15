@@ -1,5 +1,5 @@
 ---
-title: "Broken Window Theory"
+title: "깨진 유리창 이론 (Broken Window Theory)"
 description: "환경이 방치되면 더 많은 방치와 파괴를 부른다는 범죄학 이론을 소프트웨어에 적용한 것"
 tags: ["Software Engineering", "Code Quality", "Psychology"]
 created: 2026-02-27
@@ -52,7 +52,7 @@ def func(a, b, c, d, e, f):  # 세 번째 깨진 창문
 
 ## 관련 개념
 
-- [Boy Scout Rule](/knowledge/software-engineering/design-and-evolution/boy-scout-rule/)
-- [Code Smell](/knowledge/software-engineering/design-and-evolution/code-smell/)
-- [Software Entropy](/knowledge/software-engineering/design-and-evolution/software-entropy/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [보이 스카우트 규칙 (Boy Scout Rule)](/knowledge/software-engineering/design-and-evolution/boy-scout-rule/)
+- [코드 스멜 (Code Smell)](/knowledge/software-engineering/design-and-evolution/code-smell/)
+- [소프트웨어 엔트로피 (Software Entropy)](/knowledge/software-engineering/design-and-evolution/software-entropy/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)

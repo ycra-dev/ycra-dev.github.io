@@ -1,5 +1,5 @@
 ---
-title: "Timeboxing"
+title: "타임박싱 (Timeboxing)"
 description: "특정 활동에 고정된 시간 제한을 미리 설정하여 수확 체감을 방지하는 시간 관리 기법"
 tags: ["Software Engineering", "Productivity", "Time Management", "Agile"]
 created: 2026-02-27
@@ -57,6 +57,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Four Stages of Competence](/knowledge/software-engineering/foundations/four-stages-of-competence/)
-- [Design Spike](/knowledge/software-engineering/project-management/design-spike/)
-- [Task Decomposition](/knowledge/software-engineering/project-management/task-decomposition/)
+- [역량의 4단계 (Four Stages of Competence)](/knowledge/software-engineering/foundations/four-stages-of-competence/)
+- [설계 스파이크 (Design Spike)](/knowledge/software-engineering/project-management/design-spike/)
+- [작업 분해 (Task Decomposition)](/knowledge/software-engineering/project-management/task-decomposition/)

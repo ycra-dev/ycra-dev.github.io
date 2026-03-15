@@ -1,5 +1,5 @@
 ---
-title: "Change Management"
+title: "변경 관리 (Change Management)"
 description: "변경 관리는 제안된 변경 사항의 비용과 이점을 분석하고, 비용 효과적인 변경을 승인하며, 시스템 내 어떤 컴포넌트가 변경되었는지 추적하는 프로세스이다"
 tags: ['Change Management', 'Change Control', 'Change Request', 'Ccb', 'Traceability']
 created: 2026-02-16
@@ -30,6 +30,6 @@ CCB decision: Accept - Release 1.2에서 구현
 
 ## 관련 개념
 
-- [Version Management](/knowledge/software-engineering/version-management/)
-- [Release Management](/knowledge/software-engineering/release-management/)
-- [System Building](/knowledge/software-engineering/system-building/)
+- [버전 관리 (Version Management)](/knowledge/software-engineering/version-management/)
+- [릴리스 관리 (Release Management)](/knowledge/software-engineering/release-management/)
+- [시스템 빌드 (System Building)](/knowledge/software-engineering/system-building/)

@@ -1,5 +1,5 @@
 ---
-title: "Build Dependency Management"
+title: "빌드 의존성 관리 (Build Dependency Management)"
 description: "빌드 시스템에서 내부 모듈 간 의존성과 외부 서드파티 라이브러리에 대한 의존성을 선언하고 해결하는 프로세스"
 tags: ["Software Engineering", "Build Systems", "Dependencies"]
 created: 2026-02-27
@@ -32,6 +32,6 @@ Bazel의 `BUILD` 파일에서:
 
 ## 관련 개념
 
-- [Bazel](/knowledge/software-engineering/quality-and-configuration/bazel/)
-- [Dependency Management](/knowledge/software-engineering/quality-and-configuration/dependency-management/)
-- [Diamond Dependency Problem](/knowledge/software-engineering/quality-and-configuration/diamond-dependency-problem/)
+- [바젤 (Bazel)](/knowledge/software-engineering/quality-and-configuration/bazel/)
+- [의존성 관리 (Dependency Management)](/knowledge/software-engineering/quality-and-configuration/dependency-management/)
+- [다이아몬드 의존성 문제 (Diamond Dependency Problem)](/knowledge/software-engineering/quality-and-configuration/diamond-dependency-problem/)

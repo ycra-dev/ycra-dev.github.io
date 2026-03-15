@@ -1,5 +1,5 @@
 ---
-title: "Software Evolution"
+title: "소프트웨어 진화 (Software Evolution)"
 description: "소프트웨어 진화는 운영 중인 소프트웨어 시스템이 변화하는 비즈니스 요구, 환경 변화, 사용자 피드백에 대응하여 지속적으로 변경되고 적응하는 과정이다"
 tags: ['Software Evolution', 'Software Change', 'Lehman Laws', 'Spiral Model', 'System Lifecycle']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Maintenance](/knowledge/software-engineering/software-maintenance/)
-- [Legacy Systems](/knowledge/software-engineering/legacy-systems/)
-- [Software Reengineering](/knowledge/software-engineering/software-reengineering/)
-- [Refactoring](/knowledge/software-engineering/refactoring/)
+- [소프트웨어 유지보수 (Software Maintenance)](/knowledge/software-engineering/software-maintenance/)
+- [레거시 시스템 (Legacy Systems)](/knowledge/software-engineering/legacy-systems/)
+- [소프트웨어 재공학 (Software Reengineering)](/knowledge/software-engineering/software-reengineering/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/refactoring/)

@@ -1,5 +1,5 @@
 ---
-title: "Software Engineering vs Programming"
+title: "소프트웨어 공학 vs 프로그래밍 (Software Engineering vs Programming)"
 description: "소프트웨어 엔지니어링은 시간에 대해 적분된 프로그래밍으로, 코드를 구축하고 유지보수하기 위한 모든 도구와 프로세스를 포괄한다"
 tags: ["Software Engineering", "Foundations", "Sustainability"]
 created: 2026-02-27
@@ -32,6 +32,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Programming Integrated Over Time](/knowledge/software-engineering/foundations/programming-integrated-over-time/)
-- [Sustainability](/knowledge/software-engineering/foundations/sustainability/)
-- [Trade-offs and Costs](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
+- [시간에 걸친 프로그래밍 통합 (Programming Integrated Over Time)](/knowledge/software-engineering/foundations/programming-integrated-over-time/)
+- [지속 가능성 (Sustainability)](/knowledge/software-engineering/foundations/sustainability/)
+- [트레이드오프와 비용 (Trade-offs and Costs)](/knowledge/software-engineering/foundations/trade-offs-and-costs/)

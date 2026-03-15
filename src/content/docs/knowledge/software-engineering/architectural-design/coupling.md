@@ -1,5 +1,5 @@
 ---
-title: "Coupling"
+title: "결합도 (Coupling)"
 description: "소프트웨어 모듈 간의 상호 의존성 정도를 나타내는 척도"
 tags: ["Software Engineering", "Architecture", "Design Principle"]
 created: 2026-02-27
@@ -75,7 +75,7 @@ def create_order(order):
 
 ## 관련 개념
 
-- [Cohesion](/knowledge/software-engineering/architectural-design/cohesion/)
-- [Software Complexity](/knowledge/software-engineering/architectural-design/software-complexity/)
-- [Dependency Injection](/knowledge/software-engineering/design-and-evolution/dependency-injection/)
-- [Circular Dependency](/knowledge/software-engineering/quality-and-configuration/circular-dependency/)
+- [응집도 (Cohesion)](/knowledge/software-engineering/architectural-design/cohesion/)
+- [소프트웨어 복잡도 (Software Complexity)](/knowledge/software-engineering/architectural-design/software-complexity/)
+- [의존성 주입 (Dependency Injection)](/knowledge/software-engineering/design-and-evolution/dependency-injection/)
+- [순환 의존성 (Circular Dependency)](/knowledge/software-engineering/quality-and-configuration/circular-dependency/)

@@ -1,5 +1,5 @@
 ---
-title: "Hiding Considered Harmful"
+title: "은닉은 해롭다 (Hiding Considered Harmful)"
 description: "혼자 숨어서 일하는 것은 불필요한 실패의 위험을 높이고 성장의 잠재력을 저해한다 — 일찍 공유하고 빠른 피드백 루프를 확보하라"
 tags: ["Software Engineering", "Agile", "Collaboration", "Feedback"]
 created: 2026-02-27
@@ -32,7 +32,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Genius Myth](/knowledge/software-engineering/agile-methods/genius-myth/)
-- [Bus Factor](/knowledge/software-engineering/agile-methods/bus-factor/)
-- [Humility, Respect, Trust](/knowledge/software-engineering/agile-methods/humility-respect-trust/)
-- [Shifting Left](/knowledge/software-engineering/foundations/shifting-left/)
+- [천재 신화 (Genius Myth)](/knowledge/software-engineering/agile-methods/genius-myth/)
+- [버스 팩터 (Bus Factor)](/knowledge/software-engineering/agile-methods/bus-factor/)
+- [겸손, 존중, 신뢰 (Humility, Respect, Trust)](/knowledge/software-engineering/agile-methods/humility-respect-trust/)
+- [시프트 레프트 (Shifting Left)](/knowledge/software-engineering/foundations/shifting-left/)

@@ -1,5 +1,5 @@
 ---
-title: "Web API"
+title: "웹 API (Web API)"
 description: "Web API는 프로그램 간에 데이터를 주고받고 기능을 호출할 수 있도록 정의된 인터페이스로, 특히 웹에서 클라이언트와 서버 간 통신에 사용된다."
 tags: ["Software Engineering", "API", "Web Development", "REST", "HTTP"]
 created: 2026-02-27
@@ -47,7 +47,7 @@ fetch('https://api.example.com/orders', {
 
 ## 관련 개념
 
-- [Single Page Application](/knowledge/software-engineering/systems-and-services/single-page-application/)
-- [Back-End Development](/knowledge/software-engineering/foundations/back-end-development/)
-- [HTTP Protocol](/knowledge/software-engineering/systems-and-services/http-protocol/)
-- [RESTful Service](/knowledge/software-engineering/systems-and-services/restful-service/)
+- [단일 페이지 애플리케이션 (Single Page Application)](/knowledge/software-engineering/systems-and-services/single-page-application/)
+- [백엔드 개발 (Back-End Development)](/knowledge/software-engineering/foundations/back-end-development/)
+- [HTTP 프로토콜 (HTTP Protocol)](/knowledge/software-engineering/systems-and-services/http-protocol/)
+- [RESTful 서비스 (RESTful Service)](/knowledge/software-engineering/systems-and-services/restful-service/)

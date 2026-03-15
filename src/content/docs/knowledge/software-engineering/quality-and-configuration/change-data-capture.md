@@ -1,5 +1,5 @@
 ---
-title: "Change Data Capture"
+title: "변경 데이터 캡처 (Change Data Capture)"
 description: "데이터베이스의 변경 연산을 이벤트 메시지로 변환하여 다운스트림 소비자에게 전달하는 아키텍처 패턴"
 tags: ["Software Engineering", "Data Engineering", "Event-Driven", "Database"]
 created: 2026-02-27
@@ -79,6 +79,6 @@ Debezium으로 MySQL CDC:
 
 ## 관련 개념
 
-- [Schema Migration](/knowledge/software-engineering/quality-and-configuration/schema-migration/)
-- [Backward Compatibility](/knowledge/software-engineering/design-and-evolution/backward-compatibility/)
-- [Distributed Tracing](/knowledge/software-engineering/quality-and-configuration/distributed-tracing/)
+- [스키마 마이그레이션 (Schema Migration)](/knowledge/software-engineering/quality-and-configuration/schema-migration/)
+- [하위 호환성 (Backward Compatibility)](/knowledge/software-engineering/design-and-evolution/backward-compatibility/)
+- [분산 추적 (Distributed Tracing)](/knowledge/software-engineering/quality-and-configuration/distributed-tracing/)

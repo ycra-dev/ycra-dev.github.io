@@ -1,5 +1,5 @@
 ---
-title: "Semantic Versioning"
+title: "시맨틱 버전 관리 (Semantic Versioning)"
 description: "MAJOR.MINOR.PATCH 형식으로 소프트웨어 버전을 부여하는 표준 체계"
 tags: ["Software Engineering", "Versioning", "Dependency Management"]
 created: 2026-02-27
@@ -64,6 +64,6 @@ django~=4.1             # 4.1.x만 허용 (4.2는 안 됨)
 
 ## 관련 개념
 
-- [Version Pinning](/knowledge/software-engineering/quality-and-configuration/version-pinning/)
-- [Dependency Hell](/knowledge/software-engineering/quality-and-configuration/dependency-hell/)
-- [Backward Compatibility](/knowledge/software-engineering/design-and-evolution/backward-compatibility/)
+- [버전 고정 (Version Pinning)](/knowledge/software-engineering/quality-and-configuration/version-pinning/)
+- [의존성 지옥 (Dependency Hell)](/knowledge/software-engineering/quality-and-configuration/dependency-hell/)
+- [하위 호환성 (Backward Compatibility)](/knowledge/software-engineering/design-and-evolution/backward-compatibility/)

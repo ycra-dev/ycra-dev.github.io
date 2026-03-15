@@ -1,5 +1,5 @@
 ---
-title: "Technical Debt"
+title: "기술 부채 (Technical Debt)"
 description: "빠른 구현을 위해 이상적이지 않은 설계나 코드를 선택했을 때 미래에 발생하는 추가적인 개발 비용"
 tags: ["Software Engineering", "Code Quality", "Maintenance"]
 created: 2026-02-27
@@ -67,7 +67,7 @@ def get_user_data(user_id: int) -> Optional[User]:
 
 ## 관련 개념
 
-- [Legacy Systems](/knowledge/software-engineering/design-and-evolution/legacy-systems/)
-- [Refactoring](/knowledge/software-engineering/design-and-evolution/refactoring/)
-- [Software Entropy](/knowledge/software-engineering/design-and-evolution/software-entropy/)
-- [Code Smell](/knowledge/software-engineering/design-and-evolution/code-smell/)
+- [레거시 시스템 (Legacy Systems)](/knowledge/software-engineering/design-and-evolution/legacy-systems/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/design-and-evolution/refactoring/)
+- [소프트웨어 엔트로피 (Software Entropy)](/knowledge/software-engineering/design-and-evolution/software-entropy/)
+- [코드 스멜 (Code Smell)](/knowledge/software-engineering/design-and-evolution/code-smell/)

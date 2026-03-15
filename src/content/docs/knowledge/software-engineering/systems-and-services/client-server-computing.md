@@ -1,5 +1,5 @@
 ---
-title: "Client-Server Computing"
+title: "클라이언트-서버 컴퓨팅 (Client-Server Computing)"
 description: "클라이언트-서버 컴퓨팅은 사용자가 로컬 컴퓨터(클라이언트)의 프로그램을 통해 원격 컴퓨터(서버)가 제공하는 서비스에 접근하는 분산 시스템 모델이다"
 tags: ['Client Server', 'Thin Client', 'Fat Client', 'Multi Tier', 'Distributed Computing', 'Architecture']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/software-engineering/distributed-system/)
-- [Middleware](/knowledge/software-engineering/middleware/)
-- [Software as a Service](/knowledge/software-engineering/software-as-a-service/)
-- [Service-Oriented Architecture](/knowledge/software-engineering/service-oriented-architecture/)
+- [분산 시스템 (Distributed System)](/knowledge/software-engineering/distributed-system/)
+- [미들웨어 (Middleware)](/knowledge/software-engineering/middleware/)
+- [서비스형 소프트웨어 (Software as a Service)](/knowledge/software-engineering/software-as-a-service/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/software-engineering/service-oriented-architecture/)

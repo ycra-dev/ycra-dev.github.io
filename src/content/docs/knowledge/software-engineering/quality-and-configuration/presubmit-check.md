@@ -1,5 +1,5 @@
 ---
-title: "Presubmit Check (Static Analysis)"
+title: "프리서밋 검사 - 정적 분석 (Presubmit Check in Static Analysis)"
 description: "코드 변경이 커밋되기 전에 자동으로 실행되는 검사로, 코드 변경이 저장소에 반영되는 것을 차단할 수 있는 게이트 역할"
 tags: ["Software Engineering", "Static Analysis", "CI/CD"]
 created: 2026-02-27
@@ -37,7 +37,7 @@ Google의 presubmit 실행 시점:
 
 ## 관련 개념
 
-- [Tricorder](/knowledge/software-engineering/quality-and-configuration/tricorder/)
-- [Error Prone](/knowledge/software-engineering/quality-and-configuration/error-prone/)
-- [Presubmit Checks](/knowledge/software-engineering/quality-and-configuration/presubmit-checks/)
-- [Large-Scale Changes](/knowledge/software-engineering/design-and-evolution/large-scale-changes/)
+- [트리코더 (Tricorder)](/knowledge/software-engineering/quality-and-configuration/tricorder/)
+- [에러 프론 (Error Prone)](/knowledge/software-engineering/quality-and-configuration/error-prone/)
+- [프리서밋 검사 (Presubmit Checks)](/knowledge/software-engineering/quality-and-configuration/presubmit-checks/)
+- [대규모 코드 변경 (Large-Scale Changes)](/knowledge/software-engineering/design-and-evolution/large-scale-changes/)

@@ -1,5 +1,5 @@
 ---
-title: "Domain-Driven Design"
+title: "도메인 주도 설계 (Domain-Driven Design)"
 description: "비즈니스 도메인에 맞춰 소프트웨어 컴포넌트를 구성하는 아키텍처 접근법"
 tags: ["Software Engineering", "Architecture", "Design Pattern"]
 created: 2026-02-27
@@ -88,8 +88,8 @@ class OrderService:
 
 ## 관련 개념
 
-- [Software Complexity](/knowledge/software-engineering/architectural-design/software-complexity/)
-- [Cohesion](/knowledge/software-engineering/architectural-design/cohesion/)
-- [Coupling](/knowledge/software-engineering/architectural-design/coupling/)
-- [Conway's Law](/knowledge/software-engineering/architectural-design/conways-law/)
-- [Schema Migration](/knowledge/software-engineering/quality-and-configuration/schema-migration/)
+- [소프트웨어 복잡도 (Software Complexity)](/knowledge/software-engineering/architectural-design/software-complexity/)
+- [응집도 (Cohesion)](/knowledge/software-engineering/architectural-design/cohesion/)
+- [결합도 (Coupling)](/knowledge/software-engineering/architectural-design/coupling/)
+- [콘웨이의 법칙 (Conway's Law)](/knowledge/software-engineering/architectural-design/conways-law/)
+- [스키마 마이그레이션 (Schema Migration)](/knowledge/software-engineering/quality-and-configuration/schema-migration/)

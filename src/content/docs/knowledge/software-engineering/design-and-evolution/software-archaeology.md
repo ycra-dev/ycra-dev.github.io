@@ -1,5 +1,5 @@
 ---
-title: "Software Archaeology"
+title: "소프트웨어 고고학 (Software Archaeology)"
 description: "기존 코드베이스의 역사와 구조를 조사하고 이해하는 체계적인 탐색 활동"
 tags: ["Software Engineering", "Maintenance", "Legacy Code"]
 created: 2026-02-27
@@ -46,7 +46,7 @@ git log -S "def process_event" --oneline
 
 ## 관련 개념
 
-- [Version Control](/knowledge/software-engineering/quality-and-configuration/version-management/)
-- [Legacy Systems](/knowledge/software-engineering/design-and-evolution/legacy-systems/)
-- [Code Readability](/knowledge/software-engineering/design-and-evolution/code-readability/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [버전 관리 (Version Control)](/knowledge/software-engineering/quality-and-configuration/version-management/)
+- [레거시 시스템 (Legacy Systems)](/knowledge/software-engineering/design-and-evolution/legacy-systems/)
+- [코드 가독성 (Code Readability)](/knowledge/software-engineering/design-and-evolution/code-readability/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)

@@ -1,5 +1,5 @@
 ---
-title: "Dependency Hell"
+title: "의존성 지옥 (Dependency Hell)"
 description: "동일 라이브러리의 충돌 버전으로 빌드 실패나 런타임 오류가 발생하는 상황"
 tags: ["Software Engineering", "Dependency Management", "Troubleshooting"]
 created: 2026-02-27
@@ -60,8 +60,8 @@ npm audit
 
 ## 관련 개념
 
-- [Diamond Dependency](/knowledge/software-engineering/quality-and-configuration/diamond-dependency/)
-- [Circular Dependency](/knowledge/software-engineering/quality-and-configuration/circular-dependency/)
-- [Transitive Dependency](/knowledge/software-engineering/quality-and-configuration/transitive-dependency/)
-- [Version Pinning](/knowledge/software-engineering/quality-and-configuration/version-pinning/)
-- [Semantic Versioning](/knowledge/software-engineering/quality-and-configuration/semantic-versioning/)
+- [다이아몬드 의존성 (Diamond Dependency)](/knowledge/software-engineering/quality-and-configuration/diamond-dependency/)
+- [순환 의존성 (Circular Dependency)](/knowledge/software-engineering/quality-and-configuration/circular-dependency/)
+- [이행적 의존성 (Transitive Dependency)](/knowledge/software-engineering/quality-and-configuration/transitive-dependency/)
+- [버전 고정 (Version Pinning)](/knowledge/software-engineering/quality-and-configuration/version-pinning/)
+- [시맨틱 버전 관리 (Semantic Versioning)](/knowledge/software-engineering/quality-and-configuration/semantic-versioning/)

@@ -1,5 +1,5 @@
 ---
-title: "Model Checking"
+title: "모델 검사 (Model Checking)"
 description: "시스템의 형식적 상태 모델을 생성하고 특수 소프트웨어 도구를 사용하여 그 모델의 정확성을 전수 검사하는 형식적 분석 접근법이다"
 tags: ['Model Checking', 'Formal Verification', 'State Model', 'Temporal Logic', 'Exhaustive Analysis']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Formal Methods](/knowledge/software-engineering/formal-methods/)
-- [Static Analysis](/knowledge/software-engineering/static-analysis/)
-- [Safety-Critical Systems](/knowledge/software-engineering/safety-critical-systems/)
-- [Safety Case](/knowledge/software-engineering/safety-case/)
+- [정형 기법 (Formal Methods)](/knowledge/software-engineering/formal-methods/)
+- [정적 분석 (Static Analysis)](/knowledge/software-engineering/static-analysis/)
+- [안전 필수 시스템 (Safety-Critical Systems)](/knowledge/software-engineering/safety-critical-systems/)
+- [안전 사례 (Safety Case)](/knowledge/software-engineering/safety-case/)

@@ -1,5 +1,5 @@
 ---
-title: "Redundancy and Diversity"
+title: "중복성과 다양성 (Redundancy and Diversity)"
 description: "이중화(redundancy)는 시스템 일부가 실패할 때 사용할 수 있는 여분의 용량을 포함하는 것이고, 다양성(diversity)은 이중화된 구성요소가 서로 다른 유형으로 구성되어 동일한 방식으로 실패하지 않도록 하는 것이다"
 tags: ['Redundancy', 'Diversity', 'Fault Tolerance', 'Dependability', 'Backup', 'Replication']
 created: 2026-02-16
@@ -20,9 +20,9 @@ sidebar:
 
 ## 관련 개념
 
-- [Dependability](/knowledge/software-engineering/dependability/)
-- [Fault Tolerance](/knowledge/software-engineering/fault-tolerance/)
-- [N-Version Programming](/knowledge/software-engineering/n-version-programming/)
-- [Self-Monitoring Architecture](/knowledge/software-engineering/self-monitoring-architecture/)
-- [Defense in Depth](/knowledge/software-engineering/defense-in-depth/)
-- [Resilient Systems Design](/knowledge/software-engineering/resilient-systems-design/)
+- [신뢰성 (Dependability)](/knowledge/software-engineering/dependability/)
+- [장애 허용 (Fault Tolerance)](/knowledge/software-engineering/fault-tolerance/)
+- [N-버전 프로그래밍 (N-Version Programming)](/knowledge/software-engineering/n-version-programming/)
+- [자가 모니터링 아키텍처 (Self-Monitoring Architecture)](/knowledge/software-engineering/self-monitoring-architecture/)
+- [심층 방어 (Defense in Depth)](/knowledge/software-engineering/defense-in-depth/)
+- [복원 시스템 설계 (Resilient Systems Design)](/knowledge/software-engineering/resilient-systems-design/)

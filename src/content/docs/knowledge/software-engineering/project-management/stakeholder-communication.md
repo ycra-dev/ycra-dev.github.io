@@ -44,6 +44,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Agile Development](/knowledge/software-engineering/agile-methods/agile-development/)
+- [애자일 개발 (Agile Development)](/knowledge/software-engineering/agile-methods/agile-development/)
 - [Tech Lead](/knowledge/career/professional-development/tech-lead/)
 - [Software Architect](/knowledge/career/professional-development/software-architect/)

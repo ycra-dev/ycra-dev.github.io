@@ -1,5 +1,5 @@
 ---
-title: "Emergent Properties"
+title: "창발적 속성 (Emergent Properties)"
 description: "창발적 속성은 시스템의 개별 부분이 아닌 시스템 전체의 특성으로, 컴포넌트가 통합된 후에야 나타나는 속성이다"
 tags: ['Emergent Properties', 'System Properties', 'Reliability', 'Safety', 'Security', 'Failure Propagation']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Sociotechnical Systems](/knowledge/software-engineering/sociotechnical-systems/)
-- [Systems Engineering](/knowledge/software-engineering/systems-engineering/)
-- [Systems of Systems](/knowledge/software-engineering/systems-of-systems/)
-- [Reductionism](/knowledge/software-engineering/reductionism/)
+- [사회기술 시스템 (Sociotechnical Systems)](/knowledge/software-engineering/sociotechnical-systems/)
+- [시스템 공학 (Systems Engineering)](/knowledge/software-engineering/systems-engineering/)
+- [시스템 오브 시스템즈 (Systems of Systems)](/knowledge/software-engineering/systems-of-systems/)
+- [환원주의 (Reductionism)](/knowledge/software-engineering/reductionism/)

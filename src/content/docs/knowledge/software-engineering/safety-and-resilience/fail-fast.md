@@ -1,5 +1,5 @@
 ---
-title: "Fail Fast"
+title: "빠른 실패 (Fail Fast)"
 description: "문제 발생 시 즉시 그리고 눈에 띄게 실패하도록 소프트웨어를 설계하여, 버그의 근본 원인을 빠르게 찾아 수정할 수 있게 하는 기법"
 tags: ["SoftwareEngineering", "Reliability", "ErrorHandling", "EffectiveEngineer"]
 created: 2026-02-27
@@ -73,6 +73,6 @@ def transfer_money(from_account, to_account, amount):
 
 ## 관련 개념
 
-- [Operational Simplicity](/knowledge/software-engineering/safety-and-resilience/operational-simplicity/)
-- [Chaos Engineering](/knowledge/software-engineering/safety-and-resilience/chaos-engineering/)
-- [Automation](/knowledge/software-engineering/foundations/automation/)
+- [운영 단순성 (Operational Simplicity)](/knowledge/software-engineering/safety-and-resilience/operational-simplicity/)
+- [카오스 엔지니어링 (Chaos Engineering)](/knowledge/software-engineering/safety-and-resilience/chaos-engineering/)
+- [자동화 (Automation)](/knowledge/software-engineering/foundations/automation/)

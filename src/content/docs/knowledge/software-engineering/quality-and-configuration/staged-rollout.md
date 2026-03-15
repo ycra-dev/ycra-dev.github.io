@@ -1,5 +1,5 @@
 ---
-title: "Staged Rollout"
+title: "단계적 롤아웃 (Staged Rollout)"
 description: "변경을 전체 사용자에게 한 번에 배포하지 않고 점진적으로 증가하는 비율의 사용자에게 배포하여 문제를 빠르게 수정할 수 있도록 하는 배포 전략"
 tags: ["Software Engineering", "CI/CD", "Deployment"]
 created: 2026-02-27
@@ -37,6 +37,6 @@ Android 클라이언트 배포 시 Google 앱의 전략:
 
 ## 관련 개념
 
-- [A/B Testing Deployments](/knowledge/software-engineering/quality-and-configuration/a-b-testing-deployments/)
-- [Release Train](/knowledge/software-engineering/quality-and-configuration/release-train/)
-- [Faster Is Safer](/knowledge/software-engineering/quality-and-configuration/faster-is-safer/)
+- [A/B 테스팅 배포 (A/B Testing Deployments)](/knowledge/software-engineering/quality-and-configuration/a-b-testing-deployments/)
+- [릴리스 트레인 (Release Train)](/knowledge/software-engineering/quality-and-configuration/release-train/)
+- [빠를수록 안전하다 (Faster Is Safer)](/knowledge/software-engineering/quality-and-configuration/faster-is-safer/)

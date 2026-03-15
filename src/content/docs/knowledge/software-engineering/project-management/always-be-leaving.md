@@ -1,5 +1,5 @@
 ---
-title: "Always Be Leaving"
+title: "항상 떠날 준비를 하라 (Always Be Leaving)"
 description: "리더가 자신이 없어도 조직이 스스로 문제를 해결할 수 있도록 만드는 것이 핵심 임무 — 리더가 SPOF가 되어서는 안 된다"
 tags: ["Software Engineering", "Project Management", "Leadership", "Delegation"]
 created: 2026-02-27
@@ -32,7 +32,7 @@ Always Be Leaving은 리더가 자신이 없어도 조직이 스스로 문제를
 
 ## 관련 개념
 
-- [Always Be Deciding](/knowledge/software-engineering/project-management/always-be-deciding/)
-- [Always Be Scaling](/knowledge/software-engineering/project-management/always-be-scaling/)
-- [Bus Factor](/knowledge/software-engineering/agile-methods/bus-factor/)
-- [Servant Leadership](/knowledge/software-engineering/agile-methods/servant-leadership/)
+- [항상 결정하라 (Always Be Deciding)](/knowledge/software-engineering/project-management/always-be-deciding/)
+- [항상 확장하라 (Always Be Scaling)](/knowledge/software-engineering/project-management/always-be-scaling/)
+- [버스 팩터 (Bus Factor)](/knowledge/software-engineering/agile-methods/bus-factor/)
+- [서번트 리더십 (Servant Leadership)](/knowledge/software-engineering/agile-methods/servant-leadership/)

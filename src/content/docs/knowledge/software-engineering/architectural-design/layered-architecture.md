@@ -1,5 +1,5 @@
 ---
-title: "Layered Architecture"
+title: "계층 아키텍처 (Layered Architecture)"
 description: "계층화 아키텍처는 시스템을 여러 개의 계층(layer)으로 구성하여, 각 계층이 하위 계층의 서비스만 사용하도록 하는 아키텍처 패턴이다"
 tags: ['Layered Architecture', 'N Tier', 'Separation Of Concerns', 'Presentation Layer', 'Business Logic']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Architectural Patterns](/knowledge/software-engineering/architectural-patterns/)
-- [Software Architecture](/knowledge/software-engineering/software-architecture/)
-- [MVC Pattern](/knowledge/software-engineering/mvc-pattern/)
+- [아키텍처 패턴 (Architectural Patterns)](/knowledge/software-engineering/architectural-patterns/)
+- [소프트웨어 아키텍처 (Software Architecture)](/knowledge/software-engineering/software-architecture/)
+- [MVC 패턴 (MVC Pattern)](/knowledge/software-engineering/mvc-pattern/)

@@ -1,5 +1,5 @@
 ---
-title: "Release Testing"
+title: "릴리스 테스팅 (Release Testing)"
 description: "릴리즈 테스트는 개발 팀 외부에서 사용될 시스템 릴리즈에 대해 수행하는 테스트 과정으로, 시스템이 요구사항을 충족하고 사용하기에 충분한지 확인하는 검증(validation) 테스트이다"
 tags: ['Release Testing', 'System Testing', 'Black Box Testing', 'Performance Testing', 'Stress Testing']
 created: 2026-02-16
@@ -20,5 +20,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Verification and Validation](/knowledge/software-engineering/verification-and-validation/)
-- [Acceptance Testing](/knowledge/software-engineering/acceptance-testing/)
+- [검증과 확인 (Verification and Validation)](/knowledge/software-engineering/verification-and-validation/)
+- [인수 테스팅 (Acceptance Testing)](/knowledge/software-engineering/acceptance-testing/)

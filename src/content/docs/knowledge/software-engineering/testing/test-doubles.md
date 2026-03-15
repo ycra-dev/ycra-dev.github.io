@@ -1,5 +1,5 @@
 ---
-title: "Test Doubles"
+title: "테스트 더블 (Test Doubles)"
 description: "테스트에서 실제 구현체를 대신하는 객체 또는 함수로, 영화의 스턴트 대역처럼 실제 구현체의 역할을 테스트 환경에서 수행한다"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -41,8 +41,8 @@ class FakeCreditCardService implements CreditCardService {
 
 ## 관련 개념
 
-- [Faking](/knowledge/software-engineering/testing/faking/)
-- [Stubbing](/knowledge/software-engineering/testing/stubbing/)
-- [Interaction Testing](/knowledge/software-engineering/testing/interaction-testing/)
-- [Mocking Frameworks](/knowledge/software-engineering/testing/mocking-frameworks/)
-- [Classical vs Mockist Testing](/knowledge/software-engineering/testing/classical-vs-mockist-testing/)
+- [페이킹 (Faking)](/knowledge/software-engineering/testing/faking/)
+- [스터빙 (Stubbing)](/knowledge/software-engineering/testing/stubbing/)
+- [상호작용 테스팅 (Interaction Testing)](/knowledge/software-engineering/testing/interaction-testing/)
+- [모킹 프레임워크 (Mocking Frameworks)](/knowledge/software-engineering/testing/mocking-frameworks/)
+- [고전파 vs 모의파 테스팅 (Classical vs Mockist Testing)](/knowledge/software-engineering/testing/classical-vs-mockist-testing/)

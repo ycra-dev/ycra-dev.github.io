@@ -1,5 +1,5 @@
 ---
-title: "Test Clarity"
+title: "테스트 명확성 (Test Clarity)"
 description: "테스트의 존재 이유와 실패 원인이 즉각적으로 명확한 테스트의 특성으로, 완전성(completeness)과 간결성(conciseness)을 통해 달성된다"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -50,6 +50,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Test Maintainability](/knowledge/software-engineering/testing/test-maintainability/)
-- [Behavior Driven Testing](/knowledge/software-engineering/testing/behavior-driven-testing/)
-- [DAMP vs DRY in Tests](/knowledge/software-engineering/testing/damp-vs-dry-in-tests/)
+- [테스트 유지보수성 (Test Maintainability)](/knowledge/software-engineering/testing/test-maintainability/)
+- [행위 주도 테스팅 (Behavior Driven Testing)](/knowledge/software-engineering/testing/behavior-driven-testing/)
+- [테스트에서의 DAMP vs DRY (DAMP vs DRY in Tests)](/knowledge/software-engineering/testing/damp-vs-dry-in-tests/)

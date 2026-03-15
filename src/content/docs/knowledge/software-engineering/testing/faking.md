@@ -1,5 +1,5 @@
 ---
-title: "Faking"
+title: "페이킹 (Faking)"
 description: "실제 구현과 유사하게 동작하지만 프로덕션에는 적합하지 않은 경량 API 구현으로, 테스트 더블 기법 중 가장 선호되는 방식"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -61,7 +61,7 @@ public class FileSystemContractTest {
 
 ## 관련 개념
 
-- [Test Doubles](/knowledge/software-engineering/testing/test-doubles/)
-- [Stubbing](/knowledge/software-engineering/testing/stubbing/)
-- [Test Fidelity](/knowledge/software-engineering/testing/test-fidelity/)
-- [Classical vs Mockist Testing](/knowledge/software-engineering/testing/classical-vs-mockist-testing/)
+- [테스트 더블 (Test Doubles)](/knowledge/software-engineering/testing/test-doubles/)
+- [스터빙 (Stubbing)](/knowledge/software-engineering/testing/stubbing/)
+- [테스트 충실도 (Test Fidelity)](/knowledge/software-engineering/testing/test-fidelity/)
+- [고전파 vs 모의파 테스팅 (Classical vs Mockist Testing)](/knowledge/software-engineering/testing/classical-vs-mockist-testing/)

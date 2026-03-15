@@ -40,6 +40,6 @@ iOS 개발자로 취업하려면 Swift와 Xcode, iOS 앱의 라이프사이클, 
 
 ## 관련 개념
 
-- [Technology Stack](/knowledge/software-engineering/foundations/technology-stack/)
+- [기술 스택 (Technology Stack)](/knowledge/software-engineering/foundations/technology-stack/)
 - [Programming Language Selection](/knowledge/career/foundations/programming-language-selection/)
 - [Language Adaptability](/knowledge/career/foundations/language-adaptability/)

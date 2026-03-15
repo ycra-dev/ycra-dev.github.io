@@ -30,6 +30,6 @@ Google이 C++03에서 C++11로 전환할 때, 수십억 줄의 코드에서 name
 
 ## 관련 개념
 
-- [Software Engineering vs Programming](/knowledge/software-engineering/foundations/software-engineering-vs-programming/)
-- [Trade-offs and Costs](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [소프트웨어 공학 vs 프로그래밍 (Software Engineering vs Programming)](/knowledge/software-engineering/foundations/software-engineering-vs-programming/)
+- [트레이드오프와 비용 (Trade-offs and Costs)](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)

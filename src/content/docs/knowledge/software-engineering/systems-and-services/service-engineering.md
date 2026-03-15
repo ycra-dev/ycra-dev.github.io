@@ -1,5 +1,5 @@
 ---
-title: "Service Engineering"
+title: "서비스 공학 (Service Engineering)"
 description: "서비스 엔지니어링은 서비스 지향 애플리케이션에서 재사용하기 위한 서비스를 개발하는 프로세스로, 서비스 후보 식별, 서비스 설계, 서비스 구현/배포의 세 단계로 구성된다"
 tags: ['Service Engineering', 'Service Design', 'Service Candidate', 'Service Interface', 'Service Implementation']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Service-Oriented Architecture](/knowledge/software-engineering/service-oriented-architecture/)
-- [RESTful Service](/knowledge/software-engineering/restful-service/)
-- [Service Composition](/knowledge/software-engineering/service-composition/)
-- [Component-Based Software Engineering](/knowledge/software-engineering/component-based-software-engineering/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/software-engineering/service-oriented-architecture/)
+- [RESTful 서비스 (RESTful Service)](/knowledge/software-engineering/restful-service/)
+- [서비스 합성 (Service Composition)](/knowledge/software-engineering/service-composition/)
+- [컴포넌트 기반 소프트웨어 공학 (Component-Based Software Engineering)](/knowledge/software-engineering/component-based-software-engineering/)

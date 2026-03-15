@@ -1,5 +1,5 @@
 ---
-title: "Mocking Frameworks"
+title: "모킹 프레임워크 (Mocking Frameworks)"
 description: "테스트 내에서 테스트 더블을 쉽게 생성할 수 있게 해주는 소프트웨어 라이브러리로, mock 객체의 동작을 테스트 코드 내에서 인라인으로 정의할 수 있게 한다"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -48,7 +48,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Test Doubles](/knowledge/software-engineering/testing/test-doubles/)
-- [Stubbing](/knowledge/software-engineering/testing/stubbing/)
-- [Interaction Testing](/knowledge/software-engineering/testing/interaction-testing/)
-- [Classical vs Mockist Testing](/knowledge/software-engineering/testing/classical-vs-mockist-testing/)
+- [테스트 더블 (Test Doubles)](/knowledge/software-engineering/testing/test-doubles/)
+- [스터빙 (Stubbing)](/knowledge/software-engineering/testing/stubbing/)
+- [상호작용 테스팅 (Interaction Testing)](/knowledge/software-engineering/testing/interaction-testing/)
+- [고전파 vs 모의파 테스팅 (Classical vs Mockist Testing)](/knowledge/software-engineering/testing/classical-vs-mockist-testing/)

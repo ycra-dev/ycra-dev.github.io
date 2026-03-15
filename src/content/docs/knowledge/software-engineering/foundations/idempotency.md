@@ -1,5 +1,5 @@
 ---
-title: "Idempotency"
+title: "멱등성 (Idempotency)"
 description: "동일한 연산을 여러 번 적용해도 결과가 같은 특성"
 tags: ["Software Engineering", "Distributed Systems", "Reliability"]
 created: 2026-02-27
@@ -58,5 +58,5 @@ def process_payment(request_id: str, amount: float) -> PaymentResult:
 
 ## 관련 개념
 
-- [Defensive Programming](/knowledge/software-engineering/foundations/defensive-programming/)
-- [Exponential Backoff](/knowledge/software-engineering/foundations/exponential-backoff/)
+- [방어적 프로그래밍 (Defensive Programming)](/knowledge/software-engineering/foundations/defensive-programming/)
+- [지수 백오프 (Exponential Backoff)](/knowledge/software-engineering/foundations/exponential-backoff/)

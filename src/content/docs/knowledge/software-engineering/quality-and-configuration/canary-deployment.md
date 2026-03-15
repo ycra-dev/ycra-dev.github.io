@@ -1,5 +1,5 @@
 ---
-title: "Canary Deployment"
+title: "카나리 배포 (Canary Deployment)"
 description: "새 버전을 소수의 서버에만 먼저 배포하고 소량의 트래픽을 라우팅하여 문제를 조기 감지하는 배포 전략"
 tags: ["Software Engineering", "Deployment", "Risk Management"]
 created: 2026-02-27
@@ -75,7 +75,7 @@ spec:
 
 ## 관련 개념
 
-- [Blue-Green Deployment](/knowledge/software-engineering/quality-and-configuration/blue-green-deployment/)
-- [Feature Flag](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
-- [Dark Launch](/knowledge/software-engineering/quality-and-configuration/dark-launch/)
-- [Observability](/knowledge/software-engineering/quality-and-configuration/observability/)
+- [블루-그린 배포 (Blue-Green Deployment)](/knowledge/software-engineering/quality-and-configuration/blue-green-deployment/)
+- [기능 플래그 (Feature Flag)](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
+- [다크 런칭 (Dark Launch)](/knowledge/software-engineering/quality-and-configuration/dark-launch/)
+- [관측 가능성 (Observability)](/knowledge/software-engineering/quality-and-configuration/observability/)

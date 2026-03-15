@@ -1,5 +1,5 @@
 ---
-title: "Automated Testing"
+title: "자동화 테스팅 (Automated Testing)"
 description: "사람이 수동으로 실행하는 대신, 코드로 작성된 테스트를 자동으로 반복 실행하여 소프트웨어의 정확성을 지속적으로 검증하는 기법이다."
 tags: ["Software Engineering", "Testing", "Automation", "CI/CD"]
 created: 2026-02-27

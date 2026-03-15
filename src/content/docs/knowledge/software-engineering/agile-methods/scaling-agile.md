@@ -1,5 +1,5 @@
 ---
-title: "Scaling Agile"
+title: "애자일 확장 (Scaling Agile)"
 description: "애자일 스케일링은 소규모 팀에서 효과적인 애자일 방법론을 대규모 조직이나 프로젝트에 적용하기 위한 접근법과 프레임워크를 말한다"
 tags: ['Scaling Agile', 'Safe', 'Large Scale Agile', 'Agile Release Train', 'Enterprise Agile']
 created: 2026-02-16
@@ -20,5 +20,5 @@ SAFe의 계층 구조: 포트폴리오 레벨(전략적 방향) → 프로그램
 
 ## 관련 개념
 
-- [Agile Software Development](/knowledge/software-engineering/agile-software-development/)
-- [Scrum](/knowledge/software-engineering/scrum/)
+- [애자일 소프트웨어 개발 (Agile Software Development)](/knowledge/software-engineering/agile-software-development/)
+- [스크럼 (Scrum)](/knowledge/software-engineering/scrum/)

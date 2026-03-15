@@ -1,5 +1,5 @@
 ---
-title: "Test Automation Platform (TAP)"
+title: "테스트 자동화 플랫폼 (Test Automation Platform)"
 description: "Google의 글로벌 지속적 빌드 시스템으로, 전체 코드베이스에 대해 자동화된 테스트를 실행하고 거의 모든 변경의 게이트웨이 역할을 하는 대규모 CI 인프라"
 tags: ["Software Engineering", "CI/CD", "Testing", "Google Tools"]
 created: 2026-02-27
@@ -35,7 +35,7 @@ TAP에서 테스트 실패가 발생하면 Build Cop이 즉시 대응한다:
 
 ## 관련 개념
 
-- [Hermetic Testing](/knowledge/software-engineering/testing/hermetic-testing/)
-- [TAP Train](/knowledge/software-engineering/design-and-evolution/tap-train/)
-- [Presubmit Checks](/knowledge/software-engineering/quality-and-configuration/presubmit-checks/)
-- [Continuous Build](/knowledge/software-engineering/quality-and-configuration/continuous-build/)
+- [밀폐 테스팅 (Hermetic Testing)](/knowledge/software-engineering/testing/hermetic-testing/)
+- [TAP 트레인 (TAP Train)](/knowledge/software-engineering/design-and-evolution/tap-train/)
+- [프리서밋 검사 (Presubmit Checks)](/knowledge/software-engineering/quality-and-configuration/presubmit-checks/)
+- [지속적 빌드 (Continuous Build)](/knowledge/software-engineering/quality-and-configuration/continuous-build/)

@@ -1,5 +1,5 @@
 ---
-title: "Code Is a Liability, Not an Asset"
+title: "코드는 자산이 아니라 부채이다 (Code Is a Liability, Not an Asset)"
 description: "코드 자체는 자산이 아니라 부채이며, 진정한 가치는 코드가 아닌 코드가 제공하는 기능에 있다"
 tags: ["Software Engineering", "Foundations", "Technical Debt", "Philosophy"]
 created: 2026-02-27
@@ -35,7 +35,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Deprecation](/knowledge/software-engineering/design-and-evolution/deprecation/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
-- [Software Engineering vs Programming](/knowledge/software-engineering/foundations/software-engineering-vs-programming/)
-- [Sustainability](/knowledge/software-engineering/foundations/sustainability/)
+- [디프리케이션 (Deprecation)](/knowledge/software-engineering/design-and-evolution/deprecation/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [소프트웨어 공학 vs 프로그래밍 (Software Engineering vs Programming)](/knowledge/software-engineering/foundations/software-engineering-vs-programming/)
+- [지속 가능성 (Sustainability)](/knowledge/software-engineering/foundations/sustainability/)

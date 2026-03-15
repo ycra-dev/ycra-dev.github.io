@@ -1,5 +1,5 @@
 ---
-title: "Jevons Paradox"
+title: "제번스 역설 (Jevons Paradox)"
 description: "자원 사용 효율이 증가하면 오히려 그 자원의 총 소비량이 증가하는 역설 — 인프라 효율 개선이 불필요한 자원 소비를 유발할 수 있다"
 tags: ["Software Engineering", "Foundations", "Efficiency", "Trade-offs"]
 created: 2026-02-27
@@ -34,6 +34,6 @@ Google의 분산 빌드 시스템 사례:
 
 ## 관련 개념
 
-- [Trade-offs and Costs](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
-- [Scalability of Policies](/knowledge/software-engineering/foundations/scalability-of-policies/)
+- [트레이드오프와 비용 (Trade-offs and Costs)](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [정책의 확장성 (Scalability of Policies)](/knowledge/software-engineering/foundations/scalability-of-policies/)

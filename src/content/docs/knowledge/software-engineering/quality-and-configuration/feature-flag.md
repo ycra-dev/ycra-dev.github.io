@@ -1,5 +1,5 @@
 ---
-title: "Feature Flag"
+title: "기능 플래그 (Feature Flag)"
 description: "코드 배포와 기능 활성화를 분리하는 기법"
 tags: ["Software Engineering", "Deployment", "Release Management"]
 created: 2026-02-27
@@ -72,8 +72,8 @@ A/B 테스트 통계 고려사항:
 
 ## 관련 개념
 
-- [Canary Deployment](/knowledge/software-engineering/quality-and-configuration/canary-deployment/)
-- [Blue-Green Deployment](/knowledge/software-engineering/quality-and-configuration/blue-green-deployment/)
-- [Circuit Breaker](/knowledge/software-engineering/quality-and-configuration/circuit-breaker/)
-- [Trunk-Based Development](/knowledge/software-engineering/quality-and-configuration/trunk-based-development/)
-- [Code Freeze](/knowledge/software-engineering/quality-and-configuration/code-freeze/)
+- [카나리 배포 (Canary Deployment)](/knowledge/software-engineering/quality-and-configuration/canary-deployment/)
+- [블루-그린 배포 (Blue-Green Deployment)](/knowledge/software-engineering/quality-and-configuration/blue-green-deployment/)
+- [서킷 브레이커 (Circuit Breaker)](/knowledge/software-engineering/quality-and-configuration/circuit-breaker/)
+- [트렁크 기반 개발 (Trunk-Based Development)](/knowledge/software-engineering/quality-and-configuration/trunk-based-development/)
+- [코드 프리즈 (Code Freeze)](/knowledge/software-engineering/quality-and-configuration/code-freeze/)

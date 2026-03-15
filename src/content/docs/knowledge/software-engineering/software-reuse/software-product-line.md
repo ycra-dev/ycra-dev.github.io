@@ -1,5 +1,5 @@
 ---
-title: "Software Product Line"
+title: "소프트웨어 프로덕트 라인 (Software Product Line)"
 description: "소프트웨어 제품 라인은 공통 아키텍처와 공유 컴포넌트를 기반으로 하며, 각 애플리케이션이 특정 고객 요구사항에 맞게 전문화된 애플리케이션 집합이다"
 tags: ['Software Product Line', 'Software Reuse', 'Product Family', 'Specialization', 'Configuration']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Reuse](/knowledge/software-engineering/software-reuse/)
-- [Application Framework](/knowledge/software-engineering/application-framework/)
-- [Application System Reuse](/knowledge/software-engineering/application-system-reuse/)
-- [Component-Based Software Engineering](/knowledge/software-engineering/component-based-software-engineering/)
+- [소프트웨어 재사용 (Software Reuse)](/knowledge/software-engineering/software-reuse/)
+- [애플리케이션 프레임워크 (Application Framework)](/knowledge/software-engineering/application-framework/)
+- [애플리케이션 시스템 재사용 (Application System Reuse)](/knowledge/software-engineering/application-system-reuse/)
+- [컴포넌트 기반 소프트웨어 공학 (Component-Based Software Engineering)](/knowledge/software-engineering/component-based-software-engineering/)

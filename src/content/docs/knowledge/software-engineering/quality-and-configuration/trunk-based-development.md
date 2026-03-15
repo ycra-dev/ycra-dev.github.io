@@ -1,5 +1,5 @@
 ---
-title: "Trunk-Based Development"
+title: "트렁크 기반 개발 (Trunk-Based Development)"
 description: "모든 개발자가 메인 브랜치에서 작업하는 브랜칭 전략"
 tags: ["Software Engineering", "Version Control", "DevOps"]
 created: 2026-02-27
@@ -67,7 +67,7 @@ def new_feature():
 
 ## 관련 개념
 
-- [Continuous Integration](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
-- [Feature Flag](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
-- [Continuous Delivery](/knowledge/software-engineering/quality-and-configuration/continuous-delivery/)
-- [Atomic Commit](/knowledge/software-engineering/quality-and-configuration/atomic-commit/)
+- [지속적 통합 (Continuous Integration)](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
+- [기능 플래그 (Feature Flag)](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
+- [지속적 전달 (Continuous Delivery)](/knowledge/software-engineering/quality-and-configuration/continuous-delivery/)
+- [원자적 커밋 (Atomic Commit)](/knowledge/software-engineering/quality-and-configuration/atomic-commit/)

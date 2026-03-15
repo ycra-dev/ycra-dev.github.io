@@ -1,5 +1,5 @@
 ---
-title: "Critique Static Analysis Integration"
+title: "크리틱 정적 분석 통합 (Critique Static Analysis Integration)"
 description: "코드 변경 스냅샷 업로드 시 자동으로 코드 분석기를 실행하고 결과를 리뷰 페이지에 표시하는 Critique 기능"
 tags: ["Software Engineering", "Code Review", "Static Analysis", "Developer Tools"]
 created: 2026-02-27
@@ -34,7 +34,7 @@ Actionability(실행 가능성)는 이진 옵션이다: 강조 표시할 발견 
 
 ## 관련 개념
 
-- [Critique](/knowledge/software-engineering/quality-and-configuration/critique/)
-- [Tricorder](/knowledge/software-engineering/quality-and-configuration/tricorder/)
-- [Presubmit Checks](/knowledge/software-engineering/quality-and-configuration/presubmit-checks/)
-- [Suggested Fixes in Static Analysis](/knowledge/software-engineering/quality-and-configuration/suggested-fixes-in-static-analysis/)
+- [크리틱 (Critique)](/knowledge/software-engineering/quality-and-configuration/critique/)
+- [트리코더 (Tricorder)](/knowledge/software-engineering/quality-and-configuration/tricorder/)
+- [프리서밋 검사 (Presubmit Checks)](/knowledge/software-engineering/quality-and-configuration/presubmit-checks/)
+- [정적 분석의 수정 제안 (Suggested Fixes in Static Analysis)](/knowledge/software-engineering/quality-and-configuration/suggested-fixes-in-static-analysis/)

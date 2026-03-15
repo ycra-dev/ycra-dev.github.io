@@ -1,5 +1,5 @@
 ---
-title: "Circular Dependency"
+title: "순환 의존성 (Circular Dependency)"
 description: "라이브러리가 전이적으로 자기 자신에 의존하는 구조"
 tags: ["Software Engineering", "Dependency Management", "Anti-Pattern"]
 created: 2026-02-27
@@ -78,6 +78,6 @@ madge --circular src/
 
 ## 관련 개념
 
-- [Dependency Hell](/knowledge/software-engineering/quality-and-configuration/dependency-hell/)
-- [Diamond Dependency](/knowledge/software-engineering/quality-and-configuration/diamond-dependency/)
-- [Coupling](/knowledge/software-engineering/architectural-design/coupling/)
+- [의존성 지옥 (Dependency Hell)](/knowledge/software-engineering/quality-and-configuration/dependency-hell/)
+- [다이아몬드 의존성 (Diamond Dependency)](/knowledge/software-engineering/quality-and-configuration/diamond-dependency/)
+- [결합도 (Coupling)](/knowledge/software-engineering/architectural-design/coupling/)

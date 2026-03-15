@@ -38,5 +38,5 @@ sidebar:
 ## 관련 개념
 
 - [QA to Development Transition](/knowledge/career/professional-development/qa-to-development-transition/)
-- [SDET](/knowledge/software-engineering/testing/sdet/)
-- [Automated Testing](/knowledge/software-engineering/testing/automated-testing/)
+- [SDET (테스트 소프트웨어 개발 엔지니어)](/knowledge/software-engineering/testing/sdet/)
+- [자동화 테스팅 (Automated Testing)](/knowledge/software-engineering/testing/automated-testing/)

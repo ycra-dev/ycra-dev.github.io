@@ -1,5 +1,5 @@
 ---
-title: "Chesterton's Fence"
+title: "체스터턴의 울타리 (Chesterton's Fence)"
 description: "무언가를 변경하거나 제거하기 전에 그것이 왜 존재하는지 먼저 이해해야 한다는 원칙 — 레거시 코드와 기존 결정을 다룰 때 핵심 지침"
 tags: ["Software Engineering", "Foundations", "Decision Making", "Legacy"]
 created: 2026-02-27
@@ -28,6 +28,6 @@ Google의 readability 프로세스에서 리뷰어들은 코멘트에 관련 참
 
 ## 관련 개념
 
-- [Data-Driven Decisions](/knowledge/software-engineering/foundations/data-driven-decisions/)
-- [Trade-offs and Costs](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [데이터 기반 의사결정 (Data-Driven Decisions)](/knowledge/software-engineering/foundations/data-driven-decisions/)
+- [트레이드오프와 비용 (Trade-offs and Costs)](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)

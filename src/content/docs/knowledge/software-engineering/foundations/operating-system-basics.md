@@ -67,7 +67,7 @@ CPU: [브라우저][음악][메일][브라우저][음악][메일]...
 - [파일 시스템 (File System)](/knowledge/software-engineering/file-system-basics/) - OS가 관리하는 파일 저장/조직 체계
 - [가상 메모리 (Virtual Memory)](/knowledge/software-engineering/virtual-memory-basics/) - OS의 메모리 관리 핵심 기술
 - [시스템 콜 (System Call)](/knowledge/os/system-call/) - 응용프로그램이 OS에 서비스를 요청하는 인터페이스
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - OS가 관리하는 핵심 하드웨어 자원
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - OS가 관리하는 핵심 하드웨어 자원
 - [오픈 소스 소프트웨어 (Open Source Software)](/knowledge/software-engineering/open-source-software/) - Linux는 오픈 소스 OS의 대표
 
 ## 출처

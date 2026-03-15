@@ -1,5 +1,5 @@
 ---
-title: "Legacy Code Change Algorithm"
+title: "레거시 코드 변경 알고리즘 (Legacy Code Change Algorithm)"
 description: "Michael Feathers가 제안한 기존 코드를 안전하게 수정하는 5단계 알고리즘"
 tags: ["Software Engineering", "Refactoring", "Legacy Code", "Testing"]
 created: 2026-02-27
@@ -58,7 +58,7 @@ def test_existing_behavior():
 
 ## 관련 개념
 
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
-- [Code Smell](/knowledge/software-engineering/design-and-evolution/code-smell/)
-- [Refactoring](/knowledge/software-engineering/design-and-evolution/refactoring/)
-- [Test-Driven Development](/knowledge/software-engineering/agile-methods/test-driven-development/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [코드 스멜 (Code Smell)](/knowledge/software-engineering/design-and-evolution/code-smell/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/design-and-evolution/refactoring/)
+- [테스트 주도 개발 (Test-Driven Development)](/knowledge/software-engineering/agile-methods/test-driven-development/)

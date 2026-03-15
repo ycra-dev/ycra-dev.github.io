@@ -1,5 +1,5 @@
 ---
-title: "Deterministic Testing"
+title: "결정적 테스팅 (Deterministic Testing)"
 description: "동일 입력에 항상 동일 출력을 보장하는 테스트 작성 원칙"
 tags: ["Software Engineering", "Testing", "Reliability"]
 created: 2026-02-27
@@ -71,6 +71,6 @@ def clean_state(db):
 
 ## 관련 개념
 
-- [Unit Testing](/knowledge/software-engineering/testing/unit-testing/)
-- [Mocking](/knowledge/software-engineering/testing/mocking/)
-- [Integration Testing](/knowledge/software-engineering/testing/integration-testing/)
+- [단위 테스팅 (Unit Testing)](/knowledge/software-engineering/testing/unit-testing/)
+- [모킹 (Mocking)](/knowledge/software-engineering/testing/mocking/)
+- [통합 테스팅 (Integration Testing)](/knowledge/software-engineering/testing/integration-testing/)

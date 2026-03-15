@@ -1,5 +1,5 @@
 ---
-title: "Heisenbug"
+title: "하이젠버그 (Heisenbug)"
 description: "관찰하거나 디버깅하려고 시도할 때 동작이 변하거나 사라지는 버그"
 tags: ["Software Engineering", "Debugging", "Concurrency"]
 created: 2026-02-27
@@ -54,7 +54,7 @@ int calculate() {
 
 ## 관련 개념
 
-- [Debugging](/knowledge/software-engineering/foundations/debugging/)
-- [Concurrency](/knowledge/software-engineering/foundations/concurrency/)
-- [Defensive Programming](/knowledge/software-engineering/foundations/defensive-programming/)
-- [Deterministic Testing](/knowledge/software-engineering/testing/deterministic-testing/)
+- [디버깅 (Debugging)](/knowledge/software-engineering/foundations/debugging/)
+- [동시성 (Concurrency)](/knowledge/software-engineering/foundations/concurrency/)
+- [방어적 프로그래밍 (Defensive Programming)](/knowledge/software-engineering/foundations/defensive-programming/)
+- [결정적 테스팅 (Deterministic Testing)](/knowledge/software-engineering/testing/deterministic-testing/)

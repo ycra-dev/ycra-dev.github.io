@@ -1,5 +1,5 @@
 ---
-title: "Code Reuse"
+title: "코드 재사용 (Code Reuse)"
 description: "기존에 작성된 코드를 새로운 맥락에서 활용하는 소프트웨어 개발의 핵심 실천법으로, 복사-붙여넣기부터 외부 라이브러리 활용까지 4가지 패턴으로 구분된다"
 tags: ["SoftwareEngineering", "DesignPrinciples", "Modularity", "Productivity"]
 created: 2026-02-27
@@ -67,5 +67,5 @@ class AdminController:
 
 ## 관련 개념
 
-- [DRY Principle](/knowledge/software-engineering/design-and-evolution/dry-principle/)
-- [Refactoring](/knowledge/software-engineering/design-and-evolution/refactoring/)
+- [DRY 원칙 (DRY Principle)](/knowledge/software-engineering/design-and-evolution/dry-principle/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/design-and-evolution/refactoring/)

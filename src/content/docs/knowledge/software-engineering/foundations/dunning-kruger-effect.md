@@ -1,5 +1,5 @@
 ---
-title: "Dunning-Kruger Effect"
+title: "더닝-크루거 효과 (Dunning-Kruger Effect)"
 description: "자신의 능력을 실제보다 높게 평가하는 인지 편향"
 tags: ["Software Engineering", "Psychology", "Cognitive Bias"]
 created: 2026-02-27
@@ -53,6 +53,6 @@ Valley of Despair
 
 ## 관련 개념
 
-- [Four Stages of Competence](/knowledge/software-engineering/foundations/four-stages-of-competence/)
-- [Impostor Syndrome](/knowledge/software-engineering/foundations/impostor-syndrome/)
-- [Dreyfus Model](/knowledge/software-engineering/foundations/dreyfus-model/)
+- [역량의 4단계 (Four Stages of Competence)](/knowledge/software-engineering/foundations/four-stages-of-competence/)
+- [가면 증후군 (Impostor Syndrome)](/knowledge/software-engineering/foundations/impostor-syndrome/)
+- [드레이퍼스 모델 (Dreyfus Model)](/knowledge/software-engineering/foundations/dreyfus-model/)

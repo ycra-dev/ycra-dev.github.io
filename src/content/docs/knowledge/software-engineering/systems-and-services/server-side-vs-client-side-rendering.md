@@ -41,7 +41,7 @@ CSR 흐름: 사용자 요청 → 서버가 JS 앱 전달 → 브라우저에서 
 
 ## 관련 개념
 
-- [HTTP Protocol](/knowledge/software-engineering/systems-and-services/http-protocol/)
-- [Single Page Application](/knowledge/software-engineering/systems-and-services/single-page-application/)
-- [Web API](/knowledge/software-engineering/systems-and-services/web-api/)
+- [HTTP 프로토콜 (HTTP Protocol)](/knowledge/software-engineering/systems-and-services/http-protocol/)
+- [단일 페이지 애플리케이션 (Single Page Application)](/knowledge/software-engineering/systems-and-services/single-page-application/)
+- [웹 API (Web API)](/knowledge/software-engineering/systems-and-services/web-api/)
 - [DOM](/knowledge/software-engineering/systems-and-services/dom/)

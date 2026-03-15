@@ -1,5 +1,5 @@
 ---
-title: "Pipe and Filter"
+title: "파이프와 필터 (Pipe and Filter)"
 description: "파이프 앤 필터 아키텍처는 데이터 처리를 일련의 변환(필터) 단계로 구성하고, 각 단계의 출력이 다음 단계의 입력이 되도록 파이프로 연결하는 아키텍처 패턴이다"
 tags: ['Pipe And Filter', 'Data Transformation', 'Pipeline', 'Unix Pipes', 'Architecture']
 created: 2026-02-16
@@ -20,5 +20,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Architectural Patterns](/knowledge/software-engineering/architectural-patterns/)
-- [Software Architecture](/knowledge/software-engineering/software-architecture/)
+- [아키텍처 패턴 (Architectural Patterns)](/knowledge/software-engineering/architectural-patterns/)
+- [소프트웨어 아키텍처 (Software Architecture)](/knowledge/software-engineering/software-architecture/)

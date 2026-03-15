@@ -33,6 +33,6 @@ Michael Jordan의 사례: 그가 혼자 모든 경기를 이긴 것은 아니다
 
 ## 관련 개념
 
-- [Humility, Respect, Trust](/knowledge/software-engineering/agile-methods/humility-respect-trust/)
-- [Bus Factor](/knowledge/software-engineering/agile-methods/bus-factor/)
-- [Hiding Considered Harmful](/knowledge/software-engineering/agile-methods/hiding-considered-harmful/)
+- [겸손, 존중, 신뢰 (Humility, Respect, Trust)](/knowledge/software-engineering/agile-methods/humility-respect-trust/)
+- [버스 팩터 (Bus Factor)](/knowledge/software-engineering/agile-methods/bus-factor/)
+- [은닉은 해롭다 (Hiding Considered Harmful)](/knowledge/software-engineering/agile-methods/hiding-considered-harmful/)

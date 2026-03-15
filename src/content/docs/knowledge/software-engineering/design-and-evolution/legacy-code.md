@@ -1,5 +1,5 @@
 ---
-title: "Legacy Code"
+title: "레거시 코드 (Legacy Code)"
 description: "테스트가 없는 기존 코드, 또는 오래되어 이해하기 어렵고 수정이 위험한 코드 — Michael Feathers의 정의에 따르면 '테스트가 없는 코드는 레거시 코드'"
 tags: ["SoftwareEngineering", "Maintenance", "TechnicalDebt", "CodeQuality"]
 created: 2026-02-27
@@ -58,6 +58,6 @@ def new_feature(x):
 
 ## 관련 개념
 
-- [Refactoring](/knowledge/software-engineering/design-and-evolution/refactoring/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
-- [Test-Driven Development](/knowledge/software-engineering/testing/test-driven-development/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/design-and-evolution/refactoring/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [테스트 주도 개발 (Test-Driven Development)](/knowledge/software-engineering/testing/test-driven-development/)

@@ -1,5 +1,5 @@
 ---
-title: "Documentation Freshness"
+title: "문서 최신성 (Documentation Freshness)"
 description: "문서가 현재 코드와 시스템의 상태를 정확히 반영하고 있는지를 나타내는 속성 — 오래된 문서는 없는 것보다 나쁘므로 소유자 지정과 주기적 검토가 필요하다"
 tags: ["Software Engineering", "Quality", "Documentation", "Maintenance", "Ownership"]
 created: 2026-02-27
@@ -36,6 +36,6 @@ Google의 g3doc 시스템에서는 문서 상단에 메타데이터를 포함시
 
 ## 관련 개념
 
-- [Documentation as Code](/knowledge/software-engineering/quality-and-configuration/documentation-as-code/)
-- [Code Ownership](/knowledge/software-engineering/quality-and-configuration/code-ownership/)
-- [Documentation Review](/knowledge/software-engineering/quality-and-configuration/documentation-review/)
+- [코드로서의 문서 (Documentation as Code)](/knowledge/software-engineering/quality-and-configuration/documentation-as-code/)
+- [코드 소유권 (Code Ownership)](/knowledge/software-engineering/quality-and-configuration/code-ownership/)
+- [문서 리뷰 (Documentation Review)](/knowledge/software-engineering/quality-and-configuration/documentation-review/)

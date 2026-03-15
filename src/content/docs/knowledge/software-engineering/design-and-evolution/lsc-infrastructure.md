@@ -1,5 +1,5 @@
 ---
-title: "LSC Infrastructure"
+title: "LSC 인프라 (LSC Infrastructure)"
 description: "대규모 변경을 가능하게 하는 기술적, 사회적 도구의 집합으로, 변경 생성, 관리, 리뷰, 테스트를 위한 도구와 문화적 규범을 포함"
 tags: ["Software Engineering", "Automation", "Tooling"]
 created: 2026-02-27
@@ -37,6 +37,6 @@ Python, Ruby, JavaScript 같은 동적 타입 언어는 LSC가 특히 어렵다.
 
 ## 관련 개념
 
-- [Large-Scale Changes](/knowledge/software-engineering/design-and-evolution/large-scale-changes/)
-- [Rosie](/knowledge/software-engineering/design-and-evolution/rosie/)
-- [TAP Train](/knowledge/software-engineering/design-and-evolution/tap-train/)
+- [대규모 코드 변경 (Large-Scale Changes)](/knowledge/software-engineering/design-and-evolution/large-scale-changes/)
+- [로지 (Rosie)](/knowledge/software-engineering/design-and-evolution/rosie/)
+- [TAP 트레인 (TAP Train)](/knowledge/software-engineering/design-and-evolution/tap-train/)

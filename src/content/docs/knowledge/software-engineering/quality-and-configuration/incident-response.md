@@ -1,5 +1,5 @@
 ---
-title: "Incident Response"
+title: "장애 대응 (Incident Response)"
 description: "프로덕션 장애 발생 시 영향을 최소화하고 서비스를 복구하는 체계적 프로세스"
 tags: ["Software Engineering", "On-Call", "Operations", "SRE"]
 created: 2026-02-27
@@ -68,8 +68,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Service Level Objective](/knowledge/software-engineering/quality-and-configuration/service-level-objective/)
-- [Root-Cause Analysis](/knowledge/software-engineering/quality-and-configuration/root-cause-analysis/)
-- [Postmortem](/knowledge/software-engineering/quality-and-configuration/postmortem/)
-- [Runbook](/knowledge/software-engineering/quality-and-configuration/runbook/)
-- [Observability](/knowledge/software-engineering/quality-and-configuration/observability/)
+- [서비스 수준 목표 (Service Level Objective)](/knowledge/software-engineering/quality-and-configuration/service-level-objective/)
+- [근본 원인 분석 (Root-Cause Analysis)](/knowledge/software-engineering/quality-and-configuration/root-cause-analysis/)
+- [포스트모템 (Postmortem)](/knowledge/software-engineering/quality-and-configuration/postmortem/)
+- [런북 (Runbook)](/knowledge/software-engineering/quality-and-configuration/runbook/)
+- [관측 가능성 (Observability)](/knowledge/software-engineering/quality-and-configuration/observability/)

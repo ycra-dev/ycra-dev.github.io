@@ -54,6 +54,6 @@ def two_sum_hash(nums, target):
 
 ## 관련 개념
 
-- [Object-Oriented Design](/knowledge/software-engineering/design-and-evolution/object-oriented-design/)
+- [객체지향 설계 (Object-Oriented Design)](/knowledge/software-engineering/design-and-evolution/object-oriented-design/)
 - [Coding Challenges](/knowledge/career/professional-development/coding-challenges/)
 - [Computer Science Degree](/knowledge/career/professional-development/computer-science-degree/)

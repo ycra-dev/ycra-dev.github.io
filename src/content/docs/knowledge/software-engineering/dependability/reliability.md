@@ -1,5 +1,5 @@
 ---
-title: "Reliability"
+title: "신뢰성 (Reliability)"
 description: "주어진 환경에서 특정 기간 동안 시스템이 사용자가 기대하는 대로 올바르게 서비스를 제공할 확률이다"
 tags: ['Reliability', 'Dependability', 'Fault Avoidance', 'Correctness', 'System Property']
 created: 2026-02-16
@@ -20,9 +20,9 @@ sidebar:
 
 ## 관련 개념
 
-- [Dependability](/knowledge/software-engineering/dependability/)
-- [Availability](/knowledge/software-engineering/availability/)
-- [Fault Tolerance](/knowledge/software-engineering/fault-tolerance/)
-- [Fault-Error-Failure Model](/knowledge/software-engineering/fault-error-failure-model/)
-- [Reliability Metrics](/knowledge/software-engineering/reliability-metrics/)
-- [Redundancy and Diversity](/knowledge/software-engineering/redundancy-and-diversity/)
+- [신뢰성 (Dependability)](/knowledge/software-engineering/dependability/)
+- [가용성 (Availability)](/knowledge/software-engineering/availability/)
+- [장애 허용 (Fault Tolerance)](/knowledge/software-engineering/fault-tolerance/)
+- [장애-오류-실패 모델 (Fault-Error-Failure Model)](/knowledge/software-engineering/fault-error-failure-model/)
+- [신뢰성 지표 (Reliability Metrics)](/knowledge/software-engineering/reliability-metrics/)
+- [중복성과 다양성 (Redundancy and Diversity)](/knowledge/software-engineering/redundancy-and-diversity/)

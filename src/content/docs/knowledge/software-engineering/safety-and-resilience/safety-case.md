@@ -1,5 +1,5 @@
 ---
-title: "Safety Case"
+title: "안전 사례 (Safety Case)"
 description: "시스템이 주어진 환경에서 주어진 용도에 적합하게 안전하다는 것을 설득력 있고 타당하게 주장하는 증거의 체계적 문서이다"
 tags: ['Safety Case', 'Safety', 'Evidence', 'Argument', 'Regulation', 'Compliance', 'Documentation']
 created: 2026-02-16
@@ -20,8 +20,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Safety-Critical Systems](/knowledge/software-engineering/safety-critical-systems/)
-- [Hazard Analysis](/knowledge/software-engineering/hazard-analysis/)
-- [Formal Methods](/knowledge/software-engineering/formal-methods/)
-- [Risk Assessment](/knowledge/software-engineering/risk-assessment/)
-- [Static Analysis](/knowledge/software-engineering/static-analysis/)
+- [안전 필수 시스템 (Safety-Critical Systems)](/knowledge/software-engineering/safety-critical-systems/)
+- [위험 분석 (Hazard Analysis)](/knowledge/software-engineering/hazard-analysis/)
+- [정형 기법 (Formal Methods)](/knowledge/software-engineering/formal-methods/)
+- [위험 평가 (Risk Assessment)](/knowledge/software-engineering/risk-assessment/)
+- [정적 분석 (Static Analysis)](/knowledge/software-engineering/static-analysis/)

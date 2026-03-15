@@ -1,5 +1,5 @@
 ---
-title: "Kythe"
+title: "카이드 (Kythe)"
 description: "컴파일러 기반 인덱싱을 통해 교차 참조(cross-references)를 제공하는 서비스로, 코드 심볼의 사용처를 전체 빌드 정보를 활용하여 동일 이름의 다른 심볼과 명확히 구분한다"
 tags: ["Software Engineering", "Quality and Configuration"]
 created: 2026-02-27
@@ -34,5 +34,5 @@ Kythe는 deprecation 프로세스에서도 중요한 역할을 한다. 정적으
 
 ## 관련 개념
 
-- [Code Search](/knowledge/software-engineering/quality-and-configuration/code-search/)
-- [Code Search Indexing](/knowledge/software-engineering/quality-and-configuration/code-search-indexing/)
+- [코드 검색 (Code Search)](/knowledge/software-engineering/quality-and-configuration/code-search/)
+- [코드 검색 인덱싱 (Code Search Indexing)](/knowledge/software-engineering/quality-and-configuration/code-search-indexing/)

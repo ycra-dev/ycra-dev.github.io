@@ -1,5 +1,5 @@
 ---
-title: "DOM (Document Object Model)"
+title: "DOM (문서 객체 모델)"
 description: "DOM은 웹 브라우저 내에서 웹 페이지의 구조를 트리 형태로 표현한 것으로, JavaScript를 통해 HTML과 CSS를 동적으로 조작할 수 있게 하는 프로그래밍 인터페이스다."
 tags: ["Software Engineering", "DOM", "Web Development", "JavaScript"]
 created: 2026-02-27
@@ -57,6 +57,6 @@ oldElement.remove();
 
 ## 관련 개념
 
-- [HTTP Protocol](/knowledge/software-engineering/systems-and-services/http-protocol/)
-- [Single Page Application](/knowledge/software-engineering/systems-and-services/single-page-application/)
-- [Server-Side vs Client-Side Rendering](/knowledge/software-engineering/systems-and-services/server-side-vs-client-side-rendering/)
+- [HTTP 프로토콜 (HTTP Protocol)](/knowledge/software-engineering/systems-and-services/http-protocol/)
+- [단일 페이지 애플리케이션 (Single Page Application)](/knowledge/software-engineering/systems-and-services/single-page-application/)
+- [서버 사이드 vs 클라이언트 사이드 렌더링 (SSR vs CSR)](/knowledge/software-engineering/systems-and-services/server-side-vs-client-side-rendering/)

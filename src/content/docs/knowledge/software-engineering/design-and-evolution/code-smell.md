@@ -1,5 +1,5 @@
 ---
-title: "Code Smell"
+title: "코드 스멜 (Code Smell)"
 description: "코드에 더 깊은 문제가 있을 수 있음을 암시하는 표면적 징후"
 tags: ["Software Engineering", "Code Quality", "Anti-Pattern"]
 created: 2026-02-27
@@ -66,8 +66,8 @@ Apple의 유명한 "goto fail" 보안 버그도 중괄호 없는 if문 패턴에
 
 ## 관련 개념
 
-- [Refactoring](/knowledge/software-engineering/design-and-evolution/refactoring/)
-- [Software Complexity](/knowledge/software-engineering/architectural-design/software-complexity/)
-- [Legacy Systems](/knowledge/software-engineering/design-and-evolution/legacy-systems/)
-- [Boy Scout Rule](/knowledge/software-engineering/design-and-evolution/boy-scout-rule/)
-- [Software Entropy](/knowledge/software-engineering/design-and-evolution/software-entropy/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/design-and-evolution/refactoring/)
+- [소프트웨어 복잡도 (Software Complexity)](/knowledge/software-engineering/architectural-design/software-complexity/)
+- [레거시 시스템 (Legacy Systems)](/knowledge/software-engineering/design-and-evolution/legacy-systems/)
+- [보이 스카우트 규칙 (Boy Scout Rule)](/knowledge/software-engineering/design-and-evolution/boy-scout-rule/)
+- [소프트웨어 엔트로피 (Software Entropy)](/knowledge/software-engineering/design-and-evolution/software-entropy/)

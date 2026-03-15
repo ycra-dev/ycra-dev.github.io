@@ -1,5 +1,5 @@
 ---
-title: "YAGNI"
+title: "YAGNI 원칙 (YAGNI)"
 description: "현재 필요하지 않은 기능을 미리 구현하지 말라는 소프트웨어 설계 원칙"
 tags: ["Software Engineering", "Design Principle", "Simplicity"]
 created: 2026-02-27
@@ -54,7 +54,7 @@ class UserService:
 
 ## 관련 개념
 
-- [KISS Principle](/knowledge/software-engineering/foundations/kiss-principle/)
-- [Dead Code](/knowledge/software-engineering/design-and-evolution/dead-code/)
-- [Software Complexity](/knowledge/software-engineering/architectural-design/software-complexity/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [KISS 원칙 (KISS Principle)](/knowledge/software-engineering/foundations/kiss-principle/)
+- [죽은 코드 (Dead Code)](/knowledge/software-engineering/design-and-evolution/dead-code/)
+- [소프트웨어 복잡도 (Software Complexity)](/knowledge/software-engineering/architectural-design/software-complexity/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)

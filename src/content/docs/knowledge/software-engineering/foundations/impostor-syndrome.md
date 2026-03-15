@@ -1,5 +1,5 @@
 ---
-title: "Impostor Syndrome"
+title: "가면 증후군 (Impostor Syndrome)"
 description: "객관적 성취에도 불구하고 자신이 사기꾼이며 운이 좋았을 뿐이라고 믿는 심리적 패턴"
 tags: ["Software Engineering", "Psychology", "Career Growth"]
 created: 2026-02-27
@@ -36,12 +36,12 @@ sidebar:
 - "나는 X를 모른다" vs "나는 X를 아직 배우고 있다"
 ```
 
-[Dunning-Kruger Effect](/knowledge/software-engineering/foundations/dunning-kruger-effect/)와 반대 현상:
+[더닝-크루거 효과 (Dunning-Kruger Effect)](/knowledge/software-engineering/foundations/dunning-kruger-effect/)와 반대 현상:
 - Dunning-Kruger: 능력 부족 → 과신 (무의식적 무능)
 - Impostor Syndrome: 능력 충분 → 과소평가 (의식적 무능에서 벗어나지 못함)
 
 ## 관련 개념
 
-- [Four Stages of Competence](/knowledge/software-engineering/foundations/four-stages-of-competence/)
-- [Dunning-Kruger Effect](/knowledge/software-engineering/foundations/dunning-kruger-effect/)
-- [Knowledge Portfolio](/knowledge/software-engineering/project-management/knowledge-portfolio/)
+- [역량의 4단계 (Four Stages of Competence)](/knowledge/software-engineering/foundations/four-stages-of-competence/)
+- [더닝-크루거 효과 (Dunning-Kruger Effect)](/knowledge/software-engineering/foundations/dunning-kruger-effect/)
+- [지식 포트폴리오 (Knowledge Portfolio)](/knowledge/software-engineering/project-management/knowledge-portfolio/)

@@ -1,5 +1,5 @@
 ---
-title: "Postmortem"
+title: "포스트모템 (Postmortem)"
 description: "장애 후 무엇이 발생했고, 무엇을 배웠으며, 재발 방지를 위해 무엇을 해야 하는지 기록하는 문서"
 tags: ["Software Engineering", "Incident Management", "Learning", "Process"]
 created: 2026-02-27
@@ -63,7 +63,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Incident Response](/knowledge/software-engineering/quality-and-configuration/incident-response/)
-- [Root-Cause Analysis](/knowledge/software-engineering/quality-and-configuration/root-cause-analysis/)
-- [Sprint Retrospective](/knowledge/software-engineering/agile-methods/sprint-retrospective/)
-- [Blameless Postmortem](/knowledge/software-engineering/agile-methods/blameless-postmortem/)
+- [장애 대응 (Incident Response)](/knowledge/software-engineering/quality-and-configuration/incident-response/)
+- [근본 원인 분석 (Root-Cause Analysis)](/knowledge/software-engineering/quality-and-configuration/root-cause-analysis/)
+- [스프린트 회고 (Sprint Retrospective)](/knowledge/software-engineering/agile-methods/sprint-retrospective/)
+- [비난 없는 포스트모템 (Blameless Postmortem)](/knowledge/software-engineering/agile-methods/blameless-postmortem/)

@@ -1,5 +1,5 @@
 ---
-title: "Hazard Analysis"
+title: "위험 분석 (Hazard Analysis)"
 description: "안전 핵심 시스템에서 위험(hazard)의 근본 원인을 발견하는 프로세스로, 어떤 이벤트 또는 이벤트 조합이 위험을 유발할 수 있는 시스템 장애를 초래하는지 분석한다"
 tags: ['Hazard Analysis', 'Safety', 'Risk', 'Root Cause', 'Deductive', 'Inductive']
 created: 2026-02-16
@@ -20,8 +20,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Safety-Critical Systems](/knowledge/software-engineering/safety-critical-systems/)
-- [Fault Tree Analysis](/knowledge/software-engineering/fault-tree-analysis/)
-- [Risk Assessment](/knowledge/software-engineering/risk-assessment/)
-- [Safety Case](/knowledge/software-engineering/safety-case/)
-- [Dependability](/knowledge/software-engineering/dependability/)
+- [안전 필수 시스템 (Safety-Critical Systems)](/knowledge/software-engineering/safety-critical-systems/)
+- [장애 트리 분석 (Fault Tree Analysis)](/knowledge/software-engineering/fault-tree-analysis/)
+- [위험 평가 (Risk Assessment)](/knowledge/software-engineering/risk-assessment/)
+- [안전 사례 (Safety Case)](/knowledge/software-engineering/safety-case/)
+- [신뢰성 (Dependability)](/knowledge/software-engineering/dependability/)

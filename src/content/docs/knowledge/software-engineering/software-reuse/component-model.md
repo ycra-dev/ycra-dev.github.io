@@ -1,5 +1,5 @@
 ---
-title: "Component Model"
+title: "컴포넌트 모델 (Component Model)"
 description: "컴포넌트 모델은 컴포넌트 구현, 문서화, 배포에 대한 표준을 정의하는 것으로, 컴포넌트 간 상호운용성을 보장하기 위한 규범이다"
 tags: ['Component Model', 'Interface', 'Deployment', 'Ejb', 'Dotnet', 'Interoperability', 'Standard']
 created: 2026-02-16
@@ -20,7 +20,7 @@ EJB 모델에서는 인터넷 도메인 이름 기반의 계층적 이름이 생
 
 ## 관련 개념
 
-- [Component-Based Software Engineering](/knowledge/software-engineering/component-based-software-engineering/)
-- [Middleware](/knowledge/software-engineering/middleware/)
-- [Service-Oriented Architecture](/knowledge/software-engineering/service-oriented-architecture/)
-- [Component Composition](/knowledge/software-engineering/component-composition/)
+- [컴포넌트 기반 소프트웨어 공학 (Component-Based Software Engineering)](/knowledge/software-engineering/component-based-software-engineering/)
+- [미들웨어 (Middleware)](/knowledge/software-engineering/middleware/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/software-engineering/service-oriented-architecture/)
+- [컴포넌트 합성 (Component Composition)](/knowledge/software-engineering/component-composition/)

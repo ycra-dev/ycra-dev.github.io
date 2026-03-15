@@ -1,5 +1,5 @@
 ---
-title: "Secure Systems Design"
+title: "보안 시스템 설계 (Secure Systems Design)"
 description: "보안 문제를 시스템 설계 과정에서 고려하여 보안을 강화하는 설계 선택을 하는 것으로, 아키텍처 설계와 보안 설계 가이드라인의 적용을 포함한다"
 tags: ['Secure Design', 'Security', 'Architecture', 'Design Guidelines', 'Protection', 'Compartmentalization']
 created: 2026-02-16
@@ -20,8 +20,8 @@ Mentcare 시스템의 분산 설계: 환자 개인 정보와 치료 정보를 �
 
 ## 관련 개념
 
-- [Defense in Depth](/knowledge/software-engineering/defense-in-depth/)
-- [Vulnerability](/knowledge/software-engineering/vulnerability/)
-- [Security Risk Assessment](/knowledge/software-engineering/security-risk-assessment/)
-- [Resilient Systems Design](/knowledge/software-engineering/resilient-systems-design/)
-- [Redundancy and Diversity](/knowledge/software-engineering/redundancy-and-diversity/)
+- [심층 방어 (Defense in Depth)](/knowledge/software-engineering/defense-in-depth/)
+- [취약점 (Vulnerability)](/knowledge/software-engineering/vulnerability/)
+- [보안 위험 평가 (Security Risk Assessment)](/knowledge/software-engineering/security-risk-assessment/)
+- [복원 시스템 설계 (Resilient Systems Design)](/knowledge/software-engineering/resilient-systems-design/)
+- [중복성과 다양성 (Redundancy and Diversity)](/knowledge/software-engineering/redundancy-and-diversity/)

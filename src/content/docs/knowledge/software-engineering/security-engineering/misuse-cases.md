@@ -1,5 +1,5 @@
 ---
-title: "Misuse Cases"
+title: "미스유스 케이스 (Misuse Cases)"
 description: "시스템과의 악의적 상호작용을 나타내는 시나리오로, 가능한 위협을 논의하고 식별하여 시스템의 보안 요구사항을 도출하는 데 사용된다"
 tags: ['Misuse Cases', 'Security Requirements', 'Threat Modeling', 'Use Case', 'Attack Scenario']
 created: 2026-02-16
@@ -20,7 +20,7 @@ Mentcare 시스템의 "데이터 전송" 사용 사례에 대한 오용 사례 "
 
 ## 관련 개념
 
-- [Security Risk Assessment](/knowledge/software-engineering/security-risk-assessment/)
-- [Vulnerability](/knowledge/software-engineering/vulnerability/)
-- [Secure Systems Design](/knowledge/software-engineering/secure-systems-design/)
-- [Penetration Testing](/knowledge/software-engineering/penetration-testing/)
+- [보안 위험 평가 (Security Risk Assessment)](/knowledge/software-engineering/security-risk-assessment/)
+- [취약점 (Vulnerability)](/knowledge/software-engineering/vulnerability/)
+- [보안 시스템 설계 (Secure Systems Design)](/knowledge/software-engineering/secure-systems-design/)
+- [침투 테스팅 (Penetration Testing)](/knowledge/software-engineering/penetration-testing/)

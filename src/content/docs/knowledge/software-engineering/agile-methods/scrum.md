@@ -1,5 +1,5 @@
 ---
-title: "Scrum"
+title: "스크럼 (Scrum)"
 description: "스크럼은 반복적 소프트웨어 개발을 위한 일반적인 애자일 프레임워크로, 스프린트(sprint)라 불리는 고정 기간의 반복 주기, 제품 백로그, 스크럼 마스터, 제품 소유자 등의 역할과 의식을 정의한다"
 tags: ['Scrum', 'Agile', 'Sprint', 'Product Backlog', 'Scrum Master', 'Daily Standup']
 created: 2026-02-16
@@ -20,5 +20,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Agile Software Development](/knowledge/software-engineering/agile-software-development/)
-- [User Stories](/knowledge/software-engineering/user-stories/)
+- [애자일 소프트웨어 개발 (Agile Software Development)](/knowledge/software-engineering/agile-software-development/)
+- [사용자 스토리 (User Stories)](/knowledge/software-engineering/user-stories/)

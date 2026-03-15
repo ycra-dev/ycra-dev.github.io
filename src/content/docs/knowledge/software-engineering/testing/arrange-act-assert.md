@@ -1,5 +1,5 @@
 ---
-title: "Arrange-Act-Assert"
+title: "Arrange-Act-Assert (준비-실행-검증)"
 description: "단위 테스트를 세 단계로 구조화하는 패턴"
 tags: ["Software Engineering", "Testing", "Pattern"]
 created: 2026-02-27
@@ -63,6 +63,6 @@ class TestShoppingCart:
 
 ## 관련 개념
 
-- [Unit Testing](/knowledge/software-engineering/testing/unit-testing/)
-- [Test-Driven Development](/knowledge/software-engineering/testing/test-driven-development/)
-- [Mocking](/knowledge/software-engineering/testing/mocking/)
+- [단위 테스팅 (Unit Testing)](/knowledge/software-engineering/testing/unit-testing/)
+- [테스트 주도 개발 (Test-Driven Development)](/knowledge/software-engineering/testing/test-driven-development/)
+- [모킹 (Mocking)](/knowledge/software-engineering/testing/mocking/)

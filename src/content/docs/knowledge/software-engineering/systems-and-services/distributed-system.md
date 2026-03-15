@@ -1,5 +1,5 @@
 ---
-title: "Distributed System"
+title: "분산 시스템 (Distributed System)"
 description: "분산 시스템은 사용자에게 단일한 일관성 있는 시스템으로 보이는 독립적인 컴퓨터들의 집합으로, 네트워크로 연결된 여러 컴퓨터에서 실행되는 시스템이다"
 tags: ['Distributed System', 'Scalability', 'Transparency', 'Fault Tolerance', 'Concurrency', 'Network']
 created: 2026-02-16
@@ -20,8 +20,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Client-Server Computing](/knowledge/software-engineering/client-server-computing/)
-- [Middleware](/knowledge/software-engineering/middleware/)
-- [Peer-to-Peer Architecture](/knowledge/software-engineering/peer-to-peer-architecture/)
-- [Software as a Service](/knowledge/software-engineering/software-as-a-service/)
-- [Service-Oriented Architecture](/knowledge/software-engineering/service-oriented-architecture/)
+- [클라이언트-서버 컴퓨팅 (Client-Server Computing)](/knowledge/software-engineering/client-server-computing/)
+- [미들웨어 (Middleware)](/knowledge/software-engineering/middleware/)
+- [피어투피어 아키텍처 (Peer-to-Peer Architecture)](/knowledge/software-engineering/peer-to-peer-architecture/)
+- [서비스형 소프트웨어 (Software as a Service)](/knowledge/software-engineering/software-as-a-service/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/software-engineering/service-oriented-architecture/)

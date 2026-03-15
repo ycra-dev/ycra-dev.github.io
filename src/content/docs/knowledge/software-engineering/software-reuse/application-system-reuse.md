@@ -1,5 +1,5 @@
 ---
-title: "Application System Reuse"
+title: "애플리케이션 시스템 재사용 (Application System Reuse)"
 description: "애플리케이션 시스템 재사용은 소스 코드를 변경하지 않고 고객의 요구에 맞게 적응할 수 있는 대규모 기성(off-the-shelf) 소프트웨어 제품을 재사용하는 것이다"
 tags: ['Application System Reuse', 'Software Reuse', 'Cots', 'Off The Shelf', 'System Integration', 'Adaptor']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Reuse](/knowledge/software-engineering/software-reuse/)
-- [Enterprise Resource Planning](/knowledge/software-engineering/enterprise-resource-planning/)
-- [Software Product Line](/knowledge/software-engineering/software-product-line/)
-- [Service-Oriented Architecture](/knowledge/software-engineering/service-oriented-architecture/)
+- [소프트웨어 재사용 (Software Reuse)](/knowledge/software-engineering/software-reuse/)
+- [전사적 자원 관리 (Enterprise Resource Planning)](/knowledge/software-engineering/enterprise-resource-planning/)
+- [소프트웨어 프로덕트 라인 (Software Product Line)](/knowledge/software-engineering/software-product-line/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/software-engineering/service-oriented-architecture/)

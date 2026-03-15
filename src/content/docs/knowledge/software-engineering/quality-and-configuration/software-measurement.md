@@ -1,5 +1,5 @@
 ---
-title: "Software Measurement"
+title: "소프트웨어 측정 (Software Measurement)"
 description: "소프트웨어 측정은 소프트웨어 시스템의 복잡성, 신뢰성 등의 속성을 정량화하여 소프트웨어 프로세스, 도구, 방법의 효과를 평가하는 활동이다"
 tags: ['Software Measurement', 'Metrics', 'Cyclomatic Complexity', 'Static Analysis', 'Software Metrics']
 created: 2026-02-16
@@ -27,6 +27,6 @@ CBO (Coupling Between Object Classes): 클래스 간 결합도 측정
 
 ## 관련 개념
 
-- [Software Quality Management](/knowledge/software-engineering/software-quality-management/)
-- [Software Analytics](/knowledge/software-engineering/software-analytics/)
-- [Reviews and Inspections](/knowledge/software-engineering/reviews-and-inspections/)
+- [소프트웨어 품질 관리 (Software Quality Management)](/knowledge/software-engineering/software-quality-management/)
+- [소프트웨어 분석 (Software Analytics)](/knowledge/software-engineering/software-analytics/)
+- [리뷰와 인스펙션 (Reviews and Inspections)](/knowledge/software-engineering/reviews-and-inspections/)

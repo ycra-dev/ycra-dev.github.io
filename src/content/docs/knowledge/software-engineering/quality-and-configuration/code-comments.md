@@ -1,5 +1,5 @@
 ---
-title: "Code Comments"
+title: "코드 주석 (Code Comments)"
 description: "소스 코드 내에 작성되는 설명 — Google에서 엔지니어가 작성하는 대부분의 문서화가 코드 주석 형태로 이루어지며, '왜(why)'를 설명하는 것이 핵심이다"
 tags: ["Software Engineering", "Quality", "Documentation", "Code Comments", "Readability"]
 created: 2026-02-27
@@ -47,6 +47,6 @@ retryCount++;
 
 ## 관련 개념
 
-- [Documentation as Code](/knowledge/software-engineering/quality-and-configuration/documentation-as-code/)
-- [Documentation Types](/knowledge/software-engineering/quality-and-configuration/documentation-types/)
-- [Code as Communication](/knowledge/software-engineering/quality-and-configuration/code-as-communication/)
+- [코드로서의 문서 (Documentation as Code)](/knowledge/software-engineering/quality-and-configuration/documentation-as-code/)
+- [문서 유형 (Documentation Types)](/knowledge/software-engineering/quality-and-configuration/documentation-types/)
+- [커뮤니케이션으로서의 코드 (Code as Communication)](/knowledge/software-engineering/quality-and-configuration/code-as-communication/)

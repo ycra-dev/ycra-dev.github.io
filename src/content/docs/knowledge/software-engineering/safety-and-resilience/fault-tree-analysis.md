@@ -1,5 +1,5 @@
 ---
-title: "Fault Tree Analysis"
+title: "장애 트리 분석 (Fault Tree Analysis)"
 description: "식별된 위험(hazard)에서 시작하여 그 위험의 가능한 원인을 역추적으로 분해하는 하향식(top-down) 위험 분석 기법이다"
 tags: ['Fault Tree Analysis', 'Hazard Analysis', 'Safety', 'Top Down', 'Root Cause', 'And Gate', 'Or Gate']
 created: 2026-02-16
@@ -20,8 +20,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Hazard Analysis](/knowledge/software-engineering/hazard-analysis/)
-- [Safety-Critical Systems](/knowledge/software-engineering/safety-critical-systems/)
-- [Risk Assessment](/knowledge/software-engineering/risk-assessment/)
-- [Safety Case](/knowledge/software-engineering/safety-case/)
-- [Swiss Cheese Model](/knowledge/software-engineering/swiss-cheese-model/)
+- [위험 분석 (Hazard Analysis)](/knowledge/software-engineering/hazard-analysis/)
+- [안전 필수 시스템 (Safety-Critical Systems)](/knowledge/software-engineering/safety-critical-systems/)
+- [위험 평가 (Risk Assessment)](/knowledge/software-engineering/risk-assessment/)
+- [안전 사례 (Safety Case)](/knowledge/software-engineering/safety-case/)
+- [스위스 치즈 모델 (Swiss Cheese Model)](/knowledge/software-engineering/swiss-cheese-model/)

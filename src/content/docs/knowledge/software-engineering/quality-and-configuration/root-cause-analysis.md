@@ -1,5 +1,5 @@
 ---
-title: "Root-Cause Analysis"
+title: "근본 원인 분석 (Root-Cause Analysis)"
 description: "장애의 근본 원인을 찾기 위해 왜를 반복적으로 묻는 분석 기법"
 tags: ["Software Engineering", "Debugging", "Incident Management"]
 created: 2026-02-27
@@ -63,6 +63,6 @@ Five Whys 방법:
 
 ## 관련 개념
 
-- [Incident Response](/knowledge/software-engineering/quality-and-configuration/incident-response/)
-- [Postmortem](/knowledge/software-engineering/quality-and-configuration/postmortem/)
-- [Debugging](/knowledge/software-engineering/foundations/debugging/)
+- [장애 대응 (Incident Response)](/knowledge/software-engineering/quality-and-configuration/incident-response/)
+- [포스트모템 (Postmortem)](/knowledge/software-engineering/quality-and-configuration/postmortem/)
+- [디버깅 (Debugging)](/knowledge/software-engineering/foundations/debugging/)

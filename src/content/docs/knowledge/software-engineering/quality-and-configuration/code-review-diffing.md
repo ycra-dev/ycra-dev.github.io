@@ -1,5 +1,5 @@
 ---
-title: "Code Review Diffing"
+title: "코드 리뷰 디핑 (Code Review Diffing)"
 description: "코드 변경 사항의 차이를 최적화하여 표시하는 코드 리뷰 도구의 핵심 기능"
 tags: ["Software Engineering", "Code Review", "Developer Tools"]
 created: 2026-02-27
@@ -32,4 +32,4 @@ Critique는 최적화된 최장 공통 부분수열(longest common subsequence) 
 
 ## 관련 개념
 
-- [Critique](/knowledge/software-engineering/quality-and-configuration/critique/)
+- [크리틱 (Critique)](/knowledge/software-engineering/quality-and-configuration/critique/)

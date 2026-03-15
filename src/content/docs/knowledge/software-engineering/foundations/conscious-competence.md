@@ -1,5 +1,5 @@
 ---
-title: "Conscious Competence"
+title: "의식적 역량 (Conscious Competence)"
 description: "Four Stages of Competence 모델의 학습 단계 - 의식적으로 노력하여 수행 가능한 상태"
 tags: ["Software Engineering", "Learning", "Skill Development"]
 created: 2026-02-27
@@ -14,7 +14,7 @@ sidebar:
 
 의식적 유능(Conscious Competence)은 Four Stages of Competence 모델의 세 번째 단계이다. 의식적 노력을 통해 기술을 수행할 수 있는 상태로, 새로운 엔지니어가 온보딩 시 빠르게 도달해야 하는 목표 상태이다.
 
-이 개념은 [Four Stages of Competence](/knowledge/software-engineering/foundations/four-stages-of-competence/)의 일부이다. 별도 항목으로 다루는 이유는 새 엔지니어 온보딩에서 특별히 강조되는 단계이기 때문이다.
+이 개념은 [역량의 4단계 (Four Stages of Competence)](/knowledge/software-engineering/foundations/four-stages-of-competence/)의 일부이다. 별도 항목으로 다루는 이유는 새 엔지니어 온보딩에서 특별히 강조되는 단계이기 때문이다.
 
 ## 동작 원리
 
@@ -39,7 +39,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Four Stages of Competence](/knowledge/software-engineering/foundations/four-stages-of-competence/)
-- [Dreyfus Model](/knowledge/software-engineering/foundations/dreyfus-model/)
-- [Impostor Syndrome](/knowledge/software-engineering/foundations/impostor-syndrome/)
-- [Dunning-Kruger Effect](/knowledge/software-engineering/foundations/dunning-kruger-effect/)
+- [역량의 4단계 (Four Stages of Competence)](/knowledge/software-engineering/foundations/four-stages-of-competence/)
+- [드레이퍼스 모델 (Dreyfus Model)](/knowledge/software-engineering/foundations/dreyfus-model/)
+- [가면 증후군 (Impostor Syndrome)](/knowledge/software-engineering/foundations/impostor-syndrome/)
+- [더닝-크루거 효과 (Dunning-Kruger Effect)](/knowledge/software-engineering/foundations/dunning-kruger-effect/)

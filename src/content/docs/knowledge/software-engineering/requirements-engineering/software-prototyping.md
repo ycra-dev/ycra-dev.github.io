@@ -1,5 +1,5 @@
 ---
-title: "Software Prototyping"
+title: "소프트웨어 프로토타이핑 (Software Prototyping)"
 description: "소프트웨어 프로토타이핑은 시스템의 초기 버전을 빠르게 구현하여 고객의 요구사항을 검증하고 설계 결정의 타당성을 확인하는 소프트웨어 개발 기법이다"
 tags: ['Prototyping', 'Requirements Validation', 'Rapid Development', 'Throwaway Prototype']
 created: 2026-02-16
@@ -20,5 +20,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Requirements Engineering](/knowledge/software-engineering/requirements-engineering/)
-- [Incremental Development](/knowledge/software-engineering/incremental-development/)
+- [요구사항 공학 (Requirements Engineering)](/knowledge/software-engineering/requirements-engineering/)
+- [점진적 개발 (Incremental Development)](/knowledge/software-engineering/incremental-development/)

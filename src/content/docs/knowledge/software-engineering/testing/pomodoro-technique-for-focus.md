@@ -32,6 +32,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Bug Fix Cycle Optimization](/knowledge/software-engineering/testing/bug-fix-cycle-optimization/)
-- [Developer-QA Collaboration](/knowledge/software-engineering/testing/developer-qa-collaboration/)
-- [Team Communication and Collaboration](/knowledge/career/workplace/team-communication-and-collaboration/)
+- [버그 수정 주기 최적화 (Bug Fix Cycle Optimization)](/knowledge/software-engineering/testing/bug-fix-cycle-optimization/)
+- [개발자-QA 협업 (Developer-QA Collaboration)](/knowledge/software-engineering/testing/developer-qa-collaboration/)
+- [팀 커뮤니케이션과 협업 (Team Communication and Collaboration)](/knowledge/career/workplace/team-communication-and-collaboration/)

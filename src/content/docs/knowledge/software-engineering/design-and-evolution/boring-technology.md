@@ -1,5 +1,5 @@
 ---
-title: "Boring Technology"
+title: "지루한 기술 (Boring Technology)"
 description: "Dan McKinley가 제안한 개념으로, 검증된 기술을 새로운 기술보다 우선 선택하는 전략"
 tags: ["Software Engineering", "Technology Choice", "Risk Management"]
 created: 2026-02-27
@@ -54,6 +54,6 @@ LinkedIn의 Scala 도입 사례:
 
 ## 관련 개념
 
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
-- [Software Entropy](/knowledge/software-engineering/design-and-evolution/software-entropy/)
-- [YAGNI](/knowledge/software-engineering/design-and-evolution/yagni/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [소프트웨어 엔트로피 (Software Entropy)](/knowledge/software-engineering/design-and-evolution/software-entropy/)
+- [YAGNI 원칙 (YAGNI)](/knowledge/software-engineering/design-and-evolution/yagni/)

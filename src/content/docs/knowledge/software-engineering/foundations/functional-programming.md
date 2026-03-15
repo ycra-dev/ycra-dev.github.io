@@ -1,5 +1,5 @@
 ---
-title: "Functional Programming"
+title: "함수형 프로그래밍 (Functional Programming)"
 description: "함수를 일급 객체로 취급하고, 부작용 없는 순수 함수와 불변 데이터를 기반으로 프로그램을 구성하는 프로그래밍 패러다임이다."
 tags: ["Software Engineering", "Programming Paradigm", "Functional"]
 created: 2026-02-27

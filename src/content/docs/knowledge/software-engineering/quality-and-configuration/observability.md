@@ -1,5 +1,5 @@
 ---
-title: "Observability"
+title: "관측 가능성 (Observability)"
 description: "시스템의 외부 출력을 통해 내부 상태를 파악할 수 있는 정도"
 tags: ["Software Engineering", "Operations", "Monitoring", "SRE"]
 created: 2026-02-27
@@ -82,7 +82,7 @@ alerts:
 
 ## 관련 개념
 
-- [Log Levels](/knowledge/software-engineering/quality-and-configuration/log-levels/)
-- [Distributed Tracing](/knowledge/software-engineering/quality-and-configuration/distributed-tracing/)
-- [Service Level Objective](/knowledge/software-engineering/quality-and-configuration/service-level-objective/)
-- [Incident Response](/knowledge/software-engineering/quality-and-configuration/incident-response/)
+- [로그 레벨 (Log Levels)](/knowledge/software-engineering/quality-and-configuration/log-levels/)
+- [분산 추적 (Distributed Tracing)](/knowledge/software-engineering/quality-and-configuration/distributed-tracing/)
+- [서비스 수준 목표 (Service Level Objective)](/knowledge/software-engineering/quality-and-configuration/service-level-objective/)
+- [장애 대응 (Incident Response)](/knowledge/software-engineering/quality-and-configuration/incident-response/)

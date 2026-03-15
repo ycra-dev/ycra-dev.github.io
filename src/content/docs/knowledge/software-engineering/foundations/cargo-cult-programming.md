@@ -45,6 +45,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Agile Development](/knowledge/software-engineering/agile-methods/agile-development/)
-- [Object-Oriented Design](/knowledge/software-engineering/design-and-evolution/object-oriented-design/)
+- [애자일 개발 (Agile Development)](/knowledge/software-engineering/agile-methods/agile-development/)
+- [객체지향 설계 (Object-Oriented Design)](/knowledge/software-engineering/design-and-evolution/object-oriented-design/)
 - [Mid-Career Switch to Development](/knowledge/career/professional-development/mid-career-switch-to-development/)

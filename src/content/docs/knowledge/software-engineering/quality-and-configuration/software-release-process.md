@@ -1,5 +1,5 @@
 ---
-title: "Software Release Process"
+title: "소프트웨어 릴리스 프로세스 (Software Release Process)"
 description: "개발된 소프트웨어를 사용자에게 전달하기 위한 체계적인 절차"
 tags: ["Software Engineering", "Release Management", "DevOps"]
 created: 2026-02-27
@@ -73,7 +73,7 @@ git checkout main && git merge release/2.1.0
 
 ## 관련 개념
 
-- [Continuous Integration](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
-- [Continuous Delivery](/knowledge/software-engineering/quality-and-configuration/continuous-delivery/)
-- [Code Freeze](/knowledge/software-engineering/quality-and-configuration/code-freeze/)
-- [Semantic Versioning](/knowledge/software-engineering/quality-and-configuration/semantic-versioning/)
+- [지속적 통합 (Continuous Integration)](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
+- [지속적 전달 (Continuous Delivery)](/knowledge/software-engineering/quality-and-configuration/continuous-delivery/)
+- [코드 프리즈 (Code Freeze)](/knowledge/software-engineering/quality-and-configuration/code-freeze/)
+- [시맨틱 버전 관리 (Semantic Versioning)](/knowledge/software-engineering/quality-and-configuration/semantic-versioning/)

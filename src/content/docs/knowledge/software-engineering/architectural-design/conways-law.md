@@ -1,5 +1,5 @@
 ---
-title: "Conway's Law"
+title: "콘웨이의 법칙 (Conway's Law)"
 description: "시스템을 설계하는 조직은 자신의 커뮤니케이션 구조를 반영하는 설계를 만든다"
 tags: ["Software Engineering", "Architecture", "Organization"]
 created: 2026-02-27
@@ -61,7 +61,7 @@ After:
 
 ## 관련 개념
 
-- [Software Architecture](/knowledge/software-engineering/architectural-design/software-architecture/)
-- [Cohesion](/knowledge/software-engineering/architectural-design/cohesion/)
-- [Coupling](/knowledge/software-engineering/architectural-design/coupling/)
-- [Domain-Driven Design](/knowledge/software-engineering/architectural-design/domain-driven-design/)
+- [소프트웨어 아키텍처 (Software Architecture)](/knowledge/software-engineering/architectural-design/software-architecture/)
+- [응집도 (Cohesion)](/knowledge/software-engineering/architectural-design/cohesion/)
+- [결합도 (Coupling)](/knowledge/software-engineering/architectural-design/coupling/)
+- [도메인 주도 설계 (Domain-Driven Design)](/knowledge/software-engineering/architectural-design/domain-driven-design/)

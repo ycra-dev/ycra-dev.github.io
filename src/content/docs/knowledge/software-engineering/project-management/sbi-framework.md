@@ -1,5 +1,5 @@
 ---
-title: "SBI Framework"
+title: "SBI 프레임워크 (SBI Framework)"
 description: "상황, 행동, 영향 세 요소로 구조화하여 방어적 반응을 줄이는 피드백 전달 방법"
 tags: ["Software Engineering", "Feedback", "Communication", "Management"]
 created: 2026-02-27
@@ -65,6 +65,6 @@ Impact:   "덕분에 장애가 15분 만에 해결되었고,
 
 ## 관련 개념
 
-- [One-on-One Meeting](/knowledge/software-engineering/project-management/one-on-one-meeting/)
-- [OKR](/knowledge/software-engineering/project-management/okr/)
-- [Psychological Safety](/knowledge/software-engineering/agile-methods/psychological-safety/)
+- [일대일 미팅 (One-on-One Meeting)](/knowledge/software-engineering/project-management/one-on-one-meeting/)
+- [OKR (목표와 핵심 결과)](/knowledge/software-engineering/project-management/okr/)
+- [심리적 안전감 (Psychological Safety)](/knowledge/software-engineering/agile-methods/psychological-safety/)

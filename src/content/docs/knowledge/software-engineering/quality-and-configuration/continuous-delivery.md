@@ -1,5 +1,5 @@
 ---
-title: "Continuous Delivery"
+title: "지속적 전달 (Continuous Delivery)"
 description: "패키징, 테스팅, 릴리스, 배포를 모두 자동화하여 인간의 개입 없이 소프트웨어를 전달하는 자동화"
 tags: ["Software Engineering", "DevOps", "Automation", "Deployment"]
 created: 2026-02-27
@@ -87,7 +87,7 @@ jobs:
 
 ## 관련 개념
 
-- [Continuous Integration](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
-- [Trunk-Based Development](/knowledge/software-engineering/quality-and-configuration/trunk-based-development/)
-- [Feature Flag](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
-- [Canary Deployment](/knowledge/software-engineering/quality-and-configuration/canary-deployment/)
+- [지속적 통합 (Continuous Integration)](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
+- [트렁크 기반 개발 (Trunk-Based Development)](/knowledge/software-engineering/quality-and-configuration/trunk-based-development/)
+- [기능 플래그 (Feature Flag)](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
+- [카나리 배포 (Canary Deployment)](/knowledge/software-engineering/quality-and-configuration/canary-deployment/)

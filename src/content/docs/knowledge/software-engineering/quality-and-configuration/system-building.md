@@ -1,5 +1,5 @@
 ---
-title: "System Building"
+title: "시스템 빌드 (System Building)"
 description: "시스템 빌드는 프로그램 컴포넌트, 외부 라이브러리, 구성 파일 등을 어셈블하고 컴파일하여 실행 가능한 시스템을 생성하는 프로세스이다"
 tags: ['System Building', 'Build Automation', 'Compilation', 'Continuous Integration', 'Build Tools']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Version Management](/knowledge/software-engineering/version-management/)
-- [Change Management](/knowledge/software-engineering/change-management/)
-- [Release Management](/knowledge/software-engineering/release-management/)
+- [버전 관리 (Version Management)](/knowledge/software-engineering/version-management/)
+- [변경 관리 (Change Management)](/knowledge/software-engineering/change-management/)
+- [릴리스 관리 (Release Management)](/knowledge/software-engineering/release-management/)

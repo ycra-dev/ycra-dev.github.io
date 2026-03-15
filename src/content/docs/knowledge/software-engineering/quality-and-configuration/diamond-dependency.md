@@ -1,5 +1,5 @@
 ---
-title: "Diamond Dependency"
+title: "다이아몬드 의존성 (Diamond Dependency)"
 description: "두 개 이상의 직접 의존성이 같은 라이브러리의 서로 다른 버전에 의존하는 충돌"
 tags: ["Software Engineering", "Dependency Management", "Conflict Resolution"]
 created: 2026-02-27
@@ -68,6 +68,6 @@ gradle dependencies | grep slf4j
 
 ## 관련 개념
 
-- [Dependency Hell](/knowledge/software-engineering/quality-and-configuration/dependency-hell/)
-- [Transitive Dependency](/knowledge/software-engineering/quality-and-configuration/transitive-dependency/)
-- [Semantic Versioning](/knowledge/software-engineering/quality-and-configuration/semantic-versioning/)
+- [의존성 지옥 (Dependency Hell)](/knowledge/software-engineering/quality-and-configuration/dependency-hell/)
+- [이행적 의존성 (Transitive Dependency)](/knowledge/software-engineering/quality-and-configuration/transitive-dependency/)
+- [시맨틱 버전 관리 (Semantic Versioning)](/knowledge/software-engineering/quality-and-configuration/semantic-versioning/)

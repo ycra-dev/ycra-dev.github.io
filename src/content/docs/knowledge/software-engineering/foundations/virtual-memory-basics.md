@@ -60,7 +60,7 @@ RAM은 나노초 단위로 접근 가능하지만, 디스크는 밀리초 단위
 ## 관련 개념
 
 - [운영체제 (Operating System)](/knowledge/software-engineering/operating-system-basics/) - 가상 메모리를 관리하는 시스템 소프트웨어
-- [RAM](/knowledge/computer-architecture/ram/) - 가상 메모리가 매핑되는 물리적 메모리
+- [RAM (랜덤 액세스 메모리)](/knowledge/computer-architecture/ram/) - 가상 메모리가 매핑되는 물리적 메모리
 - [보조기억장치 (Secondary Storage)](/knowledge/computer-architecture/secondary-storage/) - 스왑 영역으로 사용되는 보조기억장치
 - [파일 시스템 (File System)](/knowledge/software-engineering/file-system-basics/) - 디스크 추상화의 또 다른 형태
 - [캐시 (Cache)](/knowledge/computer-architecture/cache-basics/) - 메모리 계층 구조에서 RAM보다 빠른 단계

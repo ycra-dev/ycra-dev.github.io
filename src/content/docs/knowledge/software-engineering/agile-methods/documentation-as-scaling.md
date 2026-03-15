@@ -1,5 +1,5 @@
 ---
-title: "Documentation as Scaling"
+title: "확장 수단으로서의 문서화 (Documentation as Scaling)"
 description: "문서화는 팀과 조직의 확장을 가능하게 하는 핵심 메커니즘 — 처음 배울 때가 개선의 최적 시점이며, 발견 가능성이 핵심이다"
 tags: ["Software Engineering", "Agile", "Documentation", "Knowledge Management"]
 created: 2026-02-27
@@ -34,6 +34,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Canonical Sources of Information](/knowledge/software-engineering/agile-methods/canonical-sources-of-information/)
-- [Knowledge Sharing Culture](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
-- [Scalability of Policies](/knowledge/software-engineering/foundations/scalability-of-policies/)
+- [정보의 정식 소스 (Canonical Sources of Information)](/knowledge/software-engineering/agile-methods/canonical-sources-of-information/)
+- [지식 공유 문화 (Knowledge Sharing Culture)](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
+- [정책의 확장성 (Scalability of Policies)](/knowledge/software-engineering/foundations/scalability-of-policies/)

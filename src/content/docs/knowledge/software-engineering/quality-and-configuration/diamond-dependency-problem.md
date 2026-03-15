@@ -1,5 +1,5 @@
 ---
-title: "Diamond Dependency Problem"
+title: "다이아몬드 의존성 문제 (Diamond Dependency Problem)"
 description: "두 개의 중간 의존성이 동일한 하위 의존성의 서로 다른 호환되지 않는 버전을 요구할 때 발생하는 충돌 상황"
 tags: ["Software Engineering", "Dependencies"]
 created: 2026-02-27
@@ -41,7 +41,7 @@ MyApp
 
 ## 관련 개념
 
-- [Dependency Management](/knowledge/software-engineering/quality-and-configuration/dependency-management/)
-- [Live at Head](/knowledge/software-engineering/quality-and-configuration/live-at-head/)
-- [Bundled Distribution Model](/knowledge/software-engineering/quality-and-configuration/bundled-distribution-model/)
-- [Minimum Version Selection](/knowledge/software-engineering/quality-and-configuration/minimum-version-selection/)
+- [의존성 관리 (Dependency Management)](/knowledge/software-engineering/quality-and-configuration/dependency-management/)
+- [최신 버전 사용 (Live at Head)](/knowledge/software-engineering/quality-and-configuration/live-at-head/)
+- [번들 배포 모델 (Bundled Distribution Model)](/knowledge/software-engineering/quality-and-configuration/bundled-distribution-model/)
+- [최소 버전 선택 (Minimum Version Selection)](/knowledge/software-engineering/quality-and-configuration/minimum-version-selection/)

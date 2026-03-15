@@ -1,5 +1,5 @@
 ---
-title: "Software Complexity"
+title: "소프트웨어 복잡도 (Software Complexity)"
 description: "소프트웨어 시스템을 이해하고 수정하기 어렵게 만드는 구조적 특성의 총합"
 tags: ["Software Engineering", "Architecture", "Maintainability"]
 created: 2026-02-27
@@ -70,8 +70,8 @@ KafkaConsumer consumer = new KafkaConsumer(config);
 
 ## 관련 개념
 
-- [Cohesion](/knowledge/software-engineering/architectural-design/cohesion/)
-- [Coupling](/knowledge/software-engineering/architectural-design/coupling/)
-- [KISS Principle](/knowledge/software-engineering/foundations/kiss-principle/)
-- [YAGNI](/knowledge/software-engineering/design-and-evolution/yagni/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [응집도 (Cohesion)](/knowledge/software-engineering/architectural-design/cohesion/)
+- [결합도 (Coupling)](/knowledge/software-engineering/architectural-design/coupling/)
+- [KISS 원칙 (KISS Principle)](/knowledge/software-engineering/foundations/kiss-principle/)
+- [YAGNI 원칙 (YAGNI)](/knowledge/software-engineering/design-and-evolution/yagni/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)

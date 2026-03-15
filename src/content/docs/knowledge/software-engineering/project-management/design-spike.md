@@ -1,5 +1,5 @@
 ---
-title: "Design Spike"
+title: "설계 스파이크 (Design Spike)"
 description: "시간 제한이 있는 탐색적 조사로 설계 불확실성을 제거하는 기법"
 tags: ["Software Engineering", "Agile", "Design", "Prototyping"]
 created: 2026-02-27
@@ -67,7 +67,7 @@ RFD(Request for Decision)는 경량 설계 리뷰로, 스파이크보다 빠른 
 
 ## 관련 개념
 
-- [Design Document](/knowledge/software-engineering/project-management/design-document/)
-- [Timeboxing](/knowledge/software-engineering/agile-methods/timeboxing/)
-- [Task Decomposition](/knowledge/software-engineering/project-management/task-decomposition/)
-- [YAGNI](/knowledge/software-engineering/design-and-evolution/yagni/)
+- [설계 문서 (Design Document)](/knowledge/software-engineering/project-management/design-document/)
+- [타임박싱 (Timeboxing)](/knowledge/software-engineering/agile-methods/timeboxing/)
+- [작업 분해 (Task Decomposition)](/knowledge/software-engineering/project-management/task-decomposition/)
+- [YAGNI 원칙 (YAGNI)](/knowledge/software-engineering/design-and-evolution/yagni/)

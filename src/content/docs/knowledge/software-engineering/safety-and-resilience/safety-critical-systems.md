@@ -1,5 +1,5 @@
 ---
-title: "Safety-Critical Systems"
+title: "안전 필수 시스템 (Safety-Critical Systems)"
 description: "시스템 운영이 항상 안전해야 하는 시스템으로, 시스템이 명세에 부합하든 그렇지 않든 사람이나 환경에 피해를 주어서는 안 되는 시스템이다"
 tags: ['Safety Critical', 'Safety', 'Hazard', 'System Failure', 'Human Injury', 'Software Safety']
 created: 2026-02-16
@@ -20,9 +20,9 @@ sidebar:
 
 ## 관련 개념
 
-- [Hazard Analysis](/knowledge/software-engineering/hazard-analysis/)
-- [Safety Case](/knowledge/software-engineering/safety-case/)
-- [Dependability](/knowledge/software-engineering/dependability/)
-- [Reliability](/knowledge/software-engineering/reliability/)
-- [Fault Tree Analysis](/knowledge/software-engineering/fault-tree-analysis/)
-- [Risk Assessment](/knowledge/software-engineering/risk-assessment/)
+- [위험 분석 (Hazard Analysis)](/knowledge/software-engineering/hazard-analysis/)
+- [안전 사례 (Safety Case)](/knowledge/software-engineering/safety-case/)
+- [신뢰성 (Dependability)](/knowledge/software-engineering/dependability/)
+- [신뢰성 (Reliability)](/knowledge/software-engineering/reliability/)
+- [장애 트리 분석 (Fault Tree Analysis)](/knowledge/software-engineering/fault-tree-analysis/)
+- [위험 평가 (Risk Assessment)](/knowledge/software-engineering/risk-assessment/)

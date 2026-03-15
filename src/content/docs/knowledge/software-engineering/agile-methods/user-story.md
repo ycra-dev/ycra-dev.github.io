@@ -1,5 +1,5 @@
 ---
-title: "User Story"
+title: "사용자 스토리 (User Story)"
 description: "사용자 관점에서 요구사항을 서술하는 애자일의 작업 단위"
 tags: ["Software Engineering", "Agile", "Requirements", "User Story"]
 created: 2026-02-27
@@ -61,7 +61,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Scrum](/knowledge/software-engineering/agile-methods/scrum/)
-- [Story Points](/knowledge/software-engineering/agile-methods/story-points/)
-- [Agile Software Development](/knowledge/software-engineering/agile-methods/agile-software-development/)
-- [Design Spike](/knowledge/software-engineering/project-management/design-spike/)
+- [스크럼 (Scrum)](/knowledge/software-engineering/agile-methods/scrum/)
+- [스토리 포인트 (Story Points)](/knowledge/software-engineering/agile-methods/story-points/)
+- [애자일 소프트웨어 개발 (Agile Software Development)](/knowledge/software-engineering/agile-methods/agile-software-development/)
+- [설계 스파이크 (Design Spike)](/knowledge/software-engineering/project-management/design-spike/)

@@ -1,5 +1,5 @@
 ---
-title: "Concurrency"
+title: "동시성 (Concurrency)"
 description: "여러 작업이 시간적으로 겹쳐서 실행되는 프로그래밍 모델"
 tags: ["Software Engineering", "Threading", "Parallel Programming"]
 created: 2026-02-27
@@ -53,7 +53,7 @@ def safe_increment():
 
 ## 관련 개념
 
-- [Defensive Programming](/knowledge/software-engineering/foundations/defensive-programming/)
-- [Debugging](/knowledge/software-engineering/foundations/debugging/)
-- [Heisenbug](/knowledge/software-engineering/foundations/heisenbug/)
-- [Immutability](/knowledge/software-engineering/foundations/immutability/)
+- [방어적 프로그래밍 (Defensive Programming)](/knowledge/software-engineering/foundations/defensive-programming/)
+- [디버깅 (Debugging)](/knowledge/software-engineering/foundations/debugging/)
+- [하이젠버그 (Heisenbug)](/knowledge/software-engineering/foundations/heisenbug/)
+- [불변성 (Immutability)](/knowledge/software-engineering/foundations/immutability/)

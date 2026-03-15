@@ -1,5 +1,5 @@
 ---
-title: "Circuit Breaker"
+title: "서킷 브레이커 (Circuit Breaker)"
 description: "운영 이벤트에 의해 자동으로 제어되는 특수한 기능 비활성화 메커니즘"
 tags: ["Software Engineering", "Resilience", "Fault Tolerance", "Design Pattern"]
 created: 2026-02-27
@@ -81,7 +81,7 @@ class CircuitBreaker:
 
 ## 관련 개념
 
-- [Feature Flag](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
-- [Exponential Backoff](/knowledge/software-engineering/foundations/exponential-backoff/)
-- [Defensive Programming](/knowledge/software-engineering/foundations/defensive-programming/)
-- [Service Level Objective](/knowledge/software-engineering/quality-and-configuration/service-level-objective/)
+- [기능 플래그 (Feature Flag)](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
+- [지수 백오프 (Exponential Backoff)](/knowledge/software-engineering/foundations/exponential-backoff/)
+- [방어적 프로그래밍 (Defensive Programming)](/knowledge/software-engineering/foundations/defensive-programming/)
+- [서비스 수준 목표 (Service Level Objective)](/knowledge/software-engineering/quality-and-configuration/service-level-objective/)

@@ -1,5 +1,5 @@
 ---
-title: "Larger Test Challenges"
+title: "대형 테스트의 과제 (Larger Test Challenges)"
 description: "대형 테스트를 작성하고 유지보수할 때 직면하는 고유한 어려움들로, 소유권, 비결정성, 인프라 비용, 디버깅 난이도 등이 포함된다"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -45,7 +45,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Larger Testing](/knowledge/software-engineering/testing/larger-testing/)
-- [Flaky Tests](/knowledge/software-engineering/testing/flaky-tests/)
-- [Test Fidelity](/knowledge/software-engineering/testing/test-fidelity/)
-- [SUT Configuration](/knowledge/software-engineering/testing/sut-configuration/)
+- [대형 테스팅 (Larger Testing)](/knowledge/software-engineering/testing/larger-testing/)
+- [불안정 테스트 (Flaky Tests)](/knowledge/software-engineering/testing/flaky-tests/)
+- [테스트 충실도 (Test Fidelity)](/knowledge/software-engineering/testing/test-fidelity/)
+- [SUT 구성 (SUT Configuration)](/knowledge/software-engineering/testing/sut-configuration/)

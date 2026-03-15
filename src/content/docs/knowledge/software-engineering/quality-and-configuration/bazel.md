@@ -1,5 +1,5 @@
 ---
-title: "Bazel"
+title: "바젤 (Bazel)"
 description: "Google 내부 빌드 시스템 Blaze의 오픈소스 구현으로, 대규모 빌드에서 빠르고 정확한 빌드를 보장하는 아티팩트 기반 빌드 시스템"
 tags: ["Software Engineering", "Build Systems"]
 created: 2026-02-27
@@ -44,7 +44,7 @@ java_library(
 
 ## 관련 개념
 
-- [Artifact-Based Build Systems](/knowledge/software-engineering/quality-and-configuration/artifact-based-build-systems/)
-- [Hermetic Builds](/knowledge/software-engineering/quality-and-configuration/hermetic-builds/)
-- [Remote Execution and Caching](/knowledge/software-engineering/quality-and-configuration/remote-execution-and-caching/)
-- [Build Dependency Management](/knowledge/software-engineering/quality-and-configuration/build-dependency-management/)
+- [아티팩트 기반 빌드 시스템 (Artifact-Based Build Systems)](/knowledge/software-engineering/quality-and-configuration/artifact-based-build-systems/)
+- [밀폐 빌드 (Hermetic Builds)](/knowledge/software-engineering/quality-and-configuration/hermetic-builds/)
+- [원격 실행과 캐싱 (Remote Execution and Caching)](/knowledge/software-engineering/quality-and-configuration/remote-execution-and-caching/)
+- [빌드 의존성 관리 (Build Dependency Management)](/knowledge/software-engineering/quality-and-configuration/build-dependency-management/)

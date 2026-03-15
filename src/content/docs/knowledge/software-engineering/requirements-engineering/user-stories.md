@@ -1,5 +1,5 @@
 ---
-title: "User Stories"
+title: "사용자 스토리 (User Stories)"
 description: "사용자 스토리는 시스템이 사용자에게 제공해야 하는 기능이나 시나리오를 간결하게 기술한 것으로, 애자일 개발에서 요구사항을 표현하는 기본 단위이다"
 tags: ['User Stories', 'Agile', 'Requirements', 'Story Points', 'Product Backlog']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Agile Software Development](/knowledge/software-engineering/agile-software-development/)
-- [Scrum](/knowledge/software-engineering/scrum/)
-- [Requirements Engineering](/knowledge/software-engineering/requirements-engineering/)
+- [애자일 소프트웨어 개발 (Agile Software Development)](/knowledge/software-engineering/agile-software-development/)
+- [스크럼 (Scrum)](/knowledge/software-engineering/scrum/)
+- [요구사항 공학 (Requirements Engineering)](/knowledge/software-engineering/requirements-engineering/)

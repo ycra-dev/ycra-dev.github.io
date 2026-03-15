@@ -1,5 +1,5 @@
 ---
-title: "MVC Pattern"
+title: "MVC 패턴 (MVC Pattern)"
 description: "MVC(Model-View-Controller) 패턴은 시스템을 모델(데이터와 비즈니스 로직), 뷰(사용자 인터페이스), 컨트롤러(사용자 입력 처리)의 세 구성요소로 분리하는 아키텍처 패턴이다"
 tags: ['MVC', 'Model View Controller', 'Separation Of Concerns', 'Web Framework', 'Architecture']
 created: 2026-02-16
@@ -20,6 +20,6 @@ MVC 패턴은 관심사 분리(separation of concerns) 원칙을 적용하여 UI
 
 ## 관련 개념
 
-- [Architectural Patterns](/knowledge/software-engineering/architectural-patterns/)
-- [Software Architecture](/knowledge/software-engineering/software-architecture/)
-- [Layered Architecture](/knowledge/software-engineering/layered-architecture/)
+- [아키텍처 패턴 (Architectural Patterns)](/knowledge/software-engineering/architectural-patterns/)
+- [소프트웨어 아키텍처 (Software Architecture)](/knowledge/software-engineering/software-architecture/)
+- [계층 아키텍처 (Layered Architecture)](/knowledge/software-engineering/layered-architecture/)

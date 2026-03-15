@@ -41,6 +41,6 @@ def get_customer(id):
 
 ## 관련 개념
 
-- [Full-Stack Developer](/knowledge/software-engineering/foundations/full-stack-developer/)
-- [Web API](/knowledge/software-engineering/systems-and-services/web-api/)
-- [Technology Stack](/knowledge/software-engineering/foundations/technology-stack/)
+- [풀스택 개발자 (Full-Stack Developer)](/knowledge/software-engineering/foundations/full-stack-developer/)
+- [웹 API (Web API)](/knowledge/software-engineering/systems-and-services/web-api/)
+- [기술 스택 (Technology Stack)](/knowledge/software-engineering/foundations/technology-stack/)

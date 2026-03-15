@@ -1,5 +1,5 @@
 ---
-title: "Risk Identification"
+title: "위험 식별 (Risk Identification)"
 description: "리스크 식별은 소프트웨어 엔지니어링 프로세스, 개발 중인 소프트웨어, 또는 개발 조직에 주요 위협이 될 수 있는 리스크를 파악하는 리스크 관리의 첫 번째 단계이다"
 tags: ['Risk Identification', 'Risk Management', 'Checklist', 'Brainstorming', 'Project Risk']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Risk Management](/knowledge/software-engineering/risk-management/)
-- [Risk Planning](/knowledge/software-engineering/risk-planning/)
-- [Software Project Management](/knowledge/software-engineering/software-project-management/)
+- [리스크 관리 (Risk Management)](/knowledge/software-engineering/risk-management/)
+- [위험 계획 (Risk Planning)](/knowledge/software-engineering/risk-planning/)
+- [소프트웨어 프로젝트 관리 (Software Project Management)](/knowledge/software-engineering/software-project-management/)

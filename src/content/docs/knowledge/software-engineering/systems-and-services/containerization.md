@@ -1,5 +1,5 @@
 ---
-title: "Containerization"
+title: "컨테이너화 (Containerization)"
 description: "cgroups, chroot jail, bind mount, overlay filesystem 등을 활용한 경량 격리 메커니즘으로, VM보다 리소스 오버헤드와 시작 시간이 적으면서 멀티테넌시와 추상화를 제공"
 tags: ["Software Engineering", "Infrastructure", "Containers"]
 created: 2026-02-27
@@ -36,7 +36,7 @@ Lock-in 문제: 컴퓨트 인프라의 높은 lock-in 계수 — VM 기반이면
 
 ## 관련 개념
 
-- [Borg](/knowledge/software-engineering/systems-and-services/borg/)
-- [Compute as a Service](/knowledge/software-engineering/systems-and-services/compute-as-a-service/)
-- [Architecting for Failure](/knowledge/software-engineering/systems-and-services/architecting-for-failure/)
-- [Cattle vs Pets](/knowledge/software-engineering/design-and-evolution/cattle-vs-pets/)
+- [보그 (Borg)](/knowledge/software-engineering/systems-and-services/borg/)
+- [서비스형 컴퓨팅 (Compute as a Service)](/knowledge/software-engineering/systems-and-services/compute-as-a-service/)
+- [장애를 고려한 설계 (Architecting for Failure)](/knowledge/software-engineering/systems-and-services/architecting-for-failure/)
+- [가축 vs 애완동물 (Cattle vs Pets)](/knowledge/software-engineering/design-and-evolution/cattle-vs-pets/)

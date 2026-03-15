@@ -1,5 +1,5 @@
 ---
-title: "Exponential Backoff"
+title: "지수 백오프 (Exponential Backoff)"
 description: "재시도 간격을 지수적으로 증가시키는 재시도 전략"
 tags: ["Software Engineering", "Distributed Systems", "Reliability"]
 created: 2026-02-27
@@ -54,6 +54,6 @@ def retry_with_backoff(func, max_retries=5, max_wait=60):
 
 ## 관련 개념
 
-- [Idempotency](/knowledge/software-engineering/foundations/idempotency/)
-- [Defensive Programming](/knowledge/software-engineering/foundations/defensive-programming/)
-- [Circuit Breaker](/knowledge/software-engineering/quality-and-configuration/circuit-breaker/)
+- [멱등성 (Idempotency)](/knowledge/software-engineering/foundations/idempotency/)
+- [방어적 프로그래밍 (Defensive Programming)](/knowledge/software-engineering/foundations/defensive-programming/)
+- [서킷 브레이커 (Circuit Breaker)](/knowledge/software-engineering/quality-and-configuration/circuit-breaker/)

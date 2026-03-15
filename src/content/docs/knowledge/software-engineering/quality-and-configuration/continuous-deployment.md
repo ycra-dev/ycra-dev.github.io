@@ -1,5 +1,5 @@
 ---
-title: "Continuous Deployment"
+title: "지속적 배포 (Continuous Deployment)"
 description: "코드 변경이 자동화된 파이프라인을 통과하면 수동 승인 없이 자동으로 프로덕션에 배포되는 소프트웨어 릴리즈 자동화 방식이다."
 tags: ["Software Engineering", "CI/CD", "DevOps", "Automation"]
 created: 2026-02-27
@@ -47,5 +47,5 @@ CI/CD 파이프라인의 마지막 단계다. CI(지속적 통합)는 코드를 
 ## 관련 개념
 
 - [지속적 통합](/knowledge/software-engineering/agile-methods/continuous-integration/)
-- [DevOps](/knowledge/software-engineering/quality-and-configuration/system-building/)
+- [데브옵스 (DevOps)](/knowledge/software-engineering/quality-and-configuration/system-building/)
 - [버전 관리](/knowledge/software-engineering/quality-and-configuration/version-management/)

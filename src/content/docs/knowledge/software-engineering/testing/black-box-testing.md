@@ -1,5 +1,5 @@
 ---
-title: "Black Box Testing"
+title: "블랙 박스 테스팅 (Black Box Testing)"
 description: "내부 구현을 모르는 상태에서 입력과 출력만으로 소프트웨어의 기능을 검증하는 테스트 기법이다."
 tags: ["Software Engineering", "Testing", "QA"]
 created: 2026-02-27

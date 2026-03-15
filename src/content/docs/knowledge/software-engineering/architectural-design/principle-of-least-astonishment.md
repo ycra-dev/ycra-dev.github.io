@@ -1,5 +1,5 @@
 ---
-title: "Principle of Least Astonishment"
+title: "최소 놀람의 원칙 (Principle of Least Astonishment)"
 description: "사용자와 개발자를 놀라게 하지 않는 방식으로 기능을 설계하는 원칙"
 tags: ["Software Engineering", "Architecture", "API Design"]
 created: 2026-02-27
@@ -69,7 +69,7 @@ def get_user_and_track_access(user_id):
 
 ## 관련 개념
 
-- [Software Complexity](/knowledge/software-engineering/architectural-design/software-complexity/)
-- [YAGNI](/knowledge/software-engineering/design-and-evolution/yagni/)
-- [Defensive Programming](/knowledge/software-engineering/foundations/defensive-programming/)
-- [Code Readability](/knowledge/software-engineering/design-and-evolution/code-readability/)
+- [소프트웨어 복잡도 (Software Complexity)](/knowledge/software-engineering/architectural-design/software-complexity/)
+- [YAGNI 원칙 (YAGNI)](/knowledge/software-engineering/design-and-evolution/yagni/)
+- [방어적 프로그래밍 (Defensive Programming)](/knowledge/software-engineering/foundations/defensive-programming/)
+- [코드 가독성 (Code Readability)](/knowledge/software-engineering/design-and-evolution/code-readability/)

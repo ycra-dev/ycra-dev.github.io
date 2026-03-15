@@ -1,5 +1,5 @@
 ---
-title: "Runbook"
+title: "런북 (Runbook)"
 description: "일반적인 운영 문제를 완화하거나 작업을 수행하기 위한 단계별 지침서"
 tags: ["Software Engineering", "Operations", "On-Call", "Documentation"]
 created: 2026-02-27
@@ -98,6 +98,6 @@ echo "Service-x restart completed successfully."
 
 ## 관련 개념
 
-- [Incident Response](/knowledge/software-engineering/quality-and-configuration/incident-response/)
-- [Service Level Objective](/knowledge/software-engineering/quality-and-configuration/service-level-objective/)
-- [Postmortem](/knowledge/software-engineering/quality-and-configuration/postmortem/)
+- [장애 대응 (Incident Response)](/knowledge/software-engineering/quality-and-configuration/incident-response/)
+- [서비스 수준 목표 (Service Level Objective)](/knowledge/software-engineering/quality-and-configuration/service-level-objective/)
+- [포스트모템 (Postmortem)](/knowledge/software-engineering/quality-and-configuration/postmortem/)

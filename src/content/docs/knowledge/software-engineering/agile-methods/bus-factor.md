@@ -1,5 +1,5 @@
 ---
-title: "Bus Factor"
+title: "버스 팩터 (Bus Factor)"
 description: "프로젝트가 완전히 망하기 전에 버스에 치여야 하는 사람의 수 — 지식과 노하우가 얼마나 팀에 분산되어 있는지를 측정하는 지표"
 tags: ["Software Engineering", "Agile", "Risk Management", "Knowledge Sharing"]
 created: 2026-02-27
@@ -35,7 +35,7 @@ Bus Factor를 높이는 방법:
 
 ## 관련 개념
 
-- [Genius Myth](/knowledge/software-engineering/agile-methods/genius-myth/)
-- [Hiding Considered Harmful](/knowledge/software-engineering/agile-methods/hiding-considered-harmful/)
-- [Knowledge Sharing Culture](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
-- [Humility, Respect, Trust](/knowledge/software-engineering/agile-methods/humility-respect-trust/)
+- [천재 신화 (Genius Myth)](/knowledge/software-engineering/agile-methods/genius-myth/)
+- [은닉은 해롭다 (Hiding Considered Harmful)](/knowledge/software-engineering/agile-methods/hiding-considered-harmful/)
+- [지식 공유 문화 (Knowledge Sharing Culture)](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
+- [겸손, 존중, 신뢰 (Humility, Respect, Trust)](/knowledge/software-engineering/agile-methods/humility-respect-trust/)

@@ -1,5 +1,5 @@
 ---
-title: "Swiss Cheese Model"
+title: "스위스 치즈 모델 (Swiss Cheese Model)"
 description: "James Reason이 제안한 시스템 장애 이론으로, 방어 계층이 견고한 장벽이 아닌 구멍이 있는 스위스 치즈 조각과 같아서, 모든 계층의 취약점(구멍)이 동시에 정렬될 때 장애가 발생한다고 설명한다"
 tags: ['Swiss Cheese Model', 'Defense Layers', 'Failure Theory', 'Latent Conditions', 'Barrier', 'James Reason']
 created: 2026-02-16
@@ -20,8 +20,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Resilience](/knowledge/software-engineering/resilience/)
-- [Defense in Depth](/knowledge/software-engineering/defense-in-depth/)
-- [Sociotechnical Resilience](/knowledge/software-engineering/sociotechnical-resilience/)
-- [Fault Tree Analysis](/knowledge/software-engineering/fault-tree-analysis/)
-- [Redundancy and Diversity](/knowledge/software-engineering/redundancy-and-diversity/)
+- [복원력 (Resilience)](/knowledge/software-engineering/resilience/)
+- [심층 방어 (Defense in Depth)](/knowledge/software-engineering/defense-in-depth/)
+- [사회기술적 복원력 (Sociotechnical Resilience)](/knowledge/software-engineering/sociotechnical-resilience/)
+- [장애 트리 분석 (Fault Tree Analysis)](/knowledge/software-engineering/fault-tree-analysis/)
+- [중복성과 다양성 (Redundancy and Diversity)](/knowledge/software-engineering/redundancy-and-diversity/)

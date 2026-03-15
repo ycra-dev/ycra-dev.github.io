@@ -1,5 +1,5 @@
 ---
-title: "Refactoring"
+title: "리팩토링 (Refactoring)"
 description: "리팩토링은 소프트웨어의 외부 동작(기능)은 변경하지 않으면서 코드의 내부 구조를 개선하여 이해도와 유지보수성을 높이는 프로그램 개선 기법이다"
 tags: ['Refactoring', 'Code Smell', 'Clean Code', 'Code Improvement', 'Preventive Maintenance']
 created: 2026-02-16
@@ -39,7 +39,7 @@ void printDetails() { printBanner(); }
 
 ## 관련 개념
 
-- [Software Reengineering](/knowledge/software-engineering/software-reengineering/)
-- [Software Maintenance](/knowledge/software-engineering/software-maintenance/)
-- [Extreme Programming](/knowledge/software-engineering/extreme-programming/)
-- [Test-driven Development](/knowledge/software-engineering/test-driven-development/)
+- [소프트웨어 재공학 (Software Reengineering)](/knowledge/software-engineering/software-reengineering/)
+- [소프트웨어 유지보수 (Software Maintenance)](/knowledge/software-engineering/software-maintenance/)
+- [익스트림 프로그래밍 (Extreme Programming)](/knowledge/software-engineering/extreme-programming/)
+- [테스트 주도 개발 (Test-driven Development)](/knowledge/software-engineering/test-driven-development/)

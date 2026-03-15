@@ -1,5 +1,5 @@
 ---
-title: "DAMP vs DRY in Tests"
+title: "테스트에서의 DAMP vs DRY (DAMP vs DRY in Tests)"
 description: "DAMP(Descriptive And Meaningful Phrases)는 테스트 코드에서 DRY 원칙 대신 약간의 중복을 허용하여 각 테스트를 더 이해하기 쉽게 만드는 원칙"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -57,6 +57,6 @@ DAMP (서술적):
 
 ## 관련 개념
 
-- [Test Clarity](/knowledge/software-engineering/testing/test-clarity/)
-- [Test Maintainability](/knowledge/software-engineering/testing/test-maintainability/)
-- [Behavior Driven Testing](/knowledge/software-engineering/testing/behavior-driven-testing/)
+- [테스트 명확성 (Test Clarity)](/knowledge/software-engineering/testing/test-clarity/)
+- [테스트 유지보수성 (Test Maintainability)](/knowledge/software-engineering/testing/test-maintainability/)
+- [행위 주도 테스팅 (Behavior Driven Testing)](/knowledge/software-engineering/testing/behavior-driven-testing/)

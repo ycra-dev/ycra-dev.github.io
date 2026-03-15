@@ -1,5 +1,5 @@
 ---
-title: "Code Search"
+title: "코드 검색 (Code Search)"
 description: "Google에서 코드를 검색하고 브라우징하기 위한 웹 기반 도구로, 코드를 대규모로 읽고, 이해하고, 탐색하는 데 최적화되어 있다"
 tags: ["Software Engineering", "Quality and Configuration"]
 created: 2026-02-27
@@ -33,8 +33,8 @@ Code Search는 하루에 100만 건 이상의 검색 쿼리를 처리한다. 검
 
 ## 관련 개념
 
-- [Kythe](/knowledge/software-engineering/quality-and-configuration/kythe/)
-- [Code Search Indexing](/knowledge/software-engineering/quality-and-configuration/code-search-indexing/)
-- [Code Search Ranking](/knowledge/software-engineering/quality-and-configuration/code-search-ranking/)
-- [Code Search Developer Tool Integration](/knowledge/software-engineering/quality-and-configuration/code-search-developer-tool-integration/)
-- [Piper](/knowledge/software-engineering/quality-and-configuration/piper/)
+- [카이드 (Kythe)](/knowledge/software-engineering/quality-and-configuration/kythe/)
+- [코드 검색 인덱싱 (Code Search Indexing)](/knowledge/software-engineering/quality-and-configuration/code-search-indexing/)
+- [코드 검색 랭킹 (Code Search Ranking)](/knowledge/software-engineering/quality-and-configuration/code-search-ranking/)
+- [코드 검색 개발자 도구 통합 (Code Search Developer Tool Integration)](/knowledge/software-engineering/quality-and-configuration/code-search-developer-tool-integration/)
+- [파이퍼 (Piper)](/knowledge/software-engineering/quality-and-configuration/piper/)

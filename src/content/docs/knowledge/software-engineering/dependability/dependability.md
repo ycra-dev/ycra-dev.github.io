@@ -1,5 +1,5 @@
 ---
-title: "Dependability"
+title: "신뢰성 (Dependability)"
 description: "시스템의 가용성(availability), 신뢰성(reliability), 안전성(safety), 보안성(security), 회복탄력성(resilience)을 포괄하는 시스템 속성으로, 사용자가 시스템을 신뢰할 수 있는 정도를 나타낸다"
 tags: ['Dependability', 'System Property', 'Reliability', 'Availability', 'Safety', 'Security', 'Resilience']
 created: 2026-02-16
@@ -20,10 +20,10 @@ sidebar:
 
 ## 관련 개념
 
-- [Availability](/knowledge/software-engineering/availability/)
-- [Reliability](/knowledge/software-engineering/reliability/)
-- [Sociotechnical Systems](/knowledge/software-engineering/sociotechnical-systems/)
-- [Redundancy and Diversity](/knowledge/software-engineering/redundancy-and-diversity/)
-- [Formal Methods](/knowledge/software-engineering/formal-methods/)
-- [Dependable Processes](/knowledge/software-engineering/dependable-processes/)
-- [Resilience](/knowledge/software-engineering/resilience/)
+- [가용성 (Availability)](/knowledge/software-engineering/availability/)
+- [신뢰성 (Reliability)](/knowledge/software-engineering/reliability/)
+- [사회기술 시스템 (Sociotechnical Systems)](/knowledge/software-engineering/sociotechnical-systems/)
+- [중복성과 다양성 (Redundancy and Diversity)](/knowledge/software-engineering/redundancy-and-diversity/)
+- [정형 기법 (Formal Methods)](/knowledge/software-engineering/formal-methods/)
+- [신뢰 가능한 프로세스 (Dependable Processes)](/knowledge/software-engineering/dependable-processes/)
+- [복원력 (Resilience)](/knowledge/software-engineering/resilience/)

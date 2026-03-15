@@ -1,5 +1,5 @@
 ---
-title: "Defensive Programming"
+title: "방어적 프로그래밍 (Defensive Programming)"
 description: "예상치 못한 입력, 상태, 또는 오류 상황에서도 프로그램이 안전하게 동작하도록 사전에 보호 코드를 작성하는 프로그래밍 방식"
 tags: ["Software Engineering", "Reliability", "Robustness"]
 created: 2026-02-27
@@ -81,7 +81,7 @@ def process_payment(amount: float, user_id: str) -> Result:
 
 ## 관련 개념
 
-- [Error Handling](/knowledge/software-engineering/foundations/error-handling/)
-- [Debugging](/knowledge/software-engineering/foundations/debugging/)
-- [Null Object Pattern](/knowledge/software-engineering/design-and-evolution/null-object-pattern/)
-- [Immutability](/knowledge/software-engineering/foundations/immutability/)
+- [오류 처리 (Error Handling)](/knowledge/software-engineering/foundations/error-handling/)
+- [디버깅 (Debugging)](/knowledge/software-engineering/foundations/debugging/)
+- [널 객체 패턴 (Null Object Pattern)](/knowledge/software-engineering/design-and-evolution/null-object-pattern/)
+- [불변성 (Immutability)](/knowledge/software-engineering/foundations/immutability/)

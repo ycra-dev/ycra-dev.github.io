@@ -1,5 +1,5 @@
 ---
-title: "Source of Truth"
+title: "진실의 원천 (Source of Truth)"
 description: "주어진 프로젝트에서 공식적인 코드 상태를 나타내는 하나의 지정된 저장소와 브랜치로, 협업 시 변경사항을 어디에 푸시해야 하는지에 대한 선택이나 불확실성이 없어야 한다"
 tags: ["Software Engineering", "Quality and Configuration"]
 created: 2026-02-27
@@ -26,6 +26,6 @@ VCS 없이 협업하는 경우를 상상하면 문제가 명확해진다: "Prese
 
 ## 관련 개념
 
-- [One Version Rule](/knowledge/software-engineering/quality-and-configuration/one-version-rule/)
-- [Monorepo](/knowledge/software-engineering/quality-and-configuration/monorepo/)
-- [Dev Branches](/knowledge/software-engineering/quality-and-configuration/dev-branches/)
+- [하나의 버전 규칙 (One Version Rule)](/knowledge/software-engineering/quality-and-configuration/one-version-rule/)
+- [모노레포 (Monorepo)](/knowledge/software-engineering/quality-and-configuration/monorepo/)
+- [개발 브랜치 (Dev Branches)](/knowledge/software-engineering/quality-and-configuration/dev-branches/)

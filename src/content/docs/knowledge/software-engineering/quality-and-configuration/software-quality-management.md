@@ -1,5 +1,5 @@
 ---
-title: "Software Quality Management"
+title: "소프트웨어 품질 관리 (Software Quality Management)"
 description: "소프트웨어 품질 관리(QM)는 개발된 소프트웨어가 \"목적에 적합한(fit for purpose)\" 수준의 품질을 달성하도록 보장하는 프로세스와 기법의 집합이다"
 tags: ['Quality Management', 'Quality Assurance', 'Quality Control', 'Software Quality', 'Process Quality']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Standards](/knowledge/software-engineering/software-standards/)
-- [Reviews and Inspections](/knowledge/software-engineering/reviews-and-inspections/)
-- [Software Measurement](/knowledge/software-engineering/software-measurement/)
-- [ISO 9001](/knowledge/software-engineering/iso-9001/)
+- [소프트웨어 표준 (Software Standards)](/knowledge/software-engineering/software-standards/)
+- [리뷰와 인스펙션 (Reviews and Inspections)](/knowledge/software-engineering/reviews-and-inspections/)
+- [소프트웨어 측정 (Software Measurement)](/knowledge/software-engineering/software-measurement/)
+- [ISO 9001 (품질 경영 시스템)](/knowledge/software-engineering/iso-9001/)

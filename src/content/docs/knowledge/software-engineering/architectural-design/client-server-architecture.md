@@ -1,5 +1,5 @@
 ---
-title: "Client-Server Architecture"
+title: "클라이언트-서버 아키텍처 (Client-Server Architecture)"
 description: "클라이언트-서버 아키텍처는 시스템의 기능을 서비스를 제공하는 서버와 서비스를 요청하는 클라이언트로 분리하여, 네트워크를 통해 통신하는 분산 시스템 아키텍처이다"
 tags: ['Client Server', 'Distributed System', 'Network Architecture', 'Server', 'Web Application']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Architectural Patterns](/knowledge/software-engineering/architectural-patterns/)
-- [Software Architecture](/knowledge/software-engineering/software-architecture/)
-- [Pipe and Filter](/knowledge/software-engineering/pipe-and-filter/)
+- [아키텍처 패턴 (Architectural Patterns)](/knowledge/software-engineering/architectural-patterns/)
+- [소프트웨어 아키텍처 (Software Architecture)](/knowledge/software-engineering/software-architecture/)
+- [파이프와 필터 (Pipe and Filter)](/knowledge/software-engineering/pipe-and-filter/)

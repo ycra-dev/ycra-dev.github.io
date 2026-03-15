@@ -1,5 +1,5 @@
 ---
-title: "Agile Manifesto"
+title: "애자일 선언문 (Agile Manifesto)"
 description: "2001년 17명의 소프트웨어 개발자가 작성한 4가지 핵심 가치와 12가지 원칙으로 구성된 소프트웨어 개발 선언 — 무거운 프로세스 중심 방법의 대안"
 tags: ["SoftwareEngineering", "Agile", "Methodology", "TeamPractice"]
 created: 2026-02-27
@@ -58,7 +58,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Scrum](/knowledge/software-engineering/agile-methods/scrum/)
-- [Kanban](/knowledge/software-engineering/agile-methods/kanban/)
-- [Test-Driven Development](/knowledge/software-engineering/testing/test-driven-development/)
-- [Continuous Integration](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
+- [스크럼 (Scrum)](/knowledge/software-engineering/agile-methods/scrum/)
+- [칸반 (Kanban)](/knowledge/software-engineering/agile-methods/kanban/)
+- [테스트 주도 개발 (Test-Driven Development)](/knowledge/software-engineering/testing/test-driven-development/)
+- [지속적 통합 (Continuous Integration)](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)

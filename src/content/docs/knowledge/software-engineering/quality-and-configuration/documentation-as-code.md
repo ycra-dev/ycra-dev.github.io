@@ -1,5 +1,5 @@
 ---
-title: "Documentation as Code"
+title: "코드로서의 문서 (Documentation as Code)"
 description: "문서를 코드와 동일하게 취급하여 버전 관리, 코드 리뷰, 소유권 관리 등 기존 엔지니어링 워크플로우에 통합하는 접근 방식"
 tags: ["Software Engineering", "Quality", "Documentation", "Engineering Culture"]
 created: 2026-02-27
@@ -31,6 +31,6 @@ Google에서는 g3doc이라는 도구를 사용하여 문서를 코드와 함께
 
 ## 관련 개념
 
-- [Code Review](/knowledge/software-engineering/quality-and-configuration/code-review/)
-- [Documentation Types](/knowledge/software-engineering/quality-and-configuration/documentation-types/)
-- [Documentation Freshness](/knowledge/software-engineering/quality-and-configuration/documentation-freshness/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/quality-and-configuration/code-review/)
+- [문서 유형 (Documentation Types)](/knowledge/software-engineering/quality-and-configuration/documentation-types/)
+- [문서 최신성 (Documentation Freshness)](/knowledge/software-engineering/quality-and-configuration/documentation-freshness/)

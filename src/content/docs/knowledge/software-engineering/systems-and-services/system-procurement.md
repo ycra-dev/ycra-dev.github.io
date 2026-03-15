@@ -1,5 +1,5 @@
 ---
-title: "System Procurement"
+title: "시스템 조달 (System Procurement)"
 description: "시스템 조달(procurement)은 시스템 공급자로부터 하나 이상의 시스템을 구매하기로 결정하는 프로세스로, 시스템 범위, 예산, 일정, 고수준 요구사항에 대한 의사결정을 포함한다"
 tags: ['System Procurement', 'Acquisition', 'Bidding', 'Contractor', 'Off The Shelf', 'Decision Making']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Systems Engineering](/knowledge/software-engineering/systems-engineering/)
-- [Sociotechnical Systems](/knowledge/software-engineering/sociotechnical-systems/)
-- [Enterprise Resource Planning](/knowledge/software-engineering/enterprise-resource-planning/)
-- [Emergent Properties](/knowledge/software-engineering/emergent-properties/)
+- [시스템 공학 (Systems Engineering)](/knowledge/software-engineering/systems-engineering/)
+- [사회기술 시스템 (Sociotechnical Systems)](/knowledge/software-engineering/sociotechnical-systems/)
+- [전사적 자원 관리 (Enterprise Resource Planning)](/knowledge/software-engineering/enterprise-resource-planning/)
+- [창발적 속성 (Emergent Properties)](/knowledge/software-engineering/emergent-properties/)

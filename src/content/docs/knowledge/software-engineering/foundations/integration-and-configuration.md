@@ -1,5 +1,5 @@
 ---
-title: "Integration and Configuration"
+title: "통합과 구성 (Integration and Configuration)"
 description: "통합 및 구성(재사용 지향 개발)은 기존의 구성 가능한 소프트웨어 컴포넌트나 시스템을 통합하여 새로운 시스템을 개발하는 접근법이다"
 tags: ['Software Reuse', 'Cots', 'Reuse Oriented', 'System Integration', 'Configuration']
 created: 2026-02-16
@@ -20,5 +20,5 @@ ERP(전사적 자원 관리) 시스템 구축 시 SAP이나 Oracle의 기존 패
 
 ## 관련 개념
 
-- [Software Process](/knowledge/software-engineering/software-process/)
-- [Software Reuse](/knowledge/software-engineering/software-reuse/)
+- [소프트웨어 프로세스 (Software Process)](/knowledge/software-engineering/software-process/)
+- [소프트웨어 재사용 (Software Reuse)](/knowledge/software-engineering/software-reuse/)

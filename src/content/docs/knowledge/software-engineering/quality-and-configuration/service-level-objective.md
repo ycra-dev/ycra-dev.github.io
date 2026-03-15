@@ -1,5 +1,5 @@
 ---
-title: "Service Level Objective"
+title: "서비스 수준 목표 (Service Level Objective)"
 description: "서비스 건강 지표의 목표값을 정의하는 것"
 tags: ["Software Engineering", "SRE", "Operations", "Reliability"]
 created: 2026-02-27
@@ -69,6 +69,6 @@ Error Budget 관리:
 
 ## 관련 개념
 
-- [Incident Response](/knowledge/software-engineering/quality-and-configuration/incident-response/)
-- [Observability](/knowledge/software-engineering/quality-and-configuration/observability/)
-- [Postmortem](/knowledge/software-engineering/quality-and-configuration/postmortem/)
+- [장애 대응 (Incident Response)](/knowledge/software-engineering/quality-and-configuration/incident-response/)
+- [관측 가능성 (Observability)](/knowledge/software-engineering/quality-and-configuration/observability/)
+- [포스트모템 (Postmortem)](/knowledge/software-engineering/quality-and-configuration/postmortem/)

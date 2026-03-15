@@ -1,5 +1,5 @@
 ---
-title: "Challenge Established Processes"
+title: "기존 프로세스에 도전 (Challenge Established Processes)"
 description: "기존 프로세스가 무효한 결과를 도출할 수 있는지 형평성 관점에서 비판적으로 검토하고, 필요시 수정하는 실천"
 tags: ["Software Engineering", "Foundations"]
 created: 2026-02-27
@@ -31,4 +31,4 @@ Google의 글로벌 채용 시스템 사례: 내부 이동 시 과거 성과 평
 
 ## 관련 개념
 
-- [Chesterton's Fence](/knowledge/software-engineering/foundations/chesterton-fence/)
+- [체스터턴의 울타리 (Chesterton's Fence)](/knowledge/software-engineering/foundations/chesterton-fence/)

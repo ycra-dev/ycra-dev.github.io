@@ -1,5 +1,5 @@
 ---
-title: "Concept Reuse"
+title: "개념 재사용 (Concept Reuse)"
 description: "개념 재사용은 소프트웨어 컴포넌트 자체가 아닌 아이디어, 작업 방식, 알고리즘 등을 재사용하는 방식으로, 추상적 표기법으로 표현되어 다양한 상황에 맞게 구성 및 적응될 수 있다"
 tags: ['Concept Reuse', 'Software Reuse', 'Design Patterns', 'Abstraction', 'Knowledge Reuse']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Reuse](/knowledge/software-engineering/software-reuse/)
-- [Application Framework](/knowledge/software-engineering/application-framework/)
-- [Software Product Line](/knowledge/software-engineering/software-product-line/)
-- [Component-Based Software Engineering](/knowledge/software-engineering/component-based-software-engineering/)
+- [소프트웨어 재사용 (Software Reuse)](/knowledge/software-engineering/software-reuse/)
+- [애플리케이션 프레임워크 (Application Framework)](/knowledge/software-engineering/application-framework/)
+- [소프트웨어 프로덕트 라인 (Software Product Line)](/knowledge/software-engineering/software-product-line/)
+- [컴포넌트 기반 소프트웨어 공학 (Component-Based Software Engineering)](/knowledge/software-engineering/component-based-software-engineering/)

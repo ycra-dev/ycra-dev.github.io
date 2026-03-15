@@ -1,5 +1,5 @@
 ---
-title: "Automated Tooling for Style"
+title: "스타일 자동화 도구 (Automated Tooling for Style)"
 description: "포매터, 린터, 정적 분석 도구 등을 활용하여 스타일 규칙을 자동으로 강제하고 코드 리뷰에서 스타일 관련 논쟁을 제거하는 접근법"
 tags: ["Software Engineering", "Quality", "Automation", "Linter", "Formatter", "Static Analysis"]
 created: 2026-02-27
@@ -45,7 +45,7 @@ Go 언어의 `gofmt`는 구글에서 가장 성공적인 자동 포매팅 사례
 
 ## 관련 개념
 
-- [Style Guides and Rules](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
-- [Rules vs Guidance](/knowledge/software-engineering/quality-and-configuration/rules-vs-guidance/)
-- [Static Analysis](/knowledge/software-engineering/quality-and-configuration/static-analysis/)
-- [Code Review](/knowledge/software-engineering/quality-and-configuration/code-review/)
+- [스타일 가이드와 규칙 (Style Guides and Rules)](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
+- [규칙 vs 가이드 (Rules vs Guidance)](/knowledge/software-engineering/quality-and-configuration/rules-vs-guidance/)
+- [정적 분석 (Static Analysis)](/knowledge/software-engineering/quality-and-configuration/static-analysis/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/quality-and-configuration/code-review/)

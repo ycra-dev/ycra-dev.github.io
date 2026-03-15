@@ -1,5 +1,5 @@
 ---
-title: "Code Review"
+title: "코드 리뷰 (Code Review)"
 description: "코드가 코드베이스에 도입되기 전에 작성자가 아닌 다른 사람이 검토하는 프로세스 — 구글에서는 사실상 모든 변경이 커밋 전에 리뷰된다"
 tags: ["Software Engineering", "Quality", "Code Review", "Collaboration", "Process"]
 created: 2026-02-27
@@ -36,8 +36,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Code Review Benefits](/knowledge/software-engineering/quality-and-configuration/code-review-benefits/)
-- [Code Review Best Practices](/knowledge/software-engineering/quality-and-configuration/code-review-best-practices/)
-- [LGTM and Approval Types](/knowledge/software-engineering/quality-and-configuration/lgtm-and-approval-types/)
-- [Readability Process](/knowledge/software-engineering/quality-and-configuration/readability-process/)
-- [Style Guides and Rules](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
+- [코드 리뷰의 이점 (Code Review Benefits)](/knowledge/software-engineering/quality-and-configuration/code-review-benefits/)
+- [코드 리뷰 모범 사례 (Code Review Best Practices)](/knowledge/software-engineering/quality-and-configuration/code-review-best-practices/)
+- [LGTM과 승인 유형 (LGTM and Approval Types)](/knowledge/software-engineering/quality-and-configuration/lgtm-and-approval-types/)
+- [가독성 프로세스 (Readability Process)](/knowledge/software-engineering/quality-and-configuration/readability-process/)
+- [스타일 가이드와 규칙 (Style Guides and Rules)](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)

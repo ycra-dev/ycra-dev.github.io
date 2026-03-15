@@ -1,5 +1,5 @@
 ---
-title: "Code Review at Scale"
+title: "대규모 코드 리뷰 (Code Review at Scale)"
 description: "수만 명의 엔지니어와 수십억 줄의 코드를 가진 조직에서 코드 리뷰 프로세스가 병목이 되지 않도록 설계하는 방법론 — 속도, 자동화, 최소 리뷰어 원칙이 핵심이다"
 tags: ["Software Engineering", "Quality", "Code Review", "Scalability", "Automation"]
 created: 2026-02-27
@@ -40,7 +40,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Code Review](/knowledge/software-engineering/quality-and-configuration/code-review/)
-- [Code Review Best Practices](/knowledge/software-engineering/quality-and-configuration/code-review-best-practices/)
-- [Automated Tooling for Style](/knowledge/software-engineering/quality-and-configuration/automated-tooling-for-style/)
-- [Critique](/knowledge/software-engineering/quality-and-configuration/critique/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/quality-and-configuration/code-review/)
+- [코드 리뷰 모범 사례 (Code Review Best Practices)](/knowledge/software-engineering/quality-and-configuration/code-review-best-practices/)
+- [스타일 자동화 도구 (Automated Tooling for Style)](/knowledge/software-engineering/quality-and-configuration/automated-tooling-for-style/)
+- [크리틱 (Critique)](/knowledge/software-engineering/quality-and-configuration/critique/)

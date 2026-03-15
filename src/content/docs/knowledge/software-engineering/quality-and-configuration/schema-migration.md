@@ -1,5 +1,5 @@
 ---
-title: "Schema Migration"
+title: "스키마 마이그레이션 (Schema Migration)"
 description: "데이터베이스 스키마 변경을 자동화 도구로 추적하고 안전하게 적용하는 관행"
 tags: ["Software Engineering", "Database", "DevOps", "Data Management"]
 created: 2026-02-27
@@ -68,6 +68,6 @@ Step 3: 코드에서 컬럼 참조 제거
 
 ## 관련 개념
 
-- [Backward Compatibility](/knowledge/software-engineering/design-and-evolution/backward-compatibility/)
-- [Domain-Driven Design](/knowledge/software-engineering/architectural-design/domain-driven-design/)
-- [Change Data Capture](/knowledge/software-engineering/quality-and-configuration/change-data-capture/)
+- [하위 호환성 (Backward Compatibility)](/knowledge/software-engineering/design-and-evolution/backward-compatibility/)
+- [도메인 주도 설계 (Domain-Driven Design)](/knowledge/software-engineering/architectural-design/domain-driven-design/)
+- [변경 데이터 캡처 (Change Data Capture)](/knowledge/software-engineering/quality-and-configuration/change-data-capture/)

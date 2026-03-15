@@ -1,5 +1,5 @@
 ---
-title: "Dependency Management"
+title: "의존성 관리 (Dependency Management)"
 description: "우리가 직접 통제하지 않는 라이브러리, 패키지, 의존성 네트워크를 관리하는 것으로, 소프트웨어 엔지니어링에서 가장 도전적인 문제 중 하나"
 tags: ["Software Engineering", "Dependencies"]
 created: 2026-02-27
@@ -37,8 +37,8 @@ Google의 `third_party` 정책 시나리오: Alice가 OSS 패키지를 다운로
 
 ## 관련 개념
 
-- [Diamond Dependency Problem](/knowledge/software-engineering/quality-and-configuration/diamond-dependency-problem/)
-- [Live at Head](/knowledge/software-engineering/quality-and-configuration/live-at-head/)
-- [Minimum Version Selection](/knowledge/software-engineering/quality-and-configuration/minimum-version-selection/)
-- [Bundled Distribution Model](/knowledge/software-engineering/quality-and-configuration/bundled-distribution-model/)
-- [ABI vs API Compatibility](/knowledge/software-engineering/quality-and-configuration/abi-vs-api-compatibility/)
+- [다이아몬드 의존성 문제 (Diamond Dependency Problem)](/knowledge/software-engineering/quality-and-configuration/diamond-dependency-problem/)
+- [최신 버전 사용 (Live at Head)](/knowledge/software-engineering/quality-and-configuration/live-at-head/)
+- [최소 버전 선택 (Minimum Version Selection)](/knowledge/software-engineering/quality-and-configuration/minimum-version-selection/)
+- [번들 배포 모델 (Bundled Distribution Model)](/knowledge/software-engineering/quality-and-configuration/bundled-distribution-model/)
+- [ABI vs API 호환성 (ABI vs API Compatibility)](/knowledge/software-engineering/quality-and-configuration/abi-vs-api-compatibility/)

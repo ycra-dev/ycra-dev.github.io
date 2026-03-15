@@ -1,5 +1,5 @@
 ---
-title: "Suggested Fixes in Static Analysis"
+title: "정적 분석의 수정 제안 (Suggested Fixes in Static Analysis)"
 description: "정적 분석 도구가 발견한 문제에 대해 즉시 적용 가능한 코드 수정을 함께 제공하는 기능"
 tags: ["Software Engineering", "Static Analysis", "Automation"]
 created: 2026-02-27
@@ -35,7 +35,7 @@ Tricorder 사용 통계:
 
 ## 관련 개념
 
-- [Tricorder](/knowledge/software-engineering/quality-and-configuration/tricorder/)
-- [Effective False Positive](/knowledge/software-engineering/quality-and-configuration/effective-false-positive/)
-- [Critique Static Analysis Integration](/knowledge/software-engineering/quality-and-configuration/critique-static-analysis-integration/)
-- [Large-Scale Changes](/knowledge/software-engineering/design-and-evolution/large-scale-changes/)
+- [트리코더 (Tricorder)](/knowledge/software-engineering/quality-and-configuration/tricorder/)
+- [실효적 오탐 (Effective False Positive)](/knowledge/software-engineering/quality-and-configuration/effective-false-positive/)
+- [크리틱 정적 분석 통합 (Critique Static Analysis Integration)](/knowledge/software-engineering/quality-and-configuration/critique-static-analysis-integration/)
+- [대규모 코드 변경 (Large-Scale Changes)](/knowledge/software-engineering/design-and-evolution/large-scale-changes/)

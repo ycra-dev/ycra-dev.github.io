@@ -1,5 +1,5 @@
 ---
-title: "Knowledge Sharing Culture"
+title: "지식 공유 문화 (Knowledge Sharing Culture)"
 description: "조직 전반에 걸쳐 전문 지식이 효과적으로 분산되도록 환경과 인센티브를 설계하는 것 — 심리적 안전·존중·보상 시스템이 핵심"
 tags: ["Software Engineering", "Agile", "Culture", "Knowledge Management"]
 created: 2026-02-27
@@ -30,7 +30,7 @@ Google의 피어 보너스(peer bonus) 프로그램: 모든 Googler가 다른 Go
 
 ## 관련 개념
 
-- [Psychological Safety](/knowledge/software-engineering/agile-methods/psychological-safety/)
-- [Information Islands](/knowledge/software-engineering/agile-methods/information-islands/)
-- [Canonical Sources of Information](/knowledge/software-engineering/agile-methods/canonical-sources-of-information/)
-- [Humility, Respect, Trust](/knowledge/software-engineering/agile-methods/humility-respect-trust/)
+- [심리적 안전감 (Psychological Safety)](/knowledge/software-engineering/agile-methods/psychological-safety/)
+- [정보의 고립 (Information Islands)](/knowledge/software-engineering/agile-methods/information-islands/)
+- [정보의 정식 소스 (Canonical Sources of Information)](/knowledge/software-engineering/agile-methods/canonical-sources-of-information/)
+- [겸손, 존중, 신뢰 (Humility, Respect, Trust)](/knowledge/software-engineering/agile-methods/humility-respect-trust/)

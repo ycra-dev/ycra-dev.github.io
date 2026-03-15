@@ -1,5 +1,5 @@
 ---
-title: "Software Standards"
+title: "소프트웨어 표준 (Software Standards)"
 description: "소프트웨어 표준은 소프트웨어 개발 프로세스나 소프트웨어 제품에 적용되어야 하는 모범 사례를 체계화한 규칙과 지침으로, 제품 표준(product standards)과 프로세스 표준(process standards)으로 구분된다"
 tags: ['Software Standards', 'Product Standards', 'Process Standards', 'Best Practices', 'Coding Standards']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Quality Management](/knowledge/software-engineering/software-quality-management/)
-- [ISO 9001](/knowledge/software-engineering/iso-9001/)
-- [Reviews and Inspections](/knowledge/software-engineering/reviews-and-inspections/)
+- [소프트웨어 품질 관리 (Software Quality Management)](/knowledge/software-engineering/software-quality-management/)
+- [ISO 9001 (품질 경영 시스템)](/knowledge/software-engineering/iso-9001/)
+- [리뷰와 인스펙션 (Reviews and Inspections)](/knowledge/software-engineering/reviews-and-inspections/)

@@ -1,5 +1,5 @@
 ---
-title: "Blameless Postmortem Culture"
+title: "비난 없는 포스트모템 문화 (Blameless Postmortem Culture)"
 description: "장애나 실패가 발생했을 때 개인을 비난하지 않고 시스템적 원인을 분석하여 재발을 방지하는 문서화된 프로세스 — 리더십 관점에서"
 tags: ["Software Engineering", "Agile", "Leadership", "Incident Management", "Learning"]
 created: 2026-02-27
@@ -39,6 +39,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Psychological Safety (Leadership)](/knowledge/software-engineering/agile-methods/psychological-safety-leadership/)
-- [Servant Leadership](/knowledge/software-engineering/agile-methods/servant-leadership/)
-- [Blameless Postmortem](/knowledge/software-engineering/agile-methods/blameless-postmortem/)
+- [심리적 안전감 - 리더십 (Psychological Safety in Leadership)](/knowledge/software-engineering/agile-methods/psychological-safety-leadership/)
+- [서번트 리더십 (Servant Leadership)](/knowledge/software-engineering/agile-methods/servant-leadership/)
+- [비난 없는 포스트모템 (Blameless Postmortem)](/knowledge/software-engineering/agile-methods/blameless-postmortem/)

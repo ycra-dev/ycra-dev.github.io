@@ -1,5 +1,5 @@
 ---
-title: "Project Estimation"
+title: "프로젝트 추정 (Project Estimation)"
 description: "작업 범위와 소요 시간을 예측하는 기술로, 계획 오류(Planning Fallacy) 인지적 편향을 극복하고 현실적 일정을 수립하는 엔지니어의 핵심 역량"
 tags: ["SoftwareEngineering", "ProjectManagement", "Planning", "EffectiveEngineer"]
 created: 2026-02-27
@@ -67,5 +67,5 @@ after_1_week = {
 
 ## 관련 개념
 
-- [Minimum Viable Product](/knowledge/software-engineering/agile-methods/minimum-viable-product/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [최소 기능 제품 (Minimum Viable Product)](/knowledge/software-engineering/agile-methods/minimum-viable-product/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)

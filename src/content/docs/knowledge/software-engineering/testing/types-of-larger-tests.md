@@ -1,5 +1,5 @@
 ---
-title: "Types of Larger Tests"
+title: "대형 테스트의 유형 (Types of Larger Tests)"
 description: "대형 테스트의 다양한 유형으로, 기능 테스트, A/B 차이 테스트, UAT, 프로빙, 배포 설정 테스트 등 각각 다른 목적과 특성을 가진다"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -44,7 +44,7 @@ Google에서의 대형 테스트 구조:
 
 ## 관련 개념
 
-- [Larger Testing](/knowledge/software-engineering/testing/larger-testing/)
-- [Test Fidelity](/knowledge/software-engineering/testing/test-fidelity/)
-- [Hermetic Testing](/knowledge/software-engineering/testing/hermetic-testing/)
-- [SUT Configuration](/knowledge/software-engineering/testing/sut-configuration/)
+- [대형 테스팅 (Larger Testing)](/knowledge/software-engineering/testing/larger-testing/)
+- [테스트 충실도 (Test Fidelity)](/knowledge/software-engineering/testing/test-fidelity/)
+- [밀폐 테스팅 (Hermetic Testing)](/knowledge/software-engineering/testing/hermetic-testing/)
+- [SUT 구성 (SUT Configuration)](/knowledge/software-engineering/testing/sut-configuration/)

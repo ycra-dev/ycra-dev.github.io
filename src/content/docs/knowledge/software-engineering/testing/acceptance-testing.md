@@ -1,5 +1,5 @@
 ---
-title: "Acceptance Testing"
+title: "인수 테스팅 (Acceptance Testing)"
 description: "인수 테스트는 고객이 자신의 데이터를 사용하여 시스템을 테스트하고, 시스템을 인수할지 여부를 결정하는 사용자 테스트 과정이다"
 tags: ['Acceptance Testing', 'User Testing', 'Alpha Testing', 'Beta Testing', 'Customer Validation']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Release Testing](/knowledge/software-engineering/release-testing/)
-- [User Stories](/knowledge/software-engineering/user-stories/)
-- [Verification and Validation](/knowledge/software-engineering/verification-and-validation/)
+- [릴리스 테스팅 (Release Testing)](/knowledge/software-engineering/release-testing/)
+- [사용자 스토리 (User Stories)](/knowledge/software-engineering/user-stories/)
+- [검증과 확인 (Verification and Validation)](/knowledge/software-engineering/verification-and-validation/)

@@ -1,5 +1,5 @@
 ---
-title: "Distributed Tracing"
+title: "분산 추적 (Distributed Tracing)"
 description: "단일 API 호출이 발생시키는 여러 서비스 간의 흐름을 하나의 그래프로 연결하는 추적 기법"
 tags: ["Software Engineering", "Observability", "Microservices", "Debugging"]
 created: 2026-02-27
@@ -76,6 +76,6 @@ def process_payment(order_id):
 
 ## 관련 개념
 
-- [Observability](/knowledge/software-engineering/quality-and-configuration/observability/)
-- [Log Levels](/knowledge/software-engineering/quality-and-configuration/log-levels/)
-- [Incident Response](/knowledge/software-engineering/quality-and-configuration/incident-response/)
+- [관측 가능성 (Observability)](/knowledge/software-engineering/quality-and-configuration/observability/)
+- [로그 레벨 (Log Levels)](/knowledge/software-engineering/quality-and-configuration/log-levels/)
+- [장애 대응 (Incident Response)](/knowledge/software-engineering/quality-and-configuration/incident-response/)

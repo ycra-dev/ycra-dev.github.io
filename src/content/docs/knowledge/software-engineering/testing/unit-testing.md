@@ -1,5 +1,5 @@
 ---
-title: "Unit Testing"
+title: "단위 테스팅 (Unit Testing)"
 description: "단위 테스트는 소프트웨어의 가장 작은 테스트 가능 단위(함수, 메서드, 클래스)를 독립적으로 테스트하여 각 단위가 올바르게 동작하는지 확인하는 테스트 기법이다"
 tags: ['Unit Testing', 'Automated Testing', 'Junit', 'Pytest', 'Mock Objects', 'Development Testing']
 created: 2026-02-16
@@ -30,7 +30,7 @@ def test_calculate_discount():
 
 ## 관련 개념
 
-- [Test-driven Development](/knowledge/software-engineering/test-driven-development/)
-- [Equivalence Partitioning](/knowledge/software-engineering/equivalence-partitioning/)
-- [Regression Testing](/knowledge/software-engineering/regression-testing/)
-- [Component Testing](/knowledge/software-engineering/component-testing/)
+- [테스트 주도 개발 (Test-driven Development)](/knowledge/software-engineering/test-driven-development/)
+- [동치 분할 (Equivalence Partitioning)](/knowledge/software-engineering/equivalence-partitioning/)
+- [회귀 테스팅 (Regression Testing)](/knowledge/software-engineering/regression-testing/)
+- [컴포넌트 테스팅 (Component Testing)](/knowledge/software-engineering/component-testing/)

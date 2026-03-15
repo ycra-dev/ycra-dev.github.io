@@ -1,5 +1,5 @@
 ---
-title: "Interaction Testing"
+title: "상호작용 테스팅 (Interaction Testing)"
 description: "함수의 구현을 실제로 실행하지 않고 함수가 올바르게 호출되었는지(호출 여부, 횟수, 인수)를 검증하는 테스트 기법"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -60,7 +60,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Test Doubles](/knowledge/software-engineering/testing/test-doubles/)
-- [State Testing vs Interaction Testing](/knowledge/software-engineering/testing/state-testing-vs-interaction-testing/)
-- [Mocking Frameworks](/knowledge/software-engineering/testing/mocking-frameworks/)
-- [Stubbing](/knowledge/software-engineering/testing/stubbing/)
+- [테스트 더블 (Test Doubles)](/knowledge/software-engineering/testing/test-doubles/)
+- [상태 테스팅 vs 상호작용 테스팅 (State Testing vs Interaction Testing)](/knowledge/software-engineering/testing/state-testing-vs-interaction-testing/)
+- [모킹 프레임워크 (Mocking Frameworks)](/knowledge/software-engineering/testing/mocking-frameworks/)
+- [스터빙 (Stubbing)](/knowledge/software-engineering/testing/stubbing/)

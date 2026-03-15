@@ -1,5 +1,5 @@
 ---
-title: "Canonical Sources of Information"
+title: "정보의 정식 소스 (Canonical Sources of Information)"
 description: "전문가 지식을 표준화하고 전파하는 중앙화된 조직 전체 정보 코퍼스 — 정보 섬을 방지하고 일관된 기준을 제공한다"
 tags: ["Software Engineering", "Agile", "Knowledge Management", "Documentation"]
 created: 2026-02-27
@@ -31,7 +31,7 @@ go/ links의 선순환: Googler가 Frobber에 대한 정보를 찾을 때 먼저
 
 ## 관련 개념
 
-- [Knowledge Sharing Culture](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
-- [Information Islands](/knowledge/software-engineering/agile-methods/information-islands/)
-- [Readability Process (Knowledge Sharing)](/knowledge/software-engineering/agile-methods/readability-process-knowledge-sharing/)
-- [Static Analysis as Knowledge Sharing](/knowledge/software-engineering/agile-methods/static-analysis-as-knowledge-sharing/)
+- [지식 공유 문화 (Knowledge Sharing Culture)](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
+- [정보의 고립 (Information Islands)](/knowledge/software-engineering/agile-methods/information-islands/)
+- [가독성 프로세스 - 지식 공유 (Readability Process for Knowledge Sharing)](/knowledge/software-engineering/agile-methods/readability-process-knowledge-sharing/)
+- [지식 공유로서의 정적 분석 (Static Analysis as Knowledge Sharing)](/knowledge/software-engineering/agile-methods/static-analysis-as-knowledge-sharing/)

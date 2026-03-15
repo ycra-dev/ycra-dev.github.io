@@ -1,5 +1,5 @@
 ---
-title: "Important vs Urgent"
+title: "중요한 것과 긴급한 것 (Important vs Urgent)"
 description: "아이젠하워 매트릭스 — 리더가 반응적 모드에 빠져 전략적 업무를 놓치는 함정을 방지하기 위한 우선순위 프레임워크"
 tags: ["Software Engineering", "Project Management", "Time Management", "Prioritization"]
 created: 2026-02-27
@@ -37,6 +37,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Always Be Scaling](/knowledge/software-engineering/project-management/always-be-scaling/)
-- [Always Be Leaving](/knowledge/software-engineering/project-management/always-be-leaving/)
-- [Servant Leadership](/knowledge/software-engineering/agile-methods/servant-leadership/)
+- [항상 확장하라 (Always Be Scaling)](/knowledge/software-engineering/project-management/always-be-scaling/)
+- [항상 떠날 준비를 하라 (Always Be Leaving)](/knowledge/software-engineering/project-management/always-be-leaving/)
+- [서번트 리더십 (Servant Leadership)](/knowledge/software-engineering/agile-methods/servant-leadership/)

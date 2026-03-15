@@ -1,5 +1,5 @@
 ---
-title: "Risk Assessment"
+title: "위험 평가 (Risk Assessment)"
 description: "위험(hazard)의 발생 확률과 그 결과의 심각성을 평가하여 해당 위험의 수용 가능성을 판단하는 프로세스이다"
 tags: ['Risk Assessment', 'Safety', 'Probability', 'Severity', 'Intolerable', 'Alarp', 'Acceptable']
 created: 2026-02-16
@@ -20,8 +20,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Hazard Analysis](/knowledge/software-engineering/hazard-analysis/)
-- [Safety-Critical Systems](/knowledge/software-engineering/safety-critical-systems/)
-- [Safety Case](/knowledge/software-engineering/safety-case/)
-- [Security Risk Assessment](/knowledge/software-engineering/security-risk-assessment/)
-- [Fault Tree Analysis](/knowledge/software-engineering/fault-tree-analysis/)
+- [위험 분석 (Hazard Analysis)](/knowledge/software-engineering/hazard-analysis/)
+- [안전 필수 시스템 (Safety-Critical Systems)](/knowledge/software-engineering/safety-critical-systems/)
+- [안전 사례 (Safety Case)](/knowledge/software-engineering/safety-case/)
+- [보안 위험 평가 (Security Risk Assessment)](/knowledge/software-engineering/security-risk-assessment/)
+- [장애 트리 분석 (Fault Tree Analysis)](/knowledge/software-engineering/fault-tree-analysis/)

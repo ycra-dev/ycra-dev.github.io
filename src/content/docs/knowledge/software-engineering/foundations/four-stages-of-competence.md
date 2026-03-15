@@ -1,5 +1,5 @@
 ---
-title: "Four Stages of Competence"
+title: "역량의 4단계 (Four Stages of Competence)"
 description: "기술 학습 과정에서 인식(의식)과 능력의 조합으로 학습 단계를 설명하는 모델"
 tags: ["Software Engineering", "Learning", "Skill Acquisition"]
 created: 2026-02-27
@@ -59,7 +59,7 @@ Dunning-Kruger Effect는 1단계의 자만심이 심한 경우, Impostor Syndrom
 
 ## 관련 개념
 
-- [Dreyfus Model](/knowledge/software-engineering/foundations/dreyfus-model/)
-- [Impostor Syndrome](/knowledge/software-engineering/foundations/impostor-syndrome/)
-- [Dunning-Kruger Effect](/knowledge/software-engineering/foundations/dunning-kruger-effect/)
-- [Knowledge Portfolio](/knowledge/software-engineering/project-management/knowledge-portfolio/)
+- [드레이퍼스 모델 (Dreyfus Model)](/knowledge/software-engineering/foundations/dreyfus-model/)
+- [가면 증후군 (Impostor Syndrome)](/knowledge/software-engineering/foundations/impostor-syndrome/)
+- [더닝-크루거 효과 (Dunning-Kruger Effect)](/knowledge/software-engineering/foundations/dunning-kruger-effect/)
+- [지식 포트폴리오 (Knowledge Portfolio)](/knowledge/software-engineering/project-management/knowledge-portfolio/)

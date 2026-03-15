@@ -57,6 +57,6 @@ public class Car {
 
 ## 관련 개념
 
-- [Object-Oriented Design](/knowledge/software-engineering/design-and-evolution/object-oriented-design/)
-- [Functional Programming](/knowledge/software-engineering/foundations/functional-programming/)
-- [Refactoring](/knowledge/software-engineering/design-and-evolution/refactoring/)
+- [객체지향 설계 (Object-Oriented Design)](/knowledge/software-engineering/design-and-evolution/object-oriented-design/)
+- [함수형 프로그래밍 (Functional Programming)](/knowledge/software-engineering/foundations/functional-programming/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/design-and-evolution/refactoring/)

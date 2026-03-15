@@ -1,5 +1,5 @@
 ---
-title: "Object-oriented Design"
+title: "객체지향 설계 (Object-oriented Design)"
 description: "객체지향 설계는 시스템을 상호작용하는 객체들의 집합으로 모델링하는 설계 접근법으로, 각 객체는 자체적인 상태(데이터)와 행위(메서드)를 캡슐화한다"
 tags: ['Object Oriented Design', 'OOP', 'Encapsulation', 'Class', 'Object', 'Inheritance']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Design Patterns](/knowledge/software-engineering/design-patterns/)
-- [Class Diagram](/knowledge/software-engineering/class-diagram/)
-- [UML](/knowledge/software-engineering/uml/)
-- [Software Architecture](/knowledge/software-engineering/software-architecture/)
+- [디자인 패턴 (Design Patterns)](/knowledge/software-engineering/design-patterns/)
+- [클래스 다이어그램 (Class Diagram)](/knowledge/software-engineering/class-diagram/)
+- [UML (통합 모델링 언어)](/knowledge/software-engineering/uml/)
+- [소프트웨어 아키텍처 (Software Architecture)](/knowledge/software-engineering/software-architecture/)

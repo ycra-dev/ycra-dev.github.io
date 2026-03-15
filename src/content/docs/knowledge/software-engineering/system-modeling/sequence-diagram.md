@@ -1,5 +1,5 @@
 ---
-title: "Sequence Diagram"
+title: "시퀀스 다이어그램 (Sequence Diagram)"
 description: "시퀀스 다이어그램은 시스템 내 객체(또는 액터)들 간의 상호작용을 시간 순서에 따라 표현하는 UML 동적 다이어그램이다"
 tags: ['Sequence Diagram', 'Uml', 'Interaction', 'Message Passing', 'Dynamic Model']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [UML](/knowledge/software-engineering/uml/)
-- [Use Cases](/knowledge/software-engineering/use-cases/)
-- [Class Diagram](/knowledge/software-engineering/class-diagram/)
+- [UML (통합 모델링 언어)](/knowledge/software-engineering/uml/)
+- [유스 케이스 (Use Cases)](/knowledge/software-engineering/use-cases/)
+- [클래스 다이어그램 (Class Diagram)](/knowledge/software-engineering/class-diagram/)

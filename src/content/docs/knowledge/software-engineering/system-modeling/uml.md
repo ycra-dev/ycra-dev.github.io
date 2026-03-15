@@ -1,5 +1,5 @@
 ---
-title: "UML"
+title: "UML (통합 모델링 언어)"
 description: "UML(Unified Modeling Language)은 소프트웨어 시스템의 다양한 관점을 시각적으로 표현하기 위한 표준화된 모델링 언어로, 13종의 다이어그램 유형을 정의한다"
 tags: ['Uml', 'Unified Modeling Language', 'Modeling', 'Diagram', 'Object Oriented']
 created: 2026-02-16
@@ -20,8 +20,8 @@ UML은 1990년대에 Booch, Rumbaugh, Jacobson의 세 가지 객체지향 설계
 
 ## 관련 개념
 
-- [Class Diagram](/knowledge/software-engineering/class-diagram/)
-- [Sequence Diagram](/knowledge/software-engineering/sequence-diagram/)
-- [State Diagram](/knowledge/software-engineering/state-diagram/)
-- [Use Cases](/knowledge/software-engineering/use-cases/)
-- [Activity Diagram](/knowledge/software-engineering/activity-diagram/)
+- [클래스 다이어그램 (Class Diagram)](/knowledge/software-engineering/class-diagram/)
+- [시퀀스 다이어그램 (Sequence Diagram)](/knowledge/software-engineering/sequence-diagram/)
+- [상태 다이어그램 (State Diagram)](/knowledge/software-engineering/state-diagram/)
+- [유스 케이스 (Use Cases)](/knowledge/software-engineering/use-cases/)
+- [활동 다이어그램 (Activity Diagram)](/knowledge/software-engineering/activity-diagram/)

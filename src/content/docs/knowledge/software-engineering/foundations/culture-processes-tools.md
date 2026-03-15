@@ -1,5 +1,5 @@
 ---
-title: "Culture, Processes, Tools"
+title: "문화, 프로세스, 도구 (Culture, Processes, Tools)"
 description: "Google이 소프트웨어 엔지니어링 환경을 구성하는 세 가지 핵심 축으로, 건강한 소프트웨어 조직의 근간"
 tags: ["Software Engineering", "Foundations", "Organization"]
 created: 2026-02-27
@@ -28,6 +28,6 @@ Google 스스로도 이러한 개념들을 완벽하게 적용하지 못하며, 
 
 ## 관련 개념
 
-- [Sustainability](/knowledge/software-engineering/foundations/sustainability/)
-- [Software Engineering vs Programming](/knowledge/software-engineering/foundations/software-engineering-vs-programming/)
-- [Knowledge Sharing Culture](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
+- [지속 가능성 (Sustainability)](/knowledge/software-engineering/foundations/sustainability/)
+- [소프트웨어 공학 vs 프로그래밍 (Software Engineering vs Programming)](/knowledge/software-engineering/foundations/software-engineering-vs-programming/)
+- [지식 공유 문화 (Knowledge Sharing Culture)](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)

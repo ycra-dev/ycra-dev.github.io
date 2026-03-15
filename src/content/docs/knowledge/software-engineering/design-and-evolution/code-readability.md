@@ -1,5 +1,5 @@
 ---
-title: "Code Readability"
+title: "코드 가독성 (Code Readability)"
 description: "다른 개발자(또는 미래의 자신)가 코드를 얼마나 쉽게 이해할 수 있는지를 나타내는 코드 품질 속성"
 tags: ["Software Engineering", "Code Quality", "Maintainability"]
 created: 2026-02-27
@@ -51,7 +51,7 @@ process();
 
 ## 관련 개념
 
-- [Code Smell](/knowledge/software-engineering/design-and-evolution/code-smell/)
-- [Refactoring](/knowledge/software-engineering/design-and-evolution/refactoring/)
-- [Coding Standard](/knowledge/software-engineering/foundations/coding-standard/)
-- [Code Idiom](/knowledge/software-engineering/design-and-evolution/code-idiom/)
+- [코드 스멜 (Code Smell)](/knowledge/software-engineering/design-and-evolution/code-smell/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/design-and-evolution/refactoring/)
+- [코딩 표준 (Coding Standard)](/knowledge/software-engineering/foundations/coding-standard/)
+- [코드 관용구 (Code Idiom)](/knowledge/software-engineering/design-and-evolution/code-idiom/)

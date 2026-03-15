@@ -1,5 +1,5 @@
 ---
-title: "Version Management"
+title: "버전 관리 (Version Management)"
 description: "버전 관리는 소프트웨어 컴포넌트와 시스템의 여러 버전을 추적하고, 서로 다른 개발자가 만든 변경 사항이 서로 간섭하지 않도록 보장하는 프로세스이다"
 tags: ['Version Management', 'Version Control', 'Git', 'Branching', 'Merging', 'Codeline']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [System Building](/knowledge/software-engineering/system-building/)
-- [Change Management](/knowledge/software-engineering/change-management/)
-- [Release Management](/knowledge/software-engineering/release-management/)
+- [시스템 빌드 (System Building)](/knowledge/software-engineering/system-building/)
+- [변경 관리 (Change Management)](/knowledge/software-engineering/change-management/)
+- [릴리스 관리 (Release Management)](/knowledge/software-engineering/release-management/)

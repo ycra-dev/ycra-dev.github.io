@@ -1,5 +1,5 @@
 ---
-title: "Equivalence Partitioning"
+title: "동치 분할 (Equivalence Partitioning)"
 description: "동치 분할은 입력 데이터를 동일한 동작을 유발하는 그룹(파티션)으로 분류하고, 각 파티션에서 대표 테스트 케이스를 선택하는 체계적인 테스트 설계 기법이다"
 tags: ['Equivalence Partitioning', 'Test Design', 'Boundary Value Analysis', 'Test Case', 'Black Box Testing']
 created: 2026-02-16
@@ -20,5 +20,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Unit Testing](/knowledge/software-engineering/unit-testing/)
-- [Test-driven Development](/knowledge/software-engineering/test-driven-development/)
+- [단위 테스팅 (Unit Testing)](/knowledge/software-engineering/unit-testing/)
+- [테스트 주도 개발 (Test-driven Development)](/knowledge/software-engineering/test-driven-development/)

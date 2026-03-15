@@ -1,5 +1,5 @@
 ---
-title: "Compiled vs Interpreted Languages"
+title: "컴파일 언어 vs 인터프리터 언어 (Compiled vs Interpreted Languages)"
 description: "소스코드를 실행 전에 기계어로 변환하는 컴파일 언어와, 실행 시점에 한 줄씩 해석하는 인터프리터 언어의 차이와 트레이드오프이다."
 tags: ["Software Engineering", "Programming Languages", "Compilers"]
 created: 2026-02-27

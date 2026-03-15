@@ -1,5 +1,5 @@
 ---
-title: "JavaScript"
+title: "자바스크립트 (JavaScript)"
 description: "웹 브라우저에서 실행되는 프로그래밍 언어로 웹 페이지에 동적 기능과 상호작용을 부여하며 Node.js를 통해 서버 측에서도 사용된다"
 tags: ["Software-Engineering", "JavaScript", "Web", "Programming-Language"]
 created: 2026-02-27
@@ -89,7 +89,7 @@ JavaScript (동작): "버튼을 클릭하면 카운터가 증가한다"
 ## 관련 개념
 
 - [인터프리터 (Interpreter)](/knowledge/language/interpreter-basics/) - JavaScript는 인터프리터/JIT 컴파일 방식으로 실행
-- [API (Application Programming Interface)](/knowledge/software-engineering/api-basics/) - 브라우저 API와 웹 API를 JavaScript로 호출
+- [API (애플리케이션 프로그래밍 인터페이스)](/knowledge/software-engineering/api-basics/) - 브라우저 API와 웹 API를 JavaScript로 호출
 - [오픈 소스 소프트웨어 (Open Source Software)](/knowledge/software-engineering/open-source-software/) - V8, SpiderMonkey 등 JavaScript 엔진은 오픈 소스
 
 ## 출처

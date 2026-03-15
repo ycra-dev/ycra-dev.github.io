@@ -1,5 +1,5 @@
 ---
-title: "Log Levels"
+title: "로그 레벨 (Log Levels)"
 description: "로그 메시지의 중요도를 분류하여 운영자가 출력량을 제어할 수 있게 하는 체계"
 tags: ["Software Engineering", "Observability", "Operations"]
 created: 2026-02-27
@@ -69,7 +69,7 @@ logging:
 
 ## 관련 개념
 
-- [Observability](/knowledge/software-engineering/quality-and-configuration/observability/)
-- [Distributed Tracing](/knowledge/software-engineering/quality-and-configuration/distributed-tracing/)
-- [Defensive Programming](/knowledge/software-engineering/foundations/defensive-programming/)
-- [Debugging](/knowledge/software-engineering/foundations/debugging/)
+- [관측 가능성 (Observability)](/knowledge/software-engineering/quality-and-configuration/observability/)
+- [분산 추적 (Distributed Tracing)](/knowledge/software-engineering/quality-and-configuration/distributed-tracing/)
+- [방어적 프로그래밍 (Defensive Programming)](/knowledge/software-engineering/foundations/defensive-programming/)
+- [디버깅 (Debugging)](/knowledge/software-engineering/foundations/debugging/)

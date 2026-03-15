@@ -1,5 +1,5 @@
 ---
-title: "People Management"
+title: "인력 관리 (People Management)"
 description: "소프트웨어 프로젝트에서 인력 관리는 프로젝트에 적합한 인력을 선택하고, 효과적인 팀 성과를 이끌어내기 위한 작업 환경과 방식을 확립하는 관리 활동이다"
 tags: ['People Management', 'Motivation', 'Leadership', 'Team Management', 'Software Engineering']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Teamwork](/knowledge/software-engineering/teamwork/)
-- [Software Project Management](/knowledge/software-engineering/software-project-management/)
-- [Risk Management](/knowledge/software-engineering/risk-management/)
+- [팀워크 (Teamwork)](/knowledge/software-engineering/teamwork/)
+- [소프트웨어 프로젝트 관리 (Software Project Management)](/knowledge/software-engineering/software-project-management/)
+- [리스크 관리 (Risk Management)](/knowledge/software-engineering/risk-management/)

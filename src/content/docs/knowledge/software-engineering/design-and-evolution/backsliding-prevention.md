@@ -1,5 +1,5 @@
 ---
-title: "Backsliding Prevention"
+title: "퇴보 방지 (Backsliding Prevention)"
 description: "활발히 제거되고 있는 구식 시스템에 대한 새로운 사용이 추가되는 것을 방지하는 인프라와 도구"
 tags: ["Software Engineering", "Design and Evolution"]
 created: 2026-02-27
@@ -32,6 +32,6 @@ Java에서 `@deprecated` 어노테이션을 사용하면 Tricorder가 리뷰 시
 
 ## 관련 개념
 
-- [Deprecation](/knowledge/software-engineering/design-and-evolution/deprecation/)
-- [Deprecation Warnings](/knowledge/software-engineering/design-and-evolution/deprecation-warnings/)
-- [Compulsory Deprecation](/knowledge/software-engineering/design-and-evolution/compulsory-deprecation/)
+- [디프리케이션 (Deprecation)](/knowledge/software-engineering/design-and-evolution/deprecation/)
+- [디프리케이션 경고 (Deprecation Warnings)](/knowledge/software-engineering/design-and-evolution/deprecation-warnings/)
+- [강제적 디프리케이션 (Compulsory Deprecation)](/knowledge/software-engineering/design-and-evolution/compulsory-deprecation/)

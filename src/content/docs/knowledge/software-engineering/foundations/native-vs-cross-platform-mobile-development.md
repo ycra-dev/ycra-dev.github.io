@@ -41,6 +41,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Development Platform](/knowledge/software-engineering/foundations/development-platform/)
-- [Game Engine](/knowledge/software-engineering/foundations/game-engine/)
-- [Web API](/knowledge/software-engineering/systems-and-services/web-api/)
+- [개발 플랫폼 (Development Platform)](/knowledge/software-engineering/foundations/development-platform/)
+- [게임 엔진 (Game Engine)](/knowledge/software-engineering/foundations/game-engine/)
+- [웹 API (Web API)](/knowledge/software-engineering/systems-and-services/web-api/)

@@ -1,5 +1,5 @@
 ---
-title: "Penetration Testing"
+title: "침투 테스팅 (Penetration Testing)"
 description: "개발 팀 외부의 전문 보안 팀이 시스템의 보안을 침해하려는 목표를 가지고 공격을 시뮬레이션하여 보안 취약점을 발견하는 경험 기반 테스팅의 한 형태이다"
 tags: ['Penetration Testing', 'Security Testing', 'Ethical Hacking', 'Vulnerability Discovery', 'Simulation']
 created: 2026-02-16
@@ -20,7 +20,7 @@ SQL 인젝션 공격에 대한 테스팅에서는 SQL 명령을 포함하는 입
 
 ## 관련 개념
 
-- [Vulnerability](/knowledge/software-engineering/vulnerability/)
-- [Static Analysis](/knowledge/software-engineering/static-analysis/)
-- [Secure Systems Design](/knowledge/software-engineering/secure-systems-design/)
-- [Security Risk Assessment](/knowledge/software-engineering/security-risk-assessment/)
+- [취약점 (Vulnerability)](/knowledge/software-engineering/vulnerability/)
+- [정적 분석 (Static Analysis)](/knowledge/software-engineering/static-analysis/)
+- [보안 시스템 설계 (Secure Systems Design)](/knowledge/software-engineering/secure-systems-design/)
+- [보안 위험 평가 (Security Risk Assessment)](/knowledge/software-engineering/security-risk-assessment/)

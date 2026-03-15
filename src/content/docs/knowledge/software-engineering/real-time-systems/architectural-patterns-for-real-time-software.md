@@ -1,5 +1,5 @@
 ---
-title: "Architectural Patterns for Real-Time Software"
+title: "실시간 소프트웨어 아키텍처 패턴 (Architectural Patterns for Real-Time Software)"
 description: "실시간 소프트웨어 아키텍처 패턴은 임베디드 실시간 시스템 설계에서 사용되는 프로세스 지향의 추상적인 설계 실천 방식으로, 시스템 아키텍처 조직에 대한 지식을 캡처한다"
 tags: ['Architectural Patterns', 'Observe And React', 'Environmental Control', 'Process Pipeline', 'Real Time', 'Embedded']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Embedded Real-Time System](/knowledge/software-engineering/embedded-real-time-system/)
-- [Stimulus-Response Model](/knowledge/software-engineering/stimulus-response-model/)
-- [Timing Analysis](/knowledge/software-engineering/timing-analysis/)
-- [Real-Time Operating System](/knowledge/software-engineering/real-time-operating-system/)
+- [임베디드 실시간 시스템 (Embedded Real-Time System)](/knowledge/software-engineering/embedded-real-time-system/)
+- [자극-응답 모델 (Stimulus-Response Model)](/knowledge/software-engineering/stimulus-response-model/)
+- [시간 분석 (Timing Analysis)](/knowledge/software-engineering/timing-analysis/)
+- [실시간 운영체제 (Real-Time Operating System)](/knowledge/software-engineering/real-time-operating-system/)

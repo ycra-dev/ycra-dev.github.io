@@ -1,5 +1,5 @@
 ---
-title: "Readability Process"
+title: "가독성 프로세스 (Readability Process)"
 description: "구글에서 엔지니어가 특정 프로그래밍 언어의 관용적 사용법과 모범 사례에 대한 숙련도를 인증받는 과정 — Readability를 획득한 엔지니어만이 해당 언어의 가독성 승인을 부여할 수 있다"
 tags: ["Software Engineering", "Quality", "Readability", "Mentoring", "Knowledge Sharing"]
 created: 2026-02-27
@@ -45,7 +45,7 @@ Readability의 가치:
 
 ## 관련 개념
 
-- [Code Review](/knowledge/software-engineering/quality-and-configuration/code-review/)
-- [LGTM and Approval Types](/knowledge/software-engineering/quality-and-configuration/lgtm-and-approval-types/)
-- [Style Guides and Rules](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
-- [Measuring Engineering Productivity](/knowledge/software-engineering/project-management/measuring-engineering-productivity/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/quality-and-configuration/code-review/)
+- [LGTM과 승인 유형 (LGTM and Approval Types)](/knowledge/software-engineering/quality-and-configuration/lgtm-and-approval-types/)
+- [스타일 가이드와 규칙 (Style Guides and Rules)](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
+- [엔지니어링 생산성 측정 (Measuring Engineering Productivity)](/knowledge/software-engineering/project-management/measuring-engineering-productivity/)

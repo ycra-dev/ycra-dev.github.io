@@ -1,5 +1,5 @@
 ---
-title: "RESTful Service"
+title: "RESTful 서비스 (RESTful Service)"
 description: "RESTful 서비스는 REST(Representational State Transfer) 아키텍처 스타일에 기반한 경량 웹 서비스 접근 방식으로, 리소스에 대한 표준 HTTP 연산(POST, GET, PUT, DELETE)을 사용한다"
 tags: ['REST', 'Restful', 'HTTP', 'JSON', 'Stateless', 'Crud', 'Web API', 'Resource']
 created: 2026-02-16
@@ -37,7 +37,7 @@ JSON 응답:
 
 ## 관련 개념
 
-- [Service-Oriented Architecture](/knowledge/software-engineering/service-oriented-architecture/)
-- [Service Engineering](/knowledge/software-engineering/service-engineering/)
-- [Service Composition](/knowledge/software-engineering/service-composition/)
-- [Software as a Service](/knowledge/software-engineering/software-as-a-service/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/software-engineering/service-oriented-architecture/)
+- [서비스 공학 (Service Engineering)](/knowledge/software-engineering/service-engineering/)
+- [서비스 합성 (Service Composition)](/knowledge/software-engineering/service-composition/)
+- [서비스형 소프트웨어 (Software as a Service)](/knowledge/software-engineering/software-as-a-service/)

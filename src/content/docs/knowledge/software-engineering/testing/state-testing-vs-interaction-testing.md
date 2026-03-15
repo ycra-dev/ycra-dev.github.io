@@ -1,5 +1,5 @@
 ---
-title: "State Testing vs Interaction Testing"
+title: "상태 테스팅 vs 상호작용 테스팅 (State Testing vs Interaction Testing)"
 description: "상태 테스팅은 시스템 호출 후 상태를 직접 관찰하여 검증하고, 인터랙션 테스팅은 의존성에 대해 수행한 호출을 검증하는 두 가지 테스트 검증 방식"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -54,7 +54,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Test via Public APIs](/knowledge/software-engineering/testing/test-via-public-apis/)
-- [Interaction Testing](/knowledge/software-engineering/testing/interaction-testing/)
-- [Test Doubles](/knowledge/software-engineering/testing/test-doubles/)
-- [Mocking Frameworks](/knowledge/software-engineering/testing/mocking-frameworks/)
+- [공개 API를 통한 테스트 (Test via Public APIs)](/knowledge/software-engineering/testing/test-via-public-apis/)
+- [상호작용 테스팅 (Interaction Testing)](/knowledge/software-engineering/testing/interaction-testing/)
+- [테스트 더블 (Test Doubles)](/knowledge/software-engineering/testing/test-doubles/)
+- [모킹 프레임워크 (Mocking Frameworks)](/knowledge/software-engineering/testing/mocking-frameworks/)

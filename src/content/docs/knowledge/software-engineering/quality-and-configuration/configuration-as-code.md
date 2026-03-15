@@ -1,5 +1,5 @@
 ---
-title: "Configuration as Code"
+title: "코드로서의 설정 (Configuration as Code)"
 description: "설정을 코드와 동일한 엄격함으로 관리하는 철학"
 tags: ["Software Engineering", "DevOps", "Operations"]
 created: 2026-02-27
@@ -72,6 +72,6 @@ validate_config:
 
 ## 관련 개념
 
-- [Continuous Integration](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
-- [Defensive Programming](/knowledge/software-engineering/foundations/defensive-programming/)
-- [Version Management](/knowledge/software-engineering/quality-and-configuration/version-management/)
+- [지속적 통합 (Continuous Integration)](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
+- [방어적 프로그래밍 (Defensive Programming)](/knowledge/software-engineering/foundations/defensive-programming/)
+- [버전 관리 (Version Management)](/knowledge/software-engineering/quality-and-configuration/version-management/)

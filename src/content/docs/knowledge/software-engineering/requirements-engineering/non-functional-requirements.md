@@ -1,5 +1,5 @@
 ---
-title: "Non-functional Requirements"
+title: "비기능적 요구사항 (Non-functional Requirements)"
 description: "비기능적 요구사항은 시스템의 기능 자체가 아닌, 성능, 보안, 가용성, 응답 시간 등 시스템 속성이나 품질 특성에 대한 제약 조건을 정의하는 요구사항이다"
 tags: ['Non Functional Requirements', 'Quality Attributes', 'Performance', 'Security', 'Usability', 'Constraints']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Requirements Engineering](/knowledge/software-engineering/requirements-engineering/)
-- [Functional Requirements](/knowledge/software-engineering/functional-requirements/)
-- [Software Quality Attributes](/knowledge/software-engineering/software-quality-attributes/)
+- [요구사항 공학 (Requirements Engineering)](/knowledge/software-engineering/requirements-engineering/)
+- [기능적 요구사항 (Functional Requirements)](/knowledge/software-engineering/functional-requirements/)
+- [소프트웨어 품질 속성 (Software Quality Attributes)](/knowledge/software-engineering/software-quality-attributes/)

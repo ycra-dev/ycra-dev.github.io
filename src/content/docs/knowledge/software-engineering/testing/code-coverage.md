@@ -1,5 +1,5 @@
 ---
-title: "Code Coverage"
+title: "코드 커버리지 (Code Coverage)"
 description: "테스트 스위트가 실행한 코드 라인의 비율을 측정하는 지표"
 tags: ["Software Engineering", "Testing", "Metrics"]
 created: 2026-02-27
@@ -63,6 +63,6 @@ def test_charge_deducts_from_balance():
 
 ## 관련 개념
 
-- [Unit Testing](/knowledge/software-engineering/testing/unit-testing/)
-- [Test-Driven Development](/knowledge/software-engineering/testing/test-driven-development/)
-- [Integration Testing](/knowledge/software-engineering/testing/integration-testing/)
+- [단위 테스팅 (Unit Testing)](/knowledge/software-engineering/testing/unit-testing/)
+- [테스트 주도 개발 (Test-Driven Development)](/knowledge/software-engineering/testing/test-driven-development/)
+- [통합 테스팅 (Integration Testing)](/knowledge/software-engineering/testing/integration-testing/)

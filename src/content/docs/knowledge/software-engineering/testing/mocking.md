@@ -1,5 +1,5 @@
 ---
-title: "Mocking"
+title: "모킹 (Mocking)"
 description: "테스트 시 실제 의존성(데이터베이스, API, 외부 서비스) 대신 그 동작을 흉내내는 가짜 객체를 사용하여 단위를 격리 테스트하는 기법이다."
 tags: ["Software Engineering", "Testing", "Unit Testing", "Dependency"]
 created: 2026-02-27

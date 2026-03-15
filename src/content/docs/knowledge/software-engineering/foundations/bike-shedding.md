@@ -1,5 +1,5 @@
 ---
-title: "Bike-Shedding"
+title: "바이크 셰딩 (Bike-Shedding)"
 description: "사소한 문제에 대해 불균형적으로 많은 시간을 소비하는 현상"
 tags: ["Software Engineering", "Communication", "Team Dynamics"]
 created: 2026-02-27
@@ -46,5 +46,5 @@ PR 리뷰에서의 바이크셰딩:
 
 ## 관련 개념
 
-- [Coding Standard](/knowledge/software-engineering/foundations/coding-standard/)
-- [Code Review](/knowledge/software-engineering/quality-and-configuration/code-review/)
+- [코딩 표준 (Coding Standard)](/knowledge/software-engineering/foundations/coding-standard/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/quality-and-configuration/code-review/)

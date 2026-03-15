@@ -1,5 +1,5 @@
 ---
-title: "Timing Analysis"
+title: "시간 분석 (Timing Analysis)"
 description: "타이밍 분석은 임베디드 실시간 소프트웨어 개발에서 각 프로세스의 실행 빈도를 계산하여 모든 입력이 처리되고 시스템 응답이 적시에 생성되도록 보장하는 분석 활동이다"
 tags: ['Timing Analysis', 'Deadline', 'Frequency', 'Execution Time', 'Worst Case', 'Real Time', 'Scheduling']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Embedded Real-Time System](/knowledge/software-engineering/embedded-real-time-system/)
-- [Real-Time Operating System](/knowledge/software-engineering/real-time-operating-system/)
-- [Stimulus-Response Model](/knowledge/software-engineering/stimulus-response-model/)
-- [Architectural Patterns for Real-Time Software](/knowledge/software-engineering/architectural-patterns-for-real-time-software/)
+- [임베디드 실시간 시스템 (Embedded Real-Time System)](/knowledge/software-engineering/embedded-real-time-system/)
+- [실시간 운영체제 (Real-Time Operating System)](/knowledge/software-engineering/real-time-operating-system/)
+- [자극-응답 모델 (Stimulus-Response Model)](/knowledge/software-engineering/stimulus-response-model/)
+- [실시간 소프트웨어 아키텍처 패턴 (Architectural Patterns for Real-Time Software)](/knowledge/software-engineering/architectural-patterns-for-real-time-software/)

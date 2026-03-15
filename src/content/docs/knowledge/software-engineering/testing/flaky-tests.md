@@ -1,5 +1,5 @@
 ---
-title: "Flaky Tests"
+title: "불안정 테스트 (Flaky Tests)"
 description: "코드에 변경이 없음에도 때로는 성공하고 때로는 실패하는 비결정적(nondeterministic) 테스트"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -47,6 +47,6 @@ def test_response_time():
 
 ## 관련 개념
 
-- [Test Size](/knowledge/software-engineering/testing/test-size/)
-- [Hermetic Testing](/knowledge/software-engineering/testing/hermetic-testing/)
-- [Larger Test Challenges](/knowledge/software-engineering/testing/larger-test-challenges/)
+- [테스트 크기 (Test Size)](/knowledge/software-engineering/testing/test-size/)
+- [밀폐 테스팅 (Hermetic Testing)](/knowledge/software-engineering/testing/hermetic-testing/)
+- [대형 테스트의 과제 (Larger Test Challenges)](/knowledge/software-engineering/testing/larger-test-challenges/)

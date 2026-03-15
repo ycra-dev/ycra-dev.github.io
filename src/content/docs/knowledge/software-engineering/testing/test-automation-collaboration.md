@@ -1,5 +1,5 @@
 ---
-title: "Test Automation Collaboration"
+title: "테스트 자동화 협업 (Test Automation Collaboration)"
 description: "개발자가 QA와 협력하여 테스트 자동화 프레임워크 구축에 참여함으로써 테스트 품질을 높이는 실천"
 tags: ["SoftwareEngineering", "Testing", "Collaboration", "QA"]
 created: 2026-02-27
@@ -49,6 +49,6 @@ class LoginPage {
 
 ## 관련 개념
 
-- [Developer-QA Collaboration](/knowledge/software-engineering/testing/developer-qa-collaboration/)
-- [Test Maintainability](/knowledge/software-engineering/testing/test-maintainability/)
-- [Testing Culture](/knowledge/software-engineering/testing/testing-culture/)
+- [개발자-QA 협업 (Developer-QA Collaboration)](/knowledge/software-engineering/testing/developer-qa-collaboration/)
+- [테스트 유지보수성 (Test Maintainability)](/knowledge/software-engineering/testing/test-maintainability/)
+- [테스팅 문화 (Testing Culture)](/knowledge/software-engineering/testing/testing-culture/)

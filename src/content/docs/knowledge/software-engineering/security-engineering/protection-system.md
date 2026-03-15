@@ -1,5 +1,5 @@
 ---
-title: "Protection System"
+title: "보호 시스템 (Protection System)"
 description: "다른 시스템(주로 제어 시스템)과 연관된 특수 시스템으로, 센서가 문제를 감지하면 제어 대상 시스템이 처리하지 못하는 경우 시스템을 종료하거나 보호 메커니즘을 발동하는 시스템이다"
 tags: ['Protection System', 'Safety', 'Fault Tolerance', 'Monitoring', 'Shutdown', 'Redundancy']
 created: 2026-02-16
@@ -20,8 +20,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Fault Tolerance](/knowledge/software-engineering/fault-tolerance/)
-- [Redundancy and Diversity](/knowledge/software-engineering/redundancy-and-diversity/)
-- [Safety-Critical Systems](/knowledge/software-engineering/safety-critical-systems/)
-- [Self-Monitoring Architecture](/knowledge/software-engineering/self-monitoring-architecture/)
-- [Reliability Metrics](/knowledge/software-engineering/reliability-metrics/)
+- [장애 허용 (Fault Tolerance)](/knowledge/software-engineering/fault-tolerance/)
+- [중복성과 다양성 (Redundancy and Diversity)](/knowledge/software-engineering/redundancy-and-diversity/)
+- [안전 필수 시스템 (Safety-Critical Systems)](/knowledge/software-engineering/safety-critical-systems/)
+- [자가 모니터링 아키텍처 (Self-Monitoring Architecture)](/knowledge/software-engineering/self-monitoring-architecture/)
+- [신뢰성 지표 (Reliability Metrics)](/knowledge/software-engineering/reliability-metrics/)

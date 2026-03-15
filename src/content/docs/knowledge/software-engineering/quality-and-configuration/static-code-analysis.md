@@ -1,5 +1,5 @@
 ---
-title: "Static Code Analysis"
+title: "정적 코드 분석 (Static Code Analysis)"
 description: "코드를 실행하지 않고 소스 텍스트를 분석하여 잠재적 버그, 스타일 위반, 보안 취약점을 자동으로 발견하는 도구와 기법이다."
 tags: ["Software Engineering", "Code Quality", "Linting", "Security"]
 created: 2026-02-27

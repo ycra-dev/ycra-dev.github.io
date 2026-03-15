@@ -1,5 +1,5 @@
 ---
-title: "Hyrum's Law"
+title: "하이럼의 법칙 (Hyrum's Law)"
 description: "API 사용자가 충분히 많아지면 명시된 계약과 무관하게 모든 관찰 가능한 동작에 의존자가 생긴다는 암묵적 의존성의 법칙"
 tags: ["Software Engineering", "Foundations", "API", "Dependencies"]
 created: 2026-02-27
@@ -30,7 +30,7 @@ Python의 `hash()` 함수 구현도 대표적인 사례다. 공식 명세에서 
 
 ## 관련 개념
 
-- [Programming Integrated Over Time](/knowledge/software-engineering/foundations/programming-integrated-over-time/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
-- [Trade-offs and Costs](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
-- [Shifting Left](/knowledge/software-engineering/foundations/shifting-left/)
+- [시간에 걸친 프로그래밍 통합 (Programming Integrated Over Time)](/knowledge/software-engineering/foundations/programming-integrated-over-time/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [트레이드오프와 비용 (Trade-offs and Costs)](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
+- [시프트 레프트 (Shifting Left)](/knowledge/software-engineering/foundations/shifting-left/)

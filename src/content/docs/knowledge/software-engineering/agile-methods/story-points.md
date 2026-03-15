@@ -1,5 +1,5 @@
 ---
-title: "Story Points"
+title: "스토리 포인트 (Story Points)"
 description: "사용자 스토리의 복잡도와 노력을 나타내는 상대적 추정 단위"
 tags: ["Software Engineering", "Agile", "Estimation", "Scrum"]
 created: 2026-02-27
@@ -67,6 +67,6 @@ sidebar:
 
 ## 관련 개념
 
-- [User Story](/knowledge/software-engineering/agile-methods/user-story/)
-- [Scrum](/knowledge/software-engineering/agile-methods/scrum/)
-- [Agile Software Development](/knowledge/software-engineering/agile-methods/agile-software-development/)
+- [사용자 스토리 (User Story)](/knowledge/software-engineering/agile-methods/user-story/)
+- [스크럼 (Scrum)](/knowledge/software-engineering/agile-methods/scrum/)
+- [애자일 소프트웨어 개발 (Agile Software Development)](/knowledge/software-engineering/agile-methods/agile-software-development/)

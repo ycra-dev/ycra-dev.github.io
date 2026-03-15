@@ -1,5 +1,5 @@
 ---
-title: "JavaScript"
+title: "자바스크립트 (JavaScript)"
 description: "웹 브라우저에서 실행되는 프로그래밍 언어로, HTML/CSS와 함께 웹의 3대 핵심 기술 중 하나이며 Node.js를 통해 서버 측에서도 사용된다"
 tags: ["Software-Engineering", "JavaScript", "Web", "Programming-Language"]
 created: 2026-02-25

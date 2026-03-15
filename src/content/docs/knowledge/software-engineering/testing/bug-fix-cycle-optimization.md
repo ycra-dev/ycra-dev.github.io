@@ -42,6 +42,6 @@ QA와 함께 테스트 중 버그 발견 → 즉시 수정 → 바로 재검증
 
 ## 관련 개념
 
-- [Developer-QA Collaboration](/knowledge/software-engineering/testing/developer-qa-collaboration/)
-- [Pomodoro Technique for Focus](/knowledge/software-engineering/testing/pomodoro-technique-for-focus/)
-- [Automated Testing](/knowledge/software-engineering/testing/automated-testing/)
+- [개발자-QA 협업 (Developer-QA Collaboration)](/knowledge/software-engineering/testing/developer-qa-collaboration/)
+- [포모도로 기법 (Pomodoro Technique for Focus)](/knowledge/software-engineering/testing/pomodoro-technique-for-focus/)
+- [자동화 테스팅 (Automated Testing)](/knowledge/software-engineering/testing/automated-testing/)

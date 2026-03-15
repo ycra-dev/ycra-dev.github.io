@@ -1,5 +1,5 @@
 ---
-title: "Borg"
+title: "보그 (Borg)"
 description: "Google의 내부 클러스터 관리 시스템으로, 배치 작업과 서빙 작업을 모두 관리하는 단일 대규모 풀로 통합한 컴퓨트 서비스이며 Kubernetes의 전신"
 tags: ["Software Engineering", "Infrastructure", "Google Tools"]
 created: 2026-02-27
@@ -35,8 +35,8 @@ PID 공간 고갈 사례 (2011년): PID가 기본 32,000 범위로 제한. Hyrum
 
 ## 관련 개념
 
-- [Compute as a Service](/knowledge/software-engineering/systems-and-services/compute-as-a-service/)
-- [Containerization](/knowledge/software-engineering/systems-and-services/containerization/)
-- [Batch vs Serving Jobs](/knowledge/software-engineering/systems-and-services/batch-vs-serving-jobs/)
-- [Architecting for Failure](/knowledge/software-engineering/systems-and-services/architecting-for-failure/)
-- [Cattle vs Pets](/knowledge/software-engineering/design-and-evolution/cattle-vs-pets/)
+- [서비스형 컴퓨팅 (Compute as a Service)](/knowledge/software-engineering/systems-and-services/compute-as-a-service/)
+- [컨테이너화 (Containerization)](/knowledge/software-engineering/systems-and-services/containerization/)
+- [배치 작업 vs 서빙 작업 (Batch vs Serving Jobs)](/knowledge/software-engineering/systems-and-services/batch-vs-serving-jobs/)
+- [장애를 고려한 설계 (Architecting for Failure)](/knowledge/software-engineering/systems-and-services/architecting-for-failure/)
+- [가축 vs 애완동물 (Cattle vs Pets)](/knowledge/software-engineering/design-and-evolution/cattle-vs-pets/)

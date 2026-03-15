@@ -1,5 +1,5 @@
 ---
-title: "Null Object Pattern"
+title: "널 객체 패턴 (Null Object Pattern)"
 description: "null 값 대신 빈 객체를 반환하여 NullPointerException을 방지하는 디자인 패턴"
 tags: ["Software Engineering", "Design Pattern", "Null Safety"]
 created: 2026-02-27
@@ -65,5 +65,5 @@ findUser("123")
 
 ## 관련 개념
 
-- [Defensive Programming](/knowledge/software-engineering/foundations/defensive-programming/)
-- [Immutability](/knowledge/software-engineering/foundations/immutability/)
+- [방어적 프로그래밍 (Defensive Programming)](/knowledge/software-engineering/foundations/defensive-programming/)
+- [불변성 (Immutability)](/knowledge/software-engineering/foundations/immutability/)

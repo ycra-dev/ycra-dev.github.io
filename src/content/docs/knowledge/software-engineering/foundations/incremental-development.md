@@ -1,5 +1,5 @@
 ---
-title: "Incremental Development"
+title: "점진적 개발 (Incremental Development)"
 description: "점진적 개발은 초기 구현을 신속하게 만들고, 사용자 피드백을 받아 여러 버전을 거쳐 점진적으로 개발하는 소프트웨어 개발 접근법이다"
 tags: ['Incremental Development', 'Iterative Development', 'Software Process Model', 'Agile']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Process](/knowledge/software-engineering/software-process/)
-- [Waterfall Model](/knowledge/software-engineering/waterfall-model/)
-- [Agile Software Development](/knowledge/software-engineering/agile-software-development/)
+- [소프트웨어 프로세스 (Software Process)](/knowledge/software-engineering/software-process/)
+- [폭포수 모델 (Waterfall Model)](/knowledge/software-engineering/waterfall-model/)
+- [애자일 소프트웨어 개발 (Agile Software Development)](/knowledge/software-engineering/agile-software-development/)

@@ -1,5 +1,5 @@
 ---
-title: "Compulsory Deprecation"
+title: "강제적 디프리케이션 (Compulsory Deprecation)"
 description: "구식 시스템의 제거 마감일이 명시되어 있으며, 해당 날짜 이후에도 의존하는 사용자의 시스템이 더 이상 작동하지 않게 되는 강제적 deprecation 방식"
 tags: ["Software Engineering", "Design and Evolution"]
 created: 2026-02-27
@@ -34,7 +34,7 @@ Google에서는 구현 전용 심볼의 이름을 변경하여 예상치 못한 
 
 ## 관련 개념
 
-- [Deprecation](/knowledge/software-engineering/design-and-evolution/deprecation/)
-- [Advisory Deprecation](/knowledge/software-engineering/design-and-evolution/advisory-deprecation/)
-- [Deprecation Process Owners](/knowledge/software-engineering/design-and-evolution/deprecation-process-owners/)
-- [Backsliding Prevention](/knowledge/software-engineering/design-and-evolution/backsliding-prevention/)
+- [디프리케이션 (Deprecation)](/knowledge/software-engineering/design-and-evolution/deprecation/)
+- [권고적 디프리케이션 (Advisory Deprecation)](/knowledge/software-engineering/design-and-evolution/advisory-deprecation/)
+- [디프리케이션 프로세스 소유자 (Deprecation Process Owners)](/knowledge/software-engineering/design-and-evolution/deprecation-process-owners/)
+- [퇴보 방지 (Backsliding Prevention)](/knowledge/software-engineering/design-and-evolution/backsliding-prevention/)

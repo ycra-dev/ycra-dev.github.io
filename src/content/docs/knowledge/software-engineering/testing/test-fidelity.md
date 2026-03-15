@@ -1,5 +1,5 @@
 ---
-title: "Test Fidelity"
+title: "테스트 충실도 (Test Fidelity)"
 description: "테스트가 시스템 언더 테스트(SUT)의 실제 동작을 얼마나 정확하게 반영하는가를 나타내는 속성"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -38,7 +38,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Larger Testing](/knowledge/software-engineering/testing/larger-testing/)
-- [Hermetic Testing](/knowledge/software-engineering/testing/hermetic-testing/)
-- [SUT Configuration](/knowledge/software-engineering/testing/sut-configuration/)
-- [Test Doubles](/knowledge/software-engineering/testing/test-doubles/)
+- [대형 테스팅 (Larger Testing)](/knowledge/software-engineering/testing/larger-testing/)
+- [밀폐 테스팅 (Hermetic Testing)](/knowledge/software-engineering/testing/hermetic-testing/)
+- [SUT 구성 (SUT Configuration)](/knowledge/software-engineering/testing/sut-configuration/)
+- [테스트 더블 (Test Doubles)](/knowledge/software-engineering/testing/test-doubles/)

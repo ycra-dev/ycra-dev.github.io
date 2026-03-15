@@ -1,5 +1,5 @@
 ---
-title: "State Diagram"
+title: "상태 다이어그램 (State Diagram)"
 description: "상태 다이어그램은 시스템이나 객체의 상태 변화와 상태 간 전이를 유발하는 이벤트를 표현하는 UML 동적 다이어그램이다"
 tags: ['State Diagram', 'Uml', 'State Machine', 'Event Driven', 'State Transition']
 created: 2026-02-16
@@ -20,5 +20,5 @@ sidebar:
 
 ## 관련 개념
 
-- [UML](/knowledge/software-engineering/uml/)
-- [Activity Diagram](/knowledge/software-engineering/activity-diagram/)
+- [UML (통합 모델링 언어)](/knowledge/software-engineering/uml/)
+- [활동 다이어그램 (Activity Diagram)](/knowledge/software-engineering/activity-diagram/)

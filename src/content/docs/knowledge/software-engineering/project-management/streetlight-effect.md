@@ -1,5 +1,5 @@
 ---
-title: "Streetlight Effect"
+title: "가로등 효과 (Streetlight Effect)"
 description: "측정하기 쉬운 것만 측정하고 실제로 중요한 것은 측정하지 않는 메트릭 선정의 안티패턴 — '가로등 아래에서 열쇠 찾기'에서 유래"
 tags: ["Software Engineering", "Project Management", "Metrics", "Antipattern", "Cognitive Bias"]
 created: 2026-02-27
@@ -28,6 +28,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Goals-Signals-Metrics Framework](/knowledge/software-engineering/project-management/goals-signals-metrics-framework/)
-- [Measuring Engineering Productivity](/knowledge/software-engineering/project-management/measuring-engineering-productivity/)
-- [QUANTS Framework](/knowledge/software-engineering/project-management/quants-framework/)
+- [목표-신호-메트릭 프레임워크 (Goals-Signals-Metrics Framework)](/knowledge/software-engineering/project-management/goals-signals-metrics-framework/)
+- [엔지니어링 생산성 측정 (Measuring Engineering Productivity)](/knowledge/software-engineering/project-management/measuring-engineering-productivity/)
+- [QUANTS 프레임워크 (QUANTS Framework)](/knowledge/software-engineering/project-management/quants-framework/)

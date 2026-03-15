@@ -1,5 +1,5 @@
 ---
-title: "Shifting Left"
+title: "시프트 레프트 (Shifting Left)"
 description: "문제 발견, 테스트, 보안 고려를 개발 워크플로의 가능한 한 이른 단계로 옮겨 수정 비용을 줄이는 DevOps 철학"
 tags: ["Software Engineering", "Foundations", "DevOps", "Quality"]
 created: 2026-02-27
@@ -33,6 +33,6 @@ Google의 개발자 워크플로 타임라인:
 
 ## 관련 개념
 
-- [Beyonce Rule](/knowledge/software-engineering/foundations/beyonce-rule/)
-- [Trade-offs and Costs](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
-- [Hyrum's Law](/knowledge/software-engineering/foundations/hyrums-law/)
+- [비욘세 규칙 (Beyonce Rule)](/knowledge/software-engineering/foundations/beyonce-rule/)
+- [트레이드오프와 비용 (Trade-offs and Costs)](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
+- [하이럼의 법칙 (Hyrum's Law)](/knowledge/software-engineering/foundations/hyrums-law/)

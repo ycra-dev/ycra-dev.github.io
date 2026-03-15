@@ -1,5 +1,5 @@
 ---
-title: "Code Maintainability"
+title: "코드 유지보수성 (Code Maintainability)"
 description: "소프트웨어를 수정·확장·디버깅하기 쉽게 만드는 코드 품질 속성으로, 미래의 개발자(또는 자신)가 이해하고 변경하는 데 드는 비용을 최소화한다."
 tags: ["Software Engineering", "Code Quality", "Design", "Technical Debt"]
 created: 2026-02-27

@@ -1,5 +1,5 @@
 ---
-title: "Release Train"
+title: "릴리스 트레인 (Release Train)"
 description: "정해진 일정에 따라 주기적으로 릴리스를 내보내는 방식으로, 마감 이후에는 원칙적으로 추가 기능을 포함하지 않는 열차가 시간에 맞춰 떠나는 모델"
 tags: ["Software Engineering", "CI/CD", "Deployment"]
 created: 2026-02-27
@@ -33,7 +33,7 @@ Google Search의 릴리스 트레인 도입 사례:
 
 ## 관련 개념
 
-- [Staged Rollout](/knowledge/software-engineering/quality-and-configuration/staged-rollout/)
-- [A/B Testing Deployments](/knowledge/software-engineering/quality-and-configuration/a-b-testing-deployments/)
-- [Faster Is Safer](/knowledge/software-engineering/quality-and-configuration/faster-is-safer/)
-- [Release Candidate](/knowledge/software-engineering/quality-and-configuration/release-candidate/)
+- [단계적 롤아웃 (Staged Rollout)](/knowledge/software-engineering/quality-and-configuration/staged-rollout/)
+- [A/B 테스팅 배포 (A/B Testing Deployments)](/knowledge/software-engineering/quality-and-configuration/a-b-testing-deployments/)
+- [빠를수록 안전하다 (Faster Is Safer)](/knowledge/software-engineering/quality-and-configuration/faster-is-safer/)
+- [릴리스 후보 (Release Candidate)](/knowledge/software-engineering/quality-and-configuration/release-candidate/)

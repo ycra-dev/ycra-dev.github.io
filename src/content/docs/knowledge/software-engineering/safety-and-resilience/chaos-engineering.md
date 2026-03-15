@@ -1,5 +1,5 @@
 ---
-title: "Chaos Engineering"
+title: "카오스 엔지니어링 (Chaos Engineering)"
 description: "프로덕션 시스템에 의도적으로 장애를 주입하여 취약점을 사전에 발견하고 빠른 복구 능력을 구축하는 엔지니어링 관행 — Netflix의 Chaos Monkey에서 시작"
 tags: ["SoftwareEngineering", "Reliability", "Resilience", "Operations", "EffectiveEngineer"]
 created: 2026-02-27
@@ -76,6 +76,6 @@ class ChaosMonkey:
 
 ## 관련 개념
 
-- [Operational Simplicity](/knowledge/software-engineering/safety-and-resilience/operational-simplicity/)
-- [Fail Fast](/knowledge/software-engineering/safety-and-resilience/fail-fast/)
-- [Automation](/knowledge/software-engineering/foundations/automation/)
+- [운영 단순성 (Operational Simplicity)](/knowledge/software-engineering/safety-and-resilience/operational-simplicity/)
+- [빠른 실패 (Fail Fast)](/knowledge/software-engineering/safety-and-resilience/fail-fast/)
+- [자동화 (Automation)](/knowledge/software-engineering/foundations/automation/)

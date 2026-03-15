@@ -1,5 +1,5 @@
 ---
-title: "One Version Rule"
+title: "하나의 버전 규칙 (One Version Rule)"
 description: "저장소의 모든 의존성에 대해 선택할 수 있는 버전이 하나만 존재해야 한다는 Google의 버전 관리 정책"
 tags: ["Software Engineering", "Quality and Configuration"]
 created: 2026-02-27
@@ -33,6 +33,6 @@ One Version Rule의 핵심은 "개발자가 어떤 컴포넌트의 어떤 버전
 
 ## 관련 개념
 
-- [Source of Truth](/knowledge/software-engineering/quality-and-configuration/source-of-truth/)
-- [Monorepo](/knowledge/software-engineering/quality-and-configuration/monorepo/)
-- [Piper](/knowledge/software-engineering/quality-and-configuration/piper/)
+- [진실의 원천 (Source of Truth)](/knowledge/software-engineering/quality-and-configuration/source-of-truth/)
+- [모노레포 (Monorepo)](/knowledge/software-engineering/quality-and-configuration/monorepo/)
+- [파이퍼 (Piper)](/knowledge/software-engineering/quality-and-configuration/piper/)

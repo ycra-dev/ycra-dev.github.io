@@ -1,5 +1,5 @@
 ---
-title: "Process Improvement"
+title: "프로세스 개선 (Process Improvement)"
 description: "프로세스 개선은 기존 소프트웨어 개발 프로세스를 분석하고 변경하여 소프트웨어 품질을 높이거나, 비용을 줄이거나, 개발 속도를 향상시키는 활동이다"
 tags: ['Process Improvement', 'Process Maturity', 'Software Quality', 'Continuous Improvement']
 created: 2026-02-16
@@ -20,5 +20,5 @@ CMMI 성숙도 레벨 5단계: Level 1(초기) - 비공식적 프로세스, Leve
 
 ## 관련 개념
 
-- [Software Process](/knowledge/software-engineering/software-process/)
-- [CMMI](/knowledge/software-engineering/cmmi/)
+- [소프트웨어 프로세스 (Software Process)](/knowledge/software-engineering/software-process/)
+- [CMMI (능력 성숙도 통합 모델)](/knowledge/software-engineering/cmmi/)

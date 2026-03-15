@@ -67,7 +67,7 @@ C (MIT) → 수정 → D (어떤 라이선스든 가능)
 
 ## 관련 개념
 
-- [API (Application Programming Interface)](/knowledge/software-engineering/api-basics/) - 오픈 소스 라이브러리는 API를 통해 기능 제공
+- [API (애플리케이션 프로그래밍 인터페이스)](/knowledge/software-engineering/api-basics/) - 오픈 소스 라이브러리는 API를 통해 기능 제공
 - [컴파일러 (Compiler)](/knowledge/language/compiler-basics/) - GCC 등 오픈 소스 컴파일러
 
 ## 출처

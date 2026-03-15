@@ -1,5 +1,5 @@
 ---
-title: "Documentation Review"
+title: "문서 리뷰 (Documentation Review)"
 description: "기술 문서에 대해 기술적 정확성, 대상 독자 적합성, 문서 작성 품질 등 다양한 관점의 리뷰를 수행하는 프로세스 — 세 가지 리뷰 유형은 각각 다른 전문성과 관점이 필요하다"
 tags: ["Software Engineering", "Quality", "Documentation", "Code Review", "Process"]
 created: 2026-02-27
@@ -32,6 +32,6 @@ Google에서는 문서 리뷰를 세 가지 유형으로 구분한다:
 
 ## 관련 개념
 
-- [Code Review](/knowledge/software-engineering/quality-and-configuration/code-review/)
-- [Documentation as Code](/knowledge/software-engineering/quality-and-configuration/documentation-as-code/)
-- [Technical Audience](/knowledge/software-engineering/quality-and-configuration/technical-audience/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/quality-and-configuration/code-review/)
+- [코드로서의 문서 (Documentation as Code)](/knowledge/software-engineering/quality-and-configuration/documentation-as-code/)
+- [기술 대상 독자 (Technical Audience)](/knowledge/software-engineering/quality-and-configuration/technical-audience/)

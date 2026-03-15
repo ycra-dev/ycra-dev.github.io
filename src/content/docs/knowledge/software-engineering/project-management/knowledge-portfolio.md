@@ -1,5 +1,5 @@
 ---
-title: "Knowledge Portfolio"
+title: "지식 포트폴리오 (Knowledge Portfolio)"
 description: "개발자의 기술과 지식을 금융 투자 포트폴리오처럼 관리하는 개념"
 tags: ["Software Engineering", "Career Development", "Learning"]
 created: 2026-02-27
@@ -54,6 +54,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Four Stages of Competence](/knowledge/software-engineering/foundations/four-stages-of-competence/)
-- [T-Shaped Engineer](/knowledge/software-engineering/project-management/t-shaped-engineer/)
-- [Career Ladder](/knowledge/software-engineering/project-management/career-ladder/)
+- [역량의 4단계 (Four Stages of Competence)](/knowledge/software-engineering/foundations/four-stages-of-competence/)
+- [T자형 엔지니어 (T-Shaped Engineer)](/knowledge/software-engineering/project-management/t-shaped-engineer/)
+- [커리어 래더 (Career Ladder)](/knowledge/software-engineering/project-management/career-ladder/)

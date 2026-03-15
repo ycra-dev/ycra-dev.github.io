@@ -1,5 +1,5 @@
 ---
-title: "Automation"
+title: "자동화 (Automation)"
 description: "반복적인 수동 작업을 스크립트나 시스템으로 대체하여 엔지니어의 시간을 해방하고 운영 부담을 줄이는 고-레버리지 활동 — 기계적 자동화를 먼저, 의사결정 자동화는 신중하게"
 tags: ["SoftwareEngineering", "DevOps", "Operations", "EffectiveEngineer"]
 created: 2026-02-27
@@ -79,6 +79,6 @@ class AutoFailover:
 
 ## 관련 개념
 
-- [Operational Simplicity](/knowledge/software-engineering/safety-and-resilience/operational-simplicity/)
-- [Fail Fast](/knowledge/software-engineering/safety-and-resilience/fail-fast/)
-- [Chaos Engineering](/knowledge/software-engineering/safety-and-resilience/chaos-engineering/)
+- [운영 단순성 (Operational Simplicity)](/knowledge/software-engineering/safety-and-resilience/operational-simplicity/)
+- [빠른 실패 (Fail Fast)](/knowledge/software-engineering/safety-and-resilience/fail-fast/)
+- [카오스 엔지니어링 (Chaos Engineering)](/knowledge/software-engineering/safety-and-resilience/chaos-engineering/)

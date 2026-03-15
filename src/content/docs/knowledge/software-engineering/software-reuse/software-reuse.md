@@ -1,5 +1,5 @@
 ---
-title: "Software Reuse"
+title: "소프트웨어 재사용 (Software Reuse)"
 description: "소프트웨어 재사용은 기존 소프트웨어(코드, 설계, 컴포넌트, 시스템)를 새로운 시스템 개발에 활용하여 개발 비용과 시간을 절감하는 전략이다"
 tags: ['Software Reuse', 'Component Reuse', 'Library', 'Framework', 'Cost Reduction']
 created: 2026-02-16
@@ -20,11 +20,11 @@ sidebar:
 
 ## 관련 개념
 
-- [Integration and Configuration](/knowledge/software-engineering/integration-and-configuration/)
-- [Design Patterns](/knowledge/software-engineering/design-patterns/)
-- [Open-source Development](/knowledge/software-engineering/open-source-development/)
-- [Application Framework](/knowledge/software-engineering/application-framework/)
-- [Software Product Line](/knowledge/software-engineering/software-product-line/)
-- [Component-Based Software Engineering](/knowledge/software-engineering/component-based-software-engineering/)
-- [Service-Oriented Architecture](/knowledge/software-engineering/service-oriented-architecture/)
-- [Concept Reuse](/knowledge/software-engineering/concept-reuse/)
+- [통합과 구성 (Integration and Configuration)](/knowledge/software-engineering/integration-and-configuration/)
+- [디자인 패턴 (Design Patterns)](/knowledge/software-engineering/design-patterns/)
+- [오픈소스 개발 (Open-source Development)](/knowledge/software-engineering/open-source-development/)
+- [애플리케이션 프레임워크 (Application Framework)](/knowledge/software-engineering/application-framework/)
+- [소프트웨어 프로덕트 라인 (Software Product Line)](/knowledge/software-engineering/software-product-line/)
+- [컴포넌트 기반 소프트웨어 공학 (Component-Based Software Engineering)](/knowledge/software-engineering/component-based-software-engineering/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/software-engineering/service-oriented-architecture/)
+- [개념 재사용 (Concept Reuse)](/knowledge/software-engineering/concept-reuse/)

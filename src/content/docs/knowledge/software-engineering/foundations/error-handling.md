@@ -1,5 +1,5 @@
 ---
-title: "Error Handling"
+title: "오류 처리 (Error Handling)"
 description: "프로그램 실행 중 발생하는 예외적 상황이나 오류를 감지하고 적절히 대응하는 프로그래밍 기법"
 tags: ["Software Engineering", "Reliability", "Code Quality"]
 created: 2026-02-27
@@ -49,6 +49,6 @@ except TypeError as e:
 
 ## 관련 개념
 
-- [Defensive Programming](/knowledge/software-engineering/foundations/defensive-programming/)
-- [Debugging](/knowledge/software-engineering/foundations/debugging/)
-- [Log Levels](/knowledge/software-engineering/quality-and-configuration/log-levels/)
+- [방어적 프로그래밍 (Defensive Programming)](/knowledge/software-engineering/foundations/defensive-programming/)
+- [디버깅 (Debugging)](/knowledge/software-engineering/foundations/debugging/)
+- [로그 레벨 (Log Levels)](/knowledge/software-engineering/quality-and-configuration/log-levels/)

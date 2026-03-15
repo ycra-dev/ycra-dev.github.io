@@ -1,5 +1,5 @@
 ---
-title: "Task Decomposition"
+title: "작업 분해 (Task Decomposition)"
 description: "크고 복잡한 작업을 더 작고 관리 가능한 하위 작업으로 나누는 기법"
 tags: ["Software Engineering", "Project Management", "Productivity"]
 created: 2026-02-27
@@ -50,7 +50,7 @@ sidebar:
 
 ## 관련 개념
 
-- [YAGNI](/knowledge/software-engineering/design-and-evolution/yagni/)
-- [Test-Driven Development](/knowledge/software-engineering/testing/test-driven-development/)
-- [Design Spike](/knowledge/software-engineering/project-management/design-spike/)
-- [Timeboxing](/knowledge/software-engineering/agile-methods/timeboxing/)
+- [YAGNI 원칙 (YAGNI)](/knowledge/software-engineering/design-and-evolution/yagni/)
+- [테스트 주도 개발 (Test-Driven Development)](/knowledge/software-engineering/testing/test-driven-development/)
+- [설계 스파이크 (Design Spike)](/knowledge/software-engineering/project-management/design-spike/)
+- [타임박싱 (Timeboxing)](/knowledge/software-engineering/agile-methods/timeboxing/)

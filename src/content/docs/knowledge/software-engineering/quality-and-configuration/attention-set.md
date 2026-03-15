@@ -1,5 +1,5 @@
 ---
-title: "Attention Set"
+title: "어텐션 세트 (Attention Set)"
 description: "코드 리뷰에서 현재 변경이 차단되어 있는 사람들의 집합을 관리하여 누가 다음에 행동해야 하는지 명확히 하는 기능"
 tags: ["Software Engineering", "Code Review", "Developer Tools"]
 created: 2026-02-27
@@ -33,5 +33,5 @@ Critique의 대시보드는 기본적으로 사용자의 주의가 필요한 변
 
 ## 관련 개념
 
-- [Critique](/knowledge/software-engineering/quality-and-configuration/critique/)
-- [LGTM and Approval](/knowledge/software-engineering/quality-and-configuration/lgtm-and-approval/)
+- [크리틱 (Critique)](/knowledge/software-engineering/quality-and-configuration/critique/)
+- [LGTM과 승인 (LGTM and Approval)](/knowledge/software-engineering/quality-and-configuration/lgtm-and-approval/)

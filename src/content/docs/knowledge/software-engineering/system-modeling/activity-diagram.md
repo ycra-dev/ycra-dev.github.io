@@ -1,5 +1,5 @@
 ---
-title: "Activity Diagram"
+title: "활동 다이어그램 (Activity Diagram)"
 description: "활동 다이어그램은 프로세스나 데이터 처리의 활동 흐름을 표현하는 UML 다이어그램으로, 순차, 병렬, 조건 분기를 포함한 워크플로우를 모델링한다"
 tags: ['Activity Diagram', 'Uml', 'Workflow', 'Process Flow', 'Business Process']
 created: 2026-02-16
@@ -20,5 +20,5 @@ sidebar:
 
 ## 관련 개념
 
-- [UML](/knowledge/software-engineering/uml/)
-- [State Diagram](/knowledge/software-engineering/state-diagram/)
+- [UML (통합 모델링 언어)](/knowledge/software-engineering/uml/)
+- [상태 다이어그램 (State Diagram)](/knowledge/software-engineering/state-diagram/)

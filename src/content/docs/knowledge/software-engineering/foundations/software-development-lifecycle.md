@@ -1,5 +1,5 @@
 ---
-title: "Software Development Lifecycle"
+title: "소프트웨어 개발 생명주기 (Software Development Lifecycle)"
 description: "소프트웨어를 체계적으로 개발하기 위한 전체 프로세스 단계로, 계획부터 배포·유지보수까지 이어지는 일련의 활동 흐름이다."
 tags: ["Software Engineering", "SDLC", "Process"]
 created: 2026-02-27

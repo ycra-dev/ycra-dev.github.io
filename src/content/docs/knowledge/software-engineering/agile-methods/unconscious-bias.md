@@ -1,5 +1,5 @@
 ---
-title: "Unconscious Bias"
+title: "무의식적 편향 (Unconscious Bias)"
 description: "사람들이 인식하지 못한 채 기존의 고정관념을 강화하고 전파하는 경향 — 의도적 배제보다 더 교활하고 완화하기 어렵다"
 tags: ["Software Engineering", "Agile", "Equity", "Diversity", "Product Design"]
 created: 2026-02-27
@@ -36,7 +36,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Engineering for Equity](/knowledge/software-engineering/agile-methods/engineering-for-equity/)
-- [Inclusive Design](/knowledge/software-engineering/agile-methods/inclusive-design/)
-- [Multicultural Capacity](/knowledge/software-engineering/agile-methods/multicultural-capacity/)
-- [Googleyness](/knowledge/software-engineering/agile-methods/googleyness/)
+- [형평성을 위한 엔지니어링 (Engineering for Equity)](/knowledge/software-engineering/agile-methods/engineering-for-equity/)
+- [포용적 설계 (Inclusive Design)](/knowledge/software-engineering/agile-methods/inclusive-design/)
+- [다문화 역량 (Multicultural Capacity)](/knowledge/software-engineering/agile-methods/multicultural-capacity/)
+- [구글다움 (Googleyness)](/knowledge/software-engineering/agile-methods/googleyness/)

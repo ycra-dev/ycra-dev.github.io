@@ -1,5 +1,5 @@
 ---
-title: "Reductionism"
+title: "환원주의 (Reductionism)"
 description: "환원주의는 시스템이 부분으로 구성되어 있으며, 개별 부분과 부분 간의 관계를 이해하면 전체 시스템의 행동과 속성을 이해하고 예측할 수 있다는 철학적 입장이다"
 tags: ['Reductionism', 'Philosophy', 'Complexity', 'Decomposition', 'Systems Thinking', 'Limitations']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Systems of Systems](/knowledge/software-engineering/systems-of-systems/)
-- [Systems Engineering](/knowledge/software-engineering/systems-engineering/)
-- [Emergent Properties](/knowledge/software-engineering/emergent-properties/)
-- [SoS Architecture](/knowledge/software-engineering/sos-architecture/)
+- [시스템 오브 시스템즈 (Systems of Systems)](/knowledge/software-engineering/systems-of-systems/)
+- [시스템 공학 (Systems Engineering)](/knowledge/software-engineering/systems-engineering/)
+- [창발적 속성 (Emergent Properties)](/knowledge/software-engineering/emergent-properties/)
+- [SoS 아키텍처 (SoS Architecture)](/knowledge/software-engineering/sos-architecture/)

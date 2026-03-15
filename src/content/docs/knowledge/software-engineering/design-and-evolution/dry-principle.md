@@ -1,5 +1,5 @@
 ---
-title: "DRY Principle"
+title: "DRY 원칙 (DRY Principle)"
 description: "모든 지식이 시스템 내에서 단 하나의 명확하고 권위 있는 표현을 가져야 한다는 소프트웨어 설계 원칙 — Don't Repeat Yourself"
 tags: ["SoftwareEngineering", "DesignPrinciples", "CodeQuality"]
 created: 2026-02-27
@@ -65,5 +65,5 @@ def validate_admin_email(email):
 
 ## 관련 개념
 
-- [Code Reuse](/knowledge/software-engineering/design-and-evolution/code-reuse/)
-- [Refactoring](/knowledge/software-engineering/design-and-evolution/refactoring/)
+- [코드 재사용 (Code Reuse)](/knowledge/software-engineering/design-and-evolution/code-reuse/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/design-and-evolution/refactoring/)

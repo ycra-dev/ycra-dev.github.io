@@ -1,5 +1,5 @@
 ---
-title: "Documentation Types"
+title: "문서 유형 (Documentation Types)"
 description: "엔지니어링 문서는 용도와 대상에 따라 참조 문서, 디자인 문서, 튜토리얼, 개념 설명 문서, 랜딩 페이지 등 여러 유형으로 분류된다 — 한 문서가 한 가지 목적만 수행해야 한다"
 tags: ["Software Engineering", "Quality", "Documentation", "Technical Writing"]
 created: 2026-02-27
@@ -41,6 +41,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Documentation as Code](/knowledge/software-engineering/quality-and-configuration/documentation-as-code/)
-- [Technical Audience](/knowledge/software-engineering/quality-and-configuration/technical-audience/)
-- [Code Comments](/knowledge/software-engineering/quality-and-configuration/code-comments/)
+- [코드로서의 문서 (Documentation as Code)](/knowledge/software-engineering/quality-and-configuration/documentation-as-code/)
+- [기술 대상 독자 (Technical Audience)](/knowledge/software-engineering/quality-and-configuration/technical-audience/)
+- [코드 주석 (Code Comments)](/knowledge/software-engineering/quality-and-configuration/code-comments/)

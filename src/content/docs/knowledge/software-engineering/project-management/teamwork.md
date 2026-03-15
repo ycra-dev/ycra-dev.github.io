@@ -1,5 +1,5 @@
 ---
-title: "Teamwork"
+title: "팀워크 (Teamwork)"
 description: "팀워크는 소프트웨어 개발 그룹의 구성, 조직, 커뮤니케이션을 통해 효과적인 협업을 이루어내는 과정으로, 그룹 응집력이 핵심 요소이다"
 tags: ['Teamwork', 'Group Cohesion', 'Collaboration', 'Communication', 'Team Organization']
 created: 2026-02-16
@@ -20,6 +20,6 @@ Alice가 팀 응집력을 위해 월간 점심 모임을 마련하고, 팀원들
 
 ## 관련 개념
 
-- [People Management](/knowledge/software-engineering/people-management/)
-- [Software Project Management](/knowledge/software-engineering/software-project-management/)
-- [Agile Planning](/knowledge/software-engineering/agile-planning/)
+- [인력 관리 (People Management)](/knowledge/software-engineering/people-management/)
+- [소프트웨어 프로젝트 관리 (Software Project Management)](/knowledge/software-engineering/software-project-management/)
+- [애자일 계획 (Agile Planning)](/knowledge/software-engineering/agile-planning/)

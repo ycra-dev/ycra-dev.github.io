@@ -1,5 +1,5 @@
 ---
-title: "Reviews and Inspections"
+title: "리뷰와 인스펙션 (Reviews and Inspections)"
 description: "리뷰와 인스펙션은 소프트웨어, 문서화, 프로세스 기록을 검토하여 오류, 누락, 표준 위반을 발견하는 품질 보증 활동이다"
 tags: ['Code Review', 'Inspection', 'Peer Review', 'Quality Assurance', 'Defect Detection']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Quality Management](/knowledge/software-engineering/software-quality-management/)
-- [Software Standards](/knowledge/software-engineering/software-standards/)
-- [Software Measurement](/knowledge/software-engineering/software-measurement/)
+- [소프트웨어 품질 관리 (Software Quality Management)](/knowledge/software-engineering/software-quality-management/)
+- [소프트웨어 표준 (Software Standards)](/knowledge/software-engineering/software-standards/)
+- [소프트웨어 측정 (Software Measurement)](/knowledge/software-engineering/software-measurement/)

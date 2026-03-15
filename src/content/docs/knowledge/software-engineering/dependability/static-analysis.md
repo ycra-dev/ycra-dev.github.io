@@ -1,5 +1,5 @@
 ---
-title: "Static Analysis"
+title: "정적 분석 (Static Analysis)"
 description: "프로그램의 소스 코드를 자동으로 스캔하여 가능한 결함과 이상(anomaly)을 탐지하는 소프트웨어 도구 기반의 검증 기법이다"
 tags: ['Static Analysis', 'Verification', 'Automated Tool', 'Code Inspection', 'Defect Detection', 'Safety']
 created: 2026-02-16
@@ -20,8 +20,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Formal Methods](/knowledge/software-engineering/formal-methods/)
-- [Model Checking](/knowledge/software-engineering/model-checking/)
-- [Safety Case](/knowledge/software-engineering/safety-case/)
-- [Safety-Critical Systems](/knowledge/software-engineering/safety-critical-systems/)
-- [Penetration Testing](/knowledge/software-engineering/penetration-testing/)
+- [정형 기법 (Formal Methods)](/knowledge/software-engineering/formal-methods/)
+- [모델 검사 (Model Checking)](/knowledge/software-engineering/model-checking/)
+- [안전 사례 (Safety Case)](/knowledge/software-engineering/safety-case/)
+- [안전 필수 시스템 (Safety-Critical Systems)](/knowledge/software-engineering/safety-critical-systems/)
+- [침투 테스팅 (Penetration Testing)](/knowledge/software-engineering/penetration-testing/)

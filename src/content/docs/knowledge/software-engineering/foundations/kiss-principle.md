@@ -1,5 +1,5 @@
 ---
-title: "KISS Principle"
+title: "KISS 원칙 (KISS Principle)"
 description: "시스템이나 코드를 가능한 한 단순하게 유지해야 한다는 설계 원칙"
 tags: ["Software Engineering", "Design Principle", "Simplicity"]
 created: 2026-02-27
@@ -45,6 +45,6 @@ def sort_users(users, key="name"):
 
 ## 관련 개념
 
-- [YAGNI](/knowledge/software-engineering/design-and-evolution/yagni/)
-- [Premature Optimization](/knowledge/software-engineering/foundations/premature-optimization/)
-- [Software Complexity](/knowledge/software-engineering/architectural-design/software-complexity/)
+- [YAGNI 원칙 (YAGNI)](/knowledge/software-engineering/design-and-evolution/yagni/)
+- [조기 최적화 (Premature Optimization)](/knowledge/software-engineering/foundations/premature-optimization/)
+- [소프트웨어 복잡도 (Software Complexity)](/knowledge/software-engineering/architectural-design/software-complexity/)

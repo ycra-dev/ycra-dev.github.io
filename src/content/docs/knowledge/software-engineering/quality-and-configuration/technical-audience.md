@@ -1,5 +1,5 @@
 ---
-title: "Technical Audience"
+title: "기술 대상 독자 (Technical Audience)"
 description: "기술 문서의 대상 독자를 명확히 정의하는 것 — 효과적인 문서 작성의 핵심 전제 조건으로, 한 문서에서 여러 수준의 독자를 동시에 만족시키려 하면 아무도 만족시키지 못한다"
 tags: ["Software Engineering", "Quality", "Documentation", "Communication"]
 created: 2026-02-27
@@ -34,6 +34,6 @@ Google에서는 모든 문서가 한 종류의 독자만을 대상으로 해야 
 
 ## 관련 개념
 
-- [Documentation Types](/knowledge/software-engineering/quality-and-configuration/documentation-types/)
-- [Documentation as Code](/knowledge/software-engineering/quality-and-configuration/documentation-as-code/)
-- [Documentation Philosophy](/knowledge/software-engineering/quality-and-configuration/documentation-philosophy/)
+- [문서 유형 (Documentation Types)](/knowledge/software-engineering/quality-and-configuration/documentation-types/)
+- [코드로서의 문서 (Documentation as Code)](/knowledge/software-engineering/quality-and-configuration/documentation-as-code/)
+- [문서화 철학 (Documentation Philosophy)](/knowledge/software-engineering/quality-and-configuration/documentation-philosophy/)

@@ -1,5 +1,5 @@
 ---
-title: "Computer Ethics"
+title: "컴퓨터 윤리 (Computer Ethics)"
 description: "컴퓨터 윤리는 소프트웨어 엔지니어가 기술적 역량 이상으로 준수해야 할 윤리적, 도덕적 행동 기준을 다루는 분야이다"
 tags: ['Ethics', 'Professional Responsibility', 'Acm Ieee', 'Code Of Conduct']
 created: 2026-02-16
@@ -20,4 +20,4 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Engineering](/knowledge/software-engineering/software-engineering/)
+- [소프트웨어 공학 (Software Engineering)](/knowledge/software-engineering/software-engineering/)

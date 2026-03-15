@@ -1,5 +1,5 @@
 ---
-title: "Software Project Management"
+title: "소프트웨어 프로젝트 관리 (Software Project Management)"
 description: "소프트웨어 프로젝트 관리는 소프트웨어 개발이 조직의 예산 및 일정 제약 내에서 이루어지도록 계획, 감독, 통제하는 활동이다"
 tags: ['Project Management', 'Software Engineering', 'Planning', 'Scheduling', 'Budgeting']
 created: 2026-02-16
@@ -20,8 +20,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Risk Management](/knowledge/software-engineering/risk-management/)
-- [Project Planning](/knowledge/software-engineering/project-planning/)
-- [People Management](/knowledge/software-engineering/people-management/)
-- [Teamwork](/knowledge/software-engineering/teamwork/)
-- [Agile Planning](/knowledge/software-engineering/agile-planning/)
+- [리스크 관리 (Risk Management)](/knowledge/software-engineering/risk-management/)
+- [프로젝트 계획 (Project Planning)](/knowledge/software-engineering/project-planning/)
+- [인력 관리 (People Management)](/knowledge/software-engineering/people-management/)
+- [팀워크 (Teamwork)](/knowledge/software-engineering/teamwork/)
+- [애자일 계획 (Agile Planning)](/knowledge/software-engineering/agile-planning/)

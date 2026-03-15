@@ -1,5 +1,5 @@
 ---
-title: "Risk Management"
+title: "리스크 관리 (Risk Management)"
 description: "리스크 관리는 프로젝트 일정이나 소프트웨어 품질에 영향을 줄 수 있는 위험 요소를 예측하고, 이를 회피하거나 최소화하기 위한 조치를 취하는 프로세스이다"
 tags: ['Risk Management', 'Project Management', 'Risk Assessment', 'Mitigation', 'Software Engineering']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Risk Identification](/knowledge/software-engineering/risk-identification/)
-- [Risk Planning](/knowledge/software-engineering/risk-planning/)
-- [Software Project Management](/knowledge/software-engineering/software-project-management/)
-- [Project Planning](/knowledge/software-engineering/project-planning/)
+- [위험 식별 (Risk Identification)](/knowledge/software-engineering/risk-identification/)
+- [위험 계획 (Risk Planning)](/knowledge/software-engineering/risk-planning/)
+- [소프트웨어 프로젝트 관리 (Software Project Management)](/knowledge/software-engineering/software-project-management/)
+- [프로젝트 계획 (Project Planning)](/knowledge/software-engineering/project-planning/)

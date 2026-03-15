@@ -1,5 +1,5 @@
 ---
-title: "Dependable Processes"
+title: "신뢰 가능한 프로세스 (Dependable Processes)"
 description: "의존 가능한 소프트웨어를 생산하도록 설계된 소프트웨어 프로세스로, 감사 가능하고(auditable), 다양하며(diverse), 문서화 가능하고(documentable), 견고하며(robust), 표준화된(standardized) 속성을 갖는다"
 tags: ['Dependable Processes', 'Software Process', 'Quality Management', 'Auditable', 'Standardized']
 created: 2026-02-16
@@ -20,8 +20,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Dependability](/knowledge/software-engineering/dependability/)
-- [Redundancy and Diversity](/knowledge/software-engineering/redundancy-and-diversity/)
-- [Formal Methods](/knowledge/software-engineering/formal-methods/)
-- [Sociotechnical Systems](/knowledge/software-engineering/sociotechnical-systems/)
-- [Sociotechnical Resilience](/knowledge/software-engineering/sociotechnical-resilience/)
+- [신뢰성 (Dependability)](/knowledge/software-engineering/dependability/)
+- [중복성과 다양성 (Redundancy and Diversity)](/knowledge/software-engineering/redundancy-and-diversity/)
+- [정형 기법 (Formal Methods)](/knowledge/software-engineering/formal-methods/)
+- [사회기술 시스템 (Sociotechnical Systems)](/knowledge/software-engineering/sociotechnical-systems/)
+- [사회기술적 복원력 (Sociotechnical Resilience)](/knowledge/software-engineering/sociotechnical-resilience/)

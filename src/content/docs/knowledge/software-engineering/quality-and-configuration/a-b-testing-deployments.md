@@ -1,5 +1,5 @@
 ---
-title: "A/B Testing Deployments"
+title: "A/B 테스팅 배포 (A/B Testing Deployments)"
 description: "기능뿐 아니라 배포 자체를 A/B 테스트하는 방식으로, 원하는 업데이트와 기존 버전을 동시에 배포하여 새 버전이 실제로 개선되었는지 통계적으로 검증"
 tags: ["Software Engineering", "CI/CD", "Deployment"]
 created: 2026-02-27
@@ -36,6 +36,6 @@ Google 앱의 배포 A/B 테스트 파이프라인:
 
 ## 관련 개념
 
-- [Staged Rollout](/knowledge/software-engineering/quality-and-configuration/staged-rollout/)
-- [Release Train](/knowledge/software-engineering/quality-and-configuration/release-train/)
-- [Faster Is Safer](/knowledge/software-engineering/quality-and-configuration/faster-is-safer/)
+- [단계적 롤아웃 (Staged Rollout)](/knowledge/software-engineering/quality-and-configuration/staged-rollout/)
+- [릴리스 트레인 (Release Train)](/knowledge/software-engineering/quality-and-configuration/release-train/)
+- [빠를수록 안전하다 (Faster Is Safer)](/knowledge/software-engineering/quality-and-configuration/faster-is-safer/)

@@ -1,5 +1,5 @@
 ---
-title: "Project Scheduling"
+title: "프로젝트 일정 관리 (Project Scheduling)"
 description: "프로젝트 일정 관리는 프로젝트의 작업을 별도의 태스크로 조직하고, 각 태스크의 실행 시기와 방법을 결정하며, 소요 시간과 노력을 추정하는 프로세스이다"
 tags: ['Project Scheduling', 'Gantt Chart', 'Task Management', 'Milestones', 'Deliverables']
 created: 2026-02-16
@@ -26,6 +26,6 @@ T6   |       10            |       5        |  T1, T2 (M4)
 
 ## 관련 개념
 
-- [Project Planning](/knowledge/software-engineering/project-planning/)
-- [Agile Planning](/knowledge/software-engineering/agile-planning/)
-- [Software Project Management](/knowledge/software-engineering/software-project-management/)
+- [프로젝트 계획 (Project Planning)](/knowledge/software-engineering/project-planning/)
+- [애자일 계획 (Agile Planning)](/knowledge/software-engineering/agile-planning/)
+- [소프트웨어 프로젝트 관리 (Software Project Management)](/knowledge/software-engineering/software-project-management/)

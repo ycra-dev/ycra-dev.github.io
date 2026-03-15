@@ -1,5 +1,5 @@
 ---
-title: "Version Pinning"
+title: "버전 고정 (Version Pinning)"
 description: "모든 의존성의 버전 번호를 명시적으로 고정하는 관행"
 tags: ["Software Engineering", "Dependency Management", "Build Systems"]
 created: 2026-02-27
@@ -80,6 +80,6 @@ pip install --upgrade --upgrade-strategy=only-if-needed -r requirements.txt
 
 ## 관련 개념
 
-- [Semantic Versioning](/knowledge/software-engineering/quality-and-configuration/semantic-versioning/)
-- [Dependency Hell](/knowledge/software-engineering/quality-and-configuration/dependency-hell/)
-- [Transitive Dependency](/knowledge/software-engineering/quality-and-configuration/transitive-dependency/)
+- [시맨틱 버전 관리 (Semantic Versioning)](/knowledge/software-engineering/quality-and-configuration/semantic-versioning/)
+- [의존성 지옥 (Dependency Hell)](/knowledge/software-engineering/quality-and-configuration/dependency-hell/)
+- [이행적 의존성 (Transitive Dependency)](/knowledge/software-engineering/quality-and-configuration/transitive-dependency/)

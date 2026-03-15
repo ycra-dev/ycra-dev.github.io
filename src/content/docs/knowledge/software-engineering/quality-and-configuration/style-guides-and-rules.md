@@ -1,5 +1,5 @@
 ---
-title: "Style Guides and Rules"
+title: "스타일 가이드와 규칙 (Style Guides and Rules)"
 description: "코드 작성의 규칙과 지침을 집약한 공식 문서 — 포매팅뿐만 아니라 코드를 작성하는 전체 관례를 포괄하며, 구글에서 규칙은 법이고 지침은 권장 사항이다"
 tags: ["Software Engineering", "Quality", "Style Guide", "Consistency", "Readability"]
 created: 2026-02-27
@@ -35,7 +35,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Rules vs Guidance](/knowledge/software-engineering/quality-and-configuration/rules-vs-guidance/)
-- [Consistency in Codebase](/knowledge/software-engineering/quality-and-configuration/consistency-in-codebase/)
-- [Automated Tooling for Style](/knowledge/software-engineering/quality-and-configuration/automated-tooling-for-style/)
-- [Code Review](/knowledge/software-engineering/quality-and-configuration/code-review/)
+- [규칙 vs 가이드 (Rules vs Guidance)](/knowledge/software-engineering/quality-and-configuration/rules-vs-guidance/)
+- [코드베이스의 일관성 (Consistency in Codebase)](/knowledge/software-engineering/quality-and-configuration/consistency-in-codebase/)
+- [스타일 자동화 도구 (Automated Tooling for Style)](/knowledge/software-engineering/quality-and-configuration/automated-tooling-for-style/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/quality-and-configuration/code-review/)

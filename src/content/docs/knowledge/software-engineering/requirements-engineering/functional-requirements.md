@@ -1,5 +1,5 @@
 ---
-title: "Functional Requirements"
+title: "기능적 요구사항 (Functional Requirements)"
 description: "기능적 요구사항은 시스템이 제공해야 하는 서비스, 특정 입력에 대한 시스템의 반응, 특정 상황에서의 시스템 동작을 기술하는 요구사항이다"
 tags: ['Functional Requirements', 'System Behavior', 'Use Cases', 'Requirements Specification']
 created: 2026-02-16
@@ -20,5 +20,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Requirements Engineering](/knowledge/software-engineering/requirements-engineering/)
-- [Non-functional Requirements](/knowledge/software-engineering/non-functional-requirements/)
+- [요구사항 공학 (Requirements Engineering)](/knowledge/software-engineering/requirements-engineering/)
+- [비기능적 요구사항 (Non-functional Requirements)](/knowledge/software-engineering/non-functional-requirements/)

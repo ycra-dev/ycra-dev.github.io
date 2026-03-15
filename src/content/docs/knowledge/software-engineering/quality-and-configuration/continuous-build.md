@@ -1,5 +1,5 @@
 ---
-title: "Continuous Build"
+title: "지속적 빌드 (Continuous Build)"
 description: "head의 최신 코드 변경을 통합하여 자동화된 빌드와 테스트를 실행하는 CI 자동화의 첫 번째 단계"
 tags: ["Software Engineering", "CI/CD"]
 created: 2026-02-27
@@ -40,6 +40,6 @@ Presubmit에서 모든 테스트를 실행하지 않는 이유:
 
 ## 관련 개념
 
-- [Test Automation Platform](/knowledge/software-engineering/testing/test-automation-platform/)
-- [Presubmit Checks](/knowledge/software-engineering/quality-and-configuration/presubmit-checks/)
-- [Release Candidate](/knowledge/software-engineering/quality-and-configuration/release-candidate/)
+- [테스트 자동화 플랫폼 (Test Automation Platform)](/knowledge/software-engineering/testing/test-automation-platform/)
+- [프리서밋 검사 (Presubmit Checks)](/knowledge/software-engineering/quality-and-configuration/presubmit-checks/)
+- [릴리스 후보 (Release Candidate)](/knowledge/software-engineering/quality-and-configuration/release-candidate/)

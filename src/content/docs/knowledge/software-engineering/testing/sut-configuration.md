@@ -1,5 +1,5 @@
 ---
-title: "SUT Configuration"
+title: "SUT 구성 (SUT Configuration)"
 description: "대형 테스트에서 시스템 언더 테스트(System Under Test)의 크기와 구성 방식으로, SUT의 범위에 따라 테스트의 충실도, 비용, 복잡성이 달라진다"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -40,7 +40,7 @@ Google Cloud 같은 서비스의 SUT 구성 예시:
 
 ## 관련 개념
 
-- [Larger Testing](/knowledge/software-engineering/testing/larger-testing/)
-- [Test Fidelity](/knowledge/software-engineering/testing/test-fidelity/)
-- [Hermetic Testing](/knowledge/software-engineering/testing/hermetic-testing/)
-- [Types of Larger Tests](/knowledge/software-engineering/testing/types-of-larger-tests/)
+- [대형 테스팅 (Larger Testing)](/knowledge/software-engineering/testing/larger-testing/)
+- [테스트 충실도 (Test Fidelity)](/knowledge/software-engineering/testing/test-fidelity/)
+- [밀폐 테스팅 (Hermetic Testing)](/knowledge/software-engineering/testing/hermetic-testing/)
+- [대형 테스트의 유형 (Types of Larger Tests)](/knowledge/software-engineering/testing/types-of-larger-tests/)

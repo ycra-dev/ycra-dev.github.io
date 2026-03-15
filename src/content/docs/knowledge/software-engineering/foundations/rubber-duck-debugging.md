@@ -1,5 +1,5 @@
 ---
-title: "Rubber Duck Debugging"
+title: "고무 오리 디버깅 (Rubber Duck Debugging)"
 description: "문제를 무생물(고무 오리 등)이나 다른 사람에게 차근차근 설명하면서 스스로 해결책을 발견하는 디버깅 기법"
 tags: ["Software Engineering", "Debugging", "Problem Solving"]
 created: 2026-02-27
@@ -49,6 +49,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Debugging](/knowledge/software-engineering/foundations/debugging/)
-- [Pair Programming](/knowledge/software-engineering/agile-methods/pair-programming/)
-- [Timeboxing](/knowledge/software-engineering/agile-methods/timeboxing/)
+- [디버깅 (Debugging)](/knowledge/software-engineering/foundations/debugging/)
+- [페어 프로그래밍 (Pair Programming)](/knowledge/software-engineering/agile-methods/pair-programming/)
+- [타임박싱 (Timeboxing)](/knowledge/software-engineering/agile-methods/timeboxing/)

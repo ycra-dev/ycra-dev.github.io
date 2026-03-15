@@ -1,5 +1,5 @@
 ---
-title: "Googleyness"
+title: "구글다움 (Googleyness)"
 description: "Google이 강한 리더십과 겸손·존중·신뢰를 구현하는 속성과 행동을 명시적으로 정의한 rubric — 무의식적 편향을 방지하기 위해 공식화된 문화 기준"
 tags: ["Software Engineering", "Agile", "Culture", "Hiring"]
 created: 2026-02-27
@@ -35,6 +35,6 @@ Google이 명시적으로 정의한 Googleyness 기준:
 
 ## 관련 개념
 
-- [Humility, Respect, Trust](/knowledge/software-engineering/agile-methods/humility-respect-trust/)
-- [Unconscious Bias](/knowledge/software-engineering/agile-methods/unconscious-bias/)
-- [Psychological Safety](/knowledge/software-engineering/agile-methods/psychological-safety/)
+- [겸손, 존중, 신뢰 (Humility, Respect, Trust)](/knowledge/software-engineering/agile-methods/humility-respect-trust/)
+- [무의식적 편향 (Unconscious Bias)](/knowledge/software-engineering/agile-methods/unconscious-bias/)
+- [심리적 안전감 (Psychological Safety)](/knowledge/software-engineering/agile-methods/psychological-safety/)

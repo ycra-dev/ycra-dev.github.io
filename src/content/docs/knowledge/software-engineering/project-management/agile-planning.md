@@ -1,5 +1,5 @@
 ---
-title: "Agile Planning"
+title: "애자일 계획 (Agile Planning)"
 description: "에자일 계획은 반복적 접근 방식으로, 증분(increment)의 기능을 사전에 계획하지 않고 개발 진행 상황과 고객 우선순위에 따라 결정하는 소프트웨어 개발 계획 방법이다"
 tags: ['Agile Planning', 'Scrum', 'User Story', 'Velocity', 'Iteration Planning']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Project Planning](/knowledge/software-engineering/project-planning/)
-- [Project Scheduling](/knowledge/software-engineering/project-scheduling/)
-- [Teamwork](/knowledge/software-engineering/teamwork/)
-- [Software Project Management](/knowledge/software-engineering/software-project-management/)
+- [프로젝트 계획 (Project Planning)](/knowledge/software-engineering/project-planning/)
+- [프로젝트 일정 관리 (Project Scheduling)](/knowledge/software-engineering/project-scheduling/)
+- [팀워크 (Teamwork)](/knowledge/software-engineering/teamwork/)
+- [소프트웨어 프로젝트 관리 (Software Project Management)](/knowledge/software-engineering/software-project-management/)

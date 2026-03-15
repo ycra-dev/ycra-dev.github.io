@@ -1,5 +1,5 @@
 ---
-title: "Defense in Depth"
+title: "심층 방어 (Defense in Depth)"
 description: "단일 보안 메커니즘에 의존하지 않고 여러 가지 다른 기법을 사용하여 다중 방어 계층을 구축하는 보안 설계 원칙이다"
 tags: ['Defense In Depth', 'Layered Security', 'Security', 'Multi Layer', 'Protection', 'Redundancy']
 created: 2026-02-16
@@ -20,8 +20,8 @@ Mentcare 시스템의 다층 보호 아키텍처: (1) 플랫폼 수준 보호 - 
 
 ## 관련 개념
 
-- [Redundancy and Diversity](/knowledge/software-engineering/redundancy-and-diversity/)
-- [Vulnerability](/knowledge/software-engineering/vulnerability/)
-- [Secure Systems Design](/knowledge/software-engineering/secure-systems-design/)
-- [Swiss Cheese Model](/knowledge/software-engineering/swiss-cheese-model/)
-- [Cybersecurity](/knowledge/software-engineering/cybersecurity/)
+- [중복성과 다양성 (Redundancy and Diversity)](/knowledge/software-engineering/redundancy-and-diversity/)
+- [취약점 (Vulnerability)](/knowledge/software-engineering/vulnerability/)
+- [보안 시스템 설계 (Secure Systems Design)](/knowledge/software-engineering/secure-systems-design/)
+- [스위스 치즈 모델 (Swiss Cheese Model)](/knowledge/software-engineering/swiss-cheese-model/)
+- [사이버 보안 (Cybersecurity)](/knowledge/software-engineering/cybersecurity/)

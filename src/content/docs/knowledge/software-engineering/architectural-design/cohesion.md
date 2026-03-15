@@ -1,5 +1,5 @@
 ---
-title: "Cohesion"
+title: "응집도 (Cohesion)"
 description: "모듈 내부의 요소들이 하나의 목적을 위해 얼마나 밀접하게 관련되어 있는지를 나타내는 척도"
 tags: ["Software Engineering", "Architecture", "Design Principle"]
 created: 2026-02-27
@@ -59,7 +59,7 @@ class HttpClient:
 
 ## 관련 개념
 
-- [Coupling](/knowledge/software-engineering/architectural-design/coupling/)
-- [Software Complexity](/knowledge/software-engineering/architectural-design/software-complexity/)
-- [Code Smell](/knowledge/software-engineering/design-and-evolution/code-smell/)
-- [Domain-Driven Design](/knowledge/software-engineering/architectural-design/domain-driven-design/)
+- [결합도 (Coupling)](/knowledge/software-engineering/architectural-design/coupling/)
+- [소프트웨어 복잡도 (Software Complexity)](/knowledge/software-engineering/architectural-design/software-complexity/)
+- [코드 스멜 (Code Smell)](/knowledge/software-engineering/design-and-evolution/code-smell/)
+- [도메인 주도 설계 (Domain-Driven Design)](/knowledge/software-engineering/architectural-design/domain-driven-design/)

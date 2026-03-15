@@ -1,5 +1,5 @@
 ---
-title: "Embedded Real-Time System"
+title: "임베디드 실시간 시스템 (Embedded Real-Time System)"
 description: "임베디드 실시간 시스템은 하드웨어에 내장되어 환경의 이벤트에 실시간으로 반응하는 소프트웨어 시스템으로, 정확한 결과와 함께 결과가 생성되는 시간도 시스템의 올바른 동작에 영향을 미친다"
 tags: ['Embedded System', 'Real Time', 'Stimulus Response', 'Hard Real Time', 'Soft Real Time', 'Sensor', 'Actuator']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Real-Time Operating System](/knowledge/software-engineering/real-time-operating-system/)
-- [Timing Analysis](/knowledge/software-engineering/timing-analysis/)
-- [Stimulus-Response Model](/knowledge/software-engineering/stimulus-response-model/)
-- [Architectural Patterns for Real-Time Software](/knowledge/software-engineering/architectural-patterns-for-real-time-software/)
+- [실시간 운영체제 (Real-Time Operating System)](/knowledge/software-engineering/real-time-operating-system/)
+- [시간 분석 (Timing Analysis)](/knowledge/software-engineering/timing-analysis/)
+- [자극-응답 모델 (Stimulus-Response Model)](/knowledge/software-engineering/stimulus-response-model/)
+- [실시간 소프트웨어 아키텍처 패턴 (Architectural Patterns for Real-Time Software)](/knowledge/software-engineering/architectural-patterns-for-real-time-software/)

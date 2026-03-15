@@ -1,5 +1,5 @@
 ---
-title: "Agile Software Development"
+title: "애자일 소프트웨어 개발 (Agile Software Development)"
 description: "애자일 소프트웨어 개발은 빠르게 변화하는 요구사항에 대응하기 위해 소프트웨어를 점진적으로 개발하고, 이해관계자의 적극적 참여와 반복적인 인도를 강조하는 소프트웨어 개발 방법론이다"
 tags: ['Agile', 'Agile Manifesto', 'Iterative Development', 'Software Methodology']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Incremental Development](/knowledge/software-engineering/incremental-development/)
-- [Scrum](/knowledge/software-engineering/scrum/)
-- [Extreme Programming](/knowledge/software-engineering/extreme-programming/)
-- [User Stories](/knowledge/software-engineering/user-stories/)
+- [점진적 개발 (Incremental Development)](/knowledge/software-engineering/incremental-development/)
+- [스크럼 (Scrum)](/knowledge/software-engineering/scrum/)
+- [익스트림 프로그래밍 (Extreme Programming)](/knowledge/software-engineering/extreme-programming/)
+- [사용자 스토리 (User Stories)](/knowledge/software-engineering/user-stories/)

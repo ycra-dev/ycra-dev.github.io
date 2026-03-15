@@ -1,5 +1,5 @@
 ---
-title: "Transitive Dependency"
+title: "이행적 의존성 (Transitive Dependency)"
 description: "직접 의존하지 않지만 직접 의존성이 의존하는 라이브러리"
 tags: ["Software Engineering", "Dependency Management", "Build Systems"]
 created: 2026-02-27
@@ -68,6 +68,6 @@ dependencies {
 
 ## 관련 개념
 
-- [Dependency Hell](/knowledge/software-engineering/quality-and-configuration/dependency-hell/)
-- [Diamond Dependency](/knowledge/software-engineering/quality-and-configuration/diamond-dependency/)
-- [Version Pinning](/knowledge/software-engineering/quality-and-configuration/version-pinning/)
+- [의존성 지옥 (Dependency Hell)](/knowledge/software-engineering/quality-and-configuration/dependency-hell/)
+- [다이아몬드 의존성 (Diamond Dependency)](/knowledge/software-engineering/quality-and-configuration/diamond-dependency/)
+- [버전 고정 (Version Pinning)](/knowledge/software-engineering/quality-and-configuration/version-pinning/)

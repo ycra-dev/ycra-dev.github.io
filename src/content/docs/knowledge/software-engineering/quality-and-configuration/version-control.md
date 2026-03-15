@@ -55,6 +55,6 @@ git diff HEAD~1     # 이전 버전과 비교
 
 ## 관련 개념
 
-- [Source Control](/knowledge/software-engineering/quality-and-configuration/source-control/)
-- [Branching and Merging](/knowledge/software-engineering/quality-and-configuration/branching-and-merging/)
-- [Continuous Integration](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)
+- [소스 관리 (Source Control)](/knowledge/software-engineering/quality-and-configuration/source-control/)
+- [브랜칭과 병합 (Branching and Merging)](/knowledge/software-engineering/quality-and-configuration/branching-and-merging/)
+- [지속적 통합 (Continuous Integration)](/knowledge/software-engineering/quality-and-configuration/continuous-integration/)

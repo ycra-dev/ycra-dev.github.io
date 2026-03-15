@@ -1,5 +1,5 @@
 ---
-title: "Open-source Development"
+title: "오픈소스 개발 (Open-source Development)"
 description: "오픈 소스 개발은 소프트웨어의 소스 코드를 공개하고 누구나 자유롭게 사용, 수정, 배포할 수 있도록 하는 소프트웨어 개발 모델이다"
 tags: ['Open Source', 'Gpl', 'Bsd', 'Lgpl', 'Community Development', 'Software Licensing']
 created: 2026-02-16
@@ -20,5 +20,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Reuse](/knowledge/software-engineering/software-reuse/)
-- [Configuration Management](/knowledge/software-engineering/configuration-management/)
+- [소프트웨어 재사용 (Software Reuse)](/knowledge/software-engineering/software-reuse/)
+- [구성 관리 (Configuration Management)](/knowledge/software-engineering/configuration-management/)

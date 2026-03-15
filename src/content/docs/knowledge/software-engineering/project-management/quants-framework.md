@@ -1,5 +1,5 @@
 ---
-title: "QUANTS Framework"
+title: "QUANTS 프레임워크 (QUANTS Framework)"
 description: "엔지니어링 생산성의 다섯 가지 핵심 구성요소를 기억하기 위한 Google의 니모닉 — Quality, Attention, iNtellectual complexity, Tempo/velocity, Satisfaction"
 tags: ["Software Engineering", "Project Management", "Metrics", "Framework"]
 created: 2026-02-27
@@ -40,6 +40,6 @@ Readability 프로세스를 QUANTS로 평가할 때:
 
 ## 관련 개념
 
-- [Goals-Signals-Metrics Framework](/knowledge/software-engineering/project-management/goals-signals-metrics-framework/)
-- [Measuring Engineering Productivity](/knowledge/software-engineering/project-management/measuring-engineering-productivity/)
-- [Qualitative vs Quantitative Metrics](/knowledge/software-engineering/project-management/qualitative-vs-quantitative-metrics/)
+- [목표-신호-메트릭 프레임워크 (Goals-Signals-Metrics Framework)](/knowledge/software-engineering/project-management/goals-signals-metrics-framework/)
+- [엔지니어링 생산성 측정 (Measuring Engineering Productivity)](/knowledge/software-engineering/project-management/measuring-engineering-productivity/)
+- [정성적 vs 정량적 메트릭 (Qualitative vs Quantitative Metrics)](/knowledge/software-engineering/project-management/qualitative-vs-quantitative-metrics/)

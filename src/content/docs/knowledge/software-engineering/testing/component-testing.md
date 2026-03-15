@@ -1,5 +1,5 @@
 ---
-title: "Component Testing"
+title: "컴포넌트 테스팅 (Component Testing)"
 description: "컴포넌트 테스트(통합 테스트)는 여러 개별 단위(객체, 메서드)가 결합된 복합 컴포넌트의 인터페이스와 상호작용을 테스트하는 과정이다"
 tags: ['Component Testing', 'Integration Testing', 'Interface Testing', 'Software Testing']
 created: 2026-02-16
@@ -20,5 +20,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Unit Testing](/knowledge/software-engineering/unit-testing/)
-- [Verification and Validation](/knowledge/software-engineering/verification-and-validation/)
+- [단위 테스팅 (Unit Testing)](/knowledge/software-engineering/unit-testing/)
+- [검증과 확인 (Verification and Validation)](/knowledge/software-engineering/verification-and-validation/)

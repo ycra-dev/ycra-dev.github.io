@@ -1,5 +1,5 @@
 ---
-title: "Constructive Criticism"
+title: "건설적 비판 (Constructive Criticism)"
 description: "상대방의 인격이 아닌 창작물에 대한 개선 방향을 존중의 토대 위에서 제시하는 피드백 방식 — '당신은 당신의 코드가 아니다'"
 tags: ["Software Engineering", "Agile", "Communication", "Feedback"]
 created: 2026-02-27
@@ -38,6 +38,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Humility, Respect, Trust](/knowledge/software-engineering/agile-methods/humility-respect-trust/)
-- [Psychological Safety](/knowledge/software-engineering/agile-methods/psychological-safety/)
-- [Knowledge Sharing Culture](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)
+- [겸손, 존중, 신뢰 (Humility, Respect, Trust)](/knowledge/software-engineering/agile-methods/humility-respect-trust/)
+- [심리적 안전감 (Psychological Safety)](/knowledge/software-engineering/agile-methods/psychological-safety/)
+- [지식 공유 문화 (Knowledge Sharing Culture)](/knowledge/software-engineering/agile-methods/knowledge-sharing-culture/)

@@ -1,5 +1,5 @@
 ---
-title: "Remote Execution and Caching"
+title: "원격 실행과 캐싱 (Remote Execution and Caching)"
 description: "빌드 단계를 분산 워커에서 실행하고 산출물을 공유 캐시에 저장하여 재사용하는 기술"
 tags: ["Software Engineering", "Build Systems"]
 created: 2026-02-27
@@ -30,6 +30,6 @@ Google에서 엔지니어가 `blaze build`를 실행하면, 빌드 시스템이 
 
 ## 관련 개념
 
-- [Bazel](/knowledge/software-engineering/quality-and-configuration/bazel/)
-- [Artifact-Based Build Systems](/knowledge/software-engineering/quality-and-configuration/artifact-based-build-systems/)
-- [Hermetic Builds](/knowledge/software-engineering/quality-and-configuration/hermetic-builds/)
+- [바젤 (Bazel)](/knowledge/software-engineering/quality-and-configuration/bazel/)
+- [아티팩트 기반 빌드 시스템 (Artifact-Based Build Systems)](/knowledge/software-engineering/quality-and-configuration/artifact-based-build-systems/)
+- [밀폐 빌드 (Hermetic Builds)](/knowledge/software-engineering/quality-and-configuration/hermetic-builds/)

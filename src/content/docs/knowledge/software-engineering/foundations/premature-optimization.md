@@ -1,5 +1,5 @@
 ---
-title: "Premature Optimization"
+title: "조기 최적화 (Premature Optimization)"
 description: "성능 병목이 확인되기 전에 코드를 최적화하는 반패턴"
 tags: ["Software Engineering", "Anti-Pattern", "Performance"]
 created: 2026-02-27
@@ -55,6 +55,6 @@ cProfile.run('process_large_dataset(data)')
 
 ## 관련 개념
 
-- [KISS Principle](/knowledge/software-engineering/foundations/kiss-principle/)
-- [YAGNI](/knowledge/software-engineering/design-and-evolution/yagni/)
-- [Software Complexity](/knowledge/software-engineering/architectural-design/software-complexity/)
+- [KISS 원칙 (KISS Principle)](/knowledge/software-engineering/foundations/kiss-principle/)
+- [YAGNI 원칙 (YAGNI)](/knowledge/software-engineering/design-and-evolution/yagni/)
+- [소프트웨어 복잡도 (Software Complexity)](/knowledge/software-engineering/architectural-design/software-complexity/)

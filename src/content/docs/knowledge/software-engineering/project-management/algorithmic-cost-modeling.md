@@ -1,5 +1,5 @@
 ---
-title: "Algorithmic Cost Modeling"
+title: "알고리즘적 비용 모델링 (Algorithmic Cost Modeling)"
 description: "알고리즘적 비용 모델링은 프로젝트 크기, 개발 중인 소프트웨어 유형, 팀/프로세스/제품 요인의 추정치를 기반으로 수학적 공식을 사용하여 프로젝트 비용을 예측하는 방법이다"
 tags: ['Cost Modeling', 'Estimation', 'Effort Estimation', 'Software Metrics', 'Function Points']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [COCOMO Cost Modeling](/knowledge/software-engineering/cocomo-cost-modeling/)
-- [Software Pricing](/knowledge/software-engineering/software-pricing/)
-- [Project Planning](/knowledge/software-engineering/project-planning/)
+- [COCOMO 비용 모델링 (COCOMO Cost Modeling)](/knowledge/software-engineering/cocomo-cost-modeling/)
+- [소프트웨어 가격 산정 (Software Pricing)](/knowledge/software-engineering/software-pricing/)
+- [프로젝트 계획 (Project Planning)](/knowledge/software-engineering/project-planning/)

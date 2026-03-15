@@ -1,5 +1,5 @@
 ---
-title: "Service Composition"
+title: "서비스 합성 (Service Composition)"
 description: "서비스 합성은 기존 서비스를 조합하고 구성하여 새로운 복합 서비스를 생성하는 프로세스로, 워크플로우 기반으로 비즈니스 프로세스를 지원한다"
 tags: ['Service Composition', 'Workflow', 'Bpmn', 'Orchestration', 'Compensation', 'Business Process']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Service-Oriented Architecture](/knowledge/software-engineering/service-oriented-architecture/)
-- [Service Engineering](/knowledge/software-engineering/service-engineering/)
-- [RESTful Service](/knowledge/software-engineering/restful-service/)
-- [Component Composition](/knowledge/software-engineering/component-composition/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/software-engineering/service-oriented-architecture/)
+- [서비스 공학 (Service Engineering)](/knowledge/software-engineering/service-engineering/)
+- [RESTful 서비스 (RESTful Service)](/knowledge/software-engineering/restful-service/)
+- [컴포넌트 합성 (Component Composition)](/knowledge/software-engineering/component-composition/)

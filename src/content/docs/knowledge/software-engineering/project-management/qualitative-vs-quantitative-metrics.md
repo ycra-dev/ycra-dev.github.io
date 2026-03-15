@@ -1,5 +1,5 @@
 ---
-title: "Qualitative vs Quantitative Metrics"
+title: "정성적 vs 정량적 메트릭 (Qualitative vs Quantitative Metrics)"
 description: "정량적 메트릭은 수치적 측정이고 정성적 메트릭은 주관적 경험이다 — 구글은 두 가지를 함께 사용하여 삼각측량(triangulation)한다"
 tags: ["Software Engineering", "Project Management", "Metrics", "Measurement"]
 created: 2026-02-27
@@ -30,6 +30,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Goals-Signals-Metrics Framework](/knowledge/software-engineering/project-management/goals-signals-metrics-framework/)
-- [QUANTS Framework](/knowledge/software-engineering/project-management/quants-framework/)
-- [Measuring Engineering Productivity](/knowledge/software-engineering/project-management/measuring-engineering-productivity/)
+- [목표-신호-메트릭 프레임워크 (Goals-Signals-Metrics Framework)](/knowledge/software-engineering/project-management/goals-signals-metrics-framework/)
+- [QUANTS 프레임워크 (QUANTS Framework)](/knowledge/software-engineering/project-management/quants-framework/)
+- [엔지니어링 생산성 측정 (Measuring Engineering Productivity)](/knowledge/software-engineering/project-management/measuring-engineering-productivity/)

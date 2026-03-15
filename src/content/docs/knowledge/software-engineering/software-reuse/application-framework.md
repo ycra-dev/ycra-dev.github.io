@@ -1,5 +1,5 @@
 ---
-title: "Application Framework"
+title: "애플리케이션 프레임워크 (Application Framework)"
 description: "애플리케이션 프레임워크는 관련 애플리케이션 군(family)에 대한 재사용 가능한 아키텍처를 제공하는 통합된 소프트웨어 산출물(클래스, 객체, 컴포넌트)의 집합이다"
 tags: ['Application Framework', 'Software Reuse', 'MVC', 'Inversion Of Control', 'Web Framework', 'Middleware']
 created: 2026-02-16
@@ -20,7 +20,7 @@ Django(Python), Spring(Java), Ruby on Rails 등의 웹 프레임워크는 보안
 
 ## 관련 개념
 
-- [Software Reuse](/knowledge/software-engineering/software-reuse/)
-- [Software Product Line](/knowledge/software-engineering/software-product-line/)
-- [Component-Based Software Engineering](/knowledge/software-engineering/component-based-software-engineering/)
-- [Middleware](/knowledge/software-engineering/middleware/)
+- [소프트웨어 재사용 (Software Reuse)](/knowledge/software-engineering/software-reuse/)
+- [소프트웨어 프로덕트 라인 (Software Product Line)](/knowledge/software-engineering/software-product-line/)
+- [컴포넌트 기반 소프트웨어 공학 (Component-Based Software Engineering)](/knowledge/software-engineering/component-based-software-engineering/)
+- [미들웨어 (Middleware)](/knowledge/software-engineering/middleware/)

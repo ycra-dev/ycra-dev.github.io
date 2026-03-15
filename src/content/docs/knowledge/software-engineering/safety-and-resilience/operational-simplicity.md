@@ -1,5 +1,5 @@
 ---
-title: "Operational Simplicity"
+title: "운영 단순성 (Operational Simplicity)"
 description: "시스템을 이해하고 유지보수하고 확장하기 쉽게 만들어 운영 부담을 최소화하는 설계 원칙 — Instagram이 13명으로 4,000만 사용자를 지원한 비결"
 tags: ["SoftwareEngineering", "Architecture", "Operations", "EffectiveEngineer"]
 created: 2026-02-27
@@ -62,6 +62,6 @@ complexity_trap = {
 
 ## 관련 개념
 
-- [Fail Fast](/knowledge/software-engineering/safety-and-resilience/fail-fast/)
-- [Automation](/knowledge/software-engineering/foundations/automation/)
-- [Software Abstraction](/knowledge/software-engineering/foundations/software-abstraction/)
+- [빠른 실패 (Fail Fast)](/knowledge/software-engineering/safety-and-resilience/fail-fast/)
+- [자동화 (Automation)](/knowledge/software-engineering/foundations/automation/)
+- [소프트웨어 추상화 (Software Abstraction)](/knowledge/software-engineering/foundations/software-abstraction/)

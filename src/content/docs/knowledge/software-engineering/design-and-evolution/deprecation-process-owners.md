@@ -1,5 +1,5 @@
 ---
-title: "Deprecation Process Owners"
+title: "디프리케이션 프로세스 소유자 (Deprecation Process Owners)"
 description: "Deprecation 프로세스의 관리와 실행을 전담하는 명시적 소유자로, 이 없이는 deprecation이 의미 있는 진전을 이루기 어렵다"
 tags: ["Software Engineering", "Design and Evolution"]
 created: 2026-02-27
@@ -34,6 +34,6 @@ Google에서는 이런 중요하지만 긴급하지 않은 정리 작업을 20% 
 
 ## 관련 개념
 
-- [Deprecation](/knowledge/software-engineering/design-and-evolution/deprecation/)
-- [Compulsory Deprecation](/knowledge/software-engineering/design-and-evolution/compulsory-deprecation/)
-- [Advisory Deprecation](/knowledge/software-engineering/design-and-evolution/advisory-deprecation/)
+- [디프리케이션 (Deprecation)](/knowledge/software-engineering/design-and-evolution/deprecation/)
+- [강제적 디프리케이션 (Compulsory Deprecation)](/knowledge/software-engineering/design-and-evolution/compulsory-deprecation/)
+- [권고적 디프리케이션 (Advisory Deprecation)](/knowledge/software-engineering/design-and-evolution/advisory-deprecation/)

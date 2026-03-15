@@ -1,5 +1,5 @@
 ---
-title: "Scalability of Policies"
+title: "정책의 확장성 (Scalability of Policies)"
 description: "조직이 반복 수행해야 하는 모든 작업은 인적 투입 측면에서 선형 이하로 확장 가능해야 하며, 정책은 프로세스를 확장 가능하게 만드는 강력한 도구이다"
 tags: ["Software Engineering", "Foundations", "Scalability", "Automation"]
 created: 2026-02-27
@@ -32,7 +32,7 @@ Google에서 프로그래밍 언어 업데이트(예: C++ 버전 업그레이드
 
 ## 관련 개념
 
-- [Trade-offs and Costs](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
-- [Jevons Paradox](/knowledge/software-engineering/foundations/jevons-paradox/)
-- [Shifting Left](/knowledge/software-engineering/foundations/shifting-left/)
-- [Sustainability](/knowledge/software-engineering/foundations/sustainability/)
+- [트레이드오프와 비용 (Trade-offs and Costs)](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
+- [제번스 역설 (Jevons Paradox)](/knowledge/software-engineering/foundations/jevons-paradox/)
+- [시프트 레프트 (Shifting Left)](/knowledge/software-engineering/foundations/shifting-left/)
+- [지속 가능성 (Sustainability)](/knowledge/software-engineering/foundations/sustainability/)

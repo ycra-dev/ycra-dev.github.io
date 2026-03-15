@@ -1,5 +1,5 @@
 ---
-title: "Reject Singular Approaches"
+title: "단일 접근법 거부 (Reject Singular Approaches)"
 description: "기술 분야의 불평등을 해결하기 위해 단일 철학이나 방법론에 의존하지 말아야 한다는 원칙 — 문제가 복잡하고 다요인적이므로 해결책도 다면적이어야 한다"
 tags: ["Software Engineering", "Agile", "Equity", "Diversity", "Strategy"]
 created: 2026-02-27
@@ -31,6 +31,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Engineering for Equity](/knowledge/software-engineering/agile-methods/engineering-for-equity/)
-- [Values vs Outcomes](/knowledge/software-engineering/agile-methods/values-vs-outcomes/)
-- [Unconscious Bias](/knowledge/software-engineering/agile-methods/unconscious-bias/)
+- [형평성을 위한 엔지니어링 (Engineering for Equity)](/knowledge/software-engineering/agile-methods/engineering-for-equity/)
+- [가치 vs 결과 (Values vs Outcomes)](/knowledge/software-engineering/agile-methods/values-vs-outcomes/)
+- [무의식적 편향 (Unconscious Bias)](/knowledge/software-engineering/agile-methods/unconscious-bias/)

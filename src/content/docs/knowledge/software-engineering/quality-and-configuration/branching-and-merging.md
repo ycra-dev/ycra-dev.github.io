@@ -1,5 +1,5 @@
 ---
-title: "Branching and Merging"
+title: "브랜칭과 병합 (Branching and Merging)"
 description: "Git 등의 버전 관리 시스템에서 독립적인 작업 흐름(브랜치)을 만들고 완성 후 메인 코드베이스에 통합하는 협업 전략이다."
 tags: ["Software Engineering", "Version Control", "Git", "Collaboration"]
 created: 2026-02-27

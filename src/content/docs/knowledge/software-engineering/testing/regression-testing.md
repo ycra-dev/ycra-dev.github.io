@@ -1,5 +1,5 @@
 ---
-title: "Regression Testing"
+title: "회귀 테스팅 (Regression Testing)"
 description: "회귀 테스트는 소프트웨어 변경 후 기존에 성공적으로 통과한 테스트를 재실행하여, 변경으로 인해 새로운 결함이 도입되지 않았음을 확인하는 테스트 기법이다"
 tags: ['Regression Testing', 'Automated Testing', 'Test Suite', 'Ci Cd', 'Change Verification']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Test-driven Development](/knowledge/software-engineering/test-driven-development/)
-- [Continuous Integration](/knowledge/software-engineering/continuous-integration/)
-- [Unit Testing](/knowledge/software-engineering/unit-testing/)
+- [테스트 주도 개발 (Test-driven Development)](/knowledge/software-engineering/test-driven-development/)
+- [지속적 통합 (Continuous Integration)](/knowledge/software-engineering/continuous-integration/)
+- [단위 테스팅 (Unit Testing)](/knowledge/software-engineering/unit-testing/)

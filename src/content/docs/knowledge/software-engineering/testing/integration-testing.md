@@ -1,5 +1,5 @@
 ---
-title: "Integration Testing"
+title: "통합 테스팅 (Integration Testing)"
 description: "여러 컴포넌트가 함께 올바르게 동작하는지 검증하는 테스트"
 tags: ["Software Engineering", "Testing", "Quality Assurance"]
 created: 2026-02-27
@@ -60,7 +60,7 @@ def test_user_creation_and_retrieval(db):
 
 ## 관련 개념
 
-- [Unit Testing](/knowledge/software-engineering/testing/unit-testing/)
-- [Deterministic Testing](/knowledge/software-engineering/testing/deterministic-testing/)
-- [Mocking](/knowledge/software-engineering/testing/mocking/)
-- [Test-Driven Development](/knowledge/software-engineering/testing/test-driven-development/)
+- [단위 테스팅 (Unit Testing)](/knowledge/software-engineering/testing/unit-testing/)
+- [결정적 테스팅 (Deterministic Testing)](/knowledge/software-engineering/testing/deterministic-testing/)
+- [모킹 (Mocking)](/knowledge/software-engineering/testing/mocking/)
+- [테스트 주도 개발 (Test-Driven Development)](/knowledge/software-engineering/testing/test-driven-development/)

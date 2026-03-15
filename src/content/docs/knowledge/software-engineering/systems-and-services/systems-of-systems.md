@@ -1,5 +1,5 @@
 ---
-title: "Systems of Systems"
+title: "시스템 오브 시스템즈 (Systems of Systems)"
 description: "시스템 오브 시스템즈(SoS)는 두 개 이상의 독립적으로 관리되는 요소를 포함하는 시스템으로, 분산된 관리와 제어가 전체 복잡성에 근본적인 영향을 미친다"
 tags: ['Systems Of Systems', 'Sos', 'Complexity', 'Governance', 'Interoperability', 'Independence', 'Evolution']
 created: 2026-02-16
@@ -20,8 +20,8 @@ SoS의 핵심 특성은 요소의 운영 독립성, 관리 독립성, 진화적 
 
 ## 관련 개념
 
-- [Systems Engineering](/knowledge/software-engineering/systems-engineering/)
-- [Reductionism](/knowledge/software-engineering/reductionism/)
-- [Emergent Properties](/knowledge/software-engineering/emergent-properties/)
-- [SoS Architecture](/knowledge/software-engineering/sos-architecture/)
-- [Sociotechnical Systems](/knowledge/software-engineering/sociotechnical-systems/)
+- [시스템 공학 (Systems Engineering)](/knowledge/software-engineering/systems-engineering/)
+- [환원주의 (Reductionism)](/knowledge/software-engineering/reductionism/)
+- [창발적 속성 (Emergent Properties)](/knowledge/software-engineering/emergent-properties/)
+- [SoS 아키텍처 (SoS Architecture)](/knowledge/software-engineering/sos-architecture/)
+- [사회기술 시스템 (Sociotechnical Systems)](/knowledge/software-engineering/sociotechnical-systems/)

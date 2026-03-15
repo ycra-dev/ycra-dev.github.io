@@ -1,5 +1,5 @@
 ---
-title: "Unit Test"
+title: "단위 테스트 (Unit Test)"
 description: "소프트웨어의 가장 작은 테스트 가능한 단위를 독립적으로 검증하는 자동화 테스트로, 테스트 피라미드의 최하단을 구성한다"
 tags: ["SoftwareEngineering", "Testing", "QA", "Automation"]
 created: 2026-02-27
@@ -84,5 +84,5 @@ def test_order_sends_email_on_completion():
 
 ## 관련 개념
 
-- [Test-Driven Development](/knowledge/software-engineering/testing/test-driven-development/)
-- [Test Automation Collaboration](/knowledge/software-engineering/testing/test-automation-collaboration/)
+- [테스트 주도 개발 (Test-Driven Development)](/knowledge/software-engineering/testing/test-driven-development/)
+- [테스트 자동화 협업 (Test Automation Collaboration)](/knowledge/software-engineering/testing/test-automation-collaboration/)

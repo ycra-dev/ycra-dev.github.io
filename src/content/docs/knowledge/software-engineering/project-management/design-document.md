@@ -1,5 +1,5 @@
 ---
-title: "Design Document"
+title: "설계 문서 (Design Document)"
 description: "대규모 변경의 현재 설계, 변경 동기, 잠재적 해결책을 기술하는 협업 설계 도구"
 tags: ["Software Engineering", "Documentation", "Design", "Collaboration"]
 created: 2026-02-27
@@ -72,6 +72,6 @@ Q: 데이터 마이그레이션 중 서비스 중단 허용 범위?
 
 ## 관련 개념
 
-- [Design Spike](/knowledge/software-engineering/project-management/design-spike/)
-- [Code Review](/knowledge/software-engineering/foundations/code-review/)
-- [Task Decomposition](/knowledge/software-engineering/project-management/task-decomposition/)
+- [설계 스파이크 (Design Spike)](/knowledge/software-engineering/project-management/design-spike/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/foundations/code-review/)
+- [작업 분해 (Task Decomposition)](/knowledge/software-engineering/project-management/task-decomposition/)

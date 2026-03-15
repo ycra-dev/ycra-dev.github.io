@@ -1,5 +1,5 @@
 ---
-title: "Statistical Testing"
+title: "통계적 테스팅 (Statistical Testing)"
 description: "실제 운영 환경의 사용 패턴을 반영하는 운영 프로파일에 기반한 테스트 데이터를 사용하여 시스템의 신뢰성을 정량적으로 측정하는 테스트 프로세스이다"
 tags: ['Statistical Testing', 'Reliability', 'Operational Profile', 'Testing', 'Measurement', 'Quantitative']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Reliability Metrics](/knowledge/software-engineering/reliability-metrics/)
-- [Reliability](/knowledge/software-engineering/reliability/)
-- [Fault-Error-Failure Model](/knowledge/software-engineering/fault-error-failure-model/)
-- [Dependable Processes](/knowledge/software-engineering/dependable-processes/)
+- [신뢰성 지표 (Reliability Metrics)](/knowledge/software-engineering/reliability-metrics/)
+- [신뢰성 (Reliability)](/knowledge/software-engineering/reliability/)
+- [장애-오류-실패 모델 (Fault-Error-Failure Model)](/knowledge/software-engineering/fault-error-failure-model/)
+- [신뢰 가능한 프로세스 (Dependable Processes)](/knowledge/software-engineering/dependable-processes/)

@@ -1,5 +1,5 @@
 ---
-title: "Engineering for Equity"
+title: "형평성을 위한 엔지니어링 (Engineering for Equity)"
 description: "광범위한 사용자 기반을 위한 제품 설계 시 엔지니어의 고유한 책임을 인식하고, 다양성을 포용함으로써 모든 사람을 위해 작동하는 시스템을 설계하는 것"
 tags: ["Software Engineering", "Agile", "Equity", "Product Design", "Diversity"]
 created: 2026-02-27
@@ -32,7 +32,7 @@ Google의 내부 채용 시스템 사례: 내부 이동 시 과거 성과 평가
 
 ## 관련 개념
 
-- [Unconscious Bias](/knowledge/software-engineering/agile-methods/unconscious-bias/)
-- [Inclusive Design](/knowledge/software-engineering/agile-methods/inclusive-design/)
-- [Multicultural Capacity](/knowledge/software-engineering/agile-methods/multicultural-capacity/)
-- [Trade-offs and Costs](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
+- [무의식적 편향 (Unconscious Bias)](/knowledge/software-engineering/agile-methods/unconscious-bias/)
+- [포용적 설계 (Inclusive Design)](/knowledge/software-engineering/agile-methods/inclusive-design/)
+- [다문화 역량 (Multicultural Capacity)](/knowledge/software-engineering/agile-methods/multicultural-capacity/)
+- [트레이드오프와 비용 (Trade-offs and Costs)](/knowledge/software-engineering/foundations/trade-offs-and-costs/)

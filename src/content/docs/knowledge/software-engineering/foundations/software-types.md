@@ -1,5 +1,5 @@
 ---
-title: "Software Types"
+title: "소프트웨어 유형 (Software Types)"
 description: "소프트웨어는 범용 소프트웨어 제품(generic products)과 맞춤형 소프트웨어(customized/bespoke software)로 크게 분류된다"
 tags: ['Software Classification', 'Generic Software', 'Custom Software', 'Software Products']
 created: 2026-02-16
@@ -20,5 +20,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Engineering](/knowledge/software-engineering/software-engineering/)
-- [Integration and Configuration](/knowledge/software-engineering/integration-and-configuration/)
+- [소프트웨어 공학 (Software Engineering)](/knowledge/software-engineering/software-engineering/)
+- [통합과 구성 (Integration and Configuration)](/knowledge/software-engineering/integration-and-configuration/)

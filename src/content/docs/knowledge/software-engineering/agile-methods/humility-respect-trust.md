@@ -1,5 +1,5 @@
 ---
-title: "Humility, Respect, Trust (HRT)"
+title: "겸손, 존중, 신뢰 (Humility, Respect, Trust)"
 description: "겸손·존중·신뢰는 건강한 상호작용과 협업의 기반이 되는 사회적 상호작용의 세 기둥이다"
 tags: ["Software Engineering", "Agile", "Culture", "Teamwork"]
 created: 2026-02-27
@@ -34,7 +34,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Genius Myth](/knowledge/software-engineering/agile-methods/genius-myth/)
-- [Blameless Postmortem](/knowledge/software-engineering/agile-methods/blameless-postmortem/)
-- [Googleyness](/knowledge/software-engineering/agile-methods/googleyness/)
-- [Psychological Safety](/knowledge/software-engineering/agile-methods/psychological-safety/)
+- [천재 신화 (Genius Myth)](/knowledge/software-engineering/agile-methods/genius-myth/)
+- [비난 없는 포스트모템 (Blameless Postmortem)](/knowledge/software-engineering/agile-methods/blameless-postmortem/)
+- [구글다움 (Googleyness)](/knowledge/software-engineering/agile-methods/googleyness/)
+- [심리적 안전감 (Psychological Safety)](/knowledge/software-engineering/agile-methods/psychological-safety/)

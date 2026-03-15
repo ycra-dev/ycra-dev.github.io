@@ -1,5 +1,5 @@
 ---
-title: "Divide and Conquer Debugging"
+title: "분할 정복 디버깅 (Divide and Conquer Debugging)"
 description: "버그 위치를 빠르게 찾기 위해 문제 공간을 절반씩 나누어 좁혀가는 이진 탐색 방식의 디버깅 기법이다."
 tags: ["Software Engineering", "Debugging", "Problem Solving"]
 created: 2026-02-27

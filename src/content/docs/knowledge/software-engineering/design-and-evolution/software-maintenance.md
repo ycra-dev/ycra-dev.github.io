@@ -1,5 +1,5 @@
 ---
-title: "Software Maintenance"
+title: "소프트웨어 유지보수 (Software Maintenance)"
 description: "소프트웨어 유지보수는 시스템이 인도된 후에 수행되는 변경 활동의 총칭으로, 결함 수리(fault repair), 환경 적응(environmental adaptation), 기능 추가(functionality addition)의 세 가지 유형이 있다"
 tags: ['Software Maintenance', 'Fault Repair', 'Adaptive Maintenance', 'Perfective Maintenance', 'Maintenance Cost']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Evolution](/knowledge/software-engineering/software-evolution/)
-- [Legacy Systems](/knowledge/software-engineering/legacy-systems/)
-- [Software Reengineering](/knowledge/software-engineering/software-reengineering/)
-- [Refactoring](/knowledge/software-engineering/refactoring/)
+- [소프트웨어 진화 (Software Evolution)](/knowledge/software-engineering/software-evolution/)
+- [레거시 시스템 (Legacy Systems)](/knowledge/software-engineering/legacy-systems/)
+- [소프트웨어 재공학 (Software Reengineering)](/knowledge/software-engineering/software-reengineering/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/refactoring/)

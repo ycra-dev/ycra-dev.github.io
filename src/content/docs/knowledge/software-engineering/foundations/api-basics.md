@@ -1,5 +1,5 @@
 ---
-title: "API (Application Programming Interface)"
+title: "API (애플리케이션 프로그래밍 인터페이스)"
 description: "소프트웨어 컴포넌트 간의 상호작용 방식을 정의한 인터페이스로 무엇을 할 수 있는지 알려주지만 어떻게 하는지는 숨긴다"
 tags: ["Software-Engineering", "API", "Interface", "Abstraction"]
 created: 2026-02-27

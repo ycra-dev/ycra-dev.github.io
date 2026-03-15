@@ -1,5 +1,5 @@
 ---
-title: "Sprint Retrospective"
+title: "스프린트 회고 (Sprint Retrospective)"
 description: "각 스프린트가 끝난 후 팀이 프로세스를 되돌아보고 개선점을 논의하는 미팅"
 tags: ["Software Engineering", "Agile", "Scrum", "Continuous Improvement"]
 created: 2026-02-27
@@ -65,7 +65,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Scrum](/knowledge/software-engineering/agile-methods/scrum/)
-- [Agile Software Development](/knowledge/software-engineering/agile-methods/agile-software-development/)
-- [Postmortem](/knowledge/software-engineering/quality-and-configuration/postmortem/)
-- [Psychological Safety](/knowledge/software-engineering/agile-methods/psychological-safety/)
+- [스크럼 (Scrum)](/knowledge/software-engineering/agile-methods/scrum/)
+- [애자일 소프트웨어 개발 (Agile Software Development)](/knowledge/software-engineering/agile-methods/agile-software-development/)
+- [포스트모템 (Postmortem)](/knowledge/software-engineering/quality-and-configuration/postmortem/)
+- [심리적 안전감 (Psychological Safety)](/knowledge/software-engineering/agile-methods/psychological-safety/)

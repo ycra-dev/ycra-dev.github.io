@@ -1,5 +1,5 @@
 ---
-title: "Fault-Error-Failure Model"
+title: "장애-오류-실패 모델 (Fault-Error-Failure Model)"
 description: "Brian Randell이 정의한 모델로, 인간의 실수(mistake)가 결함(fault)을 발생시키고, 결함이 오류(error)를 유발하며, 오류가 시스템 장애(failure)로 이어지는 인과 관계를 나타낸다"
 tags: ['Fault', 'Error', 'Failure', 'Reliability', 'Causal Model', 'Terminology']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Reliability](/knowledge/software-engineering/reliability/)
-- [Fault Tolerance](/knowledge/software-engineering/fault-tolerance/)
-- [Dependability](/knowledge/software-engineering/dependability/)
-- [Reliability Metrics](/knowledge/software-engineering/reliability-metrics/)
+- [신뢰성 (Reliability)](/knowledge/software-engineering/reliability/)
+- [장애 허용 (Fault Tolerance)](/knowledge/software-engineering/fault-tolerance/)
+- [신뢰성 (Dependability)](/knowledge/software-engineering/dependability/)
+- [신뢰성 지표 (Reliability Metrics)](/knowledge/software-engineering/reliability-metrics/)

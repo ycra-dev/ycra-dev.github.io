@@ -1,5 +1,5 @@
 ---
-title: "Design Patterns"
+title: "디자인 패턴 (Design Patterns)"
 description: "디자인 패턴은 객체지향 소프트웨어 설계에서 반복적으로 발생하는 공통적인 문제에 대한 재사용 가능한 해결책을 추상화하여 기술한 것이다"
 tags: ['Design Patterns', 'GoF', 'Observer Pattern', 'Facade Pattern', 'Reusable Design', 'Object Oriented']
 created: 2026-02-16
@@ -29,5 +29,5 @@ class WeatherData {
 
 ## 관련 개념
 
-- [Object-oriented Design](/knowledge/software-engineering/object-oriented-design/)
-- [Software Reuse](/knowledge/software-engineering/software-reuse/)
+- [객체지향 설계 (Object-oriented Design)](/knowledge/software-engineering/object-oriented-design/)
+- [소프트웨어 재사용 (Software Reuse)](/knowledge/software-engineering/software-reuse/)

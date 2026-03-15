@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity"
+title: "사이버 보안 (Cybersecurity)"
 description: "컴퓨터와 인터넷 사용에서 발생하는 위협으로부터 시민, 기업, 핵심 인프라를 보호하는 것을 포괄하는 광범위한 용어로, 하드웨어, 네트워크, 애플리케이션 시스템, 모바일 장치 등 모든 시스템 수준을 포함한다"
 tags: ['Cybersecurity', 'Cyber Attack', 'Threat', 'Infrastructure Protection', 'Security', 'Resilience']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Resilience](/knowledge/software-engineering/resilience/)
-- [Defense in Depth](/knowledge/software-engineering/defense-in-depth/)
-- [Vulnerability](/knowledge/software-engineering/vulnerability/)
-- [Sociotechnical Resilience](/knowledge/software-engineering/sociotechnical-resilience/)
+- [복원력 (Resilience)](/knowledge/software-engineering/resilience/)
+- [심층 방어 (Defense in Depth)](/knowledge/software-engineering/defense-in-depth/)
+- [취약점 (Vulnerability)](/knowledge/software-engineering/vulnerability/)
+- [사회기술적 복원력 (Sociotechnical Resilience)](/knowledge/software-engineering/sociotechnical-resilience/)

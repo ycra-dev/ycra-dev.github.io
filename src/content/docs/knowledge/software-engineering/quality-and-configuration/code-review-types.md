@@ -1,5 +1,5 @@
 ---
-title: "Code Review Types"
+title: "코드 리뷰 유형 (Code Review Types)"
 description: "변경의 성격에 따라 리뷰의 초점과 방법이 달라지는 구분 — 신규 코드, 동작 변경, 버그 수정, 리팩토링, 대규모 변경 등 유형마다 다른 관점이 필요하다"
 tags: ["Software Engineering", "Quality", "Code Review", "Refactoring"]
 created: 2026-02-27
@@ -45,6 +45,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Code Review](/knowledge/software-engineering/quality-and-configuration/code-review/)
-- [Code Review Best Practices](/knowledge/software-engineering/quality-and-configuration/code-review-best-practices/)
-- [Large-Scale Changes](/knowledge/software-engineering/quality-and-configuration/large-scale-changes/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/quality-and-configuration/code-review/)
+- [코드 리뷰 모범 사례 (Code Review Best Practices)](/knowledge/software-engineering/quality-and-configuration/code-review-best-practices/)
+- [대규모 코드 변경 (Large-Scale Changes)](/knowledge/software-engineering/quality-and-configuration/large-scale-changes/)

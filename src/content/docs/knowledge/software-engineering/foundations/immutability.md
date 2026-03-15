@@ -1,5 +1,5 @@
 ---
-title: "Immutability"
+title: "불변성 (Immutability)"
 description: "한 번 설정된 후 변경할 수 없는 변수/객체의 특성"
 tags: ["Software Engineering", "Programming Paradigm", "Concurrency"]
 created: 2026-02-27
@@ -56,6 +56,6 @@ class Config:
 
 ## 관련 개념
 
-- [Defensive Programming](/knowledge/software-engineering/foundations/defensive-programming/)
-- [Concurrency](/knowledge/software-engineering/foundations/concurrency/)
-- [Null Object Pattern](/knowledge/software-engineering/design-and-evolution/null-object-pattern/)
+- [방어적 프로그래밍 (Defensive Programming)](/knowledge/software-engineering/foundations/defensive-programming/)
+- [동시성 (Concurrency)](/knowledge/software-engineering/foundations/concurrency/)
+- [널 객체 패턴 (Null Object Pattern)](/knowledge/software-engineering/design-and-evolution/null-object-pattern/)

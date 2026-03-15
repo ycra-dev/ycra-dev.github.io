@@ -1,5 +1,5 @@
 ---
-title: "Tech Lead vs Engineering Manager"
+title: "테크 리드 vs 엔지니어링 매니저 (Tech Lead vs Engineering Manager)"
 description: "테크 리드는 기술적 의사결정을 이끌고, 엔지니어링 매니저는 사람을 관리한다 — Google에서는 이 두 역할을 별개로 인식하지만 TLM 하이브리드도 존재한다"
 tags: ["Software Engineering", "Agile", "Leadership", "Career Path"]
 created: 2026-02-27
@@ -32,6 +32,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Servant Leadership](/knowledge/software-engineering/agile-methods/servant-leadership/)
-- [Antipatterns in Leadership](/knowledge/software-engineering/agile-methods/antipatterns-in-leadership/)
-- [Bus Factor](/knowledge/software-engineering/agile-methods/bus-factor/)
+- [서번트 리더십 (Servant Leadership)](/knowledge/software-engineering/agile-methods/servant-leadership/)
+- [리더십 안티패턴 (Antipatterns in Leadership)](/knowledge/software-engineering/agile-methods/antipatterns-in-leadership/)
+- [버스 팩터 (Bus Factor)](/knowledge/software-engineering/agile-methods/bus-factor/)

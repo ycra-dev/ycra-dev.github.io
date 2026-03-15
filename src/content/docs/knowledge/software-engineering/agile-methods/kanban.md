@@ -1,5 +1,5 @@
 ---
-title: "Kanban"
+title: "칸반 (Kanban)"
 description: "작업 항목을 시각적으로 관리하고 동시에 진행 중인 작업 수(WIP)를 제한하여 팀의 흐름을 최적화하는 애자일 방법론이다."
 tags: ["Software Engineering", "Agile", "Kanban", "Workflow"]
 created: 2026-02-27

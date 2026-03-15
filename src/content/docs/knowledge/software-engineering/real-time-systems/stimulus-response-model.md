@@ -1,5 +1,5 @@
 ---
-title: "Stimulus-Response Model"
+title: "자극-응답 모델 (Stimulus-Response Model)"
 description: "자극-응답 모델은 임베디드 실시간 소프트웨어 설계의 가장 일반적인 접근 방식으로, 시스템 환경에서 발생하는 자극(이벤트)과 이에 대한 시스템의 반응(응답)을 정의한다"
 tags: ['Stimulus Response', 'Periodic', 'Aperiodic', 'Sensor', 'Actuator', 'Concurrent Process', 'State Model']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Embedded Real-Time System](/knowledge/software-engineering/embedded-real-time-system/)
-- [Timing Analysis](/knowledge/software-engineering/timing-analysis/)
-- [Real-Time Operating System](/knowledge/software-engineering/real-time-operating-system/)
-- [Architectural Patterns for Real-Time Software](/knowledge/software-engineering/architectural-patterns-for-real-time-software/)
+- [임베디드 실시간 시스템 (Embedded Real-Time System)](/knowledge/software-engineering/embedded-real-time-system/)
+- [시간 분석 (Timing Analysis)](/knowledge/software-engineering/timing-analysis/)
+- [실시간 운영체제 (Real-Time Operating System)](/knowledge/software-engineering/real-time-operating-system/)
+- [실시간 소프트웨어 아키텍처 패턴 (Architectural Patterns for Real-Time Software)](/knowledge/software-engineering/architectural-patterns-for-real-time-software/)

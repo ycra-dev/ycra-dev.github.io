@@ -1,5 +1,5 @@
 ---
-title: "Software Reengineering"
+title: "소프트웨어 재공학 (Software Reengineering)"
 description: "소프트웨어 리엔지니어링은 기존 레거시 시스템의 구조와 이해도를 개선하여 유지보수성을 향상시키는 프로세스로, 기능을 변경하지 않고 시스템을 재구성한다"
 tags: ['Software Reengineering', 'Reverse Engineering', 'Restructuring', 'Migration', 'Legacy Modernization']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Maintenance](/knowledge/software-engineering/software-maintenance/)
-- [Legacy Systems](/knowledge/software-engineering/legacy-systems/)
-- [Refactoring](/knowledge/software-engineering/refactoring/)
+- [소프트웨어 유지보수 (Software Maintenance)](/knowledge/software-engineering/software-maintenance/)
+- [레거시 시스템 (Legacy Systems)](/knowledge/software-engineering/legacy-systems/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/refactoring/)

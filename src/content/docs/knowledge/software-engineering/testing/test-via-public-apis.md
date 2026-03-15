@@ -1,5 +1,5 @@
 ---
-title: "Test via Public APIs"
+title: "공개 API를 통한 테스트 (Test via Public APIs)"
 description: "시스템의 구현 세부사항이 아닌 공개 API를 통해 테스트를 작성하는 원칙으로, 취약한 테스트를 방지하고 자유로운 리팩토링을 가능하게 한다"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -50,6 +50,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Test Maintainability](/knowledge/software-engineering/testing/test-maintainability/)
-- [State Testing vs Interaction Testing](/knowledge/software-engineering/testing/state-testing-vs-interaction-testing/)
-- [Test Doubles](/knowledge/software-engineering/testing/test-doubles/)
+- [테스트 유지보수성 (Test Maintainability)](/knowledge/software-engineering/testing/test-maintainability/)
+- [상태 테스팅 vs 상호작용 테스팅 (State Testing vs Interaction Testing)](/knowledge/software-engineering/testing/state-testing-vs-interaction-testing/)
+- [테스트 더블 (Test Doubles)](/knowledge/software-engineering/testing/test-doubles/)

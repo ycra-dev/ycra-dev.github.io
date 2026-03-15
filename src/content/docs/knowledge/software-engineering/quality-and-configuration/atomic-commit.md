@@ -1,5 +1,5 @@
 ---
-title: "Atomic Commit"
+title: "원자적 커밋 (Atomic Commit)"
 description: "하나의 논리적 변경 단위만을 포함하는 버전 관리 커밋"
 tags: ["Software Engineering", "Version Control", "Best Practice"]
 created: 2026-02-27
@@ -64,7 +64,7 @@ multi-region deployments."
 
 ## 관련 개념
 
-- [Version Management](/knowledge/software-engineering/quality-and-configuration/version-management/)
-- [Code Review](/knowledge/software-engineering/quality-and-configuration/reviews-and-inspections/)
-- [Debugging](/knowledge/software-engineering/foundations/debugging/)
-- [Code Readability](/knowledge/software-engineering/design-and-evolution/code-readability/)
+- [버전 관리 (Version Management)](/knowledge/software-engineering/quality-and-configuration/version-management/)
+- [코드 리뷰 (Code Review)](/knowledge/software-engineering/quality-and-configuration/reviews-and-inspections/)
+- [디버깅 (Debugging)](/knowledge/software-engineering/foundations/debugging/)
+- [코드 가독성 (Code Readability)](/knowledge/software-engineering/design-and-evolution/code-readability/)

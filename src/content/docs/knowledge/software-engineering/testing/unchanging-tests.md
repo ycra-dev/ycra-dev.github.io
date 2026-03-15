@@ -1,5 +1,5 @@
 ---
-title: "Unchanging Tests"
+title: "변하지 않는 테스트 (Unchanging Tests)"
 description: "한번 작성된 후 시스템의 요구사항이 변경되지 않는 한 수정할 필요가 없는 이상적인 테스트의 특성"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -40,6 +40,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Test Maintainability](/knowledge/software-engineering/testing/test-maintainability/)
-- [Test via Public APIs](/knowledge/software-engineering/testing/test-via-public-apis/)
-- [Behavior Driven Testing](/knowledge/software-engineering/testing/behavior-driven-testing/)
+- [테스트 유지보수성 (Test Maintainability)](/knowledge/software-engineering/testing/test-maintainability/)
+- [공개 API를 통한 테스트 (Test via Public APIs)](/knowledge/software-engineering/testing/test-via-public-apis/)
+- [행위 주도 테스팅 (Behavior Driven Testing)](/knowledge/software-engineering/testing/behavior-driven-testing/)

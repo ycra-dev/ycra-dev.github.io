@@ -1,5 +1,5 @@
 ---
-title: "Test-driven Development"
+title: "테스트 주도 개발 (Test-driven Development)"
 description: "테스트 주도 개발(TDD)은 코드를 작성하기 전에 자동화된 테스트를 먼저 작성하고, 테스트를 통과하는 최소한의 코드를 작성한 후, 리팩토링하는 과정을 반복하는 소프트웨어 개발 기법이다"
 tags: ['Tdd', 'Test First', 'Red Green Refactor', 'Agile', 'Automated Testing']
 created: 2026-02-16
@@ -34,7 +34,7 @@ public int add(int a, int b) {
 
 ## 관련 개념
 
-- [Extreme Programming](/knowledge/software-engineering/extreme-programming/)
-- [Regression Testing](/knowledge/software-engineering/regression-testing/)
-- [Unit Testing](/knowledge/software-engineering/unit-testing/)
-- [Refactoring](/knowledge/software-engineering/refactoring/)
+- [익스트림 프로그래밍 (Extreme Programming)](/knowledge/software-engineering/extreme-programming/)
+- [회귀 테스팅 (Regression Testing)](/knowledge/software-engineering/regression-testing/)
+- [단위 테스팅 (Unit Testing)](/knowledge/software-engineering/unit-testing/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/refactoring/)

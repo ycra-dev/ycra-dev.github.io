@@ -1,5 +1,5 @@
 ---
-title: "TAP Train"
+title: "TAP 트레인 (TAP Train)"
 description: "Google의 Test Automation Platform에서 LSC를 효율적으로 테스트하기 위한 전략으로, 여러 변경을 하나의 열차로 묶어 공통 테스트를 실행하는 방식"
 tags: ["Software Engineering", "CI/CD", "Testing", "Google Tools"]
 created: 2026-02-27
@@ -33,6 +33,6 @@ LSC는 대부분 순수 리팩토링이어서 범위가 좁고, 개별 변경은
 
 ## 관련 개념
 
-- [Large-Scale Changes](/knowledge/software-engineering/design-and-evolution/large-scale-changes/)
-- [Rosie](/knowledge/software-engineering/design-and-evolution/rosie/)
-- [Test Automation Platform](/knowledge/software-engineering/testing/test-automation-platform/)
+- [대규모 코드 변경 (Large-Scale Changes)](/knowledge/software-engineering/design-and-evolution/large-scale-changes/)
+- [로지 (Rosie)](/knowledge/software-engineering/design-and-evolution/rosie/)
+- [테스트 자동화 플랫폼 (Test Automation Platform)](/knowledge/software-engineering/testing/test-automation-platform/)

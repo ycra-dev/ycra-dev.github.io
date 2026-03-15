@@ -1,5 +1,5 @@
 ---
-title: "Software as a Service"
+title: "서비스형 소프트웨어 (Software as a Service)"
 description: "SaaS(Software as a Service)는 소프트웨어를 원격으로 호스팅하고 인터넷을 통해 접근을 제공하는 소프트웨어 배포 방식으로, 소프트웨어 제공자가 소유하고 관리한다"
 tags: ['Saas', 'Cloud Computing', 'Multi Tenancy', 'Scalability', 'Subscription', 'Web Service']
 created: 2026-02-16
@@ -20,7 +20,7 @@ Gmail, Google Docs, Office 365, Salesforce CRM 등이 대표적인 SaaS이다. G
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/software-engineering/distributed-system/)
-- [Service-Oriented Architecture](/knowledge/software-engineering/service-oriented-architecture/)
-- [Client-Server Computing](/knowledge/software-engineering/client-server-computing/)
-- [Peer-to-Peer Architecture](/knowledge/software-engineering/peer-to-peer-architecture/)
+- [분산 시스템 (Distributed System)](/knowledge/software-engineering/distributed-system/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/software-engineering/service-oriented-architecture/)
+- [클라이언트-서버 컴퓨팅 (Client-Server Computing)](/knowledge/software-engineering/client-server-computing/)
+- [피어투피어 아키텍처 (Peer-to-Peer Architecture)](/knowledge/software-engineering/peer-to-peer-architecture/)

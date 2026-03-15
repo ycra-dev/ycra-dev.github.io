@@ -1,5 +1,5 @@
 ---
-title: "Sociotechnical Resilience"
+title: "사회기술적 복원력 (Sociotechnical Resilience)"
 description: "회복탄력성 공학이 기술적 문제가 아닌 사회기술적 활동이라는 관점으로, 하드웨어, 소프트웨어, 사람을 포함한 시스템과 조직의 문화, 정책, 절차를 고려하여 회복탄력성을 설계하는 것이다"
 tags: ['Sociotechnical Resilience', 'Human Factors', 'Organizational', 'Adaptive', 'Learning', 'Resilience Engineering']
 created: 2026-02-16
@@ -20,8 +20,8 @@ Mentcare 시스템에서 기술적 보호 장치(인증, 암호화)만으로는 
 
 ## 관련 개념
 
-- [Resilience](/knowledge/software-engineering/resilience/)
-- [Sociotechnical Systems](/knowledge/software-engineering/sociotechnical-systems/)
-- [Swiss Cheese Model](/knowledge/software-engineering/swiss-cheese-model/)
-- [Dependable Processes](/knowledge/software-engineering/dependable-processes/)
-- [Resilient Systems Design](/knowledge/software-engineering/resilient-systems-design/)
+- [복원력 (Resilience)](/knowledge/software-engineering/resilience/)
+- [사회기술 시스템 (Sociotechnical Systems)](/knowledge/software-engineering/sociotechnical-systems/)
+- [스위스 치즈 모델 (Swiss Cheese Model)](/knowledge/software-engineering/swiss-cheese-model/)
+- [신뢰 가능한 프로세스 (Dependable Processes)](/knowledge/software-engineering/dependable-processes/)
+- [복원 시스템 설계 (Resilient Systems Design)](/knowledge/software-engineering/resilient-systems-design/)

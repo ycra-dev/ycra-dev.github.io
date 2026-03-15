@@ -1,5 +1,5 @@
 ---
-title: "OKR"
+title: "OKR (목표와 핵심 결과)"
 description: "목표와 핵심 결과를 쌍으로 정의하여 조직과 개인의 성과를 측정하는 목표 설정 프레임워크"
 tags: ["Software Engineering", "Goal Setting", "Management", "Productivity"]
 created: 2026-02-27
@@ -86,6 +86,6 @@ O: 아시아 결제 연동을 성공적으로 완료한다
 
 ## 관련 개념
 
-- [One-on-One Meeting](/knowledge/software-engineering/project-management/one-on-one-meeting/)
-- [SBI Framework](/knowledge/software-engineering/project-management/sbi-framework/)
-- [Career Ladder](/knowledge/software-engineering/project-management/career-ladder/)
+- [일대일 미팅 (One-on-One Meeting)](/knowledge/software-engineering/project-management/one-on-one-meeting/)
+- [SBI 프레임워크 (SBI Framework)](/knowledge/software-engineering/project-management/sbi-framework/)
+- [커리어 래더 (Career Ladder)](/knowledge/software-engineering/project-management/career-ladder/)

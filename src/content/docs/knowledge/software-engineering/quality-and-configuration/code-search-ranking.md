@@ -1,5 +1,5 @@
 ---
-title: "Code Search Ranking"
+title: "코드 검색 랭킹 (Code Search Ranking)"
 description: "코드 검색 결과의 관련성을 점수화하여 가장 유용한 결과를 상위에 표시하는 시스템으로, 쿼리 독립 신호와 쿼리 의존 신호를 결합한다"
 tags: ["Software Engineering", "Quality and Configuration"]
 created: 2026-02-27
@@ -36,6 +36,6 @@ Code Search 랭킹은 코드베이스가 커질수록 짧은 문자열이 수천
 
 ## 관련 개념
 
-- [Code Search](/knowledge/software-engineering/quality-and-configuration/code-search/)
-- [Code Search Indexing](/knowledge/software-engineering/quality-and-configuration/code-search-indexing/)
-- [Kythe](/knowledge/software-engineering/quality-and-configuration/kythe/)
+- [코드 검색 (Code Search)](/knowledge/software-engineering/quality-and-configuration/code-search/)
+- [코드 검색 인덱싱 (Code Search Indexing)](/knowledge/software-engineering/quality-and-configuration/code-search-indexing/)
+- [카이드 (Kythe)](/knowledge/software-engineering/quality-and-configuration/kythe/)

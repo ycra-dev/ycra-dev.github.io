@@ -1,5 +1,5 @@
 ---
-title: "Inclusive Design"
+title: "포용적 설계 (Inclusive Design)"
 description: "처음부터 다양한 사용자 그룹을 고려하여 설계하는 접근법 — 가장 어려운 사용자를 위해 설계하면 모든 사용자의 경험이 향상된다"
 tags: ["Software Engineering", "Agile", "Equity", "Product Design", "Accessibility"]
 created: 2026-02-27
@@ -33,7 +33,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Engineering for Equity](/knowledge/software-engineering/agile-methods/engineering-for-equity/)
-- [Unconscious Bias](/knowledge/software-engineering/agile-methods/unconscious-bias/)
-- [Multicultural Capacity](/knowledge/software-engineering/agile-methods/multicultural-capacity/)
-- [Trade-offs and Costs](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
+- [형평성을 위한 엔지니어링 (Engineering for Equity)](/knowledge/software-engineering/agile-methods/engineering-for-equity/)
+- [무의식적 편향 (Unconscious Bias)](/knowledge/software-engineering/agile-methods/unconscious-bias/)
+- [다문화 역량 (Multicultural Capacity)](/knowledge/software-engineering/agile-methods/multicultural-capacity/)
+- [트레이드오프와 비용 (Trade-offs and Costs)](/knowledge/software-engineering/foundations/trade-offs-and-costs/)

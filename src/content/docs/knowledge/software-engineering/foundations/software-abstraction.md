@@ -1,5 +1,5 @@
 ---
-title: "Software Abstraction"
+title: "소프트웨어 추상화 (Software Abstraction)"
 description: "복잡한 시스템의 핵심 개념을 단순한 인터페이스로 캡슐화하는 설계 기법으로, 올바른 추상화는 엔지니어 생산성을 한 자릿수 이상 증가시킨다"
 tags: ["SoftwareEngineering", "Architecture", "Design", "EffectiveEngineer"]
 created: 2026-02-27
@@ -75,5 +75,5 @@ class RetryDecorator:
 
 ## 관련 개념
 
-- [Operational Simplicity](/knowledge/software-engineering/safety-and-resilience/operational-simplicity/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [운영 단순성 (Operational Simplicity)](/knowledge/software-engineering/safety-and-resilience/operational-simplicity/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)

@@ -1,5 +1,5 @@
 ---
-title: "Test Pyramid"
+title: "테스트 피라미드 (Test Pyramid)"
 description: "테스트 스위트의 이상적인 구성 비율을 시각적으로 표현한 모델로, 하단에 많은 단위 테스트, 상단에 소수의 E2E 테스트를 배치하는 피라미드 형태"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -36,6 +36,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Test Size](/knowledge/software-engineering/testing/test-size/)
-- [Test Scope](/knowledge/software-engineering/testing/test-scope/)
-- [Larger Testing](/knowledge/software-engineering/testing/larger-testing/)
+- [테스트 크기 (Test Size)](/knowledge/software-engineering/testing/test-size/)
+- [테스트 범위 (Test Scope)](/knowledge/software-engineering/testing/test-scope/)
+- [대형 테스팅 (Larger Testing)](/knowledge/software-engineering/testing/larger-testing/)

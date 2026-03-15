@@ -1,5 +1,5 @@
 ---
-title: "Dependency Injection"
+title: "의존성 주입 (Dependency Injection)"
 description: "객체가 필요로 하는 의존성을 외부에서 주입받는 디자인 패턴"
 tags: ["Software Engineering", "Design Pattern", "Testing", "Decoupling"]
 created: 2026-02-27
@@ -67,6 +67,6 @@ end
 
 ## 관련 개념
 
-- [Mocking](/knowledge/software-engineering/testing/mocking/)
-- [Deterministic Testing](/knowledge/software-engineering/testing/deterministic-testing/)
-- [Coupling](/knowledge/software-engineering/architectural-design/coupling/)
+- [모킹 (Mocking)](/knowledge/software-engineering/testing/mocking/)
+- [결정적 테스팅 (Deterministic Testing)](/knowledge/software-engineering/testing/deterministic-testing/)
+- [결합도 (Coupling)](/knowledge/software-engineering/architectural-design/coupling/)

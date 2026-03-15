@@ -1,5 +1,5 @@
 ---
-title: "Data-Driven Decisions"
+title: "데이터 기반 의사결정 (Data-Driven Decisions)"
 description: "데이터·증거·선례·논거를 종합하여 의사결정하는 접근법으로, 데이터가 없을 때에도 증거와 논거에 기반한 결정을 추구한다"
 tags: ["Software Engineering", "Foundations", "Decision Making", "Leadership"]
 created: 2026-02-27
@@ -32,6 +32,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Trade-offs and Costs](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
-- [Scalability of Policies](/knowledge/software-engineering/foundations/scalability-of-policies/)
-- [Blameless Postmortem](/knowledge/software-engineering/agile-methods/blameless-postmortem/)
+- [트레이드오프와 비용 (Trade-offs and Costs)](/knowledge/software-engineering/foundations/trade-offs-and-costs/)
+- [정책의 확장성 (Scalability of Policies)](/knowledge/software-engineering/foundations/scalability-of-policies/)
+- [비난 없는 포스트모템 (Blameless Postmortem)](/knowledge/software-engineering/agile-methods/blameless-postmortem/)

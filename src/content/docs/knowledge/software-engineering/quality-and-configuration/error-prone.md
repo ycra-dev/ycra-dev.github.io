@@ -1,5 +1,5 @@
 ---
-title: "Error Prone"
+title: "에러 프론 (Error Prone)"
 description: "Java 컴파일러를 확장하여 AST 안티패턴을 식별하는 정적 분석 도구로, 실제 버그가 될 수 있는 코드 패턴을 컴파일 시점에 잡아냄"
 tags: ["Software Engineering", "Static Analysis", "Java"]
 created: 2026-02-27
@@ -35,6 +35,6 @@ result = 31 * result + (int) (f ^ (f >>> 32));
 
 ## 관련 개념
 
-- [Tricorder](/knowledge/software-engineering/quality-and-configuration/tricorder/)
-- [Effective False Positive](/knowledge/software-engineering/quality-and-configuration/effective-false-positive/)
-- [Presubmit Check](/knowledge/software-engineering/quality-and-configuration/presubmit-check/)
+- [트리코더 (Tricorder)](/knowledge/software-engineering/quality-and-configuration/tricorder/)
+- [실효적 오탐 (Effective False Positive)](/knowledge/software-engineering/quality-and-configuration/effective-false-positive/)
+- [프리서밋 검사 (Presubmit Check)](/knowledge/software-engineering/quality-and-configuration/presubmit-check/)

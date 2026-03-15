@@ -1,5 +1,5 @@
 ---
-title: "Requirements Elicitation"
+title: "요구사항 도출 (Requirements Elicitation)"
 description: "요구사항 도출은 시스템 이해관계자로부터 소프트웨어 시스템에 대한 요구사항을 발견하고 수집하는 프로세스이다"
 tags: ['Requirements Elicitation', 'Interviewing', 'Ethnography', 'Stakeholder Analysis', 'Requirements Gathering']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Requirements Engineering](/knowledge/software-engineering/requirements-engineering/)
-- [Use Cases](/knowledge/software-engineering/use-cases/)
-- [User Stories](/knowledge/software-engineering/user-stories/)
+- [요구사항 공학 (Requirements Engineering)](/knowledge/software-engineering/requirements-engineering/)
+- [유스 케이스 (Use Cases)](/knowledge/software-engineering/use-cases/)
+- [사용자 스토리 (User Stories)](/knowledge/software-engineering/user-stories/)

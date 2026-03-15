@@ -1,5 +1,5 @@
 ---
-title: "Larger Testing"
+title: "대형 테스팅 (Larger Testing)"
 description: "단위 테스트의 제약을 벗어나 여러 프로세스, 머신, 서비스에 걸쳐 실행될 수 있는 테스트로, 시스템 전체의 동작을 높은 충실도로 검증한다"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -42,8 +42,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Test Size](/knowledge/software-engineering/testing/test-size/)
-- [Test Fidelity](/knowledge/software-engineering/testing/test-fidelity/)
-- [Hermetic Testing](/knowledge/software-engineering/testing/hermetic-testing/)
-- [Types of Larger Tests](/knowledge/software-engineering/testing/types-of-larger-tests/)
-- [Larger Test Challenges](/knowledge/software-engineering/testing/larger-test-challenges/)
+- [테스트 크기 (Test Size)](/knowledge/software-engineering/testing/test-size/)
+- [테스트 충실도 (Test Fidelity)](/knowledge/software-engineering/testing/test-fidelity/)
+- [밀폐 테스팅 (Hermetic Testing)](/knowledge/software-engineering/testing/hermetic-testing/)
+- [대형 테스트의 유형 (Types of Larger Tests)](/knowledge/software-engineering/testing/types-of-larger-tests/)
+- [대형 테스트의 과제 (Larger Test Challenges)](/knowledge/software-engineering/testing/larger-test-challenges/)

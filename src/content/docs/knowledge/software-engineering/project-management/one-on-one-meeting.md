@@ -1,5 +1,5 @@
 ---
-title: "One-on-One Meeting"
+title: "일대일 미팅 (One-on-One Meeting)"
 description: "매니저와 팀원이 정기적으로 갖는 팀원 중심의 개인 면담"
 tags: ["Software Engineering", "Management", "Communication", "Career Development"]
 created: 2026-02-27
@@ -75,6 +75,6 @@ sidebar:
 
 ## 관련 개념
 
-- [OKR](/knowledge/software-engineering/project-management/okr/)
-- [SBI Framework](/knowledge/software-engineering/project-management/sbi-framework/)
-- [Career Ladder](/knowledge/software-engineering/project-management/career-ladder/)
+- [OKR (목표와 핵심 결과)](/knowledge/software-engineering/project-management/okr/)
+- [SBI 프레임워크 (SBI Framework)](/knowledge/software-engineering/project-management/sbi-framework/)
+- [커리어 래더 (Career Ladder)](/knowledge/software-engineering/project-management/career-ladder/)

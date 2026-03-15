@@ -1,5 +1,5 @@
 ---
-title: "Build Systems"
+title: "빌드 시스템 (Build Systems)"
 description: "엔지니어가 작성한 소스 코드를 머신이 읽을 수 있는 실행 바이너리로 변환하는 시스템으로, 속도(fast)와 정확성(correct)이라는 두 가지 핵심 속성을 최적화해야 한다"
 tags: ["Software Engineering", "Quality and Configuration"]
 created: 2026-02-27
@@ -34,5 +34,5 @@ Google의 내부 빌드 시스템인 Blaze는 여러 전 Google 직원에 의해
 
 ## 관련 개념
 
-- [Monorepo](/knowledge/software-engineering/quality-and-configuration/monorepo/)
-- [Hermetic Testing](/knowledge/software-engineering/testing/hermetic-testing/)
+- [모노레포 (Monorepo)](/knowledge/software-engineering/quality-and-configuration/monorepo/)
+- [밀폐 테스팅 (Hermetic Testing)](/knowledge/software-engineering/testing/hermetic-testing/)

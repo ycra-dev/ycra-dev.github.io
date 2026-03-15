@@ -1,5 +1,5 @@
 ---
-title: "Component Composition"
+title: "컴포넌트 합성 (Component Composition)"
 description: "컴포넌트 합성(composition)은 컴포넌트들을 서로 통합하고, 특별히 작성된 \"글루 코드(glue code)\"와 결합하여 시스템이나 새로운 컴포넌트를 생성하는 프로세스이다"
 tags: ['Component Composition', 'Glue Code', 'Adaptor', 'Sequential', 'Hierarchical', 'Additive', 'Integration']
 created: 2026-02-16
@@ -26,7 +26,7 @@ mapper.displayMap(postCode, 10000);
 
 ## 관련 개념
 
-- [Component-Based Software Engineering](/knowledge/software-engineering/component-based-software-engineering/)
-- [Component Model](/knowledge/software-engineering/component-model/)
-- [Software Reuse](/knowledge/software-engineering/software-reuse/)
-- [Middleware](/knowledge/software-engineering/middleware/)
+- [컴포넌트 기반 소프트웨어 공학 (Component-Based Software Engineering)](/knowledge/software-engineering/component-based-software-engineering/)
+- [컴포넌트 모델 (Component Model)](/knowledge/software-engineering/component-model/)
+- [소프트웨어 재사용 (Software Reuse)](/knowledge/software-engineering/software-reuse/)
+- [미들웨어 (Middleware)](/knowledge/software-engineering/middleware/)

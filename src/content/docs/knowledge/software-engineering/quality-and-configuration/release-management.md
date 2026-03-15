@@ -1,5 +1,5 @@
 ---
-title: "Release Management"
+title: "릴리스 관리 (Release Management)"
 description: "릴리스 관리는 외부 릴리스를 위한 소프트웨어 준비와, 고객에게 배포된 시스템 버전의 추적을 담당하는 프로세스이다"
 tags: ['Release Management', 'Deployment', 'Software Release', 'Versioning', 'Distribution']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Version Management](/knowledge/software-engineering/version-management/)
-- [Change Management](/knowledge/software-engineering/change-management/)
-- [System Building](/knowledge/software-engineering/system-building/)
+- [버전 관리 (Version Management)](/knowledge/software-engineering/version-management/)
+- [변경 관리 (Change Management)](/knowledge/software-engineering/change-management/)
+- [시스템 빌드 (System Building)](/knowledge/software-engineering/system-building/)

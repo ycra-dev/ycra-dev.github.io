@@ -53,7 +53,7 @@ Content-Type: text/html
 
 ## 관련 개념
 
-- [Web API](/knowledge/software-engineering/systems-and-services/web-api/)
-- [Server-Side vs Client-Side Rendering](/knowledge/software-engineering/systems-and-services/server-side-vs-client-side-rendering/)
-- [Single Page Application](/knowledge/software-engineering/systems-and-services/single-page-application/)
+- [웹 API (Web API)](/knowledge/software-engineering/systems-and-services/web-api/)
+- [서버 사이드 vs 클라이언트 사이드 렌더링 (SSR vs CSR)](/knowledge/software-engineering/systems-and-services/server-side-vs-client-side-rendering/)
+- [단일 페이지 애플리케이션 (Single Page Application)](/knowledge/software-engineering/systems-and-services/single-page-application/)
 - [DOM](/knowledge/software-engineering/systems-and-services/dom/)

@@ -1,5 +1,5 @@
 ---
-title: "Dev Branches"
+title: "개발 브랜치 (Dev Branches)"
 description: "제품 안정성 수단으로 사용되는 장기 개발 브랜치로, Google은 이 방식이 근본적으로 잘못된 접근이라고 보며 trunk-based development를 권장한다"
 tags: ["Software Engineering", "Quality and Configuration"]
 created: 2026-02-27
@@ -31,5 +31,5 @@ Dev branch(개발 브랜치)는 "완료되었지만 커밋되지 않음"과 "새
 
 ## 관련 개념
 
-- [Source of Truth](/knowledge/software-engineering/quality-and-configuration/source-of-truth/)
-- [Release Branches](/knowledge/software-engineering/quality-and-configuration/release-branches/)
+- [진실의 원천 (Source of Truth)](/knowledge/software-engineering/quality-and-configuration/source-of-truth/)
+- [릴리스 브랜치 (Release Branches)](/knowledge/software-engineering/quality-and-configuration/release-branches/)

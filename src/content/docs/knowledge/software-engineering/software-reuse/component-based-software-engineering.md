@@ -1,5 +1,5 @@
 ---
-title: "Component-Based Software Engineering"
+title: "컴포넌트 기반 소프트웨어 공학 (Component-Based Software Engineering)"
 description: "컴포넌트 기반 소프트웨어 엔지니어링(CBSE)은 표준화된 재사용 가능한 컴포넌트를 정의, 구현, 통합/조합하여 시스템을 개발하는 소프트웨어 개발 접근법이다"
 tags: ['Cbse', 'Component Based', 'Software Engineering', 'Reuse', 'Interface', 'Deployment']
 created: 2026-02-16
@@ -20,8 +20,8 @@ CBSE는 객체 지향 개발이 기대했던 광범위한 재사용을 달성하
 
 ## 관련 개념
 
-- [Software Reuse](/knowledge/software-engineering/software-reuse/)
-- [Component Model](/knowledge/software-engineering/component-model/)
-- [Component Composition](/knowledge/software-engineering/component-composition/)
-- [Service-Oriented Architecture](/knowledge/software-engineering/service-oriented-architecture/)
-- [Middleware](/knowledge/software-engineering/middleware/)
+- [소프트웨어 재사용 (Software Reuse)](/knowledge/software-engineering/software-reuse/)
+- [컴포넌트 모델 (Component Model)](/knowledge/software-engineering/component-model/)
+- [컴포넌트 합성 (Component Composition)](/knowledge/software-engineering/component-composition/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/software-engineering/service-oriented-architecture/)
+- [미들웨어 (Middleware)](/knowledge/software-engineering/middleware/)

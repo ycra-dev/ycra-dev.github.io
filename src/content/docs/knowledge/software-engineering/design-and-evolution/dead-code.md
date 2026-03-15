@@ -1,5 +1,5 @@
 ---
-title: "Dead Code"
+title: "죽은 코드 (Dead Code)"
 description: "프로그램 실행 중 절대 도달하지 않거나 더 이상 사용되지 않는 코드"
 tags: ["Software Engineering", "Code Quality", "Maintenance"]
 created: 2026-02-27
@@ -48,7 +48,7 @@ def deprecated_helper():  # 아무도 호출하지 않음
 
 ## 관련 개념
 
-- [YAGNI](/knowledge/software-engineering/design-and-evolution/yagni/)
-- [Refactoring](/knowledge/software-engineering/design-and-evolution/refactoring/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
-- [Software Entropy](/knowledge/software-engineering/design-and-evolution/software-entropy/)
+- [YAGNI 원칙 (YAGNI)](/knowledge/software-engineering/design-and-evolution/yagni/)
+- [리팩토링 (Refactoring)](/knowledge/software-engineering/design-and-evolution/refactoring/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [소프트웨어 엔트로피 (Software Entropy)](/knowledge/software-engineering/design-and-evolution/software-entropy/)

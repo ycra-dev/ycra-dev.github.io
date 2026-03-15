@@ -1,5 +1,5 @@
 ---
-title: "Legacy Systems"
+title: "레거시 시스템 (Legacy Systems)"
 description: "레거시 시스템은 더 이상 현재의 기술로 개발되지는 않지만, 비즈니스에 여전히 중요한 역할을 하는 오래된 소프트웨어 시스템으로, 하드웨어, 지원 소프트웨어, 비즈니스 프로세스와 밀접하게 결합되어 있다"
 tags: ['Legacy Systems', 'Sociotechnical System', 'System Migration', 'Cobol', 'System Assessment']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Evolution](/knowledge/software-engineering/software-evolution/)
-- [Software Maintenance](/knowledge/software-engineering/software-maintenance/)
-- [Software Reengineering](/knowledge/software-engineering/software-reengineering/)
+- [소프트웨어 진화 (Software Evolution)](/knowledge/software-engineering/software-evolution/)
+- [소프트웨어 유지보수 (Software Maintenance)](/knowledge/software-engineering/software-maintenance/)
+- [소프트웨어 재공학 (Software Reengineering)](/knowledge/software-engineering/software-reengineering/)

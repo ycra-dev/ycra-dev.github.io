@@ -1,5 +1,5 @@
 ---
-title: "Behavior Driven Testing"
+title: "행위 주도 테스팅 (Behavior Driven Testing)"
 description: "메서드가 아닌 동작(behavior)을 기준으로 테스트를 작성하는 접근 방식으로, Given-When-Then 구조를 따라 테스트의 의도를 명확하게 표현한다"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -66,6 +66,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Test Maintainability](/knowledge/software-engineering/testing/test-maintainability/)
-- [Test Clarity](/knowledge/software-engineering/testing/test-clarity/)
-- [DAMP vs DRY in Tests](/knowledge/software-engineering/testing/damp-vs-dry-in-tests/)
+- [테스트 유지보수성 (Test Maintainability)](/knowledge/software-engineering/testing/test-maintainability/)
+- [테스트 명확성 (Test Clarity)](/knowledge/software-engineering/testing/test-clarity/)
+- [테스트에서의 DAMP vs DRY (DAMP vs DRY in Tests)](/knowledge/software-engineering/testing/damp-vs-dry-in-tests/)

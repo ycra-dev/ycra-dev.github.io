@@ -1,5 +1,5 @@
 ---
-title: "Architecting for Failure"
+title: "장애를 고려한 설계 (Architecting for Failure)"
 description: "개별 인스턴스의 장애를 정상적인 운영 조건으로 간주하고, 시스템이 자동으로 복구할 수 있도록 설계하는 원칙"
 tags: ["Software Engineering", "Infrastructure", "Resilience"]
 created: 2026-02-27
@@ -35,7 +35,7 @@ MapReduce와 Flume: Google의 표준 데이터 처리 프레임워크로, 동적
 
 ## 관련 개념
 
-- [Borg](/knowledge/software-engineering/systems-and-services/borg/)
-- [Cattle vs Pets](/knowledge/software-engineering/design-and-evolution/cattle-vs-pets/)
-- [Managing State](/knowledge/software-engineering/systems-and-services/managing-state/)
-- [Batch vs Serving Jobs](/knowledge/software-engineering/systems-and-services/batch-vs-serving-jobs/)
+- [보그 (Borg)](/knowledge/software-engineering/systems-and-services/borg/)
+- [가축 vs 애완동물 (Cattle vs Pets)](/knowledge/software-engineering/design-and-evolution/cattle-vs-pets/)
+- [상태 관리 (Managing State)](/knowledge/software-engineering/systems-and-services/managing-state/)
+- [배치 작업 vs 서빙 작업 (Batch vs Serving Jobs)](/knowledge/software-engineering/systems-and-services/batch-vs-serving-jobs/)

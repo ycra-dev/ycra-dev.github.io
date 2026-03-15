@@ -1,5 +1,5 @@
 ---
-title: "Software Process"
+title: "소프트웨어 프로세스 (Software Process)"
 description: "소프트웨어 프로세스는 소프트웨어 시스템을 개발하기 위해 수행하는 일련의 활동으로, 명세(specification), 개발(development), 검증(validation), 진화(evolution)의 네 가지 기본 활동으로 구성된다"
 tags: ['Software Process', 'Software Lifecycle', 'Development Process', 'Sdlc']
 created: 2026-02-16
@@ -20,7 +20,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Engineering](/knowledge/software-engineering/software-engineering/)
-- [Waterfall Model](/knowledge/software-engineering/waterfall-model/)
-- [Incremental Development](/knowledge/software-engineering/incremental-development/)
-- [Requirements Engineering](/knowledge/software-engineering/requirements-engineering/)
+- [소프트웨어 공학 (Software Engineering)](/knowledge/software-engineering/software-engineering/)
+- [폭포수 모델 (Waterfall Model)](/knowledge/software-engineering/waterfall-model/)
+- [점진적 개발 (Incremental Development)](/knowledge/software-engineering/incremental-development/)
+- [요구사항 공학 (Requirements Engineering)](/knowledge/software-engineering/requirements-engineering/)

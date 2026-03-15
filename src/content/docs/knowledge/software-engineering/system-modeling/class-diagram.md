@@ -1,5 +1,5 @@
 ---
-title: "Class Diagram"
+title: "클래스 다이어그램 (Class Diagram)"
 description: "클래스 다이어그램은 시스템의 클래스, 속성, 오퍼레이션, 그리고 클래스 간의 관계(연관, 일반화, 집합)를 표현하는 UML 구조 다이어그램이다"
 tags: ['Class Diagram', 'Uml', 'Object Oriented', 'Inheritance', 'Association', 'Aggregation']
 created: 2026-02-16
@@ -31,6 +31,6 @@ sidebar:
 
 ## 관련 개념
 
-- [UML](/knowledge/software-engineering/uml/)
-- [Object-oriented Design](/knowledge/software-engineering/object-oriented-design/)
-- [Sequence Diagram](/knowledge/software-engineering/sequence-diagram/)
+- [UML (통합 모델링 언어)](/knowledge/software-engineering/uml/)
+- [객체지향 설계 (Object-oriented Design)](/knowledge/software-engineering/object-oriented-design/)
+- [시퀀스 다이어그램 (Sequence Diagram)](/knowledge/software-engineering/sequence-diagram/)

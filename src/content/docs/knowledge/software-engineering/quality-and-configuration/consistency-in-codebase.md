@@ -1,5 +1,5 @@
 ---
-title: "Consistency in Codebase"
+title: "코드베이스의 일관성 (Consistency in Codebase)"
 description: "모든 코드가 동일한 규칙과 패턴을 따르는 상태 — 어떤 엔지니어든 코드베이스의 어느 부분이든 쉽게 읽고 이해할 수 있게 만드는 핵심 속성"
 tags: ["Software Engineering", "Quality", "Consistency", "Readability", "Scalability"]
 created: 2026-02-27
@@ -34,6 +34,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Style Guides and Rules](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
-- [Large-Scale Changes](/knowledge/software-engineering/quality-and-configuration/large-scale-changes/)
-- [Sustainability](/knowledge/software-engineering/foundations/sustainability/)
+- [스타일 가이드와 규칙 (Style Guides and Rules)](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
+- [대규모 코드 변경 (Large-Scale Changes)](/knowledge/software-engineering/quality-and-configuration/large-scale-changes/)
+- [지속 가능성 (Sustainability)](/knowledge/software-engineering/foundations/sustainability/)

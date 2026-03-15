@@ -44,7 +44,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Waterfall Methodology](/knowledge/software-engineering/agile-methods/waterfall-methodology/)
-- [Scrum](/knowledge/software-engineering/agile-methods/scrum/)
-- [Agile Methodology](/knowledge/software-engineering/agile-methods/agile-methodology/)
-- [Stakeholder Communication](/knowledge/software-engineering/project-management/stakeholder-communication/)
+- [폭포수 방법론 (Waterfall Methodology)](/knowledge/software-engineering/agile-methods/waterfall-methodology/)
+- [스크럼 (Scrum)](/knowledge/software-engineering/agile-methods/scrum/)
+- [애자일 방법론 (Agile Methodology)](/knowledge/software-engineering/agile-methods/agile-methodology/)
+- [이해관계자 커뮤니케이션 (Stakeholder Communication)](/knowledge/software-engineering/project-management/stakeholder-communication/)

@@ -1,5 +1,5 @@
 ---
-title: "Waterfall Model"
+title: "폭포수 모델 (Waterfall Model)"
 description: "폭포수 모델은 소프트웨어 개발의 기본 프로세스 활동을 요구사항 정의, 시스템 및 소프트웨어 설계, 구현 및 단위 테스트, 통합 및 시스템 테스트, 운영 및 유지보수의 단계로 나누고 순차적으로 진행하는 계획 기반 프로세스 모델이다"
 tags: ['Waterfall Model', 'Software Process Model', 'Plan Driven', 'Sequential Development']
 created: 2026-02-16
@@ -24,7 +24,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Process](/knowledge/software-engineering/software-process/)
-- [Incremental Development](/knowledge/software-engineering/incremental-development/)
-- [Requirements Engineering](/knowledge/software-engineering/requirements-engineering/)
-- [Verification and Validation](/knowledge/software-engineering/verification-and-validation/)
+- [소프트웨어 프로세스 (Software Process)](/knowledge/software-engineering/software-process/)
+- [점진적 개발 (Incremental Development)](/knowledge/software-engineering/incremental-development/)
+- [요구사항 공학 (Requirements Engineering)](/knowledge/software-engineering/requirements-engineering/)
+- [검증과 확인 (Verification and Validation)](/knowledge/software-engineering/verification-and-validation/)

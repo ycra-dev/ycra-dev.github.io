@@ -1,5 +1,5 @@
 ---
-title: "Test Maintainability"
+title: "테스트 유지보수성 (Test Maintainability)"
 description: "테스트가 작성된 후 최소한의 유지보수 노력으로 계속 가치를 제공하는 특성으로, 실패 시 실제 버그를 나타내며 원인이 명확하다"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -36,6 +36,6 @@ Mary가 간단한 기능을 구현했는데(수십 줄의 코드), 테스트 시
 
 ## 관련 개념
 
-- [Test via Public APIs](/knowledge/software-engineering/testing/test-via-public-apis/)
-- [Unchanging Tests](/knowledge/software-engineering/testing/unchanging-tests/)
-- [Test Clarity](/knowledge/software-engineering/testing/test-clarity/)
+- [공개 API를 통한 테스트 (Test via Public APIs)](/knowledge/software-engineering/testing/test-via-public-apis/)
+- [변하지 않는 테스트 (Unchanging Tests)](/knowledge/software-engineering/testing/unchanging-tests/)
+- [테스트 명확성 (Test Clarity)](/knowledge/software-engineering/testing/test-clarity/)

@@ -1,5 +1,5 @@
 ---
-title: "Configuration Management"
+title: "구성 관리 (Configuration Management)"
 description: "구성 관리(CM)는 소프트웨어 시스템의 변경 사항을 체계적으로 관리하여, 시스템의 무결성과 추적 가능성을 보장하는 프로세스이다"
 tags: ['Configuration Management', 'Version Control', 'Git', 'Release Management', 'Change Management']
 created: 2026-02-16
@@ -20,10 +20,10 @@ Git을 사용한 구성 관리 워크플로우: 기능 브랜치 생성(git bran
 
 ## 관련 개념
 
-- [Software Process](/knowledge/software-engineering/software-process/)
-- [Software Evolution](/knowledge/software-engineering/software-evolution/)
-- [Continuous Integration](/knowledge/software-engineering/continuous-integration/)
-- [Version Management](/knowledge/software-engineering/version-management/)
-- [System Building](/knowledge/software-engineering/system-building/)
-- [Change Management](/knowledge/software-engineering/change-management/)
-- [Release Management](/knowledge/software-engineering/release-management/)
+- [소프트웨어 프로세스 (Software Process)](/knowledge/software-engineering/software-process/)
+- [소프트웨어 진화 (Software Evolution)](/knowledge/software-engineering/software-evolution/)
+- [지속적 통합 (Continuous Integration)](/knowledge/software-engineering/continuous-integration/)
+- [버전 관리 (Version Management)](/knowledge/software-engineering/version-management/)
+- [시스템 빌드 (System Building)](/knowledge/software-engineering/system-building/)
+- [변경 관리 (Change Management)](/knowledge/software-engineering/change-management/)
+- [릴리스 관리 (Release Management)](/knowledge/software-engineering/release-management/)

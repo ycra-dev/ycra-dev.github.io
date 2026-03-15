@@ -1,5 +1,5 @@
 ---
-title: "Evolving Style Guides"
+title: "진화하는 스타일 가이드 (Evolving Style Guides)"
 description: "언어의 발전과 새로운 모범 사례에 따라 스타일 가이드를 지속적으로 업데이트하는 프로세스 — 스타일 가이드는 고정된 문서가 아닌 살아있는 문서이다"
 tags: ["Software Engineering", "Quality", "Style Guide", "Change Management", "Sustainability"]
 created: 2026-02-27
@@ -35,7 +35,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Style Guides and Rules](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
-- [Rules vs Guidance](/knowledge/software-engineering/quality-and-configuration/rules-vs-guidance/)
-- [Sustainability](/knowledge/software-engineering/foundations/sustainability/)
-- [Hyrum's Law](/knowledge/software-engineering/foundations/hyrums-law/)
+- [스타일 가이드와 규칙 (Style Guides and Rules)](/knowledge/software-engineering/quality-and-configuration/style-guides-and-rules/)
+- [규칙 vs 가이드 (Rules vs Guidance)](/knowledge/software-engineering/quality-and-configuration/rules-vs-guidance/)
+- [지속 가능성 (Sustainability)](/knowledge/software-engineering/foundations/sustainability/)
+- [하이럼의 법칙 (Hyrum's Law)](/knowledge/software-engineering/foundations/hyrums-law/)

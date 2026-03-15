@@ -1,5 +1,5 @@
 ---
-title: "Blue-Green Deployment"
+title: "블루-그린 배포 (Blue-Green Deployment)"
 description: "두 개의 동일한 환경을 운영하여 트래픽을 원자적으로 전환하는 배포 전략"
 tags: ["Software Engineering", "Deployment", "Zero-Downtime"]
 created: 2026-02-27
@@ -67,7 +67,7 @@ aws route53 change-resource-record-sets --change-batch '{
 
 ## 관련 개념
 
-- [Canary Deployment](/knowledge/software-engineering/quality-and-configuration/canary-deployment/)
-- [Feature Flag](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
-- [Dark Launch](/knowledge/software-engineering/quality-and-configuration/dark-launch/)
-- [Continuous Delivery](/knowledge/software-engineering/quality-and-configuration/continuous-delivery/)
+- [카나리 배포 (Canary Deployment)](/knowledge/software-engineering/quality-and-configuration/canary-deployment/)
+- [기능 플래그 (Feature Flag)](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
+- [다크 런칭 (Dark Launch)](/knowledge/software-engineering/quality-and-configuration/dark-launch/)
+- [지속적 전달 (Continuous Delivery)](/knowledge/software-engineering/quality-and-configuration/continuous-delivery/)

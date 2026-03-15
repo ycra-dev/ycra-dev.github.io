@@ -45,6 +45,6 @@ SDLC의 각 단계:
 
 ## 관련 개념
 
-- [Agile Development](/knowledge/software-engineering/agile-methods/agile-development/)
-- [Agile Methodology](/knowledge/software-engineering/agile-methods/agile-methodology/)
-- [Scrum](/knowledge/software-engineering/agile-methods/scrum/)
+- [애자일 개발 (Agile Development)](/knowledge/software-engineering/agile-methods/agile-development/)
+- [애자일 방법론 (Agile Methodology)](/knowledge/software-engineering/agile-methods/agile-methodology/)
+- [스크럼 (Scrum)](/knowledge/software-engineering/agile-methods/scrum/)

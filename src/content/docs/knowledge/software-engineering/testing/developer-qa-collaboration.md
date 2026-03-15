@@ -1,5 +1,5 @@
 ---
-title: "Developer-QA Collaboration"
+title: "개발자-QA 협업 (Developer-QA Collaboration)"
 description: "개발자와 QA 엔지니어가 버그의 재현·수정·검증 과정에서 긴밀하게 협력하여 버그 수정 사이클을 효율화하는 팀 실천이다."
 tags: ["Software Engineering", "Testing", "QA", "Collaboration"]
 created: 2026-02-27

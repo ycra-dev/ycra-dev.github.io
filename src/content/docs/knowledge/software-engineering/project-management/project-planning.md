@@ -1,5 +1,5 @@
 ---
-title: "Project Planning"
+title: "프로젝트 계획 (Project Planning)"
 description: "프로젝트 계획은 소프트웨어 프로젝트의 작업을 분해하고, 팀원에게 할당하며, 발생 가능한 문제를 예측하고 해결 방안을 준비하는 프로세스이다"
 tags: ['Project Planning', 'Scheduling', 'Estimation', 'Plan Driven Development', 'Milestones']
 created: 2026-02-16
@@ -20,8 +20,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Project Scheduling](/knowledge/software-engineering/project-scheduling/)
-- [Software Pricing](/knowledge/software-engineering/software-pricing/)
-- [Agile Planning](/knowledge/software-engineering/agile-planning/)
-- [Algorithmic Cost Modeling](/knowledge/software-engineering/algorithmic-cost-modeling/)
-- [Software Project Management](/knowledge/software-engineering/software-project-management/)
+- [프로젝트 일정 관리 (Project Scheduling)](/knowledge/software-engineering/project-scheduling/)
+- [소프트웨어 가격 산정 (Software Pricing)](/knowledge/software-engineering/software-pricing/)
+- [애자일 계획 (Agile Planning)](/knowledge/software-engineering/agile-planning/)
+- [알고리즘적 비용 모델링 (Algorithmic Cost Modeling)](/knowledge/software-engineering/algorithmic-cost-modeling/)
+- [소프트웨어 프로젝트 관리 (Software Project Management)](/knowledge/software-engineering/software-project-management/)

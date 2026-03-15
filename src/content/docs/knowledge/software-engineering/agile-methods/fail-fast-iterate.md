@@ -1,5 +1,5 @@
 ---
-title: "Fail Fast and Iterate"
+title: "빠른 실패와 반복 (Fail Fast and Iterate)"
 description: "실패를 혁신의 필연적 부산물로 수용하고 빠른 반복을 통해 학습하는 접근법 — 일찍 실패할수록 수정 비용이 낮아진다"
 tags: ["Software Engineering", "Agile", "Innovation", "Learning"]
 created: 2026-02-27
@@ -28,7 +28,7 @@ Google X에서는 사람들이 대담한 아이디어를 제안하고, 동료가
 
 ## 관련 개념
 
-- [Blameless Postmortem](/knowledge/software-engineering/agile-methods/blameless-postmortem/)
-- [Hiding Considered Harmful](/knowledge/software-engineering/agile-methods/hiding-considered-harmful/)
-- [Shifting Left](/knowledge/software-engineering/foundations/shifting-left/)
-- [Humility, Respect, Trust](/knowledge/software-engineering/agile-methods/humility-respect-trust/)
+- [비난 없는 포스트모템 (Blameless Postmortem)](/knowledge/software-engineering/agile-methods/blameless-postmortem/)
+- [은닉은 해롭다 (Hiding Considered Harmful)](/knowledge/software-engineering/agile-methods/hiding-considered-harmful/)
+- [시프트 레프트 (Shifting Left)](/knowledge/software-engineering/foundations/shifting-left/)
+- [겸손, 존중, 신뢰 (Humility, Respect, Trust)](/knowledge/software-engineering/agile-methods/humility-respect-trust/)

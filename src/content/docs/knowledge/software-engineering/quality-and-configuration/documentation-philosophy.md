@@ -1,5 +1,5 @@
 ---
-title: "Documentation Philosophy"
+title: "문서화 철학 (Documentation Philosophy)"
 description: "문서 작성 시 따라야 할 핵심 원칙들의 집합 — 독자를 위해 쓰고, 5W 원칙을 따르며, 짧게 유지하고, 불완전해도 없는 것보다 낫다"
 tags: ["Software Engineering", "Quality", "Documentation", "Writing Principles"]
 created: 2026-02-27
@@ -38,6 +38,6 @@ Google의 문서 작성 시 자주 사용하는 체크리스트:
 
 ## 관련 개념
 
-- [Documentation as Code](/knowledge/software-engineering/quality-and-configuration/documentation-as-code/)
-- [Technical Audience](/knowledge/software-engineering/quality-and-configuration/technical-audience/)
-- [Documentation Freshness](/knowledge/software-engineering/quality-and-configuration/documentation-freshness/)
+- [코드로서의 문서 (Documentation as Code)](/knowledge/software-engineering/quality-and-configuration/documentation-as-code/)
+- [기술 대상 독자 (Technical Audience)](/knowledge/software-engineering/quality-and-configuration/technical-audience/)
+- [문서 최신성 (Documentation Freshness)](/knowledge/software-engineering/quality-and-configuration/documentation-freshness/)

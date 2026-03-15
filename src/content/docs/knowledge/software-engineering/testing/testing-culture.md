@@ -1,5 +1,5 @@
 ---
-title: "Testing Culture"
+title: "테스팅 문화 (Testing Culture)"
 description: "조직 내에서 테스트 작성과 유지보수를 엔지니어링의 핵심 활동으로 받아들이는 문화적 태도와 실천 방식"
 tags: ["Software Engineering", "Testing"]
 created: 2026-02-27
@@ -35,5 +35,5 @@ Google의 경험에서 얻은 핵심 교훈: 테스트를 작성하도록 강제
 
 ## 관련 개념
 
-- [Test Coverage](/knowledge/software-engineering/testing/test-coverage/)
-- [Test Pyramid](/knowledge/software-engineering/testing/test-pyramid/)
+- [테스트 커버리지 (Test Coverage)](/knowledge/software-engineering/testing/test-coverage/)
+- [테스트 피라미드 (Test Pyramid)](/knowledge/software-engineering/testing/test-pyramid/)

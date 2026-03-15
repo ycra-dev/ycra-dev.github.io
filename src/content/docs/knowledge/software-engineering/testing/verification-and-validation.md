@@ -1,5 +1,5 @@
 ---
-title: "Verification and Validation"
+title: "검증과 확인 (Verification and Validation)"
 description: "검증(Verification)은 \"소프트웨어가 명세를 올바르게 구현했는가?\"를, 확인(Validation)은 \"소프트웨어가 고객의 실제 요구를 충족하는가?\"를 확인하는 과정이다"
 tags: ['Verification', 'Validation', 'V And V', 'Software Testing', 'Software Inspection', 'Quality Assurance']
 created: 2026-02-16
@@ -20,6 +20,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Unit Testing](/knowledge/software-engineering/unit-testing/)
-- [Release Testing](/knowledge/software-engineering/release-testing/)
-- [Acceptance Testing](/knowledge/software-engineering/acceptance-testing/)
+- [단위 테스팅 (Unit Testing)](/knowledge/software-engineering/unit-testing/)
+- [릴리스 테스팅 (Release Testing)](/knowledge/software-engineering/release-testing/)
+- [인수 테스팅 (Acceptance Testing)](/knowledge/software-engineering/acceptance-testing/)

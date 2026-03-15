@@ -1,5 +1,5 @@
 ---
-title: "Dark Launch"
+title: "다크 런칭 (Dark Launch)"
 description: "새 코드를 실제 트래픽에 노출하되 결과를 사용자에게 보여주지 않는 배포 기법"
 tags: ["Software Engineering", "Deployment", "Testing"]
 created: 2026-02-27
@@ -77,6 +77,6 @@ Twitter의 기술 부채 해결 사례:
 
 ## 관련 개념
 
-- [Canary Deployment](/knowledge/software-engineering/quality-and-configuration/canary-deployment/)
-- [Blue-Green Deployment](/knowledge/software-engineering/quality-and-configuration/blue-green-deployment/)
-- [Feature Flag](/knowledge/software-engineering/quality-and-configuration/feature-flag/)
+- [카나리 배포 (Canary Deployment)](/knowledge/software-engineering/quality-and-configuration/canary-deployment/)
+- [블루-그린 배포 (Blue-Green Deployment)](/knowledge/software-engineering/quality-and-configuration/blue-green-deployment/)
+- [기능 플래그 (Feature Flag)](/knowledge/software-engineering/quality-and-configuration/feature-flag/)

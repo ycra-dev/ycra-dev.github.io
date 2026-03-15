@@ -1,5 +1,5 @@
 ---
-title: "Programming Integrated Over Time"
+title: "시간에 걸친 프로그래밍 통합 (Programming Integrated Over Time)"
 description: "소프트웨어 엔지니어링은 시간에 대해 적분된 프로그래밍으로, 개발·수정·유지보수를 모두 포함하는 확장된 행위이다"
 tags: ["Software Engineering", "Foundations", "Definition"]
 created: 2026-02-27
@@ -28,7 +28,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Software Engineering vs Programming](/knowledge/software-engineering/foundations/software-engineering-vs-programming/)
-- [Sustainability](/knowledge/software-engineering/foundations/sustainability/)
-- [Hyrum's Law](/knowledge/software-engineering/foundations/hyrums-law/)
-- [Technical Debt](/knowledge/software-engineering/design-and-evolution/technical-debt/)
+- [소프트웨어 공학 vs 프로그래밍 (Software Engineering vs Programming)](/knowledge/software-engineering/foundations/software-engineering-vs-programming/)
+- [지속 가능성 (Sustainability)](/knowledge/software-engineering/foundations/sustainability/)
+- [하이럼의 법칙 (Hyrum's Law)](/knowledge/software-engineering/foundations/hyrums-law/)
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/design-and-evolution/technical-debt/)
