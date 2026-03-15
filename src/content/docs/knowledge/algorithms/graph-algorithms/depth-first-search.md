@@ -1,5 +1,5 @@
 ---
-title: "Depth-First Search"
+title: "깊이 우선 탐색 (Depth-First Search)"
 description: "깊이 우선 탐색(DFS)은 그래프를 가능한 한 \"깊이\" 탐색하는 알고리즘으로, 가장 최근에 발견된 정점에서 아직 탐색하지 않은 간선을 따라 진행하다가 더 이상 진행할 수 없으면 역추적(backtrack)한다"
 tags: ['Depth First Search', 'Dfs', 'Graph Traversal', 'Timestamp', 'Back Edge', 'Tree Edge']
 created: 2026-02-15
@@ -64,7 +64,7 @@ DFS-VISIT(G, u)
 
 ## 관련 개념
 
-- [Graph](/knowledge/algorithms/graph/)
-- [Breadth-First Search](/knowledge/algorithms/breadth-first-search/)
-- [Topological Sort](/knowledge/algorithms/topological-sort/)
-- [Strongly Connected Component](/knowledge/algorithms/strongly-connected-component/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)
+- [너비 우선 탐색 (Breadth-First Search)](/knowledge/algorithms/breadth-first-search/)
+- [위상 정렬 (Topological Sort)](/knowledge/algorithms/topological-sort/)
+- [강한 연결 요소 (Strongly Connected Component)](/knowledge/algorithms/strongly-connected-component/)

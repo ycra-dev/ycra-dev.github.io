@@ -1,5 +1,5 @@
 ---
-title: "Positional Number System"
+title: "위치 기수법 (Positional Number System)"
 description: "기수(radix) b를 사용하여 각 자릿값의 위치가 그 값의 의미를 결정하는 수 표현 체계"
 tags: ["Algorithms", "Number Theory", "Arithmetic", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -98,6 +98,6 @@ print(twos_complement(-128, 8)) # 10000000
 
 ## 관련 개념
 
-- [Floating Point Arithmetic](/knowledge/algorithms/mathematical-algorithms/floating-point-arithmetic/)
-- [Radix Conversion](/knowledge/algorithms/mathematical-algorithms/radix-conversion/)
-- [Multiple-Precision Arithmetic](/knowledge/algorithms/mathematical-algorithms/multiple-precision-arithmetic/)
+- [부동소수점 연산 (Floating Point Arithmetic)](/knowledge/algorithms/mathematical-algorithms/floating-point-arithmetic/)
+- [기수 변환 (Radix Conversion)](/knowledge/algorithms/mathematical-algorithms/radix-conversion/)
+- [다중 정밀도 연산 (Multiple-Precision Arithmetic)](/knowledge/algorithms/mathematical-algorithms/multiple-precision-arithmetic/)

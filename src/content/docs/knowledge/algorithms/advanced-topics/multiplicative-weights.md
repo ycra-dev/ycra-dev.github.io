@@ -1,5 +1,5 @@
 ---
-title: "Multiplicative Weights"
+title: "승법 가중치 (Multiplicative Weights)"
 description: "가중 다수결 알고리즘(Multiplicative Weights / Weighted-Majority)은 여러 전문가의 예측을 가중 결합하여 순차적 의사결정을 수행하며, 실수한 전문가의 가중치를 곱셈적으로 감소시켜 최선의 전문가에 근접한 성능을 달성하는 온라인 학습 ..."
 tags: ['Multiplicative Weights', 'Weighted Majority', 'Online Learning', 'Expert Prediction', 'Regret']
 created: 2026-02-15
@@ -98,7 +98,7 @@ m ≤ 2 · 50 + (2 ln 20) / 0.5
 
 ## 관련 개념
 
-- [Online Algorithm](/knowledge/algorithms/online-algorithm/) - 온라인 의사결정 프레임워크
-- [Competitive Analysis](/knowledge/algorithms/competitive-analysis/) - 온라인 알고리즘의 성능 분석
-- [Gradient Descent](/knowledge/algorithms/gradient-descent/) - 같은 장의 다른 최적화 기법
-- [Clustering](/knowledge/algorithms/clustering/) - 같은 장의 비지도 학습 기법
+- [온라인 알고리즘 (Online Algorithm)](/knowledge/algorithms/online-algorithm/) - 온라인 의사결정 프레임워크
+- [경쟁 분석 (Competitive Analysis)](/knowledge/algorithms/competitive-analysis/) - 온라인 알고리즘의 성능 분석
+- [경사 하강법 (Gradient Descent)](/knowledge/algorithms/gradient-descent/) - 같은 장의 다른 최적화 기법
+- [클러스터링 (Clustering)](/knowledge/algorithms/clustering/) - 같은 장의 비지도 학습 기법

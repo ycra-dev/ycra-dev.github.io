@@ -1,5 +1,5 @@
 ---
-title: "Radix Exchange Sort"
+title: "기수 교환 정렬 (Radix Exchange Sort)"
 description: "기수 교환 정렬(Radix Exchange Sort)은 키를 이진 표현으로 보고 최상위 비트부터 차례로 0과 1로 분할하는 정렬로, 퀵정렬과 유사하지만 비트 테스트로 분할한다"
 tags: ["Radix Exchange Sort", "Radix Sort", "Exchange Sort", "TAOCP", "Binary", "Internal Sorting"]
 created: 2026-02-27
@@ -47,6 +47,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Quicksort](/knowledge/algorithms/quicksort/)
-- [Radix Sorting (LSD)](/knowledge/algorithms/sorting-selection/radix-sorting-lsd/)
-- [Radix Search](/knowledge/algorithms/data-structures/radix-search/)
+- [퀵 정렬 (Quicksort)](/knowledge/algorithms/quicksort/)
+- [기수 정렬 LSD (Radix Sorting LSD)](/knowledge/algorithms/sorting-selection/radix-sorting-lsd/)
+- [기수 탐색 (Radix Search)](/knowledge/algorithms/data-structures/radix-search/)

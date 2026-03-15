@@ -1,5 +1,5 @@
 ---
-title: "Multiway Merging and Selection Tree"
+title: "다방향 병합과 선택 트리 (Multiway Merging and Selection Tree)"
 description: "다중 웨이 병합(Multiway Merging)은 P개의 정렬된 런을 동시에 하나로 합치는 연산으로, 패자 트리(Loser Tree)를 사용하면 각 단계에서 O(log P)번의 비교만으로 최솟값을 찾을 수 있다"
 tags: ["Multiway Merging", "Selection Tree", "Loser Tree", "Priority Queue", "External Sorting", "TAOCP"]
 created: 2026-02-27
@@ -71,7 +71,7 @@ class LoserTree:
 
 ## 관련 개념
 
-- [External Sorting Overview](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
-- [Replacement Selection](/knowledge/algorithms/sorting-selection/replacement-selection/)
-- [Priority Queue](/knowledge/algorithms/priority-queue/)
-- [Heapsort](/knowledge/algorithms/heapsort/)
+- [외부 정렬 개요 (External Sorting Overview)](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
+- [대체 선택 (Replacement Selection)](/knowledge/algorithms/sorting-selection/replacement-selection/)
+- [우선순위 큐 (Priority Queue)](/knowledge/algorithms/priority-queue/)
+- [힙 정렬 (Heapsort)](/knowledge/algorithms/heapsort/)

@@ -1,5 +1,5 @@
 ---
-title: "Middle-Square Method"
+title: "중앙 제곱법 (Middle-Square Method)"
 description: "Von Neumann이 1946년 제안한 최초의 컴퓨터 기반 의사난수 생성 방법으로, 이전 난수를 제곱하여 중간 자릿수를 추출하는 역사적 실패 사례"
 tags: ["Algorithms", "PRNG", "MathematicalAlgorithms", "TAOCP"]
 created: 2026-02-27
@@ -56,4 +56,4 @@ for _ in range(5):
 
 - [Pseudorandom Number Generator](/knowledge/algorithms/mathematical-algorithms/pseudorandom-number-generator/)
 - [Period Length](/knowledge/algorithms/mathematical-algorithms/period-length/)
-- [Linear Congruential Method](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)
+- [선형 합동법 (Linear Congruential Method)](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)

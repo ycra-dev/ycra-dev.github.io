@@ -1,5 +1,5 @@
 ---
-title: "Activity Selection"
+title: "활동 선택 (Activity Selection)"
 description: "활동 선택 문제(Activity-Selection Problem)는 공유 자원을 사용하려는 n개의 활동 중에서 서로 호환되는(compatible) 활동의 최대 크기 부분 집합을 선택하는 문제이다"
 tags: ['Activity Selection', 'Greedy Algorithm', 'Scheduling', 'Interval Scheduling']
 created: 2026-02-15
@@ -52,7 +52,7 @@ RECURSIVE-ACTIVITY-SELECTOR(s, f, k, n)
 
 ## 관련 개념
 
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/)
-- [Greedy Choice Property](/knowledge/algorithms/greedy-choice-property/)
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
-- [Interval Tree](/knowledge/algorithms/interval-tree/)
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/)
+- [탐욕 선택 속성 (Greedy Choice Property)](/knowledge/algorithms/greedy-choice-property/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)
+- [구간 트리 (Interval Tree)](/knowledge/algorithms/interval-tree/)

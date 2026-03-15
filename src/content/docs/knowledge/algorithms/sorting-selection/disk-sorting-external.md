@@ -1,5 +1,5 @@
 ---
-title: "Disk Sorting (External)"
+title: "디스크 정렬 (Disk Sorting)"
 description: "디스크 정렬(Disk Sorting)은 자기 디스크나 드럼 같은 랜덤 접근 외부 저장 장치를 사용한 외부 정렬 기법으로, 탐색(seek) 시간 최소화가 핵심이다"
 tags: ["Disk Sorting", "External Sorting", "Random Access", "Striping", "Seek Time", "TAOCP"]
 created: 2026-02-27
@@ -65,6 +65,6 @@ D=4 디스크, P=8 런 병합, 스트라이핑:
 
 ## 관련 개념
 
-- [External Sorting Overview](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
-- [Polyphase Merge Sort](/knowledge/algorithms/sorting-selection/polyphase-merge-sort/)
-- [Replacement Selection](/knowledge/algorithms/sorting-selection/replacement-selection/)
+- [외부 정렬 개요 (External Sorting Overview)](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
+- [다단계 병합 정렬 (Polyphase Merge Sort)](/knowledge/algorithms/sorting-selection/polyphase-merge-sort/)
+- [대체 선택 (Replacement Selection)](/knowledge/algorithms/sorting-selection/replacement-selection/)

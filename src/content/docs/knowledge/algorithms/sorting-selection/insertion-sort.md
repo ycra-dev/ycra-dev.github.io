@@ -1,5 +1,5 @@
 ---
-title: "Insertion Sort"
+title: "삽입 정렬 (Insertion Sort)"
 description: "삽입 정렬(Insertion Sort)은 배열의 각 원소를 이미 정렬된 부분 배열의 올바른 위치에 삽입하는 증분적(incremental) 정렬 알고리즘이다"
 tags: ['Sorting', 'Incremental', 'In Place', 'Comparison Sort']
 created: 2026-02-15
@@ -47,7 +47,7 @@ INSERTION-SORT(A, n)
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/algorithm/)
-- [Loop Invariant](/knowledge/algorithms/loop-invariant/)
-- [Merge Sort](/knowledge/algorithms/merge-sort/)
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)
+- [루프 불변량 (Loop Invariant)](/knowledge/algorithms/loop-invariant/)
+- [병합 정렬 (Merge Sort)](/knowledge/algorithms/merge-sort/)
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/)

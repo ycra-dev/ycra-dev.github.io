@@ -1,5 +1,5 @@
 ---
-title: "Randomized Quicksort"
+title: "랜덤 퀵 정렬 (Randomized Quicksort)"
 description: "무작위 퀵정렬(Randomized Quicksort)은 피벗을 무작위로 선택하여 어떤 특정 입력에서도 최악의 경우가 유발되지 않도록 한 퀵정렬의 변형으로, 모든 원소가 서로 다를 때 기대 수행 시간 O(n lg n)을 보장한다"
 tags: ['Randomized Quicksort', 'Quicksort', 'Randomized Algorithm', 'Expected Time', 'Pivot']
 created: 2026-02-15
@@ -63,9 +63,9 @@ RANDOM(1, 5)이 3을 반환하면:
 
 ## 관련 개념
 
-- [Quicksort](/knowledge/algorithms/quicksort/)
-- [Partition](/knowledge/algorithms/partition/)
-- [Algorithm](/knowledge/algorithms/algorithm/)
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/)
-- [Randomized Select](/knowledge/algorithms/randomized-select/)
+- [퀵 정렬 (Quicksort)](/knowledge/algorithms/quicksort/)
+- [분할 (Partition)](/knowledge/algorithms/partition/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/)
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/)
+- [랜덤 선택 (Randomized Select)](/knowledge/algorithms/randomized-select/)

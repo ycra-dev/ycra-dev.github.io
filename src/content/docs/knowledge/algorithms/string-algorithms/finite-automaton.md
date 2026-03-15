@@ -1,5 +1,5 @@
 ---
-title: "Finite Automaton for String Matching"
+title: "유한 오토마톤 문자열 매칭 (Finite Automaton for String Matching)"
 description: "문자열 매칭 유한 오토마타는 주어진 패턴 P에 특화된 결정적 유한 오토마톤(DFA)을 구축하여 텍스트의 각 문자를 정확히 한 번 검사하며 Θ(n) 시간에 모든 패턴 출현을 찾는 방법이다"
 tags: ['Finite Automaton', 'String Matching', 'State Machine', 'Transition Function', 'Preprocessing']
 created: 2026-02-15
@@ -77,6 +77,6 @@ i=9: δ(6,a)=7  ← 수락! 시프트 2에서 패턴 발견
 
 ## 관련 개념
 
-- [String Matching](/knowledge/algorithms/string-matching/) - 오토마타 기반 매칭
+- [문자열 매칭 (String Matching)](/knowledge/algorithms/string-matching/) - 오토마타 기반 매칭
 - [Knuth-Morris-Pratt](/knowledge/algorithms/knuth-morris-pratt/) - 오토마타의 공간 최적화 버전
 - [Rabin-Karp](/knowledge/algorithms/rabin-karp/) - 해시 기반 대안적 접근

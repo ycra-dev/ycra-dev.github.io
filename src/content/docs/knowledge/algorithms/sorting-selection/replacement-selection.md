@@ -1,5 +1,5 @@
 ---
-title: "Replacement Selection"
+title: "대체 선택 (Replacement Selection)"
 description: "대체 선택(Replacement Selection)은 외부 정렬의 초기 런 생성 단계에서 내부 메모리 크기 P보다 더 긴 런을 생성하는 기법으로, 눈덮개(snowplow) 분석으로 평균 런 길이 ≈ 2P를 증명한다"
 tags: ["Replacement Selection", "External Sorting", "Run Generation", "Selection Tree", "TAOCP", "Snowplow"]
 created: 2026-02-27
@@ -60,7 +60,7 @@ P=4, 입력 데이터: 503 087 512 061 908 170 897 275 653
 
 ## 관련 개념
 
-- [External Sorting Overview](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
-- [Multiway Merging and Selection Tree](/knowledge/algorithms/sorting-selection/multiway-merging-selection-tree/)
+- [외부 정렬 개요 (External Sorting Overview)](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
+- [다방향 병합과 선택 트리 (Multiway Merging and Selection Tree)](/knowledge/algorithms/sorting-selection/multiway-merging-selection-tree/)
 - [Natural Selection Run Generation](/knowledge/algorithms/sorting-selection/natural-selection-run-generation/)
-- [Ascending Runs](/knowledge/algorithms/sorting-selection/ascending-runs/)
+- [오름차순 런 (Ascending Runs)](/knowledge/algorithms/sorting-selection/ascending-runs/)

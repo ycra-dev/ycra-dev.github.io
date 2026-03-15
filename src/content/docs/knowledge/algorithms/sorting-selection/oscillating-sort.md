@@ -1,5 +1,5 @@
 ---
-title: "Oscillating Sort"
+title: "진동 정렬 (Oscillating Sort)"
 description: "진동 정렬(Oscillating Sort)은 테이프를 순방향과 역방향으로 번갈아 읽으면서 외부 정렬을 수행하는 방법으로, 되감기를 최소화하여 효율을 높인다"
 tags: ["Oscillating Sort", "External Sorting", "Tape Sorting", "Read-Backward", "TAOCP", "Merge Patterns"]
 created: 2026-02-27
@@ -58,7 +58,7 @@ T=4 테이프, 진동 정렬:
 
 ## 관련 개념
 
-- [External Sorting Overview](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
-- [Cascade Merge Sort](/knowledge/algorithms/sorting-selection/cascade-merge-sort/)
-- [Polyphase Merge Sort](/knowledge/algorithms/sorting-selection/polyphase-merge-sort/)
-- [Replacement Selection](/knowledge/algorithms/sorting-selection/replacement-selection/)
+- [외부 정렬 개요 (External Sorting Overview)](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
+- [캐스케이드 병합 정렬 (Cascade Merge Sort)](/knowledge/algorithms/sorting-selection/cascade-merge-sort/)
+- [다단계 병합 정렬 (Polyphase Merge Sort)](/knowledge/algorithms/sorting-selection/polyphase-merge-sort/)
+- [대체 선택 (Replacement Selection)](/knowledge/algorithms/sorting-selection/replacement-selection/)

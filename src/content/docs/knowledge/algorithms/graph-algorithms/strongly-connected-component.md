@@ -1,5 +1,5 @@
 ---
-title: "Strongly Connected Component"
+title: "강한 연결 요소 (Strongly Connected Component)"
 description: "강연결 요소(SCC)는 방향 그래프 G = (V, E)에서 모든 정점 쌍 u, v 사이에 u에서 v로의 경로와 v에서 u로의 경로가 모두 존재하는 극대(maximal) 정점 집합 C이다"
 tags: ['Strongly Connected Component', 'Scc', 'Directed Graph', 'Depth First Search', 'Transpose Graph']
 created: 2026-02-15
@@ -59,6 +59,6 @@ SCC들: {a, b, e, f}, {c, d, g, h}
 
 ## 관련 개념
 
-- [Depth-First Search](/knowledge/algorithms/depth-first-search/)
-- [Graph](/knowledge/algorithms/graph/)
-- [Topological Sort](/knowledge/algorithms/topological-sort/)
+- [깊이 우선 탐색 (Depth-First Search)](/knowledge/algorithms/depth-first-search/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)
+- [위상 정렬 (Topological Sort)](/knowledge/algorithms/topological-sort/)

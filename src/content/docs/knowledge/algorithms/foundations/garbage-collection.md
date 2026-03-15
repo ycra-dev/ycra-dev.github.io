@@ -1,5 +1,5 @@
 ---
-title: "Garbage Collection"
+title: "가비지 컬렉션 (Garbage Collection)"
 description: "더 이상 참조되지 않는 메모리를 자동으로 회수하는 메모리 관리 기법 — 연결 리스트의 동적 메모리 관리와 직결"
 tags: ["Algorithms", "Memory Management", "Systems", "TAOCP"]
 created: 2026-02-27
@@ -121,6 +121,6 @@ def sweep():
 
 ## 관련 개념
 
-- [Linked List](/knowledge/algorithms/data-structures/linked-list/)
-- [Stack](/knowledge/algorithms/data-structures/stack/)
-- [Multilinked Structure](/knowledge/algorithms/data-structures/multilinked-structure/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/data-structures/linked-list/)
+- [스택 (Stack)](/knowledge/algorithms/data-structures/stack/)
+- [다중 연결 구조 (Multilinked Structure)](/knowledge/algorithms/data-structures/multilinked-structure/)

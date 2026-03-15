@@ -1,5 +1,5 @@
 ---
-title: "K-Means"
+title: "K-평균 (K-Means)"
 description: "K-Means(K-평균)는 데이터 포인트 집합을 k개 클러스터로 분할하여 각 포인트에서 클러스터 중심까지의 거리 제곱 합을 최소화하는 클러스터링 알고리즘으로, Lloyd's 절차로 구현된다"
 tags: ['K Means', 'Clustering', 'Lloyd Algorithm', 'Centroid', 'Local Optimization']
 created: 2026-02-15
@@ -72,6 +72,6 @@ f(S, C) = Σ_{ℓ=1}^{k} Σ_{x∈S^(ℓ)} Δ(x, c^(ℓ))
 
 ## 관련 개념
 
-- [Clustering](/knowledge/algorithms/clustering/) - K-means가 풀어야 하는 문제
-- [Gradient Descent](/knowledge/algorithms/gradient-descent/) - 유사한 반복적 최적화 기법
-- [NP-Completeness](/knowledge/algorithms/np-completeness/) - K-means 문제 자체는 NP-hard
+- [클러스터링 (Clustering)](/knowledge/algorithms/clustering/) - K-means가 풀어야 하는 문제
+- [경사 하강법 (Gradient Descent)](/knowledge/algorithms/gradient-descent/) - 유사한 반복적 최적화 기법
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/np-completeness/) - K-means 문제 자체는 NP-hard

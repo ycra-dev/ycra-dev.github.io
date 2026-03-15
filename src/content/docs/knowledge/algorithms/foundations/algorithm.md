@@ -1,5 +1,5 @@
 ---
-title: "Algorithm"
+title: "알고리즘 (Algorithm)"
 description: "알고리즘(Algorithm)은 어떤 값 또는 값의 집합을 입력(input)으로 받아 유한한 시간 내에 어떤 값 또는 값의 집합을 출력(output)으로 생성하는 잘 정의된 계산 절차(computational procedure)이다"
 tags: ['Algorithm', 'Computation', 'Problem Solving']
 created: 2026-02-15
@@ -32,6 +32,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Computational Problem](/knowledge/algorithms/computational-problem/)
-- [Correctness](/knowledge/algorithms/correctness/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [계산 문제 (Computational Problem)](/knowledge/algorithms/computational-problem/)
+- [정확성 (Correctness)](/knowledge/algorithms/correctness/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

@@ -1,5 +1,5 @@
 ---
-title: "Path Compression"
+title: "경로 압축 (Path Compression)"
 description: "경로 압축(Path Compression)은 분리 집합 포리스트에서 FIND-SET 연산 시 탐색 경로(find path)상의 모든 노드가 루트를 직접 가리키도록 만드는 휴리스틱이다"
 tags: ['Path Compression', 'Union Find', 'Disjoint Set', 'Heuristic', 'Find Set']
 created: 2026-02-15
@@ -69,6 +69,6 @@ FIND-SET-ITERATIVE(x)
 ## 관련 개념
 
 - [Union Find](/knowledge/algorithms/union-find/)
-- [Union by Rank](/knowledge/algorithms/union-by-rank/)
-- [Disjoint Set](/knowledge/algorithms/disjoint-set/)
-- [Amortized Analysis](/knowledge/algorithms/amortized-analysis/)
+- [랭크 기반 합치기 (Union by Rank)](/knowledge/algorithms/union-by-rank/)
+- [서로소 집합 (Disjoint Set)](/knowledge/algorithms/disjoint-set/)
+- [분할 상환 분석 (Amortized Analysis)](/knowledge/algorithms/amortized-analysis/)

@@ -1,5 +1,5 @@
 ---
-title: "Linked List"
+title: "연결 리스트 (Linked List)"
 description: "연결 리스트(Linked List)는 각 원소가 포인터를 통해 다음(또는 이전) 원소를 가리키는 방식으로 선형 순서를 유지하는 자료구조로, 배열과 달리 인덱스가 아닌 포인터에 의해 순서가 결정된다"
 tags: ['Linked List', 'Data Structure', 'Pointer', 'Doubly Linked', 'Singly Linked', 'Sentinel']
 created: 2026-02-15
@@ -63,8 +63,8 @@ LIST-DELETE'(x)
 
 ## 관련 개념
 
-- [Array](/knowledge/algorithms/array/)
-- [Stack](/knowledge/algorithms/stack/)
-- [Queue](/knowledge/algorithms/queue/)
-- [Rooted Tree](/knowledge/algorithms/rooted-tree/)
-- [Hash Table](/knowledge/algorithms/hash-table/)
+- [배열 (Array)](/knowledge/algorithms/array/)
+- [스택 (Stack)](/knowledge/algorithms/stack/)
+- [큐 (Queue)](/knowledge/algorithms/queue/)
+- [루트 트리 (Rooted Tree)](/knowledge/algorithms/rooted-tree/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)

@@ -1,5 +1,5 @@
 ---
-title: "Red-Black Tree"
+title: "레드-블랙 트리 (Red-Black Tree)"
 description: "레드-블랙 트리(Red-Black Tree)는 각 노드에 색상(RED 또는 BLACK) 속성을 추가하고 다섯 가지 성질을 만족시켜 높이가 O(lg n)으로 보장되는 균형 이진 탐색 트리이다"
 tags: ['Red Black Tree', 'Balanced Tree', 'Binary Search Tree', 'Self Balancing', 'Data Structure']
 created: 2026-02-15
@@ -63,8 +63,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Rotation](/knowledge/algorithms/rotation/)
-- [RB Insertion](/knowledge/algorithms/rb-insertion/)
-- [RB Deletion](/knowledge/algorithms/rb-deletion/)
-- [Balanced Tree](/knowledge/algorithms/balanced-tree/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [회전 (Rotation)](/knowledge/algorithms/rotation/)
+- [레드-블랙 트리 삽입 (RB Insertion)](/knowledge/algorithms/rb-insertion/)
+- [레드-블랙 트리 삭제 (RB Deletion)](/knowledge/algorithms/rb-deletion/)
+- [균형 트리 (Balanced Tree)](/knowledge/algorithms/balanced-tree/)

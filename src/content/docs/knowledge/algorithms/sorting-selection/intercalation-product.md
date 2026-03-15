@@ -1,5 +1,5 @@
 ---
-title: "Intercalation Product"
+title: "교차 곱 (Intercalation Product)"
 description: "삽입곱(Intercalation Product) α ⊎ β는 두 멀티셋 순열을 두 줄 표기법으로 나타내 합친 후 윗 줄을 안정 정렬하여 얻는 연산으로, Foata(1965)가 도입했다"
 tags: ["Intercalation Product", "Multiset Permutations", "Combinatorics", "TAOCP", "Foata"]
 created: 2026-02-27
@@ -47,7 +47,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Permutation Cycles](/knowledge/algorithms/sorting-selection/permutation-cycles/)
-- [Involutions](/knowledge/algorithms/sorting-selection/involutions/)
-- [Ascending Runs](/knowledge/algorithms/sorting-selection/ascending-runs/)
-- [Inversions](/knowledge/algorithms/sorting-selection/inversions/)
+- [순열 순환 (Permutation Cycles)](/knowledge/algorithms/sorting-selection/permutation-cycles/)
+- [대합 (Involutions)](/knowledge/algorithms/sorting-selection/involutions/)
+- [오름차순 런 (Ascending Runs)](/knowledge/algorithms/sorting-selection/ascending-runs/)
+- [역순쌍 (Inversions)](/knowledge/algorithms/sorting-selection/inversions/)

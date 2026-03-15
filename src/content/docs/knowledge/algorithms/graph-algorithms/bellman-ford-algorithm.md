@@ -1,5 +1,5 @@
 ---
-title: "Bellman-Ford Algorithm"
+title: "벨만-포드 알고리즘 (Bellman-Ford Algorithm)"
 description: "벨만-포드 알고리즘은 음수 가중치 간선을 허용하는 가중치 방향 그래프에서 단일 소스 최단 경로를 구하는 알고리즘으로, 소스에서 도달 가능한 음수 가중치 사이클의 존재 여부도 감지한다"
 tags: ['Bellman Ford Algorithm', 'Shortest Path', 'Negative Weight', 'Single Source', 'Relaxation']
 created: 2026-02-15
@@ -61,8 +61,8 @@ Pass 4: 최종 확인
 
 ## 관련 개념
 
-- [Shortest Path](/knowledge/algorithms/shortest-path/)
-- [Relaxation](/knowledge/algorithms/relaxation/)
-- [Negative Weight Cycle](/knowledge/algorithms/negative-weight-cycle/)
-- [Dijkstra Algorithm](/knowledge/algorithms/dijkstra-algorithm/)
-- [Graph](/knowledge/algorithms/graph/)
+- [최단 경로 (Shortest Path)](/knowledge/algorithms/shortest-path/)
+- [완화 (Relaxation)](/knowledge/algorithms/relaxation/)
+- [음수 가중치 순환 (Negative Weight Cycle)](/knowledge/algorithms/negative-weight-cycle/)
+- [다익스트라 알고리즘 (Dijkstra Algorithm)](/knowledge/algorithms/dijkstra-algorithm/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)

@@ -1,5 +1,5 @@
 ---
-title: "MIX Computer"
+title: "MIX 컴퓨터 (MIX Computer)"
 description: "Knuth가 TAOCP에서 알고리즘을 기계어로 표현하기 위해 설계한 가상의 컴퓨터로, 이진수와 십진수를 동시에 지원하는 단순한 구조를 가짐"
 tags: ["Algorithms", "Computer Architecture", "Assembly", "TAOCP"]
 created: 2026-02-27
@@ -82,6 +82,6 @@ EXIT     JMP  *        * 복귀
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/foundations/algorithm/)
-- [Subroutine](/knowledge/algorithms/foundations/subroutine/)
-- [Coroutine](/knowledge/algorithms/foundations/coroutine/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/foundations/algorithm/)
+- [서브루틴 (Subroutine)](/knowledge/algorithms/foundations/subroutine/)
+- [코루틴 (Coroutine)](/knowledge/algorithms/foundations/coroutine/)

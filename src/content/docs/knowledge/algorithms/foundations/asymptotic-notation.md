@@ -1,5 +1,5 @@
 ---
-title: "Asymptotic Notation"
+title: "점근 표기법 (Asymptotic Notation)"
 description: "점근적 표기법(Asymptotic Notation)은 입력 크기가 한없이 커질 때 함수의 증가율(order of growth)을 특성화하는 수학적 표기법이다"
 tags: ['Asymptotic Notation', 'Big O', 'Omega', 'Theta', 'Complexity Analysis']
 created: 2026-02-15
@@ -64,6 +64,6 @@ O(g(n)) = {f(n) : ∃c>0, n₀>0 s.t. 0 ≤ f(n) ≤ c·g(n), ∀n ≥ n₀}
 
 ## 관련 개념
 
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
-- [Recurrence](/knowledge/algorithms/recurrence/)
-- [Algorithm](/knowledge/algorithms/algorithm/)
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/)
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)

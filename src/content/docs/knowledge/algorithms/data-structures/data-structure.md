@@ -1,5 +1,5 @@
 ---
-title: "Data Structure"
+title: "자료구조 (Data Structure)"
 description: "자료구조(Data Structure)는 데이터의 접근과 수정을 용이하게 하기 위해 데이터를 저장하고 조직화하는 방법이다"
 tags: ['Data Structure', 'Storage', 'Organization']
 created: 2026-02-15
@@ -41,4 +41,4 @@ sidebar:
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/algorithm/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)

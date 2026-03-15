@@ -1,5 +1,5 @@
 ---
-title: "Combinatorial Searching"
+title: "조합 탐색 (Combinatorial Searching)"
 description: "이산 객체를 조합하여 특정 패턴이나 최적 배열을 찾는 알고리즘 기법의 총칭으로, 존재성·구성·열거·생성·최적화의 다섯 가지 기본 질문 유형으로 구분된다"
 tags: ["Algorithms", "Combinatorics", "ProblemSolving", "TAOCP"]
 created: 2026-02-27
@@ -54,7 +54,7 @@ n=3의 유일한 해: 3 1 2 1 3 2
 
 ## 관련 개념
 
-- [Exact Cover Problem](/knowledge/discrete-mathematics/combinatorics/exact-cover-problem/)
-- [Latin Square](/knowledge/discrete-mathematics/combinatorics/latin-square/)
-- [Permutation Generation](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)
-- [NP-Completeness](/knowledge/algorithms/foundations/np-completeness/)
+- [정확 덮개 문제 (Exact Cover Problem)](/knowledge/discrete-mathematics/combinatorics/exact-cover-problem/)
+- [라틴 방진 (Latin Square)](/knowledge/discrete-mathematics/combinatorics/latin-square/)
+- [순열 생성 (Permutation Generation)](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/foundations/np-completeness/)

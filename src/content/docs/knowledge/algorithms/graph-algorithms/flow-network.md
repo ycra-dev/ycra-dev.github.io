@@ -1,5 +1,5 @@
 ---
-title: "Flow Network"
+title: "유량 네트워크 (Flow Network)"
 description: "유량 네트워크(Flow Network)는 방향 그래프 G = (V, E)에 용량 함수 c: V x V -> R_>=0, 소스(source) 정점 s, 싱크(sink) 정점 t가 주어진 구조로, 간선에 유량을 흘려보내는 네트워크 모델이다"
 tags: ['Flow Network', 'Capacity', 'Source', 'Sink', 'Maximum Flow']
 created: 2026-02-15
@@ -58,8 +58,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Maximum Flow](/knowledge/algorithms/maximum-flow/)
-- [Residual Network](/knowledge/algorithms/residual-network/)
-- [Ford-Fulkerson Method](/knowledge/algorithms/ford-fulkerson-method/)
-- [Graph](/knowledge/algorithms/graph/)
-- [Adjacency List](/knowledge/algorithms/adjacency-list/)
+- [최대 유량 (Maximum Flow)](/knowledge/algorithms/maximum-flow/)
+- [잔여 네트워크 (Residual Network)](/knowledge/algorithms/residual-network/)
+- [포드-풀커슨 방법 (Ford-Fulkerson Method)](/knowledge/algorithms/ford-fulkerson-method/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)
+- [인접 리스트 (Adjacency List)](/knowledge/algorithms/adjacency-list/)

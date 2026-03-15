@@ -1,5 +1,5 @@
 ---
-title: "Traveling Salesperson"
+title: "외판원 문제 (Traveling Salesperson)"
 description: "외판원 문제(Traveling Salesperson Problem, TSP)는 완전 그래프의 모든 정점을 정확히 한 번 방문하는 최소 비용 해밀턴 순환을 찾는 NP-완전 문제로, 삼각 부등식을 만족하는 경우 MST 기반 2-근사 알고리즘이 존재한다"
 tags: ['Traveling Salesperson', 'Tsp', 'Approximation Algorithm', 'Minimum Spanning Tree', 'Triangle Inequality']
 created: 2026-02-15
@@ -80,8 +80,8 @@ HAM-CYCLE 있음 → 최적 투어 비용 = 3
 
 ## 관련 개념
 
-- [Approximation Algorithm](/knowledge/algorithms/approximation-algorithm/) - TSP 근사의 상위 개념
-- [Approximation Ratio](/knowledge/algorithms/approximation-ratio/) - 2-근사의 의미
-- [NP-Completeness](/knowledge/algorithms/np-completeness/) - TSP 결정 문제는 NPC
-- [Vertex Cover](/knowledge/algorithms/vertex-cover/) - 같은 장의 다른 2-근사 문제
-- [Set Cover](/knowledge/algorithms/set-cover/) - 다른 유형의 근사 알고리즘
+- [근사 알고리즘 (Approximation Algorithm)](/knowledge/algorithms/approximation-algorithm/) - TSP 근사의 상위 개념
+- [근사 비율 (Approximation Ratio)](/knowledge/algorithms/approximation-ratio/) - 2-근사의 의미
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/np-completeness/) - TSP 결정 문제는 NPC
+- [정점 덮개 (Vertex Cover)](/knowledge/algorithms/vertex-cover/) - 같은 장의 다른 2-근사 문제
+- [집합 덮개 (Set Cover)](/knowledge/algorithms/set-cover/) - 다른 유형의 근사 알고리즘

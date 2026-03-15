@@ -1,5 +1,5 @@
 ---
-title: "Shortest Path"
+title: "최단 경로 (Shortest Path)"
 description: "최단 경로(Shortest Path)는 가중치 방향 그래프 G = (V, E)에서 경로의 구성 간선 가중치 합이 최소인 경로를 말하며, 최단 경로 가중치 delta(u, v)는 u에서 v까지의 최소 경로 가중치로 정의된다"
 tags: ['Shortest Path', 'Weighted Graph', 'Optimal Substructure', 'Single Source', 'Relaxation']
 created: 2026-02-15
@@ -53,9 +53,9 @@ delta(s, c) = 5
 
 ## 관련 개념
 
-- [Bellman-Ford Algorithm](/knowledge/algorithms/bellman-ford-algorithm/)
-- [Dijkstra Algorithm](/knowledge/algorithms/dijkstra-algorithm/)
-- [Relaxation](/knowledge/algorithms/relaxation/)
-- [Negative Weight Cycle](/knowledge/algorithms/negative-weight-cycle/)
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/)
+- [벨만-포드 알고리즘 (Bellman-Ford Algorithm)](/knowledge/algorithms/bellman-ford-algorithm/)
+- [다익스트라 알고리즘 (Dijkstra Algorithm)](/knowledge/algorithms/dijkstra-algorithm/)
+- [완화 (Relaxation)](/knowledge/algorithms/relaxation/)
+- [음수 가중치 순환 (Negative Weight Cycle)](/knowledge/algorithms/negative-weight-cycle/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/)

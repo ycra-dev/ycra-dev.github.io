@@ -1,5 +1,5 @@
 ---
-title: "Greedy Algorithm"
+title: "탐욕 알고리즘 (Greedy Algorithm)"
 description: "그리디 알고리즘(Greedy Algorithm)은 각 단계에서 그 순간에 가장 좋아 보이는 선택(locally optimal choice)을 하여 전역적으로 최적인 해(globally optimal solution)를 구하는 알고리즘 설계 기법이다"
 tags: ['Greedy Algorithm', 'Optimization', 'Algorithm Design', 'Locally Optimal']
 created: 2026-02-15
@@ -42,8 +42,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Greedy Choice Property](/knowledge/algorithms/greedy-choice-property/)
-- [Activity Selection](/knowledge/algorithms/activity-selection/)
-- [Huffman Coding](/knowledge/algorithms/huffman-coding/)
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
-- [Optimal Substructure](/knowledge/algorithms/optimal-substructure/)
+- [탐욕 선택 속성 (Greedy Choice Property)](/knowledge/algorithms/greedy-choice-property/)
+- [활동 선택 (Activity Selection)](/knowledge/algorithms/activity-selection/)
+- [허프만 코딩 (Huffman Coding)](/knowledge/algorithms/huffman-coding/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)
+- [최적 부분 구조 (Optimal Substructure)](/knowledge/algorithms/optimal-substructure/)

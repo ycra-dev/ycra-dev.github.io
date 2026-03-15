@@ -1,5 +1,5 @@
 ---
-title: "Coroutine"
+title: "코루틴 (Coroutine)"
 description: "특정 지점에서 실행을 일시 중단하고 제어를 다른 코루틴에 양보하며, 나중에 중단된 지점부터 재개할 수 있는 프로그램 단위"
 tags: ["Algorithms", "Concurrency", "Programming", "TAOCP"]
 created: 2026-02-27
@@ -99,6 +99,6 @@ async def fetch_data(url):
 
 ## 관련 개념
 
-- [Subroutine](/knowledge/algorithms/foundations/subroutine/)
-- [Stack](/knowledge/algorithms/data-structures/stack/)
-- [MIX Computer](/knowledge/algorithms/foundations/mix-computer/)
+- [서브루틴 (Subroutine)](/knowledge/algorithms/foundations/subroutine/)
+- [스택 (Stack)](/knowledge/algorithms/data-structures/stack/)
+- [MIX 컴퓨터 (MIX Computer)](/knowledge/algorithms/foundations/mix-computer/)

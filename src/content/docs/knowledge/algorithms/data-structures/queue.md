@@ -1,5 +1,5 @@
 ---
-title: "Queue"
+title: "큐 (Queue)"
 description: "큐(Queue)는 선입선출(FIFO, First-In First-Out) 정책을 따르는 동적 집합으로, 가장 오래된 원소가 가장 먼저 삭제되는 자료구조이다"
 tags: ['Queue', 'Data Structure', 'Fifo', 'Elementary', 'Enqueue', 'Dequeue', 'Circular Buffer']
 created: 2026-02-15
@@ -55,7 +55,7 @@ DEQUEUE(Q)
 
 ## 관련 개념
 
-- [Array](/knowledge/algorithms/array/)
-- [Stack](/knowledge/algorithms/stack/)
-- [Linked List](/knowledge/algorithms/linked-list/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [배열 (Array)](/knowledge/algorithms/array/)
+- [스택 (Stack)](/knowledge/algorithms/stack/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/linked-list/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

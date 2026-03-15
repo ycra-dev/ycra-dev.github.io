@@ -1,5 +1,5 @@
 ---
-title: "Breadth-First Search"
+title: "너비 우선 탐색 (Breadth-First Search)"
 description: "너비 우선 탐색(BFS)은 주어진 소스 정점 s로부터 그래프의 모든 도달 가능한 정점을 층별로(wave) 탐색하는 알고리즘으로, 각 정점까지의 최단 거리(간선 수 기준)를 계산한다"
 tags: ['Breadth First Search', 'Bfs', 'Graph Traversal', 'Shortest Path', 'Queue']
 created: 2026-02-15
@@ -66,8 +66,8 @@ BFS(G, s)
 
 ## 관련 개념
 
-- [Graph](/knowledge/algorithms/graph/)
-- [Depth-First Search](/knowledge/algorithms/depth-first-search/)
-- [Dijkstra Algorithm](/knowledge/algorithms/dijkstra-algorithm/)
-- [Shortest Path](/knowledge/algorithms/shortest-path/)
-- [Adjacency List](/knowledge/algorithms/adjacency-list/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)
+- [깊이 우선 탐색 (Depth-First Search)](/knowledge/algorithms/depth-first-search/)
+- [다익스트라 알고리즘 (Dijkstra Algorithm)](/knowledge/algorithms/dijkstra-algorithm/)
+- [최단 경로 (Shortest Path)](/knowledge/algorithms/shortest-path/)
+- [인접 리스트 (Adjacency List)](/knowledge/algorithms/adjacency-list/)

@@ -1,5 +1,5 @@
 ---
-title: "Minimum Spanning Tree"
+title: "최소 신장 트리 (Minimum Spanning Tree)"
 description: "최소 신장 트리(MST)는 연결된 무방향 가중치 그래프 G = (V, E)에서 모든 정점을 연결하면서 총 간선 가중치의 합이 최소인 비순환 부분 집합 T를 구성하는 트리이다"
 tags: ['Minimum Spanning Tree', 'Mst', 'Spanning Tree', 'Greedy Algorithm', 'Weighted Graph']
 created: 2026-02-15
@@ -57,9 +57,9 @@ MST 간선 (총 가중치 = 18):
 
 ## 관련 개념
 
-- [Kruskal Algorithm](/knowledge/algorithms/kruskal-algorithm/)
-- [Prim Algorithm](/knowledge/algorithms/prim-algorithm/)
-- [Cut Property](/knowledge/algorithms/cut-property/)
-- [Safe Edge](/knowledge/algorithms/safe-edge/)
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/)
-- [Graph](/knowledge/algorithms/graph/)
+- [크루스칼 알고리즘 (Kruskal Algorithm)](/knowledge/algorithms/kruskal-algorithm/)
+- [프림 알고리즘 (Prim Algorithm)](/knowledge/algorithms/prim-algorithm/)
+- [절단 성질 (Cut Property)](/knowledge/algorithms/cut-property/)
+- [안전 간선 (Safe Edge)](/knowledge/algorithms/safe-edge/)
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)

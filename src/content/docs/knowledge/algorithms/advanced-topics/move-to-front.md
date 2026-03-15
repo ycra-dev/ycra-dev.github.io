@@ -1,5 +1,5 @@
 ---
-title: "Move-to-Front"
+title: "전방 이동 (Move-to-Front)"
 description: "Move-to-Front(MTF)는 연결 리스트에서 검색된 원소를 리스트의 맨 앞으로 이동시키는 자기 조직화(self-organizing) 온라인 알고리즘으로, 경쟁비 4를 달성한다"
 tags: ['Move To Front', 'Linked List', 'Online Algorithm', 'Competitive Analysis', 'Self Organizing']
 created: 2026-02-15
@@ -47,7 +47,7 @@ MTF 총 비용: 28 (4 × 17 = 68 이내)
 
 ## 관련 개념
 
-- [Online Algorithm](/knowledge/algorithms/online-algorithm/) - MTF는 대표적 온라인 알고리즘
-- [Competitive Analysis](/knowledge/algorithms/competitive-analysis/) - 4-competitive 증명
-- [Online Caching](/knowledge/algorithms/online-caching/) - 유사한 온라인 문제
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/) - 상각 분석과의 연관
+- [온라인 알고리즘 (Online Algorithm)](/knowledge/algorithms/online-algorithm/) - MTF는 대표적 온라인 알고리즘
+- [경쟁 분석 (Competitive Analysis)](/knowledge/algorithms/competitive-analysis/) - 4-competitive 증명
+- [온라인 캐싱 (Online Caching)](/knowledge/algorithms/online-caching/) - 유사한 온라인 문제
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/) - 상각 분석과의 연관

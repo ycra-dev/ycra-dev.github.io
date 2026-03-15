@@ -1,5 +1,5 @@
 ---
-title: "Polynomial Multiplication"
+title: "다항식 곱셈 (Polynomial Multiplication)"
 description: "다항식 곱셈은 두 다항식 A(x)와 B(x)의 곱 C(x) = A(x)·B(x)를 계산하는 문제로, FFT를 사용하면 Θ(n lg n) 시간에 수행할 수 있다 (기존 Θ(n²) 대비 획기적 개선)"
 tags: ['Polynomial Multiplication', 'Convolution', 'Fft', 'Coefficient Representation', 'Point Value Representation']
 created: 2026-02-15
@@ -70,6 +70,6 @@ Cartesian sum 응용:
 
 ## 관련 개념
 
-- [Fast Fourier Transform](/knowledge/algorithms/fast-fourier-transform/) - 다항식 곱셈의 핵심 도구
-- [Discrete Fourier Transform](/knowledge/algorithms/discrete-fourier-transform/) - 계수 ↔ 점-값 변환
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/) - FFT의 분할 정복 구조
+- [고속 푸리에 변환 (Fast Fourier Transform)](/knowledge/algorithms/fast-fourier-transform/) - 다항식 곱셈의 핵심 도구
+- [이산 푸리에 변환 (Discrete Fourier Transform)](/knowledge/algorithms/discrete-fourier-transform/) - 계수 ↔ 점-값 변환
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/) - FFT의 분할 정복 구조

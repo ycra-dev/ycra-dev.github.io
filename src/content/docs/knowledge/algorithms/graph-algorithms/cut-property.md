@@ -1,5 +1,5 @@
 ---
-title: "Cut Property"
+title: "절단 성질 (Cut Property)"
 description: "절단 성질(Cut Property)은 연결된 무방향 가중치 그래프에서 어떤 절단(cut)을 횡단하는 경량 간선(light edge)이 최소 신장 트리에 안전하게 추가될 수 있음을 보장하는 정리(Theorem 21"
 tags: ['Cut Property', 'Minimum Spanning Tree', 'Graph Theory', 'Light Edge', 'Greedy Algorithm']
 created: 2026-02-15
@@ -49,8 +49,8 @@ A를 포함하는 MST T에서 (u, v)가 없으면, T의 u-v 경로 위에서 절
 
 ## 관련 개념
 
-- [Minimum Spanning Tree](/knowledge/algorithms/minimum-spanning-tree/)
-- [Safe Edge](/knowledge/algorithms/safe-edge/)
-- [Kruskal Algorithm](/knowledge/algorithms/kruskal-algorithm/)
-- [Prim Algorithm](/knowledge/algorithms/prim-algorithm/)
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/)
+- [최소 신장 트리 (Minimum Spanning Tree)](/knowledge/algorithms/minimum-spanning-tree/)
+- [안전 간선 (Safe Edge)](/knowledge/algorithms/safe-edge/)
+- [크루스칼 알고리즘 (Kruskal Algorithm)](/knowledge/algorithms/kruskal-algorithm/)
+- [프림 알고리즘 (Prim Algorithm)](/knowledge/algorithms/prim-algorithm/)
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/)

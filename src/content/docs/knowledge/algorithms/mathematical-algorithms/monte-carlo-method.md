@@ -1,5 +1,5 @@
 ---
-title: "Monte Carlo Method"
+title: "몬테카를로 방법 (Monte Carlo Method)"
 description: "난수를 사용하여 확률적 샘플링으로 결정론적 문제를 수치적으로 해결하거나 시뮬레이션하는 알고리즘 총칭"
 tags: ["Algorithms", "Simulation", "Numerical Analysis", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -102,5 +102,5 @@ def stratified_pi(n_samples):
 ## 관련 개념
 
 - [Pseudorandom Number Generator](/knowledge/algorithms/mathematical-algorithms/pseudorandom-number-generator/)
-- [Random Sampling and Shuffling](/knowledge/algorithms/mathematical-algorithms/random-sampling-shuffling/)
+- [랜덤 샘플링과 셔플링 (Random Sampling and Shuffling)](/knowledge/algorithms/mathematical-algorithms/random-sampling-shuffling/)
 - [Monte Carlo Algorithm (확률 알고리즘)](/knowledge/discrete-mathematics/probability/monte-carlo-algorithm/)

@@ -1,5 +1,5 @@
 ---
-title: "Matrix Chain Multiplication"
+title: "행렬 연쇄 곱셈 (Matrix Chain Multiplication)"
 description: "행렬 체인 곱셈 문제(Matrix-Chain Multiplication Problem)는 n개의 행렬 <A1, A2, "
 tags: ['Matrix Chain Multiplication', 'Dynamic Programming', 'Parenthesization', 'Catalan Number']
 created: 2026-02-15
@@ -54,7 +54,7 @@ MATRIX-CHAIN-ORDER(p, n)
 
 ## 관련 개념
 
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
-- [Optimal Substructure](/knowledge/algorithms/optimal-substructure/)
-- [Overlapping Subproblems](/knowledge/algorithms/overlapping-subproblems/)
-- [Memoization](/knowledge/algorithms/memoization/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)
+- [최적 부분 구조 (Optimal Substructure)](/knowledge/algorithms/optimal-substructure/)
+- [중복 부분 문제 (Overlapping Subproblems)](/knowledge/algorithms/overlapping-subproblems/)
+- [메모이제이션 (Memoization)](/knowledge/algorithms/memoization/)

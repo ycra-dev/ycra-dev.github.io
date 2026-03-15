@@ -1,5 +1,5 @@
 ---
-title: "Divide and Conquer"
+title: "분할 정복 (Divide and Conquer)"
 description: "분할 정복(Divide and Conquer)은 문제를 동일한 유형의 더 작은 부분 문제로 나누고, 각 부분 문제를 재귀적으로 풀고, 해를 결합하여 원래 문제의 해를 구하는 알고리즘 설계 패러다임이다"
 tags: ['Divide And Conquer', 'Algorithm Design', 'Recursion']
 created: 2026-02-15
@@ -45,6 +45,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Merge Sort](/knowledge/algorithms/merge-sort/)
-- [Recurrence](/knowledge/algorithms/recurrence/)
-- [Algorithm](/knowledge/algorithms/algorithm/)
+- [병합 정렬 (Merge Sort)](/knowledge/algorithms/merge-sort/)
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)

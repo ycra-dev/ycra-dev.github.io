@@ -1,5 +1,5 @@
 ---
-title: "Random Sampling and Shuffling"
+title: "랜덤 샘플링과 셔플링 (Random Sampling and Shuffling)"
 description: "균일 난수를 이용하여 편향 없는 무작위 표본을 추출하거나 배열을 완전히 무작위로 섞는 알고리즘"
 tags: ["Algorithms", "Randomness", "Combinatorics", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -132,5 +132,5 @@ def alias_sample(p, alias):
 ## 관련 개념
 
 - [Pseudorandom Number Generator](/knowledge/algorithms/mathematical-algorithms/pseudorandom-number-generator/)
-- [Monte Carlo Method](/knowledge/algorithms/mathematical-algorithms/monte-carlo-method/)
-- [Permutation](/knowledge/discrete-mathematics/combinatorics/permutation/)
+- [몬테카를로 방법 (Monte Carlo Method)](/knowledge/algorithms/mathematical-algorithms/monte-carlo-method/)
+- [순열 (Permutation)](/knowledge/discrete-mathematics/combinatorics/permutation/)

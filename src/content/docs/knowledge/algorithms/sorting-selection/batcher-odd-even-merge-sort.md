@@ -1,5 +1,5 @@
 ---
-title: "Batcher Odd-Even Merge Sort"
+title: "배처 홀짝 병합 정렬 (Batcher Odd-Even Merge Sort)"
 description: "Batcher의 홀짝 병합 정렬은 비교 쌍의 순서가 미리 결정된 교환 기반 정렬로, 병렬 연산에 특히 적합하며 O(log² N) 병렬 단계로 정렬한다"
 tags: ["Batcher Odd-Even Merge Sort", "Sorting Networks", "Parallel Sorting", "TAOCP", "Exchange Sort"]
 created: 2026-02-27
@@ -48,7 +48,7 @@ N=16의 경우 (Table 1 패턴):
 
 ## 관련 개념
 
-- [Sorting Networks](/knowledge/algorithms/sorting-selection/sorting-networks/)
+- [정렬 네트워크 (Sorting Networks)](/knowledge/algorithms/sorting-selection/sorting-networks/)
 - [Bubble Sort](/knowledge/algorithms/sorting-selection/bubble-sort/)
-- [Zero-One Principle](/knowledge/algorithms/sorting-selection/zero-one-principle/)
+- [0-1 원리 (Zero-One Principle)](/knowledge/algorithms/sorting-selection/zero-one-principle/)
 - [Internal Sorting Summary](/knowledge/algorithms/sorting-selection/internal-sorting-summary/)

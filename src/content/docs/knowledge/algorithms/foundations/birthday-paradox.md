@@ -1,5 +1,5 @@
 ---
-title: "Birthday Paradox"
+title: "생일 역설 (Birthday Paradox)"
 description: "생일 패러독스(Birthday Paradox)는 방 안에 23명만 있으면 두 사람이 같은 생일일 확률이 50%를 넘는다는 직관에 반하는 확률론적 결과로, 해싱에서의 충돌 확률, 암호학적 공격 등 컴퓨터 과학의 다양한 영역에서 응용되는 핵심 개념이다"
 tags: ['Birthday Paradox', 'Probability', 'Indicator Random Variable', 'Hashing', 'Combinatorics']
 created: 2026-02-15
@@ -82,7 +82,7 @@ def birthday_simulation(k, n=365, trials=100000):
 
 ## 관련 개념
 
-- [Indicator Random Variable](/knowledge/algorithms/indicator-random-variable/) - 생일 패러독스의 근사 분석에 사용
-- [Expected Value](/knowledge/algorithms/expected-value/) - 기대 일치 쌍 수 계산
-- [Probabilistic Analysis](/knowledge/algorithms/probabilistic-analysis/) - 생일 패러독스는 확률적 분석의 대표 예시
-- [Data Structure](/knowledge/algorithms/data-structure/) - 해시 테이블에서의 충돌 확률 분석에 응용
+- [지시 확률 변수 (Indicator Random Variable)](/knowledge/algorithms/indicator-random-variable/) - 생일 패러독스의 근사 분석에 사용
+- [기대값 (Expected Value)](/knowledge/algorithms/expected-value/) - 기대 일치 쌍 수 계산
+- [확률적 분석 (Probabilistic Analysis)](/knowledge/algorithms/probabilistic-analysis/) - 생일 패러독스는 확률적 분석의 대표 예시
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/) - 해시 테이블에서의 충돌 확률 분석에 응용

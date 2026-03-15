@@ -1,5 +1,5 @@
 ---
-title: "Greatest Common Divisor (GCD)"
+title: "최대 공약수 (GCD)"
 description: "최대공약수(Greatest Common Divisor, GCD)는 두 정수 a, b의 공통 약수 중 가장 큰 값으로, gcd(a, b)로 표기한다"
 tags: ['Gcd', 'Euclidean Algorithm', 'Number Theory', 'Divisibility', 'Extended Euclid']
 created: 2026-02-15
@@ -64,7 +64,7 @@ gcd(99, 78) = 3 = 99·(-11) + 78·14
 
 ## 관련 개념
 
-- [Modular Arithmetic](/knowledge/algorithms/modular-arithmetic/) - GCD를 활용한 모듈러 연산
-- [RSA Cryptosystem](/knowledge/algorithms/rsa-cryptosystem/) - 공개키 암호에서 GCD 활용
-- [Chinese Remainder Theorem](/knowledge/algorithms/chinese-remainder-theorem/) - 서로소 조건에 GCD 사용
-- [Primality Testing](/knowledge/algorithms/primality-testing/) - 소수 판별과의 관련
+- [모듈러 연산 (Modular Arithmetic)](/knowledge/algorithms/modular-arithmetic/) - GCD를 활용한 모듈러 연산
+- [RSA 암호 체계 (RSA Cryptosystem)](/knowledge/algorithms/rsa-cryptosystem/) - 공개키 암호에서 GCD 활용
+- [중국인의 나머지 정리 (Chinese Remainder Theorem)](/knowledge/algorithms/chinese-remainder-theorem/) - 서로소 조건에 GCD 사용
+- [소수 판정 (Primality Testing)](/knowledge/algorithms/primality-testing/) - 소수 판별과의 관련

@@ -1,5 +1,5 @@
 ---
-title: "Floyd-Warshall Algorithm"
+title: "플로이드-워셜 알고리즘 (Floyd-Warshall Algorithm)"
 description: "플로이드-워셜 알고리즘은 음수 가중치 간선(음수 사이클 제외)을 허용하는 가중치 방향 그래프에서 모든 쌍 최단 경로를 Theta(V^3) 시간에 계산하는 동적 프로그래밍 알고리즘이다"
 tags: ['Floyd Warshall Algorithm', 'All Pairs Shortest Paths', 'Dynamic Programming', 'Transitive Closure']
 created: 2026-02-15
@@ -63,8 +63,8 @@ FLOYD-WARSHALL'(W, n)
 
 ## 관련 개념
 
-- [All-Pairs Shortest Paths](/knowledge/algorithms/all-pairs-shortest-paths/)
-- [Johnson Algorithm](/knowledge/algorithms/johnson-algorithm/)
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
-- [Negative Weight Cycle](/knowledge/algorithms/negative-weight-cycle/)
-- [Adjacency Matrix](/knowledge/algorithms/adjacency-matrix/)
+- [모든 쌍 최단 경로 (All-Pairs Shortest Paths)](/knowledge/algorithms/all-pairs-shortest-paths/)
+- [존슨 알고리즘 (Johnson Algorithm)](/knowledge/algorithms/johnson-algorithm/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)
+- [음수 가중치 순환 (Negative Weight Cycle)](/knowledge/algorithms/negative-weight-cycle/)
+- [인접 행렬 (Adjacency Matrix)](/knowledge/algorithms/adjacency-matrix/)

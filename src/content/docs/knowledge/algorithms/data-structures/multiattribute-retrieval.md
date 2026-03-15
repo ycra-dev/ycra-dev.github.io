@@ -1,5 +1,5 @@
 ---
-title: "Multiattribute Retrieval"
+title: "다중 속성 검색 (Multiattribute Retrieval)"
 description: "다중 속성 검색(Multiattribute Retrieval)은 레코드가 여러 개의 보조 키 속성을 가질 때, 다수의 속성 조합으로 레코드를 검색하는 기법으로, 데이터베이스의 다중 조건 쿼리 기반이다"
 tags: ["Multiattribute Retrieval", "Secondary Key", "Inverted Index", "Database", "Information Retrieval", "TAOCP"]
 created: 2026-02-27
@@ -73,8 +73,8 @@ AND 결과: 0 1 0 0 1 ...  → 레코드 2, 5, ...
 
 ## 관련 개념
 
-- [Hash Table](/knowledge/algorithms/hash-table/)
-- [Trie](/knowledge/algorithms/data-structures/trie/)
-- [B-Tree](/knowledge/algorithms/data-structures/b-tree/)
-- [Digital Search Tree](/knowledge/algorithms/data-structures/digital-search-tree/)
-- [k-d Tree](/knowledge/algorithms/data-structures/kd-tree/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)
+- [트라이 (Trie)](/knowledge/algorithms/data-structures/trie/)
+- [B-트리 (B-Tree)](/knowledge/algorithms/data-structures/b-tree/)
+- [디지털 탐색 트리 (Digital Search Tree)](/knowledge/algorithms/data-structures/digital-search-tree/)
+- [k-d 트리 (k-d Tree)](/knowledge/algorithms/data-structures/kd-tree/)

@@ -1,5 +1,5 @@
 ---
-title: "Disjoint Set"
+title: "서로소 집합 (Disjoint Set)"
 description: "분리 집합(Disjoint-Set) 자료 구조는 n개의 원소를 겹치지 않는 동적 집합들의 모음으로 관리하는 자료 구조이다"
 tags: ['Disjoint Set', 'Union Find', 'Dynamic Set', 'Connected Components', 'Partition']
 created: 2026-02-15
@@ -59,6 +59,6 @@ SAME-COMPONENT(u, v)
 ## 관련 개념
 
 - [Union Find](/knowledge/algorithms/union-find/)
-- [Path Compression](/knowledge/algorithms/path-compression/)
-- [Union by Rank](/knowledge/algorithms/union-by-rank/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [경로 압축 (Path Compression)](/knowledge/algorithms/path-compression/)
+- [랭크 기반 합치기 (Union by Rank)](/knowledge/algorithms/union-by-rank/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

@@ -1,5 +1,5 @@
 ---
-title: "Longest Common Subsequence"
+title: "최장 공통 부분 수열 (Longest Common Subsequence)"
 description: "최장 공통 부분 수열(Longest Common Subsequence, LCS) 문제는 두 수열 X와 Y가 주어졌을 때, 두 수열 모두의 부분 수열이 되는 최대 길이의 수열 Z를 찾는 문제이다"
 tags: ['Longest Common Subsequence', 'Lcs', 'Dynamic Programming', 'String Matching', 'Bioinformatics']
 created: 2026-02-15
@@ -57,6 +57,6 @@ LCS-LENGTH(X, Y, m, n)
 
 ## 관련 개념
 
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
-- [Optimal Substructure](/knowledge/algorithms/optimal-substructure/)
-- [Overlapping Subproblems](/knowledge/algorithms/overlapping-subproblems/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)
+- [최적 부분 구조 (Optimal Substructure)](/knowledge/algorithms/optimal-substructure/)
+- [중복 부분 문제 (Overlapping Subproblems)](/knowledge/algorithms/overlapping-subproblems/)

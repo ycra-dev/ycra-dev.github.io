@@ -1,5 +1,5 @@
 ---
-title: "Linear Probing"
+title: "선형 탐사 (Linear Probing)"
 description: "선형 탐사(Linear Probing)는 개방 주소법에서 충돌 발생 시 다음 슬롯을 순서대로 탐사하는 가장 단순한 충돌 해결 방법으로, Knuth가 1963년에 정확한 성능 공식을 최초로 증명했다"
 tags: ["Linear Probing", "Hashing", "Collision Resolution", "Clustering", "Open Addressing", "TAOCP"]
 created: 2026-02-27
@@ -91,8 +91,8 @@ class LinearProbingHashTable:
 
 ## 관련 개념
 
-- [Hash Table](/knowledge/algorithms/hash-table/)
-- [Open Addressing](/knowledge/algorithms/open-addressing/)
-- [Double Hashing](/knowledge/algorithms/data-structures/double-hashing/)
-- [Load Factor](/knowledge/algorithms/data-structures/load-factor/)
-- [Chaining](/knowledge/algorithms/chaining/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)
+- [개방 주소법 (Open Addressing)](/knowledge/algorithms/open-addressing/)
+- [이중 해싱 (Double Hashing)](/knowledge/algorithms/data-structures/double-hashing/)
+- [적재율 (Load Factor)](/knowledge/algorithms/data-structures/load-factor/)
+- [체이닝 (Chaining)](/knowledge/algorithms/chaining/)

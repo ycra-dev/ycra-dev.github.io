@@ -1,5 +1,5 @@
 ---
-title: "LU Decomposition"
+title: "LU 분해 (LU Decomposition)"
 description: "LU 분해는 비특이(nonsingular) 행렬 A를 단위 하삼각행렬 L과 상삼각행렬 U의 곱 A = LU (또는 치환 행렬 P를 포함한 PA = LU, LUP 분해)로 분해하는 방법이다"
 tags: ['Lu Decomposition', 'Linear Algebra', 'Matrix Factorization', 'Gaussian Elimination', 'Numerical Methods']
 created: 2026-02-15
@@ -70,6 +70,6 @@ U = [3 5 6; 0 8 0; 0 0 -2]
 
 ## 관련 개념
 
-- [Gaussian Elimination](/knowledge/algorithms/gaussian-elimination/) - LU 분해의 기반이 되는 방법
-- [Matrix Inverse](/knowledge/algorithms/matrix-inverse/) - LU 분해를 통한 역행렬 계산
-- [Linear Programming](/knowledge/algorithms/linear-programming/) - 연립 방정식 풀이에 활용
+- [가우스 소거법 (Gaussian Elimination)](/knowledge/algorithms/gaussian-elimination/) - LU 분해의 기반이 되는 방법
+- [역행렬 (Matrix Inverse)](/knowledge/algorithms/matrix-inverse/) - LU 분해를 통한 역행렬 계산
+- [선형 계획법 (Linear Programming)](/knowledge/algorithms/linear-programming/) - 연립 방정식 풀이에 활용

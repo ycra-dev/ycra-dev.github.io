@@ -1,5 +1,5 @@
 ---
-title: "Merge Insertion (Ford-Johnson Algorithm)"
+title: "병합 삽입 (Ford-Johnson 알고리즘)"
 description: "병합 삽입 정렬(Ford-Johnson Algorithm)은 n≤11에서 최적인 최소 비교 정렬 알고리즘으로, F(n)번의 비교로 ⌈log₂ n!⌉에 매우 근접한 성능을 달성한다"
 tags: ["Merge Insertion", "Ford-Johnson", "Optimal Sorting", "Minimum Comparison", "TAOCP", "Sorting"]
 created: 2026-02-27
@@ -53,6 +53,6 @@ n=5 병합 삽입 (7번 비교):
 
 ## 관련 개념
 
-- [Minimum-Comparison Sorting](/knowledge/algorithms/sorting-selection/minimum-comparison-sorting/)
-- [Binary Insertion Sort](/knowledge/algorithms/sorting-selection/binary-insertion-sort/)
-- [Comparison-Based Sorting Lower Bound](/knowledge/algorithms/sorting-selection/comparison-based-sorting-lower-bound/)
+- [최소 비교 정렬 (Minimum-Comparison Sorting)](/knowledge/algorithms/sorting-selection/minimum-comparison-sorting/)
+- [이진 삽입 정렬 (Binary Insertion Sort)](/knowledge/algorithms/sorting-selection/binary-insertion-sort/)
+- [비교 기반 정렬 하한 (Comparison-Based Sorting Lower Bound)](/knowledge/algorithms/sorting-selection/comparison-based-sorting-lower-bound/)

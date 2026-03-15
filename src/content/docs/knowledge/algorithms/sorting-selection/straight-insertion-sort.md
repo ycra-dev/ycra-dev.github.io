@@ -1,5 +1,5 @@
 ---
-title: "Straight Insertion Sort"
+title: "직접 삽입 정렬 (Straight Insertion Sort)"
 description: "직접 삽입 정렬(Straight Insertion Sort)은 j번째 레코드를 이미 정렬된 R1,...,Rj-1에 올바른 위치에 삽입하는 과정을 반복하는 가장 자연스러운 내부 정렬 알고리즘이다"
 tags: ["Straight Insertion Sort", "Insertion Sort", "Sorting", "TAOCP", "Internal Sorting"]
 created: 2026-02-27
@@ -60,8 +60,8 @@ def straight_insertion_sort(a):
 
 ## 관련 개념
 
-- [Inversions](/knowledge/algorithms/sorting-selection/inversions/)
+- [역순쌍 (Inversions)](/knowledge/algorithms/sorting-selection/inversions/)
 - [Shell's Method](/knowledge/algorithms/sorting-selection/shells-method/)
-- [Binary Insertion Sort](/knowledge/algorithms/sorting-selection/binary-insertion-sort/)
-- [List Insertion Sort](/knowledge/algorithms/sorting-selection/list-insertion-sort/)
-- [Insertion Sort](/knowledge/algorithms/insertion-sort/)
+- [이진 삽입 정렬 (Binary Insertion Sort)](/knowledge/algorithms/sorting-selection/binary-insertion-sort/)
+- [리스트 삽입 정렬 (List Insertion Sort)](/knowledge/algorithms/sorting-selection/list-insertion-sort/)
+- [삽입 정렬 (Insertion Sort)](/knowledge/algorithms/insertion-sort/)

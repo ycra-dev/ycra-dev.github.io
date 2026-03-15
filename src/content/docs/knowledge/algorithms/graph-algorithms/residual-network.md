@@ -1,5 +1,5 @@
 ---
-title: "Residual Network"
+title: "잔여 네트워크 (Residual Network)"
 description: "잔여 네트워크(Residual Network) G_f는 유량 f가 주어진 유량 네트워크 G에서, 각 간선의 추가 유량 여유(잔여 용량)를 나타내는 그래프로, 증가 경로를 탐색하는 데 사용된다"
 tags: ['Residual Network', 'Residual Capacity', 'Augmenting Path', 'Maximum Flow', 'Ford Fulkerson']
 created: 2026-02-15
@@ -62,7 +62,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Maximum Flow](/knowledge/algorithms/maximum-flow/)
-- [Flow Network](/knowledge/algorithms/flow-network/)
-- [Ford-Fulkerson Method](/knowledge/algorithms/ford-fulkerson-method/)
-- [Max-Flow Min-Cut Theorem](/knowledge/algorithms/max-flow-min-cut-theorem/)
+- [최대 유량 (Maximum Flow)](/knowledge/algorithms/maximum-flow/)
+- [유량 네트워크 (Flow Network)](/knowledge/algorithms/flow-network/)
+- [포드-풀커슨 방법 (Ford-Fulkerson Method)](/knowledge/algorithms/ford-fulkerson-method/)
+- [최대 유량 최소 절단 정리 (Max-Flow Min-Cut Theorem)](/knowledge/algorithms/max-flow-min-cut-theorem/)

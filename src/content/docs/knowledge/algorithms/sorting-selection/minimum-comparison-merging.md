@@ -1,5 +1,5 @@
 ---
-title: "Minimum-Comparison Merging"
+title: "최소 비교 병합 (Minimum-Comparison Merging)"
 description: "최소 비교 병합(Minimum-Comparison Merging)은 정렬된 m개와 n개 원소를 합치는 데 필요한 최소 비교 횟수 M(m,n)을 연구하며, 대적자 논증(adversary argument)으로 하한을 증명한다"
 tags: ["Minimum-Comparison Merging", "Merging", "Lower Bounds", "Adversary Argument", "TAOCP", "Algorithm Analysis"]
 created: 2026-02-27
@@ -55,7 +55,7 @@ C(8,3) = 56, ⌈log₂ 56⌉ = 6 (정보 이론적 하한)
 
 ## 관련 개념
 
-- [Minimum-Comparison Sorting](/knowledge/algorithms/sorting-selection/minimum-comparison-sorting/)
+- [최소 비교 정렬 (Minimum-Comparison Sorting)](/knowledge/algorithms/sorting-selection/minimum-comparison-sorting/)
 - [Merge Insertion (Ford-Johnson)](/knowledge/algorithms/sorting-selection/merge-insertion-ford-johnson/)
-- [Binary Insertion Sort](/knowledge/algorithms/sorting-selection/binary-insertion-sort/)
-- [External Sorting Overview](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
+- [이진 삽입 정렬 (Binary Insertion Sort)](/knowledge/algorithms/sorting-selection/binary-insertion-sort/)
+- [외부 정렬 개요 (External Sorting Overview)](/knowledge/algorithms/sorting-selection/external-sorting-overview/)

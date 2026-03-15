@@ -1,5 +1,5 @@
 ---
-title: "Graph"
+title: "그래프 (Graph)"
 description: "그래프(Graph)는 정점(vertex)의 집합 V와 간선(edge)의 집합 E로 구성된 자료구조 G = (V, E)로, 객체 간의 쌍별 관계를 모델링한다"
 tags: ['Graph', 'Data Structure', 'Vertices', 'Edges', 'Directed Graph', 'Undirected Graph']
 created: 2026-02-15
@@ -53,8 +53,8 @@ E = {(1,2), (1,3), (2,4), (3,4)}
 
 ## 관련 개념
 
-- [Adjacency List](/knowledge/algorithms/adjacency-list/)
-- [Adjacency Matrix](/knowledge/algorithms/adjacency-matrix/)
-- [Breadth-First Search](/knowledge/algorithms/breadth-first-search/)
-- [Depth-First Search](/knowledge/algorithms/depth-first-search/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [인접 리스트 (Adjacency List)](/knowledge/algorithms/adjacency-list/)
+- [인접 행렬 (Adjacency Matrix)](/knowledge/algorithms/adjacency-matrix/)
+- [너비 우선 탐색 (Breadth-First Search)](/knowledge/algorithms/breadth-first-search/)
+- [깊이 우선 탐색 (Depth-First Search)](/knowledge/algorithms/depth-first-search/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

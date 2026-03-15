@@ -1,5 +1,5 @@
 ---
-title: "Multiple-Precision Arithmetic"
+title: "다중 정밀도 연산 (Multiple-Precision Arithmetic)"
 description: "임의의 정밀도로 정수를 표현하고 연산하는 방법 — 기수 w의 위치 표기법으로 다자릿수 수를 처리하여 하드웨어 한계를 초월"
 tags: ["Algorithms", "Arithmetic", "Big Integer", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -121,6 +121,6 @@ print(f"Python 내장: {time.time()-start:.4f}s")
 
 ## 관련 개념
 
-- [Positional Number System](/knowledge/algorithms/mathematical-algorithms/positional-number-system/)
-- [Fast Multiplication](/knowledge/algorithms/mathematical-algorithms/fast-multiplication/)
+- [위치 기수법 (Positional Number System)](/knowledge/algorithms/mathematical-algorithms/positional-number-system/)
+- [고속 곱셈 (Fast Multiplication)](/knowledge/algorithms/mathematical-algorithms/fast-multiplication/)
 - [Euclidean Algorithm (GCD)](/knowledge/algorithms/mathematical-algorithms/euclids-algorithm/)

@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Table"
+title: "동적 테이블 (Dynamic Table)"
 description: "동적 테이블(Dynamic Table)은 삽입과 삭제에 따라 크기가 동적으로 확장(expansion)되거나 축소(contraction)되는 테이블 자료 구조이다"
 tags: ['Dynamic Table', 'Amortized Analysis', 'Table Expansion', 'Table Contraction', 'Load Factor']
 created: 2026-02-15
@@ -59,8 +59,8 @@ TABLE-INSERT(T, x)
 
 ## 관련 개념
 
-- [Amortized Analysis](/knowledge/algorithms/amortized-analysis/)
-- [Aggregate Analysis](/knowledge/algorithms/aggregate-analysis/)
-- [Accounting Method](/knowledge/algorithms/accounting-method/)
-- [Potential Method](/knowledge/algorithms/potential-method/)
-- [Hash Table](/knowledge/algorithms/hash-table/)
+- [분할 상환 분석 (Amortized Analysis)](/knowledge/algorithms/amortized-analysis/)
+- [집합 분석 (Aggregate Analysis)](/knowledge/algorithms/aggregate-analysis/)
+- [회계 방법 (Accounting Method)](/knowledge/algorithms/accounting-method/)
+- [퍼텐셜 방법 (Potential Method)](/knowledge/algorithms/potential-method/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)

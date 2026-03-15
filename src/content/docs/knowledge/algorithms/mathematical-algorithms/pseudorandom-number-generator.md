@@ -1,5 +1,5 @@
 ---
-title: "Pseudorandom Number Generator (PRNG)"
+title: "의사 난수 생성기 (PRNG)"
 description: "완전히 결정론적이지만 통계적 테스트를 통과하는 '무작위처럼 보이는' 수열을 생성하는 알고리즘"
 tags: ["Algorithms", "Randomness", "Simulation", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -84,7 +84,7 @@ print(f"표준편차: {statistics.stdev(samples):.4f}")  # ≈ 0.2887
 
 ## 관련 개념
 
-- [Linear Congruential Method](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)
-- [Monte Carlo Method](/knowledge/algorithms/mathematical-algorithms/monte-carlo-method/)
-- [Period Length (PRNG)](/knowledge/algorithms/mathematical-algorithms/period-length/)
+- [선형 합동법 (Linear Congruential Method)](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)
+- [몬테카를로 방법 (Monte Carlo Method)](/knowledge/algorithms/mathematical-algorithms/monte-carlo-method/)
+- [주기 길이 (Period Length)](/knowledge/algorithms/mathematical-algorithms/period-length/)
 - [Chi-Square Test](/knowledge/discrete-mathematics/probability/chi-square-test/)

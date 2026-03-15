@@ -1,5 +1,5 @@
 ---
-title: "Double Hashing"
+title: "이중 해싱 (Double Hashing)"
 description: "이중 해싱(Double Hashing)은 개방 주소법에서 두 개의 독립적인 해시 함수를 사용하여 탐사 시퀀스를 결정하는 충돌 해결 방법으로, 선형 탐사의 군집화 문제를 해결한다"
 tags: ["Double Hashing", "Hashing", "Collision Resolution", "Open Addressing", "Clustering Avoidance", "TAOCP"]
 created: 2026-02-27
@@ -91,8 +91,8 @@ class DoubleHashingTable:
 
 ## 관련 개념
 
-- [Hash Table](/knowledge/algorithms/hash-table/)
-- [Open Addressing](/knowledge/algorithms/open-addressing/)
-- [Linear Probing](/knowledge/algorithms/data-structures/linear-probing/)
-- [Load Factor](/knowledge/algorithms/data-structures/load-factor/)
-- [Hash Function](/knowledge/algorithms/hash-function/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)
+- [개방 주소법 (Open Addressing)](/knowledge/algorithms/open-addressing/)
+- [선형 탐사 (Linear Probing)](/knowledge/algorithms/data-structures/linear-probing/)
+- [적재율 (Load Factor)](/knowledge/algorithms/data-structures/load-factor/)
+- [해시 함수 (Hash Function)](/knowledge/algorithms/hash-function/)

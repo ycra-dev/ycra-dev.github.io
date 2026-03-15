@@ -1,5 +1,5 @@
 ---
-title: "Radix Search"
+title: "기수 탐색 (Radix Search)"
 description: "기수 탐색(Radix Search)은 키의 숫자(digit) 또는 비트를 기준으로 탐색 공간을 분할하는 디지털 탐색 방법의 총칭으로, 비교 기반 탐색과 달리 키의 내부 구조를 직접 활용한다"
 tags: ["Radix Search", "Searching", "Digital Searching", "Radix", "Bit Manipulation", "TAOCP"]
 created: 2026-02-27
@@ -74,7 +74,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Trie](/knowledge/algorithms/data-structures/trie/)
-- [Digital Search Tree](/knowledge/algorithms/data-structures/digital-search-tree/)
-- [Patricia Tree](/knowledge/algorithms/data-structures/patricia-tree/)
-- [Hash Table](/knowledge/algorithms/hash-table/)
+- [트라이 (Trie)](/knowledge/algorithms/data-structures/trie/)
+- [디지털 탐색 트리 (Digital Search Tree)](/knowledge/algorithms/data-structures/digital-search-tree/)
+- [패트리샤 트리 (Patricia Tree)](/knowledge/algorithms/data-structures/patricia-tree/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)

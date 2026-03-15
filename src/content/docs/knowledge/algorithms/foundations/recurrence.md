@@ -1,5 +1,5 @@
 ---
-title: "Recurrence"
+title: "점화식 (Recurrence)"
 description: "점화식(Recurrence)은 더 작은 입력에 대한 같은 함수의 값으로 전체 수행 시간 T(n)을 기술하는 수학적 등식 또는 부등식이다"
 tags: ['Recurrence', 'Recursion', 'Running Time', 'Mathematical Analysis']
 created: 2026-02-15
@@ -52,6 +52,6 @@ T(n) = aT(n/b) + f(n)
 
 ## 관련 개념
 
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/)
-- [Merge Sort](/knowledge/algorithms/merge-sort/)
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/)
+- [병합 정렬 (Merge Sort)](/knowledge/algorithms/merge-sort/)
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/)

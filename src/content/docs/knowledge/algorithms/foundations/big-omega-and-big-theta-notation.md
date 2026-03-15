@@ -1,5 +1,5 @@
 ---
-title: "Big-Omega and Big-Theta Notation"
+title: "빅오메가와 빅세타 표기법 (Big-Omega and Big-Theta Notation)"
 description: "Big-Omega: f(x)가 Ω(g(x))이라 함은, x > k일 때 |f(x)| >= C|g(x)|를 만족하는 양의 상수 C와 k가 존재한다는 것으로, 점근적 하한(asymptotic lower bound)을 나타낸다"
 tags: ['Big Omega', 'Big Theta', 'Asymptotic Analysis', 'Lower Bound', 'Tight Bound', 'Growth Of Functions']
 created: 2026-02-16
@@ -58,6 +58,6 @@ Donald Knuth가 1970년대에 Big-O 표기법의 오용을 방지하기 위해 B
 
 ## 관련 개념
 
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 점근적 상한 표기법
-- [Time Complexity](/knowledge/algorithms/time-complexity/) - 알고리즘 분석에서의 활용
-- [Sorting Algorithm](/knowledge/algorithms/sorting-algorithm/) - 정렬 알고리즘의 Θ(n²), Θ(n log n) 복잡도
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - 점근적 상한 표기법
+- [시간 복잡도 (Time Complexity)](/knowledge/algorithms/time-complexity/) - 알고리즘 분석에서의 활용
+- [정렬 알고리즘 (Sorting Algorithm)](/knowledge/algorithms/sorting-algorithm/) - 정렬 알고리즘의 Θ(n²), Θ(n log n) 복잡도

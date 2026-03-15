@@ -1,5 +1,5 @@
 ---
-title: "Adjacency List"
+title: "인접 리스트 (Adjacency List)"
 description: "인접 리스트(Adjacency List)는 그래프 G = (V, E)를 |V|개의 리스트 배열로 표현하는 방식으로, 각 정점 u에 대해 Adj[u]가 u에 인접한 모든 정점의 리스트를 포함한다"
 tags: ['Adjacency List', 'Graph Representation', 'Sparse Graph', 'Data Structure']
 created: 2026-02-15
@@ -49,8 +49,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Graph](/knowledge/algorithms/graph/)
-- [Adjacency Matrix](/knowledge/algorithms/adjacency-matrix/)
-- [Breadth-First Search](/knowledge/algorithms/breadth-first-search/)
-- [Depth-First Search](/knowledge/algorithms/depth-first-search/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)
+- [인접 행렬 (Adjacency Matrix)](/knowledge/algorithms/adjacency-matrix/)
+- [너비 우선 탐색 (Breadth-First Search)](/knowledge/algorithms/breadth-first-search/)
+- [깊이 우선 탐색 (Depth-First Search)](/knowledge/algorithms/depth-first-search/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

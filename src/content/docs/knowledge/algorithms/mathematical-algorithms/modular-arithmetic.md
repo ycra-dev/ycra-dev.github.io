@@ -1,5 +1,5 @@
 ---
-title: "Modular Arithmetic"
+title: "모듈러 연산 (Modular Arithmetic)"
 description: "모듈러 산술(Modular Arithmetic)은 정수를 n으로 나눈 나머지에 기반한 산술 체계로, 유한 군(finite group)의 구조를 통해 형식화되며 암호학과 정수론의 핵심 기반이다"
 tags: ['Modular Arithmetic', 'Number Theory', 'Group Theory', 'Multiplicative Inverse', 'Euler Phi']
 created: 2026-02-15
@@ -64,6 +64,6 @@ MODULAR-EXPONENTIATION(a, b, n)  // a^b mod n 계산
 ## 관련 개념
 
 - [GCD](/knowledge/algorithms/gcd/) - 모듈러 역원 계산에 확장 유클리드 사용
-- [RSA Cryptosystem](/knowledge/algorithms/rsa-cryptosystem/) - 모듈러 산술 기반 암호
-- [Primality Testing](/knowledge/algorithms/primality-testing/) - 페르마 소정리 기반 판별
-- [Chinese Remainder Theorem](/knowledge/algorithms/chinese-remainder-theorem/) - 모듈러 체계의 분해
+- [RSA 암호 체계 (RSA Cryptosystem)](/knowledge/algorithms/rsa-cryptosystem/) - 모듈러 산술 기반 암호
+- [소수 판정 (Primality Testing)](/knowledge/algorithms/primality-testing/) - 페르마 소정리 기반 판별
+- [중국인의 나머지 정리 (Chinese Remainder Theorem)](/knowledge/algorithms/chinese-remainder-theorem/) - 모듈러 체계의 분해

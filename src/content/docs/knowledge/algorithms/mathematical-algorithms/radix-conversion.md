@@ -1,5 +1,5 @@
 ---
-title: "Radix Conversion"
+title: "기수 변환 (Radix Conversion)"
 description: "한 기수(radix) b의 위치 표기법으로 표현된 수를 다른 기수 B의 표기법으로 변환하는 알고리즘 — 이진↔십진 변환이 핵심"
 tags: ["Algorithms", "Arithmetic", "Number Systems", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -100,6 +100,6 @@ print(fast_int_to_decimal(10**18 + 999))  # 1000000000000000999
 
 ## 관련 개념
 
-- [Positional Number System](/knowledge/algorithms/mathematical-algorithms/positional-number-system/)
-- [Multiple-Precision Arithmetic](/knowledge/algorithms/mathematical-algorithms/multiple-precision-arithmetic/)
-- [Horner's Rule](/knowledge/algorithms/mathematical-algorithms/horners-rule/)
+- [위치 기수법 (Positional Number System)](/knowledge/algorithms/mathematical-algorithms/positional-number-system/)
+- [다중 정밀도 연산 (Multiple-Precision Arithmetic)](/knowledge/algorithms/mathematical-algorithms/multiple-precision-arithmetic/)
+- [호너의 법칙 (Horner's Rule)](/knowledge/algorithms/mathematical-algorithms/horners-rule/)

@@ -1,5 +1,5 @@
 ---
-title: "Potential Method"
+title: "퍼텐셜 방법 (Potential Method)"
 description: "포텐셜 방법(Potential Method)은 데이터 구조 전체에 \"포텐셜 에너지\"를 부여하는 포텐셜 함수 Phi를 정의하고, 각 연산의 분할 상환 비용을 실제 비용과 포텐셜 변화량의 합으로 정의하는 분할 상환 분석 기법이다"
 tags: ['Potential Method', 'Amortized Analysis', 'Potential Function', 'Energy']
 created: 2026-02-15
@@ -66,8 +66,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Amortized Analysis](/knowledge/algorithms/amortized-analysis/)
-- [Aggregate Analysis](/knowledge/algorithms/aggregate-analysis/)
-- [Accounting Method](/knowledge/algorithms/accounting-method/)
-- [Dynamic Table](/knowledge/algorithms/dynamic-table/)
+- [분할 상환 분석 (Amortized Analysis)](/knowledge/algorithms/amortized-analysis/)
+- [집합 분석 (Aggregate Analysis)](/knowledge/algorithms/aggregate-analysis/)
+- [회계 방법 (Accounting Method)](/knowledge/algorithms/accounting-method/)
+- [동적 테이블 (Dynamic Table)](/knowledge/algorithms/dynamic-table/)
 - [Union Find](/knowledge/algorithms/union-find/)

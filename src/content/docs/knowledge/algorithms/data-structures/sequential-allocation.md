@@ -1,5 +1,5 @@
 ---
-title: "Sequential Allocation"
+title: "순차 할당 (Sequential Allocation)"
 description: "데이터를 연속된 메모리 위치에 순차적으로 배치하는 방식으로, 스택·큐·덱을 배열로 구현할 때 사용하는 메모리 관리 전략"
 tags: ["Data Structures", "Memory", "Algorithms", "TAOCP"]
 created: 2026-02-27
@@ -99,7 +99,7 @@ print(q.size())     # 4
 
 ## 관련 개념
 
-- [Array](/knowledge/algorithms/data-structures/array/)
-- [Stack](/knowledge/algorithms/data-structures/stack/)
-- [Queue](/knowledge/algorithms/data-structures/queue/)
-- [Deque](/knowledge/algorithms/data-structures/deque/)
+- [배열 (Array)](/knowledge/algorithms/data-structures/array/)
+- [스택 (Stack)](/knowledge/algorithms/data-structures/stack/)
+- [큐 (Queue)](/knowledge/algorithms/data-structures/queue/)
+- [덱 (Deque)](/knowledge/algorithms/data-structures/deque/)

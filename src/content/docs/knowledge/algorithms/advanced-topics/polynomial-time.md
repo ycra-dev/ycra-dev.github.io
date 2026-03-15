@@ -1,5 +1,5 @@
 ---
-title: "Polynomial Time"
+title: "다항 시간 (Polynomial Time)"
 description: "다항 시간(Polynomial Time)은 입력 크기 n에 대해 O(n^k) (상수 k) 시간 내에 해결 가능함을 의미하며, 복잡도 클래스 P는 다항 시간에 판정 가능한 모든 결정 문제의 집합이다"
 tags: ['Polynomial Time', 'Complexity Class P', 'Tractability', 'Decision Problem', 'Encoding']
 created: 2026-02-15
@@ -67,7 +67,7 @@ SHORTEST-PATH (최적화) → PATH (결정)
 
 ## 관련 개념
 
-- [NP-Completeness](/knowledge/algorithms/np-completeness/) - P와 NP의 관계
-- [P vs NP](/knowledge/algorithms/p-vs-np/) - P = NP 여부의 미해결 문제
-- [Reduction](/knowledge/algorithms/reduction/) - 문제 간 난이도 비교 도구
-- [NP-Hard](/knowledge/algorithms/np-hard/) - P에 속하지 않을 가능성이 높은 문제
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/np-completeness/) - P와 NP의 관계
+- [P vs NP 문제](/knowledge/algorithms/p-vs-np/) - P = NP 여부의 미해결 문제
+- [환원 (Reduction)](/knowledge/algorithms/reduction/) - 문제 간 난이도 비교 도구
+- [NP-난해 (NP-Hard)](/knowledge/algorithms/np-hard/) - P에 속하지 않을 가능성이 높은 문제

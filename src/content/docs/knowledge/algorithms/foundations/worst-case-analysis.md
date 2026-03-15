@@ -1,5 +1,5 @@
 ---
-title: "Worst-Case Analysis"
+title: "최악의 경우 분석 (Worst-Case Analysis)"
 description: "최악의 경우 분석(Worst-Case Analysis)은 크기 n인 모든 입력 중에서 가장 긴 수행 시간을 구하는 알고리즘 분석 방법으로, 알고리즘의 성능 상한(upper bound)을 제공한다"
 tags: ['Worst Case', 'Analysis', 'Running Time', 'Upper Bound']
 created: 2026-02-15
@@ -44,6 +44,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/algorithm/)
-- [Insertion Sort](/knowledge/algorithms/insertion-sort/)
-- [RAM Model](/knowledge/algorithms/ram-model/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)
+- [삽입 정렬 (Insertion Sort)](/knowledge/algorithms/insertion-sort/)
+- [RAM 모델 (RAM Model)](/knowledge/algorithms/ram-model/)

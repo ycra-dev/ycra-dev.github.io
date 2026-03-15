@@ -1,5 +1,5 @@
 ---
-title: "Tree Search"
+title: "트리 탐색 (Tree Search)"
 description: "트리 검색(Tree Search)은 이진 탐색 트리에서 키를 찾거나 최솟값/최댓값, 후속자/선행자를 구하는 질의 연산들의 총칭으로, 모두 트리의 높이 h에 비례하는 O(h) 시간에 수행된다"
 tags: ['Tree Search', 'Binary Search Tree', 'Query', 'Minimum', 'Maximum', 'Successor', 'Predecessor']
 created: 2026-02-15
@@ -77,6 +77,6 @@ TREE-SUCCESSOR(x)
 
 ## 관련 개념
 
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Inorder Traversal](/knowledge/algorithms/inorder-traversal/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [중위 순회 (Inorder Traversal)](/knowledge/algorithms/inorder-traversal/)
 - [BST Insertion Deletion](/knowledge/algorithms/bst-insertion-deletion/)

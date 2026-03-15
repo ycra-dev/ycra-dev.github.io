@@ -1,5 +1,5 @@
 ---
-title: "Kruskal Algorithm"
+title: "크루스칼 알고리즘 (Kruskal Algorithm)"
 description: "크루스칼 알고리즘은 가중치가 가장 작은 간선부터 순서대로 선택하되, 사이클을 형성하지 않는 간선만 추가하여 최소 신장 트리를 구성하는 탐욕 알고리즘이다"
 tags: ['Kruskal Algorithm', 'Minimum Spanning Tree', 'Greedy Algorithm', 'Disjoint Set', 'Union Find']
 created: 2026-02-15
@@ -59,7 +59,7 @@ MST-KRUSKAL(G, w)
 
 ## 관련 개념
 
-- [Minimum Spanning Tree](/knowledge/algorithms/minimum-spanning-tree/)
-- [Prim Algorithm](/knowledge/algorithms/prim-algorithm/)
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/)
-- [Safe Edge](/knowledge/algorithms/safe-edge/)
+- [최소 신장 트리 (Minimum Spanning Tree)](/knowledge/algorithms/minimum-spanning-tree/)
+- [프림 알고리즘 (Prim Algorithm)](/knowledge/algorithms/prim-algorithm/)
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/)
+- [안전 간선 (Safe Edge)](/knowledge/algorithms/safe-edge/)

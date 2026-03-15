@@ -1,5 +1,5 @@
 ---
-title: "Suffix Array"
+title: "접미사 배열 (Suffix Array)"
 description: "접미사 배열(Suffix Array)은 문자열의 모든 접미사를 사전순으로 정렬한 인덱스 배열로, 패턴 검색뿐만 아니라 최장 반복 부분 문자열, 두 문자열의 최장 공통 부분 문자열 등 다양한 문자열 문제를 해결할 수 있는 자료구조이다"
 tags: ['Suffix Array', 'String Matching', 'Longest Common Prefix', 'Text Indexing', 'Sorting']
 created: 2026-02-15
@@ -75,6 +75,6 @@ LCP[7]=2: na$와 nana$ → "na" (길이 2)
 
 ## 관련 개념
 
-- [String Matching](/knowledge/algorithms/string-matching/) - 접미사 배열의 핵심 응용
+- [문자열 매칭 (String Matching)](/knowledge/algorithms/string-matching/) - 접미사 배열의 핵심 응용
 - [Knuth-Morris-Pratt](/knowledge/algorithms/knuth-morris-pratt/) - 단일 패턴 매칭의 대안
 - [Rabin-Karp](/knowledge/algorithms/rabin-karp/) - 해시 기반 매칭의 대안

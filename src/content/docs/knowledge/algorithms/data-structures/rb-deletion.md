@@ -1,5 +1,5 @@
 ---
-title: "RB Deletion"
+title: "레드-블랙 트리 삭제 (RB Deletion)"
 description: "레드-블랙 트리 삭제(RB Deletion)는 노드를 삭제한 후, 삭제된 노드의 원래 색이 BLACK이었을 때 RB-DELETE-FIXUP을 통해 색상 변경과 회전을 수행하여 레드-블랙 성질을 O(lg n) 시간에 복구하는 연산이다"
 tags: ['Rb Deletion', 'Red Black Tree', 'Deletion', 'Fixup', 'Rotation', 'Doubly Black']
 created: 2026-02-15
@@ -96,8 +96,8 @@ RB-DELETE-FIXUP(T, x)
 
 ## 관련 개념
 
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
-- [Rotation](/knowledge/algorithms/rotation/)
-- [RB Insertion](/knowledge/algorithms/rb-insertion/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)
+- [회전 (Rotation)](/knowledge/algorithms/rotation/)
+- [레드-블랙 트리 삽입 (RB Insertion)](/knowledge/algorithms/rb-insertion/)
 - [BST Insertion Deletion](/knowledge/algorithms/bst-insertion-deletion/)
-- [Balanced Tree](/knowledge/algorithms/balanced-tree/)
+- [균형 트리 (Balanced Tree)](/knowledge/algorithms/balanced-tree/)

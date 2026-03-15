@@ -1,5 +1,5 @@
 ---
-title: "Counting Sort"
+title: "계수 정렬 (Counting Sort)"
 description: "계수 정렬(Counting Sort)은 각 입력 원소가 0부터 k까지의 정수라고 가정하고, 각 값의 출현 횟수를 세어 원소를 직접 올바른 위치에 배치하는 비비교 기반의 안정적(stable) 선형 시간 정렬 알고리즘이다"
 tags: ['Counting Sort', 'Linear Time Sorting', 'Stable Sort', 'Non Comparison Sort', 'Integer Sorting']
 created: 2026-02-15
@@ -68,8 +68,8 @@ Step 3 (역순 배치):
 
 ## 관련 개념
 
-- [Comparison Sort Lower Bound](/knowledge/algorithms/comparison-sort-lower-bound/)
-- [Radix Sort](/knowledge/algorithms/radix-sort/)
-- [Bucket Sort](/knowledge/algorithms/bucket-sort/)
-- [Algorithm](/knowledge/algorithms/algorithm/)
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/)
+- [비교 정렬 하한 (Comparison Sort Lower Bound)](/knowledge/algorithms/comparison-sort-lower-bound/)
+- [기수 정렬 (Radix Sort)](/knowledge/algorithms/radix-sort/)
+- [버킷 정렬 (Bucket Sort)](/knowledge/algorithms/bucket-sort/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/)

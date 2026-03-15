@@ -1,5 +1,5 @@
 ---
-title: "Cascade Merge Sort"
+title: "캐스케이드 병합 정렬 (Cascade Merge Sort)"
 description: "캐스케이드 병합 정렬은 외부 정렬에서 다중 웨이 병합을 단계적으로 줄여가며 수행하며, 테이프 되감기 오버랩을 활용하여 폴리페이즈보다 효율적일 수 있는 방법이다"
 tags: ["Cascade Merge Sort", "External Sorting", "Tape Sorting", "TAOCP", "Merge Patterns", "Tape Efficiency"]
 created: 2026-02-27
@@ -59,7 +59,7 @@ T=5, 캐스케이드 병합:
 
 ## 관련 개념
 
-- [External Sorting Overview](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
-- [Polyphase Merge Sort](/knowledge/algorithms/sorting-selection/polyphase-merge-sort/)
-- [Oscillating Sort](/knowledge/algorithms/sorting-selection/oscillating-sort/)
-- [Tape Buffering and Forecasting](/knowledge/algorithms/sorting-selection/tape-buffering-forecasting/)
+- [외부 정렬 개요 (External Sorting Overview)](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
+- [다단계 병합 정렬 (Polyphase Merge Sort)](/knowledge/algorithms/sorting-selection/polyphase-merge-sort/)
+- [진동 정렬 (Oscillating Sort)](/knowledge/algorithms/sorting-selection/oscillating-sort/)
+- [테이프 버퍼링과 예측 (Tape Buffering and Forecasting)](/knowledge/algorithms/sorting-selection/tape-buffering-forecasting/)

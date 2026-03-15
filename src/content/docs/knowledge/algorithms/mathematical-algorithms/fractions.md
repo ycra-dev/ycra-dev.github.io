@@ -1,5 +1,5 @@
 ---
-title: "Fractions (Rational Arithmetic)"
+title: "분수 연산 (Fractions)"
 description: "유리수를 분자/분모 쌍으로 정확하게 표현하고 연산하는 알고리즘 — GCD를 이용한 기약 분수 유지가 핵심"
 tags: ["Algorithms", "Arithmetic", "Number Theory", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -120,5 +120,5 @@ print(PyFraction('3.14159'))  # 314159/100000
 ## 관련 개념
 
 - [Euclidean Algorithm (GCD)](/knowledge/algorithms/mathematical-algorithms/euclids-algorithm/)
-- [Modular Arithmetic](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
-- [Multiple-Precision Arithmetic](/knowledge/algorithms/mathematical-algorithms/multiple-precision-arithmetic/)
+- [모듈러 연산 (Modular Arithmetic)](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
+- [다중 정밀도 연산 (Multiple-Precision Arithmetic)](/knowledge/algorithms/mathematical-algorithms/multiple-precision-arithmetic/)

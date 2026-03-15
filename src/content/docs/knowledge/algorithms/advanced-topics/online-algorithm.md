@@ -1,5 +1,5 @@
 ---
-title: "Online Algorithm"
+title: "온라인 알고리즘 (Online Algorithm)"
 description: "온라인 알고리즘(Online Algorithm)은 입력을 한꺼번에 받지 않고 시간에 따라 점진적으로 받으면서 각 입력에 대해 즉시 결정을 내려야 하는 알고리즘이다"
 tags: ['Online Algorithm', 'Competitive Analysis', 'Decision Making', 'Adversarial']
 created: 2026-02-15
@@ -50,7 +50,7 @@ t(m) = k       (m >= k일 때, 계단)
 
 ## 관련 개념
 
-- [Competitive Analysis](/knowledge/algorithms/competitive-analysis/) - 온라인 알고리즘의 주요 분석 기법
-- [Move-to-Front](/knowledge/algorithms/move-to-front/) - 검색 리스트 유지의 온라인 알고리즘
-- [Online Caching](/knowledge/algorithms/online-caching/) - 캐시 관리의 온라인 알고리즘
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/) - 탐욕적 접근과의 연관성
+- [경쟁 분석 (Competitive Analysis)](/knowledge/algorithms/competitive-analysis/) - 온라인 알고리즘의 주요 분석 기법
+- [전방 이동 (Move-to-Front)](/knowledge/algorithms/move-to-front/) - 검색 리스트 유지의 온라인 알고리즘
+- [온라인 캐싱 (Online Caching)](/knowledge/algorithms/online-caching/) - 캐시 관리의 온라인 알고리즘
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/) - 탐욕적 접근과의 연관성

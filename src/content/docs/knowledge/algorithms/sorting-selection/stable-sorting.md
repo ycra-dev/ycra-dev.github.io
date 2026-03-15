@@ -1,5 +1,5 @@
 ---
-title: "Stable Sorting"
+title: "안정 정렬 (Stable Sorting)"
 description: "안정 정렬(Stable Sorting)은 동등한 키를 가진 레코드들이 정렬 후에도 원래의 상대적 순서를 유지하는 정렬 방법이다"
 tags: ["Stable Sorting", "Sorting", "Properties", "TAOCP", "Multi-key Sorting"]
 created: 2026-02-27
@@ -62,6 +62,6 @@ by_grade_then_name = sorted(by_name, key=lambda x: x[1])
 ## 관련 개념
 
 - [Sorting Overview](/knowledge/algorithms/sorting-selection/sorting-overview/)
-- [Straight Insertion Sort](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
-- [Radix Sorting (LSD)](/knowledge/algorithms/sorting-selection/radix-sorting-lsd/)
-- [Sorting Algorithm](/knowledge/algorithms/sorting-algorithm/)
+- [직접 삽입 정렬 (Straight Insertion Sort)](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
+- [기수 정렬 LSD (Radix Sorting LSD)](/knowledge/algorithms/sorting-selection/radix-sorting-lsd/)
+- [정렬 알고리즘 (Sorting Algorithm)](/knowledge/algorithms/sorting-algorithm/)

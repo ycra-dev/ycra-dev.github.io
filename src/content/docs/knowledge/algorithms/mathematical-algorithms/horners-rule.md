@@ -1,5 +1,5 @@
 ---
-title: "Horner's Rule"
+title: "호너의 법칙 (Horner's Rule)"
 description: "다항식 a_n x^n + ... + a_1 x + a_0를 (((...((a_n x + a_{n-1})x + a_{n-2})x + ...)x + a_0) 형태로 n번의 곱셈과 덧셈으로 계산하는 최적 알고리즘"
 tags: ["Algorithms", "Polynomial", "Evaluation", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -113,6 +113,6 @@ print(f"Horner: {horner_evaluate(coeffs_np, x_val):.6e}")
 
 ## 관련 개념
 
-- [Polynomial Arithmetic](/knowledge/algorithms/mathematical-algorithms/polynomial-arithmetic/)
-- [Radix Conversion](/knowledge/algorithms/mathematical-algorithms/radix-conversion/)
-- [Fast Multiplication](/knowledge/algorithms/mathematical-algorithms/fast-multiplication/)
+- [다항식 연산 (Polynomial Arithmetic)](/knowledge/algorithms/mathematical-algorithms/polynomial-arithmetic/)
+- [기수 변환 (Radix Conversion)](/knowledge/algorithms/mathematical-algorithms/radix-conversion/)
+- [고속 곱셈 (Fast Multiplication)](/knowledge/algorithms/mathematical-algorithms/fast-multiplication/)

@@ -1,5 +1,5 @@
 ---
-title: "Subroutine"
+title: "서브루틴 (Subroutine)"
 description: "프로그램 내 여러 곳에서 반복되는 코드를 한 곳에만 배치하여 호출하고 복귀하는 코드 단위 — 현대 함수(function)의 원형"
 tags: ["Algorithms", "Programming", "Abstraction", "TAOCP"]
 created: 2026-02-27
@@ -82,6 +82,6 @@ EXIT    JMP  *          * 복귀 (rA = 최대값, rI2 = 위치)
 
 ## 관련 개념
 
-- [MIX Computer](/knowledge/algorithms/foundations/mix-computer/)
-- [Coroutine](/knowledge/algorithms/foundations/coroutine/)
-- [Stack](/knowledge/algorithms/data-structures/stack/)
+- [MIX 컴퓨터 (MIX Computer)](/knowledge/algorithms/foundations/mix-computer/)
+- [코루틴 (Coroutine)](/knowledge/algorithms/foundations/coroutine/)
+- [스택 (Stack)](/knowledge/algorithms/data-structures/stack/)

@@ -1,5 +1,5 @@
 ---
-title: "Randomized Algorithm"
+title: "랜덤 알고리즘 (Randomized Algorithm)"
 description: "무작위화 알고리즘(Randomized Algorithm)은 입력뿐만 아니라 난수 생성기(random-number generator)가 생성하는 값에 의해서도 동작이 결정되는 알고리즘으로, 동일한 입력에 대해서도 실행할 때마다 다른 동작과 결과를 보일 수 있다"
 tags: ['Randomized Algorithm', 'Random Number Generator', 'Expected Running Time', 'Probability']
 created: 2026-02-15
@@ -83,10 +83,10 @@ ONLINE-MAXIMUM(k, n)
 
 ## 관련 개념
 
-- [Probabilistic Analysis](/knowledge/algorithms/probabilistic-analysis/) - 무작위화 알고리즘과 대비되는 분석 기법
-- [Hiring Problem](/knowledge/algorithms/hiring-problem/) - 무작위화 알고리즘의 동기가 되는 모델 문제
-- [Expected Value](/knowledge/algorithms/expected-value/) - 무작위화 알고리즘의 성능 측정에 사용
-- [Indicator Random Variable](/knowledge/algorithms/indicator-random-variable/) - 기대 수행 시간 분석의 핵심 도구
-- [Loop Invariant](/knowledge/algorithms/loop-invariant/) - RANDOMLY-PERMUTE의 정당성 증명에 사용
-- [Correctness](/knowledge/algorithms/correctness/) - 무작위화 알고리즘의 정당성 보장 방법
-- [Algorithm](/knowledge/algorithms/algorithm/) - 무작위화는 알고리즘 설계의 중요한 패러다임
+- [확률적 분석 (Probabilistic Analysis)](/knowledge/algorithms/probabilistic-analysis/) - 무작위화 알고리즘과 대비되는 분석 기법
+- [고용 문제 (Hiring Problem)](/knowledge/algorithms/hiring-problem/) - 무작위화 알고리즘의 동기가 되는 모델 문제
+- [기대값 (Expected Value)](/knowledge/algorithms/expected-value/) - 무작위화 알고리즘의 성능 측정에 사용
+- [지시 확률 변수 (Indicator Random Variable)](/knowledge/algorithms/indicator-random-variable/) - 기대 수행 시간 분석의 핵심 도구
+- [루프 불변량 (Loop Invariant)](/knowledge/algorithms/loop-invariant/) - RANDOMLY-PERMUTE의 정당성 증명에 사용
+- [정확성 (Correctness)](/knowledge/algorithms/correctness/) - 무작위화 알고리즘의 정당성 보장 방법
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 무작위화는 알고리즘 설계의 중요한 패러다임

@@ -1,5 +1,5 @@
 ---
-title: "Rotation"
+title: "회전 (Rotation)"
 description: "회전(Rotation)은 이진 탐색 트리에서 BST 성질을 유지하면서 노드의 포인터 구조를 변경하는 O(1) 시간의 지역 연산으로, 레드-블랙 트리의 삽입/삭제 후 균형을 복구하는 핵심 도구이다"
 tags: ['Rotation', 'Red Black Tree', 'Binary Search Tree', 'Left Rotation', 'Right Rotation', 'Tree Restructuring']
 created: 2026-02-15
@@ -73,8 +73,8 @@ LEFT-ROTATE(T, x)
 
 ## 관련 개념
 
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
-- [RB Insertion](/knowledge/algorithms/rb-insertion/)
-- [RB Deletion](/knowledge/algorithms/rb-deletion/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Balanced Tree](/knowledge/algorithms/balanced-tree/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)
+- [레드-블랙 트리 삽입 (RB Insertion)](/knowledge/algorithms/rb-insertion/)
+- [레드-블랙 트리 삭제 (RB Deletion)](/knowledge/algorithms/rb-deletion/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [균형 트리 (Balanced Tree)](/knowledge/algorithms/balanced-tree/)

@@ -1,5 +1,5 @@
 ---
-title: "Optimal Binary Search Tree"
+title: "최적 이진 탐색 트리 (Optimal Binary Search Tree)"
 description: "최적 이진 탐색 트리(Optimal Binary Search Tree)는 주어진 탐색 확률 분포에서 평균 탐색 비용이 최소가 되도록 구성된 이진 탐색 트리로, 키의 탐색 빈도가 알려진 정적 탐색에서 사용된다"
 tags: ["Optimal Binary Search Tree", "Dynamic Programming", "Tree", "Optimization", "Static Searching", "TAOCP"]
 created: 2026-02-27
@@ -77,7 +77,7 @@ def optimal_bst(p, q, n):
 
 ## 관련 개념
 
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [AVL Tree](/knowledge/algorithms/data-structures/avl-tree/)
-- [Binary Search](/knowledge/algorithms/data-structures/binary-search/)
-- [Fibonacci Search](/knowledge/algorithms/data-structures/fibonacci-search/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [AVL 트리 (AVL Tree)](/knowledge/algorithms/data-structures/avl-tree/)
+- [이진 탐색 (Binary Search)](/knowledge/algorithms/data-structures/binary-search/)
+- [피보나치 탐색 (Fibonacci Search)](/knowledge/algorithms/data-structures/fibonacci-search/)

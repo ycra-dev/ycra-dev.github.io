@@ -1,5 +1,5 @@
 ---
-title: "Order of Growth"
+title: "증가 차수 (Order of Growth)"
 description: "증가 차수(Order of Growth)는 입력 크기가 증가할 때 알고리즘 수행 시간의 증가율을 나타내며, 최고 차항만을 고려하고 상수 계수와 하위 차항을 무시한다"
 tags: ['Order Of Growth', 'Asymptotic Efficiency', 'Complexity Hierarchy']
 created: 2026-02-15
@@ -53,6 +53,6 @@ n = 1,000,000 일 때:
 
 ## 관련 개념
 
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/)
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
-- [Algorithm](/knowledge/algorithms/algorithm/)
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/)
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)

@@ -1,5 +1,5 @@
 ---
-title: "Prime Factorization"
+title: "소인수 분해 (Prime Factorization)"
 description: "양의 정수 n을 소인수의 곱 n = p₁^e₁ × p₂^e₂ × ... 로 유일하게 분해하는 과정"
 tags: ["Algorithms", "Number Theory", "Cryptography", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -137,7 +137,7 @@ print(f"소인수분해: {factorize(n)}")
 
 ## 관련 개념
 
-- [Prime Number](/knowledge/discrete-mathematics/number-theory/prime-number/)
+- [소수 (Prime Number)](/knowledge/discrete-mathematics/number-theory/prime-number/)
 - [GCD](/knowledge/algorithms/mathematical-algorithms/gcd/)
-- [Modular Arithmetic](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
-- [RSA Cryptosystem](/knowledge/algorithms/mathematical-algorithms/rsa-cryptosystem/)
+- [모듈러 연산 (Modular Arithmetic)](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
+- [RSA 암호 체계 (RSA Cryptosystem)](/knowledge/algorithms/mathematical-algorithms/rsa-cryptosystem/)

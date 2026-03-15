@@ -1,5 +1,5 @@
 ---
-title: "Binary Search"
+title: "이진 탐색 (Binary Search)"
 description: "이진 탐색(Binary Search)은 정렬된 리스트에서 중간 원소와 비교하여 탐색 범위를 반씩 줄여나가는 탐색 알고리즘이다"
 tags: ['Binary Search', 'Searching Algorithm', 'Divide And Conquer', 'Logarithmic Complexity']
 created: 2026-02-16
@@ -62,8 +62,8 @@ procedure binary_search(x: integer, a1, a2, ..., an: increasing integers)
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘의 기본 개념
-- [Linear Search](/knowledge/algorithms/linear-search/) - 선형 탐색과의 비교
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 복잡도 O(log n) 표기
-- [Time Complexity](/knowledge/algorithms/time-complexity/) - 로그 시간 복잡도
-- [Sorting Algorithm](/knowledge/algorithms/sorting-algorithm/) - 이진 탐색을 위해 필요한 전제 조건
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 알고리즘의 기본 개념
+- [선형 탐색 (Linear Search)](/knowledge/algorithms/linear-search/) - 선형 탐색과의 비교
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - 복잡도 O(log n) 표기
+- [시간 복잡도 (Time Complexity)](/knowledge/algorithms/time-complexity/) - 로그 시간 복잡도
+- [정렬 알고리즘 (Sorting Algorithm)](/knowledge/algorithms/sorting-algorithm/) - 이진 탐색을 위해 필요한 전제 조건

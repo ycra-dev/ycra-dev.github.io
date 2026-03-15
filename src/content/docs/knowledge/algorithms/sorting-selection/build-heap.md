@@ -1,5 +1,5 @@
 ---
-title: "Build-Heap"
+title: "힙 구성 (Build-Heap)"
 description: "BUILD-MAX-HEAP은 정렬되지 않은 배열 A[1:n]을 상향식(bottom-up) 방식으로 O(n) 선형 시간에 최대 힙으로 변환하는 프로시저이다"
 tags: ['Build Heap', 'Heap', 'Bottom Up', 'Linear Time', 'Algorithm']
 created: 2026-02-15
@@ -54,8 +54,8 @@ i=1: MAX-HEAPIFY(A,1) - A[1]=4, 자식 A[3]=10이 아닌 A[2]=14 > 4 -> 교환, 
 
 ## 관련 개념
 
-- [Heap](/knowledge/algorithms/heap/)
-- [Max-Heapify](/knowledge/algorithms/max-heapify/)
-- [Heapsort](/knowledge/algorithms/heapsort/)
-- [Loop Invariant](/knowledge/algorithms/loop-invariant/)
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/)
+- [힙 (Heap)](/knowledge/algorithms/heap/)
+- [최대 힙화 (Max-Heapify)](/knowledge/algorithms/max-heapify/)
+- [힙 정렬 (Heapsort)](/knowledge/algorithms/heapsort/)
+- [루프 불변량 (Loop Invariant)](/knowledge/algorithms/loop-invariant/)
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/)

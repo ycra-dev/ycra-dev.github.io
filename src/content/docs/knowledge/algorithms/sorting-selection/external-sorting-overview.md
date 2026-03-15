@@ -1,5 +1,5 @@
 ---
-title: "External Sorting Overview"
+title: "외부 정렬 개요 (External Sorting Overview)"
 description: "외부 정렬(External Sorting)은 정렬할 레코드가 내부 메모리에 모두 들어가지 않을 때, 자기 테이프·디스크 등 외부 저장 장치의 순차 접근 특성을 고려하여 설계된 정렬 기법이다"
 tags: ["External Sorting", "Tape Sorting", "Merge Sort", "Runs", "TAOCP", "Sequential Access"]
 created: 2026-02-27
@@ -62,7 +62,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Replacement Selection](/knowledge/algorithms/sorting-selection/replacement-selection/)
-- [Polyphase Merge Sort](/knowledge/algorithms/sorting-selection/polyphase-merge-sort/)
-- [Cascade Merge Sort](/knowledge/algorithms/sorting-selection/cascade-merge-sort/)
-- [Multiway Merging and Selection Tree](/knowledge/algorithms/sorting-selection/multiway-merging-selection-tree/)
+- [대체 선택 (Replacement Selection)](/knowledge/algorithms/sorting-selection/replacement-selection/)
+- [다단계 병합 정렬 (Polyphase Merge Sort)](/knowledge/algorithms/sorting-selection/polyphase-merge-sort/)
+- [캐스케이드 병합 정렬 (Cascade Merge Sort)](/knowledge/algorithms/sorting-selection/cascade-merge-sort/)
+- [다방향 병합과 선택 트리 (Multiway Merging and Selection Tree)](/knowledge/algorithms/sorting-selection/multiway-merging-selection-tree/)

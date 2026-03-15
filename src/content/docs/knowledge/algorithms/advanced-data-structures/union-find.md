@@ -1,5 +1,5 @@
 ---
-title: "Union-Find"
+title: "유니온-파인드 (Union-Find)"
 description: "Union-Find는 분리 집합(disjoint set)을 루트 트리의 포리스트(forest)로 표현하는 자료 구조이다"
 tags: ['Union Find', 'Disjoint Set', 'Disjoint Set Forest', 'Rooted Tree', 'Inverse Ackermann']
 created: 2026-02-15
@@ -72,8 +72,8 @@ FIND-SET(x)               // 경로 압축 적용
 
 ## 관련 개념
 
-- [Disjoint Set](/knowledge/algorithms/disjoint-set/)
-- [Path Compression](/knowledge/algorithms/path-compression/)
-- [Union by Rank](/knowledge/algorithms/union-by-rank/)
-- [Amortized Analysis](/knowledge/algorithms/amortized-analysis/)
-- [Potential Method](/knowledge/algorithms/potential-method/)
+- [서로소 집합 (Disjoint Set)](/knowledge/algorithms/disjoint-set/)
+- [경로 압축 (Path Compression)](/knowledge/algorithms/path-compression/)
+- [랭크 기반 합치기 (Union by Rank)](/knowledge/algorithms/union-by-rank/)
+- [분할 상환 분석 (Amortized Analysis)](/knowledge/algorithms/amortized-analysis/)
+- [퍼텐셜 방법 (Potential Method)](/knowledge/algorithms/potential-method/)

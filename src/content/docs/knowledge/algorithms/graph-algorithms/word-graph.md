@@ -1,5 +1,5 @@
 ---
-title: "Word Graph"
+title: "단어 그래프 (Word Graph)"
 description: "영어 단어들을 정점으로 하고 Hamming 거리 1인 단어 쌍을 간선으로 연결하는 그래프 — Lewis Carroll의 Doublets 게임이 기원이며 Stanford GraphBase의 핵심 데이터셋"
 tags: ["Graph Theory", "Stanford GraphBase", "Hamming Distance", "Algorithms"]
 created: 2026-02-27
@@ -101,7 +101,7 @@ def word_ladder(words, start, end):
 
 ## 관련 개념
 
-- [Graph Theory Basics](/knowledge/algorithms/graph-algorithms/graph-theory-basics/)
-- [Hamiltonian Path](/knowledge/algorithms/graph-algorithms/hamiltonian-path/)
+- [그래프 이론 기초 (Graph Theory Basics)](/knowledge/algorithms/graph-algorithms/graph-theory-basics/)
+- [해밀턴 경로 (Hamiltonian Path)](/knowledge/algorithms/graph-algorithms/hamiltonian-path/)
 - [Breadth First Search](/knowledge/algorithms/graph-algorithms/breadth-first-search/)
-- [Combinatorial Searching](/knowledge/algorithms/foundations/combinatorial-searching/)
+- [조합 탐색 (Combinatorial Searching)](/knowledge/algorithms/foundations/combinatorial-searching/)

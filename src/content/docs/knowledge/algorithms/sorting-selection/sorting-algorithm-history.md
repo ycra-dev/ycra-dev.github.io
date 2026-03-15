@@ -1,5 +1,5 @@
 ---
-title: "Sorting Algorithm History"
+title: "정렬 알고리즘의 역사 (Sorting Algorithm History)"
 description: "정렬 알고리즘의 역사는 1890년 Hollerith의 천공 카드 정렬 기계에서 시작하여 von Neumann, Hoare, Williams 등 컴퓨터 과학의 핵심 인물들의 발견과 맞닿아 있다"
 tags: ["Sorting Algorithm History", "History", "Hollerith", "Von Neumann", "TAOCP", "Computing History"]
 created: 2026-02-27
@@ -57,8 +57,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Quicksort](/knowledge/algorithms/quicksort/)
-- [Heapsort](/knowledge/algorithms/heapsort/)
-- [Radix Sorting (LSD)](/knowledge/algorithms/sorting-selection/radix-sorting-lsd/)
-- [Replacement Selection](/knowledge/algorithms/sorting-selection/replacement-selection/)
-- [Sorting Networks](/knowledge/algorithms/sorting-selection/sorting-networks/)
+- [퀵 정렬 (Quicksort)](/knowledge/algorithms/quicksort/)
+- [힙 정렬 (Heapsort)](/knowledge/algorithms/heapsort/)
+- [기수 정렬 LSD (Radix Sorting LSD)](/knowledge/algorithms/sorting-selection/radix-sorting-lsd/)
+- [대체 선택 (Replacement Selection)](/knowledge/algorithms/sorting-selection/replacement-selection/)
+- [정렬 네트워크 (Sorting Networks)](/knowledge/algorithms/sorting-selection/sorting-networks/)

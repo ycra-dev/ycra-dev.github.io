@@ -1,5 +1,5 @@
 ---
-title: "Hiring Problem"
+title: "고용 문제 (Hiring Problem)"
 description: "고용 문제(Hiring Problem)는 n명의 후보자를 순서대로 면접하면서, 현재까지의 최고 후보보다 더 나은 후보를 만나면 반드시 고용하는 전략의 비용을 분석하는 문제로, 확률적 분석과 무작위화 알고리즘의 핵심 개념을 설명하는 모델 문제이다"
 tags: ['Hiring Problem', 'Probabilistic Analysis', 'Algorithm Analysis', 'Expected Value']
 created: 2026-02-15
@@ -60,9 +60,9 @@ RANDOMIZED-HIRE-ASSISTANT(n)
 
 ## 관련 개념
 
-- [Probabilistic Analysis](/knowledge/algorithms/probabilistic-analysis/) - 고용 문제에 적용되는 분석 기법
-- [Indicator Random Variable](/knowledge/algorithms/indicator-random-variable/) - 고용 횟수의 기대값 계산에 사용
-- [Randomized Algorithm](/knowledge/algorithms/randomized-algorithm/) - 고용 문제의 무작위화 버전
-- [Expected Value](/knowledge/algorithms/expected-value/) - 기대 고용 비용 O(c_h * ln n)
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/) - 최악의 경우 O(c_h * n)과의 비교
-- [Loop Invariant](/knowledge/algorithms/loop-invariant/) - RANDOMLY-PERMUTE의 정당성 증명에 사용
+- [확률적 분석 (Probabilistic Analysis)](/knowledge/algorithms/probabilistic-analysis/) - 고용 문제에 적용되는 분석 기법
+- [지시 확률 변수 (Indicator Random Variable)](/knowledge/algorithms/indicator-random-variable/) - 고용 횟수의 기대값 계산에 사용
+- [랜덤 알고리즘 (Randomized Algorithm)](/knowledge/algorithms/randomized-algorithm/) - 고용 문제의 무작위화 버전
+- [기대값 (Expected Value)](/knowledge/algorithms/expected-value/) - 기대 고용 비용 O(c_h * ln n)
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/) - 최악의 경우 O(c_h * n)과의 비교
+- [루프 불변량 (Loop Invariant)](/knowledge/algorithms/loop-invariant/) - RANDOMLY-PERMUTE의 정당성 증명에 사용

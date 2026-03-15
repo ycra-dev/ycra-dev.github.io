@@ -1,5 +1,5 @@
 ---
-title: "Stack"
+title: "스택 (Stack)"
 description: "스택(Stack)은 후입선출(LIFO, Last-In First-Out) 정책을 따르는 동적 집합으로, 가장 최근에 삽입된 원소가 가장 먼저 삭제되는 자료구조이다"
 tags: ['Stack', 'Data Structure', 'Lifo', 'Elementary', 'Push', 'Pop']
 created: 2026-02-15
@@ -55,7 +55,7 @@ POP(S)
 
 ## 관련 개념
 
-- [Array](/knowledge/algorithms/array/)
-- [Queue](/knowledge/algorithms/queue/)
-- [Linked List](/knowledge/algorithms/linked-list/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [배열 (Array)](/knowledge/algorithms/array/)
+- [큐 (Queue)](/knowledge/algorithms/queue/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/linked-list/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

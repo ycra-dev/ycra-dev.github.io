@@ -1,5 +1,5 @@
 ---
-title: "Spectral Test"
+title: "스펙트럼 검정 (Spectral Test)"
 description: "선형 합동 PRNG의 품질을 검증하는 가장 강력한 테스트로, 연속된 t개의 난수가 t차원에서 격자(lattice)를 형성하는 특성을 측정한다"
 tags: ["Algorithms", "PRNG", "MathematicalAlgorithms", "Statistics", "TAOCP"]
 created: 2026-02-27
@@ -68,7 +68,7 @@ bad_points = spectral_test_2d(137, 187, 256)
 
 ## 관련 개념
 
-- [Linear Congruential Method](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)
-- [Chi-Square Test](/knowledge/algorithms/mathematical-algorithms/chi-square-test/)
+- [선형 합동법 (Linear Congruential Method)](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)
+- [카이제곱 검정 (Chi-Square Test)](/knowledge/algorithms/mathematical-algorithms/chi-square-test/)
 - [Pseudorandom Number Generator](/knowledge/algorithms/mathematical-algorithms/pseudorandom-number-generator/)
 - [Period Length](/knowledge/algorithms/mathematical-algorithms/period-length/)

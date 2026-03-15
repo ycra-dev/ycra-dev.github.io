@@ -1,5 +1,5 @@
 ---
-title: "H-ordered Permutation"
+title: "H-순서 순열 (H-ordered Permutation)"
 description: "h-순서(h-ordered) 파일은 모든 i에 대해 K_i ≤ K_{i+h}를 만족하는 파일로, Shellsort의 핵심 불변 조건이다"
 tags: ["H-ordered", "Shellsort", "Sorting", "TAOCP", "Permutations", "Gap Sequence"]
 created: 2026-02-27
@@ -57,5 +57,5 @@ Theorem K 예:
 ## 관련 개념
 
 - [Shell's Method](/knowledge/algorithms/sorting-selection/shells-method/)
-- [Inversions](/knowledge/algorithms/sorting-selection/inversions/)
-- [Straight Insertion Sort](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
+- [역순쌍 (Inversions)](/knowledge/algorithms/sorting-selection/inversions/)
+- [직접 삽입 정렬 (Straight Insertion Sort)](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)

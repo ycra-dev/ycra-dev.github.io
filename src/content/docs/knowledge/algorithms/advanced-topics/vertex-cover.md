@@ -1,5 +1,5 @@
 ---
-title: "Vertex Cover"
+title: "정점 덮개 (Vertex Cover)"
 description: "정점 커버(Vertex Cover)는 그래프의 모든 간선에 대해 적어도 한 끝점을 포함하는 정점 부분집합이며, 최소 정점 커버 문제는 NP-완전이지만 최적의 2배 이내인 다항 시간 2-근사 알고리즘이 존재한다"
 tags: ['Vertex Cover', 'Approximation Algorithm', 'Maximal Matching', '2 Approximation', 'Np Complete']
 created: 2026-02-15
@@ -86,8 +86,8 @@ w(C) ≤ 2 · z* ≤ 2 · w(C*)
 
 ## 관련 개념
 
-- [Approximation Algorithm](/knowledge/algorithms/approximation-algorithm/) - 정점 커버 근사의 상위 개념
-- [Approximation Ratio](/knowledge/algorithms/approximation-ratio/) - 2-근사의 의미
-- [NP-Completeness](/knowledge/algorithms/np-completeness/) - 정점 커버 결정 문제는 NPC
-- [Linear Programming](/knowledge/algorithms/linear-programming/) - 가중 정점 커버의 LP 이완
-- [Set Cover](/knowledge/algorithms/set-cover/) - 정점 커버의 일반화
+- [근사 알고리즘 (Approximation Algorithm)](/knowledge/algorithms/approximation-algorithm/) - 정점 커버 근사의 상위 개념
+- [근사 비율 (Approximation Ratio)](/knowledge/algorithms/approximation-ratio/) - 2-근사의 의미
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/np-completeness/) - 정점 커버 결정 문제는 NPC
+- [선형 계획법 (Linear Programming)](/knowledge/algorithms/linear-programming/) - 가중 정점 커버의 LP 이완
+- [집합 덮개 (Set Cover)](/knowledge/algorithms/set-cover/) - 정점 커버의 일반화

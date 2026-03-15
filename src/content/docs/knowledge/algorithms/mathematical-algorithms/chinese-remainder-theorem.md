@@ -1,5 +1,5 @@
 ---
-title: "Chinese Remainder Theorem"
+title: "중국인의 나머지 정리 (Chinese Remainder Theorem)"
 description: "중국인의 나머지 정리(Chinese Remainder Theorem, CRT)는 쌍별 서로소(pairwise coprime)인 법 n_1, n_2, "
 tags: ['Chinese Remainder Theorem', 'Number Theory', 'Modular Arithmetic', 'Congruences', 'Isomorphism']
 created: 2026-02-15
@@ -69,7 +69,7 @@ x = 2·2·35 + 3·1·21 + 2·1·15 (mod 105)
 
 ## 관련 개념
 
-- [Modular Arithmetic](/knowledge/algorithms/modular-arithmetic/) - CRT의 수학적 기반
+- [모듈러 연산 (Modular Arithmetic)](/knowledge/algorithms/modular-arithmetic/) - CRT의 수학적 기반
 - [GCD](/knowledge/algorithms/gcd/) - 서로소 조건과 역원 계산
-- [RSA Cryptosystem](/knowledge/algorithms/rsa-cryptosystem/) - CRT를 통한 RSA 가속
-- [Primality Testing](/knowledge/algorithms/primality-testing/) - 소수 관련 응용
+- [RSA 암호 체계 (RSA Cryptosystem)](/knowledge/algorithms/rsa-cryptosystem/) - CRT를 통한 RSA 가속
+- [소수 판정 (Primality Testing)](/knowledge/algorithms/primality-testing/) - 소수 관련 응용

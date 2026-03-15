@@ -1,5 +1,5 @@
 ---
-title: "Master Theorem"
+title: "마스터 정리 (Master Theorem)"
 description: "마스터 정리(Master Theorem)는 T(n) = aT(n/b) + f(n) 형태의 분할 정복 점화식에 대해, 구동 함수(driving function) f(n)과 분수 함수(watershed function) n^(log_b a)의 비교를 통해 세 가지 경..."
 tags: ['Master Theorem', 'Recurrence', 'Divide And Conquer', 'Algorithm Analysis', 'Asymptotic Notation']
 created: 2026-02-15
@@ -69,11 +69,11 @@ sidebar:
 
 ## 관련 개념
 
-- [Recurrence](/knowledge/algorithms/recurrence/) - 마스터 정리가 풀이하는 대상
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/) - 마스터 점화식이 모델링하는 알고리즘 패러다임
-- [Recursion Tree](/knowledge/algorithms/recursion-tree/) - 마스터 정리의 세 사례에 대한 직관적 이해 제공
-- [Substitution Method](/knowledge/algorithms/substitution-method/) - 마스터 정리가 적용되지 않을 때의 대안
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/) - 마스터 정리가 풀이하는 대상
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/) - 마스터 점화식이 모델링하는 알고리즘 패러다임
+- [재귀 트리 (Recursion Tree)](/knowledge/algorithms/recursion-tree/) - 마스터 정리의 세 사례에 대한 직관적 이해 제공
+- [치환법 (Substitution Method)](/knowledge/algorithms/substitution-method/) - 마스터 정리가 적용되지 않을 때의 대안
 - [Akra-Bazzi](/knowledge/algorithms/akra-bazzi/) - 마스터 정리를 일반화한 방법
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/) - 세 사례의 해를 표현하는 표기법
-- [Merge Sort](/knowledge/algorithms/merge-sort/) - 사례 2의 대표적 예시
-- [Strassen Algorithm](/knowledge/algorithms/strassen-algorithm/) - 사례 1의 대표적 예시
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/) - 세 사례의 해를 표현하는 표기법
+- [병합 정렬 (Merge Sort)](/knowledge/algorithms/merge-sort/) - 사례 2의 대표적 예시
+- [슈트라센 알고리즘 (Strassen Algorithm)](/knowledge/algorithms/strassen-algorithm/) - 사례 1의 대표적 예시

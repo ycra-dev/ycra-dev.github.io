@@ -1,5 +1,5 @@
 ---
-title: "Johnson Algorithm"
+title: "존슨 알고리즘 (Johnson Algorithm)"
 description: "존슨 알고리즘은 희소 그래프에서 모든 쌍 최단 경로를 O(V^2 lg V + VE) 시간에 계산하는 알고리즘으로, 재가중(reweighting) 기법을 통해 음수 간선을 양수로 변환한 뒤 Dijkstra를 반복 실행한다"
 tags: ['Johnson Algorithm', 'All Pairs Shortest Paths', 'Reweighting', 'Bellman Ford', 'Dijkstra']
 created: 2026-02-15
@@ -61,8 +61,8 @@ JOHNSON(G, w)
 
 ## 관련 개념
 
-- [All-Pairs Shortest Paths](/knowledge/algorithms/all-pairs-shortest-paths/)
-- [Floyd-Warshall Algorithm](/knowledge/algorithms/floyd-warshall-algorithm/)
-- [Bellman-Ford Algorithm](/knowledge/algorithms/bellman-ford-algorithm/)
-- [Dijkstra Algorithm](/knowledge/algorithms/dijkstra-algorithm/)
-- [Shortest Path](/knowledge/algorithms/shortest-path/)
+- [모든 쌍 최단 경로 (All-Pairs Shortest Paths)](/knowledge/algorithms/all-pairs-shortest-paths/)
+- [플로이드-워셜 알고리즘 (Floyd-Warshall Algorithm)](/knowledge/algorithms/floyd-warshall-algorithm/)
+- [벨만-포드 알고리즘 (Bellman-Ford Algorithm)](/knowledge/algorithms/bellman-ford-algorithm/)
+- [다익스트라 알고리즘 (Dijkstra Algorithm)](/knowledge/algorithms/dijkstra-algorithm/)
+- [최단 경로 (Shortest Path)](/knowledge/algorithms/shortest-path/)

@@ -1,5 +1,5 @@
 ---
-title: "Substitution Method"
+title: "치환법 (Substitution Method)"
 description: "치환법(Substitution Method)은 점화식의 해를 구하는 방법으로, 해의 형태를 추측(guess)한 후 수학적 귀납법(mathematical induction)을 사용하여 추측이 올바름을 증명하고 상수를 결정하는 두 단계로 구성된다"
 tags: ['Substitution Method', 'Recurrence', 'Mathematical Induction', 'Algorithm Analysis']
 created: 2026-02-15
@@ -59,8 +59,8 @@ T(n) <= 2(c * floor(n/2) * lg(floor(n/2))) + Theta(n)
 
 ## 관련 개념
 
-- [Recurrence](/knowledge/algorithms/recurrence/) - 치환법으로 풀어야 하는 점화식
-- [Recursion Tree](/knowledge/algorithms/recursion-tree/) - 치환법의 추측을 생성하는 데 도움이 되는 도구
-- [Master Theorem](/knowledge/algorithms/master-theorem/) - 더 간편하지만 적용 범위가 제한적인 방법
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/) - 점근적 상한/하한 표기에 사용
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/) - 치환법으로 분석하는 분할 정복 알고리즘의 점화식
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/) - 치환법으로 풀어야 하는 점화식
+- [재귀 트리 (Recursion Tree)](/knowledge/algorithms/recursion-tree/) - 치환법의 추측을 생성하는 데 도움이 되는 도구
+- [마스터 정리 (Master Theorem)](/knowledge/algorithms/master-theorem/) - 더 간편하지만 적용 범위가 제한적인 방법
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/) - 점근적 상한/하한 표기에 사용
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/) - 치환법으로 분석하는 분할 정복 알고리즘의 점화식

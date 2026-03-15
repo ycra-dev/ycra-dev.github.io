@@ -1,5 +1,5 @@
 ---
-title: "BST Insertion and Deletion"
+title: "BST 삽입과 삭제 (BST Insertion and Deletion)"
 description: "BST 삽입과 삭제(BST Insertion and Deletion)는 이진 탐색 트리에서 원소를 추가하거나 제거하면서 BST 성질을 유지하는 수정 연산으로, 모두 트리 높이 h에 비례하는 O(h) 시간에 수행된다"
 tags: ['Bst Insertion Deletion', 'Binary Search Tree', 'Tree Insert', 'Tree Delete', 'Transplant', 'Dynamic Set']
 created: 2026-02-15
@@ -75,9 +75,9 @@ TREE-DELETE(T, z)
 
 ## 관련 개념
 
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Tree Search](/knowledge/algorithms/tree-search/)
-- [Inorder Traversal](/knowledge/algorithms/inorder-traversal/)
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
-- [RB Insertion](/knowledge/algorithms/rb-insertion/)
-- [RB Deletion](/knowledge/algorithms/rb-deletion/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [트리 탐색 (Tree Search)](/knowledge/algorithms/tree-search/)
+- [중위 순회 (Inorder Traversal)](/knowledge/algorithms/inorder-traversal/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)
+- [레드-블랙 트리 삽입 (RB Insertion)](/knowledge/algorithms/rb-insertion/)
+- [레드-블랙 트리 삭제 (RB Deletion)](/knowledge/algorithms/rb-deletion/)

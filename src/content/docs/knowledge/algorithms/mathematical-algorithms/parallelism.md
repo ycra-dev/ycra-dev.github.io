@@ -1,5 +1,5 @@
 ---
-title: "Parallelism"
+title: "병렬성 (Parallelism)"
 description: "Parallelism(병렬성)은 병렬 계산의 work와 span의 비율 T_1/T_∞로 정의되며, 임계 경로의 각 단계에서 평균적으로 수행 가능한 병렬 작업량을 나타낸다"
 tags: ['Parallelism', 'Parallel Computing', 'Work Span Analysis', 'Scalability']
 created: 2026-02-15
@@ -53,8 +53,8 @@ M_1/M_∞ = Θ(n^3)/Θ(lg^2 n) = Θ(n^3/lg^2 n)
 
 ## 관련 개념
 
-- [Work](/knowledge/algorithms/work/) - parallelism의 분자
-- [Span](/knowledge/algorithms/span/) - parallelism의 분모
-- [Speedup](/knowledge/algorithms/speedup/) - parallelism이 상한을 결정
-- [Fork-Join Parallelism](/knowledge/algorithms/fork-join-parallelism/) - parallelism 분석의 기반
-- [Parallel Merge Sort](/knowledge/algorithms/parallel-merge-sort/) - 높은 parallelism을 달성하는 알고리즘
+- [작업량 (Work)](/knowledge/algorithms/work/) - parallelism의 분자
+- [스팬 (Span)](/knowledge/algorithms/span/) - parallelism의 분모
+- [속도 향상 (Speedup)](/knowledge/algorithms/speedup/) - parallelism이 상한을 결정
+- [포크-조인 병렬성 (Fork-Join Parallelism)](/knowledge/algorithms/fork-join-parallelism/) - parallelism 분석의 기반
+- [병렬 병합 정렬 (Parallel Merge Sort)](/knowledge/algorithms/parallel-merge-sort/) - 높은 parallelism을 달성하는 알고리즘

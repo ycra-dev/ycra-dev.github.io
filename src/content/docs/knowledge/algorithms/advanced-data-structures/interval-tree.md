@@ -1,5 +1,5 @@
 ---
-title: "Interval Tree"
+title: "구간 트리 (Interval Tree)"
 description: "구간 트리(Interval Tree)는 레드-블랙 트리를 확장하여 구간(interval)들의 동적 집합을 유지하고, 주어진 질의 구간과 겹치는(overlap) 구간을 O(lg n) 시간에 찾을 수 있도록 한 자료 구조이다"
 tags: ['Interval Tree', 'Augmenting Data Structure', 'Red Black Tree', 'Interval Overlap', 'Scheduling']
 created: 2026-02-15
@@ -57,7 +57,7 @@ INTERVAL-SEARCH(T, i)
 
 ## 관련 개념
 
-- [Augmenting Data Structure](/knowledge/algorithms/augmenting-data-structure/)
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
-- [Order-Statistics Tree](/knowledge/algorithms/order-statistics-tree/)
-- [Activity Selection](/knowledge/algorithms/activity-selection/)
+- [보강 자료구조 (Augmenting Data Structure)](/knowledge/algorithms/augmenting-data-structure/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)
+- [순서 통계 트리 (Order-Statistics Tree)](/knowledge/algorithms/order-statistics-tree/)
+- [활동 선택 (Activity Selection)](/knowledge/algorithms/activity-selection/)

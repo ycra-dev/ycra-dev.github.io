@@ -1,5 +1,5 @@
 ---
-title: "Duality"
+title: "쌍대성 (Duality)"
 description: "쌍대성(Duality)은 선형 계획법에서 모든 최대화 문제(원시 문제, primal)에 대응하는 최소화 문제(쌍대 문제, dual)가 존재하며, 두 문제의 최적 목적 함수 값이 동일하다는 이론이다"
 tags: ['Duality', 'Linear Programming', 'Optimization', 'Primal Dual', 'Complementary Slackness']
 created: 2026-02-15
@@ -67,7 +67,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Linear Programming](/knowledge/algorithms/linear-programming/) - 쌍대성의 기반 이론
+- [선형 계획법 (Linear Programming)](/knowledge/algorithms/linear-programming/) - 쌍대성의 기반 이론
 - [Simplex](/knowledge/algorithms/simplex/) - 심플렉스 최적성의 쌍대 증명
-- [Approximation Algorithm](/knowledge/algorithms/approximation-algorithm/) - LP 쌍대를 활용한 근사비 분석
-- [Maximum Flow](/knowledge/algorithms/maximum-flow/) - 최대 유량-최소 절단 정리도 쌍대성의 예
+- [근사 알고리즘 (Approximation Algorithm)](/knowledge/algorithms/approximation-algorithm/) - LP 쌍대를 활용한 근사비 분석
+- [최대 유량 (Maximum Flow)](/knowledge/algorithms/maximum-flow/) - 최대 유량-최소 절단 정리도 쌍대성의 예

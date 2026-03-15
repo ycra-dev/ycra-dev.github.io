@@ -1,5 +1,5 @@
 ---
-title: "Probabilistic Analysis"
+title: "확률적 분석 (Probabilistic Analysis)"
 description: "확률적 분석(Probabilistic Analysis)은 입력의 확률 분포에 대한 지식 또는 가정을 이용하여 알고리즘의 수행 시간이나 기타 비용의 평균적 경우(average-case)를 분석하는 기법이다"
 tags: ['Probabilistic Analysis', 'Average Case', 'Algorithm Analysis', 'Probability', 'Expected Value']
 created: 2026-02-15
@@ -70,9 +70,9 @@ n개의 공을 b개의 상자에 무작위로 던질 때:
 
 ## 관련 개념
 
-- [Hiring Problem](/knowledge/algorithms/hiring-problem/) - 확률적 분석의 대표적 예제
-- [Expected Value](/knowledge/algorithms/expected-value/) - 확률적 분석의 핵심 수학 도구
-- [Indicator Random Variable](/knowledge/algorithms/indicator-random-variable/) - 기대값 계산을 단순화하는 기법
-- [Randomized Algorithm](/knowledge/algorithms/randomized-algorithm/) - 확률적 분석과 대비되는 접근법
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/) - 확률적 분석과 상보적인 분석 방법
-- [Birthday Paradox](/knowledge/algorithms/birthday-paradox/) - 확률적 분석의 흥미로운 응용 예시
+- [고용 문제 (Hiring Problem)](/knowledge/algorithms/hiring-problem/) - 확률적 분석의 대표적 예제
+- [기대값 (Expected Value)](/knowledge/algorithms/expected-value/) - 확률적 분석의 핵심 수학 도구
+- [지시 확률 변수 (Indicator Random Variable)](/knowledge/algorithms/indicator-random-variable/) - 기대값 계산을 단순화하는 기법
+- [랜덤 알고리즘 (Randomized Algorithm)](/knowledge/algorithms/randomized-algorithm/) - 확률적 분석과 대비되는 접근법
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/) - 확률적 분석과 상보적인 분석 방법
+- [생일 역설 (Birthday Paradox)](/knowledge/algorithms/birthday-paradox/) - 확률적 분석의 흥미로운 응용 예시

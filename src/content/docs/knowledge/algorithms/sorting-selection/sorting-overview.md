@@ -1,5 +1,5 @@
 ---
-title: "Sorting Overview (TAOCP)"
+title: "정렬 개요 (Sorting Overview)"
 description: "정렬(Sorting)은 N개의 레코드를 키(key) 값의 순서로 재배열하는 과정으로, 컴퓨터 과학에서 가장 기본적인 연산 중 하나이다"
 tags: ["Sorting", "TAOCP", "Algorithms", "Internal Sorting", "External Sorting"]
 created: 2026-02-27
@@ -48,8 +48,8 @@ Kp(i) = Kp(j), i < j  =>  p(i) < p(j)
 
 ## 관련 개념
 
-- [Inversions](/knowledge/algorithms/sorting-selection/inversions/)
-- [Stable Sorting](/knowledge/algorithms/sorting-selection/stable-sorting/)
-- [Straight Insertion Sort](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
-- [Sorting Algorithm](/knowledge/algorithms/sorting-algorithm/)
-- [Comparison Sort Lower Bound](/knowledge/algorithms/comparison-sort-lower-bound/)
+- [역순쌍 (Inversions)](/knowledge/algorithms/sorting-selection/inversions/)
+- [안정 정렬 (Stable Sorting)](/knowledge/algorithms/sorting-selection/stable-sorting/)
+- [직접 삽입 정렬 (Straight Insertion Sort)](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
+- [정렬 알고리즘 (Sorting Algorithm)](/knowledge/algorithms/sorting-algorithm/)
+- [비교 정렬 하한 (Comparison Sort Lower Bound)](/knowledge/algorithms/comparison-sort-lower-bound/)

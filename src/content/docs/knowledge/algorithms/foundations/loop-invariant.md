@@ -1,5 +1,5 @@
 ---
-title: "Loop Invariant"
+title: "루프 불변량 (Loop Invariant)"
 description: "루프 불변식(Loop Invariant)은 루프의 각 반복 시작 시 항상 참인 성질로, 알고리즘의 정확성을 증명하는 데 사용되는 형식적 도구이다"
 tags: ['Loop Invariant', 'Correctness', 'Proof', 'Mathematical Induction']
 created: 2026-02-15
@@ -37,5 +37,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Correctness](/knowledge/algorithms/correctness/)
-- [Insertion Sort](/knowledge/algorithms/insertion-sort/)
+- [정확성 (Correctness)](/knowledge/algorithms/correctness/)
+- [삽입 정렬 (Insertion Sort)](/knowledge/algorithms/insertion-sort/)

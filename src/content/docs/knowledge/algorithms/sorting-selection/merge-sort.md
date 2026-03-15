@@ -1,5 +1,5 @@
 ---
-title: "Merge Sort"
+title: "병합 정렬 (Merge Sort)"
 description: "병합 정렬(Merge Sort)은 분할 정복(divide-and-conquer) 패러다임을 따르는 정렬 알고리즘으로, 배열을 반으로 나누어 재귀적으로 정렬한 후 병합하여 최종 정렬된 배열을 생성한다"
 tags: ['Sorting', 'Divide And Conquer', 'Comparison Sort', 'Stable Sort']
 created: 2026-02-15
@@ -50,7 +50,7 @@ MERGE-SORT(A, p, r)
 
 ## 관련 개념
 
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/)
-- [Recurrence](/knowledge/algorithms/recurrence/)
-- [Insertion Sort](/knowledge/algorithms/insertion-sort/)
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/)
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/)
+- [삽입 정렬 (Insertion Sort)](/knowledge/algorithms/insertion-sort/)
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/)

@@ -1,5 +1,5 @@
 ---
-title: "Minimum-Comparison Sorting"
+title: "최소 비교 정렬 (Minimum-Comparison Sorting)"
 description: "최소 비교 정렬(Minimum-Comparison Sorting)은 n개의 원소를 정렬하는 데 필요한 비교 횟수의 이론적 하한 S(n)을 연구하며, Ford-Johnson 알고리즘이 n≤11에서 최적이다"
 tags: ["Minimum-Comparison Sorting", "Lower Bounds", "Information Theory", "TAOCP", "Comparison Tree", "Ford-Johnson"]
 created: 2026-02-27
@@ -55,7 +55,7 @@ S(5) = 7 (Ford-Johnson 알고리즘으로 달성)
 
 ## 관련 개념
 
-- [Sorting Networks](/knowledge/algorithms/sorting-selection/sorting-networks/)
+- [정렬 네트워크 (Sorting Networks)](/knowledge/algorithms/sorting-selection/sorting-networks/)
 - [Merge Insertion (Ford-Johnson)](/knowledge/algorithms/sorting-selection/merge-insertion-ford-johnson/)
-- [Comparison-Based Sorting Lower Bound](/knowledge/algorithms/sorting-selection/comparison-based-sorting-lower-bound/)
-- [Sorting Complexity Theory](/knowledge/algorithms/sorting-selection/sorting-complexity-theory/)
+- [비교 기반 정렬 하한 (Comparison-Based Sorting Lower Bound)](/knowledge/algorithms/sorting-selection/comparison-based-sorting-lower-bound/)
+- [정렬 복잡도 이론 (Sorting Complexity Theory)](/knowledge/algorithms/sorting-selection/sorting-complexity-theory/)

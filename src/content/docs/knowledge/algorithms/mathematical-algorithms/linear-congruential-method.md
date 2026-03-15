@@ -1,5 +1,5 @@
 ---
-title: "Linear Congruential Method"
+title: "선형 합동법 (Linear Congruential Method)"
 description: "X_{n+1} = (aX_n + c) mod m 으로 정의되는 현대 PRNG의 근간이 되는 선형 합동 수열 생성법"
 tags: ["Algorithms", "Randomness", "Number Theory", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -102,6 +102,6 @@ print(f"수열: {seq[:15]}, 주기: {period}")
 ## 관련 개념
 
 - [Pseudorandom Number Generator](/knowledge/algorithms/mathematical-algorithms/pseudorandom-number-generator/)
-- [Period Length (PRNG)](/knowledge/algorithms/mathematical-algorithms/period-length/)
-- [Modular Arithmetic](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
+- [주기 길이 (Period Length)](/knowledge/algorithms/mathematical-algorithms/period-length/)
+- [모듈러 연산 (Modular Arithmetic)](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
 - [Chi-Square Test](/knowledge/discrete-mathematics/probability/chi-square-test/)

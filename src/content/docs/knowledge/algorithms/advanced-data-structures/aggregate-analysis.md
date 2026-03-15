@@ -1,5 +1,5 @@
 ---
-title: "Aggregate Analysis"
+title: "집합 분석 (Aggregate Analysis)"
 description: "집합 분석(Aggregate Analysis)은 n개 연산의 시퀀스에 대해 총 최악 비용 T(n)의 상한을 구하고, 각 연산의 분할 상환 비용을 T(n)/n으로 정의하는 분할 상환 분석 기법이다"
 tags: ['Aggregate Analysis', 'Amortized Analysis', 'Total Cost', 'Average Cost']
 created: 2026-02-15
@@ -57,6 +57,6 @@ INCREMENT(A, k)
 
 ## 관련 개념
 
-- [Amortized Analysis](/knowledge/algorithms/amortized-analysis/)
-- [Accounting Method](/knowledge/algorithms/accounting-method/)
-- [Potential Method](/knowledge/algorithms/potential-method/)
+- [분할 상환 분석 (Amortized Analysis)](/knowledge/algorithms/amortized-analysis/)
+- [회계 방법 (Accounting Method)](/knowledge/algorithms/accounting-method/)
+- [퍼텐셜 방법 (Potential Method)](/knowledge/algorithms/potential-method/)

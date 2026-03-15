@@ -1,5 +1,5 @@
 ---
-title: "Union by Rank"
+title: "랭크 기반 합치기 (Union by Rank)"
 description: "랭크 기준 합병(Union by Rank)은 분리 집합 포리스트에서 두 트리를 합병할 때, 랭크(rank)가 낮은 루트를 랭크가 높은 루트의 자식으로 만드는 휴리스틱이다"
 tags: ['Union By Rank', 'Union Find', 'Disjoint Set', 'Heuristic', 'Tree Height']
 created: 2026-02-15
@@ -62,6 +62,6 @@ LINK(x, y)                    // x, y는 모두 루트
 ## 관련 개념
 
 - [Union Find](/knowledge/algorithms/union-find/)
-- [Path Compression](/knowledge/algorithms/path-compression/)
-- [Disjoint Set](/knowledge/algorithms/disjoint-set/)
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
+- [경로 압축 (Path Compression)](/knowledge/algorithms/path-compression/)
+- [서로소 집합 (Disjoint Set)](/knowledge/algorithms/disjoint-set/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)

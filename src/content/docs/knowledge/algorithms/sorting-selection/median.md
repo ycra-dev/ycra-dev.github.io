@@ -1,5 +1,5 @@
 ---
-title: "Median"
+title: "중앙값 (Median)"
 description: "중앙값(Median)은 n개 원소 집합의 \"중간점\"으로, n이 홀수이면 i = (n+1)/2번째 원소이고, n이 짝수이면 하위 중앙값(i = n/2)과 상위 중앙값(i = n/2 + 1) 두 개가 존재한다"
 tags: ['Median', 'Order Statistic', 'Selection', 'Linear Time', 'Median Of Medians']
 created: 2026-02-15
@@ -68,9 +68,9 @@ PARTITION around 11: [3, 7, 4, 1, 8, 6, 9 | 11 | 12, 19, 26, 15, 22, 14, 20]
 
 ## 관련 개념
 
-- [Selection Problem](/knowledge/algorithms/selection-problem/)
-- [Randomized Select](/knowledge/algorithms/randomized-select/)
-- [Quicksort](/knowledge/algorithms/quicksort/)
-- [Partition](/knowledge/algorithms/partition/)
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/)
-- [Recurrence](/knowledge/algorithms/recurrence/)
+- [선택 문제 (Selection Problem)](/knowledge/algorithms/selection-problem/)
+- [랜덤 선택 (Randomized Select)](/knowledge/algorithms/randomized-select/)
+- [퀵 정렬 (Quicksort)](/knowledge/algorithms/quicksort/)
+- [분할 (Partition)](/knowledge/algorithms/partition/)
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/)
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/)

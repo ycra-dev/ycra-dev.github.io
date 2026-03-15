@@ -1,5 +1,5 @@
 ---
-title: "Sorting Networks"
+title: "정렬 네트워크 (Sorting Networks)"
 description: "소팅 네트워크(Sorting Network)는 비교 순서가 입력 값에 무관하게 미리 결정된(oblivious) 정렬 회로로, 각 비교자는 두 입력을 받아 작은 값은 왼쪽, 큰 값은 오른쪽으로 출력한다"
 tags: ["Sorting Networks", "Parallel Sorting", "Comparator", "Oblivious Sort", "TAOCP", "Network"]
 created: 2026-02-27
@@ -51,6 +51,6 @@ N=1024: 단 55 병렬 단계로 정렬 (Batcher)
 
 ## 관련 개념
 
-- [Zero-One Principle](/knowledge/algorithms/sorting-selection/zero-one-principle/)
-- [Batcher Odd-Even Merge Sort](/knowledge/algorithms/sorting-selection/batcher-odd-even-merge-sort/)
-- [Minimum-Comparison Sorting](/knowledge/algorithms/sorting-selection/minimum-comparison-sorting/)
+- [0-1 원리 (Zero-One Principle)](/knowledge/algorithms/sorting-selection/zero-one-principle/)
+- [배처 홀짝 병합 정렬 (Batcher Odd-Even Merge Sort)](/knowledge/algorithms/sorting-selection/batcher-odd-even-merge-sort/)
+- [최소 비교 정렬 (Minimum-Comparison Sorting)](/knowledge/algorithms/sorting-selection/minimum-comparison-sorting/)

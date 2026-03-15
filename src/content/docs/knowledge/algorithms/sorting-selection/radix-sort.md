@@ -1,5 +1,5 @@
 ---
-title: "Radix Sort"
+title: "기수 정렬 (Radix Sort)"
 description: "기수 정렬(Radix Sort)은 다중 자릿수를 가진 정수나 문자열을 최하위 자릿수(LSD)부터 최상위 자릿수(MSD) 순으로 안정적인 정렬 알고리즘을 반복 적용하여 정렬하는 비비교 기반 정렬 알고리즘이다"
 tags: ['Radix Sort', 'Linear Time Sorting', 'Stable Sort', 'Non Comparison Sort', 'Digit Sort']
 created: 2026-02-15
@@ -57,8 +57,8 @@ RADIX-SORT(A, n, d)
 
 ## 관련 개념
 
-- [Counting Sort](/knowledge/algorithms/counting-sort/)
-- [Comparison Sort Lower Bound](/knowledge/algorithms/comparison-sort-lower-bound/)
-- [Bucket Sort](/knowledge/algorithms/bucket-sort/)
-- [Quicksort](/knowledge/algorithms/quicksort/)
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/)
+- [계수 정렬 (Counting Sort)](/knowledge/algorithms/counting-sort/)
+- [비교 정렬 하한 (Comparison Sort Lower Bound)](/knowledge/algorithms/comparison-sort-lower-bound/)
+- [버킷 정렬 (Bucket Sort)](/knowledge/algorithms/bucket-sort/)
+- [퀵 정렬 (Quicksort)](/knowledge/algorithms/quicksort/)
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/)

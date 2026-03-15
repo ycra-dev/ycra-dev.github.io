@@ -1,5 +1,5 @@
 ---
-title: "B-Tree"
+title: "B-트리 (B-Tree)"
 description: "B-트리(B-Tree)는 디스크 또는 기타 직접 접근 보조 기억 장치에서 효율적으로 작동하도록 설계된 균형 탐색 트리이다"
 tags: ['B Tree', 'Balanced Search Tree', 'Disk Access', 'Database', 'Secondary Storage']
 created: 2026-02-15
@@ -48,8 +48,8 @@ sidebar:
 
 ## 관련 개념
 
-- [B-Tree Search](/knowledge/algorithms/b-tree-search/)
-- [B-Tree Insertion](/knowledge/algorithms/b-tree-insertion/)
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [B-트리 탐색 (B-Tree Search)](/knowledge/algorithms/b-tree-search/)
+- [B-트리 삽입 (B-Tree Insertion)](/knowledge/algorithms/b-tree-insertion/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

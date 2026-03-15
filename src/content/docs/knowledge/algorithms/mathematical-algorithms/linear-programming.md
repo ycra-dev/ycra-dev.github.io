@@ -1,5 +1,5 @@
 ---
-title: "Linear Programming"
+title: "선형 계획법 (Linear Programming)"
 description: "선형 계획법(Linear Programming)은 유한한 선형 제약 조건(등식 또는 부등식) 하에서 선형 목적 함수를 최대화 또는 최소화하는 최적화 문제를 푸는 수학적 기법이다"
 tags: ['Linear Programming', 'Optimization', 'Constraints', 'Feasibility', 'Modeling']
 created: 2026-02-15
@@ -65,7 +65,7 @@ sidebar:
 ## 관련 개념
 
 - [Simplex](/knowledge/algorithms/simplex/) - LP를 푸는 실용적 알고리즘
-- [Duality](/knowledge/algorithms/duality/) - LP의 쌍대성 이론
-- [Shortest Path](/knowledge/algorithms/shortest-path/) - LP로 모델링 가능한 그래프 문제
-- [Maximum Flow](/knowledge/algorithms/maximum-flow/) - LP로 모델링 가능한 네트워크 문제
-- [Approximation Algorithm](/knowledge/algorithms/approximation-algorithm/) - LP 완화를 활용한 근사 알고리즘
+- [쌍대성 (Duality)](/knowledge/algorithms/duality/) - LP의 쌍대성 이론
+- [최단 경로 (Shortest Path)](/knowledge/algorithms/shortest-path/) - LP로 모델링 가능한 그래프 문제
+- [최대 유량 (Maximum Flow)](/knowledge/algorithms/maximum-flow/) - LP로 모델링 가능한 네트워크 문제
+- [근사 알고리즘 (Approximation Algorithm)](/knowledge/algorithms/approximation-algorithm/) - LP 완화를 활용한 근사 알고리즘

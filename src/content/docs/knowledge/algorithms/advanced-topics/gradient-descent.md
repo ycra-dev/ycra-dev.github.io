@@ -1,5 +1,5 @@
 ---
-title: "Gradient Descent"
+title: "경사 하강법 (Gradient Descent)"
 description: "경사 하강법(Gradient Descent)은 함수 f: R^n → R의 지역 최솟값을 찾기 위해 현재 위치에서 기울기(gradient)의 반대 방향으로 반복적으로 이동하는 최적화 알고리즘이다"
 tags: ['Gradient Descent', 'Optimization', 'Convex Function', 'Machine Learning', 'Step Size']
 created: 2026-02-15
@@ -82,7 +82,7 @@ x(2) = -12 - 1.1 · (-24) = 14.4
 
 ## 관련 개념
 
-- [K-Means](/knowledge/algorithms/k-means/) - Lloyd's 절차도 반복적 최적화
-- [Linear Programming](/knowledge/algorithms/linear-programming/) - 선형 목적함수의 최적화
+- [K-평균 (K-Means)](/knowledge/algorithms/k-means/) - Lloyd's 절차도 반복적 최적화
+- [선형 계획법 (Linear Programming)](/knowledge/algorithms/linear-programming/) - 선형 목적함수의 최적화
 - [Simplex](/knowledge/algorithms/simplex/) - LP에 특화된 최적화 기법
-- [Multiplicative Weights](/knowledge/algorithms/multiplicative-weights/) - 같은 장의 다른 최적화 기법
+- [승법 가중치 (Multiplicative Weights)](/knowledge/algorithms/multiplicative-weights/) - 같은 장의 다른 최적화 기법

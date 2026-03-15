@@ -1,5 +1,5 @@
 ---
-title: "Randomized Select"
+title: "랜덤 선택 (Randomized Select)"
 description: "RANDOMIZED-SELECT는 퀵정렬의 분할 기법을 활용하되 한쪽 부분만 재귀하여 n개의 서로 다른 원소에서 i번째 순서 통계량을 기대 Theta(n) 시간에 찾는 무작위 분할-정복 알고리즘이다"
 tags: ['Randomized Select', 'Selection', 'Randomized Algorithm', 'Expected Linear Time', 'Order Statistic']
 created: 2026-02-15
@@ -65,10 +65,10 @@ A = [6, 10, 13, 5, 8, 3, 2, 11]에서 i = 3 (3번째로 작은 원소) 찾기:
 
 ## 관련 개념
 
-- [Selection Problem](/knowledge/algorithms/selection-problem/)
-- [Median](/knowledge/algorithms/median/)
-- [Randomized Quicksort](/knowledge/algorithms/randomized-quicksort/)
-- [Partition](/knowledge/algorithms/partition/)
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/)
-- [Quicksort](/knowledge/algorithms/quicksort/)
-- [Algorithm](/knowledge/algorithms/algorithm/)
+- [선택 문제 (Selection Problem)](/knowledge/algorithms/selection-problem/)
+- [중앙값 (Median)](/knowledge/algorithms/median/)
+- [랜덤 퀵 정렬 (Randomized Quicksort)](/knowledge/algorithms/randomized-quicksort/)
+- [분할 (Partition)](/knowledge/algorithms/partition/)
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/)
+- [퀵 정렬 (Quicksort)](/knowledge/algorithms/quicksort/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)

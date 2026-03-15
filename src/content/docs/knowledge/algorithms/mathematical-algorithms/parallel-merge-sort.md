@@ -1,5 +1,5 @@
 ---
-title: "Parallel Merge Sort"
+title: "병렬 병합 정렬 (Parallel Merge Sort)"
 description: "Parallel Merge Sort는 fork-join 병렬성을 활용하여 분할 정복 기반의 병합 정렬을 병렬화한 알고리즘으로, 재귀적 spawn을 통해 분할과 병합 과정을 동시에 수행한다"
 tags: ['Parallel Merge Sort', 'Sorting', 'Divide And Conquer', 'Parallel Computing', 'Merge']
 created: 2026-02-15
@@ -64,8 +64,8 @@ P-MERGE-SORT(A, B, n)
 
 ## 관련 개념
 
-- [Fork-Join Parallelism](/knowledge/algorithms/fork-join-parallelism/) - 병렬 모델의 기반
-- [Work](/knowledge/algorithms/work/) - Θ(n lg n)으로 직렬 병합 정렬과 동일
-- [Span](/knowledge/algorithms/span/) - Θ(lg^3 n)으로 높은 병렬성 달성
-- [Parallelism](/knowledge/algorithms/parallelism/) - Θ(n/lg^2 n)
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/) - 분할 정복 패러다임의 병렬 적용
+- [포크-조인 병렬성 (Fork-Join Parallelism)](/knowledge/algorithms/fork-join-parallelism/) - 병렬 모델의 기반
+- [작업량 (Work)](/knowledge/algorithms/work/) - Θ(n lg n)으로 직렬 병합 정렬과 동일
+- [스팬 (Span)](/knowledge/algorithms/span/) - Θ(lg^3 n)으로 높은 병렬성 달성
+- [병렬성 (Parallelism)](/knowledge/algorithms/parallelism/) - Θ(n/lg^2 n)
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/) - 분할 정복 패러다임의 병렬 적용

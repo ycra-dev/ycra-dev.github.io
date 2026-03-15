@@ -1,5 +1,5 @@
 ---
-title: "Polynomial Arithmetic"
+title: "다항식 연산 (Polynomial Arithmetic)"
 description: "다항식의 덧셈, 곱셈, 나눗셈, GCD 등의 대수 연산 — 정수 산술과 유사하지만 계수가 다항식인 점이 핵심"
 tags: ["Algorithms", "Algebra", "Polynomial", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -120,7 +120,7 @@ print(poly_gcd(u, v))  # [-1, 1] → (x - 1)
 
 ## 관련 개념
 
-- [Horner's Rule](/knowledge/algorithms/mathematical-algorithms/horners-rule/)
-- [Fast Multiplication](/knowledge/algorithms/mathematical-algorithms/fast-multiplication/)
+- [호너의 법칙 (Horner's Rule)](/knowledge/algorithms/mathematical-algorithms/horners-rule/)
+- [고속 곱셈 (Fast Multiplication)](/knowledge/algorithms/mathematical-algorithms/fast-multiplication/)
 - [Euclidean Algorithm (GCD)](/knowledge/algorithms/mathematical-algorithms/euclids-algorithm/)
-- [Polynomial Multiplication](/knowledge/algorithms/mathematical-algorithms/polynomial-multiplication/)
+- [다항식 곱셈 (Polynomial Multiplication)](/knowledge/algorithms/mathematical-algorithms/polynomial-multiplication/)

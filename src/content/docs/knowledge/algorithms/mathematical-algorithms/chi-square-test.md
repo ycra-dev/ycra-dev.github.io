@@ -1,5 +1,5 @@
 ---
-title: "Chi-Square Test"
+title: "카이제곱 검정 (Chi-Square Test)"
 description: "PRNG의 출력이 기대 확률 분포를 따르는지 검증하는 통계적 테스트로, 카이제곱 통계량 V를 계산하여 유의성을 판단한다"
 tags: ["Algorithms", "Statistics", "PRNG", "MathematicalAlgorithms", "TAOCP"]
 created: 2026-02-27
@@ -73,6 +73,6 @@ V, p = chi_square_test(observed, expected)
 ## 관련 개념
 
 - [Pseudorandom Number Generator](/knowledge/algorithms/mathematical-algorithms/pseudorandom-number-generator/)
-- [Linear Congruential Method](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)
-- [Spectral Test](/knowledge/algorithms/mathematical-algorithms/spectral-test/)
-- [Monte Carlo Method](/knowledge/algorithms/mathematical-algorithms/monte-carlo-method/)
+- [선형 합동법 (Linear Congruential Method)](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)
+- [스펙트럼 검정 (Spectral Test)](/knowledge/algorithms/mathematical-algorithms/spectral-test/)
+- [몬테카를로 방법 (Monte Carlo Method)](/knowledge/algorithms/mathematical-algorithms/monte-carlo-method/)

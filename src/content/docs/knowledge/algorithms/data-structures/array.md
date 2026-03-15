@@ -1,5 +1,5 @@
 ---
-title: "Array"
+title: "배열 (Array)"
 description: "배열(Array)은 연속된 메모리 공간에 동일한 크기의 원소를 저장하는 기본 자료구조로, 인덱스를 통해 임의의 원소에 O(1) 시간에 접근할 수 있다"
 tags: ['Array', 'Data Structure', 'Elementary', 'Contiguous Memory', 'Random Access']
 created: 2026-02-15
@@ -42,8 +42,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Data Structure](/knowledge/algorithms/data-structure/)
-- [Stack](/knowledge/algorithms/stack/)
-- [Queue](/knowledge/algorithms/queue/)
-- [Linked List](/knowledge/algorithms/linked-list/)
-- [Hash Table](/knowledge/algorithms/hash-table/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)
+- [스택 (Stack)](/knowledge/algorithms/stack/)
+- [큐 (Queue)](/knowledge/algorithms/queue/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/linked-list/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)

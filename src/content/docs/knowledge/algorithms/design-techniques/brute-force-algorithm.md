@@ -1,5 +1,5 @@
 ---
-title: "Brute-Force Algorithm"
+title: "무차별 대입 알고리즘 (Brute-Force Algorithm)"
 description: "무차별 대입 알고리즘(Brute-Force Algorithm)은 문제의 정의와 용어의 정의에 직접적으로 기반하여, 특별한 최적화 기법 없이 가장 직관적이고 단순한 방식으로 문제를 해결하는 알고리즘 패러다임이다"
 tags: ['Brute Force', 'Algorithmic Paradigm', 'Exhaustive Search', 'Naive Algorithm']
 created: 2026-02-16
@@ -70,9 +70,9 @@ procedure string_match(n, m, t1...tn, p1...pm)
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘 패러다임의 기본
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/) - 더 효율적인 알고리즘 패러다임
-- [Sorting Algorithm](/knowledge/algorithms/sorting-algorithm/) - 버블/삽입 정렬이 brute-force의 예시
-- [Time Complexity](/knowledge/algorithms/time-complexity/) - brute-force 알고리즘의 복잡도 분석
-- [Linear Search](/knowledge/algorithms/linear-search/) - brute-force 탐색의 예시
-- [Tractability](/knowledge/algorithms/tractability/) - brute-force의 한계와 효율적 알고리즘의 필요성
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 알고리즘 패러다임의 기본
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/) - 더 효율적인 알고리즘 패러다임
+- [정렬 알고리즘 (Sorting Algorithm)](/knowledge/algorithms/sorting-algorithm/) - 버블/삽입 정렬이 brute-force의 예시
+- [시간 복잡도 (Time Complexity)](/knowledge/algorithms/time-complexity/) - brute-force 알고리즘의 복잡도 분석
+- [선형 탐색 (Linear Search)](/knowledge/algorithms/linear-search/) - brute-force 탐색의 예시
+- [다루기 쉬움 (Tractability)](/knowledge/algorithms/tractability/) - brute-force의 한계와 효율적 알고리즘의 필요성

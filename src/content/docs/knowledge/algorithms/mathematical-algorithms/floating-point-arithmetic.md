@@ -1,5 +1,5 @@
 ---
-title: "Floating Point Arithmetic"
+title: "부동소수점 연산 (Floating Point Arithmetic)"
 description: "소수점 위치를 동적으로 변화시켜 넓은 범위의 수를 표현하는 ±f × b^e 형식의 수 체계와 그 연산 오차"
 tags: ["Algorithms", "Numerical Analysis", "Computer Architecture", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -111,6 +111,6 @@ def quadratic(a, b, c):
 
 ## 관련 개념
 
-- [Positional Number System](/knowledge/algorithms/mathematical-algorithms/positional-number-system/)
-- [Multiple-Precision Arithmetic](/knowledge/algorithms/mathematical-algorithms/multiple-precision-arithmetic/)
-- [Radix Conversion](/knowledge/algorithms/mathematical-algorithms/radix-conversion/)
+- [위치 기수법 (Positional Number System)](/knowledge/algorithms/mathematical-algorithms/positional-number-system/)
+- [다중 정밀도 연산 (Multiple-Precision Arithmetic)](/knowledge/algorithms/mathematical-algorithms/multiple-precision-arithmetic/)
+- [기수 변환 (Radix Conversion)](/knowledge/algorithms/mathematical-algorithms/radix-conversion/)

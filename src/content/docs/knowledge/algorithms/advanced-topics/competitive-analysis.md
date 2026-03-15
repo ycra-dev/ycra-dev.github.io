@@ -1,5 +1,5 @@
 ---
-title: "Competitive Analysis"
+title: "경쟁 분석 (Competitive Analysis)"
 description: "경쟁 분석(Competitive Analysis)은 온라인 알고리즘의 성능을 미래 입력을 모두 아는 최적 오프라인 알고리즘과 비교하여 최악의 경우 비율을 측정하는 분석 기법이다"
 tags: ['Competitive Analysis', 'Online Algorithm', 'Worst Case', 'Approximation Ratio']
 created: 2026-02-15
@@ -48,7 +48,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Online Algorithm](/knowledge/algorithms/online-algorithm/) - 경쟁 분석의 대상
-- [Online Caching](/knowledge/algorithms/online-caching/) - 경쟁 분석의 주요 적용 사례
-- [Move-to-Front](/knowledge/algorithms/move-to-front/) - 4-competitive 리스트 유지 알고리즘
-- [Approximation Algorithm](/knowledge/algorithms/approximation-algorithm/) - 유사한 비율 기반 분석 기법
+- [온라인 알고리즘 (Online Algorithm)](/knowledge/algorithms/online-algorithm/) - 경쟁 분석의 대상
+- [온라인 캐싱 (Online Caching)](/knowledge/algorithms/online-caching/) - 경쟁 분석의 주요 적용 사례
+- [전방 이동 (Move-to-Front)](/knowledge/algorithms/move-to-front/) - 4-competitive 리스트 유지 알고리즘
+- [근사 알고리즘 (Approximation Algorithm)](/knowledge/algorithms/approximation-algorithm/) - 유사한 비율 기반 분석 기법

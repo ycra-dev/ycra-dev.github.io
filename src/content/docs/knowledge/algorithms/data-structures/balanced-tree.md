@@ -1,5 +1,5 @@
 ---
-title: "Balanced Tree"
+title: "균형 트리 (Balanced Tree)"
 description: "균형 트리(Balanced Tree)는 트리의 높이를 O(lg n)으로 제한하여 모든 기본 동적 집합 연산이 O(lg n) 최악의 경우 시간에 수행되도록 보장하는 탐색 트리의 총칭이다"
 tags: ['Balanced Tree', 'Self Balancing', 'Red Black Tree', 'Avl Tree', 'Bst', 'Worst Case Guarantee']
 created: 2026-02-15
@@ -79,9 +79,9 @@ sidebar:
 
 ## 관련 개념
 
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
-- [Rotation](/knowledge/algorithms/rotation/)
-- [RB Insertion](/knowledge/algorithms/rb-insertion/)
-- [RB Deletion](/knowledge/algorithms/rb-deletion/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)
+- [회전 (Rotation)](/knowledge/algorithms/rotation/)
+- [레드-블랙 트리 삽입 (RB Insertion)](/knowledge/algorithms/rb-insertion/)
+- [레드-블랙 트리 삭제 (RB Deletion)](/knowledge/algorithms/rb-deletion/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

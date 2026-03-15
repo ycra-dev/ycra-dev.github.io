@@ -1,5 +1,5 @@
 ---
-title: "Collision Resolution"
+title: "충돌 해결 (Collision Resolution)"
 description: "충돌 해결(Collision Resolution)은 두 개 이상의 키가 동일한 해시 테이블 슬롯에 매핑될 때(h(k1) = h(k2)), 이를 처리하는 기법의 총칭이다"
 tags: ['Collision Resolution', 'Hashing', 'Collision', 'Hash Table', 'Chaining', 'Open Addressing']
 created: 2026-02-15
@@ -62,8 +62,8 @@ HASH-INSERT(T, k)
 
 ## 관련 개념
 
-- [Hash Table](/knowledge/algorithms/hash-table/)
-- [Chaining](/knowledge/algorithms/chaining/)
-- [Open Addressing](/knowledge/algorithms/open-addressing/)
-- [Hash Function](/knowledge/algorithms/hash-function/)
-- [Linked List](/knowledge/algorithms/linked-list/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)
+- [체이닝 (Chaining)](/knowledge/algorithms/chaining/)
+- [개방 주소법 (Open Addressing)](/knowledge/algorithms/open-addressing/)
+- [해시 함수 (Hash Function)](/knowledge/algorithms/hash-function/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/linked-list/)

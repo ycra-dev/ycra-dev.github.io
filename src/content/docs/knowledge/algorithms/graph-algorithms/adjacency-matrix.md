@@ -1,5 +1,5 @@
 ---
-title: "Adjacency Matrix"
+title: "인접 행렬 (Adjacency Matrix)"
 description: "인접 행렬(Adjacency Matrix)은 그래프 G = (V, E)를 |V| x |V| 행렬 A = (a_ij)로 표현하는 방식으로, 간선 (i, j)가 존재하면 a_ij = 1, 아니면 a_ij = 0이다"
 tags: ['Adjacency Matrix', 'Graph Representation', 'Dense Graph', 'Data Structure']
 created: 2026-02-15
@@ -58,8 +58,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Graph](/knowledge/algorithms/graph/)
-- [Adjacency List](/knowledge/algorithms/adjacency-list/)
-- [Floyd-Warshall Algorithm](/knowledge/algorithms/floyd-warshall-algorithm/)
-- [All-Pairs Shortest Paths](/knowledge/algorithms/all-pairs-shortest-paths/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)
+- [인접 리스트 (Adjacency List)](/knowledge/algorithms/adjacency-list/)
+- [플로이드-워셜 알고리즘 (Floyd-Warshall Algorithm)](/knowledge/algorithms/floyd-warshall-algorithm/)
+- [모든 쌍 최단 경로 (All-Pairs Shortest Paths)](/knowledge/algorithms/all-pairs-shortest-paths/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

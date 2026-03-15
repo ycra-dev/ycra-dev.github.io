@@ -1,5 +1,5 @@
 ---
-title: "Tractability"
+title: "다루기 쉬움 (Tractability)"
 description: "다루기 쉬운 문제(Tractable problem)란 최악의 경우 다항 시간(polynomial time) 알고리즘이 존재하는 문제이다"
 tags: ['Tractability', 'Intractability', 'P Vs Np', 'Np Complete', 'Complexity Class', 'Polynomial Time']
 created: 2026-02-16
@@ -82,8 +82,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Time Complexity](/knowledge/algorithms/time-complexity/) - 시간 복잡도의 기본 개념
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 복잡도 표기법
+- [시간 복잡도 (Time Complexity)](/knowledge/algorithms/time-complexity/) - 시간 복잡도의 기본 개념
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - 복잡도 표기법
 - [Halting Problem](/knowledge/mathematics/halting-problem/) - 풀 수 없는 문제의 대표적 예시
-- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘의 존재 여부와 효율성
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 알고리즘의 존재 여부와 효율성
 - [Truth Table](/knowledge/mathematics/truth-table/) - 모든 진리값 배정 탐색의 지수적 비용

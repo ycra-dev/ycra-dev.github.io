@@ -1,5 +1,5 @@
 ---
-title: "Bucket Sort"
+title: "버킷 정렬 (Bucket Sort)"
 description: "버킷 정렬(Bucket Sort)은 입력이 [0, 1) 구간에서 균등 분포(uniform distribution)를 따른다고 가정하고, 입력을 n개의 동일 크기 버킷에 분배한 후 각 버킷을 개별 정렬하여 연결하는 정렬 알고리즘으로, 평균 O(n) 시간에 동작한다"
 tags: ['Bucket Sort', 'Linear Time Sorting', 'Average Case', 'Uniform Distribution', 'Non Comparison Sort']
 created: 2026-02-15
@@ -70,8 +70,8 @@ B[9]: 0.94
 
 ## 관련 개념
 
-- [Counting Sort](/knowledge/algorithms/counting-sort/)
-- [Radix Sort](/knowledge/algorithms/radix-sort/)
-- [Comparison Sort Lower Bound](/knowledge/algorithms/comparison-sort-lower-bound/)
-- [Insertion Sort](/knowledge/algorithms/insertion-sort/)
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/)
+- [계수 정렬 (Counting Sort)](/knowledge/algorithms/counting-sort/)
+- [기수 정렬 (Radix Sort)](/knowledge/algorithms/radix-sort/)
+- [비교 정렬 하한 (Comparison Sort Lower Bound)](/knowledge/algorithms/comparison-sort-lower-bound/)
+- [삽입 정렬 (Insertion Sort)](/knowledge/algorithms/insertion-sort/)
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/)

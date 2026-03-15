@@ -1,5 +1,5 @@
 ---
-title: "List Insertion Sort"
+title: "리스트 삽입 정렬 (List Insertion Sort)"
 description: "리스트 삽입 정렬(List Insertion Sort)은 직접 삽입 정렬의 자료 구조를 연결 리스트로 변경하여, 레코드를 물리적으로 이동하는 대신 링크 필드를 수정해 삽입 비용을 제거한 방법이다"
 tags: ["List Insertion Sort", "Linked List", "Sorting", "TAOCP", "Internal Sorting"]
 created: 2026-02-27
@@ -55,7 +55,7 @@ j=1: K1=3 삽입 → 리스트: 0→2→4→1→3→5
 
 ## 관련 개념
 
-- [Straight Insertion Sort](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
-- [Address Calculation Sorting](/knowledge/algorithms/sorting-selection/address-calculation-sorting/)
-- [Inversions](/knowledge/algorithms/sorting-selection/inversions/)
-- [Linked List](/knowledge/algorithms/linked-list/)
+- [직접 삽입 정렬 (Straight Insertion Sort)](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
+- [주소 계산 정렬 (Address Calculation Sorting)](/knowledge/algorithms/sorting-selection/address-calculation-sorting/)
+- [역순쌍 (Inversions)](/knowledge/algorithms/sorting-selection/inversions/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/linked-list/)

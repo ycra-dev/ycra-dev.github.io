@@ -1,5 +1,5 @@
 ---
-title: "Loopless Algorithm"
+title: "루프 없는 알고리즘 (Loopless Algorithm)"
 description: "조합론적 객체를 열거할 때 각 객체 방문에 amortized가 아닌 진정한 O(1) 최악 경우 시간을 달성하는 알고리즘으로, 포커스 포인터 기법을 핵심으로 사용한다"
 tags: ["Algorithms", "Combinatorics", "Enumeration", "TAOCP"]
 created: 2026-02-27
@@ -89,7 +89,7 @@ for code in gray_code_loopless(3):
 
 ## 관련 개념
 
-- [Gray Code](/knowledge/discrete-mathematics/combinatorics/gray-code/)
-- [Permutation Generation](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)
-- [Combination Generation](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
-- [Set Partition](/knowledge/discrete-mathematics/combinatorics/set-partition/)
+- [그레이 코드 (Gray Code)](/knowledge/discrete-mathematics/combinatorics/gray-code/)
+- [순열 생성 (Permutation Generation)](/knowledge/discrete-mathematics/combinatorics/permutation-generation/)
+- [조합 생성 (Combination Generation)](/knowledge/discrete-mathematics/combinatorics/combination-generation/)
+- [집합 분할 (Set Partition)](/knowledge/discrete-mathematics/combinatorics/set-partition/)

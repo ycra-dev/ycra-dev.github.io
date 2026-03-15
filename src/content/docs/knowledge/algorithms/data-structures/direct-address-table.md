@@ -1,5 +1,5 @@
 ---
-title: "Direct-Address Table"
+title: "직접 주소 테이블 (Direct-Address Table)"
 description: "직접 주소 테이블(Direct-Address Table)은 키의 전체 집합(universe) U = {0, 1, "
 tags: ['Direct Address Table', 'Data Structure', 'Dictionary', 'Hash Table', 'Array']
 created: 2026-02-15
@@ -50,7 +50,7 @@ DIRECT-ADDRESS-DELETE(T, x)
 
 ## 관련 개념
 
-- [Hash Table](/knowledge/algorithms/hash-table/)
-- [Hash Function](/knowledge/algorithms/hash-function/)
-- [Array](/knowledge/algorithms/array/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)
+- [해시 함수 (Hash Function)](/knowledge/algorithms/hash-function/)
+- [배열 (Array)](/knowledge/algorithms/array/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

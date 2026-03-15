@@ -1,5 +1,5 @@
 ---
-title: "Expected Value"
+title: "기대값 (Expected Value)"
 description: "기대값(Expected Value)은 확률 변수의 가능한 모든 값에 각각의 확률을 곱한 가중 평균으로, 알고리즘 분석에서는 수행 시간이나 비용의 \"평균적인\" 크기를 정량적으로 나타내는 핵심 측도이다"
 tags: ['Expected Value', 'Probability', 'Linearity Of Expectation', 'Algorithm Analysis', 'Average Case']
 created: 2026-02-15
@@ -71,9 +71,9 @@ E[X] = E[X_1] + E[X_2] = 3.5 + 3.5 = 7
 
 ## 관련 개념
 
-- [Indicator Random Variable](/knowledge/algorithms/indicator-random-variable/) - 기대값 계산을 단순화하는 핵심 도구
-- [Probabilistic Analysis](/knowledge/algorithms/probabilistic-analysis/) - 기대값을 이용한 분석 기법
-- [Randomized Algorithm](/knowledge/algorithms/randomized-algorithm/) - 기대 수행 시간의 정의에 사용
-- [Hiring Problem](/knowledge/algorithms/hiring-problem/) - 기대값 분석의 대표적 예시
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/) - 기대값과 상보적인 분석 관점
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/) - 기대값의 점근적 표현
+- [지시 확률 변수 (Indicator Random Variable)](/knowledge/algorithms/indicator-random-variable/) - 기대값 계산을 단순화하는 핵심 도구
+- [확률적 분석 (Probabilistic Analysis)](/knowledge/algorithms/probabilistic-analysis/) - 기대값을 이용한 분석 기법
+- [랜덤 알고리즘 (Randomized Algorithm)](/knowledge/algorithms/randomized-algorithm/) - 기대 수행 시간의 정의에 사용
+- [고용 문제 (Hiring Problem)](/knowledge/algorithms/hiring-problem/) - 기대값 분석의 대표적 예시
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/) - 기대값과 상보적인 분석 관점
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/) - 기대값의 점근적 표현

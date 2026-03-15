@@ -1,5 +1,5 @@
 ---
-title: "Euclid's Algorithm"
+title: "유클리드 알고리즘 (Euclid's Algorithm)"
 description: "두 양의 정수의 최대공약수(GCD)를 반복적인 나머지 연산으로 구하는 가장 오래된 알고리즘"
 tags: ["Algorithms", "Number Theory", "GCD", "TAOCP"]
 created: 2026-02-27
@@ -73,7 +73,7 @@ print(f"검증: {u}×544 + {v}×119 = {u*544 + v*119}")
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/foundations/algorithm/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/foundations/algorithm/)
 - [GCD (Greatest Common Divisor)](/knowledge/algorithms/mathematical-algorithms/gcd/)
-- [Modular Arithmetic](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
-- [Analysis of Algorithms](/knowledge/algorithms/foundations/analysis-of-algorithms/)
+- [모듈러 연산 (Modular Arithmetic)](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
+- [알고리즘 분석 (Analysis of Algorithms)](/knowledge/algorithms/foundations/analysis-of-algorithms/)

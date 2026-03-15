@@ -1,5 +1,5 @@
 ---
-title: "P vs NP"
+title: "P vs NP 문제"
 description: "P vs NP 문제는 \"다항 시간에 해를 검증할 수 있는 모든 문제가 다항 시간에 풀 수도 있는가?\"를 묻는 이론 컴퓨터 과학의 가장 깊고 중요한 미해결 문제이다 (1971년 이래)"
 tags: ['P Vs Np', 'Complexity Theory', 'Open Problem', 'Np', 'Co Np', 'Millennium Prize']
 created: 2026-02-15
@@ -86,8 +86,8 @@ HAM-CYCLE: 인증서 = 정점 순열 ⟨v₁, v₂, ..., v_n⟩
 
 ## 관련 개념
 
-- [NP-Completeness](/knowledge/algorithms/np-completeness/) - NP에서 가장 어려운 문제 클래스
-- [Polynomial Time](/knowledge/algorithms/polynomial-time/) - P 클래스의 정의
-- [NP-Hard](/knowledge/algorithms/np-hard/) - NP 이상의 난이도
-- [Reduction](/knowledge/algorithms/reduction/) - 문제 간 난이도 비교
-- [Satisfiability](/knowledge/algorithms/satisfiability/) - P vs NP의 핵심 연결 고리
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/np-completeness/) - NP에서 가장 어려운 문제 클래스
+- [다항 시간 (Polynomial Time)](/knowledge/algorithms/polynomial-time/) - P 클래스의 정의
+- [NP-난해 (NP-Hard)](/knowledge/algorithms/np-hard/) - NP 이상의 난이도
+- [환원 (Reduction)](/knowledge/algorithms/reduction/) - 문제 간 난이도 비교
+- [충족 가능성 (Satisfiability)](/knowledge/algorithms/satisfiability/) - P vs NP의 핵심 연결 고리

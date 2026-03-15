@@ -1,5 +1,5 @@
 ---
-title: "Comparison-Based Sorting Lower Bound"
+title: "비교 기반 정렬 하한 (Comparison-Based Sorting Lower Bound)"
 description: "비교 기반 정렬은 임의 순서의 N개 레코드를 정렬할 때 최소한 Ω(N log N)번의 비교가 필요하다는 정보 이론적 하한이다"
 tags: ["Sorting Lower Bound", "Information Theory", "Complexity", "TAOCP", "Decision Tree", "Comparison Sort"]
 created: 2026-02-27
@@ -68,7 +68,7 @@ N=1000000:
 
 ## 관련 개념
 
-- [Comparison Sort Lower Bound](/knowledge/algorithms/comparison-sort-lower-bound/)
-- [Minimum-Comparison Sorting](/knowledge/algorithms/sorting-selection/minimum-comparison-sorting/)
-- [Sorting Complexity Theory](/knowledge/algorithms/sorting-selection/sorting-complexity-theory/)
+- [비교 정렬 하한 (Comparison Sort Lower Bound)](/knowledge/algorithms/comparison-sort-lower-bound/)
+- [최소 비교 정렬 (Minimum-Comparison Sorting)](/knowledge/algorithms/sorting-selection/minimum-comparison-sorting/)
+- [정렬 복잡도 이론 (Sorting Complexity Theory)](/knowledge/algorithms/sorting-selection/sorting-complexity-theory/)
 - [Sorting Overview](/knowledge/algorithms/sorting-selection/sorting-overview/)

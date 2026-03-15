@@ -1,5 +1,5 @@
 ---
-title: "Max-Flow Min-Cut Theorem"
+title: "최대 유량 최소 절단 정리 (Max-Flow Min-Cut Theorem)"
 description: "최대 유량-최소 컷 정리(Max-Flow Min-Cut Theorem)는 유량 네트워크에서 최대 유량의 값이 최소 컷의 용량과 같다는 정리로, 선형 프로그래밍 쌍대성의 특수한 경우이다"
 tags: ['Max Flow Min Cut Theorem', 'Maximum Flow', 'Minimum Cut', 'Network Flow', 'Duality']
 created: 2026-02-15
@@ -69,8 +69,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Maximum Flow](/knowledge/algorithms/maximum-flow/)
-- [Flow Network](/knowledge/algorithms/flow-network/)
-- [Ford-Fulkerson Method](/knowledge/algorithms/ford-fulkerson-method/)
-- [Residual Network](/knowledge/algorithms/residual-network/)
-- [Bipartite Matching](/knowledge/algorithms/bipartite-matching/)
+- [최대 유량 (Maximum Flow)](/knowledge/algorithms/maximum-flow/)
+- [유량 네트워크 (Flow Network)](/knowledge/algorithms/flow-network/)
+- [포드-풀커슨 방법 (Ford-Fulkerson Method)](/knowledge/algorithms/ford-fulkerson-method/)
+- [잔여 네트워크 (Residual Network)](/knowledge/algorithms/residual-network/)
+- [이분 매칭 (Bipartite Matching)](/knowledge/algorithms/bipartite-matching/)

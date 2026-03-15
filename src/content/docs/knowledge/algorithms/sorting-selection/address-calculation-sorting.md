@@ -1,5 +1,5 @@
 ---
-title: "Address Calculation Sorting"
+title: "주소 계산 정렬 (Address Calculation Sorting)"
 description: "주소 계산 정렬(Address Calculation Sorting)은 각 레코드의 키 값으로부터 최종 저장 위치를 직접 계산하여, 키가 균등 분포일 때 평균 O(N) 정렬을 달성하는 방법이다"
 tags: ["Address Calculation Sorting", "Distribution Sort", "TAOCP", "Bucket Sort", "Internal Sorting"]
 created: 2026-02-27
@@ -66,7 +66,7 @@ def address_calculation_sort(a, M=None):
 
 ## 관련 개념
 
-- [List Insertion Sort](/knowledge/algorithms/sorting-selection/list-insertion-sort/)
-- [Straight Insertion Sort](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
-- [Radix Sorting (LSD)](/knowledge/algorithms/sorting-selection/radix-sorting-lsd/)
-- [Bucket Sort](/knowledge/algorithms/bucket-sort/)
+- [리스트 삽입 정렬 (List Insertion Sort)](/knowledge/algorithms/sorting-selection/list-insertion-sort/)
+- [직접 삽입 정렬 (Straight Insertion Sort)](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
+- [기수 정렬 LSD (Radix Sorting LSD)](/knowledge/algorithms/sorting-selection/radix-sorting-lsd/)
+- [버킷 정렬 (Bucket Sort)](/knowledge/algorithms/bucket-sort/)

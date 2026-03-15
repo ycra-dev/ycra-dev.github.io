@@ -1,5 +1,5 @@
 ---
-title: "Indicator Random Variable"
+title: "지시 확률 변수 (Indicator Random Variable)"
 description: "지시자 확률 변수(Indicator Random Variable)는 표본 공간 S와 사건 A에 대해 I{A}로 정의되며, 사건 A가 발생하면 1, 발생하지 않으면 0의 값을 갖는 확률 변수로, 확률과 기대값 사이의 변환을 간편하게 만드는 도구이다"
 tags: ['Indicator Random Variable', 'Probability', 'Expected Value', 'Linearity Of Expectation', 'Algorithm Analysis']
 created: 2026-02-15
@@ -71,8 +71,8 @@ k=28일 때: E[X] ~= 1.04 -> 최소 1쌍의 일치 기대
 
 ## 관련 개념
 
-- [Expected Value](/knowledge/algorithms/expected-value/) - 지시자 확률 변수의 기대값 = 사건의 확률
-- [Probabilistic Analysis](/knowledge/algorithms/probabilistic-analysis/) - 지시자 확률 변수를 활용하는 분석 기법
-- [Hiring Problem](/knowledge/algorithms/hiring-problem/) - 지시자 확률 변수의 대표적 응용
-- [Birthday Paradox](/knowledge/algorithms/birthday-paradox/) - 지시자 확률 변수를 이용한 근사 분석
-- [Randomized Algorithm](/knowledge/algorithms/randomized-algorithm/) - 무작위화 알고리즘의 기대 수행 시간 분석에 활용
+- [기대값 (Expected Value)](/knowledge/algorithms/expected-value/) - 지시자 확률 변수의 기대값 = 사건의 확률
+- [확률적 분석 (Probabilistic Analysis)](/knowledge/algorithms/probabilistic-analysis/) - 지시자 확률 변수를 활용하는 분석 기법
+- [고용 문제 (Hiring Problem)](/knowledge/algorithms/hiring-problem/) - 지시자 확률 변수의 대표적 응용
+- [생일 역설 (Birthday Paradox)](/knowledge/algorithms/birthday-paradox/) - 지시자 확률 변수를 이용한 근사 분석
+- [랜덤 알고리즘 (Randomized Algorithm)](/knowledge/algorithms/randomized-algorithm/) - 무작위화 알고리즘의 기대 수행 시간 분석에 활용

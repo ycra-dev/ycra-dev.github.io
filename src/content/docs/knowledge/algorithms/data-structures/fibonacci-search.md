@@ -1,5 +1,5 @@
 ---
-title: "Fibonacci Search"
+title: "피보나치 탐색 (Fibonacci Search)"
 description: "피보나치 탐색(Fibonacci Search)은 정렬된 테이블에서 Fibonacci 수열을 분할점으로 사용하여 탐색하는 알고리즘으로, 곱셈이나 나눗셈 없이 덧셈과 뺄셈만으로 다음 탐색 위치를 결정한다"
 tags: ["Fibonacci Search", "Searching", "Fibonacci", "Comparison Based", "Sorted Array", "TAOCP"]
 created: 2026-02-27
@@ -59,7 +59,7 @@ Fibonacci 수: F(1)=1, F(2)=2, F(3)=3, F(4)=5, F(5)=8, F(6)=13
 
 ## 관련 개념
 
-- [Binary Search](/knowledge/algorithms/data-structures/binary-search/)
-- [Sequential Search](/knowledge/algorithms/data-structures/sequential-search/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [AVL Tree](/knowledge/algorithms/data-structures/avl-tree/)
+- [이진 탐색 (Binary Search)](/knowledge/algorithms/data-structures/binary-search/)
+- [순차 탐색 (Sequential Search)](/knowledge/algorithms/data-structures/sequential-search/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [AVL 트리 (AVL Tree)](/knowledge/algorithms/data-structures/avl-tree/)

@@ -1,5 +1,5 @@
 ---
-title: "Computational Problem"
+title: "계산 문제 (Computational Problem)"
 description: "계산 문제(Computational Problem)는 원하는 입출력 관계를 일반적 용어로 기술한 명세이며, 알고리즘은 이 관계를 달성하기 위한 구체적 계산 절차를 기술한다"
 tags: ['Computational Problem', 'Problem Instance', 'Input Output']
 created: 2026-02-15
@@ -36,5 +36,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/algorithm/)
-- [Correctness](/knowledge/algorithms/correctness/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)
+- [정확성 (Correctness)](/knowledge/algorithms/correctness/)

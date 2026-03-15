@@ -1,5 +1,5 @@
 ---
-title: "Binary Insertion Sort"
+title: "이진 삽입 정렬 (Binary Insertion Sort)"
 description: "이진 삽입 정렬(Binary Insertion Sort)은 직접 삽입 정렬에서 삽입 위치를 이진 탐색으로 찾아 비교 횟수를 O(N log N)으로 줄이지만, 이동 횟수는 여전히 O(N²)이다"
 tags: ["Binary Insertion Sort", "Insertion Sort", "Binary Search", "TAOCP", "Sorting"]
 created: 2026-02-27
@@ -64,7 +64,7 @@ def binary_insertion_sort(a):
 
 ## 관련 개념
 
-- [Straight Insertion Sort](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
-- [List Insertion Sort](/knowledge/algorithms/sorting-selection/list-insertion-sort/)
+- [직접 삽입 정렬 (Straight Insertion Sort)](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
+- [리스트 삽입 정렬 (List Insertion Sort)](/knowledge/algorithms/sorting-selection/list-insertion-sort/)
 - [Merge Insertion (Ford-Johnson)](/knowledge/algorithms/sorting-selection/merge-insertion-ford-johnson/)
 - [Shell's Method](/knowledge/algorithms/sorting-selection/shells-method/)

@@ -1,5 +1,5 @@
 ---
-title: "Rooted Tree"
+title: "루트 트리 (Rooted Tree)"
 description: "루트 트리(Rooted Tree)는 하나의 루트 노드를 가지며, 각 노드가 부모-자식 관계로 연결된 계층적 자료구조로, 연결 데이터 구조를 사용하여 표현한다"
 tags: ['Rooted Tree', 'Data Structure', 'Binary Tree', 'Tree Representation', 'Left Child Right Sibling']
 created: 2026-02-15
@@ -59,7 +59,7 @@ PRINT-TREE(x)
 
 ## 관련 개념
 
-- [Linked List](/knowledge/algorithms/linked-list/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/linked-list/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

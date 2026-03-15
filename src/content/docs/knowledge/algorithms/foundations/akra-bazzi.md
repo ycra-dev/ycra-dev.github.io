@@ -1,5 +1,5 @@
 ---
-title: "Akra-Bazzi Method"
+title: "아크라-바지 방법 (Akra-Bazzi Method)"
 description: "아크라-바지 방법(Akra-Bazzi Method)은 T(n) = sum(a_i * T(n/b_i)) + f(n) 형태의 일반적인 분할 정복 점화식을 풀기 위한 방법으로, 부분 문제들이 서로 다른 크기를 가질 수 있는 경우까지 처리할 수 있으며, 적분을 이용하여 ..."
 tags: ['Akra Bazzi', 'Recurrence', 'Divide And Conquer', 'Algorithm Analysis', 'Calculus']
 created: 2026-02-15
@@ -62,8 +62,8 @@ T(n) = Theta(n * (1 + integral_1^n (u lg u / u^2) du))
 
 ## 관련 개념
 
-- [Master Theorem](/knowledge/algorithms/master-theorem/) - 아크라-바지의 특수한 경우인 마스터 정리
-- [Recurrence](/knowledge/algorithms/recurrence/) - 아크라-바지 방법으로 풀이하는 점화식
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/) - 서로 다른 크기의 부분 문제를 만드는 알고리즘 분석
-- [Substitution Method](/knowledge/algorithms/substitution-method/) - 아크라-바지가 적용 불가할 때의 대안
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/) - 해의 점근적 표현
+- [마스터 정리 (Master Theorem)](/knowledge/algorithms/master-theorem/) - 아크라-바지의 특수한 경우인 마스터 정리
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/) - 아크라-바지 방법으로 풀이하는 점화식
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/) - 서로 다른 크기의 부분 문제를 만드는 알고리즘 분석
+- [치환법 (Substitution Method)](/knowledge/algorithms/substitution-method/) - 아크라-바지가 적용 불가할 때의 대안
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/) - 해의 점근적 표현

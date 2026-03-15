@@ -1,5 +1,5 @@
 ---
-title: "Permutation Cycles"
+title: "순열 순환 (Permutation Cycles)"
 description: "순열의 사이클(cycle)은 순열을 분리된 순환 구조로 표현하는 방법으로, 모든 순열은 서로소인 사이클들의 곱으로 유일하게 표현된다"
 tags: ["Permutation Cycles", "Permutations", "Combinatorics", "TAOCP", "Group Theory"]
 created: 2026-02-27
@@ -47,7 +47,7 @@ c a d a b ⊎ b d d a d = c a b d d a b d a d
 
 ## 관련 개념
 
-- [Inversions](/knowledge/algorithms/sorting-selection/inversions/)
-- [Involutions](/knowledge/algorithms/sorting-selection/involutions/)
-- [Young Tableau](/knowledge/algorithms/sorting-selection/young-tableau/)
-- [Intercalation Product](/knowledge/algorithms/sorting-selection/intercalation-product/)
+- [역순쌍 (Inversions)](/knowledge/algorithms/sorting-selection/inversions/)
+- [대합 (Involutions)](/knowledge/algorithms/sorting-selection/involutions/)
+- [영 타블로 (Young Tableau)](/knowledge/algorithms/sorting-selection/young-tableau/)
+- [교차 곱 (Intercalation Product)](/knowledge/algorithms/sorting-selection/intercalation-product/)

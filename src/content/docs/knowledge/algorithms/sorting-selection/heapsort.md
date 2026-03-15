@@ -1,5 +1,5 @@
 ---
-title: "Heapsort"
+title: "힙 정렬 (Heapsort)"
 description: "힙정렬(Heapsort)은 최대 힙 자료구조를 이용하여 배열을 제자리(in-place)에서 O(n lg n) 시간에 정렬하는 비교 기반 정렬 알고리즘이다"
 tags: ['Heapsort', 'Sorting', 'In Place', 'Comparison Sort', 'Heap']
 created: 2026-02-15
@@ -75,11 +75,11 @@ TAOCP의 힙정렬(Algorithm H, J. W. J. Williams 1964)의 주요 특성:
 
 ## 관련 개념
 
-- [Heap](/knowledge/algorithms/heap/)
-- [Max-Heapify](/knowledge/algorithms/max-heapify/)
-- [Build-Heap](/knowledge/algorithms/build-heap/)
-- [Merge Sort](/knowledge/algorithms/merge-sort/)
-- [Insertion Sort](/knowledge/algorithms/insertion-sort/)
-- [Comparison Sort Lower Bound](/knowledge/algorithms/comparison-sort-lower-bound/)
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
+- [힙 (Heap)](/knowledge/algorithms/heap/)
+- [최대 힙화 (Max-Heapify)](/knowledge/algorithms/max-heapify/)
+- [힙 구성 (Build-Heap)](/knowledge/algorithms/build-heap/)
+- [병합 정렬 (Merge Sort)](/knowledge/algorithms/merge-sort/)
+- [삽입 정렬 (Insertion Sort)](/knowledge/algorithms/insertion-sort/)
+- [비교 정렬 하한 (Comparison Sort Lower Bound)](/knowledge/algorithms/comparison-sort-lower-bound/)
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/)
 - [Internal Sorting Summary](/knowledge/algorithms/sorting-selection/internal-sorting-summary/)

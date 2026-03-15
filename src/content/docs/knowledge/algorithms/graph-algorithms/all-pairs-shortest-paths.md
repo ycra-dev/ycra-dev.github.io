@@ -1,5 +1,5 @@
 ---
-title: "All-Pairs Shortest Paths"
+title: "모든 쌍 최단 경로 (All-Pairs Shortest Paths)"
 description: "모든 쌍 최단 경로(All-Pairs Shortest Paths) 문제는 가중치 방향 그래프 G = (V, E)에서 모든 정점 쌍 (u, v)에 대해 최단 경로 가중치 delta(u, v)를 계산하는 문제이다"
 tags: ['All Pairs Shortest Paths', 'Matrix Multiplication', 'Dynamic Programming', 'Graph Algorithm']
 created: 2026-02-15
@@ -58,8 +58,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Floyd-Warshall Algorithm](/knowledge/algorithms/floyd-warshall-algorithm/)
-- [Johnson Algorithm](/knowledge/algorithms/johnson-algorithm/)
-- [Matrix Multiplication Shortest Paths](/knowledge/algorithms/matrix-multiplication-shortest-paths/)
-- [Shortest Path](/knowledge/algorithms/shortest-path/)
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
+- [플로이드-워셜 알고리즘 (Floyd-Warshall Algorithm)](/knowledge/algorithms/floyd-warshall-algorithm/)
+- [존슨 알고리즘 (Johnson Algorithm)](/knowledge/algorithms/johnson-algorithm/)
+- [행렬 곱셈 최단 경로 (Matrix Multiplication Shortest Paths)](/knowledge/algorithms/matrix-multiplication-shortest-paths/)
+- [최단 경로 (Shortest Path)](/knowledge/algorithms/shortest-path/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)

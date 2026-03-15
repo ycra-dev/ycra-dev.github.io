@@ -1,5 +1,5 @@
 ---
-title: "Huffman Coding"
+title: "허프만 코딩 (Huffman Coding)"
 description: "허프만 코딩(Huffman Coding)은 각 문자의 출현 빈도를 이용하여 최적의 접두사 없는 이진 코드(prefix-free binary code)를 구성하는 그리디 알고리즘이다"
 tags: ['Huffman Coding', 'Greedy Algorithm', 'Data Compression', 'Prefix Free Code', 'Binary Tree']
 created: 2026-02-15
@@ -54,7 +54,7 @@ HUFFMAN(C)
 
 ## 관련 개념
 
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/)
-- [Greedy Choice Property](/knowledge/algorithms/greedy-choice-property/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/)
+- [탐욕 선택 속성 (Greedy Choice Property)](/knowledge/algorithms/greedy-choice-property/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

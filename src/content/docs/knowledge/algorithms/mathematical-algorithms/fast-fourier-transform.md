@@ -1,5 +1,5 @@
 ---
-title: "Fast Fourier Transform"
+title: "고속 푸리에 변환 (Fast Fourier Transform)"
 description: "고속 푸리에 변환(Fast Fourier Transform, FFT)은 이산 푸리에 변환(DFT)과 그 역변환을 O(n lg n) 시간에 계산하는 분할 정복 알고리즘으로, 복소수 단위근(roots of unity)의 특수한 성질을 활용한다"
 tags: ['Fast Fourier Transform', 'Fft', 'Signal Processing', 'Divide And Conquer', 'Roots Of Unity']
 created: 2026-02-15
@@ -64,6 +64,6 @@ RECURSIVE-FFT(a)
 
 ## 관련 개념
 
-- [Discrete Fourier Transform](/knowledge/algorithms/discrete-fourier-transform/) - FFT가 계산하는 변환
-- [Polynomial Multiplication](/knowledge/algorithms/polynomial-multiplication/) - FFT의 핵심 응용
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/) - FFT의 알고리즘 패러다임
+- [이산 푸리에 변환 (Discrete Fourier Transform)](/knowledge/algorithms/discrete-fourier-transform/) - FFT가 계산하는 변환
+- [다항식 곱셈 (Polynomial Multiplication)](/knowledge/algorithms/polynomial-multiplication/) - FFT의 핵심 응용
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/) - FFT의 알고리즘 패러다임

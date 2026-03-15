@@ -1,5 +1,5 @@
 ---
-title: "Period Length (PRNG)"
+title: "주기 길이 (Period Length)"
 description: "PRNG가 동일한 수열을 반복하기 전까지 생성하는 서로 다른 값의 개수 — Floyd의 토끼와 거북이 알고리즘으로 탐지"
 tags: ["Algorithms", "Randomness", "Number Theory", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -118,5 +118,5 @@ print(f"Brent: μ={mu2}, λ={lam2}")  # 동일한 결과
 ## 관련 개념
 
 - [Pseudorandom Number Generator](/knowledge/algorithms/mathematical-algorithms/pseudorandom-number-generator/)
-- [Linear Congruential Method](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)
-- [Modular Arithmetic](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
+- [선형 합동법 (Linear Congruential Method)](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)
+- [모듈러 연산 (Modular Arithmetic)](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)

@@ -1,5 +1,5 @@
 ---
-title: "Hamiltonian Path"
+title: "해밀턴 경로 (Hamiltonian Path)"
 description: "그래프의 모든 정점을 정확히 한 번씩 방문하는 경로 — NP-완전이며 Gray code, TSP, 나이트 투어와 깊이 연결된 핵심 개념"
 tags: ["Graph Theory", "NP-Complete", "Traveling Salesman", "Algorithms"]
 created: 2026-02-27
@@ -84,7 +84,7 @@ def held_karp(dist, n):
 
 ## 관련 개념
 
-- [Graph Theory Basics](/knowledge/algorithms/graph-algorithms/graph-theory-basics/)
-- [Graph Coloring](/knowledge/algorithms/graph-algorithms/graph-coloring/)
-- [Gray Code](/knowledge/discrete-mathematics/combinatorics/gray-code/)
-- [Combinatorial Searching](/knowledge/algorithms/foundations/combinatorial-searching/)
+- [그래프 이론 기초 (Graph Theory Basics)](/knowledge/algorithms/graph-algorithms/graph-theory-basics/)
+- [그래프 색칠 (Graph Coloring)](/knowledge/algorithms/graph-algorithms/graph-coloring/)
+- [그레이 코드 (Gray Code)](/knowledge/discrete-mathematics/combinatorics/gray-code/)
+- [조합 탐색 (Combinatorial Searching)](/knowledge/algorithms/foundations/combinatorial-searching/)

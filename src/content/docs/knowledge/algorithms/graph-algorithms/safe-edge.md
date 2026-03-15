@@ -1,5 +1,5 @@
 ---
-title: "Safe Edge"
+title: "안전 간선 (Safe Edge)"
 description: "안전한 간선(Safe Edge)은 MST 알고리즘에서 현재 간선 집합 A에 추가해도 A가 여전히 어떤 최소 신장 트리의 부분 집합으로 유지되는 간선이다"
 tags: ['Safe Edge', 'Minimum Spanning Tree', 'Greedy Algorithm', 'Graph Theory']
 created: 2026-02-15
@@ -51,8 +51,8 @@ GENERIC-MST(G, w)
 
 ## 관련 개념
 
-- [Minimum Spanning Tree](/knowledge/algorithms/minimum-spanning-tree/)
-- [Cut Property](/knowledge/algorithms/cut-property/)
-- [Kruskal Algorithm](/knowledge/algorithms/kruskal-algorithm/)
-- [Prim Algorithm](/knowledge/algorithms/prim-algorithm/)
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/)
+- [최소 신장 트리 (Minimum Spanning Tree)](/knowledge/algorithms/minimum-spanning-tree/)
+- [절단 성질 (Cut Property)](/knowledge/algorithms/cut-property/)
+- [크루스칼 알고리즘 (Kruskal Algorithm)](/knowledge/algorithms/kruskal-algorithm/)
+- [프림 알고리즘 (Prim Algorithm)](/knowledge/algorithms/prim-algorithm/)
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/)

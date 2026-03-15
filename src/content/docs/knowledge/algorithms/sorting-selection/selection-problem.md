@@ -1,5 +1,5 @@
 ---
-title: "Selection Problem"
+title: "선택 문제 (Selection Problem)"
 description: "선택 문제(Selection Problem)는 n개의 서로 다른 원소로 이루어진 집합에서 i번째로 작은 원소(i번째 순서 통계량)를 찾는 문제이다"
 tags: ['Selection Problem', 'Order Statistic', 'Minimum', 'Maximum', 'Linear Time']
 created: 2026-02-15
@@ -65,9 +65,9 @@ vs 개별 처리: 7 + 7 = 14번
 
 ## 관련 개념
 
-- [Median](/knowledge/algorithms/median/)
-- [Randomized Select](/knowledge/algorithms/randomized-select/)
-- [Comparison Sort Lower Bound](/knowledge/algorithms/comparison-sort-lower-bound/)
-- [Algorithm](/knowledge/algorithms/algorithm/)
-- [Computational Problem](/knowledge/algorithms/computational-problem/)
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
+- [중앙값 (Median)](/knowledge/algorithms/median/)
+- [랜덤 선택 (Randomized Select)](/knowledge/algorithms/randomized-select/)
+- [비교 정렬 하한 (Comparison Sort Lower Bound)](/knowledge/algorithms/comparison-sort-lower-bound/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)
+- [계산 문제 (Computational Problem)](/knowledge/algorithms/computational-problem/)
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/)

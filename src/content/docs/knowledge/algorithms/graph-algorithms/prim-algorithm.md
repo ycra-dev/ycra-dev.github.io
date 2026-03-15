@@ -1,5 +1,5 @@
 ---
-title: "Prim Algorithm"
+title: "프림 알고리즘 (Prim Algorithm)"
 description: "프림 알고리즘은 임의의 루트 정점에서 시작하여, 현재 트리와 트리 밖의 정점을 연결하는 가장 가벼운 간선을 반복적으로 추가하여 최소 신장 트리를 성장시키는 탐욕 알고리즘이다"
 tags: ['Prim Algorithm', 'Minimum Spanning Tree', 'Greedy Algorithm', 'Priority Queue']
 created: 2026-02-15
@@ -64,8 +64,8 @@ MST-PRIM(G, w, r)
 
 ## 관련 개념
 
-- [Minimum Spanning Tree](/knowledge/algorithms/minimum-spanning-tree/)
-- [Kruskal Algorithm](/knowledge/algorithms/kruskal-algorithm/)
-- [Dijkstra Algorithm](/knowledge/algorithms/dijkstra-algorithm/)
-- [Priority Queue](/knowledge/algorithms/priority-queue/)
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/)
+- [최소 신장 트리 (Minimum Spanning Tree)](/knowledge/algorithms/minimum-spanning-tree/)
+- [크루스칼 알고리즘 (Kruskal Algorithm)](/knowledge/algorithms/kruskal-algorithm/)
+- [다익스트라 알고리즘 (Dijkstra Algorithm)](/knowledge/algorithms/dijkstra-algorithm/)
+- [우선순위 큐 (Priority Queue)](/knowledge/algorithms/priority-queue/)
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/)

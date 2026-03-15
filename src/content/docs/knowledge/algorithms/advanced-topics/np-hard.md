@@ -1,5 +1,5 @@
 ---
-title: "NP-Hard"
+title: "NP-난해 (NP-Hard)"
 description: "NP-난해(NP-Hard) 문제는 NP의 모든 문제가 다항 시간에 환원 가능한 문제로, NP에서 \"가장 어려운\" 수준의 난이도를 가지지만 반드시 NP에 속할 필요는 없다"
 tags: ['Np Hard', 'Complexity Theory', 'Intractability', 'Computational Hardness', 'Optimization']
 created: 2026-02-15
@@ -80,8 +80,8 @@ VERTEX-COVER 결정: "크기 k 이하 정점 커버가 있는가?" (NP-complete)
 
 ## 관련 개념
 
-- [NP-Completeness](/knowledge/algorithms/np-completeness/) - NP-hard ∩ NP
-- [Polynomial Time](/knowledge/algorithms/polynomial-time/) - NP-hard와 대비되는 효율적 해결 가능 문제
-- [Reduction](/knowledge/algorithms/reduction/) - NP-hard 증명의 핵심 도구
-- [Approximation Algorithm](/knowledge/algorithms/approximation-algorithm/) - NP-hard 문제의 실용적 대안
-- [K-Means](/knowledge/algorithms/k-means/) - NP-hard 최적화 문제의 예
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/np-completeness/) - NP-hard ∩ NP
+- [다항 시간 (Polynomial Time)](/knowledge/algorithms/polynomial-time/) - NP-hard와 대비되는 효율적 해결 가능 문제
+- [환원 (Reduction)](/knowledge/algorithms/reduction/) - NP-hard 증명의 핵심 도구
+- [근사 알고리즘 (Approximation Algorithm)](/knowledge/algorithms/approximation-algorithm/) - NP-hard 문제의 실용적 대안
+- [K-평균 (K-Means)](/knowledge/algorithms/k-means/) - NP-hard 최적화 문제의 예

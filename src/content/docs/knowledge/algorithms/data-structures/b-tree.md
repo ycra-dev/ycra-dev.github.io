@@ -1,5 +1,5 @@
 ---
-title: "B-Tree"
+title: "B-트리 (B-Tree)"
 description: "B-트리(B-Tree)는 외부 저장장치(디스크)에서의 탐색에 최적화된 균형 다원 탐색 트리로, 각 노드가 여러 개의 키와 자식 포인터를 가지며 모든 리프 노드가 동일한 깊이에 위치한다"
 tags: ["B-Tree", "External Searching", "Balanced Tree", "Multiway Tree", "Database", "TAOCP"]
 created: 2026-02-27
@@ -78,8 +78,8 @@ m=3인 B-트리 (2-3 트리) 삽입 예시
 
 ## 관련 개념
 
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [AVL Tree](/knowledge/algorithms/data-structures/avl-tree/)
-- [2-3 Tree](/knowledge/algorithms/data-structures/2-3-tree/)
-- [Trie](/knowledge/algorithms/data-structures/trie/)
-- [Hash Table](/knowledge/algorithms/hash-table/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [AVL 트리 (AVL Tree)](/knowledge/algorithms/data-structures/avl-tree/)
+- [2-3 트리 (2-3 Tree)](/knowledge/algorithms/data-structures/2-3-tree/)
+- [트라이 (Trie)](/knowledge/algorithms/data-structures/trie/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)

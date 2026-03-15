@@ -1,5 +1,5 @@
 ---
-title: "Set Cover"
+title: "집합 덮개 (Set Cover)"
 description: "집합 커버(Set Cover) 문제는 유한 집합 X의 모든 원소를 포함하도록 하는 부분집합 족 F의 최소 부분족을 찾는 NP-완전 문제로, 탐욕 알고리즘이 O(ln |X|)-근사를 달성한다"
 tags: ['Set Cover', 'Greedy Algorithm', 'Approximation Algorithm', 'Logarithmic Ratio', 'Np Complete']
 created: 2026-02-15
@@ -100,7 +100,7 @@ X = {C++, Python, SQL, React, DevOps}  (필요 스킬)
 
 ## 관련 개념
 
-- [Approximation Algorithm](/knowledge/algorithms/approximation-algorithm/) - 집합 커버 근사의 상위 개념
-- [Approximation Ratio](/knowledge/algorithms/approximation-ratio/) - 로그 근사 비율
-- [Vertex Cover](/knowledge/algorithms/vertex-cover/) - 집합 커버의 특수 경우
-- [NP-Completeness](/knowledge/algorithms/np-completeness/) - 집합 커버 결정 문제는 NPC
+- [근사 알고리즘 (Approximation Algorithm)](/knowledge/algorithms/approximation-algorithm/) - 집합 커버 근사의 상위 개념
+- [근사 비율 (Approximation Ratio)](/knowledge/algorithms/approximation-ratio/) - 로그 근사 비율
+- [정점 덮개 (Vertex Cover)](/knowledge/algorithms/vertex-cover/) - 집합 커버의 특수 경우
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/np-completeness/) - 집합 커버 결정 문제는 NPC

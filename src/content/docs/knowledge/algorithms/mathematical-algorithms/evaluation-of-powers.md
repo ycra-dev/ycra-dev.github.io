@@ -1,5 +1,5 @@
 ---
-title: "Evaluation of Powers"
+title: "거듭제곱 계산 (Evaluation of Powers)"
 description: "a^n을 최소한의 곱셈으로 계산하는 알고리즘 — 이진 방법(반복 제곱)이 표준이지만 가법 연쇄로 더 줄일 수 있음"
 tags: ["Algorithms", "Arithmetic", "Exponentiation", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -105,6 +105,6 @@ for n in [15, 23, 64, 127]:
 
 ## 관련 개념
 
-- [Modular Arithmetic](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
-- [RSA Cryptosystem](/knowledge/algorithms/mathematical-algorithms/rsa-cryptosystem/)
-- [Modular Exponentiation](/knowledge/discrete-mathematics/number-theory/modular-exponentiation/)
+- [모듈러 연산 (Modular Arithmetic)](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
+- [RSA 암호 체계 (RSA Cryptosystem)](/knowledge/algorithms/mathematical-algorithms/rsa-cryptosystem/)
+- [모듈러 거듭제곱 (Modular Exponentiation)](/knowledge/discrete-mathematics/number-theory/modular-exponentiation/)

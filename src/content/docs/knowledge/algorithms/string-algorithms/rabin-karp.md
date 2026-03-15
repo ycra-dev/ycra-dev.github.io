@@ -1,5 +1,5 @@
 ---
-title: "Rabin-Karp Algorithm"
+title: "라빈-카프 알고리즘 (Rabin-Karp Algorithm)"
 description: "라빈-카프 알고리즘(Rabin-Karp Algorithm)은 해싱을 이용한 문자열 매칭 알고리즘으로, 패턴의 해시값과 텍스트의 각 위치에서의 해시값을 비교하여 후보를 빠르게 걸러내는 방법이다"
 tags: ['Rabin Karp', 'String Matching', 'Hashing', 'Rolling Hash', 'Fingerprint']
 created: 2026-02-15
@@ -66,6 +66,6 @@ p = 31415 mod 13 = 7
 
 ## 관련 개념
 
-- [String Matching](/knowledge/algorithms/string-matching/) - 문자열 매칭 문제의 한 해법
+- [문자열 매칭 (String Matching)](/knowledge/algorithms/string-matching/) - 문자열 매칭 문제의 한 해법
 - [Knuth-Morris-Pratt](/knowledge/algorithms/knuth-morris-pratt/) - 더 나은 최악 시간의 대안
-- [Modular Arithmetic](/knowledge/algorithms/modular-arithmetic/) - 롤링 해시의 수학적 기반
+- [모듈러 연산 (Modular Arithmetic)](/knowledge/algorithms/modular-arithmetic/) - 롤링 해시의 수학적 기반

@@ -1,5 +1,5 @@
 ---
-title: "Greedy Choice Property"
+title: "탐욕 선택 속성 (Greedy Choice Property)"
 description: "그리디 선택 성질(Greedy-Choice Property)은 지역적으로 최적인 (그리디) 선택을 함으로써 전역적으로 최적인 해를 구성할 수 있다는 성질이다"
 tags: ['Greedy Choice Property', 'Greedy Algorithm', 'Optimization', 'Proof Technique']
 created: 2026-02-15
@@ -44,8 +44,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/)
-- [Activity Selection](/knowledge/algorithms/activity-selection/)
-- [Huffman Coding](/knowledge/algorithms/huffman-coding/)
-- [Optimal Substructure](/knowledge/algorithms/optimal-substructure/)
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/)
+- [활동 선택 (Activity Selection)](/knowledge/algorithms/activity-selection/)
+- [허프만 코딩 (Huffman Coding)](/knowledge/algorithms/huffman-coding/)
+- [최적 부분 구조 (Optimal Substructure)](/knowledge/algorithms/optimal-substructure/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)

@@ -1,5 +1,5 @@
 ---
-title: "String Matching"
+title: "문자열 매칭 (String Matching)"
 description: "문자열 매칭(String Matching)은 길이 n인 텍스트 T에서 길이 m인 패턴 P의 모든 출현 위치(유효 시프트)를 찾는 문제이다"
 tags: ['String Matching', 'Pattern Matching', 'Text Search', 'Algorithms']
 created: 2026-02-15
@@ -57,4 +57,4 @@ s=3: abaa = abaa  ← 유효 시프트!
 - [Rabin-Karp](/knowledge/algorithms/rabin-karp/) - 해시 기반 문자열 매칭
 - [Knuth-Morris-Pratt](/knowledge/algorithms/knuth-morris-pratt/) - 실패 함수 기반 선형 시간 매칭
 - [Finite Automaton](/knowledge/algorithms/finite-automaton/) - 오토마타 기반 매칭
-- [Suffix Array](/knowledge/algorithms/suffix-array/) - 접미사 배열 기반 다목적 매칭
+- [접미사 배열 (Suffix Array)](/knowledge/algorithms/suffix-array/) - 접미사 배열 기반 다목적 매칭

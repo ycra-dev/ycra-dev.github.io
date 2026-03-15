@@ -1,5 +1,5 @@
 ---
-title: "Primality Testing"
+title: "소수 판정 (Primality Testing)"
 description: "소수 판별(Primality Testing)은 주어진 정수 n이 소수인지 합성수인지 판별하는 문제로, 밀러-라빈(Miller-Rabin) 확률적 검사가 가장 널리 사용되는 효율적인 방법이다"
 tags: ['Primality Testing', 'Miller Rabin', 'Randomized Algorithm', 'Number Theory', 'Cryptography']
 created: 2026-02-15
@@ -83,7 +83,7 @@ n = 561 (카마이클 수: 합성수지만 페르마 검사를 통과)
 
 ## 관련 개념
 
-- [RSA Cryptosystem](/knowledge/algorithms/rsa-cryptosystem/) - 큰 소수 생성에 밀러-라빈 사용
-- [Modular Arithmetic](/knowledge/algorithms/modular-arithmetic/) - 모듈러 지수 연산 기반
+- [RSA 암호 체계 (RSA Cryptosystem)](/knowledge/algorithms/rsa-cryptosystem/) - 큰 소수 생성에 밀러-라빈 사용
+- [모듈러 연산 (Modular Arithmetic)](/knowledge/algorithms/modular-arithmetic/) - 모듈러 지수 연산 기반
 - [GCD](/knowledge/algorithms/gcd/) - 소수 판별의 보조 도구
-- [Chinese Remainder Theorem](/knowledge/algorithms/chinese-remainder-theorem/) - 소수 기반 분해
+- [중국인의 나머지 정리 (Chinese Remainder Theorem)](/knowledge/algorithms/chinese-remainder-theorem/) - 소수 기반 분해

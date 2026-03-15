@@ -1,5 +1,5 @@
 ---
-title: "Circular List"
+title: "원형 리스트 (Circular List)"
 description: "마지막 노드의 링크가 첫 번째 노드를 가리켜 원형을 이루는 연결 리스트 변형"
 tags: ["Data Structures", "Linked List", "Algorithms", "TAOCP"]
 created: 2026-02-27
@@ -123,7 +123,7 @@ print(q.traverse())   # [2, 3]
 
 ## 관련 개념
 
-- [Linked List](/knowledge/algorithms/data-structures/linked-list/)
-- [Doubly Linked List](/knowledge/algorithms/data-structures/doubly-linked-list/)
-- [Queue](/knowledge/algorithms/data-structures/queue/)
-- [Sequential Allocation](/knowledge/algorithms/data-structures/sequential-allocation/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/data-structures/linked-list/)
+- [이중 연결 리스트 (Doubly Linked List)](/knowledge/algorithms/data-structures/doubly-linked-list/)
+- [큐 (Queue)](/knowledge/algorithms/data-structures/queue/)
+- [순차 할당 (Sequential Allocation)](/knowledge/algorithms/data-structures/sequential-allocation/)

@@ -1,5 +1,5 @@
 ---
-title: "B-Tree Search"
+title: "B-트리 탐색 (B-Tree Search)"
 description: "B-트리 탐색(B-Tree Search)은 이진 탐색 트리의 탐색을 다방향(multiway) 분기 결정으로 일반화한 것이다"
 tags: ['B Tree Search', 'B Tree', 'Disk Access', 'Multiway Branching', 'Search']
 created: 2026-02-15
@@ -58,6 +58,6 @@ B-TREE-SEARCH(x, k)
 
 ## 관련 개념
 
-- [B-Tree](/knowledge/algorithms/b-tree/)
-- [B-Tree Insertion](/knowledge/algorithms/b-tree-insertion/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
+- [B-트리 (B-Tree)](/knowledge/algorithms/b-tree/)
+- [B-트리 삽입 (B-Tree Insertion)](/knowledge/algorithms/b-tree-insertion/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)

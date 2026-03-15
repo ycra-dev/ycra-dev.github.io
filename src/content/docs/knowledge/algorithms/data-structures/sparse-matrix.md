@@ -1,5 +1,5 @@
 ---
-title: "Sparse Matrix"
+title: "희소 행렬 (Sparse Matrix)"
 description: "대부분의 원소가 0인 행렬을 0이 아닌 원소만 저장하여 메모리와 연산을 효율화하는 자료구조"
 tags: ["Data Structures", "Algorithms", "Linear Algebra", "TAOCP"]
 created: 2026-02-27
@@ -99,6 +99,6 @@ print(f"Ax = {sparse.matvec(x)}")  # [8, 5, 7]
 
 ## 관련 개념
 
-- [Multilinked Structure](/knowledge/algorithms/data-structures/multilinked-structure/)
-- [Linked List](/knowledge/algorithms/data-structures/linked-list/)
-- [Array](/knowledge/algorithms/data-structures/array/)
+- [다중 연결 구조 (Multilinked Structure)](/knowledge/algorithms/data-structures/multilinked-structure/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/data-structures/linked-list/)
+- [배열 (Array)](/knowledge/algorithms/data-structures/array/)

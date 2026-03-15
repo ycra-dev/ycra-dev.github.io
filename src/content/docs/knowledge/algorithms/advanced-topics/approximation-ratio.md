@@ -1,5 +1,5 @@
 ---
-title: "Approximation Ratio"
+title: "근사 비율 (Approximation Ratio)"
 description: "근사 비율(Approximation Ratio) ρ(n)은 근사 알고리즘이 반환하는 해의 비용이 최적해 비용의 최대 ρ(n)배 이내임을 보장하는 성능 척도로, 값이 1에 가까울수록 최적에 가깝다"
 tags: ['Approximation Ratio', 'Performance Guarantee', 'Ptas', 'Fptas', 'Optimization', 'Lower Bound']
 created: 2026-02-15
@@ -92,9 +92,9 @@ FPTAS 보장: 해 ≥ 6/1.5 = 4 이상
 
 ## 관련 개념
 
-- [Approximation Algorithm](/knowledge/algorithms/approximation-algorithm/) - 근사 비율을 사용하는 알고리즘
-- [Vertex Cover](/knowledge/algorithms/vertex-cover/) - 2-근사의 대표 예
-- [Traveling Salesperson](/knowledge/algorithms/traveling-salesperson/) - 2-근사 및 근사 불가능성
-- [Set Cover](/knowledge/algorithms/set-cover/) - 로그 근사 비율의 예
-- [NP-Completeness](/knowledge/algorithms/np-completeness/) - 근사가 필요한 이유
-- [Linear Programming](/knowledge/algorithms/linear-programming/) - LP 이완을 통한 하한 계산
+- [근사 알고리즘 (Approximation Algorithm)](/knowledge/algorithms/approximation-algorithm/) - 근사 비율을 사용하는 알고리즘
+- [정점 덮개 (Vertex Cover)](/knowledge/algorithms/vertex-cover/) - 2-근사의 대표 예
+- [외판원 문제 (Traveling Salesperson)](/knowledge/algorithms/traveling-salesperson/) - 2-근사 및 근사 불가능성
+- [집합 덮개 (Set Cover)](/knowledge/algorithms/set-cover/) - 로그 근사 비율의 예
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/np-completeness/) - 근사가 필요한 이유
+- [선형 계획법 (Linear Programming)](/knowledge/algorithms/linear-programming/) - LP 이완을 통한 하한 계산

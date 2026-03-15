@@ -1,5 +1,5 @@
 ---
-title: "Approximation Algorithm"
+title: "근사 알고리즘 (Approximation Algorithm)"
 description: "근사 알고리즘(Approximation Algorithm)은 NP-완전 최적화 문제에 대해 다항 시간 내에 최적해에 가까운 근사해를 반환하는 알고리즘으로, 해의 품질이 근사 비율로 보장된다"
 tags: ['Approximation Algorithm', 'Np Complete', 'Near Optimal', 'Polynomial Time', 'Optimization']
 created: 2026-02-15
@@ -78,9 +78,9 @@ S = {104, 102, 201, 301}, t = 308
 
 ## 관련 개념
 
-- [NP-Completeness](/knowledge/algorithms/np-completeness/) - 근사 알고리즘이 필요한 이유
-- [Approximation Ratio](/knowledge/algorithms/approximation-ratio/) - 해의 품질 보장 척도
-- [Vertex Cover](/knowledge/algorithms/vertex-cover/) - 2-근사 알고리즘의 대표 예
-- [Traveling Salesperson](/knowledge/algorithms/traveling-salesperson/) - TSP 근사 알고리즘
-- [Set Cover](/knowledge/algorithms/set-cover/) - 로그 근사 알고리즘의 예
-- [Linear Programming](/knowledge/algorithms/linear-programming/) - LP 이완 기반 근사
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/np-completeness/) - 근사 알고리즘이 필요한 이유
+- [근사 비율 (Approximation Ratio)](/knowledge/algorithms/approximation-ratio/) - 해의 품질 보장 척도
+- [정점 덮개 (Vertex Cover)](/knowledge/algorithms/vertex-cover/) - 2-근사 알고리즘의 대표 예
+- [외판원 문제 (Traveling Salesperson)](/knowledge/algorithms/traveling-salesperson/) - TSP 근사 알고리즘
+- [집합 덮개 (Set Cover)](/knowledge/algorithms/set-cover/) - 로그 근사 알고리즘의 예
+- [선형 계획법 (Linear Programming)](/knowledge/algorithms/linear-programming/) - LP 이완 기반 근사

@@ -1,5 +1,5 @@
 ---
-title: "Hash Table"
+title: "해시 테이블 (Hash Table)"
 description: "해시 테이블(Hash Table)은 해시 함수를 사용하여 키를 배열 슬롯에 매핑하는 자료구조로, 딕셔너리 연산(INSERT, SEARCH, DELETE)을 평균 O(1) 시간에 지원한다"
 tags: ['Hash Table', 'Data Structure', 'Dictionary', 'Hashing', 'Load Factor', 'Dynamic Set']
 created: 2026-02-15
@@ -79,9 +79,9 @@ N개의 정적 키에 대해 충돌 없이 매핑하는 h(K) 설계. 4131가지 
 
 ## 관련 개념
 
-- [Hash Function](/knowledge/algorithms/hash-function/)
-- [Collision Resolution](/knowledge/algorithms/collision-resolution/)
-- [Chaining](/knowledge/algorithms/chaining/)
-- [Open Addressing](/knowledge/algorithms/open-addressing/)
-- [Direct-Address Table](/knowledge/algorithms/direct-address-table/)
-- [Linked List](/knowledge/algorithms/linked-list/)
+- [해시 함수 (Hash Function)](/knowledge/algorithms/hash-function/)
+- [충돌 해결 (Collision Resolution)](/knowledge/algorithms/collision-resolution/)
+- [체이닝 (Chaining)](/knowledge/algorithms/chaining/)
+- [개방 주소법 (Open Addressing)](/knowledge/algorithms/open-addressing/)
+- [직접 주소 테이블 (Direct-Address Table)](/knowledge/algorithms/direct-address-table/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/linked-list/)

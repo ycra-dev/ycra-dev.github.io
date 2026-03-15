@@ -1,5 +1,5 @@
 ---
-title: "Discrete Fourier Transform"
+title: "이산 푸리에 변환 (Discrete Fourier Transform)"
 description: "이산 푸리에 변환(Discrete Fourier Transform, DFT)은 계수 벡터 a = (a_0, a_1, "
 tags: ['Discrete Fourier Transform', 'Dft', 'Signal Processing', 'Complex Numbers', 'Frequency Domain']
 created: 2026-02-15
@@ -70,5 +70,5 @@ c = DFT^{-1}(DFT(a) · DFT(b))
 
 ## 관련 개념
 
-- [Fast Fourier Transform](/knowledge/algorithms/fast-fourier-transform/) - DFT를 효율적으로 계산하는 알고리즘
-- [Polynomial Multiplication](/knowledge/algorithms/polynomial-multiplication/) - DFT/역 DFT를 통한 다항식 곱셈
+- [고속 푸리에 변환 (Fast Fourier Transform)](/knowledge/algorithms/fast-fourier-transform/) - DFT를 효율적으로 계산하는 알고리즘
+- [다항식 곱셈 (Polynomial Multiplication)](/knowledge/algorithms/polynomial-multiplication/) - DFT/역 DFT를 통한 다항식 곱셈

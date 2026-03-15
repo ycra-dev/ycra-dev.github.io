@@ -1,5 +1,5 @@
 ---
-title: "Sorting Complexity Theory"
+title: "정렬 복잡도 이론 (Sorting Complexity Theory)"
 description: "정렬 복잡도 이론은 정렬 알고리즘의 이론적 하한과 상한을 연구한다. 비교 기반 정렬의 최악의 경우 하한은 Ω(N log N)이며, 이는 정보 이론적 논증으로 증명된다"
 tags: ["Sorting Complexity", "Lower Bounds", "Information Theory", "Comparison Model", "TAOCP", "N log N"]
 created: 2026-02-27
@@ -68,7 +68,7 @@ N=1000: log₂(1000!) ≈ 8530 비교 필요 (최악)
 
 ## 관련 개념
 
-- [Minimum-Comparison Sorting](/knowledge/algorithms/sorting-selection/minimum-comparison-sorting/)
-- [Comparison-Based Sorting Lower Bound](/knowledge/algorithms/sorting-selection/comparison-based-sorting-lower-bound/)
-- [Sorting Algorithm History](/knowledge/algorithms/sorting-selection/sorting-algorithm-history/)
-- [Comparison Sort Lower Bound](/knowledge/algorithms/comparison-sort-lower-bound/)
+- [최소 비교 정렬 (Minimum-Comparison Sorting)](/knowledge/algorithms/sorting-selection/minimum-comparison-sorting/)
+- [비교 기반 정렬 하한 (Comparison-Based Sorting Lower Bound)](/knowledge/algorithms/sorting-selection/comparison-based-sorting-lower-bound/)
+- [정렬 알고리즘의 역사 (Sorting Algorithm History)](/knowledge/algorithms/sorting-selection/sorting-algorithm-history/)
+- [비교 정렬 하한 (Comparison Sort Lower Bound)](/knowledge/algorithms/comparison-sort-lower-bound/)

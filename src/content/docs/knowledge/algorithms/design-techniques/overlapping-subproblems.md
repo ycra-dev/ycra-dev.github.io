@@ -1,5 +1,5 @@
 ---
-title: "Overlapping Subproblems"
+title: "중복 부분 문제 (Overlapping Subproblems)"
 description: "겹치는 부분 문제(Overlapping Subproblems)란 재귀적 알고리즘이 항상 새로운 부분 문제를 생성하는 대신, 동일한 부분 문제를 반복적으로 풀게 되는 성질이다"
 tags: ['Overlapping Subproblems', 'Dynamic Programming', 'Recursion', 'Subproblem Graph']
 created: 2026-02-15
@@ -39,7 +39,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
-- [Optimal Substructure](/knowledge/algorithms/optimal-substructure/)
-- [Memoization](/knowledge/algorithms/memoization/)
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)
+- [최적 부분 구조 (Optimal Substructure)](/knowledge/algorithms/optimal-substructure/)
+- [메모이제이션 (Memoization)](/knowledge/algorithms/memoization/)
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/)

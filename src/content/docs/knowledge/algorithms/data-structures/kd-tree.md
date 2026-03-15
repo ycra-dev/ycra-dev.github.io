@@ -1,5 +1,5 @@
 ---
-title: "k-d Tree"
+title: "k-d 트리 (k-d Tree)"
 description: "k-d 트리(k-dimensional tree)는 k차원 공간에서 점들을 효율적으로 탐색하기 위한 이진 공간 분할 트리로, 각 레벨에서 하나의 차원을 기준으로 공간을 두 반공간으로 분할한다"
 tags: ["k-d Tree", "Multidimensional", "Spatial Searching", "Range Query", "Nearest Neighbor", "TAOCP"]
 created: 2026-02-27
@@ -91,7 +91,7 @@ def kd_nearest(node, query, depth=0):
 
 ## 관련 개념
 
-- [Multiattribute Retrieval](/knowledge/algorithms/data-structures/multiattribute-retrieval/)
-- [Trie](/knowledge/algorithms/data-structures/trie/)
-- [B-Tree](/knowledge/algorithms/data-structures/b-tree/)
-- [Digital Search Tree](/knowledge/algorithms/data-structures/digital-search-tree/)
+- [다중 속성 검색 (Multiattribute Retrieval)](/knowledge/algorithms/data-structures/multiattribute-retrieval/)
+- [트라이 (Trie)](/knowledge/algorithms/data-structures/trie/)
+- [B-트리 (B-Tree)](/knowledge/algorithms/data-structures/b-tree/)
+- [디지털 탐색 트리 (Digital Search Tree)](/knowledge/algorithms/data-structures/digital-search-tree/)

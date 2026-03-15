@@ -1,5 +1,5 @@
 ---
-title: "Harmonic Numbers"
+title: "조화수 (Harmonic Numbers)"
 description: "n번째 조화수 H_n = 1 + 1/2 + 1/3 + ... + 1/n으로, 알고리즘 분석에서 매우 빈번하게 등장하는 수열"
 tags: ["Algorithms", "Analysis", "Mathematics", "TAOCP"]
 created: 2026-02-27
@@ -85,6 +85,6 @@ print(f"QuickSort 평균 비교: {quicksort_avg_comparisons(1000):.0f}")
 
 ## 관련 개념
 
-- [Analysis of Algorithms](/knowledge/algorithms/foundations/analysis-of-algorithms/)
-- [Big-O Notation](/knowledge/algorithms/foundations/big-o-notation/)
-- [Generating Functions](/knowledge/discrete-mathematics/combinatorics/generating-functions/)
+- [알고리즘 분석 (Analysis of Algorithms)](/knowledge/algorithms/foundations/analysis-of-algorithms/)
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/foundations/big-o-notation/)
+- [생성 함수 (Generating Functions)](/knowledge/discrete-mathematics/combinatorics/generating-functions/)

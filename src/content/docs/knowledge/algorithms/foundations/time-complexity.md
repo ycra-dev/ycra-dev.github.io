@@ -1,5 +1,5 @@
 ---
-title: "Time Complexity"
+title: "시간 복잡도 (Time Complexity)"
 description: "시간 복잡도(Time Complexity)는 알고리즘이 특정 크기의 입력에 대해 문제를 해결하는 데 필요한 연산 횟수를 나타낸 것이다"
 tags: ['Time Complexity', 'Computational Complexity', 'Worst Case', 'Average Case', 'Algorithm Analysis']
 created: 2026-02-16
@@ -72,10 +72,10 @@ n = 2^k일 때, 각 단계마다 2번의 비교를 수행하고 리스트 크기
 
 ## 관련 개념
 
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 시간 복잡도를 표현하는 표기법
-- [Big-Omega and Big-Theta Notation](/knowledge/algorithms/big-omega-and-big-theta-notation/) - 정확한 차수를 표현하는 표기법
-- [Algorithm](/knowledge/algorithms/algorithm/) - 분석 대상인 알고리즘
-- [Linear Search](/knowledge/algorithms/linear-search/) - Θ(n) 복잡도 사례
-- [Binary Search](/knowledge/algorithms/binary-search/) - Θ(log n) 복잡도 사례
-- [Sorting Algorithm](/knowledge/algorithms/sorting-algorithm/) - Θ(n²) 복잡도 사례
-- [Tractability](/knowledge/algorithms/tractability/) - 시간 복잡도에 기반한 문제 분류
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - 시간 복잡도를 표현하는 표기법
+- [빅오메가와 빅세타 표기법 (Big-Omega and Big-Theta Notation)](/knowledge/algorithms/big-omega-and-big-theta-notation/) - 정확한 차수를 표현하는 표기법
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 분석 대상인 알고리즘
+- [선형 탐색 (Linear Search)](/knowledge/algorithms/linear-search/) - Θ(n) 복잡도 사례
+- [이진 탐색 (Binary Search)](/knowledge/algorithms/binary-search/) - Θ(log n) 복잡도 사례
+- [정렬 알고리즘 (Sorting Algorithm)](/knowledge/algorithms/sorting-algorithm/) - Θ(n²) 복잡도 사례
+- [다루기 쉬움 (Tractability)](/knowledge/algorithms/tractability/) - 시간 복잡도에 기반한 문제 분류

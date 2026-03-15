@@ -1,5 +1,5 @@
 ---
-title: "Fast Multiplication"
+title: "고속 곱셈 (Fast Multiplication)"
 description: "Karatsuba, Schönhage-Strassen 등 O(n²)보다 빠른 분할 정복 및 FFT 기반 정수/다항식 곱셈 알고리즘"
 tags: ["Algorithms", "Arithmetic", "Divide and Conquer", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -124,7 +124,7 @@ print(f"(x+1)^4 계수: {u_4}")  # [1, 4, 6, 4, 1]
 
 ## 관련 개념
 
-- [Multiple-Precision Arithmetic](/knowledge/algorithms/mathematical-algorithms/multiple-precision-arithmetic/)
-- [Polynomial Arithmetic](/knowledge/algorithms/mathematical-algorithms/polynomial-arithmetic/)
-- [Fast Fourier Transform](/knowledge/algorithms/mathematical-algorithms/fast-fourier-transform/)
-- [Polynomial Multiplication](/knowledge/algorithms/mathematical-algorithms/polynomial-multiplication/)
+- [다중 정밀도 연산 (Multiple-Precision Arithmetic)](/knowledge/algorithms/mathematical-algorithms/multiple-precision-arithmetic/)
+- [다항식 연산 (Polynomial Arithmetic)](/knowledge/algorithms/mathematical-algorithms/polynomial-arithmetic/)
+- [고속 푸리에 변환 (Fast Fourier Transform)](/knowledge/algorithms/mathematical-algorithms/fast-fourier-transform/)
+- [다항식 곱셈 (Polynomial Multiplication)](/knowledge/algorithms/mathematical-algorithms/polynomial-multiplication/)

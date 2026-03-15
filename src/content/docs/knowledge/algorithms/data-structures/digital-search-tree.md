@@ -1,5 +1,5 @@
 ---
-title: "Digital Search Tree"
+title: "디지털 탐색 트리 (Digital Search Tree)"
 description: "디지털 탐색 트리(Digital Search Tree)는 키의 비트를 사용하여 탐색 방향을 결정하는 이진 트리로, BST와 달리 키의 대소 비교 대신 비트값으로 분기한다"
 tags: ["Digital Search Tree", "Digital Searching", "Binary Trie", "Radix", "Bit Comparison", "TAOCP"]
 created: 2026-02-27
@@ -69,7 +69,7 @@ N개의 랜덤 이진 키에 대해:
 
 ## 관련 개념
 
-- [Trie](/knowledge/algorithms/data-structures/trie/)
-- [Patricia Tree](/knowledge/algorithms/data-structures/patricia-tree/)
-- [Radix Search](/knowledge/algorithms/data-structures/radix-search/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
+- [트라이 (Trie)](/knowledge/algorithms/data-structures/trie/)
+- [패트리샤 트리 (Patricia Tree)](/knowledge/algorithms/data-structures/patricia-tree/)
+- [기수 탐색 (Radix Search)](/knowledge/algorithms/data-structures/radix-search/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)

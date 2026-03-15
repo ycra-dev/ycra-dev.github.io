@@ -1,5 +1,5 @@
 ---
-title: "Order-Statistics Tree"
+title: "순서 통계 트리 (Order-Statistics Tree)"
 description: "순서 통계 트리(Order-Statistics Tree)는 레드-블랙 트리에 각 노드 x에 대해 x를 루트로 하는 서브트리의 내부 노드 수인 x"
 tags: ['Order Statistics Tree', 'Augmenting Data Structure', 'Red Black Tree', 'Rank', 'Selection']
 created: 2026-02-15
@@ -64,7 +64,7 @@ OS-RANK(T, x)
 
 ## 관련 개념
 
-- [Augmenting Data Structure](/knowledge/algorithms/augmenting-data-structure/)
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Interval Tree](/knowledge/algorithms/interval-tree/)
+- [보강 자료구조 (Augmenting Data Structure)](/knowledge/algorithms/augmenting-data-structure/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [구간 트리 (Interval Tree)](/knowledge/algorithms/interval-tree/)

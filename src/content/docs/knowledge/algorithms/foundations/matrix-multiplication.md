@@ -1,5 +1,5 @@
 ---
-title: "Matrix Multiplication"
+title: "행렬 곱셈 (Matrix Multiplication)"
 description: "행렬 곱셈(Matrix Multiplication)은 두 n x n 행렬 A와 B의 곱 C = A * B를 계산하는 연산으로, 결과 행렬 C의 (i, j) 원소는 A의 i번째 행과 B의 j번째 열의 내적으로 정의된다"
 tags: ['Matrix Multiplication', 'Divide And Conquer', 'Linear Algebra', 'Computational Complexity']
 created: 2026-02-15
@@ -52,8 +52,8 @@ def matrix_multiply(A, B):
 
 ## 관련 개념
 
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/) - 행렬 곱셈에 분할 정복 기법을 적용
-- [Strassen Algorithm](/knowledge/algorithms/strassen-algorithm/) - 행렬 곱셈을 Theta(n^lg7)으로 개선한 알고리즘
-- [Recurrence](/knowledge/algorithms/recurrence/) - 재귀적 행렬 곱셈의 수행 시간을 점화식으로 분석
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/) - Theta(n^3) 수행 시간의 표기
-- [Master Theorem](/knowledge/algorithms/master-theorem/) - 점화식 T(n) = 8T(n/2) + Theta(n^2)의 해를 구하는 데 사용
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/) - 행렬 곱셈에 분할 정복 기법을 적용
+- [슈트라센 알고리즘 (Strassen Algorithm)](/knowledge/algorithms/strassen-algorithm/) - 행렬 곱셈을 Theta(n^lg7)으로 개선한 알고리즘
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/) - 재귀적 행렬 곱셈의 수행 시간을 점화식으로 분석
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/) - Theta(n^3) 수행 시간의 표기
+- [마스터 정리 (Master Theorem)](/knowledge/algorithms/master-theorem/) - 점화식 T(n) = 8T(n/2) + Theta(n^2)의 해를 구하는 데 사용

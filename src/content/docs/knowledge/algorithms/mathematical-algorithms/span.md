@@ -1,5 +1,5 @@
 ---
-title: "Span"
+title: "스팬 (Span)"
 description: "Span은 무제한 프로세서에서 병렬 계산을 수행하는 데 걸리는 최소 시간으로, 계산 trace(DAG)에서 가장 긴 경로(임계 경로, critical path)의 가중치 합이다"
 tags: ['Span', 'Critical Path', 'Parallel Computing', 'Work Span Analysis']
 created: 2026-02-15
@@ -50,7 +50,7 @@ M_∞(n) = M_∞(n/2) + Θ(lg n) = Θ(lg^2 n)
 
 ## 관련 개념
 
-- [Work](/knowledge/algorithms/work/) - 단일 프로세서에서의 총 작업량
-- [Parallelism](/knowledge/algorithms/parallelism/) - work를 span으로 나눈 비율
-- [Speedup](/knowledge/algorithms/speedup/) - 병렬화로 인한 성능 향상
-- [Fork-Join Parallelism](/knowledge/algorithms/fork-join-parallelism/) - span 분석의 기반 모델
+- [작업량 (Work)](/knowledge/algorithms/work/) - 단일 프로세서에서의 총 작업량
+- [병렬성 (Parallelism)](/knowledge/algorithms/parallelism/) - work를 span으로 나눈 비율
+- [속도 향상 (Speedup)](/knowledge/algorithms/speedup/) - 병렬화로 인한 성능 향상
+- [포크-조인 병렬성 (Fork-Join Parallelism)](/knowledge/algorithms/fork-join-parallelism/) - span 분석의 기반 모델

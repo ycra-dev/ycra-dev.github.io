@@ -1,5 +1,5 @@
 ---
-title: "Sums and Products"
+title: "합과 곱 (Sums and Products)"
 description: "시그마(Σ) 합산 표기법과 파이(Π) 곱 표기법의 형식적 정의 및 조작 규칙 — 알고리즘 분석의 수학적 언어"
 tags: ["Mathematics", "Algorithms", "Analysis", "TAOCP"]
 created: 2026-02-27
@@ -98,7 +98,7 @@ def prime_sum(n):
 
 ## 관련 개념
 
-- [Harmonic Numbers](/knowledge/algorithms/foundations/harmonic-numbers/)
-- [Generating Functions](/knowledge/discrete-mathematics/combinatorics/generating-functions/)
-- [Binomial Coefficient](/knowledge/discrete-mathematics/combinatorics/binomial-coefficient/)
-- [Analysis of Algorithms](/knowledge/algorithms/foundations/analysis-of-algorithms/)
+- [조화수 (Harmonic Numbers)](/knowledge/algorithms/foundations/harmonic-numbers/)
+- [생성 함수 (Generating Functions)](/knowledge/discrete-mathematics/combinatorics/generating-functions/)
+- [이항계수 (Binomial Coefficient)](/knowledge/discrete-mathematics/combinatorics/binomial-coefficient/)
+- [알고리즘 분석 (Analysis of Algorithms)](/knowledge/algorithms/foundations/analysis-of-algorithms/)

@@ -1,5 +1,5 @@
 ---
-title: "Clustering"
+title: "클러스터링 (Clustering)"
 description: "클러스터링(Clustering)은 n개의 데이터 포인트를 k개의 그룹(클러스터)으로 분할하여 같은 클러스터 내의 포인트들이 서로 유사하도록 하는 비지도 학습(unsupervised learning) 문제이다"
 tags: ['Clustering', 'Unsupervised Learning', 'Machine Learning', 'Data Analysis', 'Grouping']
 created: 2026-02-15
@@ -67,7 +67,7 @@ c^(ℓ)_a = (1/|S^(ℓ)|) Σ_{x∈S^(ℓ)} x_a
 
 ## 관련 개념
 
-- [K-Means](/knowledge/algorithms/k-means/) - 구체적인 k-means 알고리즘
-- [Gradient Descent](/knowledge/algorithms/gradient-descent/) - 기계 학습의 다른 최적화 기법
-- [Multiplicative Weights](/knowledge/algorithms/multiplicative-weights/) - 전문가 예측 문제
-- [NP-Completeness](/knowledge/algorithms/np-completeness/) - k-means 문제가 NP-hard
+- [K-평균 (K-Means)](/knowledge/algorithms/k-means/) - 구체적인 k-means 알고리즘
+- [경사 하강법 (Gradient Descent)](/knowledge/algorithms/gradient-descent/) - 기계 학습의 다른 최적화 기법
+- [승법 가중치 (Multiplicative Weights)](/knowledge/algorithms/multiplicative-weights/) - 전문가 예측 문제
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/np-completeness/) - k-means 문제가 NP-hard

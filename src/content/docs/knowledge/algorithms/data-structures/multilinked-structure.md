@@ -1,5 +1,5 @@
 ---
-title: "Multilinked Structure"
+title: "다중 연결 구조 (Multilinked Structure)"
 description: "각 노드가 여러 방향의 링크를 가져 복수의 선형 리스트나 트리에 동시에 속할 수 있는 복합 자료구조"
 tags: ["Data Structures", "Linked List", "Algorithms", "TAOCP"]
 created: 2026-02-27
@@ -115,7 +115,7 @@ print("열 2:", m.col_traverse(2))  # [(1, 7)]
 
 ## 관련 개념
 
-- [Linked List](/knowledge/algorithms/data-structures/linked-list/)
-- [Doubly Linked List](/knowledge/algorithms/data-structures/doubly-linked-list/)
-- [Sparse Matrix](/knowledge/algorithms/data-structures/sparse-matrix/)
-- [Exact Cover Problem](/knowledge/discrete-mathematics/combinatorics/exact-cover-problem/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/data-structures/linked-list/)
+- [이중 연결 리스트 (Doubly Linked List)](/knowledge/algorithms/data-structures/doubly-linked-list/)
+- [희소 행렬 (Sparse Matrix)](/knowledge/algorithms/data-structures/sparse-matrix/)
+- [정확 덮개 문제 (Exact Cover Problem)](/knowledge/discrete-mathematics/combinatorics/exact-cover-problem/)

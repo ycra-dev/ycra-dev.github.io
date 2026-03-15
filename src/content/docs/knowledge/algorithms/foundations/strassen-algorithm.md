@@ -1,5 +1,5 @@
 ---
-title: "Strassen Algorithm"
+title: "슈트라센 알고리즘 (Strassen Algorithm)"
 description: "슈트라센 알고리즘(Strassen's Algorithm)은 V"
 tags: ['Strassen Algorithm', 'Matrix Multiplication', 'Divide And Conquer', 'Computational Complexity']
 created: 2026-02-15
@@ -51,8 +51,8 @@ C22 = P5 + P1 - P3 - P7
 
 ## 관련 개념
 
-- [Matrix Multiplication](/knowledge/algorithms/matrix-multiplication/) - 슈트라센이 개선한 기본 행렬 곱셈 문제
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/) - 슈트라센 알고리즘의 설계 패러다임
-- [Recurrence](/knowledge/algorithms/recurrence/) - T(n) = 7T(n/2) + Theta(n^2) 점화식 분석
-- [Master Theorem](/knowledge/algorithms/master-theorem/) - 슈트라센 점화식의 해를 구하는 방법
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/) - O(n^2.81) 수행 시간의 표현
+- [행렬 곱셈 (Matrix Multiplication)](/knowledge/algorithms/matrix-multiplication/) - 슈트라센이 개선한 기본 행렬 곱셈 문제
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/) - 슈트라센 알고리즘의 설계 패러다임
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/) - T(n) = 7T(n/2) + Theta(n^2) 점화식 분석
+- [마스터 정리 (Master Theorem)](/knowledge/algorithms/master-theorem/) - 슈트라센 점화식의 해를 구하는 방법
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/) - O(n^2.81) 수행 시간의 표현

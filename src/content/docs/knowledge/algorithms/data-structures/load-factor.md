@@ -1,5 +1,5 @@
 ---
-title: "Load Factor"
+title: "적재율 (Load Factor)"
 description: "적재율(Load Factor) α는 해시 테이블에서 실제로 저장된 항목 수 N과 테이블 크기 M의 비율(α = N/M)로, 해시 테이블의 성능을 결정하는 가장 중요한 매개변수다"
 tags: ["Load Factor", "Hashing", "Performance", "Space Time Tradeoff", "Rehashing", "TAOCP"]
 created: 2026-02-27
@@ -93,8 +93,8 @@ alpha_09 = linear_probing_cost(0.9, success=True)  # 5.5
 
 ## 관련 개념
 
-- [Hash Table](/knowledge/algorithms/hash-table/)
-- [Linear Probing](/knowledge/algorithms/data-structures/linear-probing/)
-- [Double Hashing](/knowledge/algorithms/data-structures/double-hashing/)
-- [Chaining](/knowledge/algorithms/chaining/)
-- [Open Addressing](/knowledge/algorithms/open-addressing/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)
+- [선형 탐사 (Linear Probing)](/knowledge/algorithms/data-structures/linear-probing/)
+- [이중 해싱 (Double Hashing)](/knowledge/algorithms/data-structures/double-hashing/)
+- [체이닝 (Chaining)](/knowledge/algorithms/chaining/)
+- [개방 주소법 (Open Addressing)](/knowledge/algorithms/open-addressing/)

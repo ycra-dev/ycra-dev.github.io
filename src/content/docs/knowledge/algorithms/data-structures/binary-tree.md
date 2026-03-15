@@ -1,5 +1,5 @@
 ---
-title: "Binary Tree"
+title: "이진 트리 (Binary Tree)"
 description: "각 노드가 최대 두 개의 자식(왼쪽, 오른쪽)을 가질 수 있는 트리 자료구조"
 tags: ["Data Structures", "Trees", "Algorithms", "TAOCP"]
 created: 2026-02-27
@@ -113,6 +113,6 @@ def threaded_inorder(root):
 ## 관련 개념
 
 - [Tree Traversal](/knowledge/algorithms/data-structures/inorder-traversal/)
-- [Binary Search Tree](/knowledge/algorithms/data-structures/binary-search-tree/)
-- [Rooted Tree](/knowledge/algorithms/data-structures/rooted-tree/)
-- [Linked List](/knowledge/algorithms/data-structures/linked-list/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/data-structures/binary-search-tree/)
+- [루트 트리 (Rooted Tree)](/knowledge/algorithms/data-structures/rooted-tree/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/data-structures/linked-list/)

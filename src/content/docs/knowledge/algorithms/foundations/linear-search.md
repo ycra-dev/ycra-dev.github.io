@@ -1,5 +1,5 @@
 ---
-title: "Linear Search"
+title: "선형 탐색 (Linear Search)"
 description: "선형 탐색(Linear Search, Sequential Search)은 리스트의 첫 번째 원소부터 마지막 원소까지 순서대로 하나씩 비교하면서 목표 원소를 찾는 가장 기본적인 탐색 알고리즘이다"
 tags: ['Linear Search', 'Sequential Search', 'Searching Algorithm', 'Algorithm']
 created: 2026-02-16
@@ -52,7 +52,7 @@ procedure linear_search(x: integer, a1, a2, ..., an: distinct integers)
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/algorithm/) - 알고리즘의 기본 개념
-- [Binary Search](/knowledge/algorithms/binary-search/) - 정렬된 리스트에 대한 더 효율적인 탐색 알고리즘
-- [Time Complexity](/knowledge/algorithms/time-complexity/) - 선형 탐색의 시간 복잡도 분석
-- [Big-O Notation](/knowledge/algorithms/big-o-notation/) - 복잡도 표현을 위한 표기법
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - 알고리즘의 기본 개념
+- [이진 탐색 (Binary Search)](/knowledge/algorithms/binary-search/) - 정렬된 리스트에 대한 더 효율적인 탐색 알고리즘
+- [시간 복잡도 (Time Complexity)](/knowledge/algorithms/time-complexity/) - 선형 탐색의 시간 복잡도 분석
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/big-o-notation/) - 복잡도 표현을 위한 표기법

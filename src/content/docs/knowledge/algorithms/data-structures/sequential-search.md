@@ -1,5 +1,5 @@
 ---
-title: "Sequential Search"
+title: "순차 탐색 (Sequential Search)"
 description: "순차 탐색(Sequential Search)은 테이블의 레코드를 처음부터 끝까지 순서대로 탐색하여 키와 일치하는 레코드를 찾는 가장 기본적인 탐색 알고리즘이다"
 tags: ["Sequential Search", "Linear Search", "Searching", "Sentinel", "Self-Organizing", "TAOCP"]
 created: 2026-02-27
@@ -54,6 +54,6 @@ N=10인 경우, 균등 확률 하 평균 5.5회 비교로 탐색 성공.
 
 ## 관련 개념
 
-- [Binary Search](/knowledge/algorithms/data-structures/binary-search/)
-- [Hash Table](/knowledge/algorithms/hash-table/)
-- [Fibonacci Search](/knowledge/algorithms/data-structures/fibonacci-search/)
+- [이진 탐색 (Binary Search)](/knowledge/algorithms/data-structures/binary-search/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)
+- [피보나치 탐색 (Fibonacci Search)](/knowledge/algorithms/data-structures/fibonacci-search/)

@@ -1,5 +1,5 @@
 ---
-title: "Floor and Ceiling Functions"
+title: "바닥 함수와 천장 함수 (Floor and Ceiling Functions)"
 description: "바닥 함수 ⌊x⌋(x 이하의 최대 정수)와 천장 함수 ⌈x⌉(x 이상의 최소 정수), 그리고 이로부터 정의되는 나머지 연산(mod)"
 tags: ["Mathematics", "Algorithms", "Number Theory", "TAOCP"]
 created: 2026-02-27
@@ -98,6 +98,6 @@ print(f"17 = {quotient} × 5 + {remainder}")
 
 ## 관련 개념
 
-- [Logarithm](/knowledge/algorithms/foundations/logarithm/)
-- [Modular Arithmetic](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
-- [Hash Function](/knowledge/algorithms/data-structures/hash-function/)
+- [로그 (Logarithm)](/knowledge/algorithms/foundations/logarithm/)
+- [모듈러 연산 (Modular Arithmetic)](/knowledge/algorithms/mathematical-algorithms/modular-arithmetic/)
+- [해시 함수 (Hash Function)](/knowledge/algorithms/data-structures/hash-function/)

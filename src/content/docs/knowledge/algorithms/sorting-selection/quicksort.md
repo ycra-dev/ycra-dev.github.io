@@ -1,5 +1,5 @@
 ---
-title: "Quicksort"
+title: "퀵 정렬 (Quicksort)"
 description: "퀵정렬(Quicksort)은 분할 정복(divide-and-conquer) 전략을 사용하여 배열을 피벗(pivot) 원소를 기준으로 분할한 후 재귀적으로 정렬하는 제자리(in-place) 비교 기반 정렬 알고리즘이다"
 tags: ['Quicksort', 'Sorting', 'Divide And Conquer', 'In Place', 'Comparison Sort', 'Pivot']
 created: 2026-02-15
@@ -73,11 +73,11 @@ TAOCP의 퀵정렬(Algorithm Q, Sedgewick 개선 버전)의 주요 특성:
 
 ## 관련 개념
 
-- [Partition](/knowledge/algorithms/partition/)
-- [Randomized Quicksort](/knowledge/algorithms/randomized-quicksort/)
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/)
-- [Insertion Sort](/knowledge/algorithms/insertion-sort/)
-- [Merge Sort](/knowledge/algorithms/merge-sort/)
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
-- [Recurrence](/knowledge/algorithms/recurrence/)
+- [분할 (Partition)](/knowledge/algorithms/partition/)
+- [랜덤 퀵 정렬 (Randomized Quicksort)](/knowledge/algorithms/randomized-quicksort/)
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/)
+- [삽입 정렬 (Insertion Sort)](/knowledge/algorithms/insertion-sort/)
+- [병합 정렬 (Merge Sort)](/knowledge/algorithms/merge-sort/)
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/)
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/)
 - [Internal Sorting Summary](/knowledge/algorithms/sorting-selection/internal-sorting-summary/)

@@ -1,5 +1,5 @@
 ---
-title: "Partition"
+title: "분할 (Partition)"
 description: "PARTITION은 배열의 부분 배열 A[p:r]을 피벗 원소를 기준으로 제자리에서 재배열하여, 피벗보다 작거나 같은 원소들을 왼쪽에, 큰 원소들을 오른쪽에 배치하고 피벗의 최종 인덱스를 반환하는 프로시저이다"
 tags: ['Partition', 'Quicksort', 'Pivot', 'In Place', 'Loop Invariant']
 created: 2026-02-15
@@ -65,8 +65,8 @@ return 4  (피벗의 새 인덱스)
 
 ## 관련 개념
 
-- [Quicksort](/knowledge/algorithms/quicksort/)
-- [Randomized Quicksort](/knowledge/algorithms/randomized-quicksort/)
-- [Loop Invariant](/knowledge/algorithms/loop-invariant/)
-- [Correctness](/knowledge/algorithms/correctness/)
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/)
+- [퀵 정렬 (Quicksort)](/knowledge/algorithms/quicksort/)
+- [랜덤 퀵 정렬 (Randomized Quicksort)](/knowledge/algorithms/randomized-quicksort/)
+- [루프 불변량 (Loop Invariant)](/knowledge/algorithms/loop-invariant/)
+- [정확성 (Correctness)](/knowledge/algorithms/correctness/)
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/)

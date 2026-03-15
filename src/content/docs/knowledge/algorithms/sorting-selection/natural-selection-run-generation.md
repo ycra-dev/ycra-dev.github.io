@@ -1,5 +1,5 @@
 ---
-title: "Natural Selection (Run Generation)"
+title: "자연 선택 (Natural Selection)"
 description: "자연 선택(Natural Selection)은 대체 선택을 개선한 런 생성 방법으로, 외부 저장소(reservoir)를 활용하여 평균 런 길이 ≈ eP를 달성한다"
 tags: ["Natural Selection", "External Sorting", "Run Generation", "Reservoir", "TAOCP", "Snowplow"]
 created: 2026-02-27
@@ -66,5 +66,5 @@ P=4, P'=4 (저장소 크기=선택 트리 크기)
 
 ## 관련 개념
 
-- [Replacement Selection](/knowledge/algorithms/sorting-selection/replacement-selection/)
-- [External Sorting Overview](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
+- [대체 선택 (Replacement Selection)](/knowledge/algorithms/sorting-selection/replacement-selection/)
+- [외부 정렬 개요 (External Sorting Overview)](/knowledge/algorithms/sorting-selection/external-sorting-overview/)

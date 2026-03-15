@@ -1,5 +1,5 @@
 ---
-title: "RSA Cryptosystem"
+title: "RSA 암호 체계 (RSA Cryptosystem)"
 description: "RSA 암호 체계는 큰 소수의 곱의 인수분해가 어렵다는 점에 기반한 공개키 암호 시스템으로, 암호화, 복호화, 디지털 서명을 지원한다"
 tags: ['Rsa Cryptosystem', 'Public Key', 'Encryption', 'Digital Signature', 'Number Theory']
 created: 2026-02-15
@@ -65,7 +65,7 @@ d = 3^{-1} mod 280 = 187 (∵ 3 × 187 = 561 = 2 × 280 + 1)
 
 ## 관련 개념
 
-- [Modular Arithmetic](/knowledge/algorithms/modular-arithmetic/) - RSA의 수학적 기반
-- [Primality Testing](/knowledge/algorithms/primality-testing/) - 큰 소수 생성에 필수
+- [모듈러 연산 (Modular Arithmetic)](/knowledge/algorithms/modular-arithmetic/) - RSA의 수학적 기반
+- [소수 판정 (Primality Testing)](/knowledge/algorithms/primality-testing/) - 큰 소수 생성에 필수
 - [GCD](/knowledge/algorithms/gcd/) - 키 생성 시 서로소 확인
-- [Chinese Remainder Theorem](/knowledge/algorithms/chinese-remainder-theorem/) - RSA 복호화 가속
+- [중국인의 나머지 정리 (Chinese Remainder Theorem)](/knowledge/algorithms/chinese-remainder-theorem/) - RSA 복호화 가속

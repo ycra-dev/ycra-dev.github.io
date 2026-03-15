@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Programming"
+title: "동적 프로그래밍 (Dynamic Programming)"
 description: "동적 프로그래밍(Dynamic Programming)은 겹치는 부분 문제(overlapping subproblems)를 가진 최적화 문제를 부분 문제의 해를 테이블에 저장하여 재계산을 피하면서 해결하는 알고리즘 설계 기법이다"
 tags: ['Dynamic Programming', 'Optimization', 'Algorithm Design', 'Tabulation']
 created: 2026-02-15
@@ -51,11 +51,11 @@ BOTTOM-UP-CUT-ROD(p, n)
 
 ## 관련 개념
 
-- [Optimal Substructure](/knowledge/algorithms/optimal-substructure/)
-- [Overlapping Subproblems](/knowledge/algorithms/overlapping-subproblems/)
-- [Memoization](/knowledge/algorithms/memoization/)
-- [Rod Cutting](/knowledge/algorithms/rod-cutting/)
-- [Matrix Chain Multiplication](/knowledge/algorithms/matrix-chain-multiplication/)
-- [Longest Common Subsequence](/knowledge/algorithms/longest-common-subsequence/)
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/)
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/)
+- [최적 부분 구조 (Optimal Substructure)](/knowledge/algorithms/optimal-substructure/)
+- [중복 부분 문제 (Overlapping Subproblems)](/knowledge/algorithms/overlapping-subproblems/)
+- [메모이제이션 (Memoization)](/knowledge/algorithms/memoization/)
+- [막대 자르기 (Rod Cutting)](/knowledge/algorithms/rod-cutting/)
+- [행렬 연쇄 곱셈 (Matrix Chain Multiplication)](/knowledge/algorithms/matrix-chain-multiplication/)
+- [최장 공통 부분 수열 (Longest Common Subsequence)](/knowledge/algorithms/longest-common-subsequence/)
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/)
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/)

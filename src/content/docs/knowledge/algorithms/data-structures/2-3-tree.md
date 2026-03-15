@@ -1,5 +1,5 @@
 ---
-title: "2-3 Tree"
+title: "2-3 트리 (2-3 Tree)"
 description: "2-3 트리는 각 내부 노드가 2개 또는 3개의 자식을 가질 수 있는 균형 탐색 트리로, 차수 m=3인 B-트리의 특수 경우다"
 tags: ["2-3 Tree", "Balanced Tree", "B-Tree", "Multiway Tree", "Insertion", "TAOCP"]
 created: 2026-02-27
@@ -83,7 +83,7 @@ sidebar:
 
 ## 관련 개념
 
-- [B-Tree](/knowledge/algorithms/data-structures/b-tree/)
-- [AVL Tree](/knowledge/algorithms/data-structures/avl-tree/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Trie](/knowledge/algorithms/data-structures/trie/)
+- [B-트리 (B-Tree)](/knowledge/algorithms/data-structures/b-tree/)
+- [AVL 트리 (AVL Tree)](/knowledge/algorithms/data-structures/avl-tree/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [트라이 (Trie)](/knowledge/algorithms/data-structures/trie/)

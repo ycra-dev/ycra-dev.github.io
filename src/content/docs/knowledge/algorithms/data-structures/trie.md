@@ -1,5 +1,5 @@
 ---
-title: "Trie"
+title: "트라이 (Trie)"
 description: "트라이(Trie)는 문자열 집합을 표현하는 트리 자료구조로, 각 노드가 문자를 나타내며 루트에서 특정 노드까지의 경로가 하나의 문자열을 형성한다"
 tags: ["Trie", "Digital Searching", "String", "Prefix Tree", "Radix", "TAOCP"]
 created: 2026-02-27
@@ -78,8 +78,8 @@ def trie_search(root, key):
 
 ## 관련 개념
 
-- [Patricia Tree](/knowledge/algorithms/data-structures/patricia-tree/)
-- [Digital Search Tree](/knowledge/algorithms/data-structures/digital-search-tree/)
-- [Radix Search](/knowledge/algorithms/data-structures/radix-search/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Hash Table](/knowledge/algorithms/hash-table/)
+- [패트리샤 트리 (Patricia Tree)](/knowledge/algorithms/data-structures/patricia-tree/)
+- [디지털 탐색 트리 (Digital Search Tree)](/knowledge/algorithms/data-structures/digital-search-tree/)
+- [기수 탐색 (Radix Search)](/knowledge/algorithms/data-structures/radix-search/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)

@@ -1,5 +1,5 @@
 ---
-title: "Optimal Substructure"
+title: "최적 부분 구조 (Optimal Substructure)"
 description: "최적 부분 구조(Optimal Substructure)란 어떤 문제의 최적 해가 그 부분 문제들의 최적 해를 포함하고 있는 성질을 말한다"
 tags: ['Optimal Substructure', 'Dynamic Programming', 'Greedy Algorithm', 'Optimization']
 created: 2026-02-15
@@ -38,9 +38,9 @@ sidebar:
 
 ## 관련 개념
 
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/)
-- [Greedy Choice Property](/knowledge/algorithms/greedy-choice-property/)
-- [Rod Cutting](/knowledge/algorithms/rod-cutting/)
-- [Matrix Chain Multiplication](/knowledge/algorithms/matrix-chain-multiplication/)
-- [Longest Common Subsequence](/knowledge/algorithms/longest-common-subsequence/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/)
+- [탐욕 선택 속성 (Greedy Choice Property)](/knowledge/algorithms/greedy-choice-property/)
+- [막대 자르기 (Rod Cutting)](/knowledge/algorithms/rod-cutting/)
+- [행렬 연쇄 곱셈 (Matrix Chain Multiplication)](/knowledge/algorithms/matrix-chain-multiplication/)
+- [최장 공통 부분 수열 (Longest Common Subsequence)](/knowledge/algorithms/longest-common-subsequence/)

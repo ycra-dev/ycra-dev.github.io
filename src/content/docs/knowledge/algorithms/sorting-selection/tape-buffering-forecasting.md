@@ -1,5 +1,5 @@
 ---
-title: "Tape Buffering and Forecasting"
+title: "테이프 버퍼링과 예측 (Tape Buffering and Forecasting)"
 description: "예보 기법(Forecasting)은 다중 웨이 테이프 병합에서 어떤 입력 버퍼가 먼저 소진될지 미리 예측하여 미리 읽기(prefetch)를 수행함으로써 I/O와 계산을 겹쳐 처리하는 기법이다"
 tags: ["Tape Buffering", "Forecasting", "External Sorting", "I/O Overlap", "TAOCP", "Prefetch"]
 created: 2026-02-27
@@ -63,6 +63,6 @@ P=2, 블록당 2 레코드인 경우:
 
 ## 관련 개념
 
-- [External Sorting Overview](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
-- [Multiway Merging and Selection Tree](/knowledge/algorithms/sorting-selection/multiway-merging-selection-tree/)
-- [Polyphase Merge Sort](/knowledge/algorithms/sorting-selection/polyphase-merge-sort/)
+- [외부 정렬 개요 (External Sorting Overview)](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
+- [다방향 병합과 선택 트리 (Multiway Merging and Selection Tree)](/knowledge/algorithms/sorting-selection/multiway-merging-selection-tree/)
+- [다단계 병합 정렬 (Polyphase Merge Sort)](/knowledge/algorithms/sorting-selection/polyphase-merge-sort/)

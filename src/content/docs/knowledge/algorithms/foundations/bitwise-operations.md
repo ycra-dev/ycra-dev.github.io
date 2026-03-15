@@ -1,5 +1,5 @@
 ---
-title: "Bitwise Operations"
+title: "비트 연산 (Bitwise Operations)"
 description: "이진수의 각 비트 위치에 독립적으로 부울 연산을 적용하는 정수 연산으로, AND/OR/XOR/시프트 등 핵심 연산과 실용적 비트 트릭을 포함한다"
 tags: ["Algorithms", "BitManipulation", "Programming", "TAOCP"]
 created: 2026-02-27
@@ -80,6 +80,6 @@ int nim_sum(int* piles, int n) {
 
 ## 관련 개념
 
-- [Population Count](/knowledge/algorithms/foundations/population-count/)
-- [Nim Game](/knowledge/discrete-mathematics/combinatorics/nim-game/)
-- [Gray Code](/knowledge/discrete-mathematics/combinatorics/gray-code/)
+- [인구 수 세기 (Population Count)](/knowledge/algorithms/foundations/population-count/)
+- [님 게임 (Nim Game)](/knowledge/discrete-mathematics/combinatorics/nim-game/)
+- [그레이 코드 (Gray Code)](/knowledge/discrete-mathematics/combinatorics/gray-code/)

@@ -1,5 +1,5 @@
 ---
-title: "Doubly Linked List"
+title: "이중 연결 리스트 (Doubly Linked List)"
 description: "각 노드가 다음 노드와 이전 노드를 가리키는 두 개의 포인터를 가져 양방향 순회가 가능한 연결 리스트"
 tags: ["Data Structures", "Linked List", "Algorithms", "TAOCP"]
 created: 2026-02-27
@@ -120,6 +120,6 @@ print(dll.traverse())  # [1, 2, 3]
 
 ## 관련 개념
 
-- [Linked List](/knowledge/algorithms/data-structures/linked-list/)
-- [Circular List](/knowledge/algorithms/data-structures/circular-list/)
-- [Exact Cover Problem](/knowledge/discrete-mathematics/combinatorics/exact-cover-problem/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/data-structures/linked-list/)
+- [원형 리스트 (Circular List)](/knowledge/algorithms/data-structures/circular-list/)
+- [정확 덮개 문제 (Exact Cover Problem)](/knowledge/discrete-mathematics/combinatorics/exact-cover-problem/)

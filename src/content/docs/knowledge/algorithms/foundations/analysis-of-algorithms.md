@@ -1,5 +1,5 @@
 ---
-title: "Analysis of Algorithms"
+title: "알고리즘 분석 (Analysis of Algorithms)"
 description: "특정 알고리즘의 정량적 성능 특성(실행 시간, 공간, 최적성)을 결정하는 학문 분야"
 tags: ["Algorithms", "Performance", "Complexity", "TAOCP"]
 created: 2026-02-27
@@ -66,7 +66,7 @@ O(n) 알고리즘도 실제 성능은 상수 인자에 크게 의존한다.
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/foundations/algorithm/)
-- [Big-O Notation](/knowledge/algorithms/foundations/big-o-notation/)
-- [Harmonic Numbers](/knowledge/algorithms/foundations/harmonic-numbers/)
-- [Time Complexity](/knowledge/algorithms/foundations/time-complexity/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/foundations/algorithm/)
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/foundations/big-o-notation/)
+- [조화수 (Harmonic Numbers)](/knowledge/algorithms/foundations/harmonic-numbers/)
+- [시간 복잡도 (Time Complexity)](/knowledge/algorithms/foundations/time-complexity/)

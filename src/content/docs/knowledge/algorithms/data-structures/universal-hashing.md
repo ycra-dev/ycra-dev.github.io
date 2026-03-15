@@ -1,5 +1,5 @@
 ---
-title: "Universal Hashing"
+title: "범용 해싱 (Universal Hashing)"
 description: "보편 해싱(Universal Hashing)은 해시 함수를 확률적으로 선택하여 어떤 키 집합에 대해서도 최악의 경우 충돌 확률을 최소화하는 기법으로, Carter와 Wegman(1979)이 제안했다"
 tags: ["Universal Hashing", "Hashing", "Randomized", "Worst Case", "Adversarial", "TAOCP"]
 created: 2026-02-27
@@ -95,7 +95,7 @@ for _ in range(trials):
 
 ## 관련 개념
 
-- [Hash Table](/knowledge/algorithms/hash-table/)
-- [Hash Function](/knowledge/algorithms/hash-function/)
-- [Collision Resolution](/knowledge/algorithms/collision-resolution/)
-- [Load Factor](/knowledge/algorithms/data-structures/load-factor/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)
+- [해시 함수 (Hash Function)](/knowledge/algorithms/hash-function/)
+- [충돌 해결 (Collision Resolution)](/knowledge/algorithms/collision-resolution/)
+- [적재율 (Load Factor)](/knowledge/algorithms/data-structures/load-factor/)

@@ -1,5 +1,5 @@
 ---
-title: "Involutions"
+title: "대합 (Involutions)"
 description: "대합(Involution)은 자기 자신이 역원인 순열(π = π^(-1))로, 사이클 표현에서 1-사이클과 2-사이클만으로 구성된 순열이다"
 tags: ["Involutions", "Permutations", "Combinatorics", "TAOCP", "Young Tableau"]
 created: 2026-02-27
@@ -62,6 +62,6 @@ RSK 대응에서 순열 π가 (P,Q)에 대응될 때, π가 대합 ⟺ P = Q.
 
 ## 관련 개념
 
-- [Young Tableau](/knowledge/algorithms/sorting-selection/young-tableau/)
-- [Permutation Cycles](/knowledge/algorithms/sorting-selection/permutation-cycles/)
-- [Inversions](/knowledge/algorithms/sorting-selection/inversions/)
+- [영 타블로 (Young Tableau)](/knowledge/algorithms/sorting-selection/young-tableau/)
+- [순열 순환 (Permutation Cycles)](/knowledge/algorithms/sorting-selection/permutation-cycles/)
+- [역순쌍 (Inversions)](/knowledge/algorithms/sorting-selection/inversions/)

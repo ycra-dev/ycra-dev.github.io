@@ -1,5 +1,5 @@
 ---
-title: "Radix Sorting (LSD)"
+title: "기수 정렬 LSD (Radix Sorting LSD)"
 description: "기수 정렬(Radix Sorting, LSD)은 키를 자릿수별로 최하위 자릿수(LSD)부터 안정적으로 분류하는 비비교(non-comparison) 정렬로, O(mN) 시간에 정렬하여 N log N 하한을 피한다"
 tags: ["Radix Sorting", "LSD", "Distribution Sort", "Non-comparison", "TAOCP", "Hollerith", "Sorting"]
 created: 2026-02-27
@@ -71,7 +71,7 @@ for i = 1 to m:
 
 ## 관련 개념
 
-- [Radix Exchange Sort](/knowledge/algorithms/sorting-selection/radix-exchange-sort/)
-- [Sorting Algorithm History](/knowledge/algorithms/sorting-selection/sorting-algorithm-history/)
-- [Radix Sort](/knowledge/algorithms/radix-sort/)
-- [Stable Sorting](/knowledge/algorithms/sorting-selection/stable-sorting/)
+- [기수 교환 정렬 (Radix Exchange Sort)](/knowledge/algorithms/sorting-selection/radix-exchange-sort/)
+- [정렬 알고리즘의 역사 (Sorting Algorithm History)](/knowledge/algorithms/sorting-selection/sorting-algorithm-history/)
+- [기수 정렬 (Radix Sort)](/knowledge/algorithms/radix-sort/)
+- [안정 정렬 (Stable Sorting)](/knowledge/algorithms/sorting-selection/stable-sorting/)

@@ -1,5 +1,5 @@
 ---
-title: "Augmenting Data Structure"
+title: "보강 자료구조 (Augmenting Data Structure)"
 description: "데이터 구조 확장(Augmenting Data Structure)은 기존의 표준 데이터 구조에 추가 정보를 저장하고 새로운 연산을 지원하도록 수정하는 알고리즘 설계 기법이다"
 tags: ['Augmenting Data Structure', 'Red Black Tree', 'Data Structure Design', 'Algorithm Design']
 created: 2026-02-15
@@ -52,8 +52,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Order-Statistics Tree](/knowledge/algorithms/order-statistics-tree/)
-- [Interval Tree](/knowledge/algorithms/interval-tree/)
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [순서 통계 트리 (Order-Statistics Tree)](/knowledge/algorithms/order-statistics-tree/)
+- [구간 트리 (Interval Tree)](/knowledge/algorithms/interval-tree/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

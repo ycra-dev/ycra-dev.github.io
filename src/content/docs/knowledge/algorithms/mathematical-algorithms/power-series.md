@@ -1,5 +1,5 @@
 ---
-title: "Power Series"
+title: "멱급수 (Power Series)"
 description: "무한 형식 급수 Σ a_n x^n으로 표현되는 수학적 구조 — 알고리즘 분석의 생성 함수와 수치 함수 계산의 핵심 도구"
 tags: ["Algorithms", "Mathematics", "Analysis", "Mathematical Algorithms"]
 created: 2026-02-27
@@ -110,7 +110,7 @@ print(inv[:8])  # [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
 
 ## 관련 개념
 
-- [Generating Functions](/knowledge/discrete-mathematics/combinatorics/generating-functions/)
-- [Polynomial Arithmetic](/knowledge/algorithms/mathematical-algorithms/polynomial-arithmetic/)
-- [Horner's Rule](/knowledge/algorithms/mathematical-algorithms/horners-rule/)
-- [Bernoulli Numbers](/knowledge/discrete-mathematics/number-theory/bernoulli-numbers/)
+- [생성 함수 (Generating Functions)](/knowledge/discrete-mathematics/combinatorics/generating-functions/)
+- [다항식 연산 (Polynomial Arithmetic)](/knowledge/algorithms/mathematical-algorithms/polynomial-arithmetic/)
+- [호너의 법칙 (Horner's Rule)](/knowledge/algorithms/mathematical-algorithms/horners-rule/)
+- [베르누이 수 (Bernoulli Numbers)](/knowledge/discrete-mathematics/number-theory/bernoulli-numbers/)

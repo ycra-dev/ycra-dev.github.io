@@ -1,5 +1,5 @@
 ---
-title: "Graph Coloring"
+title: "그래프 색칠 (Graph Coloring)"
 description: "인접한 두 정점에 같은 색을 부여하지 않으면서 최소 개수의 색으로 모든 정점을 채색하는 문제 — 4색 정리와 채색수 χ(G)가 핵심"
 tags: ["Graph Theory", "NP-Complete", "Chromatic Number", "Four Color", "Algorithms"]
 created: 2026-02-27
@@ -95,7 +95,7 @@ def is_bipartite_coloring(adj, n):
 
 ## 관련 개념
 
-- [Graph Theory Basics](/knowledge/algorithms/graph-algorithms/graph-theory-basics/)
-- [Hamiltonian Path](/knowledge/algorithms/graph-algorithms/hamiltonian-path/)
-- [Boolean Satisfiability](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
-- [Graph Isomorphism](/knowledge/algorithms/graph-algorithms/graph-isomorphism/)
+- [그래프 이론 기초 (Graph Theory Basics)](/knowledge/algorithms/graph-algorithms/graph-theory-basics/)
+- [해밀턴 경로 (Hamiltonian Path)](/knowledge/algorithms/graph-algorithms/hamiltonian-path/)
+- [부울 충족 가능성 (Boolean Satisfiability)](/knowledge/discrete-mathematics/logic/boolean-satisfiability/)
+- [그래프 동형 (Graph Isomorphism)](/knowledge/algorithms/graph-algorithms/graph-isomorphism/)

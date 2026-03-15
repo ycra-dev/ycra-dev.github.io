@@ -1,5 +1,5 @@
 ---
-title: "AVL Tree"
+title: "AVL 트리 (AVL Tree)"
 description: "AVL 트리(Adelson-Velsky and Landis Tree)는 모든 노드에서 왼쪽과 오른쪽 서브트리의 높이 차가 최대 1인 자기 균형 이진 탐색 트리로, 1962년 소련 수학자 Adelson-Velsky와 Landis가 고안했다"
 tags: ["AVL Tree", "Balanced Tree", "Self-Balancing", "Rotation", "Binary Search Tree", "TAOCP"]
 created: 2026-02-27
@@ -79,8 +79,8 @@ h=5인 AVL 트리: 최소 12개, 최대 2^6-1=63개 노드
 
 ## 관련 개념
 
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [B-Tree](/knowledge/algorithms/data-structures/b-tree/)
-- [Optimal Binary Search Tree](/knowledge/algorithms/data-structures/optimal-binary-search-tree/)
-- [2-3 Tree](/knowledge/algorithms/data-structures/2-3-tree/)
-- [Balanced Tree](/knowledge/algorithms/balanced-tree/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [B-트리 (B-Tree)](/knowledge/algorithms/data-structures/b-tree/)
+- [최적 이진 탐색 트리 (Optimal Binary Search Tree)](/knowledge/algorithms/data-structures/optimal-binary-search-tree/)
+- [2-3 트리 (2-3 Tree)](/knowledge/algorithms/data-structures/2-3-tree/)
+- [균형 트리 (Balanced Tree)](/knowledge/algorithms/balanced-tree/)

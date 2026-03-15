@@ -1,5 +1,5 @@
 ---
-title: "Driving Function"
+title: "구동 함수 (Driving Function)"
 description: "구동 함수(Driving Function)는 마스터 점화식 T(n) = aT(n/b) + f(n)에서 f(n) 부분을 가리키며, 분할 정복 알고리즘에서 문제를 분할하고 부분 문제의 해를 결합하는 데 소요되는 비용을 나타낸다"
 tags: ['Driving Function', 'Master Theorem', 'Recurrence', 'Divide And Conquer', 'Watershed Function']
 created: 2026-02-15
@@ -60,9 +60,9 @@ sidebar:
 
 ## 관련 개념
 
-- [Master Theorem](/knowledge/algorithms/master-theorem/) - 구동 함수를 사용하는 핵심 정리
-- [Recurrence](/knowledge/algorithms/recurrence/) - 구동 함수가 포함된 점화식
-- [Recursion Tree](/knowledge/algorithms/recursion-tree/) - 구동 함수가 내부 노드 비용에 해당
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/) - 구동 함수는 분할/결합 비용을 나타냄
+- [마스터 정리 (Master Theorem)](/knowledge/algorithms/master-theorem/) - 구동 함수를 사용하는 핵심 정리
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/) - 구동 함수가 포함된 점화식
+- [재귀 트리 (Recursion Tree)](/knowledge/algorithms/recursion-tree/) - 구동 함수가 내부 노드 비용에 해당
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/) - 구동 함수는 분할/결합 비용을 나타냄
 - [Akra-Bazzi](/knowledge/algorithms/akra-bazzi/) - 구동 함수가 다항식 성장 조건을 만족해야 하는 일반화된 방법
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/) - 함수 간 성장률 비교에 사용되는 표기법
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/) - 함수 간 성장률 비교에 사용되는 표기법

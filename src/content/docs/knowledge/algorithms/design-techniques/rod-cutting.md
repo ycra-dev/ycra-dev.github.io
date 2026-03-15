@@ -1,5 +1,5 @@
 ---
-title: "Rod Cutting"
+title: "막대 자르기 (Rod Cutting)"
 description: "막대 자르기 문제(Rod Cutting Problem)는 길이 n인 막대와 각 길이 i에 대한 가격표 p_i가 주어졌을 때, 막대를 잘라서 얻을 수 있는 최대 수익 r_n을 결정하는 동적 프로그래밍의 고전적 예제이다"
 tags: ['Rod Cutting', 'Dynamic Programming', 'Optimization', 'Bottom Up']
 created: 2026-02-15
@@ -50,7 +50,7 @@ BOTTOM-UP-CUT-ROD(p, n)
 
 ## 관련 개념
 
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
-- [Optimal Substructure](/knowledge/algorithms/optimal-substructure/)
-- [Overlapping Subproblems](/knowledge/algorithms/overlapping-subproblems/)
-- [Memoization](/knowledge/algorithms/memoization/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)
+- [최적 부분 구조 (Optimal Substructure)](/knowledge/algorithms/optimal-substructure/)
+- [중복 부분 문제 (Overlapping Subproblems)](/knowledge/algorithms/overlapping-subproblems/)
+- [메모이제이션 (Memoization)](/knowledge/algorithms/memoization/)

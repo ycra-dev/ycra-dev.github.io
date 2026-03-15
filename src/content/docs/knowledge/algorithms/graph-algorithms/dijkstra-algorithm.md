@@ -1,5 +1,5 @@
 ---
-title: "Dijkstra Algorithm"
+title: "다익스트라 알고리즘 (Dijkstra Algorithm)"
 description: "다익스트라 알고리즘은 모든 간선 가중치가 음이 아닌 가중치 방향 그래프에서 단일 소스 최단 경로를 구하는 탐욕 알고리즘으로, 최소 우선순위 큐를 사용하여 가장 가까운 미확정 정점을 반복적으로 선택한다"
 tags: ['Dijkstra Algorithm', 'Shortest Path', 'Greedy Algorithm', 'Priority Queue', 'Non Negative Weights']
 created: 2026-02-15
@@ -62,9 +62,9 @@ DIJKSTRA(G, w, s)
 
 ## 관련 개념
 
-- [Shortest Path](/knowledge/algorithms/shortest-path/)
-- [Relaxation](/knowledge/algorithms/relaxation/)
-- [Bellman-Ford Algorithm](/knowledge/algorithms/bellman-ford-algorithm/)
-- [Prim Algorithm](/knowledge/algorithms/prim-algorithm/)
-- [Priority Queue](/knowledge/algorithms/priority-queue/)
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/)
+- [최단 경로 (Shortest Path)](/knowledge/algorithms/shortest-path/)
+- [완화 (Relaxation)](/knowledge/algorithms/relaxation/)
+- [벨만-포드 알고리즘 (Bellman-Ford Algorithm)](/knowledge/algorithms/bellman-ford-algorithm/)
+- [프림 알고리즘 (Prim Algorithm)](/knowledge/algorithms/prim-algorithm/)
+- [우선순위 큐 (Priority Queue)](/knowledge/algorithms/priority-queue/)
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/)

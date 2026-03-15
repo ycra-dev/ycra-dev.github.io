@@ -1,5 +1,5 @@
 ---
-title: "Ford-Fulkerson Method"
+title: "포드-풀커슨 방법 (Ford-Fulkerson Method)"
 description: "포드-풀커슨 방법(Ford-Fulkerson Method)은 잔여 네트워크에서 증가 경로(augmenting path)를 반복적으로 찾아 유량을 증가시키는 최대 유량 계산 방법으로, 증가 경로 탐색 전략에 따라 다양한 구현이 가능하다"
 tags: ['Ford Fulkerson Method', 'Augmenting Path', 'Edmonds Karp', 'Maximum Flow', 'Residual Network']
 created: 2026-02-15
@@ -62,8 +62,8 @@ FORD-FULKERSON(G, s, t)
 
 ## 관련 개념
 
-- [Maximum Flow](/knowledge/algorithms/maximum-flow/)
-- [Flow Network](/knowledge/algorithms/flow-network/)
-- [Residual Network](/knowledge/algorithms/residual-network/)
-- [Max-Flow Min-Cut Theorem](/knowledge/algorithms/max-flow-min-cut-theorem/)
+- [최대 유량 (Maximum Flow)](/knowledge/algorithms/maximum-flow/)
+- [유량 네트워크 (Flow Network)](/knowledge/algorithms/flow-network/)
+- [잔여 네트워크 (Residual Network)](/knowledge/algorithms/residual-network/)
+- [최대 유량 최소 절단 정리 (Max-Flow Min-Cut Theorem)](/knowledge/algorithms/max-flow-min-cut-theorem/)
 - [Breadth First Search](/knowledge/algorithms/breadth-first-search/)

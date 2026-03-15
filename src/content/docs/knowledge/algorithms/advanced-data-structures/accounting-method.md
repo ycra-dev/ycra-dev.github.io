@@ -1,5 +1,5 @@
 ---
-title: "Accounting Method"
+title: "회계 방법 (Accounting Method)"
 description: "회계 방법(Accounting Method)은 각 연산에 서로 다른 분할 상환 비용을 부여하고, 실제 비용보다 많이 지불한 초과분을 데이터 구조 내 특정 객체에 \"크레딧(credit)\"으로 저장하여 나중에 비싼 연산의 비용을 충당하는 분할 상환 분석 기법이다"
 tags: ['Accounting Method', 'Amortized Analysis', 'Credit', 'Prepaid Cost']
 created: 2026-02-15
@@ -64,7 +64,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Amortized Analysis](/knowledge/algorithms/amortized-analysis/)
-- [Aggregate Analysis](/knowledge/algorithms/aggregate-analysis/)
-- [Potential Method](/knowledge/algorithms/potential-method/)
-- [Dynamic Table](/knowledge/algorithms/dynamic-table/)
+- [분할 상환 분석 (Amortized Analysis)](/knowledge/algorithms/amortized-analysis/)
+- [집합 분석 (Aggregate Analysis)](/knowledge/algorithms/aggregate-analysis/)
+- [퍼텐셜 방법 (Potential Method)](/knowledge/algorithms/potential-method/)
+- [동적 테이블 (Dynamic Table)](/knowledge/algorithms/dynamic-table/)

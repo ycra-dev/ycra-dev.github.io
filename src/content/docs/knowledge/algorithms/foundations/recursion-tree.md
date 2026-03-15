@@ -1,5 +1,5 @@
 ---
-title: "Recursion Tree"
+title: "재귀 트리 (Recursion Tree)"
 description: "재귀 트리(Recursion Tree)는 점화식의 비용을 트리 구조로 시각화한 것으로, 각 노드는 재귀 호출의 특정 부분 문제 비용을 나타내며, 각 레벨의 비용을 합산한 후 전체 레벨의 비용을 더하여 점화식의 총 비용을 구하는 분석 방법이다"
 tags: ['Recursion Tree', 'Recurrence', 'Algorithm Analysis', 'Divide And Conquer']
 created: 2026-02-15
@@ -66,8 +66,8 @@ Sum_{j=0}^{log_4(n)-1} (3/16)^j * cn^2
 
 ## 관련 개념
 
-- [Recurrence](/knowledge/algorithms/recurrence/) - 재귀 트리로 시각화하여 풀이하는 대상
-- [Substitution Method](/knowledge/algorithms/substitution-method/) - 재귀 트리로 얻은 추측을 검증하는 방법
-- [Master Theorem](/knowledge/algorithms/master-theorem/) - 재귀 트리의 세 가지 비용 패턴에 대응하는 정리
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/) - 재귀 트리가 분석하는 알고리즘 패러다임
-- [Merge Sort](/knowledge/algorithms/merge-sort/) - 재귀 트리 분석의 기본 예시
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/) - 재귀 트리로 시각화하여 풀이하는 대상
+- [치환법 (Substitution Method)](/knowledge/algorithms/substitution-method/) - 재귀 트리로 얻은 추측을 검증하는 방법
+- [마스터 정리 (Master Theorem)](/knowledge/algorithms/master-theorem/) - 재귀 트리의 세 가지 비용 패턴에 대응하는 정리
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/) - 재귀 트리가 분석하는 알고리즘 패러다임
+- [병합 정렬 (Merge Sort)](/knowledge/algorithms/merge-sort/) - 재귀 트리 분석의 기본 예시

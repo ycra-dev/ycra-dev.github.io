@@ -1,5 +1,5 @@
 ---
-title: "Matrix Inverse"
+title: "역행렬 (Matrix Inverse)"
 description: "행렬 역(Matrix Inverse)은 비특이 n x n 행렬 A에 대해 AA^{-1} = A^{-1}A = I_n을 만족하는 유일한 행렬 A^{-1}이다"
 tags: ['Matrix Inverse', 'Linear Algebra', 'Matrix Multiplication', 'Computational Complexity']
 created: 2026-02-15
@@ -56,6 +56,6 @@ A^{-1}의 j번째 열 = LUP-SOLVE(L, U, π, e_j, n)
 
 ## 관련 개념
 
-- [LU Decomposition](/knowledge/algorithms/lu-decomposition/) - 역행렬 계산의 실용적 방법
-- [Gaussian Elimination](/knowledge/algorithms/gaussian-elimination/) - LU 분해의 기반
-- [Strassen Algorithm](/knowledge/algorithms/strassen-algorithm/) - 더 빠른 행렬 곱셈을 통한 역행렬 계산 가속
+- [LU 분해 (LU Decomposition)](/knowledge/algorithms/lu-decomposition/) - 역행렬 계산의 실용적 방법
+- [가우스 소거법 (Gaussian Elimination)](/knowledge/algorithms/gaussian-elimination/) - LU 분해의 기반
+- [슈트라센 알고리즘 (Strassen Algorithm)](/knowledge/algorithms/strassen-algorithm/) - 더 빠른 행렬 곱셈을 통한 역행렬 계산 가속

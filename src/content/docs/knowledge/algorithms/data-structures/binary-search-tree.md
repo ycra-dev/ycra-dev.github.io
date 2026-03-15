@@ -1,5 +1,5 @@
 ---
-title: "Binary Search Tree"
+title: "이진 탐색 트리 (Binary Search Tree)"
 description: "이진 탐색 트리(Binary Search Tree, BST)는 각 노드 x에 대해 왼쪽 부분 트리의 모든 키가 x"
 tags: ['Binary Search Tree', 'Bst', 'Data Structure', 'Tree', 'Search', 'Dynamic Set']
 created: 2026-02-15
@@ -95,9 +95,9 @@ TAOCP의 이진 탐색 트리(Section 6.2, Algorithm T)의 주요 특성:
 
 ## 관련 개념
 
-- [Inorder Traversal](/knowledge/algorithms/inorder-traversal/)
-- [Tree Search](/knowledge/algorithms/tree-search/)
+- [중위 순회 (Inorder Traversal)](/knowledge/algorithms/inorder-traversal/)
+- [트리 탐색 (Tree Search)](/knowledge/algorithms/tree-search/)
 - [BST Insertion Deletion](/knowledge/algorithms/bst-insertion-deletion/)
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
-- [Rooted Tree](/knowledge/algorithms/rooted-tree/)
-- [Data Structure](/knowledge/algorithms/data-structure/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)
+- [루트 트리 (Rooted Tree)](/knowledge/algorithms/rooted-tree/)
+- [자료구조 (Data Structure)](/knowledge/algorithms/data-structure/)

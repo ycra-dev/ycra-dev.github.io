@@ -1,5 +1,5 @@
 ---
-title: "Relaxation"
+title: "완화 (Relaxation)"
 description: "완화(Relaxation)는 간선 (u, v)에 대해 u를 경유하여 v에 도달하는 것이 현재까지 알려진 v까지의 최단 경로보다 더 짧은지 검사하고, 더 짧다면 v"
 tags: ['Relaxation', 'Shortest Path', 'Upper Bound', 'Edge Relaxation', 'Convergence']
 created: 2026-02-15
@@ -55,7 +55,7 @@ INITIALIZE-SINGLE-SOURCE(G, s)
 
 ## 관련 개념
 
-- [Shortest Path](/knowledge/algorithms/shortest-path/)
-- [Bellman-Ford Algorithm](/knowledge/algorithms/bellman-ford-algorithm/)
-- [Dijkstra Algorithm](/knowledge/algorithms/dijkstra-algorithm/)
-- [Negative Weight Cycle](/knowledge/algorithms/negative-weight-cycle/)
+- [최단 경로 (Shortest Path)](/knowledge/algorithms/shortest-path/)
+- [벨만-포드 알고리즘 (Bellman-Ford Algorithm)](/knowledge/algorithms/bellman-ford-algorithm/)
+- [다익스트라 알고리즘 (Dijkstra Algorithm)](/knowledge/algorithms/dijkstra-algorithm/)
+- [음수 가중치 순환 (Negative Weight Cycle)](/knowledge/algorithms/negative-weight-cycle/)

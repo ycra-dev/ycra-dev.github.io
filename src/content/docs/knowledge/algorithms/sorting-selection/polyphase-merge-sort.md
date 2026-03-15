@@ -1,5 +1,5 @@
 ---
-title: "Polyphase Merge Sort"
+title: "다단계 병합 정렬 (Polyphase Merge Sort)"
 description: "폴리페이즈 병합 정렬은 T-1개의 입력 테이프에서 동시에 읽어 1개의 출력 테이프로 병합하는 과정을 반복하여, 균형 병합보다 적은 패스로 정렬하는 외부 정렬 방법이다"
 tags: ["Polyphase Merge Sort", "External Sorting", "Tape Sorting", "Fibonacci", "TAOCP", "Merge Patterns"]
 created: 2026-02-27
@@ -60,6 +60,6 @@ T=3 테이프 폴리페이즈:
 
 ## 관련 개념
 
-- [External Sorting Overview](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
-- [Cascade Merge Sort](/knowledge/algorithms/sorting-selection/cascade-merge-sort/)
-- [Replacement Selection](/knowledge/algorithms/sorting-selection/replacement-selection/)
+- [외부 정렬 개요 (External Sorting Overview)](/knowledge/algorithms/sorting-selection/external-sorting-overview/)
+- [캐스케이드 병합 정렬 (Cascade Merge Sort)](/knowledge/algorithms/sorting-selection/cascade-merge-sort/)
+- [대체 선택 (Replacement Selection)](/knowledge/algorithms/sorting-selection/replacement-selection/)

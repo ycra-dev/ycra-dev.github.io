@@ -1,5 +1,5 @@
 ---
-title: "Simplex Algorithm"
+title: "심플렉스 알고리즘 (Simplex Algorithm)"
 description: "심플렉스 알고리즘(Simplex Algorithm)은 선형 계획법의 실현 가능 영역(심플렉스)의 꼭짓점을 따라 이동하면서 목적 함수를 개선하여 최적 해를 찾는 반복적 알고리즘이다"
 tags: ['Simplex', 'Linear Programming', 'Optimization', 'Vertex', 'Pivoting']
 created: 2026-02-15
@@ -55,6 +55,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Linear Programming](/knowledge/algorithms/linear-programming/) - 심플렉스가 풀어야 하는 문제
-- [Duality](/knowledge/algorithms/duality/) - 심플렉스의 최적성 증명에 사용
-- [Approximation Algorithm](/knowledge/algorithms/approximation-algorithm/) - LP 기반 근사 알고리즘
+- [선형 계획법 (Linear Programming)](/knowledge/algorithms/linear-programming/) - 심플렉스가 풀어야 하는 문제
+- [쌍대성 (Duality)](/knowledge/algorithms/duality/) - 심플렉스의 최적성 증명에 사용
+- [근사 알고리즘 (Approximation Algorithm)](/knowledge/algorithms/approximation-algorithm/) - LP 기반 근사 알고리즘

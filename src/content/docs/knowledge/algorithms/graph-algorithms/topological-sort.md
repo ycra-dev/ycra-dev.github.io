@@ -1,5 +1,5 @@
 ---
-title: "Topological Sort"
+title: "위상 정렬 (Topological Sort)"
 description: "위상 정렬(Topological Sort)은 방향 비순환 그래프(DAG) G = (V, E)의 모든 정점을 선형 순서로 배열하여, 간선 (u, v)가 존재하면 u가 v보다 앞에 오도록 하는 것이다"
 tags: ['Topological Sort', 'Dag', 'Directed Acyclic Graph', 'Depth First Search', 'Ordering']
 created: 2026-02-15
@@ -58,7 +58,7 @@ TOPOLOGICAL-SORT(G)
 
 ## 관련 개념
 
-- [Depth-First Search](/knowledge/algorithms/depth-first-search/)
-- [Graph](/knowledge/algorithms/graph/)
-- [Strongly Connected Component](/knowledge/algorithms/strongly-connected-component/)
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
+- [깊이 우선 탐색 (Depth-First Search)](/knowledge/algorithms/depth-first-search/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)
+- [강한 연결 요소 (Strongly Connected Component)](/knowledge/algorithms/strongly-connected-component/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)

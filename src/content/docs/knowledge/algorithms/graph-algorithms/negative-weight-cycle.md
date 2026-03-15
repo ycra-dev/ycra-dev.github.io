@@ -1,5 +1,5 @@
 ---
-title: "Negative Weight Cycle"
+title: "음수 가중치 순환 (Negative Weight Cycle)"
 description: "음수 가중치 사이클(Negative Weight Cycle)은 사이클을 구성하는 간선들의 가중치 합이 음수인 사이클로, 이 사이클에서 도달 가능한 모든 정점의 최단 경로 가중치를 -infinity로 만든다"
 tags: ['Negative Weight Cycle', 'Shortest Path', 'Bellman Ford', 'Graph Theory', 'Infeasibility']
 created: 2026-02-15
@@ -60,7 +60,7 @@ Bellman-Ford 감지:
 
 ## 관련 개념
 
-- [Shortest Path](/knowledge/algorithms/shortest-path/)
-- [Bellman-Ford Algorithm](/knowledge/algorithms/bellman-ford-algorithm/)
-- [Relaxation](/knowledge/algorithms/relaxation/)
-- [Floyd-Warshall Algorithm](/knowledge/algorithms/floyd-warshall-algorithm/)
+- [최단 경로 (Shortest Path)](/knowledge/algorithms/shortest-path/)
+- [벨만-포드 알고리즘 (Bellman-Ford Algorithm)](/knowledge/algorithms/bellman-ford-algorithm/)
+- [완화 (Relaxation)](/knowledge/algorithms/relaxation/)
+- [플로이드-워셜 알고리즘 (Floyd-Warshall Algorithm)](/knowledge/algorithms/floyd-warshall-algorithm/)

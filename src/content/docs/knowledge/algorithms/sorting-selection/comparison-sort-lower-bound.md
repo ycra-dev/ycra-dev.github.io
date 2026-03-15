@@ -1,5 +1,5 @@
 ---
-title: "Comparison Sort Lower Bound"
+title: "비교 정렬 하한 (Comparison Sort Lower Bound)"
 description: "비교 정렬 하한(Comparison Sort Lower Bound)은 원소 간 비교만으로 정렬 순서를 결정하는 모든 비교 정렬 알고리즘이 최악의 경우 반드시 Omega(n lg n)번의 비교를 수행해야 함을 증명한 정보 이론적 하한이다"
 tags: ['Comparison Sort Lower Bound', 'Decision Tree', 'Lower Bound', 'Sorting', 'Omega N Lg N']
 created: 2026-02-15
@@ -57,11 +57,11 @@ n = 3일 때 삽입 정렬의 결정 트리:
 
 ## 관련 개념
 
-- [Heapsort](/knowledge/algorithms/heapsort/)
-- [Merge Sort](/knowledge/algorithms/merge-sort/)
-- [Quicksort](/knowledge/algorithms/quicksort/)
-- [Counting Sort](/knowledge/algorithms/counting-sort/)
-- [Radix Sort](/knowledge/algorithms/radix-sort/)
-- [Bucket Sort](/knowledge/algorithms/bucket-sort/)
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/)
-- [Order of Growth](/knowledge/algorithms/order-of-growth/)
+- [힙 정렬 (Heapsort)](/knowledge/algorithms/heapsort/)
+- [병합 정렬 (Merge Sort)](/knowledge/algorithms/merge-sort/)
+- [퀵 정렬 (Quicksort)](/knowledge/algorithms/quicksort/)
+- [계수 정렬 (Counting Sort)](/knowledge/algorithms/counting-sort/)
+- [기수 정렬 (Radix Sort)](/knowledge/algorithms/radix-sort/)
+- [버킷 정렬 (Bucket Sort)](/knowledge/algorithms/bucket-sort/)
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/)
+- [증가 차수 (Order of Growth)](/knowledge/algorithms/order-of-growth/)

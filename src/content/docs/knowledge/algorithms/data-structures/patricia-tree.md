@@ -1,5 +1,5 @@
 ---
-title: "Patricia Tree"
+title: "패트리샤 트리 (Patricia Tree)"
 description: "Patricia 트리(Practical Algorithm To Retrieve Information Coded In Alphanumeric)는 트라이에서 단일 자식을 가진 노드를 압축하여 공간을 절약한 압축 이진 트라이다"
 tags: ["Patricia Tree", "Digital Searching", "Compressed Trie", "Space Efficient", "Bit Comparison", "TAOCP"]
 created: 2026-02-27
@@ -76,7 +76,7 @@ Patricia의 가장 특이한 특징: 리프 대신 위 방향 링크를 사용. 
 
 ## 관련 개념
 
-- [Trie](/knowledge/algorithms/data-structures/trie/)
-- [Digital Search Tree](/knowledge/algorithms/data-structures/digital-search-tree/)
-- [Radix Search](/knowledge/algorithms/data-structures/radix-search/)
-- [B-Tree](/knowledge/algorithms/data-structures/b-tree/)
+- [트라이 (Trie)](/knowledge/algorithms/data-structures/trie/)
+- [디지털 탐색 트리 (Digital Search Tree)](/knowledge/algorithms/data-structures/digital-search-tree/)
+- [기수 탐색 (Radix Search)](/knowledge/algorithms/data-structures/radix-search/)
+- [B-트리 (B-Tree)](/knowledge/algorithms/data-structures/b-tree/)

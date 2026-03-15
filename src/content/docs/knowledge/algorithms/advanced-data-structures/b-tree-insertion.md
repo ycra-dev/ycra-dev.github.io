@@ -1,5 +1,5 @@
 ---
-title: "B-Tree Insertion"
+title: "B-트리 삽입 (B-Tree Insertion)"
 description: "B-트리 삽입(B-Tree Insertion)은 새 키를 B-트리에 삽입하되, 가득 찬(full) 노드를 미리 분할(split)하여 루트에서 리프까지 단일 하향 경로(single downward pass)만으로 삽입을 완료하는 연산이다"
 tags: ['B Tree Insertion', 'B Tree', 'Node Splitting', 'Preemptive Split', 'Single Pass']
 created: 2026-02-15
@@ -67,7 +67,7 @@ B-TREE-INSERT-NONFULL(x, k)
 
 ## 관련 개념
 
-- [B-Tree](/knowledge/algorithms/b-tree/)
-- [B-Tree Search](/knowledge/algorithms/b-tree-search/)
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
+- [B-트리 (B-Tree)](/knowledge/algorithms/b-tree/)
+- [B-트리 탐색 (B-Tree Search)](/knowledge/algorithms/b-tree-search/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)

@@ -1,5 +1,5 @@
 ---
-title: "Chaining"
+title: "체이닝 (Chaining)"
 description: "체이닝(Chaining)은 해시 테이블에서 동일한 슬롯에 해싱되는 모든 원소를 연결 리스트로 관리하여 충돌을 해결하는 방법이다"
 tags: ['Chaining', 'Collision Resolution', 'Hash Table', 'Linked List', 'Load Factor']
 created: 2026-02-15
@@ -83,8 +83,8 @@ TAOCP Section 6.4의 체이닝 주요 특성:
 
 ## 관련 개념
 
-- [Hash Table](/knowledge/algorithms/hash-table/)
-- [Collision Resolution](/knowledge/algorithms/collision-resolution/)
-- [Open Addressing](/knowledge/algorithms/open-addressing/)
-- [Linked List](/knowledge/algorithms/linked-list/)
-- [Hash Function](/knowledge/algorithms/hash-function/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)
+- [충돌 해결 (Collision Resolution)](/knowledge/algorithms/collision-resolution/)
+- [개방 주소법 (Open Addressing)](/knowledge/algorithms/open-addressing/)
+- [연결 리스트 (Linked List)](/knowledge/algorithms/linked-list/)
+- [해시 함수 (Hash Function)](/knowledge/algorithms/hash-function/)

@@ -1,5 +1,5 @@
 ---
-title: "Shell's Method (Shellsort)"
+title: "셸 정렬 (Shellsort)"
 description: "쉘 정렬(Shellsort)은 증분(increment) 수열을 사용하여 각 단계에서 간격 h만큼 떨어진 원소들끼리 삽입 정렬하는 방법으로, D. L. Shell이 1959년 제안했다"
 tags: ["Shellsort", "Shell's Method", "Sorting", "TAOCP", "Diminishing Increment", "Gap Sequence"]
 created: 2026-02-27
@@ -76,7 +76,7 @@ def shellsort(a, increments=None):
 
 ## 관련 개념
 
-- [Straight Insertion Sort](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
-- [H-ordered Permutation](/knowledge/algorithms/sorting-selection/h-ordered-permutation/)
-- [Inversions](/knowledge/algorithms/sorting-selection/inversions/)
-- [Insertion Sort](/knowledge/algorithms/insertion-sort/)
+- [직접 삽입 정렬 (Straight Insertion Sort)](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
+- [H-순서 순열 (H-ordered Permutation)](/knowledge/algorithms/sorting-selection/h-ordered-permutation/)
+- [역순쌍 (Inversions)](/knowledge/algorithms/sorting-selection/inversions/)
+- [삽입 정렬 (Insertion Sort)](/knowledge/algorithms/insertion-sort/)

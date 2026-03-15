@@ -1,5 +1,5 @@
 ---
-title: "Matrix Multiplication Shortest Paths"
+title: "행렬 곱셈 최단 경로 (Matrix Multiplication Shortest Paths)"
 description: "행렬 곱셈 기반 최단 경로(Matrix Multiplication Shortest Paths)는 최단 경로 확장을 행렬 곱셈과 유사한 연산으로 정의하고, 반복 제곱법을 적용하여 Theta(V^3 lg V) 시간에 모든 쌍 최단 경로를 계산하는 방법이다"
 tags: ['Matrix Multiplication Shortest Paths', 'All Pairs Shortest Paths', 'Repeated Squaring', 'Tropical Semiring']
 created: 2026-02-15
@@ -69,7 +69,7 @@ FASTER-APSP(W, n)
 
 ## 관련 개념
 
-- [All-Pairs Shortest Paths](/knowledge/algorithms/all-pairs-shortest-paths/)
-- [Floyd-Warshall Algorithm](/knowledge/algorithms/floyd-warshall-algorithm/)
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/)
+- [모든 쌍 최단 경로 (All-Pairs Shortest Paths)](/knowledge/algorithms/all-pairs-shortest-paths/)
+- [플로이드-워셜 알고리즘 (Floyd-Warshall Algorithm)](/knowledge/algorithms/floyd-warshall-algorithm/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/)

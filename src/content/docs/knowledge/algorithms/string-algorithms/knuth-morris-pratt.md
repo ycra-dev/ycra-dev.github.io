@@ -1,5 +1,5 @@
 ---
-title: "Knuth-Morris-Pratt Algorithm"
+title: "KMP 알고리즘 (Knuth-Morris-Pratt Algorithm)"
 description: "크누스-모리스-프랫 알고리즘(KMP)은 실패 함수(failure function)를 전처리하여 불일치 발생 시 불필요한 비교를 건너뛰어 Θ(n) 매칭 시간과 Θ(m) 전처리 시간을 달성하는 문자열 매칭 알고리즘이다"
 tags: ['Knuth Morris Pratt', 'Kmp', 'String Matching', 'Failure Function', 'Prefix Function']
 created: 2026-02-15
@@ -86,7 +86,7 @@ i=9: a 일치, q=7=m → 시프트 2에서 패턴 발견!
 
 ## 관련 개념
 
-- [String Matching](/knowledge/algorithms/string-matching/) - KMP가 풀어야 하는 문제
+- [문자열 매칭 (String Matching)](/knowledge/algorithms/string-matching/) - KMP가 풀어야 하는 문제
 - [Finite Automaton](/knowledge/algorithms/finite-automaton/) - KMP의 이론적 기반
 - [Rabin-Karp](/knowledge/algorithms/rabin-karp/) - 해시 기반 대안적 접근
-- [Suffix Array](/knowledge/algorithms/suffix-array/) - 더 다양한 질의를 지원하는 자료구조
+- [접미사 배열 (Suffix Array)](/knowledge/algorithms/suffix-array/) - 더 다양한 질의를 지원하는 자료구조

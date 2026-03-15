@@ -1,5 +1,5 @@
 ---
-title: "Eulerian Numbers"
+title: "오일러 수 (Eulerian Numbers)"
 description: "오일러 수(Eulerian Numbers) <n k>는 {1,...,n}의 순열 중 정확히 k개의 내림(descent)을 가지는 순열의 수로, 정렬 알고리즘의 런 분포 분석에 활용된다"
 tags: ["Eulerian Numbers", "Permutations", "Combinatorics", "TAOCP", "Runs", "Sorting"]
 created: 2026-02-27
@@ -61,7 +61,7 @@ n=4의 오일러 수:
 
 ## 관련 개념
 
-- [Ascending Runs](/knowledge/algorithms/sorting-selection/ascending-runs/)
-- [Inversions](/knowledge/algorithms/sorting-selection/inversions/)
-- [Permutation Cycles](/knowledge/algorithms/sorting-selection/permutation-cycles/)
+- [오름차순 런 (Ascending Runs)](/knowledge/algorithms/sorting-selection/ascending-runs/)
+- [역순쌍 (Inversions)](/knowledge/algorithms/sorting-selection/inversions/)
+- [순열 순환 (Permutation Cycles)](/knowledge/algorithms/sorting-selection/permutation-cycles/)
 - [Sorting Overview](/knowledge/algorithms/sorting-selection/sorting-overview/)

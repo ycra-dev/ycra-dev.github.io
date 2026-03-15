@@ -1,5 +1,5 @@
 ---
-title: "k-Distributed Sequence"
+title: "k-분포 수열 (k-Distributed Sequence)"
 description: "연속된 k개의 값이 k차원 단위 정육면체에 균일하게 분포되는 수열의 특성으로, PRNG 품질의 이론적 기준을 정의한다"
 tags: ["Algorithms", "PRNG", "MathematicalAlgorithms", "Theory", "TAOCP"]
 created: 2026-02-27
@@ -77,6 +77,6 @@ def check_2_distributed(sequence, n_bins=10, tolerance=0.1):
 ## 관련 개념
 
 - [Pseudorandom Number Generator](/knowledge/algorithms/mathematical-algorithms/pseudorandom-number-generator/)
-- [Chi-Square Test](/knowledge/algorithms/mathematical-algorithms/chi-square-test/)
-- [Spectral Test](/knowledge/algorithms/mathematical-algorithms/spectral-test/)
-- [Linear Congruential Method](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)
+- [카이제곱 검정 (Chi-Square Test)](/knowledge/algorithms/mathematical-algorithms/chi-square-test/)
+- [스펙트럼 검정 (Spectral Test)](/knowledge/algorithms/mathematical-algorithms/spectral-test/)
+- [선형 합동법 (Linear Congruential Method)](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)

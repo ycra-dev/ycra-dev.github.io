@@ -1,5 +1,5 @@
 ---
-title: "Internal Sorting Methods Summary"
+title: "내부 정렬 방법 요약 (Internal Sorting Methods Summary)"
 description: "내부 정렬(Internal Sorting) 알고리즘들의 특성을 비교하고 사용 지침을 제공하는 TAOCP의 종합 정리로, Knuth는 범용으로 퀵정렬을 권장한다"
 tags: ["Internal Sorting", "Summary", "Algorithm Selection", "TAOCP", "Comparison", "Sorting"]
 created: 2026-02-27
@@ -65,8 +65,8 @@ N=1000 랜덤 데이터 (MIX, 단위 u):
 
 ## 관련 개념
 
-- [Quicksort](/knowledge/algorithms/quicksort/)
-- [Heapsort](/knowledge/algorithms/heapsort/)
+- [퀵 정렬 (Quicksort)](/knowledge/algorithms/quicksort/)
+- [힙 정렬 (Heapsort)](/knowledge/algorithms/heapsort/)
 - [Shell's Method](/knowledge/algorithms/sorting-selection/shells-method/)
-- [Sorting Algorithm History](/knowledge/algorithms/sorting-selection/sorting-algorithm-history/)
-- [Sorting Algorithm](/knowledge/algorithms/sorting-algorithm/)
+- [정렬 알고리즘의 역사 (Sorting Algorithm History)](/knowledge/algorithms/sorting-selection/sorting-algorithm-history/)
+- [정렬 알고리즘 (Sorting Algorithm)](/knowledge/algorithms/sorting-algorithm/)

@@ -1,5 +1,5 @@
 ---
-title: "Potency"
+title: "차수 (Potency)"
 description: "선형 합동 수열의 곱셈인수 품질을 측정하는 지표로, b^s ≡ 0 (mod m)을 만족하는 최소 정수 s를 나타내며 s ≥ 5이어야 허용 가능한 랜덤성을 가진다"
 tags: ["Algorithms", "PRNG", "MathematicalAlgorithms", "TAOCP"]
 created: 2026-02-27
@@ -71,7 +71,7 @@ for k in [18, 15, 10, 7]:
 
 ## 관련 개념
 
-- [Linear Congruential Method](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)
+- [선형 합동법 (Linear Congruential Method)](/knowledge/algorithms/mathematical-algorithms/linear-congruential-method/)
 - [Period Length](/knowledge/algorithms/mathematical-algorithms/period-length/)
-- [Spectral Test](/knowledge/algorithms/mathematical-algorithms/spectral-test/)
+- [스펙트럼 검정 (Spectral Test)](/knowledge/algorithms/mathematical-algorithms/spectral-test/)
 - [Pseudorandom Number Generator](/knowledge/algorithms/mathematical-algorithms/pseudorandom-number-generator/)

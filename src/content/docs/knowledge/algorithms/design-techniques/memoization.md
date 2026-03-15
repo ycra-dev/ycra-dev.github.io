@@ -1,5 +1,5 @@
 ---
-title: "Memoization"
+title: "메모이제이션 (Memoization)"
 description: "메모이제이션(Memoization)은 자연스러운 재귀적 알고리즘을 수정하여 각 부분 문제의 결과를 테이블에 저장하고, 동일한 부분 문제를 다시 만나면 저장된 값을 반환하는 기법이다"
 tags: ['Memoization', 'Dynamic Programming', 'Top Down', 'Caching', 'Time Memory Tradeoff']
 created: 2026-02-15
@@ -52,7 +52,7 @@ MEMOIZED-CUT-ROD-AUX(p, n, r)
 
 ## 관련 개념
 
-- [Dynamic Programming](/knowledge/algorithms/dynamic-programming/)
-- [Overlapping Subproblems](/knowledge/algorithms/overlapping-subproblems/)
-- [Rod Cutting](/knowledge/algorithms/rod-cutting/)
-- [Matrix Chain Multiplication](/knowledge/algorithms/matrix-chain-multiplication/)
+- [동적 프로그래밍 (Dynamic Programming)](/knowledge/algorithms/dynamic-programming/)
+- [중복 부분 문제 (Overlapping Subproblems)](/knowledge/algorithms/overlapping-subproblems/)
+- [막대 자르기 (Rod Cutting)](/knowledge/algorithms/rod-cutting/)
+- [행렬 연쇄 곱셈 (Matrix Chain Multiplication)](/knowledge/algorithms/matrix-chain-multiplication/)

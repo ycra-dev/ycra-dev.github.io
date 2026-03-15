@@ -1,5 +1,5 @@
 ---
-title: "Stable Marriage"
+title: "안정 결혼 (Stable Marriage)"
 description: "안정 결혼 문제(Stable Marriage Problem)는 n명의 남성과 n명의 여성이 각각 상대방에 대한 선호 순위를 가질 때, 블로킹 페어(blocking pair)가 없는 안정 매칭(stable matching)을 찾는 문제이다"
 tags: ['Stable Marriage', 'Gale Shapley', 'Deferred Acceptance', 'Matching', 'Preference']
 created: 2026-02-15
@@ -66,6 +66,6 @@ GALE-SHAPLEY(남성 선호, 여성 선호)
 
 ## 관련 개념
 
-- [Bipartite Matching](/knowledge/algorithms/bipartite-matching/)
-- [Hungarian Algorithm](/knowledge/algorithms/hungarian-algorithm/)
-- [Graph](/knowledge/algorithms/graph/)
+- [이분 매칭 (Bipartite Matching)](/knowledge/algorithms/bipartite-matching/)
+- [헝가리 알고리즘 (Hungarian Algorithm)](/knowledge/algorithms/hungarian-algorithm/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)

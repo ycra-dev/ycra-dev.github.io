@@ -1,5 +1,5 @@
 ---
-title: "Ascending Runs"
+title: "오름차순 런 (Ascending Runs)"
 description: "런(Run)은 순열에서 연속적인 오름차순 최대 구간으로, 정렬 알고리즘의 이미 정렬된 구간을 나타내며 외부 정렬에서 핵심 개념이다"
 tags: ["Ascending Runs", "Permutations", "Sorting", "Combinatorics", "TAOCP", "External Sorting"]
 created: 2026-02-27
@@ -52,7 +52,7 @@ Bridge 덱 예 (m=13, p=4):
 
 ## 관련 개념
 
-- [Eulerian Numbers](/knowledge/algorithms/sorting-selection/eulerian-numbers/)
+- [오일러 수 (Eulerian Numbers)](/knowledge/algorithms/sorting-selection/eulerian-numbers/)
 - [Sorting Overview](/knowledge/algorithms/sorting-selection/sorting-overview/)
-- [Straight Insertion Sort](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
-- [Replacement Selection](/knowledge/algorithms/sorting-selection/replacement-selection/)
+- [직접 삽입 정렬 (Straight Insertion Sort)](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
+- [대체 선택 (Replacement Selection)](/knowledge/algorithms/sorting-selection/replacement-selection/)

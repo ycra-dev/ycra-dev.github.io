@@ -1,5 +1,5 @@
 ---
-title: "Satisfiability"
+title: "충족 가능성 (Satisfiability)"
 description: "충족 가능성(Satisfiability, SAT)은 부울 식(boolean formula)의 변수에 0/1 값을 배정하여 식 전체를 참(1)으로 만들 수 있는지 묻는 결정 문제로, 최초로 NP-완전이 증명된 문제(CIRCUIT-SAT)의 계열이다"
 tags: ['Satisfiability', 'Sat', 'Cnf', '3 Cnf Sat', 'Circuit Sat', 'Boolean Formula', 'Cook Levin']
 created: 2026-02-15
@@ -100,8 +100,8 @@ CIRCUIT-SAT 예시:
 
 ## 관련 개념
 
-- [NP-Completeness](/knowledge/algorithms/np-completeness/) - SAT가 속하는 복잡도 클래스
-- [Reduction](/knowledge/algorithms/reduction/) - SAT에서 다른 NPC 문제로의 환원
-- [P vs NP](/knowledge/algorithms/p-vs-np/) - SAT의 다항 시간 해결 여부가 핵심
-- [NP-Hard](/knowledge/algorithms/np-hard/) - SAT의 난이도 분류
-- [Approximation Algorithm](/knowledge/algorithms/approximation-algorithm/) - MAX-SAT 근사 알고리즘
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/np-completeness/) - SAT가 속하는 복잡도 클래스
+- [환원 (Reduction)](/knowledge/algorithms/reduction/) - SAT에서 다른 NPC 문제로의 환원
+- [P vs NP 문제](/knowledge/algorithms/p-vs-np/) - SAT의 다항 시간 해결 여부가 핵심
+- [NP-난해 (NP-Hard)](/knowledge/algorithms/np-hard/) - SAT의 난이도 분류
+- [근사 알고리즘 (Approximation Algorithm)](/knowledge/algorithms/approximation-algorithm/) - MAX-SAT 근사 알고리즘

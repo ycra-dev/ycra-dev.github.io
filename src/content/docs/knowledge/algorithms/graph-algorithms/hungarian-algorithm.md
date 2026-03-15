@@ -1,5 +1,5 @@
 ---
-title: "Hungarian Algorithm"
+title: "헝가리 알고리즘 (Hungarian Algorithm)"
 description: "헝가리안 알고리즘(Hungarian Algorithm, Kuhn-Munkres 알고리즘)은 가중치 이분 그래프에서 최소(또는 최대) 비용 완전 매칭을 O(V^3) 시간에 구하는 알고리즘으로, 할당 문제(assignment problem)의 표준 해법이다"
 tags: ['Hungarian Algorithm', 'Assignment Problem', 'Weighted Bipartite Matching', 'Minimum Cost', 'Kuhn Munkres']
 created: 2026-02-15
@@ -75,7 +75,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Bipartite Matching](/knowledge/algorithms/bipartite-matching/)
-- [Stable Marriage](/knowledge/algorithms/stable-marriage/)
-- [Maximum Flow](/knowledge/algorithms/maximum-flow/)
-- [Graph](/knowledge/algorithms/graph/)
+- [이분 매칭 (Bipartite Matching)](/knowledge/algorithms/bipartite-matching/)
+- [안정 결혼 (Stable Marriage)](/knowledge/algorithms/stable-marriage/)
+- [최대 유량 (Maximum Flow)](/knowledge/algorithms/maximum-flow/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)

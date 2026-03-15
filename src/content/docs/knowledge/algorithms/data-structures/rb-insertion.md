@@ -1,5 +1,5 @@
 ---
-title: "RB Insertion"
+title: "레드-블랙 트리 삽입 (RB Insertion)"
 description: "레드-블랙 트리 삽입(RB Insertion)은 새 노드를 RED로 삽입한 후, RB-INSERT-FIXUP 절차를 통해 색상 변경과 회전을 수행하여 레드-블랙 성질을 O(lg n) 시간에 복구하는 연산이다"
 tags: ['Rb Insertion', 'Red Black Tree', 'Insertion', 'Fixup', 'Rotation', 'Recoloring']
 created: 2026-02-15
@@ -82,8 +82,8 @@ RB-INSERT-FIXUP(T, z)
 
 ## 관련 개념
 
-- [Red-Black Tree](/knowledge/algorithms/red-black-tree/)
-- [Rotation](/knowledge/algorithms/rotation/)
-- [RB Deletion](/knowledge/algorithms/rb-deletion/)
+- [레드-블랙 트리 (Red-Black Tree)](/knowledge/algorithms/red-black-tree/)
+- [회전 (Rotation)](/knowledge/algorithms/rotation/)
+- [레드-블랙 트리 삭제 (RB Deletion)](/knowledge/algorithms/rb-deletion/)
 - [BST Insertion Deletion](/knowledge/algorithms/bst-insertion-deletion/)
-- [Balanced Tree](/knowledge/algorithms/balanced-tree/)
+- [균형 트리 (Balanced Tree)](/knowledge/algorithms/balanced-tree/)

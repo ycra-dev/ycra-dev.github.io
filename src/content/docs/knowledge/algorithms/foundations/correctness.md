@@ -1,5 +1,5 @@
 ---
-title: "Correctness"
+title: "정확성 (Correctness)"
 description: "알고리즘이 올바르다(correct)는 것은 모든 문제 인스턴스에 대해 유한 시간 내에 정지(halt)하고 올바른 해를 출력하는 것을 의미한다"
 tags: ['Correctness', 'Halting', 'Algorithm Verification']
 created: 2026-02-15
@@ -37,5 +37,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/algorithm/)
-- [Computational Problem](/knowledge/algorithms/computational-problem/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)
+- [계산 문제 (Computational Problem)](/knowledge/algorithms/computational-problem/)

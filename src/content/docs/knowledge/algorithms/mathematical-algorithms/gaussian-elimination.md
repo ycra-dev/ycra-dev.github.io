@@ -1,5 +1,5 @@
 ---
-title: "Gaussian Elimination"
+title: "가우스 소거법 (Gaussian Elimination)"
 description: "가우스 소거법(Gaussian Elimination)은 연립 일차방정식을 풀기 위해 행 연산을 사용하여 계수 행렬을 상삼각 형태로 변환하는 방법으로, LU 분해의 기반이 되는 핵심 알고리즘이다"
 tags: ['Gaussian Elimination', 'Linear Algebra', 'Pivoting', 'Numerical Stability', 'Matrix Operations']
 created: 2026-02-15
@@ -61,6 +61,6 @@ sidebar:
 
 ## 관련 개념
 
-- [LU Decomposition](/knowledge/algorithms/lu-decomposition/) - 가우스 소거법의 행렬 분해 형태
-- [Matrix Inverse](/knowledge/algorithms/matrix-inverse/) - 가우스 소거법을 통한 역행렬 계산
-- [Linear Programming](/knowledge/algorithms/linear-programming/) - 연립 부등식 풀이와의 관련
+- [LU 분해 (LU Decomposition)](/knowledge/algorithms/lu-decomposition/) - 가우스 소거법의 행렬 분해 형태
+- [역행렬 (Matrix Inverse)](/knowledge/algorithms/matrix-inverse/) - 가우스 소거법을 통한 역행렬 계산
+- [선형 계획법 (Linear Programming)](/knowledge/algorithms/linear-programming/) - 연립 부등식 풀이와의 관련

@@ -1,5 +1,5 @@
 ---
-title: "Graph Isomorphism"
+title: "그래프 동형 (Graph Isomorphism)"
 description: "두 그래프 사이의 정점 1:1 대응 φ가 존재하여 구조가 동일한지 판별하는 문제 — P와 NP-complete 사이의 위치이며 Babai의 준다항식 시간 알고리즘이 알려짐"
 tags: ["Graph Theory", "Automorphism", "Symmetry", "Canonical Form", "Algorithms"]
 created: 2026-02-27
@@ -74,7 +74,7 @@ def is_isomorphic_brute_force(adj1, adj2, n):
 
 ## 관련 개념
 
-- [Graph Theory Basics](/knowledge/algorithms/graph-algorithms/graph-theory-basics/)
-- [Graph Coloring](/knowledge/algorithms/graph-algorithms/graph-coloring/)
-- [Latin Square](/knowledge/discrete-mathematics/combinatorics/latin-square/)
-- [Combinatorial Searching](/knowledge/algorithms/foundations/combinatorial-searching/)
+- [그래프 이론 기초 (Graph Theory Basics)](/knowledge/algorithms/graph-algorithms/graph-theory-basics/)
+- [그래프 색칠 (Graph Coloring)](/knowledge/algorithms/graph-algorithms/graph-coloring/)
+- [라틴 방진 (Latin Square)](/knowledge/discrete-mathematics/combinatorics/latin-square/)
+- [조합 탐색 (Combinatorial Searching)](/knowledge/algorithms/foundations/combinatorial-searching/)

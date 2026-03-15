@@ -1,5 +1,5 @@
 ---
-title: "Work"
+title: "작업량 (Work)"
 description: "Work(작업량)는 태스크 병렬 계산의 전체 실행 시간을 단일 프로세서에서 측정한 값으로, 계산의 모든 strand 실행 시간의 합이다"
 tags: ['Work', 'Parallel Computing', 'Performance Analysis', 'Work Span Analysis']
 created: 2026-02-15
@@ -46,8 +46,8 @@ T_1(n) = Θ(n^3)   (삼중 루프와 동일)
 
 ## 관련 개념
 
-- [Span](/knowledge/algorithms/span/) - 무한 프로세서에서의 실행 시간
-- [Parallelism](/knowledge/algorithms/parallelism/) - T_1/T_∞ 비율
-- [Speedup](/knowledge/algorithms/speedup/) - T_1/T_P로 정의되는 속도 향상
-- [Fork-Join Parallelism](/knowledge/algorithms/fork-join-parallelism/) - work/span 분석의 기반 모델
-- [Asymptotic Notation](/knowledge/algorithms/asymptotic-notation/) - work 분석에 사용되는 표기법
+- [스팬 (Span)](/knowledge/algorithms/span/) - 무한 프로세서에서의 실행 시간
+- [병렬성 (Parallelism)](/knowledge/algorithms/parallelism/) - T_1/T_∞ 비율
+- [속도 향상 (Speedup)](/knowledge/algorithms/speedup/) - T_1/T_P로 정의되는 속도 향상
+- [포크-조인 병렬성 (Fork-Join Parallelism)](/knowledge/algorithms/fork-join-parallelism/) - work/span 분석의 기반 모델
+- [점근 표기법 (Asymptotic Notation)](/knowledge/algorithms/asymptotic-notation/) - work 분석에 사용되는 표기법

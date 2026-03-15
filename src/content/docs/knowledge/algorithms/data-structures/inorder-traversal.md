@@ -1,5 +1,5 @@
 ---
-title: "Inorder Traversal"
+title: "중위 순회 (Inorder Traversal)"
 description: "중위 순회(Inorder Traversal)는 이진 탐색 트리에서 왼쪽 부분 트리, 루트, 오른쪽 부분 트리 순서로 재귀적으로 방문하는 트리 순회 알고리즘으로, BST 성질에 의해 키를 정렬된 순서로 출력한다"
 tags: ['Inorder Traversal', 'Tree Walk', 'Binary Search Tree', 'Recursion', 'Sorted Order']
 created: 2026-02-15
@@ -64,6 +64,6 @@ INORDER-TREE-WALK(x)
 
 ## 관련 개념
 
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Tree Search](/knowledge/algorithms/tree-search/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [트리 탐색 (Tree Search)](/knowledge/algorithms/tree-search/)
 - [BST Insertion Deletion](/knowledge/algorithms/bst-insertion-deletion/)

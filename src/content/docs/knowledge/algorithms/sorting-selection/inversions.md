@@ -1,5 +1,5 @@
 ---
-title: "Inversions"
+title: "역순쌍 (Inversions)"
 description: "순열에서 역위(Inversion)는 i < j이면서 ai > aj인 쌍으로, 정렬 알고리즘 분석에서 '정렬까지의 거리'를 측정하는 핵심 척도이다"
 tags: ["Inversions", "Permutations", "Combinatorics", "TAOCP", "Sorting Analysis"]
 created: 2026-02-27
@@ -52,7 +52,7 @@ det(A) = Σ (-1)^inv(a1...an) · a1,1 · a2,a2 · ... · an,an
 ## 관련 개념
 
 - [Sorting Overview](/knowledge/algorithms/sorting-selection/sorting-overview/)
-- [Inversion Table](/knowledge/algorithms/sorting-selection/inversion-table/)
-- [Straight Insertion Sort](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
-- [Eulerian Numbers](/knowledge/algorithms/sorting-selection/eulerian-numbers/)
-- [Permutation Cycles](/knowledge/algorithms/sorting-selection/permutation-cycles/)
+- [역순 테이블 (Inversion Table)](/knowledge/algorithms/sorting-selection/inversion-table/)
+- [직접 삽입 정렬 (Straight Insertion Sort)](/knowledge/algorithms/sorting-selection/straight-insertion-sort/)
+- [오일러 수 (Eulerian Numbers)](/knowledge/algorithms/sorting-selection/eulerian-numbers/)
+- [순열 순환 (Permutation Cycles)](/knowledge/algorithms/sorting-selection/permutation-cycles/)

@@ -1,5 +1,5 @@
 ---
-title: "Amortized Analysis"
+title: "분할 상환 분석 (Amortized Analysis)"
 description: "분할 상환 분석(Amortized Analysis)은 일련의 데이터 구조 연산에 대해 전체 연산 비용의 평균을 구하여, 개별 연산의 최악 비용이 높더라도 평균 비용이 작음을 보이는 분석 기법이다"
 tags: ['Amortized Analysis', 'Algorithm Analysis', 'Worst Case', 'Average Cost']
 created: 2026-02-15
@@ -39,8 +39,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Aggregate Analysis](/knowledge/algorithms/aggregate-analysis/)
-- [Accounting Method](/knowledge/algorithms/accounting-method/)
-- [Potential Method](/knowledge/algorithms/potential-method/)
-- [Dynamic Table](/knowledge/algorithms/dynamic-table/)
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
+- [집합 분석 (Aggregate Analysis)](/knowledge/algorithms/aggregate-analysis/)
+- [회계 방법 (Accounting Method)](/knowledge/algorithms/accounting-method/)
+- [퍼텐셜 방법 (Potential Method)](/knowledge/algorithms/potential-method/)
+- [동적 테이블 (Dynamic Table)](/knowledge/algorithms/dynamic-table/)
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/)

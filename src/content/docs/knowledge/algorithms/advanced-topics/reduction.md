@@ -1,5 +1,5 @@
 ---
-title: "Reduction"
+title: "환원 (Reduction)"
 description: "다항 시간 환원(Polynomial-Time Reduction)은 문제 A의 임의의 인스턴스를 문제 B의 인스턴스로 다항 시간에 변환하여, B의 답이 A의 답과 일치하도록 하는 기법으로, NP-완전성 증명의 핵심 도구이다"
 tags: ['Reduction', 'Polynomial Time Reduction', 'Np Completeness Proof', 'Problem Transformation', 'Complexity Theory']
 created: 2026-02-15
@@ -99,7 +99,7 @@ NP-완전성 증명의 구체적 흐름:
 
 ## 관련 개념
 
-- [NP-Completeness](/knowledge/algorithms/np-completeness/) - 환원이 증명하는 대상
-- [NP-Hard](/knowledge/algorithms/np-hard/) - 환원으로 증명되는 난이도
-- [Polynomial Time](/knowledge/algorithms/polynomial-time/) - 환원의 효율성 요구사항
-- [Satisfiability](/knowledge/algorithms/satisfiability/) - 환원 체인의 시작점
+- [NP-완전성 (NP-Completeness)](/knowledge/algorithms/np-completeness/) - 환원이 증명하는 대상
+- [NP-난해 (NP-Hard)](/knowledge/algorithms/np-hard/) - 환원으로 증명되는 난이도
+- [다항 시간 (Polynomial Time)](/knowledge/algorithms/polynomial-time/) - 환원의 효율성 요구사항
+- [충족 가능성 (Satisfiability)](/knowledge/algorithms/satisfiability/) - 환원 체인의 시작점

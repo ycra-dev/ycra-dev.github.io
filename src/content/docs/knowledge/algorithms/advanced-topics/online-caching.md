@@ -1,5 +1,5 @@
 ---
-title: "Online Caching"
+title: "온라인 캐싱 (Online Caching)"
 description: "온라인 캐싱(Online Caching)은 미래의 메모리 접근 패턴을 모른 채 크기 k인 캐시에서 어떤 블록을 교체(evict)할지 결정해야 하는 온라인 문제이다"
 tags: ['Online Caching', 'Cache', 'Lru', 'Competitive Analysis', 'Randomized Algorithm']
 created: 2026-02-15
@@ -61,7 +61,7 @@ LRU epoch 분석 (Theorem 27.3):
 
 ## 관련 개념
 
-- [Online Algorithm](/knowledge/algorithms/online-algorithm/) - 캐싱은 대표적 온라인 문제
-- [Competitive Analysis](/knowledge/algorithms/competitive-analysis/) - 경쟁비 분석 기법 적용
-- [Move-to-Front](/knowledge/algorithms/move-to-front/) - 유사한 자기 조직화 온라인 알고리즘
-- [Greedy Algorithm](/knowledge/algorithms/greedy-algorithm/) - 탐욕적 교체 정책
+- [온라인 알고리즘 (Online Algorithm)](/knowledge/algorithms/online-algorithm/) - 캐싱은 대표적 온라인 문제
+- [경쟁 분석 (Competitive Analysis)](/knowledge/algorithms/competitive-analysis/) - 경쟁비 분석 기법 적용
+- [전방 이동 (Move-to-Front)](/knowledge/algorithms/move-to-front/) - 유사한 자기 조직화 온라인 알고리즘
+- [탐욕 알고리즘 (Greedy Algorithm)](/knowledge/algorithms/greedy-algorithm/) - 탐욕적 교체 정책

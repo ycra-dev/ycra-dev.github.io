@@ -1,5 +1,5 @@
 ---
-title: "Maximum Flow"
+title: "최대 유량 (Maximum Flow)"
 description: "최대 유량(Maximum Flow)은 유량 네트워크에서 소스(source) s에서 싱크(sink) t로 보낼 수 있는 최대 유량 값을 구하는 문제이다"
 tags: ['Maximum Flow', 'Flow Network', 'Ford Fulkerson', 'Graph Algorithm', 'Optimization']
 created: 2026-02-15
@@ -67,9 +67,9 @@ Ford-Fulkerson의 기본 흐름:
 
 ## 관련 개념
 
-- [Flow Network](/knowledge/algorithms/flow-network/)
-- [Ford-Fulkerson Method](/knowledge/algorithms/ford-fulkerson-method/)
-- [Residual Network](/knowledge/algorithms/residual-network/)
-- [Max-Flow Min-Cut Theorem](/knowledge/algorithms/max-flow-min-cut-theorem/)
-- [Bipartite Matching](/knowledge/algorithms/bipartite-matching/)
-- [Graph](/knowledge/algorithms/graph/)
+- [유량 네트워크 (Flow Network)](/knowledge/algorithms/flow-network/)
+- [포드-풀커슨 방법 (Ford-Fulkerson Method)](/knowledge/algorithms/ford-fulkerson-method/)
+- [잔여 네트워크 (Residual Network)](/knowledge/algorithms/residual-network/)
+- [최대 유량 최소 절단 정리 (Max-Flow Min-Cut Theorem)](/knowledge/algorithms/max-flow-min-cut-theorem/)
+- [이분 매칭 (Bipartite Matching)](/knowledge/algorithms/bipartite-matching/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)

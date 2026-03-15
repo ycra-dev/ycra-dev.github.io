@@ -1,5 +1,5 @@
 ---
-title: "Hash Function"
+title: "해시 함수 (Hash Function)"
 description: "해시 함수(Hash Function)는 키의 전체 집합 U를 해시 테이블의 슬롯 범위 {0, 1, "
 tags: ['Hash Function', 'Hashing', 'Division Method', 'Multiplication Method', 'Universal Hashing', 'Random Hashing']
 created: 2026-02-15
@@ -78,7 +78,7 @@ h(K) = (...((x₁ * a + x₂) * a + x₃) * a + ... + xₗ) mod M
 
 ## 관련 개념
 
-- [Hash Table](/knowledge/algorithms/hash-table/)
-- [Collision Resolution](/knowledge/algorithms/collision-resolution/)
-- [Chaining](/knowledge/algorithms/chaining/)
-- [Open Addressing](/knowledge/algorithms/open-addressing/)
+- [해시 테이블 (Hash Table)](/knowledge/algorithms/hash-table/)
+- [충돌 해결 (Collision Resolution)](/knowledge/algorithms/collision-resolution/)
+- [체이닝 (Chaining)](/knowledge/algorithms/chaining/)
+- [개방 주소법 (Open Addressing)](/knowledge/algorithms/open-addressing/)

@@ -1,5 +1,5 @@
 ---
-title: "Graph Theory Basics"
+title: "그래프 이론 기초 (Graph Theory Basics)"
 description: "정점과 간선으로 이루어진 수학적 구조 G=(V,E)의 기본 개념 — 이분 그래프 판별, 연결 성분, SGB 링크드 리스트 표현까지"
 tags: ["Graph Theory", "Algorithms", "Combinatorics"]
 created: 2026-02-27
@@ -94,7 +94,7 @@ def bfs_distance(graph, source):
 
 ## 관련 개념
 
-- [Hamiltonian Path](/knowledge/algorithms/graph-algorithms/hamiltonian-path/)
-- [Graph Coloring](/knowledge/algorithms/graph-algorithms/graph-coloring/)
+- [해밀턴 경로 (Hamiltonian Path)](/knowledge/algorithms/graph-algorithms/hamiltonian-path/)
+- [그래프 색칠 (Graph Coloring)](/knowledge/algorithms/graph-algorithms/graph-coloring/)
 - [Breadth First Search](/knowledge/algorithms/graph-algorithms/breadth-first-search/)
-- [Depth First Search](/knowledge/algorithms/graph-algorithms/depth-first-search/)
+- [깊이 우선 탐색 (Depth-First Search)](/knowledge/algorithms/graph-algorithms/depth-first-search/)

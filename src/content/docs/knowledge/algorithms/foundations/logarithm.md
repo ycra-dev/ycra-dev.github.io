@@ -1,5 +1,5 @@
 ---
-title: "Logarithm"
+title: "로그 (Logarithm)"
 description: "b^y = x에서 y = log_b(x)로 정의되는 함수로, 알고리즘 분석에서 분할 정복의 깊이와 정보량을 표현하는 핵심 수학 도구"
 tags: ["Mathematics", "Algorithms", "Analysis", "TAOCP"]
 created: 2026-02-27
@@ -84,7 +84,7 @@ for n in [10, 100, 1000, 10000]:
 
 ## 관련 개념
 
-- [Big-O Notation](/knowledge/algorithms/foundations/big-o-notation/)
-- [Analysis of Algorithms](/knowledge/algorithms/foundations/analysis-of-algorithms/)
-- [Harmonic Numbers](/knowledge/algorithms/foundations/harmonic-numbers/)
-- [Floor and Ceiling Functions](/knowledge/algorithms/foundations/floor-ceiling/)
+- [빅오 표기법 (Big-O Notation)](/knowledge/algorithms/foundations/big-o-notation/)
+- [알고리즘 분석 (Analysis of Algorithms)](/knowledge/algorithms/foundations/analysis-of-algorithms/)
+- [조화수 (Harmonic Numbers)](/knowledge/algorithms/foundations/harmonic-numbers/)
+- [바닥 함수와 천장 함수 (Floor and Ceiling Functions)](/knowledge/algorithms/foundations/floor-ceiling/)

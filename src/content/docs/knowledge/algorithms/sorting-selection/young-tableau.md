@@ -1,5 +1,5 @@
 ---
-title: "Young Tableau"
+title: "영 타블로 (Young Tableau)"
 description: "영 타블로(Young Tableau)는 행과 열이 모두 증가하는 정수 배열로, Robinson-Schensted-Knuth 대응을 통해 순열 이론과 깊이 연결된다"
 tags: ["Young Tableau", "Tableaux", "Combinatorics", "Permutations", "TAOCP", "RSK"]
 created: 2026-02-27
@@ -49,6 +49,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Involutions](/knowledge/algorithms/sorting-selection/involutions/)
-- [Permutation Cycles](/knowledge/algorithms/sorting-selection/permutation-cycles/)
-- [Inversions](/knowledge/algorithms/sorting-selection/inversions/)
+- [대합 (Involutions)](/knowledge/algorithms/sorting-selection/involutions/)
+- [순열 순환 (Permutation Cycles)](/knowledge/algorithms/sorting-selection/permutation-cycles/)
+- [역순쌍 (Inversions)](/knowledge/algorithms/sorting-selection/inversions/)

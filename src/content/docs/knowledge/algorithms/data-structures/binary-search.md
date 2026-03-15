@@ -1,5 +1,5 @@
 ---
-title: "Binary Search"
+title: "이진 탐색 (Binary Search)"
 description: "이진 탐색(Binary Search)은 정렬된 테이블에서 탐색 범위를 절반씩 줄여 나가며 목표 키를 찾는 알고리즘으로, O(log N)의 시간 복잡도를 갖는다"
 tags: ["Binary Search", "Searching", "Divide And Conquer", "Sorted Array", "Comparison Based", "TAOCP"]
 created: 2026-02-27
@@ -52,7 +52,7 @@ N=16인 경우 최대 5번의 비교로 탐색 완료
 
 ## 관련 개념
 
-- [Sequential Search](/knowledge/algorithms/data-structures/sequential-search/)
-- [Fibonacci Search](/knowledge/algorithms/data-structures/fibonacci-search/)
-- [Binary Search Tree](/knowledge/algorithms/binary-search-tree/)
-- [Optimal Binary Search Tree](/knowledge/algorithms/data-structures/optimal-binary-search-tree/)
+- [순차 탐색 (Sequential Search)](/knowledge/algorithms/data-structures/sequential-search/)
+- [피보나치 탐색 (Fibonacci Search)](/knowledge/algorithms/data-structures/fibonacci-search/)
+- [이진 탐색 트리 (Binary Search Tree)](/knowledge/algorithms/binary-search-tree/)
+- [최적 이진 탐색 트리 (Optimal Binary Search Tree)](/knowledge/algorithms/data-structures/optimal-binary-search-tree/)

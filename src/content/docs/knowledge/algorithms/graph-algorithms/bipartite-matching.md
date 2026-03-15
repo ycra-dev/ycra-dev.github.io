@@ -1,5 +1,5 @@
 ---
-title: "Bipartite Matching"
+title: "이분 매칭 (Bipartite Matching)"
 description: "이분 매칭(Bipartite Matching)은 이분 그래프 G = (L ∪ R, E)에서 서로 공유하는 정점이 없는 간선들의 최대 집합(최대 매칭)을 찾는 문제이다"
 tags: ['Bipartite Matching', 'Bipartite Graph', 'Maximum Matching', 'Hopcroft Karp', 'Network Flow']
 created: 2026-02-15
@@ -69,8 +69,8 @@ Phase 1: M = {}
 
 ## 관련 개념
 
-- [Maximum Flow](/knowledge/algorithms/maximum-flow/)
-- [Ford-Fulkerson Method](/knowledge/algorithms/ford-fulkerson-method/)
-- [Stable Marriage](/knowledge/algorithms/stable-marriage/)
-- [Hungarian Algorithm](/knowledge/algorithms/hungarian-algorithm/)
-- [Graph](/knowledge/algorithms/graph/)
+- [최대 유량 (Maximum Flow)](/knowledge/algorithms/maximum-flow/)
+- [포드-풀커슨 방법 (Ford-Fulkerson Method)](/knowledge/algorithms/ford-fulkerson-method/)
+- [안정 결혼 (Stable Marriage)](/knowledge/algorithms/stable-marriage/)
+- [헝가리 알고리즘 (Hungarian Algorithm)](/knowledge/algorithms/hungarian-algorithm/)
+- [그래프 (Graph)](/knowledge/algorithms/graph/)

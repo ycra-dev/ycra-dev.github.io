@@ -1,5 +1,5 @@
 ---
-title: "Population Count"
+title: "인구 수 세기 (Population Count)"
 description: "이진수 n의 1-비트 수를 계산하는 연산으로, Knuth 표기로 ν(n)이라 하며 Hamming 가중치(Hamming weight)라고도 한다"
 tags: ["Algorithms", "BitManipulation", "TAOCP"]
 created: 2026-02-27
@@ -79,5 +79,5 @@ int hamming_distance(int m, int n) {
 
 ## 관련 개념
 
-- [Bitwise Operations](/knowledge/algorithms/foundations/bitwise-operations/)
-- [Nim Game](/knowledge/discrete-mathematics/combinatorics/nim-game/)
+- [비트 연산 (Bitwise Operations)](/knowledge/algorithms/foundations/bitwise-operations/)
+- [님 게임 (Nim Game)](/knowledge/discrete-mathematics/combinatorics/nim-game/)

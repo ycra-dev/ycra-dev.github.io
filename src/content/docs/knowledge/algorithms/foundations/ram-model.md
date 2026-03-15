@@ -1,5 +1,5 @@
 ---
-title: "RAM Model"
+title: "RAM 모델 (RAM Model)"
 description: "RAM(Random-Access Machine) 모델은 알고리즘 분석에 사용되는 단일 프로세서 계산 모델로, 명령어가 순차적으로 실행되며 각 명령어와 데이터 접근이 상수 시간에 수행된다고 가정한다"
 tags: ['RAM Model', 'Computation Model', 'Analysis']
 created: 2026-02-15
@@ -36,5 +36,5 @@ RAM 모델에서의 연산 비용:
 
 ## 관련 개념
 
-- [Algorithm](/knowledge/algorithms/algorithm/)
-- [Worst-Case Analysis](/knowledge/algorithms/worst-case-analysis/)
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/)
+- [최악의 경우 분석 (Worst-Case Analysis)](/knowledge/algorithms/worst-case-analysis/)

@@ -1,5 +1,5 @@
 ---
-title: "Fork-Join Parallelism"
+title: "포크-조인 병렬성 (Fork-Join Parallelism)"
 description: "Fork-join 병렬성은 태스크 병렬 프로그래밍 모델의 가장 기본적인 형태로, spawn(분기)과 sync(합류) 키워드를 사용하여 서브루틴을 병렬로 실행하고 결과를 동기화하는 계산 모델이다"
 tags: ['Fork Join Parallelism', 'Parallel Computing', 'Task Parallelism', 'Multicore', 'Concurrency']
 created: 2026-02-15
@@ -45,9 +45,9 @@ P-MAT-VEC(A, x, y, n)
 
 ## 관련 개념
 
-- [Work](/knowledge/algorithms/work/) - 병렬 계산의 총 작업량
-- [Span](/knowledge/algorithms/span/) - 임계 경로의 길이
-- [Speedup](/knowledge/algorithms/speedup/) - 병렬화로 인한 성능 향상 비율
-- [Parallelism](/knowledge/algorithms/parallelism/) - 병렬성 정도
-- [Parallel Merge Sort](/knowledge/algorithms/parallel-merge-sort/) - fork-join을 활용한 병합 정렬
-- [Divide and Conquer](/knowledge/algorithms/divide-and-conquer/) - 재귀적 spawn으로 자연스러운 병렬화
+- [작업량 (Work)](/knowledge/algorithms/work/) - 병렬 계산의 총 작업량
+- [스팬 (Span)](/knowledge/algorithms/span/) - 임계 경로의 길이
+- [속도 향상 (Speedup)](/knowledge/algorithms/speedup/) - 병렬화로 인한 성능 향상 비율
+- [병렬성 (Parallelism)](/knowledge/algorithms/parallelism/) - 병렬성 정도
+- [병렬 병합 정렬 (Parallel Merge Sort)](/knowledge/algorithms/parallel-merge-sort/) - fork-join을 활용한 병합 정렬
+- [분할 정복 (Divide and Conquer)](/knowledge/algorithms/divide-and-conquer/) - 재귀적 spawn으로 자연스러운 병렬화

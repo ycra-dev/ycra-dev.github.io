@@ -1,5 +1,5 @@
 ---
-title: "Max-Heapify"
+title: "최대 힙화 (Max-Heapify)"
 description: "MAX-HEAPIFY는 특정 노드에서 최대 힙 속성이 위반될 수 있을 때, 해당 노드의 값을 아래 방향으로 \"떨어뜨려(float down)\" 서브트리 전체의 최대 힙 속성을 복원하는 핵심 프로시저이다"
 tags: ['Max Heapify', 'Heap', 'Heap Property', 'Recursive', 'Algorithm']
 created: 2026-02-15
@@ -62,8 +62,8 @@ MAX-HEAPIFY(A, 2)의 동작 (A.heap-size = 10):
 
 ## 관련 개념
 
-- [Heap](/knowledge/algorithms/heap/)
-- [Heapsort](/knowledge/algorithms/heapsort/)
-- [Build-Heap](/knowledge/algorithms/build-heap/)
-- [Priority Queue](/knowledge/algorithms/priority-queue/)
-- [Recurrence](/knowledge/algorithms/recurrence/)
+- [힙 (Heap)](/knowledge/algorithms/heap/)
+- [힙 정렬 (Heapsort)](/knowledge/algorithms/heapsort/)
+- [힙 구성 (Build-Heap)](/knowledge/algorithms/build-heap/)
+- [우선순위 큐 (Priority Queue)](/knowledge/algorithms/priority-queue/)
+- [점화식 (Recurrence)](/knowledge/algorithms/recurrence/)

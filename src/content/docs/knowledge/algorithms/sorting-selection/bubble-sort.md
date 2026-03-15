@@ -1,5 +1,5 @@
 ---
-title: "Bubble Sort (TAOCP)"
+title: "버블 정렬 (Bubble Sort)"
 description: "버블 정렬(Bubble Sort)은 인접한 두 원소를 반복적으로 비교·교환하는 정렬로, Knuth는 '실용적 측면에서 거의 장점이 없는 알고리즘'이라고 평가한다"
 tags: ["Bubble Sort", "Exchange Sort", "Sorting", "TAOCP", "Algorithm Analysis"]
 created: 2026-02-27
@@ -51,7 +51,7 @@ Algorithm B로 정의된 버블 정렬의 핵심 특성:
 
 ## 관련 개념
 
-- [Batcher Odd-Even Merge Sort](/knowledge/algorithms/sorting-selection/batcher-odd-even-merge-sort/)
-- [Inversion Table](/knowledge/algorithms/sorting-selection/inversion-table/)
-- [Inversions](/knowledge/algorithms/sorting-selection/inversions/)
-- [Sorting Algorithm](/knowledge/algorithms/sorting-algorithm/)
+- [배처 홀짝 병합 정렬 (Batcher Odd-Even Merge Sort)](/knowledge/algorithms/sorting-selection/batcher-odd-even-merge-sort/)
+- [역순 테이블 (Inversion Table)](/knowledge/algorithms/sorting-selection/inversion-table/)
+- [역순쌍 (Inversions)](/knowledge/algorithms/sorting-selection/inversions/)
+- [정렬 알고리즘 (Sorting Algorithm)](/knowledge/algorithms/sorting-algorithm/)

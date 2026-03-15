@@ -1,5 +1,5 @@
 ---
-title: "Zero-One Principle"
+title: "0-1 원리 (Zero-One Principle)"
 description: "영-일 원리(Zero-One Principle, Theorem Z)는 소팅 네트워크가 2ⁿ개의 모든 0-1 수열을 정렬하면 임의의 수열도 정렬함을 보장하는 강력한 정리이다"
 tags: ["Zero-One Principle", "Sorting Networks", "Correctness Proof", "TAOCP", "Oblivious Sort", "Theorem"]
 created: 2026-02-27
@@ -56,6 +56,6 @@ k=0,1,2, l=0,1,2,3의 12가지 경우만 검사
 
 ## 관련 개념
 
-- [Sorting Networks](/knowledge/algorithms/sorting-selection/sorting-networks/)
-- [Batcher Odd-Even Merge Sort](/knowledge/algorithms/sorting-selection/batcher-odd-even-merge-sort/)
-- [Minimum-Comparison Sorting](/knowledge/algorithms/sorting-selection/minimum-comparison-sorting/)
+- [정렬 네트워크 (Sorting Networks)](/knowledge/algorithms/sorting-selection/sorting-networks/)
+- [배처 홀짝 병합 정렬 (Batcher Odd-Even Merge Sort)](/knowledge/algorithms/sorting-selection/batcher-odd-even-merge-sort/)
+- [최소 비교 정렬 (Minimum-Comparison Sorting)](/knowledge/algorithms/sorting-selection/minimum-comparison-sorting/)

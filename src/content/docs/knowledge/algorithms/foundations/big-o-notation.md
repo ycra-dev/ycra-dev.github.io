@@ -1,5 +1,5 @@
 ---
-title: "Big-O Notation"
+title: "빅오 표기법 (Big-O Notation)"
 description: "f(x)가 O(g(x))이라 함은, x > k일 때 |f(x)| <= C|g(x)|를 만족하는 상수 C와 k가 존재한다는 것이다"
 tags: ['Big O', 'Asymptotic Analysis', 'Growth Of Functions', 'Complexity Analysis', 'Upper Bound']
 created: 2026-02-16
@@ -53,8 +53,8 @@ n은 임의로 커질 수 있으므로 모순이다.
 
 ## 관련 개념
 
-- [Big-Omega and Big-Theta Notation](/knowledge/algorithms/big-omega-and-big-theta-notation/) - 하한과 정확한 차수를 표현하는 표기법
-- [Time Complexity](/knowledge/algorithms/time-complexity/) - Big-O를 활용한 알고리즘 분석
-- [Algorithm](/knowledge/algorithms/algorithm/) - Big-O 분석의 대상
-- [Linear Search](/knowledge/algorithms/linear-search/) - O(n) 복잡도를 가진 탐색 알고리즘
-- [Binary Search](/knowledge/algorithms/binary-search/) - O(log n) 복잡도를 가진 탐색 알고리즘
+- [빅오메가와 빅세타 표기법 (Big-Omega and Big-Theta Notation)](/knowledge/algorithms/big-omega-and-big-theta-notation/) - 하한과 정확한 차수를 표현하는 표기법
+- [시간 복잡도 (Time Complexity)](/knowledge/algorithms/time-complexity/) - Big-O를 활용한 알고리즘 분석
+- [알고리즘 (Algorithm)](/knowledge/algorithms/algorithm/) - Big-O 분석의 대상
+- [선형 탐색 (Linear Search)](/knowledge/algorithms/linear-search/) - O(n) 복잡도를 가진 탐색 알고리즘
+- [이진 탐색 (Binary Search)](/knowledge/algorithms/binary-search/) - O(log n) 복잡도를 가진 탐색 알고리즘

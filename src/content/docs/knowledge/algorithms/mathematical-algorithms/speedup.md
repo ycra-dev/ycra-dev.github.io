@@ -1,5 +1,5 @@
 ---
-title: "Speedup"
+title: "속도 향상 (Speedup)"
 description: "Speedup(속도 향상)은 P개 프로세서에서 병렬 계산의 성능 향상 정도를 나타내는 비율로, T_1/T_P로 정의된다"
 tags: ['Speedup', 'Parallel Computing', 'Performance', 'Scalability']
 created: 2026-02-15
@@ -46,7 +46,7 @@ Work law에 의해 T_P >= T_1/P이므로, speedup은 최대 P이다:
 
 ## 관련 개념
 
-- [Work](/knowledge/algorithms/work/) - speedup의 분자 T_1
-- [Span](/knowledge/algorithms/span/) - speedup의 상한을 결정하는 요소
-- [Parallelism](/knowledge/algorithms/parallelism/) - 달성 가능한 최대 speedup
-- [Fork-Join Parallelism](/knowledge/algorithms/fork-join-parallelism/) - speedup 분석의 기반 모델
+- [작업량 (Work)](/knowledge/algorithms/work/) - speedup의 분자 T_1
+- [스팬 (Span)](/knowledge/algorithms/span/) - speedup의 상한을 결정하는 요소
+- [병렬성 (Parallelism)](/knowledge/algorithms/parallelism/) - 달성 가능한 최대 speedup
+- [포크-조인 병렬성 (Fork-Join Parallelism)](/knowledge/algorithms/fork-join-parallelism/) - speedup 분석의 기반 모델

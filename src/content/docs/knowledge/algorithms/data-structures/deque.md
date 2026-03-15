@@ -1,5 +1,5 @@
 ---
-title: "Deque"
+title: "덱 (Deque)"
 description: "양쪽 끝에서 삽입과 삭제가 모두 가능한 이중 종단 큐(Double-Ended Queue) 자료구조"
 tags: ["Data Structures", "Algorithms", "Queue", "TAOCP"]
 created: 2026-02-27
@@ -78,7 +78,7 @@ print(sliding_window_max([1,3,-1,-3,5,3,6,7], 3))
 
 ## 관련 개념
 
-- [Queue](/knowledge/algorithms/data-structures/queue/)
-- [Stack](/knowledge/algorithms/data-structures/stack/)
-- [Circular List](/knowledge/algorithms/data-structures/circular-list/)
-- [Sequential Allocation](/knowledge/algorithms/data-structures/sequential-allocation/)
+- [큐 (Queue)](/knowledge/algorithms/data-structures/queue/)
+- [스택 (Stack)](/knowledge/algorithms/data-structures/stack/)
+- [원형 리스트 (Circular List)](/knowledge/algorithms/data-structures/circular-list/)
+- [순차 할당 (Sequential Allocation)](/knowledge/algorithms/data-structures/sequential-allocation/)
