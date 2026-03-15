@@ -1,5 +1,5 @@
 ---
-title: "Personal Brand"
+title: "퍼스널 브랜드 (Personal Brand)"
 description: "자신을 하나의 브랜드로 정의하고 명확한 메시지, 일관된 비주얼, 반복적 노출을 통해 업계에서 인지도를 구축하는 전략"
 tags: ["Career", "PersonalBranding", "Marketing", "Reputation"]
 created: 2026-02-27
@@ -44,7 +44,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Luck Surface Area](/knowledge/career/personal-branding/luck-surface-area/)
-- [Value Creation](/knowledge/career/personal-branding/value-creation/)
-- [Specialization Power](/knowledge/career/professional-development/specialization-power/)
-- [Personal Branding for Developers](/knowledge/career/personal-branding/personal-branding-for-developers/)
+- [행운 표면적 (Luck Surface Area)](/knowledge/career/personal-branding/luck-surface-area/)
+- [가치 창출 (Value Creation)](/knowledge/career/personal-branding/value-creation/)
+- [전문화의 힘 (Specialization Power)](/knowledge/career/professional-development/specialization-power/)
+- [개발자 퍼스널 브랜딩 (Personal Branding for Developers)](/knowledge/career/personal-branding/personal-branding-for-developers/)

@@ -1,5 +1,5 @@
 ---
-title: "Unconscious Bias Awareness"
+title: "무의식적 편견 인식 (Unconscious Bias Awareness)"
 description: "모든 사람이 가진 무의식적 편견의 존재를 인식하고 이것이 행동에 미치는 영향을 이해하는 자기 인식"
 tags: ["Career", "Workplace", "Psychology", "Diversity"]
 created: 2026-02-27
@@ -37,7 +37,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Dealing with Workplace Prejudice](/knowledge/career/workplace/dealing-with-workplace-prejudice/)
-- [Self-Confidence as Career Defense](/knowledge/career/workplace/self-confidence-as-career-defense/)
-- [Women in Tech Stereotypes](/knowledge/career/workplace/women-in-tech-stereotypes/)
-- [Professional Dress Code](/knowledge/career/workplace/professional-dress-code/)
+- [직장 편견 대응 (Dealing with Workplace Prejudice)](/knowledge/career/workplace/dealing-with-workplace-prejudice/)
+- [자신감을 통한 경력 방어 (Self-Confidence as Career Defense)](/knowledge/career/workplace/self-confidence-as-career-defense/)
+- [기술업계 여성 고정관념 (Women in Tech Stereotypes)](/knowledge/career/workplace/women-in-tech-stereotypes/)
+- [프로페셔널 드레스 코드 (Professional Dress Code)](/knowledge/career/workplace/professional-dress-code/)

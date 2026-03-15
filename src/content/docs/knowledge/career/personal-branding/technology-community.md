@@ -1,5 +1,5 @@
 ---
-title: "Technology Community"
+title: "기술 커뮤니티 (Technology Community)"
 description: "정보를 공유하고 전문적 관계를 발전시키는 기술 커뮤니티에서 소비자가 아닌 기여자(contributor)가 되는 것이 커리어를 크게 향상시킨다"
 tags: ["Career", "PersonalBranding", "Community", "OpenSource"]
 created: 2026-02-27
@@ -24,7 +24,7 @@ sidebar:
 - 로컬 밋업이나 스터디 그룹 운영
 
 **기여의 효과:**
-PowerShell 커뮤니티의 많은 리더들은 처음에 질문을 올리는 소비자였다가, 기여를 시작하면서 Microsoft 채용, 승진, 새로운 기회를 얻었다. 기여는 [Luck Surface Area](/knowledge/career/personal-branding/luck-surface-area/)를 넓히는 직접적인 방법이다.
+PowerShell 커뮤니티의 많은 리더들은 처음에 질문을 올리는 소비자였다가, 기여를 시작하면서 Microsoft 채용, 승진, 새로운 기회를 얻었다. 기여는 [행운 표면적 (Luck Surface Area)](/knowledge/career/personal-branding/luck-surface-area/)를 넓히는 직접적인 방법이다.
 
 **오픈소스 기여의 오해:**
 코드 작성만이 기여가 아니다. 문서 업데이트, 유닛 테스트 작성, 이슈 중재, PR 리뷰, 번역 등도 동등하게 귀중한 기여다. 새로운 기여자에게는 이런 "코드 외 기여"가 오히려 진입 장벽이 낮아 시작하기 좋다.
@@ -56,8 +56,8 @@ Level 4 (리더):
 
 ## 관련 개념
 
-- [Personal Branding for Developers](/knowledge/career/personal-branding/personal-branding-for-developers/)
-- [Luck Surface Area](/knowledge/career/personal-branding/luck-surface-area/)
-- [Conference Speaking](/knowledge/career/personal-branding/conference-speaking/)
-- [Developer Blog](/knowledge/career/personal-branding/developer-blog/)
-- [Imposter Syndrome](/knowledge/career/professional-development/imposter-syndrome/)
+- [개발자 퍼스널 브랜딩 (Personal Branding for Developers)](/knowledge/career/personal-branding/personal-branding-for-developers/)
+- [행운 표면적 (Luck Surface Area)](/knowledge/career/personal-branding/luck-surface-area/)
+- [컨퍼런스 발표 (Conference Speaking)](/knowledge/career/personal-branding/conference-speaking/)
+- [개발자 블로그 (Developer Blog)](/knowledge/career/personal-branding/developer-blog/)
+- [임포스터 증후군 (Imposter Syndrome)](/knowledge/career/professional-development/imposter-syndrome/)

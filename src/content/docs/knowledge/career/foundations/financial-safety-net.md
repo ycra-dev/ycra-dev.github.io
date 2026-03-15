@@ -1,5 +1,5 @@
 ---
-title: "Financial Safety Net"
+title: "재정적 안전망 (Financial Safety Net)"
 description: "3~6개월분의 생활비를 예비 자금으로 비축하여 갑작스러운 실직이나 재정 위기에 대비하는 개인 재정 전략"
 tags: ["Career", "Foundations", "PersonalFinance", "EmergencyFund"]
 created: 2026-02-27
@@ -37,7 +37,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Job Security Myth](/knowledge/career/foundations/job-security-myth/)
-- [Embrace Uncertainty](/knowledge/career/foundations/embrace-uncertainty/)
-- [Freelancing](/knowledge/career/entrepreneurship/freelancing/)
+- [고용 안정성의 신화 (Job Security Myth)](/knowledge/career/foundations/job-security-myth/)
+- [불확실성 수용 (Embrace Uncertainty)](/knowledge/career/foundations/embrace-uncertainty/)
+- [프리랜싱 (Freelancing)](/knowledge/career/entrepreneurship/freelancing/)
 - [Assets vs Liabilities](/knowledge/career/entrepreneurship/assets-vs-liabilities/)

@@ -1,5 +1,5 @@
 ---
-title: "Leadership by Example"
+title: "솔선수범 리더십 (Leadership by Example)"
 description: "직함이 아닌 자신이 먼저 모범을 보이고 팀원이 자발적으로 따르도록 영감을 주는 리더십 방식"
 tags: ["Career", "Workplace", "Leadership", "TeamManagement"]
 created: 2026-02-27
@@ -36,7 +36,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Extreme Ownership in Leadership](/knowledge/career/workplace/extreme-ownership-in-leadership/)
-- [Delegation vs Abdication](/knowledge/career/workplace/delegation-vs-abdication/)
-- [Higher Accountability Standard](/knowledge/career/workplace/higher-accountability-standard/)
-- [Taking Team Responsibility](/knowledge/career/workplace/taking-team-responsibility/)
+- [극한 오너십 리더십 (Extreme Ownership in Leadership)](/knowledge/career/workplace/extreme-ownership-in-leadership/)
+- [위임 vs 방임 (Delegation vs Abdication)](/knowledge/career/workplace/delegation-vs-abdication/)
+- [높은 책임 기준 (Higher Accountability Standard)](/knowledge/career/workplace/higher-accountability-standard/)
+- [팀 책임 수용 (Taking Team Responsibility)](/knowledge/career/workplace/taking-team-responsibility/)

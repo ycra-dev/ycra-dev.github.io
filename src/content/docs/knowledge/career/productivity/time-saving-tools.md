@@ -56,6 +56,6 @@ print(tool_roi(30, 8, 5))
 ## 관련 개념
 
 - [Iteration Speed](/knowledge/career/productivity/iteration-speed/) - 도구는 반복 속도를 높이는 가장 효과적인 방법
-- [Automation](/knowledge/software-engineering/foundations/automation/) - 자동화는 도구의 극단적 형태
+- [자동화 (Automation)](/knowledge/software-engineering/foundations/automation/) - 자동화는 도구의 극단적 형태
 - [Leverage](/knowledge/career/foundations/leverage/) - 도구 구축은 레버리지가 매우 높은 활동
 - [Continuous Deployment](/knowledge/career/productivity/continuous-deployment/) - CD 파이프라인도 최고의 시간 절약 도구다

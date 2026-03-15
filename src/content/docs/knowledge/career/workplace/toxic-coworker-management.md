@@ -1,5 +1,5 @@
 ---
-title: "Toxic Coworker Management"
+title: "유해한 동료 관리 (Toxic Coworker Management)"
 description: "어떤 노력을 해도 관계 개선이 불가능한 독성 동료를 식별하고, 최소한의 상호작용으로 자신을 보호하는 대처 전략이다."
 tags: ["Career", "Workplace", "Interpersonal", "Self-Protection"]
 created: 2026-02-27

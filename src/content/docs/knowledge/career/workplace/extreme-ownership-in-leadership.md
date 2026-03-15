@@ -1,5 +1,5 @@
 ---
-title: "Extreme Ownership in Leadership"
+title: "극한 오너십 리더십 (Extreme Ownership in Leadership)"
 description: "리더가 팀의 모든 성공과 실패에 전적인 책임을 지는 리더십 철학 - 나쁜 팀은 없고 나쁜 리더만 있다"
 tags: ["Career", "Workplace", "Leadership", "Accountability"]
 created: 2026-02-27
@@ -42,7 +42,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Leadership by Example](/knowledge/career/workplace/leadership-by-example/)
-- [Delegation vs Abdication](/knowledge/career/workplace/delegation-vs-abdication/)
-- [Higher Accountability Standard](/knowledge/career/workplace/higher-accountability-standard/)
-- [Taking Team Responsibility](/knowledge/career/workplace/taking-team-responsibility/)
+- [솔선수범 리더십 (Leadership by Example)](/knowledge/career/workplace/leadership-by-example/)
+- [위임 vs 방임 (Delegation vs Abdication)](/knowledge/career/workplace/delegation-vs-abdication/)
+- [높은 책임 기준 (Higher Accountability Standard)](/knowledge/career/workplace/higher-accountability-standard/)
+- [팀 책임 수용 (Taking Team Responsibility)](/knowledge/career/workplace/taking-team-responsibility/)

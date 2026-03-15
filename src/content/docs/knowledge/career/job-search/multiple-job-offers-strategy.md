@@ -1,5 +1,5 @@
 ---
-title: "Multiple Job Offers Strategy"
+title: "복수 오퍼 전략 (Multiple Job Offers Strategy)"
 description: "두 개 이상의 취업 오퍼를 동시에 보유하여 협상력을 극대화하고 자신에게 가장 유리한 조건을 선택하는 구직 전략이다."
 tags: ["Career", "Job Search", "Negotiation", "Strategy", "Offers"]
 created: 2026-02-27

@@ -1,5 +1,5 @@
 ---
-title: "Phone Screen Interview"
+title: "전화 스크리닝 면접 (Phone Screen Interview)"
 description: "본 인터뷰 전에 기본 자격 요건을 확인하는 15-30분 짧은 전화/화상 면접으로, 다음 단계 진출 여부를 결정하는 첫 번째 관문이다."
 tags: ["Career", "Interview", "Job Search", "Screening"]
 created: 2026-02-27

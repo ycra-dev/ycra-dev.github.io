@@ -1,5 +1,5 @@
 ---
-title: "Side Projects"
+title: "사이드 프로젝트 (Side Projects)"
 description: "본업 외의 시간에 개인적으로 진행하는 소프트웨어 프로젝트로, 새 기술 학습, 기술 연마, 자신감 구축, 수입 창출 등의 다목적 커리어 발전 도구"
 tags: ["Career", "Productivity", "SideProjects", "SkillDevelopment"]
 created: 2026-02-27
@@ -46,7 +46,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Finisher Mindset](/knowledge/career/productivity/finisher-mindset/)
-- [Multi-Purposing](/knowledge/career/productivity/multi-purposing/)
-- [Deliberate Skill Maintenance](/knowledge/career/professional-development/deliberate-skill-maintenance/)
-- [Learning Plan](/knowledge/career/professional-development/learning-plan/)
+- [완주 마인드셋 (Finisher Mindset)](/knowledge/career/productivity/finisher-mindset/)
+- [다목적 활용 (Multi-Purposing)](/knowledge/career/productivity/multi-purposing/)
+- [의도적 역량 유지 (Deliberate Skill Maintenance)](/knowledge/career/professional-development/deliberate-skill-maintenance/)
+- [학습 계획 (Learning Plan)](/knowledge/career/professional-development/learning-plan/)

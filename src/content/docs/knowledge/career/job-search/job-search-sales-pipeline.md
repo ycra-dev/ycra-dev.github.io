@@ -1,5 +1,5 @@
 ---
-title: "Job Search Sales Pipeline"
+title: "구직 세일즈 파이프라인 (Job Search Sales Pipeline)"
 description: "구직 활동을 영업 파이프라인처럼 관리하여 리드(잠재 채용) 발굴부터 오퍼 수락까지 각 단계를 체계적으로 추적하는 전략이다."
 tags: ["Career", "Job Search", "Strategy", "Process"]
 created: 2026-02-27

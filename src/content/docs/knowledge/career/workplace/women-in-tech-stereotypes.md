@@ -1,5 +1,5 @@
 ---
-title: "Women in Tech Stereotypes"
+title: "기술업계 여성 고정관념 (Women in Tech Stereotypes)"
 description: "기술 분야에서 여성 개발자가 직면하는 대표적 고정관념들과 이를 실용적으로 다루는 접근법"
 tags: ["Career", "Workplace", "Diversity", "WomenInTech"]
 created: 2026-02-27
@@ -41,7 +41,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Unconscious Bias Awareness](/knowledge/career/workplace/unconscious-bias-awareness/)
-- [Dealing with Workplace Prejudice](/knowledge/career/workplace/dealing-with-workplace-prejudice/)
-- [Patronization in Tech](/knowledge/career/workplace/patronization-in-tech/)
-- [Negotiation Skills for Career Growth](/knowledge/career/job-search/negotiation-skills-for-career-growth/)
+- [무의식적 편견 인식 (Unconscious Bias Awareness)](/knowledge/career/workplace/unconscious-bias-awareness/)
+- [직장 편견 대응 (Dealing with Workplace Prejudice)](/knowledge/career/workplace/dealing-with-workplace-prejudice/)
+- [기술업계의 온정주의 (Patronization in Tech)](/knowledge/career/workplace/patronization-in-tech/)
+- [경력 성장을 위한 협상 스킬 (Negotiation Skills for Career Growth)](/knowledge/career/job-search/negotiation-skills-for-career-growth/)

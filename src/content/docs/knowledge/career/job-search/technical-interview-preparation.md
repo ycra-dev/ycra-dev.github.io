@@ -1,5 +1,5 @@
 ---
-title: "Technical Interview Preparation"
+title: "기술 면접 준비 (Technical Interview Preparation)"
 description: "소프트웨어 개발 기술 면접을 체계적으로 준비하기 위한 전략으로, 알고리즘, 시스템 설계, 기술 스택 지식을 포함한 종합적 준비 방법이다."
 tags: ["Career", "Interview", "Technical", "Job Search", "Algorithms"]
 created: 2026-02-27

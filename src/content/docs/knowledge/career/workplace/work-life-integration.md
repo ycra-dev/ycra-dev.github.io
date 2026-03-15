@@ -1,5 +1,5 @@
 ---
-title: "Work-Life Integration"
+title: "워라밸 통합 (Work-Life Integration)"
 description: "일과 삶을 완전히 분리하려는 '균형' 대신, 두 영역이 자연스럽게 공존하고 서로를 지원하도록 통합하는 현실적 접근법이다."
 tags: ["Career", "Workplace", "Work-Life Balance", "Lifestyle", "Wellbeing"]
 created: 2026-02-27

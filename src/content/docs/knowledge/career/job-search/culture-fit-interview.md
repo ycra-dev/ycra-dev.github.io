@@ -1,5 +1,5 @@
 ---
-title: "Culture Fit Interview"
+title: "문화 적합성 면접 (Culture Fit Interview)"
 description: "지원자가 회사의 문화, 가치관, 팀 다이나믹에 잘 맞는지를 평가하는 인터뷰 유형으로, 기술 능력과 별도로 중요하게 평가된다."
 tags: ["Career", "Interview", "Culture Fit", "Job Search"]
 created: 2026-02-27

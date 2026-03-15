@@ -1,5 +1,5 @@
 ---
-title: "Two Weeks Notice"
+title: "2주 전 퇴사 통보 (Two Weeks Notice)"
 description: "퇴직 시 현 고용주에게 최소 2주 전에 알리는 직업 윤리적 관행으로, 전문적 평판을 유지하고 참고인 관계를 보호하는 데 중요하다."
 tags: ["Career", "Job Change", "Professionalism", "Exit Strategy"]
 created: 2026-02-27

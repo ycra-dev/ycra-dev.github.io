@@ -44,4 +44,4 @@ sidebar:
 - [Life Definition](/knowledge/career/foundations/life-definition/) - 성공 목표의 근거가 되는 삶의 모습
 - [Career Plan](/knowledge/career/foundations/career-plan/) - 성공 목표를 달성하기 위한 경로
 - [Career Ownership](/knowledge/career/foundations/career-ownership/) - 커리어를 스스로 소유하는 책임
-- [OKR](/knowledge/career/productivity/okr/) - 목표와 핵심 결과를 정의하는 프레임워크
+- [OKR (목표와 핵심 결과)](/knowledge/career/productivity/okr/) - 목표와 핵심 결과를 정의하는 프레임워크

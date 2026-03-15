@@ -1,5 +1,5 @@
 ---
-title: "Interview Tips for Developers"
+title: "개발자 면접 팁 (Interview Tips for Developers)"
 description: "소프트웨어 개발자 채용 면접에서 기술 능력과 소통 능력을 동시에 효과적으로 보여주기 위한 실전 전략이다."
 tags: ["Career", "Interview", "Job Search", "Communication"]
 created: 2026-02-27

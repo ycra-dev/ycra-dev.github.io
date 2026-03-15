@@ -1,5 +1,5 @@
 ---
-title: "Dealing with Workplace Prejudice"
+title: "직장 편견 대응 (Dealing with Workplace Prejudice)"
 description: "직장에서 인종, 성별, 외모 등에 기반한 편견에 실용적으로 대응하는 세 단계 전략"
 tags: ["Career", "Workplace", "Diversity", "SelfProtection"]
 created: 2026-02-27
@@ -39,7 +39,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Unconscious Bias Awareness](/knowledge/career/workplace/unconscious-bias-awareness/)
-- [Self-Confidence as Career Defense](/knowledge/career/workplace/self-confidence-as-career-defense/)
-- [Setting Workplace Boundaries](/knowledge/career/workplace/setting-workplace-boundaries/)
-- [Women in Tech Stereotypes](/knowledge/career/workplace/women-in-tech-stereotypes/)
+- [무의식적 편견 인식 (Unconscious Bias Awareness)](/knowledge/career/workplace/unconscious-bias-awareness/)
+- [자신감을 통한 경력 방어 (Self-Confidence as Career Defense)](/knowledge/career/workplace/self-confidence-as-career-defense/)
+- [직장 경계 설정 (Setting Workplace Boundaries)](/knowledge/career/workplace/setting-workplace-boundaries/)
+- [기술업계 여성 고정관념 (Women in Tech Stereotypes)](/knowledge/career/workplace/women-in-tech-stereotypes/)

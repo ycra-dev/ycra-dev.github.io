@@ -1,5 +1,5 @@
 ---
-title: "Specialization Power"
+title: "전문화의 힘 (Specialization Power)"
 description: "특정 분야에 깊이 전문화함으로써 얻는 불균형적으로 높은 가치와 경쟁 우위"
 tags: ["Career", "ProfessionalDevelopment", "Specialization", "Niche"]
 created: 2026-02-27
@@ -38,7 +38,7 @@ sidebar:
 
 ## 관련 개념
 
-- [T-Shaped Knowledge](/knowledge/career/professional-development/t-shaped-knowledge/)
-- [Niche Down](/knowledge/career/professional-development/niche-down/)
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/)
-- [Career Paths for Developers](/knowledge/career/workplace/career-paths-developer/)
+- [T자형 지식 (T-Shaped Knowledge)](/knowledge/career/professional-development/t-shaped-knowledge/)
+- [니치 전문화 (Niche Down)](/knowledge/career/professional-development/niche-down/)
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/)
+- [개발자 경력 경로 (Career Paths for Developers)](/knowledge/career/workplace/career-paths-developer/)

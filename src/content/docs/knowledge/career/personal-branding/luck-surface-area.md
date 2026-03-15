@@ -1,5 +1,5 @@
 ---
-title: "Luck Surface Area"
+title: "행운 표면적 (Luck Surface Area)"
 description: "자신의 기술과 그 기술을 외부에 노출하는 정도의 곱으로 결정되는 기회 발생 확률 - Jason Roberts의 개념"
 tags: ["Career", "PersonalBranding", "Opportunity", "Visibility"]
 created: 2026-02-27
@@ -56,7 +56,7 @@ Telling (소통/노출):
 
 ## 관련 개념
 
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/)
-- [Developer Blog](/knowledge/career/personal-branding/developer-blog/)
-- [Conference Speaking](/knowledge/career/personal-branding/conference-speaking/)
-- [Value Creation](/knowledge/career/personal-branding/value-creation/)
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/)
+- [개발자 블로그 (Developer Blog)](/knowledge/career/personal-branding/developer-blog/)
+- [컨퍼런스 발표 (Conference Speaking)](/knowledge/career/personal-branding/conference-speaking/)
+- [가치 창출 (Value Creation)](/knowledge/career/personal-branding/value-creation/)

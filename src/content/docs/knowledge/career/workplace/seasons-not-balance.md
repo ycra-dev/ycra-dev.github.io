@@ -1,5 +1,5 @@
 ---
-title: "Seasons Not Balance"
+title: "균형보다 시즌 (Seasons Not Balance)"
 description: "일과 삶의 각 영역에 집중하는 시기를 계절처럼 순환시켜, 장기적으로 모든 영역을 풍성하게 하는 삶의 관점이다."
 tags: ["Career", "Workplace", "Work-Life Balance", "Mindset", "Long-term Thinking"]
 created: 2026-02-27

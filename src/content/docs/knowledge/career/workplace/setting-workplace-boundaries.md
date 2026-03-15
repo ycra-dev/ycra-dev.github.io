@@ -1,5 +1,5 @@
 ---
-title: "Setting Workplace Boundaries"
+title: "직장 경계 설정 (Setting Workplace Boundaries)"
 description: "직장에서 개인 시간, 업무 범위, 소통 방식에 대한 명확한 경계를 설정하여 번아웃을 예방하고 지속 가능한 생산성을 유지하는 전략이다."
 tags: ["Career", "Workplace", "Work-Life Balance", "Boundaries", "Burnout Prevention"]
 created: 2026-02-27

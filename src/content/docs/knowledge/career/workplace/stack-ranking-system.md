@@ -1,5 +1,5 @@
 ---
-title: "Stack Ranking System"
+title: "스택 랭킹 시스템 (Stack Ranking System)"
 description: "전체 직원을 상위 10%, 80%, 하위 10%로 강제 분류하여 성과를 평가하는 기업 인사 시스템으로, 이면의 정치적 역학을 이해하고 대응해야 한다."
 tags: ["Career", "Workplace", "Performance Review", "Corporate Culture", "HR Policy"]
 created: 2026-02-27

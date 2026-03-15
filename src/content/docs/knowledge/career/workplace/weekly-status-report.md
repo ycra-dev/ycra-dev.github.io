@@ -1,5 +1,5 @@
 ---
-title: "Weekly Status Report"
+title: "주간 업무 보고 (Weekly Status Report)"
 description: "매주 자신의 업무 진행 상황을 상사와 팀에 공유하는 보고서로, 성과를 가시화하고 평가와 승진에 활용할 수 있는 증거를 축적하는 전략적 도구이다."
 tags: ["Career", "Workplace", "Communication", "Self-Advocacy", "Visibility"]
 created: 2026-02-27

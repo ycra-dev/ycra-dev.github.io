@@ -40,4 +40,4 @@ sidebar:
 - [Vision Statement](/knowledge/career/workplace/vision-statement/) - 리더십의 가장 핵심적인 도구
 - [Context Switching in Leadership](/knowledge/career/workplace/context-switching-leadership/) - 리더가 팀원의 관점으로 전환하는 능력
 - [Peter Principle](/knowledge/career/workplace/peter-principle/) - 리더십과 관리를 혼동할 때 발생하는 문제
-- [Managing Up](/knowledge/career/workplace/managing-up/) - 관리자를 향한 업워드 매니지먼트
+- [상향 관리 (Managing Up)](/knowledge/career/workplace/managing-up/) - 관리자를 향한 업워드 매니지먼트

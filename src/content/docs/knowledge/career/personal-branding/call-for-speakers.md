@@ -1,5 +1,5 @@
 ---
-title: "Call for Speakers (CFP)"
+title: "발표자 모집 (Call for Speakers, CFP)"
 description: "컨퍼런스 주최측이 발표자를 모집하는 공모 절차로, 발표 초록과 발표 영상을 제출하여 선발되는 과정"
 tags: ["Career", "PersonalBranding", "PublicSpeaking", "Conference"]
 created: 2026-02-27
@@ -42,6 +42,6 @@ CFP 선발 확률 높이기 전략:
 
 ## 관련 개념
 
-- [Conference Speaking](/knowledge/career/personal-branding/conference-speaking/)
-- [Stage Fright Overcoming](/knowledge/career/personal-branding/stage-fright-overcoming/)
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/)
+- [컨퍼런스 발표 (Conference Speaking)](/knowledge/career/personal-branding/conference-speaking/)
+- [무대 공포 극복 (Stage Fright Overcoming)](/knowledge/career/personal-branding/stage-fright-overcoming/)
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/)

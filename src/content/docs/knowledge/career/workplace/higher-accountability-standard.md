@@ -1,5 +1,5 @@
 ---
-title: "Higher Accountability Standard"
+title: "높은 책임 기준 (Higher Accountability Standard)"
 description: "리더가 팀에 요구하는 것보다 자신에게 훨씬 더 높은 기준을 적용하여 팀에 영감을 주는 리더십 원칙"
 tags: ["Career", "Workplace", "Leadership", "SelfDiscipline"]
 created: 2026-02-27
@@ -38,7 +38,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Leadership by Example](/knowledge/career/workplace/leadership-by-example/)
-- [Extreme Ownership in Leadership](/knowledge/career/workplace/extreme-ownership-in-leadership/)
-- [Pay Yourself First with Time](/knowledge/career/workplace/pay-yourself-first-with-time/)
-- [Responsibility Over Pay](/knowledge/career/workplace/responsibility-over-pay/)
+- [솔선수범 리더십 (Leadership by Example)](/knowledge/career/workplace/leadership-by-example/)
+- [극한 오너십 리더십 (Extreme Ownership in Leadership)](/knowledge/career/workplace/extreme-ownership-in-leadership/)
+- [시간으로 자신에게 먼저 투자 (Pay Yourself First with Time)](/knowledge/career/workplace/pay-yourself-first-with-time/)
+- [급여보다 책임 (Responsibility Over Pay)](/knowledge/career/workplace/responsibility-over-pay/)

@@ -1,5 +1,5 @@
 ---
-title: "Knowledge Hoarding Antipattern"
+title: "지식 독점 안티패턴 (Knowledge Hoarding Antipattern)"
 description: "고용 안정을 위해 의도적으로 자신만 아는 시스템을 만들거나 지식을 공유하지 않는 역기능적 행동 패턴"
 tags: ["Career", "Foundations", "Antipattern", "TeamDynamics"]
 created: 2026-02-27
@@ -48,7 +48,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Job Security Myth](/knowledge/career/foundations/job-security-myth/)
-- [Value Creation](/knowledge/career/personal-branding/value-creation/)
-- [Delegation vs Abdication](/knowledge/career/workplace/delegation-vs-abdication/)
-- [Financial Safety Net](/knowledge/career/foundations/financial-safety-net/)
+- [고용 안정성의 신화 (Job Security Myth)](/knowledge/career/foundations/job-security-myth/)
+- [가치 창출 (Value Creation)](/knowledge/career/personal-branding/value-creation/)
+- [위임 vs 방임 (Delegation vs Abdication)](/knowledge/career/workplace/delegation-vs-abdication/)
+- [재정적 안전망 (Financial Safety Net)](/knowledge/career/foundations/financial-safety-net/)

@@ -1,5 +1,5 @@
 ---
-title: "Certification Value"
+title: "자격증의 가치 (Certification Value)"
 description: "소프트웨어 개발 자격증이 실제 역량 향상보다는 경력 보완, 승진 근거, 전문성 시그널로서 갖는 전략적 가치"
 tags: ["Career", "ProfessionalDevelopment", "Certification", "Credentials"]
 created: 2026-02-27
@@ -35,7 +35,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Training ROI](/knowledge/career/professional-development/training-roi/)
-- [Pareto Training](/knowledge/career/professional-development/pareto-training/)
-- [Investing in Your Education](/knowledge/career/professional-development/investing-in-your-education/)
-- [Specialization Power](/knowledge/career/professional-development/specialization-power/)
+- [교육 투자 수익률 (Training ROI)](/knowledge/career/professional-development/training-roi/)
+- [파레토 학습법 (Pareto Training)](/knowledge/career/professional-development/pareto-training/)
+- [자기 교육 투자 (Investing in Your Education)](/knowledge/career/professional-development/investing-in-your-education/)
+- [전문화의 힘 (Specialization Power)](/knowledge/career/professional-development/specialization-power/)

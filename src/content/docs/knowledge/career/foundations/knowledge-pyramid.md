@@ -51,6 +51,6 @@ Python 지식 피라미드 예시:
 ## 관련 개념
 
 - [T-Shaped Skills](/knowledge/career/professional-development/t-shaped-skills/) - 깊이와 너비를 결합한 역량 모델
-- [Skill Relevance](/knowledge/career/professional-development/skill-relevance/) - 시장에서 요구되는 기술 파악
+- [스킬 적합성 (Skill Relevance)](/knowledge/career/professional-development/skill-relevance/) - 시장에서 요구되는 기술 파악
 - [Learning Muscles](/knowledge/career/foundations/learning-muscles/) - 매일 학습으로 단련되는 뇌의 학습 능력
 - [Compounding Learning](/knowledge/career/foundations/compounding-learning/) - 복리로 성장하는 학습

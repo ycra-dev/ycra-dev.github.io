@@ -39,6 +39,6 @@ RAPID 프레임워크는 Bain & Company가 개발한 의사결정 구조로, 다
 
 ## 관련 개념
 
-- [OKR](/knowledge/career/productivity/okr/) - 조직의 방향과 목표를 정렬하는 프레임워크
+- [OKR (목표와 핵심 결과)](/knowledge/career/productivity/okr/) - 조직의 방향과 목표를 정렬하는 프레임워크
 - [Opportunity Cost](/knowledge/career/productivity/opportunity-cost/) - 의사결정에 항상 따르는 기회비용
 - [Conflict Resolution](/knowledge/career/workplace/conflict-resolution/) - RAPID는 의사결정 갈등을 예방하는 구조다

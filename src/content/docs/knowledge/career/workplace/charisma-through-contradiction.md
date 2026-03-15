@@ -1,5 +1,5 @@
 ---
-title: "Charisma Through Contradiction"
+title: "모순을 통한 카리스마 (Charisma Through Contradiction)"
 description: "외모, 복장, 행동에서 모순되는 요소를 의도적으로 조합하여 카리스마를 생성하는 이미지 전략"
 tags: ["Career", "Workplace", "PersonalBranding", "Communication"]
 created: 2026-02-27
@@ -38,7 +38,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Professional Dress Code](/knowledge/career/workplace/professional-dress-code/)
-- [Enclothed Cognition](/knowledge/career/workplace/enclothed-cognition/)
-- [First Impression at Work](/knowledge/career/workplace/first-impression-at-work/)
-- [Personal Branding for Developers](/knowledge/career/personal-branding/personal-branding-for-developers/)
+- [프로페셔널 드레스 코드 (Professional Dress Code)](/knowledge/career/workplace/professional-dress-code/)
+- [착장 인지 효과 (Enclothed Cognition)](/knowledge/career/workplace/enclothed-cognition/)
+- [직장 첫인상 (First Impression at Work)](/knowledge/career/workplace/first-impression-at-work/)
+- [개발자 퍼스널 브랜딩 (Personal Branding for Developers)](/knowledge/career/personal-branding/personal-branding-for-developers/)

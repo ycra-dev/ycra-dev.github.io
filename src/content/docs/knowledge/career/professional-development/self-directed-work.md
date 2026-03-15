@@ -33,5 +33,5 @@ sidebar:
 ## 관련 개념
 
 - [Software Internship](/knowledge/career/professional-development/software-internship/)
-- [Taking Initiative for Career Growth](/knowledge/career/workplace/taking-initiative-for-career-growth/)
+- [주도적 경력 성장 (Taking Initiative for Career Growth)](/knowledge/career/workplace/taking-initiative-for-career-growth/)
 - [Catch-22 of Experience](/knowledge/career/professional-development/catch-22-of-experience/)

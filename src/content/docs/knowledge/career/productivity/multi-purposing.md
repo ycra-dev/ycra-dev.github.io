@@ -1,5 +1,5 @@
 ---
-title: "Multi-Purposing"
+title: "다목적 활용 (Multi-Purposing)"
 description: "하나의 프로젝트나 활동이 여러 목적을 동시에 달성하도록 설계하는 전략 - 하나의 행위에서 복수의 가치를 추출하는 방식"
 tags: ["Career", "Productivity", "Efficiency", "Strategy"]
 created: 2026-02-27
@@ -48,7 +48,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Side Projects](/knowledge/career/productivity/side-projects/)
-- [Finisher Mindset](/knowledge/career/productivity/finisher-mindset/)
-- [Developer Blog](/knowledge/career/personal-branding/developer-blog/)
-- [Content Consistency](/knowledge/career/personal-branding/content-consistency/)
+- [사이드 프로젝트 (Side Projects)](/knowledge/career/productivity/side-projects/)
+- [완주 마인드셋 (Finisher Mindset)](/knowledge/career/productivity/finisher-mindset/)
+- [개발자 블로그 (Developer Blog)](/knowledge/career/personal-branding/developer-blog/)
+- [콘텐츠 일관성 (Content Consistency)](/knowledge/career/personal-branding/content-consistency/)

@@ -1,5 +1,5 @@
 ---
-title: "Negotiation Skills for Career Growth"
+title: "경력 성장을 위한 협상 스킬 (Negotiation Skills for Career Growth)"
 description: "급여, 승진, 업무 조건을 적극적으로 협상하는 기술로, 경력 발전의 핵심 수단이 되는 능력"
 tags: ["Career", "JobSearch", "Negotiation", "Salary"]
 created: 2026-02-27
@@ -42,6 +42,6 @@ sidebar:
 ## 관련 개념
 
 - [Salary Negotiation](/knowledge/career/job-search/salary-negotiation/)
-- [Building Your Case for Promotion](/knowledge/career/workplace/building-your-case-for-promotion/)
-- [Women in Tech Stereotypes](/knowledge/career/workplace/women-in-tech-stereotypes/)
-- [Persuasion for Developers](/knowledge/career/workplace/persuasion-for-developers/)
+- [승진 논거 만들기 (Building Your Case for Promotion)](/knowledge/career/workplace/building-your-case-for-promotion/)
+- [기술업계 여성 고정관념 (Women in Tech Stereotypes)](/knowledge/career/workplace/women-in-tech-stereotypes/)
+- [개발자를 위한 설득력 (Persuasion for Developers)](/knowledge/career/workplace/persuasion-for-developers/)

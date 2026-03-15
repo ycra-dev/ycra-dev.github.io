@@ -48,5 +48,5 @@ Developer → Senior Developer → Tech Lead → Architect → Director/Fellow
 ## 관련 개념
 
 - [Tech Lead](/knowledge/career/professional-development/tech-lead/)
-- [Back-End Development](/knowledge/software-engineering/foundations/back-end-development/)
-- [Stakeholder Communication](/knowledge/software-engineering/project-management/stakeholder-communication/)
+- [백엔드 개발 (Back-End Development)](/knowledge/software-engineering/foundations/back-end-development/)
+- [이해관계자 커뮤니케이션 (Stakeholder Communication)](/knowledge/software-engineering/project-management/stakeholder-communication/)

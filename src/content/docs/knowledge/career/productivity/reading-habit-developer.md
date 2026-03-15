@@ -1,5 +1,5 @@
 ---
-title: "Reading Habit for Developers"
+title: "개발자 독서 습관 (Reading Habit for Developers)"
 description: "기술 서적과 자기계발 서적을 매일의 루틴으로 읽어 멘토 없이도 지속적으로 성장하는 학습 전략"
 tags: ["Career", "Productivity", "Reading", "ContinuousLearning"]
 created: 2026-02-27
@@ -48,7 +48,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Learning Plan](/knowledge/career/professional-development/learning-plan/)
-- [Deliberate Skill Maintenance](/knowledge/career/professional-development/deliberate-skill-maintenance/)
-- [Finisher Mindset](/knowledge/career/productivity/finisher-mindset/)
-- [Multi-Purposing](/knowledge/career/productivity/multi-purposing/)
+- [학습 계획 (Learning Plan)](/knowledge/career/professional-development/learning-plan/)
+- [의도적 역량 유지 (Deliberate Skill Maintenance)](/knowledge/career/professional-development/deliberate-skill-maintenance/)
+- [완주 마인드셋 (Finisher Mindset)](/knowledge/career/productivity/finisher-mindset/)
+- [다목적 활용 (Multi-Purposing)](/knowledge/career/productivity/multi-purposing/)

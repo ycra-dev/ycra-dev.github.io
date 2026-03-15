@@ -1,5 +1,5 @@
 ---
-title: "Stage Fright Overcoming"
+title: "무대 공포 극복 (Stage Fright Overcoming)"
 description: "공개 발표 시 느끼는 두려움을 반복적 경험과 실전 기법을 통해 점진적으로 극복하는 과정"
 tags: ["Career", "PersonalBranding", "PublicSpeaking", "Courage"]
 created: 2026-02-27
@@ -38,6 +38,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Conference Speaking](/knowledge/career/personal-branding/conference-speaking/)
-- [Call for Speakers](/knowledge/career/personal-branding/call-for-speakers/)
-- [Finisher Mindset](/knowledge/career/productivity/finisher-mindset/)
+- [컨퍼런스 발표 (Conference Speaking)](/knowledge/career/personal-branding/conference-speaking/)
+- [발표자 모집 (Call for Speakers, CFP)](/knowledge/career/personal-branding/call-for-speakers/)
+- [완주 마인드셋 (Finisher Mindset)](/knowledge/career/productivity/finisher-mindset/)

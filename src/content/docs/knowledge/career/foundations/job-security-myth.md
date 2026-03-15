@@ -1,5 +1,5 @@
 ---
-title: "Job Security Myth"
+title: "고용 안정성의 신화 (Job Security Myth)"
 description: "좋은 회사에서 안정적인 직장을 찾으면 평생 안전하다는 시대착오적 믿음 - 현대 기술 산업에서는 더 이상 유효하지 않은 환상"
 tags: ["Career", "Foundations", "Mindset", "Security"]
 created: 2026-02-27
@@ -44,7 +44,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Knowledge Hoarding Antipattern](/knowledge/career/foundations/knowledge-hoarding-antipattern/)
-- [Financial Safety Net](/knowledge/career/foundations/financial-safety-net/)
-- [Embrace Uncertainty](/knowledge/career/foundations/embrace-uncertainty/)
-- [Deliberate Skill Maintenance](/knowledge/career/professional-development/deliberate-skill-maintenance/)
+- [지식 독점 안티패턴 (Knowledge Hoarding Antipattern)](/knowledge/career/foundations/knowledge-hoarding-antipattern/)
+- [재정적 안전망 (Financial Safety Net)](/knowledge/career/foundations/financial-safety-net/)
+- [불확실성 수용 (Embrace Uncertainty)](/knowledge/career/foundations/embrace-uncertainty/)
+- [의도적 역량 유지 (Deliberate Skill Maintenance)](/knowledge/career/professional-development/deliberate-skill-maintenance/)

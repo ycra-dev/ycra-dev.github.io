@@ -39,7 +39,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/) - 직장 동료들이 당신에 대해 갖는 기대
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/) - 직장 동료들이 당신에 대해 갖는 기대
 - [Attention to Detail](/knowledge/career/foundations/attention-to-detail/) - 중요한 세부사항을 놓치지 않는 능력
 - [Yellow Line](/knowledge/career/foundations/yellow-line/) - 직장에서 개인 감정과 전문적 행동을 구분하는 경계
-- [Managing Up](/knowledge/career/workplace/managing-up/) - 리더에게 해결책과 함께 문제를 가져가는 것
+- [상향 관리 (Managing Up)](/knowledge/career/workplace/managing-up/) - 리더에게 해결책과 함께 문제를 가져가는 것

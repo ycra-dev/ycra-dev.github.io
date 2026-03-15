@@ -1,5 +1,5 @@
 ---
-title: "Mastermind Group"
+title: "마스터마인드 그룹 (Mastermind Group)"
 description: "서로 다른 기술과 사업을 가진 뜻이 맞는 사람들이 정기적으로 모여 서로의 성공을 돕는 상호 지원 그룹"
 tags: ["Career", "Entrepreneurship", "PeerLearning", "Support"]
 created: 2026-02-27
@@ -37,7 +37,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Freelancing](/knowledge/career/entrepreneurship/freelancing/)
-- [Networking Give First](/knowledge/career/personal-branding/networking-give-first/)
-- [Mastermind Dinners](/knowledge/career/personal-branding/mastermind-dinners/)
-- [Build Audience First](/knowledge/career/entrepreneurship/build-audience-first/)
+- [프리랜싱 (Freelancing)](/knowledge/career/entrepreneurship/freelancing/)
+- [네트워킹 선제적 기여 (Networking Give First)](/knowledge/career/personal-branding/networking-give-first/)
+- [마스터마인드 디너 (Mastermind Dinners)](/knowledge/career/personal-branding/mastermind-dinners/)
+- [오디언스 구축 우선 (Build Audience First)](/knowledge/career/entrepreneurship/build-audience-first/)

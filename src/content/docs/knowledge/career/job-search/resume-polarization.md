@@ -1,5 +1,5 @@
 ---
-title: "Resume Polarization"
+title: "이력서 양극화 (Resume Polarization)"
 description: "이력서는 누구에게나 무난한 것보다 일부는 싫어하더라도 적합한 고용주에게 강한 인상을 남기도록 개성을 드러내야 한다는 전략이다."
 tags: ["Career", "Resume", "Job Search", "Personal Branding"]
 created: 2026-02-27

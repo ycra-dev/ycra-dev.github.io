@@ -35,5 +35,5 @@ sidebar:
 ## 관련 개념
 
 - [Leadership vs Management](/knowledge/career/workplace/leadership-vs-management/) - 비전 선언문은 리더십의 핵심 도구
-- [OKR](/knowledge/career/productivity/okr/) - 비전을 측정 가능한 목표로 분해하는 방법
+- [OKR (목표와 핵심 결과)](/knowledge/career/productivity/okr/) - 비전을 측정 가능한 목표로 분해하는 방법
 - [Actionable Metrics](/knowledge/career/foundations/actionable-metrics/) - 비전의 목표는 실행 가능한 메트릭이어야 한다

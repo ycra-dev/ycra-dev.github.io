@@ -40,6 +40,6 @@ sidebar:
 ## 관련 개념
 
 - [Professionalism](/knowledge/career/foundations/professionalism/) - 약속을 지키는 전문적 행동 양식
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/) - 타인이 당신에 대해 갖는 기대
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/) - 타인이 당신에 대해 갖는 기대
 - [Work-Life Balance](/knowledge/career/productivity/work-life-balance/) - 업무와 개인 생활의 경계 유지
 - [Inclusive Workplace](/knowledge/career/workplace/inclusive-workplace/) - 모든 구성원이 소속감을 느끼는 환경

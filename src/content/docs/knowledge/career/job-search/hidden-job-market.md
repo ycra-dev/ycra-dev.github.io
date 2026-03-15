@@ -1,5 +1,5 @@
 ---
-title: "Hidden Job Market"
+title: "숨겨진 채용 시장 (Hidden Job Market)"
 description: "공개적으로 게시되지 않고 내부 추천이나 네트워킹을 통해 채용되는 비공개 채용 기회로, 전체 채용의 70-80%를 차지한다고 알려진 시장이다."
 tags: ["Career", "Job Search", "Networking", "Hidden Job Market"]
 created: 2026-02-27

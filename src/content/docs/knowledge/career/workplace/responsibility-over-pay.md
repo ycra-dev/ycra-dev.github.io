@@ -1,5 +1,5 @@
 ---
-title: "Responsibility Over Pay"
+title: "급여보다 책임 (Responsibility Over Pay)"
 description: "단기적 급여 인상보다 더 큰 책임과 권한을 가진 직위를 우선 추구하는 경력 전략으로, 책임은 항상 돈으로 교환 가능하지만 그 반대는 어렵다는 원리이다."
 tags: ["Career", "Workplace", "Career Growth", "Strategy", "Long-term Thinking"]
 created: 2026-02-27

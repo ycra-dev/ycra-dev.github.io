@@ -1,5 +1,5 @@
 ---
-title: "Delegation vs Abdication"
+title: "위임 vs 방임 (Delegation vs Abdication)"
 description: "위임은 업무를 맡기되 책임을 유지하는 것이고, 방기는 업무와 책임을 모두 버리는 것 - 효과적인 리더십의 핵심 구분"
 tags: ["Career", "Workplace", "Leadership", "Delegation"]
 created: 2026-02-27
@@ -49,7 +49,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Extreme Ownership in Leadership](/knowledge/career/workplace/extreme-ownership-in-leadership/)
-- [Leadership by Example](/knowledge/career/workplace/leadership-by-example/)
-- [Managing Up](/knowledge/career/workplace/managing-up/)
-- [Knowledge Hoarding Antipattern](/knowledge/career/foundations/knowledge-hoarding-antipattern/)
+- [극한 오너십 리더십 (Extreme Ownership in Leadership)](/knowledge/career/workplace/extreme-ownership-in-leadership/)
+- [솔선수범 리더십 (Leadership by Example)](/knowledge/career/workplace/leadership-by-example/)
+- [상향 관리 (Managing Up)](/knowledge/career/workplace/managing-up/)
+- [지식 독점 안티패턴 (Knowledge Hoarding Antipattern)](/knowledge/career/foundations/knowledge-hoarding-antipattern/)

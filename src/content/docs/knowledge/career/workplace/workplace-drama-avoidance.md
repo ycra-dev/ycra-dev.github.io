@@ -1,5 +1,5 @@
 ---
-title: "Workplace Drama Avoidance"
+title: "직장 내 갈등 회피 (Workplace Drama Avoidance)"
 description: "직장 내 불필요한 소문, 뒷담화, 감정적 갈등에 의도적으로 관여하지 않음으로써 생산성과 평판을 보호하는 전략이다."
 tags: ["Career", "Workplace", "Conflict Management", "Professionalism"]
 created: 2026-02-27

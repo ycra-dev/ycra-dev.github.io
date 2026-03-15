@@ -40,5 +40,5 @@ $80,000 연봉 vs 시급 $60 비교:
 ## 관련 개념
 
 - [Freelancer](/knowledge/career/entrepreneurship/freelancer/)
-- [Independent Contractor](/knowledge/career/job-search/independent-contractor/)
-- [Total Compensation Package](/knowledge/career/job-search/total-compensation-package/)
+- [독립 계약자 (Independent Contractor)](/knowledge/career/job-search/independent-contractor/)
+- [총 보상 패키지 (Total Compensation Package)](/knowledge/career/job-search/total-compensation-package/)

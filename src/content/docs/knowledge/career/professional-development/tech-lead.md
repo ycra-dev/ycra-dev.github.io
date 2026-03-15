@@ -51,5 +51,5 @@ Developer → Senior Developer → **Tech Lead** → Architect → Director/Fell
 ## 관련 개념
 
 - [Software Architect](/knowledge/career/professional-development/software-architect/)
-- [SDET](/knowledge/software-engineering/testing/sdet/)
-- [Stakeholder Communication](/knowledge/software-engineering/project-management/stakeholder-communication/)
+- [SDET (테스트 소프트웨어 개발 엔지니어)](/knowledge/software-engineering/testing/sdet/)
+- [이해관계자 커뮤니케이션 (Stakeholder Communication)](/knowledge/software-engineering/project-management/stakeholder-communication/)

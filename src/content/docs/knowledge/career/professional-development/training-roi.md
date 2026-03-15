@@ -1,5 +1,5 @@
 ---
-title: "Training ROI"
+title: "교육 투자 수익률 (Training ROI)"
 description: "교육에 투자하는 시간과 비용 대비 실제로 얻는 기술 향상과 경력 가치를 평가하는 기준"
 tags: ["Career", "ProfessionalDevelopment", "Learning", "Investment"]
 created: 2026-02-27
@@ -43,7 +43,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Pareto Training](/knowledge/career/professional-development/pareto-training/)
-- [Certification Value](/knowledge/career/professional-development/certification-value/)
-- [Learning Plan](/knowledge/career/professional-development/learning-plan/)
-- [Investing in Your Education](/knowledge/career/professional-development/investing-in-your-education/)
+- [파레토 학습법 (Pareto Training)](/knowledge/career/professional-development/pareto-training/)
+- [자격증의 가치 (Certification Value)](/knowledge/career/professional-development/certification-value/)
+- [학습 계획 (Learning Plan)](/knowledge/career/professional-development/learning-plan/)
+- [자기 교육 투자 (Investing in Your Education)](/knowledge/career/professional-development/investing-in-your-education/)

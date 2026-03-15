@@ -1,5 +1,5 @@
 ---
-title: "Taking Team Responsibility"
+title: "팀 책임 수용 (Taking Team Responsibility)"
 description: "공식적 리더가 아니더라도 팀 전체의 성공과 실패에 대해 자발적으로 책임감을 갖고 행동하는 것으로, 다른 팀원들의 성과 향상까지 돕는 탁월한 개발자의 특성이다."
 tags: ["Career", "Workplace", "Leadership", "Teamwork", "Accountability"]
 created: 2026-02-27

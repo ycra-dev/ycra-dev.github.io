@@ -1,5 +1,5 @@
 ---
-title: "Micromanager Boss Strategy"
+title: "마이크로매니저 대응 전략 (Micromanager Boss Strategy)"
 description: "모든 업무를 지나치게 세세하게 통제하려는 마이크로매니저 상사와 효과적으로 일하며 자율성을 점진적으로 확보하는 전략이다."
 tags: ["Career", "Workplace", "Management", "Office Dynamics", "Strategy"]
 created: 2026-02-27

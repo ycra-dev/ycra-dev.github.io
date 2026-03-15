@@ -49,5 +49,5 @@ sidebar:
 ## 관련 개념
 
 - [Language Adaptability](/knowledge/career/foundations/language-adaptability/)
-- [Development Platform](/knowledge/software-engineering/foundations/development-platform/)
+- [개발 플랫폼 (Development Platform)](/knowledge/software-engineering/foundations/development-platform/)
 - [Hello World Program](/knowledge/career/foundations/hello-world-program/)

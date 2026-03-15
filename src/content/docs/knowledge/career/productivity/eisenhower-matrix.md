@@ -69,4 +69,4 @@ Facebook의 Nimrod Hoofien: 모든 할 일에 1-4 라벨을 붙여 비중요 활
 
 - [Prioritization](/knowledge/career/productivity/prioritization/) - 아이젠하워 매트릭스를 활용한 우선순위화
 - [Leverage](/knowledge/career/foundations/leverage/) - Q2 활동이 레버리지가 높은 이유
-- [Technical Debt](/knowledge/software-engineering/foundations/technical-debt/) - Q2에서 상환하지 않으면 Q1이 된다
+- [기술 부채 (Technical Debt)](/knowledge/software-engineering/foundations/technical-debt/) - Q2에서 상환하지 않으면 Q1이 된다

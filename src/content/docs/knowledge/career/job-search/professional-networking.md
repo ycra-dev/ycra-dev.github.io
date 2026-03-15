@@ -1,5 +1,5 @@
 ---
-title: "Professional Networking"
+title: "프로페셔널 네트워킹 (Professional Networking)"
 description: "구직 또는 커리어 성장을 위해 전문 분야의 인맥을 구축하고 유지하는 활동으로, 필요할 때가 아닌 평소에 관계를 쌓는 것이 핵심이다."
 tags: ["Career", "Networking", "Job Search", "Relationships"]
 created: 2026-02-27

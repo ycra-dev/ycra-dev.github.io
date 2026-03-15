@@ -1,5 +1,5 @@
 ---
-title: "Value-Based Resume"
+title: "가치 기반 이력서 (Value-Based Resume)"
 description: "업무 경험을 단순 나열하는 대신, 자신이 만들어낸 측정 가능한 비즈니스 가치와 성과 중심으로 작성하는 이력서 방식이다."
 tags: ["Career", "Resume", "Job Search", "Self-Advocacy"]
 created: 2026-02-27

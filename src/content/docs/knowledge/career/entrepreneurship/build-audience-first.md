@@ -1,5 +1,5 @@
 ---
-title: "Build Audience First"
+title: "오디언스 구축 우선 (Build Audience First)"
 description: "제품을 만들기 전에 먼저 충성스러운 청중을 확보하고 그 관계를 기반으로 제품을 출시하는 사업 전략"
 tags: ["Career", "Entrepreneurship", "Audience", "Marketing"]
 created: 2026-02-27
@@ -44,7 +44,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Freelancing](/knowledge/career/entrepreneurship/freelancing/)
-- [Value Creation](/knowledge/career/personal-branding/value-creation/)
-- [Developer Blog](/knowledge/career/personal-branding/developer-blog/)
+- [프리랜싱 (Freelancing)](/knowledge/career/entrepreneurship/freelancing/)
+- [가치 창출 (Value Creation)](/knowledge/career/personal-branding/value-creation/)
+- [개발자 블로그 (Developer Blog)](/knowledge/career/personal-branding/developer-blog/)
 - [Inbound Marketing](/knowledge/career/entrepreneurship/inbound-marketing/)

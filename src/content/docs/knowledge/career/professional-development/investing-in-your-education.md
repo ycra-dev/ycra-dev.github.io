@@ -1,5 +1,5 @@
 ---
-title: "Investing in Your Education"
+title: "자기 교육 투자 (Investing in Your Education)"
 description: "기술 서적, 온라인 강좌, 자격증, 세미나에 지속적으로 투자하여 자신의 시장 가치와 전문성을 높이는 경력 관리 실천"
 tags: ["Career", "ProfessionalDevelopment", "ContinuousLearning", "Education"]
 created: 2026-02-27
@@ -39,7 +39,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Learning Plan](/knowledge/career/professional-development/learning-plan/)
-- [Certification Value](/knowledge/career/professional-development/certification-value/)
-- [Taking Initiative for Career Growth](/knowledge/career/workplace/taking-initiative-for-career-growth/)
-- [Performance Review Strategy](/knowledge/career/workplace/performance-review-strategy/)
+- [학습 계획 (Learning Plan)](/knowledge/career/professional-development/learning-plan/)
+- [자격증의 가치 (Certification Value)](/knowledge/career/professional-development/certification-value/)
+- [주도적 경력 성장 (Taking Initiative for Career Growth)](/knowledge/career/workplace/taking-initiative-for-career-growth/)
+- [성과 리뷰 전략 (Performance Review Strategy)](/knowledge/career/workplace/performance-review-strategy/)

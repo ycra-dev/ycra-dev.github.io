@@ -1,5 +1,5 @@
 ---
-title: "Niche Down"
+title: "니치 전문화 (Niche Down)"
 description: "전문화 영역을 가능한 한 좁고 구체적으로 선택하는 전략 - 너무 넓은 것보다 너무 좁은 것이 낫다"
 tags: ["Career", "ProfessionalDevelopment", "Specialization", "Branding"]
 created: 2026-02-27
@@ -48,7 +48,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Specialization Power](/knowledge/career/professional-development/specialization-power/)
-- [T-Shaped Knowledge](/knowledge/career/professional-development/t-shaped-knowledge/)
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/)
-- [Developer Blog](/knowledge/career/personal-branding/developer-blog/)
+- [전문화의 힘 (Specialization Power)](/knowledge/career/professional-development/specialization-power/)
+- [T자형 지식 (T-Shaped Knowledge)](/knowledge/career/professional-development/t-shaped-knowledge/)
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/)
+- [개발자 블로그 (Developer Blog)](/knowledge/career/personal-branding/developer-blog/)

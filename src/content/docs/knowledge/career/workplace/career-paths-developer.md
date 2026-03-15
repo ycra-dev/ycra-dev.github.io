@@ -1,5 +1,5 @@
 ---
-title: "Career Paths for Developers"
+title: "개발자 경력 경로 (Career Paths for Developers)"
 description: "소프트웨어 개발자가 선택할 수 있는 세 가지 경력 경로(직장인, 프리랜서, 기업가)와 기술 전문화 방향"
 tags: ["Career", "Workplace", "CareerPlanning", "DeveloperTypes"]
 created: 2026-02-27
@@ -46,7 +46,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Glass Ceiling](/knowledge/career/workplace/glass-ceiling/)
-- [Management vs Technical Track](/knowledge/career/workplace/management-vs-technical-track/)
-- [Specialization Power](/knowledge/career/professional-development/specialization-power/)
-- [T-Shaped Knowledge](/knowledge/career/professional-development/t-shaped-knowledge/)
+- [유리 천장 (Glass Ceiling)](/knowledge/career/workplace/glass-ceiling/)
+- [관리직 vs 기술직 트랙 (Management vs Technical Track)](/knowledge/career/workplace/management-vs-technical-track/)
+- [전문화의 힘 (Specialization Power)](/knowledge/career/professional-development/specialization-power/)
+- [T자형 지식 (T-Shaped Knowledge)](/knowledge/career/professional-development/t-shaped-knowledge/)

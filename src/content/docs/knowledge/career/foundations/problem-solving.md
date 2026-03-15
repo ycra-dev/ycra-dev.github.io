@@ -46,7 +46,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Managing Up](/knowledge/career/workplace/managing-up/) - 리더에게 해결책과 함께 문제를 가져가는 것
+- [상향 관리 (Managing Up)](/knowledge/career/workplace/managing-up/) - 리더에게 해결책과 함께 문제를 가져가는 것
 - [Negotiation](/knowledge/career/workplace/negotiation/) - 상호 이익을 추구하는 협상
 - [First Principles](/knowledge/career/foundations/first-principles/) - 근본 목적으로 돌아가는 사고
 - [Critical Thinking](/knowledge/career/foundations/critical-thinking/) - 데이터와 사실에 기반한 사고

@@ -54,6 +54,6 @@ def fib(n, memo={}):
 
 ## 관련 개념
 
-- [Algorithms and Data Structures](/knowledge/software-engineering/foundations/algorithms-and-data-structures/)
+- [알고리즘과 자료구조 (Algorithms and Data Structures)](/knowledge/software-engineering/foundations/algorithms-and-data-structures/)
 - [Code Reading](/knowledge/career/professional-development/code-reading/)
 - [Computer Science Degree](/knowledge/career/professional-development/computer-science-degree/)

@@ -1,5 +1,5 @@
 ---
-title: "Whiteboard Coding Interview"
+title: "화이트보드 코딩 면접 (Whiteboard Coding Interview)"
 description: "화이트보드나 온라인 코딩 환경에서 알고리즘 문제를 실시간으로 풀어 기술적 사고력과 소통 능력을 동시에 평가받는 채용 인터뷰 형식이다."
 tags: ["Career", "Interview", "Algorithms", "Job Search"]
 created: 2026-02-27

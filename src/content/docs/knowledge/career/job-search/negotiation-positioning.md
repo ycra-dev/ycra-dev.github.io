@@ -1,5 +1,5 @@
 ---
-title: "Negotiation Positioning"
+title: "협상 포지셔닝 (Negotiation Positioning)"
 description: "협상에서 유리한 위치를 점유하기 위해 레버리지(협상력)를 최대화하고, BATNA(최선의 대안)를 강화하는 전략이다."
 tags: ["Career", "Negotiation", "Strategy", "Salary", "Job Search"]
 created: 2026-02-27

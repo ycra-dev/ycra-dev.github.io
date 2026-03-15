@@ -1,5 +1,5 @@
 ---
-title: "Recruiter Types and Commission"
+title: "리크루터 유형과 수수료 (Recruiter Types and Commission)"
 description: "채용 산업의 다양한 리크루터 유형과 수수료 구조를 이해하여 구직 시 리크루터와 효과적으로 협력하는 방법이다."
 tags: ["Career", "Recruiting", "Headhunter", "Commission", "Job Search"]
 created: 2026-02-27

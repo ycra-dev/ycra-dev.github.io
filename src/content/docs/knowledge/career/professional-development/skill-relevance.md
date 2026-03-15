@@ -1,5 +1,5 @@
 ---
-title: "Skill Relevance"
+title: "스킬 적합성 (Skill Relevance)"
 description: "보유 기술이 현재 시장에서 얼마나 수요가 있는지의 척도 — Fresh(현재 직무 최신 상태)와 Relevant(업계 전반 수요)의 두 축으로 기술 포트폴리오를 관리한다"
 tags: ["Career", "ProfessionalDevelopment", "Skills", "MarketValue"]
 created: 2026-02-27
@@ -62,6 +62,6 @@ sidebar:
 
 ## 관련 개념
 
-- [T-Shaped Knowledge](/knowledge/career/professional-development/t-shaped-knowledge/)
-- [Learning Plan](/knowledge/career/professional-development/learning-plan/)
-- [Specialization Power](/knowledge/career/professional-development/specialization-power/)
+- [T자형 지식 (T-Shaped Knowledge)](/knowledge/career/professional-development/t-shaped-knowledge/)
+- [학습 계획 (Learning Plan)](/knowledge/career/professional-development/learning-plan/)
+- [전문화의 힘 (Specialization Power)](/knowledge/career/professional-development/specialization-power/)

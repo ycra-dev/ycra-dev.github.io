@@ -1,5 +1,5 @@
 ---
-title: "Content Consistency"
+title: "콘텐츠 일관성 (Content Consistency)"
 description: "블로그나 콘텐츠 채널을 정해진 일정에 따라 꾸준히 업데이트하는 규율 - 장기적 성공의 가장 중요한 요인"
 tags: ["Career", "PersonalBranding", "Blogging", "Discipline"]
 created: 2026-02-27
@@ -38,7 +38,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Developer Blog](/knowledge/career/personal-branding/developer-blog/)
-- [Finisher Mindset](/knowledge/career/productivity/finisher-mindset/)
-- [SEO for Developers](/knowledge/career/personal-branding/seo-for-developers/)
-- [Value Creation](/knowledge/career/personal-branding/value-creation/)
+- [개발자 블로그 (Developer Blog)](/knowledge/career/personal-branding/developer-blog/)
+- [완주 마인드셋 (Finisher Mindset)](/knowledge/career/productivity/finisher-mindset/)
+- [개발자를 위한 SEO (SEO for Developers)](/knowledge/career/personal-branding/seo-for-developers/)
+- [가치 창출 (Value Creation)](/knowledge/career/personal-branding/value-creation/)

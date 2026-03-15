@@ -42,6 +42,6 @@ sidebar:
 ## 관련 개념
 
 - [Problem Solving](/knowledge/career/foundations/problem-solving/) - 레버를 식별하여 문제를 해결하는 접근법
-- [Managing Up](/knowledge/career/workplace/managing-up/) - 리더에게 해결책과 함께 문제를 가져가는 것
+- [상향 관리 (Managing Up)](/knowledge/career/workplace/managing-up/) - 리더에게 해결책과 함께 문제를 가져가는 것
 - [Compensation Package](/knowledge/career/job-search/compensation-package/) - 총 보상 패키지 분석
 - [Good Better Best](/knowledge/career/foundations/good-better-best/) - 여러 옵션을 제시하는 방법

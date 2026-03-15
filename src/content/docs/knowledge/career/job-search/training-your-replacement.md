@@ -1,5 +1,5 @@
 ---
-title: "Training Your Replacement"
+title: "후임자 교육 (Training Your Replacement)"
 description: "퇴직 시 자신의 역할을 대체할 사람을 적극적으로 교육하고 문서화하는 전문적 책임으로, 역설적으로 자신의 가치를 높이는 습관이다."
 tags: ["Career", "Professionalism", "Knowledge Transfer", "Exit Strategy"]
 created: 2026-02-27

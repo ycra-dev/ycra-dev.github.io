@@ -1,5 +1,5 @@
 ---
-title: "Inbound Marketing for Developers"
+title: "개발자를 위한 인바운드 마케팅 (Inbound Marketing for Developers)"
 description: "블로그, 오픈소스, 강연 등으로 개발자가 먼저 찾아오는 구직 환경을 만드는 전략으로, 지원자에서 피지원자로 역할을 바꾸는 접근법이다."
 tags: ["Career", "Job Search", "Personal Branding", "Content Marketing"]
 created: 2026-02-27

@@ -1,5 +1,5 @@
 ---
-title: "Freelancing"
+title: "프리랜싱 (Freelancing)"
 description: "특정 회사에 소속되지 않고 여러 클라이언트를 위해 독립적으로 일하며 사업 운영 전반을 직접 관리하는 근무 형태"
 tags: ["Career", "Entrepreneurship", "Freelancing", "SelfEmployment"]
 created: 2026-02-27
@@ -43,7 +43,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Build Audience First](/knowledge/career/entrepreneurship/build-audience-first/)
+- [오디언스 구축 우선 (Build Audience First)](/knowledge/career/entrepreneurship/build-audience-first/)
 - [Value-Based Pricing](/knowledge/career/entrepreneurship/value-based-pricing/)
 - [Inbound Marketing](/knowledge/career/entrepreneurship/inbound-marketing/)
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/)
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/)

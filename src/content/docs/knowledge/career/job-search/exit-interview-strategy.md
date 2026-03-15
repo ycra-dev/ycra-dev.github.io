@@ -1,5 +1,5 @@
 ---
-title: "Exit Interview Strategy"
+title: "퇴사 면접 전략 (Exit Interview Strategy)"
 description: "퇴직 시 회사가 진행하는 출구 인터뷰에서 전문적 평판을 유지하면서 건설적인 피드백을 제공하는 전략이다."
 tags: ["Career", "Job Change", "Exit Interview", "Professionalism"]
 created: 2026-02-27

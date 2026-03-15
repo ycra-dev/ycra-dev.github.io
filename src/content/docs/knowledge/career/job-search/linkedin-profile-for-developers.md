@@ -1,5 +1,5 @@
 ---
-title: "LinkedIn Profile for Developers"
+title: "개발자 LinkedIn 프로필 (LinkedIn Profile for Developers)"
 description: "개발자가 리크루터에게 발견되고 좋은 인상을 남기기 위해 LinkedIn 프로필을 최적화하는 전략이다."
 tags: ["Career", "LinkedIn", "Personal Branding", "Job Search"]
 created: 2026-02-27

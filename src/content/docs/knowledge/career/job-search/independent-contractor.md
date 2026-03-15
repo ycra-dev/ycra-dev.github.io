@@ -1,5 +1,5 @@
 ---
-title: "Independent Contractor"
+title: "독립 계약자 (Independent Contractor)"
 description: "자신의 사업체(법인)를 통해 클라이언트와 직접 계약하는 형태로, 에이전시 없이 더 높은 시급을 받는 대신 세금과 혜택을 직접 관리하는 계약직 형태이다."
 tags: ["Career", "Contracting", "Self-Employment", "1099", "Business"]
 created: 2026-02-27

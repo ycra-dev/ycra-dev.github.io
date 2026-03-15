@@ -1,5 +1,5 @@
 ---
-title: "Recruiter Markup Negotiation"
+title: "리크루터 마진 협상 (Recruiter Markup Negotiation)"
 description: "계약직 배치 시 스태핑 에이전시가 클라이언트에게 청구하는 금액과 개발자에게 지급하는 금액의 차이(마크업)를 파악하고 줄이기 위한 협상 전략이다."
 tags: ["Career", "Negotiation", "Recruiter", "Contracting", "Markup"]
 created: 2026-02-27

@@ -1,5 +1,5 @@
 ---
-title: "Performance Review Strategy"
+title: "성과 리뷰 전략 (Performance Review Strategy)"
 description: "연간 인사 평가에서 최고 등급을 받기 위해 사전 점검, 목표 설정, 증거 축적, 이의 제기를 체계적으로 수행하는 경력 관리 전략이다."
 tags: ["Career", "Workplace", "Performance Review", "Self-Advocacy", "Documentation"]
 created: 2026-02-27

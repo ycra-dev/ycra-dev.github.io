@@ -1,5 +1,5 @@
 ---
-title: "Managing Up"
+title: "상향 관리 (Managing Up)"
 description: "부하 직원이 상사의 필요, 스타일, 우선순위를 이해하고 그에 맞게 소통함으로써 상사와의 관계를 효과적으로 관리하는 기술이다."
 tags: ["Career", "Workplace", "Leadership", "Communication", "Office Politics"]
 created: 2026-02-27

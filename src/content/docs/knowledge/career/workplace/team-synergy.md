@@ -1,5 +1,5 @@
 ---
-title: "Team Synergy"
+title: "팀 시너지 (Team Synergy)"
 description: "팀이 효과적으로 협력할 때 개별 구성원의 능력 합을 초과하는 성과를 만들어내는 현상으로, 이를 실현하는 구체적 조건과 실천이다."
 tags: ["Career", "Workplace", "Teamwork", "Collaboration", "Team Dynamics"]
 created: 2026-02-27

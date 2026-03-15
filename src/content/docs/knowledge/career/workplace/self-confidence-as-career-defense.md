@@ -1,5 +1,5 @@
 ---
-title: "Self-Confidence as Career Defense"
+title: "자신감을 통한 경력 방어 (Self-Confidence as Career Defense)"
 description: "자신의 능력과 가치에 대한 확고한 믿음으로, 외부 편견이 자기 인식과 경력에 영향을 미치지 않도록 하는 심리적 방어막"
 tags: ["Career", "Workplace", "Mindset", "Resilience"]
 created: 2026-02-27
@@ -37,7 +37,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Dealing with Workplace Prejudice](/knowledge/career/workplace/dealing-with-workplace-prejudice/)
-- [Unconscious Bias Awareness](/knowledge/career/workplace/unconscious-bias-awareness/)
-- [Setting Workplace Boundaries](/knowledge/career/workplace/setting-workplace-boundaries/)
+- [직장 편견 대응 (Dealing with Workplace Prejudice)](/knowledge/career/workplace/dealing-with-workplace-prejudice/)
+- [무의식적 편견 인식 (Unconscious Bias Awareness)](/knowledge/career/workplace/unconscious-bias-awareness/)
+- [직장 경계 설정 (Setting Workplace Boundaries)](/knowledge/career/workplace/setting-workplace-boundaries/)
 - [Growth Mindset](/knowledge/career/foundations/growth-mindset/)

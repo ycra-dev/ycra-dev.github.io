@@ -1,5 +1,5 @@
 ---
-title: "Limiting Work in Progress"
+title: "진행 중 작업 제한 (Limiting Work in Progress)"
 description: "칸반 방법론의 핵심 원리로, 동시에 진행되는 작업 수를 제한하여 전체 처리량을 높이고 팀 협업을 촉진하는 기법이다."
 tags: ["Career", "Workplace", "Kanban", "Workflow", "Teamwork"]
 created: 2026-02-27

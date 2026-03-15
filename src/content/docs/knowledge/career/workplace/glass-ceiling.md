@@ -1,5 +1,5 @@
 ---
-title: "Glass Ceiling"
+title: "유리 천장 (Glass Ceiling)"
 description: "소프트웨어 개발자로서 기술적 능력과 무관하게 더 이상 승진이나 급여 인상이 어려운 실질적 한계점"
 tags: ["Career", "Workplace", "CareerAdvancement", "SalaryCap"]
 created: 2026-02-27
@@ -41,7 +41,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Career Paths for Developers](/knowledge/career/workplace/career-paths-developer/)
-- [Management vs Technical Track](/knowledge/career/workplace/management-vs-technical-track/)
-- [Personal Branding for Developers](/knowledge/career/personal-branding/personal-branding-for-developers/)
-- [Freelancing](/knowledge/career/entrepreneurship/freelancing/)
+- [개발자 경력 경로 (Career Paths for Developers)](/knowledge/career/workplace/career-paths-developer/)
+- [관리직 vs 기술직 트랙 (Management vs Technical Track)](/knowledge/career/workplace/management-vs-technical-track/)
+- [개발자 퍼스널 브랜딩 (Personal Branding for Developers)](/knowledge/career/personal-branding/personal-branding-for-developers/)
+- [프리랜싱 (Freelancing)](/knowledge/career/entrepreneurship/freelancing/)

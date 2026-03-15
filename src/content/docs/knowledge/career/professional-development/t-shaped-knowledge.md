@@ -1,5 +1,5 @@
 ---
-title: "T-Shaped Knowledge"
+title: "T자형 지식 (T-Shaped Knowledge)"
 description: "소프트웨어 개발 분야의 넓은 기반 지식(T의 가로줄)과 하나 이상의 전문 분야에 대한 깊은 지식(T의 세로줄)을 동시에 갖추는 이상적인 지식 구조"
 tags: ["Career", "ProfessionalDevelopment", "Specialization", "Learning"]
 created: 2026-02-27
@@ -49,7 +49,7 @@ T자형 지식 구조:
 
 ## 관련 개념
 
-- [Specialization Power](/knowledge/career/professional-development/specialization-power/)
-- [Niche Down](/knowledge/career/professional-development/niche-down/)
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/)
-- [Learning Plan](/knowledge/career/professional-development/learning-plan/)
+- [전문화의 힘 (Specialization Power)](/knowledge/career/professional-development/specialization-power/)
+- [니치 전문화 (Niche Down)](/knowledge/career/professional-development/niche-down/)
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/)
+- [학습 계획 (Learning Plan)](/knowledge/career/professional-development/learning-plan/)

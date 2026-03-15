@@ -46,5 +46,5 @@ sidebar:
 - [Career Ownership](/knowledge/career/foundations/career-ownership/) - 커리어를 스스로 소유하는 책임
 - [Success Definition](/knowledge/career/foundations/success-definition/) - 달성하고 싶은 구체적 목표
 - [Life Definition](/knowledge/career/foundations/life-definition/) - 커리어의 궁극적 목적지
-- [Skill Relevance](/knowledge/career/professional-development/skill-relevance/) - 시장에서 요구되는 기술 파악
+- [스킬 적합성 (Skill Relevance)](/knowledge/career/professional-development/skill-relevance/) - 시장에서 요구되는 기술 파악
 - [Career Preparedness](/knowledge/career/job-search/career-preparedness/) - 예상치 못한 상황에 대한 사전 준비

@@ -1,5 +1,5 @@
 ---
-title: "Finding Your Voice"
+title: "자기만의 목소리 찾기 (Finding Your Voice)"
 description: "글쓰기에서 학술 논문 같은 건조한 스타일을 벗어나 자신의 개성이 드러나는 고유한 글쓰기 스타일을 발견하는 과정"
 tags: ["Career", "PersonalBranding", "Writing", "Authenticity"]
 created: 2026-02-27
@@ -43,6 +43,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Developer Blog](/knowledge/career/personal-branding/developer-blog/)
-- [Content Consistency](/knowledge/career/personal-branding/content-consistency/)
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/)
+- [개발자 블로그 (Developer Blog)](/knowledge/career/personal-branding/developer-blog/)
+- [콘텐츠 일관성 (Content Consistency)](/knowledge/career/personal-branding/content-consistency/)
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/)

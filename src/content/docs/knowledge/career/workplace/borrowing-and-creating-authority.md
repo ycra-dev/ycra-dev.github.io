@@ -1,5 +1,5 @@
 ---
-title: "Borrowing and Creating Authority"
+title: "권위 차용과 구축 (Borrowing and Creating Authority)"
 description: "자신의 아이디어에 신뢰성을 부여하기 위해 외부 권위를 빌리거나, 블로그·책 출판·자신감 있는 발언으로 자체 권위를 구축하는 전략이다."
 tags: ["Career", "Workplace", "Authority", "Credibility", "Personal Branding"]
 created: 2026-02-27

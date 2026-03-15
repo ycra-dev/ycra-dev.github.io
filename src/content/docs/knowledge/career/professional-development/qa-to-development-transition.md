@@ -34,6 +34,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Test Automation as Bridge](/knowledge/software-engineering/testing/test-automation-as-bridge/)
+- [테스트 자동화를 통한 역할 전환 (Test Automation as Bridge)](/knowledge/software-engineering/testing/test-automation-as-bridge/)
 - [Mid-Career Switch to Development](/knowledge/career/professional-development/mid-career-switch-to-development/)
 - [Self-Directed Work](/knowledge/career/professional-development/self-directed-work/)

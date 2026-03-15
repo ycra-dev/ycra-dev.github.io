@@ -1,5 +1,5 @@
 ---
-title: "Persistence in Job Search"
+title: "구직 끈기 (Persistence in Job Search)"
 description: "구직 활동에서 거절에 굴하지 않고 지속적으로 팔로업하고 전략을 수정하며 전진하는 태도로, 경험 부족이나 불리한 조건을 극복하는 가장 강력한 무기이다."
 tags: ["Career", "Job Search", "Mindset", "Follow-up", "Persistence"]
 created: 2026-02-27

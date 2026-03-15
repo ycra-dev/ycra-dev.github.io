@@ -1,5 +1,5 @@
 ---
-title: "Personal Branding for Developers"
+title: "개발자 퍼스널 브랜딩 (Personal Branding for Developers)"
 description: "블로그, 컨퍼런스 발표, 오픈소스 기여 등을 통해 외부에서 전문성을 인정받아 회사 내부 가치 인식도 높이는 전략"
 tags: ["Career", "PersonalBranding", "Marketing", "Visibility"]
 created: 2026-02-27
@@ -44,7 +44,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/)
-- [Building Your Case for Promotion](/knowledge/career/workplace/building-your-case-for-promotion/)
-- [Borrowing and Creating Authority](/knowledge/career/workplace/borrowing-and-creating-authority/)
-- [Taking Initiative for Career Growth](/knowledge/career/workplace/taking-initiative-for-career-growth/)
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/)
+- [승진 논거 만들기 (Building Your Case for Promotion)](/knowledge/career/workplace/building-your-case-for-promotion/)
+- [권위 차용과 구축 (Borrowing and Creating Authority)](/knowledge/career/workplace/borrowing-and-creating-authority/)
+- [주도적 경력 성장 (Taking Initiative for Career Growth)](/knowledge/career/workplace/taking-initiative-for-career-growth/)

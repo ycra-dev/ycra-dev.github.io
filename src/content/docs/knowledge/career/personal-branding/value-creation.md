@@ -1,5 +1,5 @@
 ---
-title: "Value Creation"
+title: "가치 창출 (Value Creation)"
 description: "다른 사람에게 무료로 유용한 가치를 제공함으로써 명성과 영향력을 구축하는 자기 홍보의 핵심 원칙"
 tags: ["Career", "PersonalBranding", "Giving", "Marketing"]
 created: 2026-02-27
@@ -36,7 +36,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/)
-- [Networking Give First](/knowledge/career/personal-branding/networking-give-first/)
-- [Developer Blog](/knowledge/career/personal-branding/developer-blog/)
-- [Build Audience First](/knowledge/career/entrepreneurship/build-audience-first/)
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/)
+- [네트워킹 선제적 기여 (Networking Give First)](/knowledge/career/personal-branding/networking-give-first/)
+- [개발자 블로그 (Developer Blog)](/knowledge/career/personal-branding/developer-blog/)
+- [오디언스 구축 우선 (Build Audience First)](/knowledge/career/entrepreneurship/build-audience-first/)

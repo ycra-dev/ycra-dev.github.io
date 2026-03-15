@@ -1,5 +1,5 @@
 ---
-title: "Management vs Technical Track"
+title: "관리직 vs 기술직 트랙 (Management vs Technical Track)"
 description: "대기업에서 유리천장을 돌파하기 위해 선택하는 두 가지 승진 경로 - 관리 역할로 전환하거나 고급 기술 전문가로 깊이 들어가기"
 tags: ["Career", "Workplace", "Leadership", "CareerAdvancement"]
 created: 2026-02-27
@@ -56,7 +56,7 @@ Senior Developer
 
 ## 관련 개념
 
-- [Glass Ceiling](/knowledge/career/workplace/glass-ceiling/)
-- [Career Paths for Developers](/knowledge/career/workplace/career-paths-developer/)
-- [Specialization Power](/knowledge/career/professional-development/specialization-power/)
-- [Leadership by Example](/knowledge/career/workplace/leadership-by-example/)
+- [유리 천장 (Glass Ceiling)](/knowledge/career/workplace/glass-ceiling/)
+- [개발자 경력 경로 (Career Paths for Developers)](/knowledge/career/workplace/career-paths-developer/)
+- [전문화의 힘 (Specialization Power)](/knowledge/career/professional-development/specialization-power/)
+- [솔선수범 리더십 (Leadership by Example)](/knowledge/career/workplace/leadership-by-example/)

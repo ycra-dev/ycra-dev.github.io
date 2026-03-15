@@ -1,5 +1,5 @@
 ---
-title: "Persuasion for Developers"
+title: "개발자를 위한 설득력 (Persuasion for Developers)"
 description: "논쟁이 아닌 공통점 찾기, 프레이밍, 소크라테스식 질문을 통해 기술적 아이디어를 동료와 상사에게 효과적으로 전달하고 채택시키는 기술이다."
 tags: ["Career", "Workplace", "Communication", "Persuasion", "Soft Skills"]
 created: 2026-02-27

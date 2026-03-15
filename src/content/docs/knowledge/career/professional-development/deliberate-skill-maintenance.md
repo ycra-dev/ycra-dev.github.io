@@ -1,5 +1,5 @@
 ---
-title: "Deliberate Skill Maintenance"
+title: "의도적 역량 유지 (Deliberate Skill Maintenance)"
 description: "편안함에 안주하지 않고 매일 코딩하고 새로운 것을 배우며 의식적으로 프로그래밍 능력을 날카롭게 유지하는 실천"
 tags: ["Career", "ProfessionalDevelopment", "ContinuousLearning", "Coding"]
 created: 2026-02-27
@@ -39,7 +39,7 @@ John Resig(jQuery 창시자)의 원칙. 매일 또는 매주 실제로 코드를
 
 ## 관련 개념
 
-- [Learning Plan](/knowledge/career/professional-development/learning-plan/)
-- [Job Security Myth](/knowledge/career/foundations/job-security-myth/)
-- [Side Projects](/knowledge/career/productivity/side-projects/)
-- [Finisher Mindset](/knowledge/career/productivity/finisher-mindset/)
+- [학습 계획 (Learning Plan)](/knowledge/career/professional-development/learning-plan/)
+- [고용 안정성의 신화 (Job Security Myth)](/knowledge/career/foundations/job-security-myth/)
+- [사이드 프로젝트 (Side Projects)](/knowledge/career/productivity/side-projects/)
+- [완주 마인드셋 (Finisher Mindset)](/knowledge/career/productivity/finisher-mindset/)

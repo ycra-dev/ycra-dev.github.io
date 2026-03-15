@@ -1,5 +1,5 @@
 ---
-title: "Building Your Case for Promotion"
+title: "승진 논거 만들기 (Building Your Case for Promotion)"
 description: "승진이나 급여 인상을 요청할 때 감정이 아닌 구체적 증거와 비즈니스 케이스로 자신의 가치를 입증하여 승인을 이끌어내는 체계적 접근법이다."
 tags: ["Career", "Workplace", "Promotion", "Negotiation", "Self-Advocacy"]
 created: 2026-02-27

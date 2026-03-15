@@ -1,5 +1,5 @@
 ---
-title: "Total Compensation Package"
+title: "총 보상 패키지 (Total Compensation Package)"
 description: "기본급 외에 보너스, 주식, 복리후생 등 모든 금전적·비금전적 보상 요소를 합산하여 실제 고용 가치를 파악하는 개념이다."
 tags: ["Career", "Salary", "Compensation", "Job Search", "Benefits"]
 created: 2026-02-27

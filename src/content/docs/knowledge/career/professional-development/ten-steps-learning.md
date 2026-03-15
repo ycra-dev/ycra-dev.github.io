@@ -1,5 +1,5 @@
 ---
-title: "Ten Steps to Learn Anything Quickly"
+title: "빠른 학습을 위한 10단계 (Ten Steps to Learn Anything Quickly)"
 description: "John Sonmez가 개발한 체계적 학습 시스템으로, 새로운 기술을 빠르게 습득하기 위한 구조화된 프로세스"
 tags: ["Career", "ProfessionalDevelopment", "Learning", "MetaLearning"]
 created: 2026-02-27
@@ -46,7 +46,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Learning Plan](/knowledge/career/professional-development/learning-plan/)
-- [Deliberate Skill Maintenance](/knowledge/career/professional-development/deliberate-skill-maintenance/)
-- [Pareto Training](/knowledge/career/professional-development/pareto-training/)
-- [Training ROI](/knowledge/career/professional-development/training-roi/)
+- [학습 계획 (Learning Plan)](/knowledge/career/professional-development/learning-plan/)
+- [의도적 역량 유지 (Deliberate Skill Maintenance)](/knowledge/career/professional-development/deliberate-skill-maintenance/)
+- [파레토 학습법 (Pareto Training)](/knowledge/career/professional-development/pareto-training/)
+- [교육 투자 수익률 (Training ROI)](/knowledge/career/professional-development/training-roi/)

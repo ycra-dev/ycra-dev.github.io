@@ -1,5 +1,5 @@
 ---
-title: "Strategic Job Hopping"
+title: "전략적 이직 (Strategic Job Hopping)"
 description: "2-3년 주기로 전략적으로 회사를 이동하여 급여, 직함, 성장 기회를 단번에 향상시키는 경력 관리 전략이다."
 tags: ["Career", "Job Change", "Career Growth", "Strategy", "Salary"]
 created: 2026-02-27

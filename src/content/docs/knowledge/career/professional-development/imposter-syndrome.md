@@ -1,5 +1,5 @@
 ---
-title: "Imposter Syndrome"
+title: "임포스터 증후군 (Imposter Syndrome)"
 description: "자신이 방에서 가장 능력이 없는 사람이며 들킬 것이라는 집요한 감정으로, 기술 커뮤니티 기여와 발표를 가로막는 주요 심리적 장벽"
 tags: ["Career", "ProfessionalDevelopment", "Psychology", "Confidence"]
 created: 2026-02-27
@@ -58,6 +58,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Technology Community](/knowledge/career/personal-branding/technology-community/)
-- [Stage Fright Overcoming](/knowledge/career/personal-branding/stage-fright-overcoming/)
-- [Self-Confidence as Career Defense](/knowledge/career/workplace/self-confidence-as-career-defense/)
+- [기술 커뮤니티 (Technology Community)](/knowledge/career/personal-branding/technology-community/)
+- [무대 공포 극복 (Stage Fright Overcoming)](/knowledge/career/personal-branding/stage-fright-overcoming/)
+- [자신감을 통한 경력 방어 (Self-Confidence as Career Defense)](/knowledge/career/workplace/self-confidence-as-career-defense/)

@@ -1,5 +1,5 @@
 ---
-title: "Networking Give First"
+title: "네트워킹 선제적 기여 (Networking Give First)"
 description: "관계 구축 시 상대에게 먼저 가치를 제공하고 장기적으로 깊은 인간관계를 쌓아가는 올바른 네트워킹 방식"
 tags: ["Career", "PersonalBranding", "Networking", "Relationships"]
 created: 2026-02-27
@@ -38,7 +38,7 @@ Give First 네트워킹의 실천 원칙:
 
 ## 관련 개념
 
-- [Value Creation](/knowledge/career/personal-branding/value-creation/)
-- [Hallway Track](/knowledge/career/personal-branding/hallway-track/)
-- [Mastermind Dinners](/knowledge/career/personal-branding/mastermind-dinners/)
-- [Conference Speaking](/knowledge/career/personal-branding/conference-speaking/)
+- [가치 창출 (Value Creation)](/knowledge/career/personal-branding/value-creation/)
+- [홀웨이 트랙 (Hallway Track)](/knowledge/career/personal-branding/hallway-track/)
+- [마스터마인드 디너 (Mastermind Dinners)](/knowledge/career/personal-branding/mastermind-dinners/)
+- [컨퍼런스 발표 (Conference Speaking)](/knowledge/career/personal-branding/conference-speaking/)

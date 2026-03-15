@@ -1,5 +1,5 @@
 ---
-title: "Finisher Mindset"
+title: "완주 마인드셋 (Finisher Mindset)"
 description: "일단 시작한 프로젝트는 어떤 상황에서도 반드시 완료하겠다는 결의로, 커리어와 인생의 성공을 좌우하는 핵심 태도"
 tags: ["Career", "Productivity", "Discipline", "Completion"]
 created: 2026-02-27
@@ -42,7 +42,7 @@ Finisher Mindset의 핵심 원칙:
 
 ## 관련 개념
 
-- [Side Projects](/knowledge/career/productivity/side-projects/)
-- [Content Consistency](/knowledge/career/personal-branding/content-consistency/)
-- [Multi-Purposing](/knowledge/career/productivity/multi-purposing/)
-- [Deliberate Skill Maintenance](/knowledge/career/professional-development/deliberate-skill-maintenance/)
+- [사이드 프로젝트 (Side Projects)](/knowledge/career/productivity/side-projects/)
+- [콘텐츠 일관성 (Content Consistency)](/knowledge/career/personal-branding/content-consistency/)
+- [다목적 활용 (Multi-Purposing)](/knowledge/career/productivity/multi-purposing/)
+- [의도적 역량 유지 (Deliberate Skill Maintenance)](/knowledge/career/professional-development/deliberate-skill-maintenance/)

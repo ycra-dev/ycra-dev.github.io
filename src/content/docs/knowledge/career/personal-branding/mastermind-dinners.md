@@ -1,5 +1,5 @@
 ---
-title: "Mastermind Dinners"
+title: "마스터마인드 디너 (Mastermind Dinners)"
 description: "자신이 주최자가 되어 특정 지역의 저명한 인사들을 초대하는 소규모 식사 모임 - 네트워킹의 최상위 레벨 전략"
 tags: ["Career", "PersonalBranding", "Networking", "Hosting"]
 created: 2026-02-27
@@ -42,7 +42,7 @@ Mastermind Dinners의 핵심 원리:
 
 ## 관련 개념
 
-- [Networking Give First](/knowledge/career/personal-branding/networking-give-first/)
-- [Hallway Track](/knowledge/career/personal-branding/hallway-track/)
-- [Value Creation](/knowledge/career/personal-branding/value-creation/)
-- [Mastermind Group](/knowledge/career/entrepreneurship/mastermind-group/)
+- [네트워킹 선제적 기여 (Networking Give First)](/knowledge/career/personal-branding/networking-give-first/)
+- [홀웨이 트랙 (Hallway Track)](/knowledge/career/personal-branding/hallway-track/)
+- [가치 창출 (Value Creation)](/knowledge/career/personal-branding/value-creation/)
+- [마스터마인드 그룹 (Mastermind Group)](/knowledge/career/entrepreneurship/mastermind-group/)

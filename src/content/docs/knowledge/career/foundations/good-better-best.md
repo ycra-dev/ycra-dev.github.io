@@ -45,7 +45,7 @@ Good-Better-Best 방법은 기술자들이 리더에게 "이렇게 해야 합니
 
 ## 관련 개념
 
-- [Managing Up](/knowledge/career/workplace/managing-up/) - 리더에게 해결책과 함께 문제를 가져가는 것
+- [상향 관리 (Managing Up)](/knowledge/career/workplace/managing-up/) - 리더에게 해결책과 함께 문제를 가져가는 것
 - [RAPID Framework](/knowledge/career/productivity/rapid-framework/) - 의사결정 역할을 명확히 하는 프레임워크
 - [Negotiation](/knowledge/career/workplace/negotiation/) - 상호 이익을 추구하는 협상
 - [Opportunity Cost](/knowledge/career/productivity/opportunity-cost/) - 선택의 기회비용 인식

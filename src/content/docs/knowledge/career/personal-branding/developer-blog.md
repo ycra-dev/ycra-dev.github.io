@@ -1,5 +1,5 @@
 ---
-title: "Developer Blog"
+title: "개발자 블로그 (Developer Blog)"
 description: "소프트웨어 개발자가 자신의 지식과 경험을 정기적으로 글로 공유하는 온라인 플랫폼 - 진입 장벽이 낮으면서 커리어에 큰 영향을 미치는 자기 마케팅 도구"
 tags: ["Career", "PersonalBranding", "Blogging", "ContentCreation"]
 created: 2026-02-27
@@ -40,7 +40,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Content Consistency](/knowledge/career/personal-branding/content-consistency/)
-- [SEO for Developers](/knowledge/career/personal-branding/seo-for-developers/)
-- [Finding Your Voice](/knowledge/career/personal-branding/finding-your-voice/)
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/)
+- [콘텐츠 일관성 (Content Consistency)](/knowledge/career/personal-branding/content-consistency/)
+- [개발자를 위한 SEO (SEO for Developers)](/knowledge/career/personal-branding/seo-for-developers/)
+- [자기만의 목소리 찾기 (Finding Your Voice)](/knowledge/career/personal-branding/finding-your-voice/)
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/)

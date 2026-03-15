@@ -1,5 +1,5 @@
 ---
-title: "First Submission Rule"
+title: "첫 제출 규칙 (First Submission Rule)"
 description: "채용 시장에서 후보자의 이력서를 먼저 제출한 에이전시가 해당 배치 커미션 권리를 갖는 규칙으로, 구직자가 불리한 에이전시에 묶이지 않도록 주의해야 한다."
 tags: ["Career", "Recruiting", "Job Search", "Staffing Agency"]
 created: 2026-02-27

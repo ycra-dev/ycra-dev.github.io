@@ -1,5 +1,5 @@
 ---
-title: "Hallway Track"
+title: "홀웨이 트랙 (Hallway Track)"
 description: "컨퍼런스에서 공식 세션 대신 복도에서 다른 참석자들과 자유롭게 대화하며 네트워킹하는 비공식 활동"
 tags: ["Career", "PersonalBranding", "Networking", "Conference"]
 created: 2026-02-27
@@ -38,6 +38,6 @@ Hallway Track 활용 전략:
 
 ## 관련 개념
 
-- [Networking Give First](/knowledge/career/personal-branding/networking-give-first/)
-- [Conference Speaking](/knowledge/career/personal-branding/conference-speaking/)
-- [Mastermind Dinners](/knowledge/career/personal-branding/mastermind-dinners/)
+- [네트워킹 선제적 기여 (Networking Give First)](/knowledge/career/personal-branding/networking-give-first/)
+- [컨퍼런스 발표 (Conference Speaking)](/knowledge/career/personal-branding/conference-speaking/)
+- [마스터마인드 디너 (Mastermind Dinners)](/knowledge/career/personal-branding/mastermind-dinners/)

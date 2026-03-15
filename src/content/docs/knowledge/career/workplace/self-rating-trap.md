@@ -1,5 +1,5 @@
 ---
-title: "Self-Rating Trap"
+title: "자기 평가의 함정 (Self-Rating Trap)"
 description: "인사 평가에서 자기 자신을 평가하도록 요구받는 상황으로, 겸손하게 낮춰 평가하면 자신에게 불리해지는 구조적 함정이다."
 tags: ["Career", "Workplace", "Performance Review", "Self-Advocacy"]
 created: 2026-02-27

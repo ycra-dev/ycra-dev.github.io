@@ -53,4 +53,4 @@ Wealthfront: 금융 서비스(10억 달러 자산 관리)에서도 하루 30회 
 - [Iteration Speed](/knowledge/career/productivity/iteration-speed/) - 지속적 배포는 반복 속도를 극적으로 높인다
 - [Time-Saving Tools](/knowledge/career/productivity/time-saving-tools/) - CD 파이프라인은 최고의 시간 절약 도구다
 - [A/B Testing](/knowledge/career/foundations/ab-testing/) - CD로 A/B 테스트의 주기가 빨라진다
-- [Automated Testing](/knowledge/software-engineering/foundations/automated-testing/) - CD는 자동화 테스트 없이는 불가능하다
+- [자동화 테스팅 (Automated Testing)](/knowledge/software-engineering/foundations/automated-testing/) - CD는 자동화 테스트 없이는 불가능하다

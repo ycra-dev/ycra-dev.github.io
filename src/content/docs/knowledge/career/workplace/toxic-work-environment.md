@@ -39,5 +39,5 @@ sidebar:
 ## 관련 개념
 
 - [Exit Interview Best Practices](/knowledge/career/workplace/exit-interview-best-practices/)
-- [Two Weeks Notice](/knowledge/career/job-search/two-weeks-notice/)
-- [Strategic Job Hopping](/knowledge/career/job-search/strategic-job-hopping/)
+- [2주 전 퇴사 통보 (Two Weeks Notice)](/knowledge/career/job-search/two-weeks-notice/)
+- [전략적 이직 (Strategic Job Hopping)](/knowledge/career/job-search/strategic-job-hopping/)

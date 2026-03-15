@@ -1,5 +1,5 @@
 ---
-title: "Pay Yourself First with Time"
+title: "시간으로 자신에게 먼저 투자 (Pay Yourself First with Time)"
 description: "매일 시간을 쓸 때 타인의 요구보다 자신의 목표(운동, 학습, 사이드 프로젝트)에 먼저 할당하는 시간 관리 원칙이다."
 tags: ["Career", "Workplace", "Productivity", "Time Management", "Self-Development"]
 created: 2026-02-27

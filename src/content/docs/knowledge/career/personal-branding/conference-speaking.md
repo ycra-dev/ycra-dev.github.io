@@ -1,5 +1,5 @@
 ---
-title: "Conference Speaking"
+title: "컨퍼런스 발표 (Conference Speaking)"
 description: "소프트웨어 개발 컨퍼런스에서 발표자로 참여하여 개인 브랜드를 구축하고 네트워킹 기회를 확대하는 커리어 전략"
 tags: ["Career", "PersonalBranding", "PublicSpeaking", "ConferenceSpeaking"]
 created: 2026-02-27
@@ -46,7 +46,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Stage Fright Overcoming](/knowledge/career/personal-branding/stage-fright-overcoming/)
-- [Call for Speakers](/knowledge/career/personal-branding/call-for-speakers/)
-- [Personal Brand](/knowledge/career/personal-branding/personal-brand/)
-- [Hallway Track](/knowledge/career/personal-branding/hallway-track/)
+- [무대 공포 극복 (Stage Fright Overcoming)](/knowledge/career/personal-branding/stage-fright-overcoming/)
+- [발표자 모집 (Call for Speakers, CFP)](/knowledge/career/personal-branding/call-for-speakers/)
+- [퍼스널 브랜드 (Personal Brand)](/knowledge/career/personal-branding/personal-brand/)
+- [홀웨이 트랙 (Hallway Track)](/knowledge/career/personal-branding/hallway-track/)

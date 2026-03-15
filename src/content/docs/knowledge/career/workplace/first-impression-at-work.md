@@ -1,5 +1,5 @@
 ---
-title: "First Impression at Work"
+title: "직장 첫인상 (First Impression at Work)"
 description: "새 직장이나 팀에서 첫 90일 동안 긍정적인 첫인상을 형성하는 전략으로, 초기에 형성된 이미지는 이후 경력 내내 지속적인 영향을 미친다."
 tags: ["Career", "Workplace", "First Impression", "Onboarding"]
 created: 2026-02-27

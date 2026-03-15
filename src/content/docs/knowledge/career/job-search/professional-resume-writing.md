@@ -1,5 +1,5 @@
 ---
-title: "Professional Resume Writing"
+title: "프로 이력서 작성 (Professional Resume Writing)"
 description: "채용 담당자가 6초 안에 판단하는 이력서를 통과하기 위한 핵심 원칙으로, 관련성 높은 내용으로 맞춤화하고 ATS를 고려한 포맷을 사용한다."
 tags: ["Career", "Resume", "Job Search", "ATS"]
 created: 2026-02-27

@@ -1,5 +1,5 @@
 ---
-title: "Socratic Method in Tech"
+title: "기술업계의 소크라테스 문답법 (Socratic Method in Tech)"
 description: "소크라테스의 대화법을 기술 환경에 적용하여, 직접 답을 주는 대신 전략적 질문을 통해 상대방이 스스로 올바른 결론에 도달하게 유도하는 소통 기법이다."
 tags: ["Career", "Workplace", "Communication", "Leadership", "Persuasion"]
 created: 2026-02-27

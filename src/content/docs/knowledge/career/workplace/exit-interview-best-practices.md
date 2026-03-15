@@ -33,6 +33,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Two Weeks Notice](/knowledge/career/job-search/two-weeks-notice/)
+- [2주 전 퇴사 통보 (Two Weeks Notice)](/knowledge/career/job-search/two-weeks-notice/)
 - [Toxic Work Environment](/knowledge/career/workplace/toxic-work-environment/)
-- [Professional Networking](/knowledge/career/job-search/professional-networking/)
+- [프로페셔널 네트워킹 (Professional Networking)](/knowledge/career/job-search/professional-networking/)

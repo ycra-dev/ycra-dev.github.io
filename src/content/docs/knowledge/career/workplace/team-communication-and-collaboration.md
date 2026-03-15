@@ -1,5 +1,5 @@
 ---
-title: "Team Communication and Collaboration"
+title: "팀 커뮤니케이션과 협업 (Team Communication and Collaboration)"
 description: "팀원 간 적극적인 정보 공유와 협력을 통해 팀의 집단 지식과 능력을 활용하는 실천으로, 정직하되 배려 있는 소통이 핵심이다."
 tags: ["Career", "Workplace", "Teamwork", "Communication", "Collaboration"]
 created: 2026-02-27

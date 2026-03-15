@@ -38,6 +38,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Professional Resume Writing](/knowledge/career/job-search/professional-resume-writing/)
-- [Job Search Sales Pipeline](/knowledge/career/job-search/job-search-sales-pipeline/)
-- [Value-Based Resume](/knowledge/career/job-search/value-based-resume/)
+- [프로 이력서 작성 (Professional Resume Writing)](/knowledge/career/job-search/professional-resume-writing/)
+- [구직 세일즈 파이프라인 (Job Search Sales Pipeline)](/knowledge/career/job-search/job-search-sales-pipeline/)
+- [가치 기반 이력서 (Value-Based Resume)](/knowledge/career/job-search/value-based-resume/)

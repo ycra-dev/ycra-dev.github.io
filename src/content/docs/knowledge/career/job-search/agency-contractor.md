@@ -1,5 +1,5 @@
 ---
-title: "Agency Contractor"
+title: "에이전시 계약자 (Agency Contractor)"
 description: "스태핑 에이전시의 급여 대장에 올라 에이전시를 통해 클라이언트 회사에서 일하는 계약직 형태로, 에이전시가 세금과 혜택을 처리해주는 대신 마크업이 적용된다."
 tags: ["Career", "Contracting", "Staffing Agency", "Employment Type"]
 created: 2026-02-27

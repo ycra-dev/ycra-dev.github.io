@@ -1,5 +1,5 @@
 ---
-title: "Targeted Company Approach"
+title: "타겟 기업 접근법 (Targeted Company Approach)"
 description: "불특정 다수의 회사에 이력서를 뿌리는 대신, 특정 회사 목록을 선정하여 해당 회사 직원들과 관계를 쌓고 내부 추천을 통해 입사하는 전략적 구직법이다."
 tags: ["Career", "Job Search", "Strategy", "Networking"]
 created: 2026-02-27

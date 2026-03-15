@@ -1,5 +1,5 @@
 ---
-title: "OKR (Objectives and Key Results)"
+title: "OKR (목표와 핵심 결과)"
 description: "목표(Objective)와 측정 가능한 핵심 결과(Key Result)로 조직과 개인의 노력을 정렬시키는 목표 설정 프레임워크"
 tags: ["Career", "Productivity", "Goals", "Measurement"]
 created: 2026-02-27

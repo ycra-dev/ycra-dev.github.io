@@ -1,5 +1,5 @@
 ---
-title: "Patronization in Tech"
+title: "기술업계의 온정주의 (Patronization in Tech)"
 description: "기술 분야에서 상대 능력을 과소평가하며 겉으로는 친절하지만 실제로는 우월감을 드러내는 과잉 보호적 태도"
 tags: ["Career", "Workplace", "Diversity", "Communication"]
 created: 2026-02-27
@@ -36,7 +36,7 @@ Ender's Game의 사례처럼, 특정인에게 특별 대우를 하면 오히려 
 
 ## 관련 개념
 
-- [Women in Tech Stereotypes](/knowledge/career/workplace/women-in-tech-stereotypes/)
-- [Unconscious Bias Awareness](/knowledge/career/workplace/unconscious-bias-awareness/)
-- [Self-Confidence as Career Defense](/knowledge/career/workplace/self-confidence-as-career-defense/)
-- [Dealing with Workplace Prejudice](/knowledge/career/workplace/dealing-with-workplace-prejudice/)
+- [기술업계 여성 고정관념 (Women in Tech Stereotypes)](/knowledge/career/workplace/women-in-tech-stereotypes/)
+- [무의식적 편견 인식 (Unconscious Bias Awareness)](/knowledge/career/workplace/unconscious-bias-awareness/)
+- [자신감을 통한 경력 방어 (Self-Confidence as Career Defense)](/knowledge/career/workplace/self-confidence-as-career-defense/)
+- [직장 편견 대응 (Dealing with Workplace Prejudice)](/knowledge/career/workplace/dealing-with-workplace-prejudice/)

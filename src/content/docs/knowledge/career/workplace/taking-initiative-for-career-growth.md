@@ -1,5 +1,5 @@
 ---
-title: "Taking Initiative for Career Growth"
+title: "주도적 경력 성장 (Taking Initiative for Career Growth)"
 description: "요구받는 것 이상을 자발적으로 수행하고, 기회를 기다리지 않고 스스로 만들어내는 적극적 경력 관리 태도이다."
 tags: ["Career", "Workplace", "Career Growth", "Proactivity", "Self-Management"]
 created: 2026-02-27

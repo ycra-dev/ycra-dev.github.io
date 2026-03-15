@@ -1,5 +1,5 @@
 ---
-title: "Overtime Trap"
+title: "야근의 함정 (Overtime Trap)"
 description: "야근이 경력 발전에 도움이 될 것이라는 잘못된 믿음으로 과도한 초과 근무에 빠지는 현상으로, 삶의 질만 낮추고 기대만큼의 보상이 오지 않는 함정이다."
 tags: ["Career", "Workplace", "Work-Life Balance", "Burnout", "Productivity"]
 created: 2026-02-27

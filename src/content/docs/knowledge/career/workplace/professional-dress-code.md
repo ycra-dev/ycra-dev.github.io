@@ -1,5 +1,5 @@
 ---
-title: "Professional Dress Code"
+title: "프로페셔널 드레스 코드 (Professional Dress Code)"
 description: "현재 직위보다 두 단계 위의 복장을 갖추어 무의식적 고정관념을 자신에게 유리하게 활용하는 직장 내 이미지 전략"
 tags: ["Career", "Workplace", "PersonalBranding"]
 created: 2026-02-27
@@ -19,7 +19,7 @@ sidebar:
 복장이 인식에 영향을 미치는 메커니즘:
 
 - **외부 인식**: 경찰 제복처럼, 격식 있는 복장은 착용자를 더 전문적이고 높은 지위로 인식하게 만든다
-- **내부 변화**: [Enclothed Cognition](/knowledge/career/workplace/enclothed-cognition/) 원리에 따라 입고 있는 옷이 자신의 행동과 자아 인식에도 영향을 준다
+- **내부 변화**: [착장 인지 효과 (Enclothed Cognition)](/knowledge/career/workplace/enclothed-cognition/) 원리에 따라 입고 있는 옷이 자신의 행동과 자아 인식에도 영향을 준다
 
 실용적 전략:
 
@@ -38,7 +38,7 @@ sidebar:
 
 ## 관련 개념
 
-- [First Impression at Work](/knowledge/career/workplace/first-impression-at-work/)
-- [Charisma Through Contradiction](/knowledge/career/workplace/charisma-through-contradiction/)
-- [Enclothed Cognition](/knowledge/career/workplace/enclothed-cognition/)
-- [Performance Review Strategy](/knowledge/career/workplace/performance-review-strategy/)
+- [직장 첫인상 (First Impression at Work)](/knowledge/career/workplace/first-impression-at-work/)
+- [모순을 통한 카리스마 (Charisma Through Contradiction)](/knowledge/career/workplace/charisma-through-contradiction/)
+- [착장 인지 효과 (Enclothed Cognition)](/knowledge/career/workplace/enclothed-cognition/)
+- [성과 리뷰 전략 (Performance Review Strategy)](/knowledge/career/workplace/performance-review-strategy/)

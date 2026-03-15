@@ -52,5 +52,5 @@ JavaScript의 적응성 예시:
 ## 관련 개념
 
 - [Programming Language Selection](/knowledge/career/foundations/programming-language-selection/)
-- [Development Platform](/knowledge/software-engineering/foundations/development-platform/)
-- [Technology Stack](/knowledge/software-engineering/foundations/technology-stack/)
+- [개발 플랫폼 (Development Platform)](/knowledge/software-engineering/foundations/development-platform/)
+- [기술 스택 (Technology Stack)](/knowledge/software-engineering/foundations/technology-stack/)
