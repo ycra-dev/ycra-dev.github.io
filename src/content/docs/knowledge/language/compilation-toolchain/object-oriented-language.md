@@ -1,5 +1,5 @@
 ---
-title: "Object-Oriented Language"
+title: "객체지향 언어 (Object-Oriented Language)"
 description: "객체 지향 언어(Object-Oriented Language)는 동작(action)이나 논리(logic)보다 객체(object)를 중심으로 설계된 프로그래밍 언어이다"
 tags: ['Java', 'Class', 'Inheritance', 'Method Invocation', 'Polymorphism']
 created: 2026-02-15
@@ -35,6 +35,6 @@ public class Sort {
 
 ## 관련 개념
 
-- [Java Virtual Machine](/knowledge/language/java-virtual-machine/)
-- [Java Bytecode](/knowledge/language/java-bytecode/)
-- [Compiler](/knowledge/language/compiler/)
+- [JVM (자바 가상 머신)](/knowledge/language/java-virtual-machine/)
+- [자바 바이트코드 (Java Bytecode)](/knowledge/language/java-bytecode/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)

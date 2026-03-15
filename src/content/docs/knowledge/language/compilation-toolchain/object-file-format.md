@@ -1,5 +1,5 @@
 ---
-title: "Object File Format"
+title: "오브젝트 파일 포맷 (Object File Format)"
 description: "오브젝트 파일 형식은 어셈블러가 생성하는 출력 파일의 구조로, UNIX에서는 오브젝트 파일 헤더, 텍스트 세그먼트, 데이터 세그먼트, 재배치 정보, 심볼 테이블, 디버깅 정보의 6개 섹션으로 구성된다"
 tags: ['Assembler', 'Linker', 'Text Segment', 'Data Segment', 'Relocation']
 created: 2026-02-15
@@ -36,6 +36,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Assembler](/knowledge/language/assembler/)
-- [Linker](/knowledge/language/linker/)
-- [Text Segment](/knowledge/language/text-segment/)
+- [어셈블러 (Assembler)](/knowledge/language/assembler/)
+- [링커 (Linker)](/knowledge/language/linker/)
+- [텍스트 세그먼트 (Text Segment)](/knowledge/language/text-segment/)

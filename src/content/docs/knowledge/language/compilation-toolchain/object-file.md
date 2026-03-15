@@ -1,5 +1,5 @@
 ---
-title: "Object File"
+title: "오브젝트 파일 (Object File)"
 description: "오브젝트 파일(Object File)은 기계어 명령어, 데이터, 그리고 명령어를 메모리에 적절히 배치하기 위한 정보의 조합이다"
 tags: ['Assembler', 'Linker', 'Translation Hierarchy', 'Text Segment', 'Data Segment']
 created: 2026-02-15
@@ -28,7 +28,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Assembler](/knowledge/language/assembler/)
-- [Linker](/knowledge/language/linker/)
-- [Executable File](/knowledge/language/executable-file/)
-- [Symbol Table](/knowledge/language/symbol-table/)
+- [어셈블러 (Assembler)](/knowledge/language/assembler/)
+- [링커 (Linker)](/knowledge/language/linker/)
+- [실행 파일 (Executable File)](/knowledge/language/executable-file/)
+- [심볼 테이블 (Symbol Table)](/knowledge/language/symbol-table/)

@@ -1,5 +1,5 @@
 ---
-title: "Common Subexpression Elimination"
+title: "공통 부분식 제거 (Common Subexpression Elimination)"
 description: "공통 부분식 제거(Common Subexpression Elimination)는 동일한 식의 여러 인스턴스를 찾아 두 번째 이후의 계산을 첫 번째 결과의 참조로 대체하는 컴파일러 최적화 기법이다"
 tags: ['Compiler Optimization', 'Local Optimization', 'Global Optimization']
 created: 2026-02-15
@@ -43,6 +43,6 @@ sw   R105, 0(R103)     # 같은 R103 재사용
 
 ## 관련 개념
 
-- [Register Allocation](/knowledge/language/register-allocation/)
-- [Compiler](/knowledge/language/compiler/)
-- [Data Flow Analysis](/knowledge/language/data-flow-analysis/)
+- [레지스터 할당 (Register Allocation)](/knowledge/language/register-allocation/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [데이터 흐름 분석 (Data Flow Analysis)](/knowledge/language/data-flow-analysis/)

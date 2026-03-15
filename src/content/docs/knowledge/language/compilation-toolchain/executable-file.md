@@ -1,5 +1,5 @@
 ---
-title: "Executable File"
+title: "실행 파일 (Executable File)"
 description: "실행 파일(Executable File)은 미해결 참조가 없는 오브젝트 파일 형식의 기능적 프로그램으로, 컴퓨터에서 바로 실행할 수 있다"
 tags: ['Linker', 'Object File', 'Loader', 'Translation Hierarchy']
 created: 2026-02-15
@@ -28,7 +28,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Linker](/knowledge/language/linker/)
-- [Loader](/knowledge/language/loader/)
-- [Object File](/knowledge/language/object-file/)
-- [Symbol Table](/knowledge/language/symbol-table/)
+- [링커 (Linker)](/knowledge/language/linker/)
+- [로더 (Loader)](/knowledge/language/loader/)
+- [오브젝트 파일 (Object File)](/knowledge/language/object-file/)
+- [심볼 테이블 (Symbol Table)](/knowledge/language/symbol-table/)

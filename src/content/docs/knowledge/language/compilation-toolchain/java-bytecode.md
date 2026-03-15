@@ -1,5 +1,5 @@
 ---
-title: "Java Bytecode"
+title: "자바 바이트코드 (Java Bytecode)"
 description: "자바 바이트코드(Java Bytecode)는 자바 프로그램을 해석(interpret)하기 위해 설계된 명령어 세트의 명령어이다"
 tags: ['Java', 'Jvm', 'Interpreter', 'Portability', 'Instruction Set']
 created: 2026-02-15
@@ -33,6 +33,6 @@ while (save[i] == k)
 
 ## 관련 개념
 
-- [Java Virtual Machine](/knowledge/language/java-virtual-machine/)
-- [Just In Time Compiler](/knowledge/language/just-in-time-compiler/)
-- [Compiler](/knowledge/language/compiler/)
+- [JVM (자바 가상 머신)](/knowledge/language/java-virtual-machine/)
+- [JIT 컴파일러 (Just In Time Compiler)](/knowledge/language/just-in-time-compiler/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)

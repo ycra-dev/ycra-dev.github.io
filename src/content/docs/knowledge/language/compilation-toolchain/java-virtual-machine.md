@@ -1,5 +1,5 @@
 ---
-title: "Java Virtual Machine"
+title: "JVM (자바 가상 머신)"
 description: "자바 가상 머신(JVM, Java Virtual Machine)은 자바 바이트코드를 해석하여 실행하는 소프트웨어 인터프리터 프로그램이다"
 tags: ['Jvm', 'Java Bytecode', 'Interpreter', 'Portability']
 created: 2026-02-15
@@ -28,5 +28,5 @@ JVM은 명령어 세트 아키텍처를 시뮬레이션하는 프로그램이다
 
 ## 관련 개념
 
-- [Java Bytecode](/knowledge/language/java-bytecode/)
-- [Just In Time Compiler](/knowledge/language/just-in-time-compiler/)
+- [자바 바이트코드 (Java Bytecode)](/knowledge/language/java-bytecode/)
+- [JIT 컴파일러 (Just In Time Compiler)](/knowledge/language/just-in-time-compiler/)

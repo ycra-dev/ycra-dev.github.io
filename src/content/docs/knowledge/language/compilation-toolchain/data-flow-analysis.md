@@ -1,5 +1,5 @@
 ---
-title: "Data Flow Analysis"
+title: "데이터 흐름 분석 (Data Flow Analysis)"
 description: "데이터 흐름 분석(Data Flow Analysis)은 프로그램의 각 지점에서 변수의 정의(definition)와 사용(use) 관계를 분석하여 최적화 가능성을 판단하는 컴파일러 분석 기법이다"
 tags: ['Compiler Optimization', 'Control Flow Graph', 'Use Definition', 'Global Optimization']
 created: 2026-02-15
@@ -28,6 +28,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Common Subexpression Elimination](/knowledge/language/common-subexpression-elimination/)
-- [Register Allocation](/knowledge/language/register-allocation/)
-- [Compiler](/knowledge/language/compiler/)
+- [공통 부분식 제거 (Common Subexpression Elimination)](/knowledge/language/common-subexpression-elimination/)
+- [레지스터 할당 (Register Allocation)](/knowledge/language/register-allocation/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)

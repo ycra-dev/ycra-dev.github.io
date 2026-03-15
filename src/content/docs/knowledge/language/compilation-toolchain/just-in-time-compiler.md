@@ -1,5 +1,5 @@
 ---
-title: "Just In Time Compiler"
+title: "JIT 컴파일러 (Just In Time Compiler)"
 description: "JIT(Just In Time) 컴파일러는 런타임에 동작하는 컴파일러로, 인터프리트되는 코드 세그먼트를 실행 중인 컴퓨터의 네이티브 코드로 변환한다"
 tags: ['Jit', 'Java', 'Jvm', 'Runtime Compilation', 'Optimization']
 created: 2026-02-15
@@ -27,6 +27,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Java Virtual Machine](/knowledge/language/java-virtual-machine/)
-- [Java Bytecode](/knowledge/language/java-bytecode/)
-- [Compiler](/knowledge/language/compiler/)
+- [JVM (자바 가상 머신)](/knowledge/language/java-virtual-machine/)
+- [자바 바이트코드 (Java Bytecode)](/knowledge/language/java-bytecode/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)

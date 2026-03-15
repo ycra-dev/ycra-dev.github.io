@@ -1,5 +1,5 @@
 ---
-title: "Dynamically Linked Library"
+title: "동적 링크 라이브러리 (Dynamically Linked Library)"
 description: "동적 연결 라이브러리(DLL, Dynamically Linked Library)는 프로그램이 실행될 때까지 링크 및 로드가 지연되는 라이브러리 루틴이다"
 tags: ['Dll', 'Linker', 'Loader', 'Lazy Linkage', 'Shared Library']
 created: 2026-02-15
@@ -32,6 +32,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Linker](/knowledge/language/linker/)
-- [Loader](/knowledge/language/loader/)
-- [Executable File](/knowledge/language/executable-file/)
+- [링커 (Linker)](/knowledge/language/linker/)
+- [로더 (Loader)](/knowledge/language/loader/)
+- [실행 파일 (Executable File)](/knowledge/language/executable-file/)

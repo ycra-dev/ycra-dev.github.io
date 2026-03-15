@@ -1,5 +1,5 @@
 ---
-title: "Register Allocation"
+title: "레지스터 할당 (Register Allocation)"
 description: "레지스터 할당(Register Allocation)은 프로그램의 변수를 프로세서의 물리적 레지스터에 매핑하는 컴파일러 최적화 과정으로, 메모리 접근을 최소화하여 성능을 향상시킨다"
 tags: ['Compiler Optimization', 'Graph Coloring', 'Live Range', 'Performance']
 created: 2026-02-15
@@ -32,7 +32,7 @@ LW R104, 0(R103)
 
 ## 관련 개념
 
-- [Compiler](/knowledge/language/compiler/)
-- [Procedure Inlining](/knowledge/language/procedure-inlining/)
-- [Common Subexpression Elimination](/knowledge/language/common-subexpression-elimination/)
-- [Loop Unrolling](/knowledge/language/loop-unrolling/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [프로시저 인라이닝 (Procedure Inlining)](/knowledge/language/procedure-inlining/)
+- [공통 부분식 제거 (Common Subexpression Elimination)](/knowledge/language/common-subexpression-elimination/)
+- [루프 풀기 (Loop Unrolling)](/knowledge/language/loop-unrolling/)

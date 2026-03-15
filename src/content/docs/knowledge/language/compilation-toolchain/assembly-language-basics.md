@@ -55,7 +55,7 @@ result = 5 + 3   # 한 줄로 끝남
 ## 관련 개념
 
 - [컴파일러 (Compiler)](/knowledge/language/compiler-basics/) - 고급 언어를 어셈블리어/기계어로 변환하는 프로그램
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - 어셈블리어가 직접 제어하는 하드웨어
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - 어셈블리어가 직접 제어하는 하드웨어
 - [명령어 실행 주기 (Fetch-Decode-Execute Cycle)](/knowledge/computer-architecture/fetch-decode-execute-cycle/) - CPU가 어셈블리/기계어 명령을 처리하는 과정
 - [인터프리터 (Interpreter)](/knowledge/language/interpreter-basics/) - 어셈블리어와 다른 번역 방식을 사용하는 실행 모델
 - [이진수 (Binary Number)](/knowledge/computer-architecture/binary-number/) - 기계어의 기반이 되는 이진수 체계

@@ -1,5 +1,5 @@
 ---
-title: "Loop Unrolling"
+title: "루프 풀기 (Loop Unrolling)"
 description: "루프 언롤링(Loop Unrolling)은 루프 본문을 여러 번 복제하여 변환된 루프의 반복 횟수를 줄임으로써 성능을 향상시키는 최적화 기법이다"
 tags: ['Compiler Optimization', 'Performance', 'Loop Transformation', 'Instruction Level Parallelism']
 created: 2026-02-15
@@ -35,11 +35,11 @@ for (i = 0; i < 100; i += 4) {
 
 ## 관련 개념
 
-- [Compiler](/knowledge/language/compiler/)
-- [Procedure Inlining](/knowledge/language/procedure-inlining/)
-- [Register Allocation](/knowledge/language/register-allocation/)
-- [Subword Parallelism](/knowledge/computer-architecture/subword-parallelism/)
-- [Register Renaming](/knowledge/computer-architecture/register-renaming/)
-- [Antidependence](/knowledge/computer-architecture/antidependence/)
-- [Multiple Issue](/knowledge/computer-architecture/multiple-issue/)
-- [Instruction-Level Parallelism](/knowledge/computer-architecture/instruction-level-parallelism/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [프로시저 인라이닝 (Procedure Inlining)](/knowledge/language/procedure-inlining/)
+- [레지스터 할당 (Register Allocation)](/knowledge/language/register-allocation/)
+- [서브워드 병렬성 (Subword Parallelism)](/knowledge/computer-architecture/subword-parallelism/)
+- [레지스터 리네이밍 (Register Renaming)](/knowledge/computer-architecture/register-renaming/)
+- [역의존성 (Antidependence)](/knowledge/computer-architecture/antidependence/)
+- [다중 발행 (Multiple Issue)](/knowledge/computer-architecture/multiple-issue/)
+- [명령어 수준 병렬성 (ILP)](/knowledge/computer-architecture/instruction-level-parallelism/)

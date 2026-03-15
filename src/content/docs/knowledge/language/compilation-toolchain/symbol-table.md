@@ -1,5 +1,5 @@
 ---
-title: "Symbol Table"
+title: "심볼 테이블 (Symbol Table)"
 description: "심볼 테이블(Symbol Table)은 레이블의 이름과 해당 레이블이 위치한 메모리 주소를 매핑하는 테이블이다"
 tags: ['Assembler', 'Linker', 'Compiler', 'Object File']
 created: 2026-02-15
@@ -54,7 +54,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Assembler](/knowledge/language/assembler/)
-- [Linker](/knowledge/language/linker/)
-- [Object File](/knowledge/language/object-file/)
-- [Object File Format](/knowledge/language/object-file-format/)
+- [어셈블러 (Assembler)](/knowledge/language/assembler/)
+- [링커 (Linker)](/knowledge/language/linker/)
+- [오브젝트 파일 (Object File)](/knowledge/language/object-file/)
+- [오브젝트 파일 포맷 (Object File Format)](/knowledge/language/object-file-format/)

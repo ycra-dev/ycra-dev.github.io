@@ -1,5 +1,5 @@
 ---
-title: "Procedure Inlining"
+title: "프로시저 인라이닝 (Procedure Inlining)"
 description: "프로시저 인라이닝(Procedure Inlining)은 프로시저 호출을 해당 프로시저 본문의 코드로 직접 대체하는 컴파일러 최적화 기법이다"
 tags: ['Compiler Optimization', 'Performance', 'Code Size', 'Function Call']
 created: 2026-02-15
@@ -31,6 +31,6 @@ for (j = i-1; j >= 0 && v[j] > v[j+1]; j -= 1) {
 
 ## 관련 개념
 
-- [Compiler](/knowledge/language/compiler/)
-- [Loop Unrolling](/knowledge/language/loop-unrolling/)
-- [Register Allocation](/knowledge/language/register-allocation/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [루프 풀기 (Loop Unrolling)](/knowledge/language/loop-unrolling/)
+- [레지스터 할당 (Register Allocation)](/knowledge/language/register-allocation/)

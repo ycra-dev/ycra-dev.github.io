@@ -1,5 +1,5 @@
 ---
-title: "Strength Reduction"
+title: "강도 감소 (Strength Reduction)"
 description: "강도 감소(Strength Reduction)는 복잡한 연산을 더 단순한 동등한 연산으로 대체하는 컴파일러 최적화 기법으로, 대표적으로 곱셈을 시프트로 대체한다"
 tags: ['Compiler Optimization', 'Performance', 'Shift', 'Multiply']
 created: 2026-02-15
@@ -34,6 +34,6 @@ for (p = array; p < array + n; p++)
 
 ## 관련 개념
 
-- [Common Subexpression Elimination](/knowledge/language/common-subexpression-elimination/)
-- [Compiler](/knowledge/language/compiler/)
-- [Loop Unrolling](/knowledge/language/loop-unrolling/)
+- [공통 부분식 제거 (Common Subexpression Elimination)](/knowledge/language/common-subexpression-elimination/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [루프 풀기 (Loop Unrolling)](/knowledge/language/loop-unrolling/)

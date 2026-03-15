@@ -1,5 +1,5 @@
 ---
-title: "Assembler"
+title: "어셈블러 (Assembler)"
 description: "어셈블러(Assembler)는 어셈블리 언어로 작성된 소스 파일을 기계어 명령어와 데이터를 포함하는 오브젝트 파일로 변환하는 프로그램이다"
 tags: ['Assembly Language', 'Machine Language', 'Symbol Table', 'Two Pass Assembly']
 created: 2026-02-15
@@ -37,7 +37,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Linker](/knowledge/language/linker/)
-- [Machine Language](/knowledge/computer-architecture/machine-language/)
-- [Symbol Table](/knowledge/language/symbol-table/)
-- [Object File Format](/knowledge/language/object-file-format/)
+- [링커 (Linker)](/knowledge/language/linker/)
+- [기계어 (Machine Language)](/knowledge/computer-architecture/machine-language/)
+- [심볼 테이블 (Symbol Table)](/knowledge/language/symbol-table/)
+- [오브젝트 파일 포맷 (Object File Format)](/knowledge/language/object-file-format/)

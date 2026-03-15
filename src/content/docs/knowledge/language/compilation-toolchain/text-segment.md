@@ -1,5 +1,5 @@
 ---
-title: "Text Segment"
+title: "텍스트 세그먼트 (Text Segment)"
 description: "텍스트 세그먼트(Text Segment)는 프로그램의 기계어 명령어를 포함하는 메모리 영역으로, MIPS 시스템에서는 주소 400000(hex)에서 시작한다"
 tags: ['Memory Layout', 'Data Segment', 'Stack Segment', 'Mips', 'Program Structure']
 created: 2026-02-15
@@ -40,5 +40,5 @@ MIPS 메모리 레이아웃:
 
 ## 관련 개념
 
-- [Procedure Call Convention](/knowledge/computer-architecture/procedure-call-convention/)
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
+- [프로시저 호출 규약 (Procedure Call Convention)](/knowledge/computer-architecture/procedure-call-convention/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)

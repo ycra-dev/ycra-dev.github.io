@@ -1,5 +1,5 @@
 ---
-title: "Compiler"
+title: "컴파일러 (Compiler)"
 description: "컴파일러(Compiler)는 고급 프로그래밍 언어로 작성된 프로그램을 어셈블리 언어 또는 기계어 명령어로 번역하는 프로그램이다"
 tags: ['Systems Software', 'Translation', 'High Level Language', 'Code Generation']
 created: 2026-02-15
@@ -49,11 +49,11 @@ jr  $ra              # return
 
 ## 관련 개념
 
-- [Assembly Language](/knowledge/computer-architecture/assembly-language/)
-- [Machine Language](/knowledge/computer-architecture/machine-language/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Instruction Count](/knowledge/computer-architecture/instruction-count/)
-- [CPI](/knowledge/computer-architecture/cpi/)
-- [Assembler](/knowledge/language/assembler/)
-- [Linker](/knowledge/language/linker/)
-- [Object File](/knowledge/language/object-file/)
+- [어셈블리어 (Assembly Language)](/knowledge/computer-architecture/assembly-language/)
+- [기계어 (Machine Language)](/knowledge/computer-architecture/machine-language/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)
+- [명령어 수 (Instruction Count)](/knowledge/computer-architecture/instruction-count/)
+- [명령어당 사이클 수 (CPI)](/knowledge/computer-architecture/cpi/)
+- [어셈블러 (Assembler)](/knowledge/language/assembler/)
+- [링커 (Linker)](/knowledge/language/linker/)
+- [오브젝트 파일 (Object File)](/knowledge/language/object-file/)

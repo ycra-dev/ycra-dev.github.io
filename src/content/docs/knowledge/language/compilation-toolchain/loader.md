@@ -1,5 +1,5 @@
 ---
-title: "Loader"
+title: "로더 (Loader)"
 description: "로더(Loader)는 오브젝트 프로그램을 메인 메모리에 적재하여 실행할 준비를 하는 시스템 프로그램이다"
 tags: ['Translation Hierarchy', 'Executable File', 'Operating System', 'Memory']
 created: 2026-02-15
@@ -27,6 +27,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Linker](/knowledge/language/linker/)
-- [Executable File](/knowledge/language/executable-file/)
-- [Dynamically Linked Library](/knowledge/language/dynamically-linked-library/)
+- [링커 (Linker)](/knowledge/language/linker/)
+- [실행 파일 (Executable File)](/knowledge/language/executable-file/)
+- [동적 링크 라이브러리 (Dynamically Linked Library)](/knowledge/language/dynamically-linked-library/)

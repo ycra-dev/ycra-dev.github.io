@@ -1,5 +1,5 @@
 ---
-title: "Linker"
+title: "링커 (Linker)"
 description: "링커(Linker, link editor)는 독립적으로 어셈블된 기계어 프로그램들을 결합하고 모든 미정의 레이블을 해결하여 실행 가능한 파일을 생성하는 시스템 프로그램이다"
 tags: ['Translation Hierarchy', 'Object File', 'Executable File', 'Relocation']
 created: 2026-02-15
@@ -50,10 +50,10 @@ sidebar:
 
 ## 관련 개념
 
-- [Compiler](/knowledge/language/compiler/)
-- [Assembler](/knowledge/language/assembler/)
-- [Object File](/knowledge/language/object-file/)
-- [Executable File](/knowledge/language/executable-file/)
-- [Loader](/knowledge/language/loader/)
-- [Symbol Table](/knowledge/language/symbol-table/)
-- [Object File Format](/knowledge/language/object-file-format/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [어셈블러 (Assembler)](/knowledge/language/assembler/)
+- [오브젝트 파일 (Object File)](/knowledge/language/object-file/)
+- [실행 파일 (Executable File)](/knowledge/language/executable-file/)
+- [로더 (Loader)](/knowledge/language/loader/)
+- [심볼 테이블 (Symbol Table)](/knowledge/language/symbol-table/)
+- [오브젝트 파일 포맷 (Object File Format)](/knowledge/language/object-file-format/)

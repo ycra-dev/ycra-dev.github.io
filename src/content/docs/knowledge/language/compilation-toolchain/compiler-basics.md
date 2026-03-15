@@ -66,7 +66,7 @@ sidebar:
 
 - [어셈블리어 (Assembly Language)](/knowledge/language/assembly-language-basics/) - 컴파일러의 출력 대상 중 하나
 - [인터프리터 (Interpreter)](/knowledge/language/interpreter-basics/) - 컴파일러와 대비되는 또 다른 실행 방식
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - 컴파일러가 생성한 기계어를 실행하는 하드웨어
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - 컴파일러가 생성한 기계어를 실행하는 하드웨어
 
 ## 출처
 
