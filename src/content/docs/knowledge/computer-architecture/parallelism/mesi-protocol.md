@@ -1,5 +1,5 @@
 ---
-title: "MESI Protocol"
+title: "MESI 프로토콜 (MESI Protocol)"
 description: "MESI 프로토콜은 Modified(수정), Exclusive(배타적), Shared(공유), Invalid(무효)의 네 가지 상태를 사용하는 캐시 일관성 프로토콜이다"
 tags: ['Cache Coherence', 'Snooping Protocol', 'Multiprocessor', 'Finite State Machine', 'Write Invalidate']
 created: 2026-02-15
@@ -48,8 +48,8 @@ Modified:  dirty=1, exclusive=1
 
 ## 관련 개념
 
-- [Cache Coherence](/knowledge/computer-architecture/cache-coherence/)
-- [Snooping Protocol](/knowledge/computer-architecture/snooping-protocol/)
-- [Finite-State Machine](/knowledge/computer-architecture/finite-state-machine/)
-- [Write-Back](/knowledge/computer-architecture/write-back/)
-- [False Sharing](/knowledge/computer-architecture/false-sharing/)
+- [캐시 일관성 (Cache Coherence)](/knowledge/computer-architecture/cache-coherence/)
+- [스누핑 프로토콜 (Snooping Protocol)](/knowledge/computer-architecture/snooping-protocol/)
+- [유한 상태 기계 (Finite-State Machine)](/knowledge/computer-architecture/finite-state-machine/)
+- [후기입 (Write-Back)](/knowledge/computer-architecture/write-back/)
+- [거짓 공유 (False Sharing)](/knowledge/computer-architecture/false-sharing/)

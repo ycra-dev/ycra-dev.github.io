@@ -47,8 +47,8 @@ sidebar:
 
 ## 관련 개념
 
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - 폰 노이만 구조의 핵심 처리 장치
-- [RAM](/knowledge/computer-architecture/ram/) - 프로그램과 데이터를 저장하는 주기억장치
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - 폰 노이만 구조의 핵심 처리 장치
+- [RAM (랜덤 액세스 메모리)](/knowledge/computer-architecture/ram/) - 프로그램과 데이터를 저장하는 주기억장치
 - [보조기억장치 (Secondary Storage)](/knowledge/computer-architecture/secondary-storage/) - 비휘발성 보조기억장치
 - [명령어 실행 주기 (Fetch-Decode-Execute Cycle)](/knowledge/computer-architecture/fetch-decode-execute-cycle/) - CPU가 명령어를 처리하는 기본 주기
 - [튜링 머신 (Turing Machine)](/knowledge/computer-architecture/turing-machine/) - 폰 노이만 구조의 이론적 기반

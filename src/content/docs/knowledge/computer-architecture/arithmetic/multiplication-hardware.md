@@ -1,5 +1,5 @@
 ---
-title: "Multiplication Hardware"
+title: "곱셈 하드웨어 (Multiplication Hardware)"
 description: "곱셈 하드웨어는 시프트와 덧셈 연산을 통해 이진수 곱셈을 수행하는 하드웨어로, 순차적 방식에서 병렬 방식까지 다양한 구현이 있다"
 tags: ['Multiplier', 'Alu', 'Shift Add', 'Sequential Multiplication', 'Parallel Multiplication']
 created: 2026-02-15
@@ -29,6 +29,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Division Hardware](/knowledge/computer-architecture/division-hardware/)
-- [Arithmetic Logic Unit](/knowledge/computer-architecture/arithmetic-logic-unit/)
-- [Carry Lookahead](/knowledge/computer-architecture/carry-lookahead/)
+- [나눗셈 하드웨어 (Division Hardware)](/knowledge/computer-architecture/division-hardware/)
+- [산술논리장치 (ALU)](/knowledge/computer-architecture/arithmetic-logic-unit/)
+- [자리올림 예측 (Carry Lookahead)](/knowledge/computer-architecture/carry-lookahead/)

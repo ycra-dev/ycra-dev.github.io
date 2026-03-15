@@ -1,5 +1,5 @@
 ---
-title: "Branch Prediction Buffer"
+title: "분기 예측 버퍼 (Branch Prediction Buffer)"
 description: "분기 예측 버퍼(Branch Prediction Buffer), 또는 분기 이력 테이블(Branch History Table)은 분기 명령어 주소의 하위 비트로 인덱싱되어 해당 분기의 최근 수행 여부를 저장하는 소형 메모리이다"
 tags: ['Branch Prediction', 'Cache', 'Branch History Table']
 created: 2026-02-15
@@ -33,6 +33,6 @@ Index (주소 하위 비트) | Prediction Bits | (Optional: Target Address)
 
 ## 관련 개념
 
-- [Dynamic Branch Prediction](/knowledge/computer-architecture/dynamic-branch-prediction/)
-- [Branch Target Buffer](/knowledge/computer-architecture/branch-target-buffer/)
-- [Control Hazard](/knowledge/computer-architecture/control-hazard/)
+- [동적 분기 예측 (Dynamic Branch Prediction)](/knowledge/computer-architecture/dynamic-branch-prediction/)
+- [분기 목표 버퍼 (Branch Target Buffer)](/knowledge/computer-architecture/branch-target-buffer/)
+- [제어 해저드 (Control Hazard)](/knowledge/computer-architecture/control-hazard/)

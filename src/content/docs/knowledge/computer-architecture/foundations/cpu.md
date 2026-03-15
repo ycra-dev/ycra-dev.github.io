@@ -1,5 +1,5 @@
 ---
-title: "Central Processing Unit"
+title: "중앙처리장치 (CPU)"
 description: "중앙처리장치(CPU, Central Processing Unit)는 컴퓨터의 능동적 부분으로, 프로그램의 명령어에 따라 데이터를 처리하고 제어하는 핵심 장치이다"
 tags: ['Processor', 'Datapath', 'Control', 'Hardware', 'Computer Organization']
 created: 2026-02-15
@@ -28,8 +28,8 @@ Apple A12 프로세서의 구조:
 
 ## 관련 개념
 
-- [Datapath](/knowledge/computer-architecture/datapath/)
-- [Clock Cycle](/knowledge/computer-architecture/clock-cycle/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Multicore Processor](/knowledge/computer-architecture/multicore-processor/)
-- [CPU Performance Equation](/knowledge/computer-architecture/cpu-performance-equation/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)
+- [클록 주기 (Clock Cycle)](/knowledge/computer-architecture/clock-cycle/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)
+- [멀티코어 프로세서 (Multicore Processor)](/knowledge/computer-architecture/multicore-processor/)
+- [CPU 성능 방정식 (CPU Performance Equation)](/knowledge/computer-architecture/cpu-performance-equation/)

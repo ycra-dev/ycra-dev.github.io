@@ -1,5 +1,5 @@
 ---
-title: "Carry Lookahead"
+title: "자리올림 예측 (Carry Lookahead)"
 description: "캐리 룩어헤드(Carry Lookahead)는 올림(carry)을 미리 예측하여 덧셈 속도를 높이는 기법으로, 최악의 경우 지연을 가산기 비트 수의 전체가 아닌 log2 함수로 줄인다"
 tags: ['Adder', 'Arithmetic', 'Performance', 'Hardware', 'Parallel Prefix']
 created: 2026-02-15
@@ -33,5 +33,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Arithmetic Logic Unit](/knowledge/computer-architecture/arithmetic-logic-unit/)
-- [Multiplication Hardware](/knowledge/computer-architecture/multiplication-hardware/)
+- [산술논리장치 (ALU)](/knowledge/computer-architecture/arithmetic-logic-unit/)
+- [곱셈 하드웨어 (Multiplication Hardware)](/knowledge/computer-architecture/multiplication-hardware/)

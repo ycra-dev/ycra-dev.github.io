@@ -1,5 +1,5 @@
 ---
-title: "Transistor"
+title: "트랜지스터 (Transistor)"
 description: "트랜지스터(Transistor)는 전기 신호로 제어되는 온/오프 스위치로, 현대 집적회로의 기본 구성요소이다"
 tags: ['Semiconductor', 'Integrated Circuit', 'Vlsi', 'Cmos', 'Hardware']
 created: 2026-02-15
@@ -29,7 +29,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Integrated Circuit](/knowledge/computer-architecture/integrated-circuit/)
-- [CMOS](/knowledge/computer-architecture/cmos/)
-- [Dynamic Power Consumption](/knowledge/computer-architecture/dynamic-power-consumption/)
-- [Semiconductor](/knowledge/computer-architecture/semiconductor/)
+- [집적회로 (Integrated Circuit)](/knowledge/computer-architecture/integrated-circuit/)
+- [CMOS (상보형 금속 산화물 반도체)](/knowledge/computer-architecture/cmos/)
+- [동적 전력 소비 (Dynamic Power Consumption)](/knowledge/computer-architecture/dynamic-power-consumption/)
+- [반도체 (Semiconductor)](/knowledge/computer-architecture/semiconductor/)

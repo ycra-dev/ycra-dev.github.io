@@ -62,7 +62,7 @@ hex(ord('한'))     # '0xd55c'
 
 ## 관련 개념
 
-- [ASCII](/knowledge/computer-architecture/ascii/) - 유니코드의 부분집합이자 전신
+- [ASCII (미국 표준 정보 교환 코드)](/knowledge/computer-architecture/ascii/) - 유니코드의 부분집합이자 전신
 - [비트 (Bit)](/knowledge/computer-architecture/bit/) - 유니코드 인코딩의 기본 단위
 - [바이트 (Byte)](/knowledge/computer-architecture/byte/) - UTF-8 등 인코딩에서의 저장 단위
 

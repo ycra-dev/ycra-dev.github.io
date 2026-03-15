@@ -1,5 +1,5 @@
 ---
-title: "Decoder"
+title: "디코더 (Decoder)"
 description: "디코더(Decoder)는 n비트 입력을 받아 2^n개의 출력 중 입력의 이진 값에 해당하는 하나의 출력만 활성화하는 조합 논리 블록이다"
 tags: ['Combinational Logic', 'Logic Design', 'Multiplexor', 'Address Decoding']
 created: 2026-02-15
@@ -39,8 +39,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Combinational Logic](/knowledge/computer-architecture/combinational-logic/)
-- [Multiplexor](/knowledge/computer-architecture/multiplexor/)
-- [Register File](/knowledge/computer-architecture/register-file/)
-- [SRAM](/knowledge/computer-architecture/sram/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
+- [조합 논리 (Combinational Logic)](/knowledge/computer-architecture/combinational-logic/)
+- [멀티플렉서 (Multiplexor)](/knowledge/computer-architecture/multiplexor/)
+- [레지스터 파일 (Register File)](/knowledge/computer-architecture/register-file/)
+- [SRAM (정적 랜덤 액세스 메모리)](/knowledge/computer-architecture/sram/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)

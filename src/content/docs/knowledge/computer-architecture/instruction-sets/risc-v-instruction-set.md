@@ -1,5 +1,5 @@
 ---
-title: "RISC-V Instruction Set"
+title: "RISC-V 명령어 집합 (RISC-V Instruction Set)"
 description: "RISC-V는 학계에서 탄생한 오픈 아키텍처 명령어 세트로, RISC-V International이 관리하며 ARM, MIPS, x86과 달리 특정 회사가 소유하지 않는다"
 tags: ['Risc', 'Open Architecture', 'Instruction Set Architecture', 'Load Store']
 created: 2026-02-15
@@ -29,5 +29,5 @@ blt  x10, x11, Label   # 직접 비교 후 분기
 
 ## 관련 개념
 
-- [ARMv8 Instruction Set](/knowledge/computer-architecture/armv8-instruction-set/)
-- [Load-Store Architecture](/knowledge/computer-architecture/load-store-architecture/)
+- [ARMv8 명령어 집합 (ARMv8 Instruction Set)](/knowledge/computer-architecture/armv8-instruction-set/)
+- [로드-스토어 아키텍처 (Load-Store Architecture)](/knowledge/computer-architecture/load-store-architecture/)

@@ -51,7 +51,7 @@ sidebar:
 ## 관련 개념
 
 - [폰 노이만 구조 (Von Neumann Architecture)](/knowledge/computer-architecture/von-neumann-architecture-basics/) - 보조기억장치가 속한 전체 컴퓨터 구조
-- [RAM](/knowledge/computer-architecture/ram/) - 보조기억장치와 대비되는 휘발성 주기억장치
+- [RAM (랜덤 액세스 메모리)](/knowledge/computer-architecture/ram/) - 보조기억장치와 대비되는 휘발성 주기억장치
 - [무어의 법칙 (Moore's Law)](/knowledge/computer-architecture/moores-law/) - 저장 용량 증가를 이끈 반도체 발전 법칙
 - [비트 (Bit)](/knowledge/computer-architecture/bit/) - 저장되는 데이터의 기본 단위
 

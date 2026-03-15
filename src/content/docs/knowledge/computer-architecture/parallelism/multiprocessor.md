@@ -1,5 +1,5 @@
 ---
-title: "Multiprocessor"
+title: "멀티프로세서 (Multiprocessor)"
 description: "멀티프로세서는 최소 두 개 이상의 프로세서를 갖춘 컴퓨터 시스템이다"
 tags: ['Parallel Computing', 'Multicore', 'Shared Memory', 'Cluster', 'Task Level Parallelism']
 created: 2026-02-15
@@ -42,7 +42,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
-- [Strong Scaling](/knowledge/computer-architecture/strong-scaling/)
-- [Weak Scaling](/knowledge/computer-architecture/weak-scaling/)
-- [Hardware Multithreading](/knowledge/computer-architecture/hardware-multithreading/)
+- [공유 메모리 멀티프로세서 (SMP)](/knowledge/computer-architecture/shared-memory-multiprocessor/)
+- [강한 확장성 (Strong Scaling)](/knowledge/computer-architecture/strong-scaling/)
+- [약한 확장성 (Weak Scaling)](/knowledge/computer-architecture/weak-scaling/)
+- [하드웨어 멀티스레딩 (Hardware Multithreading)](/knowledge/computer-architecture/hardware-multithreading/)

@@ -1,5 +1,5 @@
 ---
-title: "Brain Float 16"
+title: "BFloat16 (Brain Float 16)"
 description: "Brain Float 16(BFloat16)은 Google의 Brain 부서에서 발명한 16비트 부동소수점 형식으로, 1비트 부호, 8비트 지수, 7비트 분수로 구성되어 머신러닝에 최적화되었다"
 tags: ['Machine Learning', 'Floating Point', '16 Bit', 'Google Tpu', 'Bfloat16']
 created: 2026-02-15
@@ -31,7 +31,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Floating Point](/knowledge/computer-architecture/floating-point/)
-- [IEEE 754 Standard](/knowledge/computer-architecture/ieee-754-standard/)
-- [Single Precision](/knowledge/computer-architecture/single-precision/)
-- [DGEMM](/knowledge/computer-architecture/dgemm/)
+- [부동소수점 (Floating Point)](/knowledge/computer-architecture/floating-point/)
+- [IEEE 754 표준 (IEEE 754 Standard)](/knowledge/computer-architecture/ieee-754-standard/)
+- [단정밀도 (Single Precision)](/knowledge/computer-architecture/single-precision/)
+- [DGEMM (배정밀도 행렬 곱셈)](/knowledge/computer-architecture/dgemm/)

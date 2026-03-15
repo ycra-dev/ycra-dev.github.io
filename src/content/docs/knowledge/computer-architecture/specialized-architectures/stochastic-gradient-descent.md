@@ -1,5 +1,5 @@
 ---
-title: "Stochastic Gradient Descent"
+title: "확률적 경사 하강법 (SGD)"
 description: "확률적 경사 하강법(SGD)은 DNN 훈련에서 가장 널리 사용되는 최적화 알고리즘으로, 무작위로 선택한 훈련 예제에 대해 순전파, 역전파, 가중치 갱신을 반복하여 모델의 가중치를 점진적으로 개선한다"
 tags: ['Deep Learning', 'Optimization', 'Dnn Training', 'Weight Update']
 created: 2026-02-15
@@ -39,6 +39,6 @@ SGD 알고리즘:
 
 ## 관련 개념
 
-- [DNN Training](/knowledge/computer-architecture/dnn-training/)
-- [Brain Floating Point](/knowledge/computer-architecture/brain-floating-point/)
-- [TPUv3 Supercomputer](/knowledge/computer-architecture/tpuv3-supercomputer/)
+- [DNN 학습 (DNN Training)](/knowledge/computer-architecture/dnn-training/)
+- [브레인 부동소수점 (Brain Floating Point)](/knowledge/computer-architecture/brain-floating-point/)
+- [TPUv3 슈퍼컴퓨터 (TPUv3 Supercomputer)](/knowledge/computer-architecture/tpuv3-supercomputer/)

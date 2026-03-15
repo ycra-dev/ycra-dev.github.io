@@ -59,8 +59,8 @@ sidebar:
 ## 관련 개념
 
 - [비트 (Bit)](/knowledge/computer-architecture/bit/) - 바이트를 구성하는 기본 단위 (1바이트 = 8비트)
-- [RAM](/knowledge/computer-architecture/ram/) - 바이트 단위로 주소가 지정되는 주기억장치
-- [ASCII](/knowledge/computer-architecture/ascii/) - 1바이트로 문자를 인코딩하는 표준
+- [RAM (랜덤 액세스 메모리)](/knowledge/computer-architecture/ram/) - 바이트 단위로 주소가 지정되는 주기억장치
+- [ASCII (미국 표준 정보 교환 코드)](/knowledge/computer-architecture/ascii/) - 1바이트로 문자를 인코딩하는 표준
 - [이진수 (Binary Number)](/knowledge/computer-architecture/binary-number/) - 바이트의 값을 이진수로 해석하는 방법
 
 ## 출처

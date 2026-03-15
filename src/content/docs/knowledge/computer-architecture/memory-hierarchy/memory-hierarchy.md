@@ -1,5 +1,5 @@
 ---
-title: "Memory Hierarchy"
+title: "메모리 계층 구조 (Memory Hierarchy)"
 description: "메모리 계층구조(Memory Hierarchy)는 속도, 크기, 비용이 다른 여러 수준의 메모리를 계층적으로 배치하여, 프로그래머에게 빠르고 크고 저렴한 메모리의 환상(illusion)을 제공하는 구조이다"
 tags: ['Computer Architecture', 'Memory', 'Cache', 'Performance', 'Storage']
 created: 2026-02-15
@@ -32,12 +32,12 @@ L2 캐시 (SRAM, ~10ns, ~256KB)
 
 ## 관련 개념
 
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
-- [DRAM](/knowledge/computer-architecture/dram/)
-- [SRAM](/knowledge/computer-architecture/sram/)
-- [Flash Memory](/knowledge/computer-architecture/flash-memory/)
-- [Register](/knowledge/computer-architecture/register/)
-- [Temporal Locality](/knowledge/computer-architecture/temporal-locality/)
-- [Spatial Locality](/knowledge/computer-architecture/spatial-locality/)
-- [Direct-Mapped Cache](/knowledge/computer-architecture/direct-mapped-cache/)
-- [Multilevel Cache](/knowledge/computer-architecture/multilevel-cache/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)
+- [DRAM (동적 랜덤 액세스 메모리)](/knowledge/computer-architecture/dram/)
+- [SRAM (정적 랜덤 액세스 메모리)](/knowledge/computer-architecture/sram/)
+- [플래시 메모리 (Flash Memory)](/knowledge/computer-architecture/flash-memory/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)
+- [시간 지역성 (Temporal Locality)](/knowledge/computer-architecture/temporal-locality/)
+- [공간 지역성 (Spatial Locality)](/knowledge/computer-architecture/spatial-locality/)
+- [직접 사상 캐시 (Direct-Mapped Cache)](/knowledge/computer-architecture/direct-mapped-cache/)
+- [다단계 캐시 (Multilevel Cache)](/knowledge/computer-architecture/multilevel-cache/)

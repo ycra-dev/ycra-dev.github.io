@@ -1,5 +1,5 @@
 ---
-title: "Weak Scaling"
+title: "약한 확장성 (Weak Scaling)"
 description: "약한 확장(weak scaling)은 프로세서 수의 증가에 비례하여 문제 크기도 함께 키우면서 달성하는 속도 향상을 측정하는 방식이다"
 tags: ['Parallel Computing', 'Speedup', 'Multiprocessor', 'Problem Size', 'Performance']
 created: 2026-02-15
@@ -53,8 +53,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Strong Scaling](/knowledge/computer-architecture/strong-scaling/)
-- [Multiprocessor](/knowledge/computer-architecture/multiprocessor/)
-- [Three Cs Model](/knowledge/computer-architecture/three-cs-model/)
-- [Cache Blocking](/knowledge/computer-architecture/cache-blocking/)
-- [Amdahl's Law](/knowledge/computer-architecture/amdahls-law/)
+- [강한 확장성 (Strong Scaling)](/knowledge/computer-architecture/strong-scaling/)
+- [멀티프로세서 (Multiprocessor)](/knowledge/computer-architecture/multiprocessor/)
+- [3C 모델 (Three Cs Model)](/knowledge/computer-architecture/three-cs-model/)
+- [캐시 블로킹 (Cache Blocking)](/knowledge/computer-architecture/cache-blocking/)
+- [암달의 법칙 (Amdahl's Law)](/knowledge/computer-architecture/amdahls-law/)

@@ -54,7 +54,7 @@ NOT 게이트를 트랜지스터 하나로 구현:
 
 - [집적회로 (Integrated Circuit)](/knowledge/computer-architecture/integrated-circuit-basics/) - 트랜지스터를 집적하여 만든 칩
 - [무어의 법칙 (Moore's Law)](/knowledge/computer-architecture/moores-law/) - 칩당 트랜지스터 수의 증가 법칙
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - 수십억 개의 트랜지스터로 구성된 프로세서
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - 수십억 개의 트랜지스터로 구성된 프로세서
 - [비트 (Bit)](/knowledge/computer-architecture/bit/) - 트랜지스터의 ON/OFF가 표현하는 정보 단위
 
 ## 출처

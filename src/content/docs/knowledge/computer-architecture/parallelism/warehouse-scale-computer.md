@@ -1,5 +1,5 @@
 ---
-title: "Warehouse Scale Computer"
+title: "창고 규모 컴퓨터 (WSC)"
 description: "웨어하우스 스케일 컴퓨터(WSC)는 약 50,000대의 서버를 수용하는 건물 규모의 컴퓨터로, 하나의 거대한 컴퓨터처럼 동작하며 약 1"
 tags: ['Cloud Computing', 'Cluster', 'Mapreduce', 'Saas', 'Request Level Parallelism']
 created: 2026-02-15
@@ -48,8 +48,8 @@ Reduce(String key, Iterator values):
 
 ## 관련 개념
 
-- [Cluster](/knowledge/computer-architecture/cluster/)
-- [MapReduce](/knowledge/computer-architecture/mapreduce/)
-- [Message Passing](/knowledge/computer-architecture/message-passing/)
-- [Domain Specific Architecture](/knowledge/computer-architecture/domain-specific-architecture/)
-- [Virtual Machine](/knowledge/computer-architecture/virtual-machine/)
+- [클러스터 (Cluster)](/knowledge/computer-architecture/cluster/)
+- [맵리듀스 (MapReduce)](/knowledge/computer-architecture/mapreduce/)
+- [메시지 전달 (Message Passing)](/knowledge/computer-architecture/message-passing/)
+- [도메인 특화 아키텍처 (DSA)](/knowledge/computer-architecture/domain-specific-architecture/)
+- [가상 머신 (Virtual Machine)](/knowledge/computer-architecture/virtual-machine/)

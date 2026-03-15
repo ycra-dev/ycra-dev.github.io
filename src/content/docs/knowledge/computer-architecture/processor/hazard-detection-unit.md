@@ -1,5 +1,5 @@
 ---
-title: "Hazard Detection Unit"
+title: "해저드 검출 유닛 (Hazard Detection Unit)"
 description: "해저드 검출 유닛(Hazard Detection Unit)은 파이프라인에서 데이터 해저드를 감지하고 필요 시 스톨을 삽입하는 하드웨어 유닛이다"
 tags: ['Pipeline', 'Data Hazard', 'Stall', 'Load Use', 'Control']
 created: 2026-02-15
@@ -30,7 +30,7 @@ then
 
 ## 관련 개념
 
-- [Load-Use Data Hazard](/knowledge/computer-architecture/load-use-data-hazard/)
-- [Pipeline Stall](/knowledge/computer-architecture/pipeline-stall/)
-- [Forwarding](/knowledge/computer-architecture/forwarding/)
-- [Data Hazard](/knowledge/computer-architecture/data-hazard/)
+- [로드-사용 데이터 해저드 (Load-Use Data Hazard)](/knowledge/computer-architecture/load-use-data-hazard/)
+- [파이프라인 스톨 (Pipeline Stall)](/knowledge/computer-architecture/pipeline-stall/)
+- [포워딩 (Forwarding)](/knowledge/computer-architecture/forwarding/)
+- [데이터 해저드 (Data Hazard)](/knowledge/computer-architecture/data-hazard/)

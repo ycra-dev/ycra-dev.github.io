@@ -41,8 +41,8 @@ sidebar:
 
 - [집적회로 (Integrated Circuit)](/knowledge/computer-architecture/integrated-circuit-basics/) - 무어의 법칙이 적용되는 대상
 - [트랜지스터 (Transistor)](/knowledge/computer-architecture/transistor-basics/) - 무어의 법칙으로 개수가 증가하는 기본 소자
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - 무어의 법칙의 혜택을 직접 받는 핵심 부품
-- [GPU](/knowledge/computer-architecture/gpu-basics/) - 무어의 법칙 둔화에 대한 대안적 컴퓨팅 방식
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - 무어의 법칙의 혜택을 직접 받는 핵심 부품
+- [GPU (그래픽 처리 장치)](/knowledge/computer-architecture/gpu-basics/) - 무어의 법칙 둔화에 대한 대안적 컴퓨팅 방식
 
 ## 출처
 

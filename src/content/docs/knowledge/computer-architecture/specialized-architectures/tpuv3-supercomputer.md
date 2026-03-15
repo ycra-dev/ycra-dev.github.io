@@ -1,5 +1,5 @@
 ---
-title: "TPUv3 Supercomputer"
+title: "TPUv3 슈퍼컴퓨터 (TPUv3 Supercomputer)"
 description: "TPUv3 슈퍼컴퓨터는 Google이 DNN 훈련을 위해 설계한 도메인 특화 슈퍼컴퓨터로, 32x32 2D 토러스 토폴로지로 1024개 칩을 연결하며 각 칩에 두 개의 TensorCore를 탑재한다"
 tags: ['Domain Specific Architecture', 'Deep Learning', 'Google', 'Tensor Processing Unit']
 created: 2026-02-15
@@ -31,8 +31,8 @@ TPUv3 TensorCore 구성:
 
 ## 관련 개념
 
-- [Brain Floating Point](/knowledge/computer-architecture/brain-floating-point/)
-- [DNN Training](/knowledge/computer-architecture/dnn-training/)
-- [Domain-Specific Architecture](/knowledge/computer-architecture/domain-specific-architecture/)
-- [2D Torus Topology](/knowledge/computer-architecture/2d-torus-topology/)
-- [High Bandwidth Memory](/knowledge/computer-architecture/high-bandwidth-memory/)
+- [브레인 부동소수점 (Brain Floating Point)](/knowledge/computer-architecture/brain-floating-point/)
+- [DNN 학습 (DNN Training)](/knowledge/computer-architecture/dnn-training/)
+- [도메인 특화 아키텍처 (DSA)](/knowledge/computer-architecture/domain-specific-architecture/)
+- [2D 토러스 토폴로지 (2D Torus Topology)](/knowledge/computer-architecture/2d-torus-topology/)
+- [HBM (고대역폭 메모리)](/knowledge/computer-architecture/high-bandwidth-memory/)

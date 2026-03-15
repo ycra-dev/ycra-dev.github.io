@@ -1,5 +1,5 @@
 ---
-title: "GPU (Graphics Processing Unit)"
+title: "GPU (그래픽 처리 장치)"
 description: "대량의 단순한 연산을 동시에 처리하는 데 특화된 프로세서로 딥러닝과 과학 계산에 널리 활용"
 tags: ["Computer-Architecture", "GPU", "Parallel-Processing", "Hardware"]
 created: 2026-02-27
@@ -66,7 +66,7 @@ GPU: 1,000,000개 원소를 수천 개씩 동시에 계산 → 수십~수백 배
 
 ## 관련 개념
 
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - GPU와 대비되는 범용 순차 처리 프로세서
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - GPU와 대비되는 범용 순차 처리 프로세서
 - [무어의 법칙 (Moore's Law)](/knowledge/computer-architecture/moores-law/) - GPU 성능 향상도 반도체 발전의 혜택
 - [트랜지스터 (Transistor)](/knowledge/computer-architecture/transistor-basics/) - GPU도 수십억 개의 트랜지스터로 구성
 - [픽셀 (Pixel)](/knowledge/computer-architecture/pixel/) - GPU가 원래 처리하도록 설계된 대상

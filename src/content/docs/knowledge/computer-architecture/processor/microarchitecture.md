@@ -1,5 +1,5 @@
 ---
-title: "Microarchitecture"
+title: "마이크로아키텍처 (Microarchitecture)"
 description: "마이크로아키텍처(Microarchitecture)는 프로세서의 상세한 내부 아키텍처로, 기능 유닛, 캐시, 레지스터 파일, 명령어 발행, 파이프라인 제어 등의 설계가 상호 연결된 구조를 의미한다"
 tags: ['Processor', 'Implementation', 'Pipeline', 'Cache', 'Design']
 created: 2026-02-15
@@ -34,9 +34,9 @@ Intel Core i7 6700 마이크로아키텍처:
 
 ## 관련 개념
 
-- [Superscalar](/knowledge/computer-architecture/superscalar/)
-- [Out-of-Order Execution](/knowledge/computer-architecture/out-of-order-execution/)
-- [Reservation Station](/knowledge/computer-architecture/reservation-station/)
-- [Register Renaming](/knowledge/computer-architecture/register-renaming/)
-- [Reorder Buffer](/knowledge/computer-architecture/reorder-buffer/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
+- [슈퍼스칼라 (Superscalar)](/knowledge/computer-architecture/superscalar/)
+- [비순차 실행 (Out-of-Order Execution)](/knowledge/computer-architecture/out-of-order-execution/)
+- [예약 스테이션 (Reservation Station)](/knowledge/computer-architecture/reservation-station/)
+- [레지스터 리네이밍 (Register Renaming)](/knowledge/computer-architecture/register-renaming/)
+- [리오더 버퍼 (Reorder Buffer)](/knowledge/computer-architecture/reorder-buffer/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)

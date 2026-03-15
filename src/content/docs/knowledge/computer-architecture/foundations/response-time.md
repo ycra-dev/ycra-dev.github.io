@@ -1,5 +1,5 @@
 ---
-title: "Response Time"
+title: "응답 시간 (Response Time)"
 description: "응답 시간(Response Time) 또는 실행 시간(Execution Time)은 컴퓨터가 하나의 작업을 완료하는 데 걸리는 총 시간으로, 디스크 접근, 메모리 접근, I/O 활동, 운영체제 오버헤드, CPU 실행 시간 등을 모두 포함한다"
 tags: ['Performance', 'Execution Time', 'Benchmark', 'CPU Time', 'Measurement']
 created: 2026-02-15
@@ -28,7 +28,7 @@ n = 실행시간_B / 실행시간_A = 15/10 = 1.5
 
 ## 관련 개념
 
-- [Throughput](/knowledge/computer-architecture/throughput/)
-- [CPU Performance Equation](/knowledge/computer-architecture/cpu-performance-equation/)
-- [Clock Cycle](/knowledge/computer-architecture/clock-cycle/)
-- [SPEC Benchmark](/knowledge/computer-architecture/spec-benchmark/)
+- [처리율 (Throughput)](/knowledge/computer-architecture/throughput/)
+- [CPU 성능 방정식 (CPU Performance Equation)](/knowledge/computer-architecture/cpu-performance-equation/)
+- [클록 주기 (Clock Cycle)](/knowledge/computer-architecture/clock-cycle/)
+- [SPEC 벤치마크 (SPEC Benchmark)](/knowledge/computer-architecture/spec-benchmark/)

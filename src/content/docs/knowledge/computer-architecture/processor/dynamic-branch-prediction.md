@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Branch Prediction"
+title: "동적 분기 예측 (Dynamic Branch Prediction)"
 description: "동적 분기 예측(Dynamic Branch Prediction)은 프로그램 실행 중 런타임 정보를 활용하여 분기 결과를 예측하는 기법이다"
 tags: ['Branch Prediction', 'Branch History Table', 'Control Hazard', 'Runtime']
 created: 2026-02-15
@@ -30,6 +30,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Branch Prediction](/knowledge/computer-architecture/branch-prediction/)
-- [Branch Prediction Buffer](/knowledge/computer-architecture/branch-prediction-buffer/)
-- [Control Hazard](/knowledge/computer-architecture/control-hazard/)
+- [분기 예측 (Branch Prediction)](/knowledge/computer-architecture/branch-prediction/)
+- [분기 예측 버퍼 (Branch Prediction Buffer)](/knowledge/computer-architecture/branch-prediction-buffer/)
+- [제어 해저드 (Control Hazard)](/knowledge/computer-architecture/control-hazard/)

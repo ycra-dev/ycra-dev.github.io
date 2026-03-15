@@ -1,5 +1,5 @@
 ---
-title: "Complex Instruction Set Computer (CISC)"
+title: "CISC (복합 명령어 집합 컴퓨터)"
 description: "CISC(Complex Instruction Set Computer)는 강력한 명령어, 다양한 주소 지정 모드, 가변 길이 명령어를 사용하여 컴파일러를 단순화하고 코드 밀도를 높이는 것을 목표로 한 프로세서 설계 철학이다"
 tags: ['Cisc', 'Vax', 'Instruction Set', 'Computer Architecture']
 created: 2026-02-15
@@ -59,7 +59,7 @@ MIPS M2000: 명령어 2배 더 많지만 성능 3배 우수
 
 ## 관련 개념
 
-- [RISC Architecture](/knowledge/computer-architecture/risc-architecture/)
-- [x86 Architecture](/knowledge/computer-architecture/x86-architecture/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
+- [RISC 아키텍처 (RISC Architecture)](/knowledge/computer-architecture/risc-architecture/)
+- [x86 아키텍처 (x86 Architecture)](/knowledge/computer-architecture/x86-architecture/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)

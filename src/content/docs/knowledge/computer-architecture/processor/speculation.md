@@ -1,5 +1,5 @@
 ---
-title: "Speculation"
+title: "투기적 실행 (Speculation)"
 description: "투기(Speculation)는 컴파일러나 프로세서가 명령어의 결과를 추측하여, 의존 명령어들의 실행을 가능하게 하는 접근 방식이다"
 tags: ['Prediction', 'Ilp', 'Branch Prediction', 'Out Of Order Execution']
 created: 2026-02-15
@@ -29,7 +29,7 @@ sub $s3, $s4, $s5     # 투기적 실행
 
 ## 관련 개념
 
-- [Instruction-Level Parallelism](/knowledge/computer-architecture/instruction-level-parallelism/)
-- [Branch Prediction](/knowledge/computer-architecture/branch-prediction/)
-- [Out-of-Order Execution](/knowledge/computer-architecture/out-of-order-execution/)
-- [Reorder Buffer](/knowledge/computer-architecture/reorder-buffer/)
+- [명령어 수준 병렬성 (ILP)](/knowledge/computer-architecture/instruction-level-parallelism/)
+- [분기 예측 (Branch Prediction)](/knowledge/computer-architecture/branch-prediction/)
+- [비순차 실행 (Out-of-Order Execution)](/knowledge/computer-architecture/out-of-order-execution/)
+- [리오더 버퍼 (Reorder Buffer)](/knowledge/computer-architecture/reorder-buffer/)

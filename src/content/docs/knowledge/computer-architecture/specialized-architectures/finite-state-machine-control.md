@@ -1,5 +1,5 @@
 ---
-title: "Finite-State Machine Control"
+title: "유한 상태 기계 제어 (FSM Control)"
 description: "유한 상태 기계(FSM) 제어는 현재 상태와 입력(opcode)을 받아 데이터패스 제어 신호와 다음 상태를 출력하는 순차적 제어 유닛 구현 방식이다"
 tags: ['Fsm', 'Control Unit', 'Sequential Logic', 'State Machine']
 created: 2026-02-15
@@ -55,8 +55,8 @@ FSM 제어 유닛 구조:
 
 ## 관련 개념
 
-- [ROM Control Implementation](/knowledge/computer-architecture/rom-control-implementation/)
-- [PLA Control Implementation](/knowledge/computer-architecture/pla-control-implementation/)
-- [Microprogrammed Control](/knowledge/computer-architecture/microprogrammed-control/)
-- [Control Unit](/knowledge/computer-architecture/control-unit/)
-- [Datapath](/knowledge/computer-architecture/datapath/)
+- [ROM 제어 구현 (ROM Control Implementation)](/knowledge/computer-architecture/rom-control-implementation/)
+- [PLA 제어 구현 (PLA Control Implementation)](/knowledge/computer-architecture/pla-control-implementation/)
+- [마이크로프로그램 제어 (Microprogrammed Control)](/knowledge/computer-architecture/microprogrammed-control/)
+- [제어 장치 (Control Unit)](/knowledge/computer-architecture/control-unit/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)

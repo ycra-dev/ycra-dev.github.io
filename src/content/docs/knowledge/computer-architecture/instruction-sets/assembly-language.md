@@ -1,5 +1,5 @@
 ---
-title: "Assembly Language"
+title: "어셈블리어 (Assembly Language)"
 description: "어셈블리 언어(Assembly Language)는 기계어 명령어를 기호적(symbolic)으로 표현한 저수준 프로그래밍 언어이다"
 tags: ['Programming Language', 'Machine Instructions', 'Low Level', 'Mips']
 created: 2026-02-15
@@ -35,9 +35,9 @@ beq  $t0, $t1, Label  # if ($t0 == $t1) goto Label
 
 ## 관련 개념
 
-- [Machine Language](/knowledge/computer-architecture/machine-language/)
-- [Compiler](/knowledge/language/compiler/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Register](/knowledge/computer-architecture/register/)
-- [Assembler](/knowledge/language/assembler/)
-- [Pseudoinstruction](/knowledge/computer-architecture/pseudoinstruction/)
+- [기계어 (Machine Language)](/knowledge/computer-architecture/machine-language/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)
+- [어셈블러 (Assembler)](/knowledge/language/assembler/)
+- [의사 명령어 (Pseudoinstruction)](/knowledge/computer-architecture/pseudoinstruction/)

@@ -1,5 +1,5 @@
 ---
-title: "Streaming Processor (SP)"
+title: "SP (스트리밍 프로세서)"
 description: "Streaming Processor(SP)는 GPU 멀티프로세서 내의 기본 스레드 명령어 프로세서 코어로, 스칼라 정수 및 부동소수점 연산을 수행한다"
 tags: ['Streaming Processor', 'GPU Core', 'Nvidia', 'Tesla']
 created: 2026-02-15
@@ -56,6 +56,6 @@ SM (8 SP) 전체:
 
 ## 관련 개념
 
-- [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)
-- [SIMT](/knowledge/computer-architecture/simt/)
-- [PTX ISA](/knowledge/computer-architecture/ptx-isa/)
+- [SM (스트리밍 멀티프로세서)](/knowledge/computer-architecture/streaming-multiprocessor/)
+- [SIMT (단일 명령어 다중 스레드)](/knowledge/computer-architecture/simt/)
+- [PTX ISA (병렬 스레드 실행 명령어 집합)](/knowledge/computer-architecture/ptx-isa/)

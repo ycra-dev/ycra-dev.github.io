@@ -1,5 +1,5 @@
 ---
-title: "GPU"
+title: "GPU (그래픽 처리 장치)"
 description: "GPU(Graphics Processing Unit)는 원래 그래픽 처리를 위해 설계된 대규모 병렬 프로세서로, 수백 개의 병렬 부동소수점 유닛을 통해 데이터 수준 병렬성이 높은 연산을 가속하는 가속기이다"
 tags: ['Graphics Processing Unit', 'Cuda', 'Simd', 'Multithreading', 'Data Level Parallelism']
 created: 2026-02-15
@@ -56,13 +56,13 @@ __global__ void vector_add(float *A, float *B, float *C, int n) {
 
 ## 관련 개념
 
-- [SIMD](/knowledge/computer-architecture/simd/)
-- [Hardware Multithreading](/knowledge/computer-architecture/hardware-multithreading/)
-- [Data-Level Parallelism](/knowledge/computer-architecture/data-level-parallelism/)
-- [Vector Lane](/knowledge/computer-architecture/vector-lane/)
-- [Domain Specific Architecture](/knowledge/computer-architecture/domain-specific-architecture/)
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [SIMT](/knowledge/computer-architecture/simt/)
-- [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)
-- [Warp](/knowledge/computer-architecture/warp/)
-- [Heterogeneous System](/knowledge/computer-architecture/heterogeneous-system/)
+- [SIMD (단일 명령어 다중 데이터)](/knowledge/computer-architecture/simd/)
+- [하드웨어 멀티스레딩 (Hardware Multithreading)](/knowledge/computer-architecture/hardware-multithreading/)
+- [데이터 수준 병렬성 (Data-Level Parallelism)](/knowledge/computer-architecture/data-level-parallelism/)
+- [벡터 레인 (Vector Lane)](/knowledge/computer-architecture/vector-lane/)
+- [도메인 특화 아키텍처 (DSA)](/knowledge/computer-architecture/domain-specific-architecture/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [SIMT (단일 명령어 다중 스레드)](/knowledge/computer-architecture/simt/)
+- [SM (스트리밍 멀티프로세서)](/knowledge/computer-architecture/streaming-multiprocessor/)
+- [워프 (Warp)](/knowledge/computer-architecture/warp/)
+- [이기종 시스템 (Heterogeneous System)](/knowledge/computer-architecture/heterogeneous-system/)

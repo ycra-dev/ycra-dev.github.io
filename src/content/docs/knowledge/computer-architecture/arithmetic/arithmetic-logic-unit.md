@@ -1,5 +1,5 @@
 ---
-title: "Arithmetic Logic Unit"
+title: "산술논리장치 (ALU)"
 description: "산술 논리 장치(ALU, Arithmetic Logic Unit)는 덧셈, 뺄셈, 그리고 보통 AND, OR 같은 논리 연산을 수행하는 하드웨어 장치이다"
 tags: ['Alu', 'Addition', 'Subtraction', 'Hardware', 'Datapath']
 created: 2026-02-15
@@ -54,9 +54,9 @@ Ainvert  Bnegate  Operation  기능
 
 ## 관련 개념
 
-- [Overflow Detection](/knowledge/computer-architecture/overflow-detection/)
-- [Carry Lookahead](/knowledge/computer-architecture/carry-lookahead/)
-- [Twos Complement](/knowledge/computer-architecture/twos-complement/)
-- [Multiplication Hardware](/knowledge/computer-architecture/multiplication-hardware/)
-- [Carry Lookahead Adder](/knowledge/computer-architecture/carry-lookahead-adder/)
-- [Datapath](/knowledge/computer-architecture/datapath/)
+- [오버플로우 검출 (Overflow Detection)](/knowledge/computer-architecture/overflow-detection/)
+- [자리올림 예측 (Carry Lookahead)](/knowledge/computer-architecture/carry-lookahead/)
+- [2의 보수 (Two's Complement)](/knowledge/computer-architecture/twos-complement/)
+- [곱셈 하드웨어 (Multiplication Hardware)](/knowledge/computer-architecture/multiplication-hardware/)
+- [자리올림 예측 가산기 (Carry Lookahead Adder)](/knowledge/computer-architecture/carry-lookahead-adder/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)

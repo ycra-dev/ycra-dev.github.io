@@ -1,5 +1,5 @@
 ---
-title: "Write Buffer"
+title: "쓰기 버퍼 (Write Buffer)"
 description: "쓰기 버퍼(Write Buffer)는 메모리에 기록될 데이터를 대기시키는 큐로, 프로세서가 메모리 쓰기 완료를 기다리지 않고 계속 실행할 수 있게 한다"
 tags: ['Cache', 'Write Through', 'Memory Hierarchy', 'Performance', 'Queue']
 created: 2026-02-15
@@ -34,7 +34,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Write-Through](/knowledge/computer-architecture/write-through/)
-- [Write-Back](/knowledge/computer-architecture/write-back/)
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
-- [Pipeline Stall](/knowledge/computer-architecture/pipeline-stall/)
+- [즉시쓰기 (Write-Through)](/knowledge/computer-architecture/write-through/)
+- [후기입 (Write-Back)](/knowledge/computer-architecture/write-back/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)
+- [파이프라인 스톨 (Pipeline Stall)](/knowledge/computer-architecture/pipeline-stall/)

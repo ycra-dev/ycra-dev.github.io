@@ -1,5 +1,5 @@
 ---
-title: "Instruction Format"
+title: "명령어 형식 (Instruction Format)"
 description: "명령어 형식(Instruction Format)은 이진수 필드로 구성된 명령어의 표현 형태로, MIPS에서는 R-type(레지스터), I-type(즉시값), J-type(점프) 세 가지 형식이 있다"
 tags: ['Machine Language', 'R Type', 'I Type', 'J Type', 'Binary Encoding', 'Mips']
 created: 2026-02-15
@@ -35,8 +35,8 @@ J-type (점프 형식): j, jal
 
 ## 관련 개념
 
-- [Machine Language](/knowledge/computer-architecture/machine-language/)
-- [Opcode](/knowledge/computer-architecture/opcode/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Stored-Program Concept](/knowledge/computer-architecture/stored-program-concept/)
-- [Register](/knowledge/computer-architecture/register/)
+- [기계어 (Machine Language)](/knowledge/computer-architecture/machine-language/)
+- [연산 코드 (Opcode)](/knowledge/computer-architecture/opcode/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)
+- [저장 프로그램 개념 (Stored-Program Concept)](/knowledge/computer-architecture/stored-program-concept/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)

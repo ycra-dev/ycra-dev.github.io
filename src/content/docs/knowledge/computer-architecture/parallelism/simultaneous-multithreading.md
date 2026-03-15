@@ -1,5 +1,5 @@
 ---
-title: "Simultaneous Multithreading"
+title: "동시 멀티스레딩 (SMT)"
 description: "동시 멀티스레딩(SMT)은 다중 발행, 동적 스케줄링 파이프라인 프로세서의 자원을 활용하여 스레드 수준 병렬성(TLP)과 명령어 수준 병렬성(ILP)을 동시에 활용하는 하드웨어 멀티스레딩의 변형이다"
 tags: ['Hardware Multithreading', 'Out Of Order Execution', 'Thread Level Parallelism', 'Instruction Level Parallelism', 'Superscalar']
 created: 2026-02-15
@@ -46,7 +46,7 @@ SMT (여러 스레드 동시):
 
 ## 관련 개념
 
-- [Hardware Multithreading](/knowledge/computer-architecture/hardware-multithreading/)
-- [Multiprocessor](/knowledge/computer-architecture/multiprocessor/)
-- [GPU](/knowledge/computer-architecture/gpu/)
-- [MIMD](/knowledge/computer-architecture/mimd/)
+- [하드웨어 멀티스레딩 (Hardware Multithreading)](/knowledge/computer-architecture/hardware-multithreading/)
+- [멀티프로세서 (Multiprocessor)](/knowledge/computer-architecture/multiprocessor/)
+- [GPU (그래픽 처리 장치)](/knowledge/computer-architecture/gpu/)
+- [MIMD (다중 명령어 다중 데이터)](/knowledge/computer-architecture/mimd/)

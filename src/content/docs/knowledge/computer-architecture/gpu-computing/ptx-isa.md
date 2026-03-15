@@ -1,5 +1,5 @@
 ---
-title: "PTX ISA"
+title: "PTX ISA (병렬 스레드 실행 명령어 집합)"
 description: "PTX(Parallel Thread Execution)는 NVIDIA가 정의한 레지스터 기반 스칼라 명령어 집합으로, 컴파일러의 안정적인 타겟 ISA를 제공하며 여러 세대의 GPU에 걸쳐 호환성을 보장한다"
 tags: ['Ptx', 'Instruction Set', 'GPU', 'Nvidia', 'Intermediate Representation']
 created: 2026-02-15
@@ -58,7 +58,7 @@ st.global.f32 [y + %r1], %f3;   // 결과 저장
 
 ## 관련 개념
 
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [SIMT](/knowledge/computer-architecture/simt/)
-- [Streaming Processor](/knowledge/computer-architecture/streaming-processor/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [SIMT (단일 명령어 다중 스레드)](/knowledge/computer-architecture/simt/)
+- [SP (스트리밍 프로세서)](/knowledge/computer-architecture/streaming-processor/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)

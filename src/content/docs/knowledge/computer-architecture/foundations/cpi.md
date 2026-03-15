@@ -1,5 +1,5 @@
 ---
-title: "Cycles Per Instruction"
+title: "명령어당 사이클 수 (CPI)"
 description: "CPI(Cycles Per Instruction)는 하나의 명령어를 실행하는 데 소요되는 평균 클럭 사이클 수로, 동일한 ISA의 서로 다른 구현을 비교하는 데 사용되는 성능 지표이다"
 tags: ['Performance', 'CPU', 'Instruction Execution', 'Benchmark', 'Metric']
 created: 2026-02-15
@@ -34,8 +34,8 @@ CPI = Σ(CPI_i × C_i) / 전체 명령어 수
 
 ## 관련 개념
 
-- [CPU Performance Equation](/knowledge/computer-architecture/cpu-performance-equation/)
-- [Clock Cycle](/knowledge/computer-architecture/clock-cycle/)
-- [Instruction Count](/knowledge/computer-architecture/instruction-count/)
-- [Response Time](/knowledge/computer-architecture/response-time/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
+- [CPU 성능 방정식 (CPU Performance Equation)](/knowledge/computer-architecture/cpu-performance-equation/)
+- [클록 주기 (Clock Cycle)](/knowledge/computer-architecture/clock-cycle/)
+- [명령어 수 (Instruction Count)](/knowledge/computer-architecture/instruction-count/)
+- [응답 시간 (Response Time)](/knowledge/computer-architecture/response-time/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)

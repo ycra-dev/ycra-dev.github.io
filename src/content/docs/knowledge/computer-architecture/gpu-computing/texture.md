@@ -1,5 +1,5 @@
 ---
-title: "Texture"
+title: "텍스처 (Texture)"
 description: "텍스처(Texture)는 보간된 좌표를 사용하여 샘플링 및 필터링된 조회를 지원하는 1D, 2D, 또는 3D 배열이다"
 tags: ['Texture', 'Texture Mapping', 'GPU', 'Graphics']
 created: 2026-02-15
@@ -44,6 +44,6 @@ tex2D(sampler, float2(0.5, 0.7))
 
 ## 관련 개념
 
-- [Shader](/knowledge/computer-architecture/shader/)
-- [MIP-map](/knowledge/computer-architecture/mip-map/)
-- [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)
+- [셰이더 (Shader)](/knowledge/computer-architecture/shader/)
+- [밉맵 (MIP-map)](/knowledge/computer-architecture/mip-map/)
+- [SM (스트리밍 멀티프로세서)](/knowledge/computer-architecture/streaming-multiprocessor/)

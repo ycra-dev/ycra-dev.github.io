@@ -1,5 +1,5 @@
 ---
-title: "CUDA"
+title: "CUDA (Compute Unified Device Architecture)"
 description: "CUDA(Compute Unified Device Architecture)는 C/C++ 기반의 확장 가능한 병렬 프로그래밍 모델이자 소프트웨어 플랫폼으로, GPU 및 기타 병렬 프로세서를 위한 범용 프로그래밍을 가능하게 한다"
 tags: ['Cuda', 'GPU Computing', 'Parallel Programming', 'Nvidia']
 created: 2026-02-15
@@ -41,8 +41,8 @@ saxpy<<<nblocks, 256>>>(n, 2.0f, x, y);
 
 ## 관련 개념
 
-- [Thread Block](/knowledge/computer-architecture/thread-block/)
-- [Kernel](/knowledge/computer-architecture/kernel/)
-- [SPMD](/knowledge/computer-architecture/spmd/)
-- [Synchronization Barrier](/knowledge/computer-architecture/synchronization-barrier/)
-- [SIMT](/knowledge/computer-architecture/simt/)
+- [스레드 블록 (Thread Block)](/knowledge/computer-architecture/thread-block/)
+- [커널 (Kernel)](/knowledge/computer-architecture/kernel/)
+- [SPMD (단일 프로그램 다중 데이터)](/knowledge/computer-architecture/spmd/)
+- [동기화 장벽 (Synchronization Barrier)](/knowledge/computer-architecture/synchronization-barrier/)
+- [SIMT (단일 명령어 다중 스레드)](/knowledge/computer-architecture/simt/)

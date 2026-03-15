@@ -1,5 +1,5 @@
 ---
-title: "Warp"
+title: "워프 (Warp)"
 description: "워프(Warp)는 SIMT 아키텍처에서 동일한 명령어를 함께 실행하는 병렬 스레드의 집합이다"
 tags: ['Warp', 'Simt', 'GPU Scheduling', 'Parallel Execution']
 created: 2026-02-15
@@ -61,7 +61,7 @@ sidebar:
 
 ## 관련 개념
 
-- [SIMT](/knowledge/computer-architecture/simt/)
-- [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)
-- [Thread Block](/knowledge/computer-architecture/thread-block/)
-- [Cooperative Thread Array](/knowledge/computer-architecture/cooperative-thread-array/)
+- [SIMT (단일 명령어 다중 스레드)](/knowledge/computer-architecture/simt/)
+- [SM (스트리밍 멀티프로세서)](/knowledge/computer-architecture/streaming-multiprocessor/)
+- [스레드 블록 (Thread Block)](/knowledge/computer-architecture/thread-block/)
+- [CTA (협력 스레드 배열)](/knowledge/computer-architecture/cooperative-thread-array/)

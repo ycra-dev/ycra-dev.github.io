@@ -1,5 +1,5 @@
 ---
-title: "Word"
+title: "워드 (Word)"
 description: "워드(Word)는 컴퓨터에서 자연스러운 접근 단위로, 일반적으로 32비트(4바이트)의 그룹이며, MIPS 아키텍처에서 레지스터의 크기에 해당한다"
 tags: ['Data Unit', 'Register', 'Memory', 'Mips', 'Bit']
 created: 2026-02-15
@@ -31,7 +31,7 @@ MIPS 메모리에서의 워드 배치 (바이트 주소 지정):
 
 ## 관련 개념
 
-- [Register](/knowledge/computer-architecture/register/)
-- [Data Transfer Instruction](/knowledge/computer-architecture/data-transfer-instruction/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Instruction Format](/knowledge/computer-architecture/instruction-format/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)
+- [데이터 전송 명령어 (Data Transfer Instruction)](/knowledge/computer-architecture/data-transfer-instruction/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [명령어 형식 (Instruction Format)](/knowledge/computer-architecture/instruction-format/)

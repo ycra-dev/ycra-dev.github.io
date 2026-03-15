@@ -1,5 +1,5 @@
 ---
-title: "Memory-Mapped I/O"
+title: "메모리 맵 입출력 (Memory-Mapped I/O)"
 description: "메모리 맵 I/O는 주소 공간의 일부를 I/O 장치에 할당하여, 해당 주소에 대한 읽기와 쓰기를 I/O 장치에 대한 명령으로 해석하는 I/O 방식이다"
 tags: ['Input Output', 'Address Space', 'Device Driver', 'Pcie', 'Operating System']
 created: 2026-02-15
@@ -65,8 +65,8 @@ wait_send:
 
 ## 관련 개념
 
-- [Direct Memory Access](/knowledge/computer-architecture/direct-memory-access/)
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [Supervisor Mode](/knowledge/computer-architecture/supervisor-mode/)
-- [Polling](/knowledge/computer-architecture/polling/)
-- [Exception Handler](/knowledge/computer-architecture/exception-handler/)
+- [DMA (직접 메모리 접근)](/knowledge/computer-architecture/direct-memory-access/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [관리자 모드 (Supervisor Mode)](/knowledge/computer-architecture/supervisor-mode/)
+- [폴링 (Polling)](/knowledge/computer-architecture/polling/)
+- [예외 처리기 (Exception Handler)](/knowledge/computer-architecture/exception-handler/)

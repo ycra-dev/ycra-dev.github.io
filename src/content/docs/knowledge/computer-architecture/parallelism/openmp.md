@@ -1,5 +1,5 @@
 ---
-title: "OpenMP"
+title: "OpenMP (병렬 프로그래밍 API)"
 description: "OpenMP(Open Multi-Processing)는 공유 메모리 멀티프로세서에서 병렬 프로그래밍을 지원하는 API로, 컴파일러 지시어(pragma)를 통해 루프 등의 코드 블록을 여러 스레드로 분배하여 실행한다"
 tags: ['Parallel Programming', 'Thread Level Parallelism', 'Shared Memory', 'Pragma']
 created: 2026-02-15
@@ -32,6 +32,6 @@ for (int i = 0; i < N; i += BLOCKSIZE)
 
 ## 관련 개념
 
-- [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
-- [DGEMM](/knowledge/computer-architecture/dgemm/)
-- [Strong Scaling](/knowledge/computer-architecture/strong-scaling/)
+- [공유 메모리 멀티프로세서 (SMP)](/knowledge/computer-architecture/shared-memory-multiprocessor/)
+- [DGEMM (배정밀도 행렬 곱셈)](/knowledge/computer-architecture/dgemm/)
+- [강한 확장성 (Strong Scaling)](/knowledge/computer-architecture/strong-scaling/)

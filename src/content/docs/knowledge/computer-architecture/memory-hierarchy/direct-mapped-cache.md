@@ -1,5 +1,5 @@
 ---
-title: "Direct-Mapped Cache"
+title: "직접 사상 캐시 (Direct-Mapped Cache)"
 description: "직접 사상 캐시(Direct-Mapped Cache)는 각 메모리 위치가 캐시의 정확히 하나의 위치에만 매핑되는 캐시 구조이다"
 tags: ['Cache', 'Memory Hierarchy', 'Mapping', 'Tag', 'Valid Bit']
 created: 2026-02-15
@@ -36,9 +36,9 @@ sidebar:
 
 ## 관련 개념
 
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
-- [Tag](/knowledge/computer-architecture/tag/)
-- [Valid Bit](/knowledge/computer-architecture/valid-bit/)
-- [Set-Associative Cache](/knowledge/computer-architecture/set-associative-cache/)
-- [Cache Miss](/knowledge/computer-architecture/cache-miss/)
-- [Write-Through](/knowledge/computer-architecture/write-through/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)
+- [태그 (Tag)](/knowledge/computer-architecture/tag/)
+- [유효 비트 (Valid Bit)](/knowledge/computer-architecture/valid-bit/)
+- [집합 연관 캐시 (Set-Associative Cache)](/knowledge/computer-architecture/set-associative-cache/)
+- [캐시 미스 (Cache Miss)](/knowledge/computer-architecture/cache-miss/)
+- [즉시쓰기 (Write-Through)](/knowledge/computer-architecture/write-through/)

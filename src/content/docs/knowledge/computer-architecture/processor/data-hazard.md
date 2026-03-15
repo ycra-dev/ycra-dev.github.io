@@ -1,5 +1,5 @@
 ---
-title: "Data Hazard"
+title: "데이터 해저드 (Data Hazard)"
 description: "데이터 해저드(Data Hazard)는 파이프라인에서 명령어가 아직 사용 가능하지 않은 데이터를 필요로 하여 정상적인 클록 사이클에서 실행할 수 없는 상황이다"
 tags: ['Pipeline Hazard', 'Dependence', 'Forwarding', 'Stall']
 created: 2026-02-15
@@ -32,7 +32,7 @@ sub $t2, $s0, $t3   # EX 단계에서 $s0 필요 -> 1 사이클 스톨
 
 ## 관련 개념
 
-- [Forwarding](/knowledge/computer-architecture/forwarding/)
-- [Pipeline Stall](/knowledge/computer-architecture/pipeline-stall/)
-- [Load-Use Data Hazard](/knowledge/computer-architecture/load-use-data-hazard/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
+- [포워딩 (Forwarding)](/knowledge/computer-architecture/forwarding/)
+- [파이프라인 스톨 (Pipeline Stall)](/knowledge/computer-architecture/pipeline-stall/)
+- [로드-사용 데이터 해저드 (Load-Use Data Hazard)](/knowledge/computer-architecture/load-use-data-hazard/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)

@@ -1,5 +1,5 @@
 ---
-title: "Lookup Table (LUT)"
+title: "LUT (룩업 테이블)"
 description: "LUT(Lookup Table)는 FPGA에서 각 셀에 포함된 소량의 논리와 RAM으로 구성된 프로그래밍 가능한 기본 블록으로, 임의의 논리 함수를 구현할 수 있다"
 tags: ['Lut', 'Fpga', 'Programmable Logic', 'Truth Table']
 created: 2026-02-15
@@ -39,4 +39,4 @@ LUT 내용 (주소 → 출력):
 
 ## 관련 개념
 
-- [Combinational Element](/knowledge/computer-architecture/combinational-element/)
+- [조합 소자 (Combinational Element)](/knowledge/computer-architecture/combinational-element/)

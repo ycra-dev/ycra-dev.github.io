@@ -1,5 +1,5 @@
 ---
-title: "Shared Memory Multiprocessor"
+title: "공유 메모리 멀티프로세서 (SMP)"
 description: "공유 메모리 멀티프로세서(SMP)는 모든 프로세서에 걸쳐 단일 물리 주소 공간을 제공하는 멀티프로세서이다"
 tags: ['Multiprocessor', 'Cache Coherence', 'Uma', 'Numa', 'Synchronization']
 created: 2026-02-15
@@ -44,8 +44,8 @@ for (i = 0; i < P; i++)
 
 ## 관련 개념
 
-- [Cache Coherence](/knowledge/computer-architecture/cache-coherence/)
-- [Multiprocessor](/knowledge/computer-architecture/multiprocessor/)
-- [Synchronization](/knowledge/computer-architecture/synchronization/)
-- [MIMD](/knowledge/computer-architecture/mimd/)
-- [Cluster](/knowledge/computer-architecture/cluster/)
+- [캐시 일관성 (Cache Coherence)](/knowledge/computer-architecture/cache-coherence/)
+- [멀티프로세서 (Multiprocessor)](/knowledge/computer-architecture/multiprocessor/)
+- [동기화 (Synchronization)](/knowledge/computer-architecture/synchronization/)
+- [MIMD (다중 명령어 다중 데이터)](/knowledge/computer-architecture/mimd/)
+- [클러스터 (Cluster)](/knowledge/computer-architecture/cluster/)

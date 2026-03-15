@@ -1,5 +1,5 @@
 ---
-title: "Reference Bit"
+title: "참조 비트 (Reference Bit)"
 description: "참조 비트(reference bit 또는 use bit)는 페이지가 접근될 때마다 설정되는 필드로, LRU 또는 기타 교체 알고리즘을 구현하는 데 사용된다"
 tags: ['Virtual Memory', 'Page Replacement', 'Lru', 'Page Table', 'Operating System']
 created: 2026-02-15
@@ -33,7 +33,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [Page Table](/knowledge/computer-architecture/page-table/)
-- [Dirty Bit](/knowledge/computer-architecture/dirty-bit/)
-- [Page Fault](/knowledge/computer-architecture/page-fault/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [페이지 테이블 (Page Table)](/knowledge/computer-architecture/page-table/)
+- [더티 비트 (Dirty Bit)](/knowledge/computer-architecture/dirty-bit/)
+- [페이지 폴트 (Page Fault)](/knowledge/computer-architecture/page-fault/)

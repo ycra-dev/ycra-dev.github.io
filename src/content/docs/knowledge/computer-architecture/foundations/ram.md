@@ -1,5 +1,5 @@
 ---
-title: "RAM (Random Access Memory)"
+title: "RAM (랜덤 액세스 메모리)"
 description: "현재 실행 중인 프로그램과 데이터를 저장하는 휘발성 주기억장치로, 어떤 위치든 동일한 속도로 접근할 수 있다"
 tags: ["Computer-Architecture", "RAM", "Memory", "Hardware"]
 created: 2026-02-27
@@ -44,7 +44,7 @@ RAM의 랜덤 접근 vs 순차 접근 비유:
 ## 관련 개념
 
 - [폰 노이만 구조 (Von Neumann Architecture)](/knowledge/computer-architecture/von-neumann-architecture-basics/) - RAM이 속한 전체 컴퓨터 구조
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - RAM에서 명령어와 데이터를 읽어 처리하는 장치
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - RAM에서 명령어와 데이터를 읽어 처리하는 장치
 - [보조기억장치 (Secondary Storage)](/knowledge/computer-architecture/secondary-storage/) - RAM과 대비되는 비휘발성 저장장치
 - [캐시 (Cache)](/knowledge/computer-architecture/cache-basics/) - RAM보다 빠른 CPU 근접 메모리 계층
 - [바이트 (Byte)](/knowledge/computer-architecture/byte/) - RAM 주소 지정의 기본 단위

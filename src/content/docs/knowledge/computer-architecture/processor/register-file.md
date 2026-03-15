@@ -1,5 +1,5 @@
 ---
-title: "Register File"
+title: "레지스터 파일 (Register File)"
 description: "레지스터 파일(Register File)은 레지스터 번호를 지정하여 읽거나 쓸 수 있는 레지스터들의 집합으로 구성된 상태 요소이다"
 tags: ['Processor', 'State Element', 'Mips', 'Datapath']
 created: 2026-02-15
@@ -52,10 +52,10 @@ Verilog:
 
 ## 관련 개념
 
-- [Datapath](/knowledge/computer-architecture/datapath/)
-- [State Element](/knowledge/computer-architecture/state-element/)
-- [Forwarding](/knowledge/computer-architecture/forwarding/)
-- [Flip-Flop](/knowledge/computer-architecture/flip-flop/)
-- [Decoder](/knowledge/computer-architecture/decoder/)
-- [Multiplexor](/knowledge/computer-architecture/multiplexor/)
-- [Procedure Call Convention](/knowledge/computer-architecture/procedure-call-convention/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)
+- [상태 소자 (State Element)](/knowledge/computer-architecture/state-element/)
+- [포워딩 (Forwarding)](/knowledge/computer-architecture/forwarding/)
+- [플립플롭 (Flip-Flop)](/knowledge/computer-architecture/flip-flop/)
+- [디코더 (Decoder)](/knowledge/computer-architecture/decoder/)
+- [멀티플렉서 (Multiplexor)](/knowledge/computer-architecture/multiplexor/)
+- [프로시저 호출 규약 (Procedure Call Convention)](/knowledge/computer-architecture/procedure-call-convention/)

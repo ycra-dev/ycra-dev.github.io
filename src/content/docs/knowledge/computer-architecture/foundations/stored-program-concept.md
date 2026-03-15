@@ -1,5 +1,5 @@
 ---
-title: "Stored-Program Concept"
+title: "저장 프로그램 개념 (Stored-Program Concept)"
 description: "저장 프로그램 개념(Stored-Program Concept)은 명령어와 다양한 유형의 데이터가 숫자로 메모리에 저장될 수 있다는 아이디어로, 저장 프로그램 컴퓨터의 근간이 되는 개념이다"
 tags: ['Von Neumann', 'Computer Architecture', 'Memory', 'Instruction', 'Fundamental Concept']
 created: 2026-02-15
@@ -48,9 +48,9 @@ sidebar:
 
 ## 관련 개념
 
-- [Machine Language](/knowledge/computer-architecture/machine-language/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Instruction Format](/knowledge/computer-architecture/instruction-format/)
-- [Floating Point](/knowledge/computer-architecture/floating-point/)
-- [Twos Complement](/knowledge/computer-architecture/twos-complement/)
+- [기계어 (Machine Language)](/knowledge/computer-architecture/machine-language/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [명령어 형식 (Instruction Format)](/knowledge/computer-architecture/instruction-format/)
+- [부동소수점 (Floating Point)](/knowledge/computer-architecture/floating-point/)
+- [2의 보수 (Two's Complement)](/knowledge/computer-architecture/twos-complement/)

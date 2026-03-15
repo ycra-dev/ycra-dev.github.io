@@ -1,5 +1,5 @@
 ---
-title: "Branch Target Buffer"
+title: "분기 목표 버퍼 (Branch Target Buffer)"
 description: "분기 타겟 버퍼(Branch Target Buffer)는 분기 명령어의 예측된 목표 주소를 캐싱하여, 분기 인출 시 즉시 다음 명령어 주소를 제공하는 구조이다"
 tags: ['Branch Prediction', 'Pipeline', 'Control Hazard', 'Cache', 'Performance']
 created: 2026-02-15
@@ -35,8 +35,8 @@ ARM Cortex-A53 분기 예측기 계층:
 
 ## 관련 개념
 
-- [Branch Prediction](/knowledge/computer-architecture/branch-prediction/)
-- [Dynamic Branch Prediction](/knowledge/computer-architecture/dynamic-branch-prediction/)
-- [Branch Prediction Buffer](/knowledge/computer-architecture/branch-prediction-buffer/)
-- [Control Hazard](/knowledge/computer-architecture/control-hazard/)
-- [Microarchitecture](/knowledge/computer-architecture/microarchitecture/)
+- [분기 예측 (Branch Prediction)](/knowledge/computer-architecture/branch-prediction/)
+- [동적 분기 예측 (Dynamic Branch Prediction)](/knowledge/computer-architecture/dynamic-branch-prediction/)
+- [분기 예측 버퍼 (Branch Prediction Buffer)](/knowledge/computer-architecture/branch-prediction-buffer/)
+- [제어 해저드 (Control Hazard)](/knowledge/computer-architecture/control-hazard/)
+- [마이크로아키텍처 (Microarchitecture)](/knowledge/computer-architecture/microarchitecture/)

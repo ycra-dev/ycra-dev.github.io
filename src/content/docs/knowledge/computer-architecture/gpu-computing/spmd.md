@@ -1,5 +1,5 @@
 ---
-title: "Single-Program Multiple-Data (SPMD)"
+title: "SPMD (단일 프로그램 다중 데이터)"
 description: "SPMD(Single-Program Multiple-Data)는 모든 스레드가 동일한 프로그램을 실행하는 병렬 프로그래밍 모델의 스타일이다"
 tags: ['Spmd', 'Parallel Programming', 'Programming Model', 'Cuda']
 created: 2026-02-15
@@ -45,8 +45,8 @@ kernelG<<<4, 6>>>(params);
 
 ## 관련 개념
 
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [Kernel](/knowledge/computer-architecture/kernel/)
-- [Thread Block](/knowledge/computer-architecture/thread-block/)
-- [SIMT](/knowledge/computer-architecture/simt/)
-- [Synchronization Barrier](/knowledge/computer-architecture/synchronization-barrier/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [커널 (Kernel)](/knowledge/computer-architecture/kernel/)
+- [스레드 블록 (Thread Block)](/knowledge/computer-architecture/thread-block/)
+- [SIMT (단일 명령어 다중 스레드)](/knowledge/computer-architecture/simt/)
+- [동기화 장벽 (Synchronization Barrier)](/knowledge/computer-architecture/synchronization-barrier/)

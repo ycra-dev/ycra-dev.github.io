@@ -1,5 +1,5 @@
 ---
-title: "Snooping Protocol"
+title: "스누핑 프로토콜 (Snooping Protocol)"
 description: "스누핑 프로토콜은 물리 메모리 블록의 사본을 가진 모든 캐시가 해당 블록의 공유 상태 사본을 유지하고, 모든 캐시 컨트롤러가 버스(또는 네트워크)를 모니터링하여 자신이 가진 블록에 대한 요청을 감지하는 캐시 일관성 프로토콜이다"
 tags: ['Cache Coherence', 'Multiprocessor', 'Write Invalidate', 'Bus', 'Shared Memory']
 created: 2026-02-15
@@ -41,8 +41,8 @@ CPU B가 X를 읽으려 할 때:
 
 ## 관련 개념
 
-- [Cache Coherence](/knowledge/computer-architecture/cache-coherence/)
-- [MESI Protocol](/knowledge/computer-architecture/mesi-protocol/)
-- [False Sharing](/knowledge/computer-architecture/false-sharing/)
-- [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
-- [Write-Back](/knowledge/computer-architecture/write-back/)
+- [캐시 일관성 (Cache Coherence)](/knowledge/computer-architecture/cache-coherence/)
+- [MESI 프로토콜 (MESI Protocol)](/knowledge/computer-architecture/mesi-protocol/)
+- [거짓 공유 (False Sharing)](/knowledge/computer-architecture/false-sharing/)
+- [공유 메모리 멀티프로세서 (SMP)](/knowledge/computer-architecture/shared-memory-multiprocessor/)
+- [후기입 (Write-Back)](/knowledge/computer-architecture/write-back/)

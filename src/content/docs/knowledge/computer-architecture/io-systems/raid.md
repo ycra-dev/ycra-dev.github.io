@@ -1,5 +1,5 @@
 ---
-title: "RAID"
+title: "RAID (독립 디스크 중복 배열)"
 description: "RAID(Redundant Arrays of Inexpensive Disks)는 다수의 작고 저렴한 디스크를 배열로 구성하여 성능과 신뢰성을 모두 향상시키는 디스크 구성 방식이다"
 tags: ['Disk Storage', 'Redundancy', 'Dependability', 'Striping', 'Parity']
 created: 2026-02-15
@@ -49,6 +49,6 @@ Disk 3: P0, D6, D10, D14, ...
 
 ## 관련 개념
 
-- [Dirty Bit](/knowledge/computer-architecture/dirty-bit/)
-- [Write-Back](/knowledge/computer-architecture/write-back/)
-- [Nonblocking Cache](/knowledge/computer-architecture/nonblocking-cache/)
+- [더티 비트 (Dirty Bit)](/knowledge/computer-architecture/dirty-bit/)
+- [후기입 (Write-Back)](/knowledge/computer-architecture/write-back/)
+- [비차단 캐시 (Nonblocking Cache)](/knowledge/computer-architecture/nonblocking-cache/)

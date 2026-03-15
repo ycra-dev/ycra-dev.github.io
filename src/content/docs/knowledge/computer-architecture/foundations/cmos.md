@@ -1,5 +1,5 @@
 ---
-title: "CMOS"
+title: "CMOS (상보형 금속 산화물 반도체)"
 description: "CMOS(Complementary Metal Oxide Semiconductor, 상보형 금속 산화물 반도체)는 현재 집적회로에서 지배적인 트랜지스터 기술로, 상보적인 n형과 p형 트랜지스터 쌍을 사용한다"
 tags: ['Semiconductor', 'Transistor', 'Fabrication', 'Power', 'Integrated Circuit']
 created: 2026-02-15
@@ -36,7 +36,7 @@ CMOS 인버터 (NOT 게이트):
 
 ## 관련 개념
 
-- [Transistor](/knowledge/computer-architecture/transistor/)
-- [Dynamic Power Consumption](/knowledge/computer-architecture/dynamic-power-consumption/)
-- [Integrated Circuit](/knowledge/computer-architecture/integrated-circuit/)
-- [Semiconductor](/knowledge/computer-architecture/semiconductor/)
+- [트랜지스터 (Transistor)](/knowledge/computer-architecture/transistor/)
+- [동적 전력 소비 (Dynamic Power Consumption)](/knowledge/computer-architecture/dynamic-power-consumption/)
+- [집적회로 (Integrated Circuit)](/knowledge/computer-architecture/integrated-circuit/)
+- [반도체 (Semiconductor)](/knowledge/computer-architecture/semiconductor/)

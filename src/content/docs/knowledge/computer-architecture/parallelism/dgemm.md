@@ -1,5 +1,5 @@
 ---
-title: "DGEMM"
+title: "DGEMM (배정밀도 행렬 곱셈)"
 description: "DGEMM(Double precision GEneral Matrix Multiply)은 배정밀도 범용 행렬 곱셈으로, C = C + A x B 형태의 행렬 연산을 수행하는 표준 선형대수 루틴이다"
 tags: ['Matrix Multiply', 'Double Precision', 'Performance', 'Optimization', 'Linear Algebra']
 created: 2026-02-15
@@ -38,7 +38,7 @@ vfmadd231pd %zmm1, %zmm0, %zmm2 # FMA 연산
 
 ## 관련 개념
 
-- [Double Precision](/knowledge/computer-architecture/double-precision/)
-- [Advanced Vector Extensions](/knowledge/computer-architecture/advanced-vector-extensions/)
-- [Subword Parallelism](/knowledge/computer-architecture/subword-parallelism/)
-- [Fused Multiply Add](/knowledge/computer-architecture/fused-multiply-add/)
+- [배정밀도 (Double Precision)](/knowledge/computer-architecture/double-precision/)
+- [AVX (Advanced Vector Extensions)](/knowledge/computer-architecture/advanced-vector-extensions/)
+- [서브워드 병렬성 (Subword Parallelism)](/knowledge/computer-architecture/subword-parallelism/)
+- [융합 곱셈-덧셈 (FMA)](/knowledge/computer-architecture/fused-multiply-add/)

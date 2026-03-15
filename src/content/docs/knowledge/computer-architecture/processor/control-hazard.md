@@ -1,5 +1,5 @@
 ---
-title: "Control Hazard"
+title: "제어 해저드 (Control Hazard)"
 description: "제어 해저드(Control Hazard), 또는 분기 해저드(Branch Hazard)는 파이프라인에서 분기 결정 결과에 따라 어떤 명령어를 인출해야 할지 모를 때 발생하는 해저드이다"
 tags: ['Pipeline Hazard', 'Branch', 'Prediction', 'Flush']
 created: 2026-02-15
@@ -31,7 +31,7 @@ target_instruction:       #           IF   ID   EX   MEM  WB
 
 ## 관련 개념
 
-- [Branch Prediction](/knowledge/computer-architecture/branch-prediction/)
-- [Pipeline Stall](/knowledge/computer-architecture/pipeline-stall/)
-- [Dynamic Branch Prediction](/knowledge/computer-architecture/dynamic-branch-prediction/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
+- [분기 예측 (Branch Prediction)](/knowledge/computer-architecture/branch-prediction/)
+- [파이프라인 스톨 (Pipeline Stall)](/knowledge/computer-architecture/pipeline-stall/)
+- [동적 분기 예측 (Dynamic Branch Prediction)](/knowledge/computer-architecture/dynamic-branch-prediction/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)

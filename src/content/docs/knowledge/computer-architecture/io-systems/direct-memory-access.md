@@ -1,5 +1,5 @@
 ---
-title: "Direct Memory Access"
+title: "DMA (직접 메모리 접근)"
 description: "DMA(Direct Memory Access)는 프로세서의 개입 없이 장치 컨트롤러가 메모리와 직접 데이터를 전송할 수 있게 하는 메커니즘이다"
 tags: ['Input Output', 'Dma', 'Memory Mapped I/O', 'Interrupt', 'Data Transfer']
 created: 2026-02-15
@@ -49,7 +49,7 @@ DMA 쓰기 -> 메모리에 새 데이터
 
 ## 관련 개념
 
-- [Memory-Mapped I/O](/knowledge/computer-architecture/memory-mapped-io/)
-- [Cache Coherence](/knowledge/computer-architecture/cache-coherence/)
-- [Polling](/knowledge/computer-architecture/polling/)
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
+- [메모리 맵 입출력 (Memory-Mapped I/O)](/knowledge/computer-architecture/memory-mapped-io/)
+- [캐시 일관성 (Cache Coherence)](/knowledge/computer-architecture/cache-coherence/)
+- [폴링 (Polling)](/knowledge/computer-architecture/polling/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)

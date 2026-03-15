@@ -1,5 +1,5 @@
 ---
-title: "Program Counter"
+title: "프로그램 카운터 (Program Counter)"
 description: "프로그램 카운터(PC, Program Counter)는 현재 실행 중인 명령어의 주소를 담고 있는 레지스터이다"
 tags: ['CPU', 'Instruction Address', 'Control Flow', 'Register', 'Execution']
 created: 2026-02-15
@@ -43,9 +43,9 @@ MIPS에서 PC 업데이트 경로:
 
 ## 관련 개념
 
-- [Procedure Call](/knowledge/computer-architecture/procedure-call/)
-- [Conditional Branch](/knowledge/computer-architecture/conditional-branch/)
-- [PC-Relative Addressing](/knowledge/computer-architecture/pc-relative-addressing/)
-- [Stored-Program Concept](/knowledge/computer-architecture/stored-program-concept/)
-- [Datapath](/knowledge/computer-architecture/datapath/)
-- [Control Hazard](/knowledge/computer-architecture/control-hazard/)
+- [프로시저 호출 (Procedure Call)](/knowledge/computer-architecture/procedure-call/)
+- [조건 분기 (Conditional Branch)](/knowledge/computer-architecture/conditional-branch/)
+- [PC 상대 주소 지정 (PC-Relative Addressing)](/knowledge/computer-architecture/pc-relative-addressing/)
+- [저장 프로그램 개념 (Stored-Program Concept)](/knowledge/computer-architecture/stored-program-concept/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)
+- [제어 해저드 (Control Hazard)](/knowledge/computer-architecture/control-hazard/)

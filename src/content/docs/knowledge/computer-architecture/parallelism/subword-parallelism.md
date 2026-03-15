@@ -1,5 +1,5 @@
 ---
-title: "Subword Parallelism"
+title: "서브워드 병렬성 (Subword Parallelism)"
 description: "서브워드 병렬성(Subword Parallelism)은 넓은 워드 내의 캐리 체인을 분할하여 여러 짧은 데이터 요소에 대해 동시에 동일한 연산을 수행하는 병렬 처리 방식이다"
 tags: ['Simd', 'Data Level Parallelism', 'Multimedia', 'Vector', 'Neon', 'Avx']
 created: 2026-02-15
@@ -33,7 +33,7 @@ sidebar:
 
 ## 관련 개념
 
-- [SIMD](/knowledge/computer-architecture/simd/)
-- [Advanced Vector Extensions](/knowledge/computer-architecture/advanced-vector-extensions/)
-- [DGEMM](/knowledge/computer-architecture/dgemm/)
-- [Data Level Parallelism](/knowledge/computer-architecture/data-level-parallelism/)
+- [SIMD (단일 명령어 다중 데이터)](/knowledge/computer-architecture/simd/)
+- [AVX (Advanced Vector Extensions)](/knowledge/computer-architecture/advanced-vector-extensions/)
+- [DGEMM (배정밀도 행렬 곱셈)](/knowledge/computer-architecture/dgemm/)
+- [데이터 수준 병렬성 (Data-Level Parallelism)](/knowledge/computer-architecture/data-level-parallelism/)

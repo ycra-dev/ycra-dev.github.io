@@ -1,5 +1,5 @@
 ---
-title: "Floating Point Multiplication"
+title: "부동소수점 곱셈 (Floating Point Multiplication)"
 description: "부동소수점 곱셈은 지수 덧셈, 유효자리 곱셈, 정규화, 반올림, 부호 결정의 다섯 단계를 거쳐 두 부동소수점 수를 곱하는 연산이다"
 tags: ['Floating Point', 'Arithmetic', 'Exponent', 'Significand', 'Normalization']
 created: 2026-02-15
@@ -41,7 +41,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Floating Point](/knowledge/computer-architecture/floating-point/)
-- [Floating Point Addition](/knowledge/computer-architecture/floating-point-addition/)
-- [Fused Multiply Add](/knowledge/computer-architecture/fused-multiply-add/)
-- [IEEE 754 Standard](/knowledge/computer-architecture/ieee-754-standard/)
+- [부동소수점 (Floating Point)](/knowledge/computer-architecture/floating-point/)
+- [부동소수점 덧셈 (Floating Point Addition)](/knowledge/computer-architecture/floating-point-addition/)
+- [융합 곱셈-덧셈 (FMA)](/knowledge/computer-architecture/fused-multiply-add/)
+- [IEEE 754 표준 (IEEE 754 Standard)](/knowledge/computer-architecture/ieee-754-standard/)

@@ -1,5 +1,5 @@
 ---
-title: "MapReduce"
+title: "맵리듀스 (MapReduce)"
 description: "MapReduce는 웨어하우스 스케일 컴퓨터에서 배치 처리를 위한 프로그래밍 프레임워크이다"
 tags: ['Warehouse Scale Computer', 'Distributed Computing', 'Hadoop', 'Batch Processing', 'Parallel Computing']
 created: 2026-02-15
@@ -57,7 +57,7 @@ MapReduce 런타임이 자동으로:
 
 ## 관련 개념
 
-- [Warehouse Scale Computer](/knowledge/computer-architecture/warehouse-scale-computer/)
-- [Cluster](/knowledge/computer-architecture/cluster/)
-- [Message Passing](/knowledge/computer-architecture/message-passing/)
-- [Strong Scaling](/knowledge/computer-architecture/strong-scaling/)
+- [창고 규모 컴퓨터 (WSC)](/knowledge/computer-architecture/warehouse-scale-computer/)
+- [클러스터 (Cluster)](/knowledge/computer-architecture/cluster/)
+- [메시지 전달 (Message Passing)](/knowledge/computer-architecture/message-passing/)
+- [강한 확장성 (Strong Scaling)](/knowledge/computer-architecture/strong-scaling/)

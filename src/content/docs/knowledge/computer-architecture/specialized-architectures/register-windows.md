@@ -1,5 +1,5 @@
 ---
-title: "Register Windows"
+title: "레지스터 윈도우 (Register Windows)"
 description: "레지스터 윈도우(Register Windows)는 프로시저 호출 시 레지스터 트래픽을 줄이기 위한 최적화 기법으로, 여러 뱅크의 레지스터를 사용하여 각 프로시저 호출 시 새로운 뱅크를 할당하고, 순환 버퍼로 운영한다"
 tags: ['Register Windows', 'Sparc', 'Procedure Call', 'Register File']
 created: 2026-02-15
@@ -63,6 +63,6 @@ func_a() {
 
 ## 관련 개념
 
-- [RISC Architecture](/knowledge/computer-architecture/risc-architecture/)
-- [Register File](/knowledge/computer-architecture/register-file/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
+- [RISC 아키텍처 (RISC Architecture)](/knowledge/computer-architecture/risc-architecture/)
+- [레지스터 파일 (Register File)](/knowledge/computer-architecture/register-file/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)

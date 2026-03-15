@@ -1,5 +1,5 @@
 ---
-title: "SIMD Multimedia Extensions"
+title: "SIMD 멀티미디어 확장 (SIMD Multimedia Extensions)"
 description: "SIMD(Single-Instruction Multiple-Data) 멀티미디어 확장은 하나의 레지스터를 여러 개의 좁은 데이터 항목으로 취급하여 병렬로 산술/논리 연산을 수행하는 명령어 집합 확장이다"
 tags: ['Simd', 'Multimedia', 'Sse', 'Neon', 'Vector Processing']
 created: 2026-02-15
@@ -58,6 +58,6 @@ SIMD 덧셈 예시 (4 × 32비트):
 
 ## 관련 개념
 
-- [RISC Architecture](/knowledge/computer-architecture/risc-architecture/)
-- [x86 Architecture](/knowledge/computer-architecture/x86-architecture/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
+- [RISC 아키텍처 (RISC Architecture)](/knowledge/computer-architecture/risc-architecture/)
+- [x86 아키텍처 (x86 Architecture)](/knowledge/computer-architecture/x86-architecture/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)

@@ -1,5 +1,5 @@
 ---
-title: "Tag"
+title: "태그 (Tag)"
 description: "태그(Tag)는 메모리 계층구조의 테이블에서 사용되는 필드로, 해당 블록이 요청된 워드에 대응하는지 식별하는 데 필요한 주소 정보를 포함한다"
 tags: ['Cache', 'Memory Hierarchy', 'Address', 'Direct Mapped', 'Identification']
 created: 2026-02-15
@@ -30,7 +30,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Direct-Mapped Cache](/knowledge/computer-architecture/direct-mapped-cache/)
-- [Valid Bit](/knowledge/computer-architecture/valid-bit/)
-- [Set-Associative Cache](/knowledge/computer-architecture/set-associative-cache/)
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
+- [직접 사상 캐시 (Direct-Mapped Cache)](/knowledge/computer-architecture/direct-mapped-cache/)
+- [유효 비트 (Valid Bit)](/knowledge/computer-architecture/valid-bit/)
+- [집합 연관 캐시 (Set-Associative Cache)](/knowledge/computer-architecture/set-associative-cache/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)

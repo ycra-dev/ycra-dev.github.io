@@ -1,5 +1,5 @@
 ---
-title: "IEEE 754 Standard"
+title: "IEEE 754 표준 (IEEE 754 Standard)"
 description: "IEEE 754는 1980년 이후 만들어진 거의 모든 컴퓨터에서 사용되는 부동소수점 산술의 국제 표준으로, 부동소수점 수의 표현 형식과 연산 규칙을 정의한다"
 tags: ['Floating Point', 'Standard', 'Precision', 'Rounding', 'Nan', 'Infinity']
 created: 2026-02-15
@@ -36,7 +36,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Floating Point](/knowledge/computer-architecture/floating-point/)
-- [Single Precision](/knowledge/computer-architecture/single-precision/)
-- [Double Precision](/knowledge/computer-architecture/double-precision/)
-- [Guard Bit and Round Bit](/knowledge/computer-architecture/guard-bit-and-round-bit/)
+- [부동소수점 (Floating Point)](/knowledge/computer-architecture/floating-point/)
+- [단정밀도 (Single Precision)](/knowledge/computer-architecture/single-precision/)
+- [배정밀도 (Double Precision)](/knowledge/computer-architecture/double-precision/)
+- [가드 비트와 라운드 비트 (Guard Bit and Round Bit)](/knowledge/computer-architecture/guard-bit-and-round-bit/)

@@ -1,5 +1,5 @@
 ---
-title: "Load-Store Architecture"
+title: "로드-스토어 아키텍처 (Load-Store Architecture)"
 description: "로드-스토어 아키텍처(Load-Store Architecture)는 모든 연산이 레지스터 간에 이루어지며, 데이터 메모리는 오직 로드와 스토어 명령어를 통해서만 접근할 수 있는 명령어 세트 아키텍처이다"
 tags: ['Risc', 'Instruction Set Architecture', 'Register Register', 'Mips']
 created: 2026-02-15
@@ -29,6 +29,6 @@ sw   $t2, 8($s0)    # 레지스터 → 메모리 (스토어)
 
 ## 관련 개념
 
-- [RISC-V Instruction Set](/knowledge/computer-architecture/risc-v-instruction-set/)
-- [x86 Instruction Set](/knowledge/computer-architecture/x86-instruction-set/)
-- [ARMv7 Instruction Set](/knowledge/computer-architecture/armv7-instruction-set/)
+- [RISC-V 명령어 집합 (RISC-V Instruction Set)](/knowledge/computer-architecture/risc-v-instruction-set/)
+- [x86 명령어 집합 (x86 Instruction Set)](/knowledge/computer-architecture/x86-instruction-set/)
+- [ARMv7 명령어 집합 (ARMv7 Instruction Set)](/knowledge/computer-architecture/armv7-instruction-set/)

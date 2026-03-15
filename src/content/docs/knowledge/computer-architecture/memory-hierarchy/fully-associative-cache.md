@@ -1,5 +1,5 @@
 ---
-title: "Fully Associative Cache"
+title: "완전 연관 캐시 (Fully Associative Cache)"
 description: "완전 연관 캐시(Fully Associative Cache)는 메모리 블록이 캐시의 어느 위치에든 배치될 수 있는 캐시 구조이다"
 tags: ['Cache', 'Associativity', 'Memory Hierarchy', 'Cam', 'Search']
 created: 2026-02-15
@@ -36,8 +36,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Set-Associative Cache](/knowledge/computer-architecture/set-associative-cache/)
-- [Direct-Mapped Cache](/knowledge/computer-architecture/direct-mapped-cache/)
-- [Least Recently Used](/knowledge/computer-architecture/least-recently-used/)
-- [Translation Lookaside Buffer](/knowledge/computer-architecture/translation-lookaside-buffer/)
-- [Tag](/knowledge/computer-architecture/tag/)
+- [집합 연관 캐시 (Set-Associative Cache)](/knowledge/computer-architecture/set-associative-cache/)
+- [직접 사상 캐시 (Direct-Mapped Cache)](/knowledge/computer-architecture/direct-mapped-cache/)
+- [LRU (최근 최소 사용)](/knowledge/computer-architecture/least-recently-used/)
+- [TLB (변환 색인 버퍼)](/knowledge/computer-architecture/translation-lookaside-buffer/)
+- [태그 (Tag)](/knowledge/computer-architecture/tag/)

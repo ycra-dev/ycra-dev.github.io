@@ -1,5 +1,5 @@
 ---
-title: "Load-Use Data Hazard"
+title: "로드-사용 데이터 해저드 (Load-Use Data Hazard)"
 description: "로드-사용 데이터 해저드(Load-Use Data Hazard)는 load 명령어에 의해 로드되는 데이터가 바로 다음 명령어에서 필요하지만, 아직 사용 가능하지 않은 특수한 형태의 데이터 해저드이다"
 tags: ['Data Hazard', 'Pipeline Stall', 'Load Instruction', 'Forwarding']
 created: 2026-02-15
@@ -28,7 +28,7 @@ add $t3, $t1, $t2  # 이제 스톨 없음 (포워딩으로 해결 가능)
 
 ## 관련 개념
 
-- [Data Hazard](/knowledge/computer-architecture/data-hazard/)
-- [Forwarding](/knowledge/computer-architecture/forwarding/)
-- [Pipeline Stall](/knowledge/computer-architecture/pipeline-stall/)
-- [Hazard Detection Unit](/knowledge/computer-architecture/hazard-detection-unit/)
+- [데이터 해저드 (Data Hazard)](/knowledge/computer-architecture/data-hazard/)
+- [포워딩 (Forwarding)](/knowledge/computer-architecture/forwarding/)
+- [파이프라인 스톨 (Pipeline Stall)](/knowledge/computer-architecture/pipeline-stall/)
+- [해저드 검출 유닛 (Hazard Detection Unit)](/knowledge/computer-architecture/hazard-detection-unit/)

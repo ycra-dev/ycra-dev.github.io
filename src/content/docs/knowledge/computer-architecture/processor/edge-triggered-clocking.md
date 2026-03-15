@@ -1,5 +1,5 @@
 ---
-title: "Edge-Triggered Clocking"
+title: "에지 트리거 클로킹 (Edge-Triggered Clocking)"
 description: "에지 트리거 클로킹(Edge-Triggered Clocking)은 모든 상태 변화가 클록 에지(상승 또는 하강)에서만 발생하는 클로킹 방식이다"
 tags: ['Clocking Methodology', 'Digital Logic', 'Synchronous Design']
 created: 2026-02-15
@@ -45,10 +45,10 @@ Clock Edge: ___/‾‾‾  (상승 에지에서 상태 업데이트)
 
 ## 관련 개념
 
-- [State Element](/knowledge/computer-architecture/state-element/)
-- [Combinational Element](/knowledge/computer-architecture/combinational-element/)
-- [Datapath](/knowledge/computer-architecture/datapath/)
-- [Pipeline Register](/knowledge/computer-architecture/pipeline-register/)
-- [Flip-Flop](/knowledge/computer-architecture/flip-flop/)
-- [Clock Skew](/knowledge/computer-architecture/clock-skew/)
-- [Sequential Logic](/knowledge/computer-architecture/sequential-logic/)
+- [상태 소자 (State Element)](/knowledge/computer-architecture/state-element/)
+- [조합 소자 (Combinational Element)](/knowledge/computer-architecture/combinational-element/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)
+- [파이프라인 레지스터 (Pipeline Register)](/knowledge/computer-architecture/pipeline-register/)
+- [플립플롭 (Flip-Flop)](/knowledge/computer-architecture/flip-flop/)
+- [클록 스큐 (Clock Skew)](/knowledge/computer-architecture/clock-skew/)
+- [순차 논리 (Sequential Logic)](/knowledge/computer-architecture/sequential-logic/)

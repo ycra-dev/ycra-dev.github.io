@@ -1,5 +1,5 @@
 ---
-title: "Combinational Logic"
+title: "조합 논리 (Combinational Logic)"
 description: "조합 논리(Combinational Logic)는 메모리를 포함하지 않는 논리 블록으로, 출력이 현재 입력 값에만 의존하며, 동일한 입력에 대해 항상 동일한 출력을 생성한다"
 tags: ['Logic Design', 'Decoder', 'Multiplexor', 'Pla', 'Boolean Algebra']
 created: 2026-02-15
@@ -34,8 +34,8 @@ PLA 구조:
 
 ## 관련 개념
 
-- [Boolean Algebra](/knowledge/computer-architecture/boolean-algebra/)
-- [Decoder](/knowledge/computer-architecture/decoder/)
-- [Multiplexor](/knowledge/computer-architecture/multiplexor/)
-- [Programmable Logic Array](/knowledge/computer-architecture/programmable-logic-array/)
-- [Sequential Logic](/knowledge/computer-architecture/sequential-logic/)
+- [불 대수 (Boolean Algebra)](/knowledge/computer-architecture/boolean-algebra/)
+- [디코더 (Decoder)](/knowledge/computer-architecture/decoder/)
+- [멀티플렉서 (Multiplexor)](/knowledge/computer-architecture/multiplexor/)
+- [PLA (프로그래머블 논리 배열)](/knowledge/computer-architecture/programmable-logic-array/)
+- [순차 논리 (Sequential Logic)](/knowledge/computer-architecture/sequential-logic/)

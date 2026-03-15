@@ -1,5 +1,5 @@
 ---
-title: "Reorder Buffer"
+title: "리오더 버퍼 (Reorder Buffer)"
 description: "리오더 버퍼(Reorder Buffer)는 동적 스케줄링 프로세서에서 결과를 메모리나 레지스터에 안전하게 저장할 수 있을 때까지 버퍼링하는 장치이다"
 tags: ['Out Of Order', 'Dynamic Scheduling', 'Commit', 'Speculation', 'Pipeline']
 created: 2026-02-15
@@ -33,9 +33,9 @@ sidebar:
 
 ## 관련 개념
 
-- [Out-of-Order Execution](/knowledge/computer-architecture/out-of-order-execution/)
-- [In-Order Commit](/knowledge/computer-architecture/in-order-commit/)
-- [Reservation Station](/knowledge/computer-architecture/reservation-station/)
-- [Speculation](/knowledge/computer-architecture/speculation/)
-- [Register Renaming](/knowledge/computer-architecture/register-renaming/)
-- [Precise Interrupt](/knowledge/computer-architecture/precise-interrupt/)
+- [비순차 실행 (Out-of-Order Execution)](/knowledge/computer-architecture/out-of-order-execution/)
+- [순서 커밋 (In-Order Commit)](/knowledge/computer-architecture/in-order-commit/)
+- [예약 스테이션 (Reservation Station)](/knowledge/computer-architecture/reservation-station/)
+- [투기적 실행 (Speculation)](/knowledge/computer-architecture/speculation/)
+- [레지스터 리네이밍 (Register Renaming)](/knowledge/computer-architecture/register-renaming/)
+- [정확한 인터럽트 (Precise Interrupt)](/knowledge/computer-architecture/precise-interrupt/)

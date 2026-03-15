@@ -1,5 +1,5 @@
 ---
-title: "Grid"
+title: "그리드 (Grid)"
 description: "그리드(Grid)는 동일한 커널 프로그램을 실행하는 스레드 블록들의 집합으로, 각 블록은 독립적으로 실행될 수 있어 병렬 또는 직렬로 처리 가능하다"
 tags: ['Grid', 'Cuda', 'Thread Hierarchy', 'Parallel Programming']
 created: 2026-02-15
@@ -55,8 +55,8 @@ processImage<<<gridDim, blockDim>>>(image, width, height);
 
 ## 관련 개념
 
-- [Thread Block](/knowledge/computer-architecture/thread-block/)
-- [Kernel](/knowledge/computer-architecture/kernel/)
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [SPMD](/knowledge/computer-architecture/spmd/)
-- [Synchronization Barrier](/knowledge/computer-architecture/synchronization-barrier/)
+- [스레드 블록 (Thread Block)](/knowledge/computer-architecture/thread-block/)
+- [커널 (Kernel)](/knowledge/computer-architecture/kernel/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [SPMD (단일 프로그램 다중 데이터)](/knowledge/computer-architecture/spmd/)
+- [동기화 장벽 (Synchronization Barrier)](/knowledge/computer-architecture/synchronization-barrier/)

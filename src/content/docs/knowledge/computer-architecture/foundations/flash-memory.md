@@ -1,5 +1,5 @@
 ---
-title: "Flash Memory"
+title: "플래시 메모리 (Flash Memory)"
 description: "플래시 메모리(Flash Memory)는 비휘발성 반도체 메모리로, DRAM보다 저렴하고 느리지만 자기 디스크보다 비싸고 빠르며, 전원이 꺼져도 데이터를 유지한다"
 tags: ['Nonvolatile Memory', 'Storage', 'Secondary Memory', 'Semiconductor', 'Nand']
 created: 2026-02-15
@@ -29,6 +29,6 @@ SRAM (캐시) → DRAM (메인 메모리) → 플래시 → 자기 디스크
 
 ## 관련 개념
 
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [DRAM](/knowledge/computer-architecture/dram/)
-- [Volatile Memory](/knowledge/computer-architecture/volatile-memory/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [DRAM (동적 랜덤 액세스 메모리)](/knowledge/computer-architecture/dram/)
+- [휘발성 메모리 (Volatile Memory)](/knowledge/computer-architecture/volatile-memory/)

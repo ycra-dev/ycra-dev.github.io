@@ -1,5 +1,5 @@
 ---
-title: "Swap Space"
+title: "스왑 공간 (Swap Space)"
 description: "스왑 공간은 프로세스의 전체 가상 메모리 공간을 위해 디스크에 예약된 공간이다"
 tags: ['Virtual Memory', 'Disk', 'Page Fault', 'Operating System', 'Secondary Storage']
 created: 2026-02-15
@@ -36,7 +36,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [Page Fault](/knowledge/computer-architecture/page-fault/)
-- [Page Table](/knowledge/computer-architecture/page-table/)
-- [Write-Back](/knowledge/computer-architecture/write-back/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [페이지 폴트 (Page Fault)](/knowledge/computer-architecture/page-fault/)
+- [페이지 테이블 (Page Table)](/knowledge/computer-architecture/page-table/)
+- [후기입 (Write-Back)](/knowledge/computer-architecture/write-back/)

@@ -1,5 +1,5 @@
 ---
-title: "Polling"
+title: "폴링 (Polling)"
 description: "폴링(polling)은 I/O 장치의 상태 비트를 주기적으로 확인하여 서비스가 필요한지 판단하는 프로세스이다"
 tags: ['Input Output', 'Interrupt', 'Performance', 'Latency', 'Device Driver']
 created: 2026-02-15
@@ -54,6 +54,6 @@ NIC RX: 1.8~2.5 μs
 
 ## 관련 개념
 
-- [Direct Memory Access](/knowledge/computer-architecture/direct-memory-access/)
-- [Memory-Mapped I/O](/knowledge/computer-architecture/memory-mapped-io/)
-- [Context Switch](/knowledge/computer-architecture/context-switch/)
+- [DMA (직접 메모리 접근)](/knowledge/computer-architecture/direct-memory-access/)
+- [메모리 맵 입출력 (Memory-Mapped I/O)](/knowledge/computer-architecture/memory-mapped-io/)
+- [문맥 교환 (Context Switch)](/knowledge/computer-architecture/context-switch/)

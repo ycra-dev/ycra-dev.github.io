@@ -1,5 +1,5 @@
 ---
-title: "Special Function Unit (SFU)"
+title: "SFU (특수 함수 유닛)"
 description: "SFU(Special Function Unit)는 GPU에서 특수 함수를 계산하고 평면 속성을 보간하는 전용 하드웨어 유닛이다"
 tags: ['Sfu', 'GPU Hardware', 'Special Function', 'Floating Point']
 created: 2026-02-15
@@ -50,7 +50,7 @@ sin/cos       | 2^(-21.41)     | 21.41
 
 ## 관련 개념
 
-- [Streaming Processor](/knowledge/computer-architecture/streaming-processor/)
-- [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)
-- [MIP-map](/knowledge/computer-architecture/mip-map/)
-- [Shader](/knowledge/computer-architecture/shader/)
+- [SP (스트리밍 프로세서)](/knowledge/computer-architecture/streaming-processor/)
+- [SM (스트리밍 멀티프로세서)](/knowledge/computer-architecture/streaming-multiprocessor/)
+- [밉맵 (MIP-map)](/knowledge/computer-architecture/mip-map/)
+- [셰이더 (Shader)](/knowledge/computer-architecture/shader/)

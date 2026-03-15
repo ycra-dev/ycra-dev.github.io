@@ -1,5 +1,5 @@
 ---
-title: "Instruction Set"
+title: "명령어 집합 (Instruction Set)"
 description: "명령어 집합(Instruction Set)은 주어진 아키텍처가 이해하는 명령어들의 어휘(vocabulary)로, 컴퓨터 하드웨어에 명령을 내리기 위한 언어이다"
 tags: ['Isa', 'Mips', 'Arm', 'X86', 'Risc V', 'Computer Architecture']
 created: 2026-02-15
@@ -32,8 +32,8 @@ MIPS 명령어 집합의 주요 카테고리:
 
 ## 관련 개념
 
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Assembly Language](/knowledge/computer-architecture/assembly-language/)
-- [Machine Language](/knowledge/computer-architecture/machine-language/)
-- [Compiler](/knowledge/language/compiler/)
-- [Register](/knowledge/computer-architecture/register/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)
+- [어셈블리어 (Assembly Language)](/knowledge/computer-architecture/assembly-language/)
+- [기계어 (Machine Language)](/knowledge/computer-architecture/machine-language/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)

@@ -1,5 +1,5 @@
 ---
-title: "Supervisor Mode"
+title: "관리자 모드 (Supervisor Mode)"
 description: "슈퍼바이저 모드(커널 모드)는 실행 중인 프로세스가 운영체제 프로세스임을 나타내는 프로세서 모드이다"
 tags: ['Operating System', 'Protection', 'Virtual Memory', 'System Call', 'Privilege Level']
 created: 2026-02-15
@@ -43,8 +43,8 @@ eret                       # Return from Exception
 
 ## 관련 개념
 
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [System Call](/knowledge/computer-architecture/system-call/)
-- [Virtual Machine Monitor](/knowledge/computer-architecture/virtual-machine-monitor/)
-- [Context Switch](/knowledge/computer-architecture/context-switch/)
-- [Page Table](/knowledge/computer-architecture/page-table/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [시스템 호출 (System Call)](/knowledge/computer-architecture/system-call/)
+- [가상 머신 모니터 (VMM)](/knowledge/computer-architecture/virtual-machine-monitor/)
+- [문맥 교환 (Context Switch)](/knowledge/computer-architecture/context-switch/)
+- [페이지 테이블 (Page Table)](/knowledge/computer-architecture/page-table/)

@@ -1,5 +1,5 @@
 ---
-title: "Memory Affinity"
+title: "메모리 친화성 (Memory Affinity)"
 description: "메모리 친화성(Memory Affinity)은 데이터와 해당 데이터를 처리하는 스레드를 동일한 메모리-프로세서 쌍에 할당하여 원격 메모리 접근을 최소화하는 최적화 기법이다"
 tags: ['Numa', 'Memory Optimization', 'Multiprocessor', 'Roofline Model']
 created: 2026-02-15
@@ -32,6 +32,6 @@ Opteron X2 예시:
 
 ## 관련 개념
 
-- [Roofline Model](/knowledge/computer-architecture/roofline-model/)
-- [Software Prefetching](/knowledge/computer-architecture/software-prefetching/)
-- [Multiprocessor](/knowledge/computer-architecture/multiprocessor/)
+- [루프라인 모델 (Roofline Model)](/knowledge/computer-architecture/roofline-model/)
+- [소프트웨어 프리페칭 (Software Prefetching)](/knowledge/computer-architecture/software-prefetching/)
+- [멀티프로세서 (Multiprocessor)](/knowledge/computer-architecture/multiprocessor/)

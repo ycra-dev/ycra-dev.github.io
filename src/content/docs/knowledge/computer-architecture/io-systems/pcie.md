@@ -1,5 +1,5 @@
 ---
-title: "PCIe"
+title: "PCIe (PCI Express)"
 description: "PCIe(Peripheral Component Interconnect Express)는 프로세서와 고속 I/O 장치를 연결하는 고속 직렬 링크이다"
 tags: ['Input Output', 'Interconnect', 'Serial Link', 'Dma', 'Peripheral']
 created: 2026-02-15
@@ -47,6 +47,6 @@ PCIe (현재):  레인당 4개 직렬 와이어, 포인트-투-포인트
 
 ## 관련 개념
 
-- [Direct Memory Access](/knowledge/computer-architecture/direct-memory-access/)
-- [Memory-Mapped I/O](/knowledge/computer-architecture/memory-mapped-io/)
-- [Polling](/knowledge/computer-architecture/polling/)
+- [DMA (직접 메모리 접근)](/knowledge/computer-architecture/direct-memory-access/)
+- [메모리 맵 입출력 (Memory-Mapped I/O)](/knowledge/computer-architecture/memory-mapped-io/)
+- [폴링 (Polling)](/knowledge/computer-architecture/polling/)

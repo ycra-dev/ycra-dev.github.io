@@ -1,5 +1,5 @@
 ---
-title: "Multicore Processor"
+title: "멀티코어 프로세서 (Multicore Processor)"
 description: "멀티코어 프로세서(Multicore Processor)는 단일 집적회로 내에 여러 개의 프로세서(코어)를 포함하는 마이크로프로세서이다"
 tags: ['Parallelism', 'Processor', 'Thread Level Parallelism', 'Power Wall', 'Performance']
 created: 2026-02-15
@@ -31,7 +31,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Dynamic Power Consumption](/knowledge/computer-architecture/dynamic-power-consumption/)
-- [Instruction-Level Parallelism](/knowledge/computer-architecture/instruction-level-parallelism/)
-- [Throughput](/knowledge/computer-architecture/throughput/)
-- [Data Race](/knowledge/computer-architecture/data-race/)
+- [동적 전력 소비 (Dynamic Power Consumption)](/knowledge/computer-architecture/dynamic-power-consumption/)
+- [명령어 수준 병렬성 (ILP)](/knowledge/computer-architecture/instruction-level-parallelism/)
+- [처리율 (Throughput)](/knowledge/computer-architecture/throughput/)
+- [데이터 경쟁 (Data Race)](/knowledge/computer-architecture/data-race/)

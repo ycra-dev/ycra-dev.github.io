@@ -1,5 +1,5 @@
 ---
-title: "Pseudoinstruction"
+title: "의사 명령어 (Pseudoinstruction)"
 description: "의사명령어(Pseudoinstruction)는 실제 하드웨어에는 구현되어 있지 않지만, 어셈블러가 하나 이상의 실제 기계어 명령어로 변환하여 처리하는 어셈블리 언어 명령어이다"
 tags: ['Assembly Language', 'Assembler', 'Mips', 'Instruction Set']
 created: 2026-02-15
@@ -33,5 +33,5 @@ bne $at, $zero, Label  # branch if $at != 0
 
 ## 관련 개념
 
-- [Assembly Language](/knowledge/computer-architecture/assembly-language/)
-- [Assembler](/knowledge/language/assembler/)
+- [어셈블리어 (Assembly Language)](/knowledge/computer-architecture/assembly-language/)
+- [어셈블러 (Assembler)](/knowledge/language/assembler/)

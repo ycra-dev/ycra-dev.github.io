@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Random Access Memory"
+title: "DRAM (동적 랜덤 액세스 메모리)"
 description: "DRAM(Dynamic Random Access Memory)은 집적회로로 구현된 휘발성 메모리로, 어떤 위치든 거의 동일한 시간에 접근할 수 있는 랜덤 액세스 특성을 가지며, 컴퓨터의 메인 메모리에 주로 사용된다"
 tags: ['Memory', 'Main Memory', 'Volatile', 'Integrated Circuit', 'Storage']
 created: 2026-02-15
@@ -54,10 +54,10 @@ DDR: 상승+하강 에지 전송 → 2배 대역폭
 
 ## 관련 개념
 
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
-- [SRAM](/knowledge/computer-architecture/sram/)
-- [Flash Memory](/knowledge/computer-architecture/flash-memory/)
-- [Volatile Memory](/knowledge/computer-architecture/volatile-memory/)
-- [High Bandwidth Memory](/knowledge/computer-architecture/high-bandwidth-memory/)
-- [Error Detection Code](/knowledge/computer-architecture/error-detection-code/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)
+- [SRAM (정적 랜덤 액세스 메모리)](/knowledge/computer-architecture/sram/)
+- [플래시 메모리 (Flash Memory)](/knowledge/computer-architecture/flash-memory/)
+- [휘발성 메모리 (Volatile Memory)](/knowledge/computer-architecture/volatile-memory/)
+- [HBM (고대역폭 메모리)](/knowledge/computer-architecture/high-bandwidth-memory/)
+- [오류 검출 코드 (Error Detection Code)](/knowledge/computer-architecture/error-detection-code/)

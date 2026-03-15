@@ -1,5 +1,5 @@
 ---
-title: "Three Cs Model"
+title: "3C 모델 (Three Cs Model)"
 description: "Three Cs 모델은 모든 캐시 미스를 세 가지 범주로 분류하는 캐시 모델이다: 강제 미스(compulsory miss), 용량 미스(capacity miss), 충돌 미스(conflict miss)"
 tags: ['Cache', 'Miss Rate', 'Compulsory Miss', 'Capacity Miss', 'Conflict Miss']
 created: 2026-02-15
@@ -40,6 +40,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Cache Coherence](/knowledge/computer-architecture/cache-coherence/)
-- [Translation Lookaside Buffer](/knowledge/computer-architecture/translation-lookaside-buffer/)
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
+- [캐시 일관성 (Cache Coherence)](/knowledge/computer-architecture/cache-coherence/)
+- [TLB (변환 색인 버퍼)](/knowledge/computer-architecture/translation-lookaside-buffer/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)

@@ -1,5 +1,5 @@
 ---
-title: "Hardware Description Language"
+title: "하드웨어 기술 언어 (HDL)"
 description: "하드웨어 기술 언어(HDL)는 디지털 하드웨어의 동작과 구조를 기술하기 위한 프로그래밍 언어로, 시뮬레이션/디버깅과 논리 합성을 통한 실제 하드웨어 구현이라는 두 가지 목적으로 사용된다"
 tags: ['Verilog', 'Vhdl', 'Logic Design', 'Hardware Synthesis', 'Digital Design']
 created: 2026-02-15
@@ -39,5 +39,5 @@ assign CarryOut = (A & B) | (A & CarryIn) | (B & CarryIn);
 
 ## 관련 개념
 
-- [Combinational Logic](/knowledge/computer-architecture/combinational-logic/)
-- [Sequential Logic](/knowledge/computer-architecture/sequential-logic/)
+- [조합 논리 (Combinational Logic)](/knowledge/computer-architecture/combinational-logic/)
+- [순차 논리 (Sequential Logic)](/knowledge/computer-architecture/sequential-logic/)

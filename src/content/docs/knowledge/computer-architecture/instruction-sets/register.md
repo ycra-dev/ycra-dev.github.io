@@ -1,5 +1,5 @@
 ---
-title: "Register"
+title: "레지스터 (Register)"
 description: "레지스터(Register)는 하드웨어에 직접 구축된 제한된 수의 특수한 고속 저장 위치로, 프로세서가 산술 연산의 피연산자로 직접 사용한다"
 tags: ['Hardware', 'CPU', 'Operand', 'Fast Storage', 'Mips']
 created: 2026-02-15
@@ -33,8 +33,8 @@ $ra (31번): 리턴 주소
 
 ## 관련 개념
 
-- [Datapath](/knowledge/computer-architecture/datapath/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Instruction Set](/knowledge/computer-architecture/instruction-set/)
-- [Stack](/knowledge/computer-architecture/stack/)
-- [Data Transfer Instruction](/knowledge/computer-architecture/data-transfer-instruction/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [명령어 집합 (Instruction Set)](/knowledge/computer-architecture/instruction-set/)
+- [스택 (Stack)](/knowledge/computer-architecture/stack/)
+- [데이터 전송 명령어 (Data Transfer Instruction)](/knowledge/computer-architecture/data-transfer-instruction/)

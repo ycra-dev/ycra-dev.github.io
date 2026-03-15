@@ -1,5 +1,5 @@
 ---
-title: "Field Programmable Gate Array (FPGA)"
+title: "FPGA (필드 프로그래머블 게이트 어레이)"
 description: "FPGA(Field Programmable Gate Array)는 조합 논리 블록과 플립플롭을 모두 포함하는 구성 가능한 집적 회로로, 최종 사용자가 하드웨어 기능을 프로그래밍할 수 있다"
 tags: ['Fpga', 'Programmable Logic', 'Digital Design', 'Reconfigurable Computing']
 created: 2026-02-15
@@ -41,6 +41,6 @@ endmodule
 
 ## 관련 개념
 
-- [Antifuse](/knowledge/computer-architecture/antifuse/)
-- [Combinational Element](/knowledge/computer-architecture/combinational-element/)
-- [State Element](/knowledge/computer-architecture/state-element/)
+- [안티퓨즈 (Antifuse)](/knowledge/computer-architecture/antifuse/)
+- [조합 소자 (Combinational Element)](/knowledge/computer-architecture/combinational-element/)
+- [상태 소자 (State Element)](/knowledge/computer-architecture/state-element/)

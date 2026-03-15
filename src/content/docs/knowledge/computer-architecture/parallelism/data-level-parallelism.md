@@ -1,5 +1,5 @@
 ---
-title: "Data-Level Parallelism"
+title: "데이터 수준 병렬성 (Data-Level Parallelism)"
 description: "데이터 수준 병렬성(Data-Level Parallelism, DLP)은 독립적인 데이터에 대해 동일한 연산을 수행함으로써 달성되는 병렬성이다"
 tags: ['Simd', 'Vector Architecture', 'Parallel Computing', 'GPU', 'Array Processing']
 created: 2026-02-15
@@ -39,7 +39,7 @@ for (i = 1; i < 1000; i++)
 
 ## 관련 개념
 
-- [SIMD](/knowledge/computer-architecture/simd/)
-- [Vector Architecture](/knowledge/computer-architecture/vector-architecture/)
-- [GPU](/knowledge/computer-architecture/gpu/)
-- [Strong Scaling](/knowledge/computer-architecture/strong-scaling/)
+- [SIMD (단일 명령어 다중 데이터)](/knowledge/computer-architecture/simd/)
+- [벡터 아키텍처 (Vector Architecture)](/knowledge/computer-architecture/vector-architecture/)
+- [GPU (그래픽 처리 장치)](/knowledge/computer-architecture/gpu/)
+- [강한 확장성 (Strong Scaling)](/knowledge/computer-architecture/strong-scaling/)

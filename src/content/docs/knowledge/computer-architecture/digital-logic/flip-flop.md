@@ -1,5 +1,5 @@
 ---
-title: "Flip-Flop"
+title: "플립플롭 (Flip-Flop)"
 description: "플립플롭(Flip-Flop)은 클럭 에지에서만 내부 상태가 변경되는 메모리 요소로, 출력이 저장된 상태 값과 같으며, 래치와 달리 투명하지 않다(not transparent)"
 tags: ['Memory Element', 'Sequential Logic', 'D Flip Flop', 'Latch', 'State Element']
 created: 2026-02-15
@@ -40,7 +40,7 @@ endmodule
 
 ## 관련 개념
 
-- [Edge-Triggered Clocking](/knowledge/computer-architecture/edge-triggered-clocking/)
-- [Register File](/knowledge/computer-architecture/register-file/)
-- [Sequential Logic](/knowledge/computer-architecture/sequential-logic/)
-- [SRAM](/knowledge/computer-architecture/sram/)
+- [에지 트리거 클로킹 (Edge-Triggered Clocking)](/knowledge/computer-architecture/edge-triggered-clocking/)
+- [레지스터 파일 (Register File)](/knowledge/computer-architecture/register-file/)
+- [순차 논리 (Sequential Logic)](/knowledge/computer-architecture/sequential-logic/)
+- [SRAM (정적 랜덤 액세스 메모리)](/knowledge/computer-architecture/sram/)

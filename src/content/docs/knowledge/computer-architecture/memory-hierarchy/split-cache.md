@@ -1,5 +1,5 @@
 ---
-title: "Split Cache"
+title: "분리 캐시 (Split Cache)"
 description: "분리 캐시(Split Cache)는 메모리 계층구조의 한 수준이 명령어 캐시와 데이터 캐시로 분리되어 병렬로 동작하는 구조이다"
 tags: ['Cache', 'Pipeline', 'Bandwidth', 'Instruction Cache', 'Data Cache']
 created: 2026-02-15
@@ -34,7 +34,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
-- [Structural Hazard](/knowledge/computer-architecture/structural-hazard/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
-- [Direct-Mapped Cache](/knowledge/computer-architecture/direct-mapped-cache/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)
+- [구조적 해저드 (Structural Hazard)](/knowledge/computer-architecture/structural-hazard/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)
+- [직접 사상 캐시 (Direct-Mapped Cache)](/knowledge/computer-architecture/direct-mapped-cache/)

@@ -1,5 +1,5 @@
 ---
-title: "Stack"
+title: "스택 (Stack)"
 description: "스택(Stack)은 레지스터를 메모리로 스필(spill)하기 위한 LIFO(Last-In-First-Out, 후입선출) 데이터 구조로, 프로시저 호출에서 레지스터 보존과 지역 변수 저장에 사용된다"
 tags: ['Data Structure', 'Procedure', 'Memory', 'Lifo', 'Stack Pointer', 'Mips']
 created: 2026-02-15
@@ -41,7 +41,7 @@ MIPS 메모리 레이아웃:
 
 ## 관련 개념
 
-- [Procedure Call](/knowledge/computer-architecture/procedure-call/)
-- [Register](/knowledge/computer-architecture/register/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Program Counter](/knowledge/computer-architecture/program-counter/)
+- [프로시저 호출 (Procedure Call)](/knowledge/computer-architecture/procedure-call/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [프로그램 카운터 (Program Counter)](/knowledge/computer-architecture/program-counter/)

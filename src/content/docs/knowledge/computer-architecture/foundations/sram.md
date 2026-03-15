@@ -1,5 +1,5 @@
 ---
-title: "Static Random Access Memory"
+title: "SRAM (정적 랜덤 액세스 메모리)"
 description: "SRAM(Static Random Access Memory)은 집적회로로 구현된 메모리로, DRAM보다 빠르지만 밀도가 낮고 비용이 높으며, 주로 캐시 메모리에 사용된다"
 tags: ['Memory', 'Cache', 'Integrated Circuit', 'Volatile', 'Fast Memory']
 created: 2026-02-15
@@ -54,8 +54,8 @@ SRAM 내부 구조 (4x2 SRAM 예시):
 
 ## 관련 개념
 
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
-- [DRAM](/knowledge/computer-architecture/dram/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Transistor](/knowledge/computer-architecture/transistor/)
-- [Register File](/knowledge/computer-architecture/register-file/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)
+- [DRAM (동적 랜덤 액세스 메모리)](/knowledge/computer-architecture/dram/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [트랜지스터 (Transistor)](/knowledge/computer-architecture/transistor/)
+- [레지스터 파일 (Register File)](/knowledge/computer-architecture/register-file/)

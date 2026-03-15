@@ -1,5 +1,5 @@
 ---
-title: "Unified Memory Architecture (UMA)"
+title: "UMA (균일 메모리 접근 아키텍처)"
 description: "UMA(Unified Memory Architecture)는 CPU와 GPU가 공통 시스템 메모리를 공유하는 시스템 아키텍처이다"
 tags: ['Uma', 'Memory Architecture', 'GPU', 'Shared Memory']
 created: 2026-02-15
@@ -38,5 +38,5 @@ UMA 시스템:
 
 ## 관련 개념
 
-- [Heterogeneous System](/knowledge/computer-architecture/heterogeneous-system/)
-- [PCI-Express](/knowledge/computer-architecture/pci-express/)
+- [이기종 시스템 (Heterogeneous System)](/knowledge/computer-architecture/heterogeneous-system/)
+- [PCI-Express (PCIe)](/knowledge/computer-architecture/pci-express/)

@@ -1,5 +1,5 @@
 ---
-title: "Structural Hazard"
+title: "구조적 해저드 (Structural Hazard)"
 description: "구조적 해저드(Structural Hazard)는 하드웨어가 동일한 클록 사이클에서 실행하려는 명령어 조합을 지원하지 못할 때 발생하는 파이프라인 해저드이다"
 tags: ['Pipeline Hazard', 'Resource Conflict', 'Hardware']
 created: 2026-02-15
@@ -26,6 +26,6 @@ Inst 4가 명령어를 인출하려고 함 -> 충돌!
 
 ## 관련 개념
 
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
-- [Data Hazard](/knowledge/computer-architecture/data-hazard/)
-- [Control Hazard](/knowledge/computer-architecture/control-hazard/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)
+- [데이터 해저드 (Data Hazard)](/knowledge/computer-architecture/data-hazard/)
+- [제어 해저드 (Control Hazard)](/knowledge/computer-architecture/control-hazard/)

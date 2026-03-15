@@ -1,5 +1,5 @@
 ---
-title: "Thread Block"
+title: "스레드 블록 (Thread Block)"
 description: "스레드 블록(Thread Block)은 동일한 스레드 프로그램을 실행하고 결과를 계산하기 위해 서로 협력할 수 있는 동시 실행 스레드의 집합이다"
 tags: ['Thread Block', 'Cuda', 'GPU Computing', 'Parallel Programming']
 created: 2026-02-15
@@ -58,9 +58,9 @@ matMul<<<grid, block>>>(A, B, C, N);
 
 ## 관련 개념
 
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [Kernel](/knowledge/computer-architecture/kernel/)
-- [Grid](/knowledge/computer-architecture/grid/)
-- [Synchronization Barrier](/knowledge/computer-architecture/synchronization-barrier/)
-- [Cooperative Thread Array](/knowledge/computer-architecture/cooperative-thread-array/)
-- [Warp](/knowledge/computer-architecture/warp/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [커널 (Kernel)](/knowledge/computer-architecture/kernel/)
+- [그리드 (Grid)](/knowledge/computer-architecture/grid/)
+- [동기화 장벽 (Synchronization Barrier)](/knowledge/computer-architecture/synchronization-barrier/)
+- [CTA (협력 스레드 배열)](/knowledge/computer-architecture/cooperative-thread-array/)
+- [워프 (Warp)](/knowledge/computer-architecture/warp/)

@@ -1,5 +1,5 @@
 ---
-title: "Control Unit"
+title: "제어 장치 (Control Unit)"
 description: "제어 유닛(Control Unit)은 명령어의 opcode 필드를 입력으로 받아 데이터패스의 각 기능 유닛과 멀티플렉서를 제어하는 신호를 생성하는 프로세서 구성 요소이다"
 tags: ['Processor', 'Opcode', 'Control Signal', 'Mips', 'Datapath']
 created: 2026-02-15
@@ -27,7 +27,7 @@ beq:      X      0      X        0        0        0      1     01
 
 ## 관련 개념
 
-- [ALU Control](/knowledge/computer-architecture/alu-control/)
-- [Datapath](/knowledge/computer-architecture/datapath/)
-- [Single-Cycle Implementation](/knowledge/computer-architecture/single-cycle-implementation/)
-- [Opcode](/knowledge/computer-architecture/opcode/)
+- [ALU 제어 (ALU Control)](/knowledge/computer-architecture/alu-control/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)
+- [단일 사이클 구현 (Single-Cycle Implementation)](/knowledge/computer-architecture/single-cycle-implementation/)
+- [연산 코드 (Opcode)](/knowledge/computer-architecture/opcode/)

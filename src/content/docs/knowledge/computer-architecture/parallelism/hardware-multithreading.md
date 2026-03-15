@@ -1,5 +1,5 @@
 ---
-title: "Hardware Multithreading"
+title: "하드웨어 멀티스레딩 (Hardware Multithreading)"
 description: "하드웨어 멀티스레딩은 하나의 프로세서에서 여러 스레드가 기능 유닛을 겹치는 방식으로 공유하여 하드웨어 자원 활용률을 높이는 기술이다"
 tags: ['Thread', 'Smt', 'Fine Grained', 'Coarse Grained', 'Processor Utilization']
 created: 2026-02-15
@@ -48,7 +48,7 @@ SMT:
 
 ## 관련 개념
 
-- [Simultaneous Multithreading](/knowledge/computer-architecture/simultaneous-multithreading/)
-- [Multiprocessor](/knowledge/computer-architecture/multiprocessor/)
-- [GPU](/knowledge/computer-architecture/gpu/)
-- [Context Switch](/knowledge/computer-architecture/context-switch/)
+- [동시 멀티스레딩 (SMT)](/knowledge/computer-architecture/simultaneous-multithreading/)
+- [멀티프로세서 (Multiprocessor)](/knowledge/computer-architecture/multiprocessor/)
+- [GPU (그래픽 처리 장치)](/knowledge/computer-architecture/gpu/)
+- [문맥 교환 (Context Switch)](/knowledge/computer-architecture/context-switch/)

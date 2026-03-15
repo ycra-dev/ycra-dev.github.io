@@ -1,5 +1,5 @@
 ---
-title: "Valid Bit"
+title: "유효 비트 (Valid Bit)"
 description: "유효 비트(Valid Bit)는 메모리 계층구조의 테이블에서 해당 블록에 유효한 데이터가 포함되어 있는지를 나타내는 필드이다"
 tags: ['Cache', 'Memory Hierarchy', 'Initialization', 'Tag', 'Control']
 created: 2026-02-15
@@ -33,7 +33,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Tag](/knowledge/computer-architecture/tag/)
-- [Direct-Mapped Cache](/knowledge/computer-architecture/direct-mapped-cache/)
-- [Cache Miss](/knowledge/computer-architecture/cache-miss/)
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
+- [태그 (Tag)](/knowledge/computer-architecture/tag/)
+- [직접 사상 캐시 (Direct-Mapped Cache)](/knowledge/computer-architecture/direct-mapped-cache/)
+- [캐시 미스 (Cache Miss)](/knowledge/computer-architecture/cache-miss/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)

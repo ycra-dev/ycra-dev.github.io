@@ -1,5 +1,5 @@
 ---
-title: "Machine Language"
+title: "기계어 (Machine Language)"
 description: "기계어(Machine Language)는 컴퓨터 하드웨어가 직접 이해하고 실행할 수 있는 이진수(binary) 형태의 명령어 표현이다"
 tags: ['Binary', 'Instruction Encoding', 'Hardware', 'Processor']
 created: 2026-02-15
@@ -31,8 +31,8 @@ MIPS 기계어 예시 (add $t0, $s1, $s2):
 
 ## 관련 개념
 
-- [Assembly Language](/knowledge/computer-architecture/assembly-language/)
-- [Instruction Format](/knowledge/computer-architecture/instruction-format/)
-- [Stored-Program Concept](/knowledge/computer-architecture/stored-program-concept/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Opcode](/knowledge/computer-architecture/opcode/)
+- [어셈블리어 (Assembly Language)](/knowledge/computer-architecture/assembly-language/)
+- [명령어 형식 (Instruction Format)](/knowledge/computer-architecture/instruction-format/)
+- [저장 프로그램 개념 (Stored-Program Concept)](/knowledge/computer-architecture/stored-program-concept/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)
+- [연산 코드 (Opcode)](/knowledge/computer-architecture/opcode/)

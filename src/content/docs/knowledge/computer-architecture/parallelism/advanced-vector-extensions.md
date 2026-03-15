@@ -1,5 +1,5 @@
 ---
-title: "Advanced Vector Extensions"
+title: "AVX (Advanced Vector Extensions)"
 description: "AVX(Advanced Vector Extensions)는 Intel이 2011년에 도입한 x86의 SIMD 확장으로, SSE2의 128비트 레지스터를 256비트(YMM)로 확장하고, 2015년에 AVX-512로 512비트(ZMM)까지 확장했다"
 tags: ['Avx', 'Avx 512', 'Simd', 'X86', 'Ymm', 'Zmm', 'Intel']
 created: 2026-02-15
@@ -30,8 +30,8 @@ vfmadd231pd %zmm1, %zmm0, %zmm2 # FMA: zmm2 += zmm0 * zmm1
 
 ## 관련 개념
 
-- [SIMD](/knowledge/computer-architecture/simd/)
-- [Subword Parallelism](/knowledge/computer-architecture/subword-parallelism/)
-- [x86 Instruction Set](/knowledge/computer-architecture/x86-instruction-set/)
-- [DGEMM](/knowledge/computer-architecture/dgemm/)
-- [Fused Multiply Add](/knowledge/computer-architecture/fused-multiply-add/)
+- [SIMD (단일 명령어 다중 데이터)](/knowledge/computer-architecture/simd/)
+- [서브워드 병렬성 (Subword Parallelism)](/knowledge/computer-architecture/subword-parallelism/)
+- [x86 명령어 집합 (x86 Instruction Set)](/knowledge/computer-architecture/x86-instruction-set/)
+- [DGEMM (배정밀도 행렬 곱셈)](/knowledge/computer-architecture/dgemm/)
+- [융합 곱셈-덧셈 (FMA)](/knowledge/computer-architecture/fused-multiply-add/)

@@ -70,8 +70,8 @@ for j in range(N):
 
 ## 관련 개념
 
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - 캐시가 보조하는 프로세서
-- [RAM](/knowledge/computer-architecture/ram/) - 캐시가 속도 격차를 메우는 대상
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - 캐시가 보조하는 프로세서
+- [RAM (랜덤 액세스 메모리)](/knowledge/computer-architecture/ram/) - 캐시가 속도 격차를 메우는 대상
 - [명령어 실행 주기 (Fetch-Decode-Execute Cycle)](/knowledge/computer-architecture/fetch-decode-execute-cycle/) - Fetch 단계에서 캐시를 먼저 확인
 - [보조기억장치 (Secondary Storage)](/knowledge/computer-architecture/secondary-storage/) - 메모리 계층 구조의 하위 단계
 

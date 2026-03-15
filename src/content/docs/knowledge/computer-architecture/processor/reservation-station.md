@@ -1,5 +1,5 @@
 ---
-title: "Reservation Station"
+title: "예약 스테이션 (Reservation Station)"
 description: "예약 스테이션(Reservation Station)은 동적 스케줄링 프로세서에서 기능 유닛 내의 버퍼로, 피연산자와 연산을 보유하고 있다가 모든 피연산자가 준비되면 실행을 시작한다"
 tags: ['Dynamic Scheduling', 'Out Of Order', 'Functional Unit', 'Pipeline', 'Buffer']
 created: 2026-02-15
@@ -34,8 +34,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Out-of-Order Execution](/knowledge/computer-architecture/out-of-order-execution/)
-- [Reorder Buffer](/knowledge/computer-architecture/reorder-buffer/)
-- [Dynamic Pipeline Scheduling](/knowledge/computer-architecture/dynamic-pipeline-scheduling/)
-- [Forwarding](/knowledge/computer-architecture/forwarding/)
-- [Superscalar](/knowledge/computer-architecture/superscalar/)
+- [비순차 실행 (Out-of-Order Execution)](/knowledge/computer-architecture/out-of-order-execution/)
+- [리오더 버퍼 (Reorder Buffer)](/knowledge/computer-architecture/reorder-buffer/)
+- [동적 파이프라인 스케줄링 (Dynamic Pipeline Scheduling)](/knowledge/computer-architecture/dynamic-pipeline-scheduling/)
+- [포워딩 (Forwarding)](/knowledge/computer-architecture/forwarding/)
+- [슈퍼스칼라 (Superscalar)](/knowledge/computer-architecture/superscalar/)

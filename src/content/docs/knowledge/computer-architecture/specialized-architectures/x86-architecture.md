@@ -1,5 +1,5 @@
 ---
-title: "x86 Architecture"
+title: "x86 아키텍처 (x86 Architecture)"
 description: "x86(80x86) 아키텍처는 Intel이 1978년 8086에서 시작하여 수십 년에 걸쳐 발전시킨 CISC 명령어 집합 아키텍처로, 세계에서 가장 널리 사용되는 데스크톱/서버 프로세서 아키텍처이다"
 tags: ['X86', 'Intel', 'Cisc', 'Instruction Set', 'Backward Compatibility']
 created: 2026-02-15
@@ -62,7 +62,7 @@ MIPS와 비교 (SPEC92):
 
 ## 관련 개념
 
-- [RISC Architecture](/knowledge/computer-architecture/risc-architecture/)
-- [CISC](/knowledge/computer-architecture/cisc/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [SIMD Multimedia Extensions](/knowledge/computer-architecture/simd-multimedia-extensions/)
+- [RISC 아키텍처 (RISC Architecture)](/knowledge/computer-architecture/risc-architecture/)
+- [CISC (복합 명령어 집합 컴퓨터)](/knowledge/computer-architecture/cisc/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)
+- [SIMD 멀티미디어 확장 (SIMD Multimedia Extensions)](/knowledge/computer-architecture/simd-multimedia-extensions/)

@@ -1,5 +1,5 @@
 ---
-title: "Network Topology"
+title: "네트워크 토폴로지 (Network Topology)"
 description: "네트워크 토폴로지는 멀티프로세서 시스템에서 코어 또는 서버 노드를 연결하는 상호 연결 네트워크의 구성 방식이다"
 tags: ['Interconnection Network', 'Bisection Bandwidth', 'Ring', 'Crossbar', 'Multiprocessor']
 created: 2026-02-15
@@ -56,7 +56,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Cluster](/knowledge/computer-architecture/cluster/)
-- [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
-- [Multiprocessor](/knowledge/computer-architecture/multiprocessor/)
-- [Bisection Bandwidth](/knowledge/computer-architecture/bisection-bandwidth/)
+- [클러스터 (Cluster)](/knowledge/computer-architecture/cluster/)
+- [공유 메모리 멀티프로세서 (SMP)](/knowledge/computer-architecture/shared-memory-multiprocessor/)
+- [멀티프로세서 (Multiprocessor)](/knowledge/computer-architecture/multiprocessor/)
+- [이등분 대역폭 (Bisection Bandwidth)](/knowledge/computer-architecture/bisection-bandwidth/)

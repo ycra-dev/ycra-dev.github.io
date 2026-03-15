@@ -1,5 +1,5 @@
 ---
-title: "Procedure Call Convention"
+title: "프로시저 호출 규약 (Procedure Call Convention)"
 description: "프로시저 호출 규약(Procedure Call Convention)은 프로시저 간에 레지스터 사용, 인자 전달, 반환 값, 스택 프레임 관리 등을 규정하는 소프트웨어 프로토콜이다"
 tags: ['Calling Convention', 'Stack Frame', 'Register Usage', 'Mips']
 created: 2026-02-15
@@ -38,4 +38,4 @@ $ra (31):        복귀 주소
 
 ## 관련 개념
 
-- [Register File](/knowledge/computer-architecture/register-file/)
+- [레지스터 파일 (Register File)](/knowledge/computer-architecture/register-file/)

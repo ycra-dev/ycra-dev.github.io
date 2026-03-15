@@ -1,5 +1,5 @@
 ---
-title: "Cooperative Thread Array (CTA)"
+title: "CTA (협력 스레드 배열)"
 description: "CTA(Cooperative Thread Array)는 동일한 스레드 프로그램을 실행하고 결과를 계산하기 위해 협력할 수 있는 동시 실행 스레드의 집합이다"
 tags: ['Cta', 'Cuda', 'Thread Block', 'GPU Architecture']
 created: 2026-02-15
@@ -53,8 +53,8 @@ SM 리소스 (GeForce 8800):
 
 ## 관련 개념
 
-- [Thread Block](/knowledge/computer-architecture/thread-block/)
-- [Warp](/knowledge/computer-architecture/warp/)
-- [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)
-- [Synchronization Barrier](/knowledge/computer-architecture/synchronization-barrier/)
-- [CUDA](/knowledge/computer-architecture/cuda/)
+- [스레드 블록 (Thread Block)](/knowledge/computer-architecture/thread-block/)
+- [워프 (Warp)](/knowledge/computer-architecture/warp/)
+- [SM (스트리밍 멀티프로세서)](/knowledge/computer-architecture/streaming-multiprocessor/)
+- [동기화 장벽 (Synchronization Barrier)](/knowledge/computer-architecture/synchronization-barrier/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)

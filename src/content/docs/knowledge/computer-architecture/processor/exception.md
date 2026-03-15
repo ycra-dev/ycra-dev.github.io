@@ -1,5 +1,5 @@
 ---
-title: "Exception"
+title: "예외 (Exception)"
 description: "예외(Exception)는 프로그램 실행을 방해하는 비예정적 이벤트로, 예를 들어 오버플로우를 감지하는 데 사용된다"
 tags: ['Interrupt', 'Overflow', 'Error Handling', 'Control Flow', 'Epc']
 created: 2026-02-15
@@ -47,8 +47,8 @@ add $1, $2, $1  # 산술 오버플로우 발생 (EX 단계에서 검출)
 
 ## 관련 개념
 
-- [Overflow Detection](/knowledge/computer-architecture/overflow-detection/)
-- [Arithmetic Logic Unit](/knowledge/computer-architecture/arithmetic-logic-unit/)
-- [Control Hazard](/knowledge/computer-architecture/control-hazard/)
-- [Precise Interrupt](/knowledge/computer-architecture/precise-interrupt/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
+- [오버플로우 검출 (Overflow Detection)](/knowledge/computer-architecture/overflow-detection/)
+- [산술논리장치 (ALU)](/knowledge/computer-architecture/arithmetic-logic-unit/)
+- [제어 해저드 (Control Hazard)](/knowledge/computer-architecture/control-hazard/)
+- [정확한 인터럽트 (Precise Interrupt)](/knowledge/computer-architecture/precise-interrupt/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)

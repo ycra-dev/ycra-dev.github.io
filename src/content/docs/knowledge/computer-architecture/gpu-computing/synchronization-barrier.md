@@ -1,5 +1,5 @@
 ---
-title: "Synchronization Barrier"
+title: "동기화 장벽 (Synchronization Barrier)"
 description: "동기화 배리어(Synchronization Barrier)는 스레드 블록 내의 모든 스레드가 배리어 지점에 도달할 때까지 각 스레드가 대기하는 동기화 메커니즘이다"
 tags: ['Synchronization', 'Barrier', 'Cuda', 'Thread Coordination']
 created: 2026-02-15
@@ -51,8 +51,8 @@ __global__ void reduce(float *input, float *output, int n) {
 
 ## 관련 개념
 
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [Thread Block](/knowledge/computer-architecture/thread-block/)
-- [Warp](/knowledge/computer-architecture/warp/)
-- [Atomic Memory Operation](/knowledge/computer-architecture/atomic-memory-operation/)
-- [Cooperative Thread Array](/knowledge/computer-architecture/cooperative-thread-array/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [스레드 블록 (Thread Block)](/knowledge/computer-architecture/thread-block/)
+- [워프 (Warp)](/knowledge/computer-architecture/warp/)
+- [원자적 메모리 연산 (Atomic Memory Operation)](/knowledge/computer-architecture/atomic-memory-operation/)
+- [CTA (협력 스레드 배열)](/knowledge/computer-architecture/cooperative-thread-array/)

@@ -1,5 +1,5 @@
 ---
-title: "System Call"
+title: "시스템 호출 (System Call)"
 description: "시스템 콜은 사용자 모드에서 슈퍼바이저 코드 공간의 전용 위치로 제어를 전달하는 특수 명령어로, 이 과정에서 예외 메커니즘을 호출한다"
 tags: ['Operating System', 'Supervisor Mode', 'Exception', 'Protection', 'User Mode']
 created: 2026-02-15
@@ -36,7 +36,7 @@ syscall            # 시스템 콜 실행
 
 ## 관련 개념
 
-- [Supervisor Mode](/knowledge/computer-architecture/supervisor-mode/)
-- [Context Switch](/knowledge/computer-architecture/context-switch/)
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [Page Fault](/knowledge/computer-architecture/page-fault/)
+- [관리자 모드 (Supervisor Mode)](/knowledge/computer-architecture/supervisor-mode/)
+- [문맥 교환 (Context Switch)](/knowledge/computer-architecture/context-switch/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [페이지 폴트 (Page Fault)](/knowledge/computer-architecture/page-fault/)

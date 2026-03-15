@@ -1,5 +1,5 @@
 ---
-title: "ASCII (American Standard Code for Information Interchange)"
+title: "ASCII (미국 표준 정보 교환 코드)"
 description: "영문 알파벳, 숫자, 구두점, 제어 문자 등 128개의 문자를 7비트로 인코딩하는 미국 정보교환 표준 코드"
 tags: ["Computer-Architecture", "ASCII", "Encoding", "Character"]
 created: 2026-02-27

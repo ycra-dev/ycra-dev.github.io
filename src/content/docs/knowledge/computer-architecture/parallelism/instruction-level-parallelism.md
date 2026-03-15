@@ -1,5 +1,5 @@
 ---
-title: "Instruction-Level Parallelism"
+title: "명령어 수준 병렬성 (ILP)"
 description: "명령어 수준 병렬성(ILP, Instruction-Level Parallelism)은 프로그래머에게 순차적 실행의 추상화를 유지하면서, 하드웨어와 컴파일러가 암묵적으로 발견하여 활용하는 명령어 간의 병렬성이다"
 tags: ['Parallelism', 'Pipelining', 'Superscalar', 'Out Of Order', 'Performance']
 created: 2026-02-15
@@ -52,10 +52,10 @@ ILP 향상 방법:
 
 ## 관련 개념
 
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
-- [Multicore Processor](/knowledge/computer-architecture/multicore-processor/)
-- [CPI](/knowledge/computer-architecture/cpi/)
-- [Multiple Issue](/knowledge/computer-architecture/multiple-issue/)
-- [Speculation](/knowledge/computer-architecture/speculation/)
-- [Superscalar](/knowledge/computer-architecture/superscalar/)
-- [Loop Unrolling](/knowledge/language/loop-unrolling/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)
+- [멀티코어 프로세서 (Multicore Processor)](/knowledge/computer-architecture/multicore-processor/)
+- [명령어당 사이클 수 (CPI)](/knowledge/computer-architecture/cpi/)
+- [다중 발행 (Multiple Issue)](/knowledge/computer-architecture/multiple-issue/)
+- [투기적 실행 (Speculation)](/knowledge/computer-architecture/speculation/)
+- [슈퍼스칼라 (Superscalar)](/knowledge/computer-architecture/superscalar/)
+- [루프 풀기 (Loop Unrolling)](/knowledge/language/loop-unrolling/)

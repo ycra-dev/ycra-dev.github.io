@@ -1,5 +1,5 @@
 ---
-title: "Temporal Locality"
+title: "시간 지역성 (Temporal Locality)"
 description: "시간적 지역성(Temporal Locality)은 한 데이터 위치가 참조되면 가까운 미래에 다시 참조될 가능성이 높다는 원리이다"
 tags: ['Locality', 'Memory Hierarchy', 'Cache', 'Performance', 'Principle']
 created: 2026-02-15
@@ -30,7 +30,7 @@ for (i = 0; i < 1000; i++) {
 
 ## 관련 개념
 
-- [Spatial Locality](/knowledge/computer-architecture/spatial-locality/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
-- [Hit Rate](/knowledge/computer-architecture/hit-rate/)
+- [공간 지역성 (Spatial Locality)](/knowledge/computer-architecture/spatial-locality/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)
+- [적중률 (Hit Rate)](/knowledge/computer-architecture/hit-rate/)

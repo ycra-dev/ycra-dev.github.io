@@ -1,5 +1,5 @@
 ---
-title: "Synchronization"
+title: "동기화 (Synchronization)"
 description: "동기화(synchronization)는 서로 다른 프로세서에서 실행될 수 있는 둘 이상의 프로세스의 동작을 조율하는 과정이다"
 tags: ['Shared Memory', 'Multiprocessor', 'Lock', 'Atomic Operation', 'Parallel Computing']
 created: 2026-02-15
@@ -45,7 +45,7 @@ do {
 
 ## 관련 개념
 
-- [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
-- [Cache Coherence](/knowledge/computer-architecture/cache-coherence/)
-- [Strong Scaling](/knowledge/computer-architecture/strong-scaling/)
-- [OpenMP](/knowledge/computer-architecture/openmp/)
+- [공유 메모리 멀티프로세서 (SMP)](/knowledge/computer-architecture/shared-memory-multiprocessor/)
+- [캐시 일관성 (Cache Coherence)](/knowledge/computer-architecture/cache-coherence/)
+- [강한 확장성 (Strong Scaling)](/knowledge/computer-architecture/strong-scaling/)
+- [OpenMP (병렬 프로그래밍 API)](/knowledge/computer-architecture/openmp/)

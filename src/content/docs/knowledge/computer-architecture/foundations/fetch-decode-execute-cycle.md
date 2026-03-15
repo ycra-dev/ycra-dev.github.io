@@ -66,11 +66,11 @@ sidebar:
 
 ## 관련 개념
 
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - 이 주기를 수행하는 하드웨어
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - 이 주기를 수행하는 하드웨어
 - [폰 노이만 구조 (Von Neumann Architecture)](/knowledge/computer-architecture/von-neumann-architecture-basics/) - 저장 프로그램 방식이 이 주기의 기반
 - [분기 명령어 (Branch Instruction)](/knowledge/computer-architecture/branch-instruction/) - 실행 흐름을 변경하는 명령어
 - [캐시 (Cache)](/knowledge/computer-architecture/cache-basics/) - Fetch 단계의 속도를 높이는 메모리 계층
-- [RAM](/knowledge/computer-architecture/ram/) - 명령어와 데이터가 저장되는 곳
+- [RAM (랜덤 액세스 메모리)](/knowledge/computer-architecture/ram/) - 명령어와 데이터가 저장되는 곳
 
 ## 출처
 

@@ -78,7 +78,7 @@ sidebar:
 - [비트 (Bit)](/knowledge/computer-architecture/bit/) - 이진수의 한 자리를 나타내는 정보 단위
 - [바이트 (Byte)](/knowledge/computer-architecture/byte/) - 이진수 8자리를 묶은 데이터 단위
 - [아날로그-디지털 변환 (Analog to Digital Conversion)](/knowledge/computer-architecture/analog-to-digital-conversion/) - 아날로그 값을 이진수로 변환하는 과정
-- [ASCII](/knowledge/computer-architecture/ascii/) - 문자를 이진수로 인코딩하는 표준
+- [ASCII (미국 표준 정보 교환 코드)](/knowledge/computer-architecture/ascii/) - 문자를 이진수로 인코딩하는 표준
 
 ## 출처
 

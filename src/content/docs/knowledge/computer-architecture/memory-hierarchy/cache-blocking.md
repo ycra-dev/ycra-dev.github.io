@@ -1,5 +1,5 @@
 ---
-title: "Cache Blocking"
+title: "캐시 블로킹 (Cache Blocking)"
 description: "캐시 블로킹(cache blocking)은 데이터를 캐시에 적합한 크기의 부분 행렬(sub-matrix)로 분할하여 처리함으로써 캐시 히트율을 높이는 프로그램 변환 기법이다"
 tags: ['Cache', 'Matrix Multiply', 'Performance Optimization', 'Spatial Locality', 'Temporal Locality']
 created: 2026-02-15
@@ -42,6 +42,6 @@ for (si = 0; si < N; si += BLOCKSIZE)
 
 ## 관련 개념
 
-- [Prefetching](/knowledge/computer-architecture/prefetching/)
-- [Three Cs Model](/knowledge/computer-architecture/three-cs-model/)
-- [Nonblocking Cache](/knowledge/computer-architecture/nonblocking-cache/)
+- [프리페칭 (Prefetching)](/knowledge/computer-architecture/prefetching/)
+- [3C 모델 (Three Cs Model)](/knowledge/computer-architecture/three-cs-model/)
+- [비차단 캐시 (Nonblocking Cache)](/knowledge/computer-architecture/nonblocking-cache/)

@@ -1,5 +1,5 @@
 ---
-title: "Context Switch"
+title: "문맥 교환 (Context Switch)"
 description: "컨텍스트 스위치(또는 프로세스 스위치)는 프로세서의 내부 상태를 변경하여 다른 프로세스가 프로세서를 사용할 수 있도록 하는 과정으로, 현재 실행 중인 프로세스로 돌아오기 위해 필요한 상태를 저장하는 것을 포함한다"
 tags: ['Operating System', 'Process', 'Tlb', 'Page Table', 'Multitasking']
 created: 2026-02-15
@@ -42,8 +42,8 @@ TLB 엔트리: [ASID | VPN | PPN | Valid | Dirty | ...]
 
 ## 관련 개념
 
-- [Page Table](/knowledge/computer-architecture/page-table/)
-- [Translation Lookaside Buffer](/knowledge/computer-architecture/translation-lookaside-buffer/)
-- [Supervisor Mode](/knowledge/computer-architecture/supervisor-mode/)
-- [Virtual Machine](/knowledge/computer-architecture/virtual-machine/)
-- [Hardware Multithreading](/knowledge/computer-architecture/hardware-multithreading/)
+- [페이지 테이블 (Page Table)](/knowledge/computer-architecture/page-table/)
+- [TLB (변환 색인 버퍼)](/knowledge/computer-architecture/translation-lookaside-buffer/)
+- [관리자 모드 (Supervisor Mode)](/knowledge/computer-architecture/supervisor-mode/)
+- [가상 머신 (Virtual Machine)](/knowledge/computer-architecture/virtual-machine/)
+- [하드웨어 멀티스레딩 (Hardware Multithreading)](/knowledge/computer-architecture/hardware-multithreading/)

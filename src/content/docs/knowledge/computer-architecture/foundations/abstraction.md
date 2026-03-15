@@ -1,5 +1,5 @@
 ---
-title: "Abstraction"
+title: "추상화 (Abstraction)"
 description: "추상화(Abstraction)는 설계를 다양한 수준의 표현으로 나타내어 하위 수준의 세부 사항을 숨기고 상위 수준에서 더 단순한 모델을 제공하는 기법이다"
 tags: ['Computer Architecture', 'Design Principle', 'Software Engineering', 'Hardware Design']
 created: 2026-02-15
@@ -32,7 +32,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Compiler](/knowledge/language/compiler/)
-- [Operating System](/knowledge/computer-architecture/operating-system/)
-- [Application Binary Interface](/knowledge/computer-architecture/application-binary-interface/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [운영체제 (Operating System)](/knowledge/computer-architecture/operating-system/)
+- [응용 프로그램 이진 인터페이스 (ABI)](/knowledge/computer-architecture/application-binary-interface/)

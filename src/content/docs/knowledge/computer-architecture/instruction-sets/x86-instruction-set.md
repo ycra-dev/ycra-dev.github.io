@@ -1,5 +1,5 @@
 ---
-title: "x86 Instruction Set"
+title: "x86 명령어 집합 (x86 Instruction Set)"
 description: "x86은 Intel이 1978년에 발표한 8086 아키텍처에서 발전한 명령어 세트로, 40년 이상에 걸쳐 여러 독립적 그룹에 의해 확장되어 왔으며 PC 시대의 지배적 아키텍처이다"
 tags: ['Cisc', 'Intel', 'Amd', 'Backward Compatibility', 'Variable Length Instruction']
 created: 2026-02-15
@@ -29,6 +29,6 @@ x86은 하위 호환성(backward compatibility)의 "금 수갑"에 의해 형성
 
 ## 관련 개념
 
-- [ARMv7 Instruction Set](/knowledge/computer-architecture/armv7-instruction-set/)
-- [Condition Code](/knowledge/computer-architecture/condition-code/)
-- [SIMD](/knowledge/computer-architecture/simd/)
+- [ARMv7 명령어 집합 (ARMv7 Instruction Set)](/knowledge/computer-architecture/armv7-instruction-set/)
+- [조건 코드 (Condition Code)](/knowledge/computer-architecture/condition-code/)
+- [SIMD (단일 명령어 다중 데이터)](/knowledge/computer-architecture/simd/)

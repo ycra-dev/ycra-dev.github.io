@@ -1,5 +1,5 @@
 ---
-title: "Cache Coherence"
+title: "캐시 일관성 (Cache Coherence)"
 description: "캐시 일관성(cache coherence)은 멀티코어 멀티프로세서에서 공유 데이터를 캐싱할 때, 각 프로세서의 캐시가 동일한 메모리 위치에 대해 일관된 값을 보도록 보장하는 메커니즘이다"
 tags: ['Multiprocessor', 'Shared Memory', 'Snooping Protocol', 'Write Invalidate', 'Consistency']
 created: 2026-02-15
@@ -43,8 +43,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Snooping Protocol](/knowledge/computer-architecture/snooping-protocol/)
-- [Write-Back](/knowledge/computer-architecture/write-back/)
-- [False Sharing](/knowledge/computer-architecture/false-sharing/)
-- [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
-- [MESI Protocol](/knowledge/computer-architecture/mesi-protocol/)
+- [스누핑 프로토콜 (Snooping Protocol)](/knowledge/computer-architecture/snooping-protocol/)
+- [후기입 (Write-Back)](/knowledge/computer-architecture/write-back/)
+- [거짓 공유 (False Sharing)](/knowledge/computer-architecture/false-sharing/)
+- [공유 메모리 멀티프로세서 (SMP)](/knowledge/computer-architecture/shared-memory-multiprocessor/)
+- [MESI 프로토콜 (MESI Protocol)](/knowledge/computer-architecture/mesi-protocol/)

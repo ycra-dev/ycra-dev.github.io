@@ -1,5 +1,5 @@
 ---
-title: "RISC Architecture"
+title: "RISC 아키텍처 (RISC Architecture)"
 description: "RISC(Reduced Instruction Set Computer) 아키텍처는 단순한 명령어, 제한된 주소 지정 모드, 고정 길이 명령어 형식, 그리고 많은 수의 범용 레지스터를 특징으로 하는 프로세서 설계 철학이다"
 tags: ['Risc', 'Instruction Set', 'Computer Architecture', 'Isa Design']
 created: 2026-02-15
@@ -56,8 +56,8 @@ FP 레지스터   | 32   | 32   | 32    | 32     | 32
 
 ## 관련 개념
 
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Register Windows](/knowledge/computer-architecture/register-windows/)
-- [x86 Architecture](/knowledge/computer-architecture/x86-architecture/)
-- [CISC](/knowledge/computer-architecture/cisc/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)
+- [레지스터 윈도우 (Register Windows)](/knowledge/computer-architecture/register-windows/)
+- [x86 아키텍처 (x86 Architecture)](/knowledge/computer-architecture/x86-architecture/)
+- [CISC (복합 명령어 집합 컴퓨터)](/knowledge/computer-architecture/cisc/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)

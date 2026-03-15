@@ -1,5 +1,5 @@
 ---
-title: "Brain Floating Point"
+title: "브레인 부동소수점 (Brain Floating Point)"
 description: "Brain Floating Point(bf16)는 Google이 DNN 훈련을 위해 설계한 16비트 부동소수점 형식으로, IEEE fp32와 동일한 8비트 지수부를 유지하면서 가수부를 7비트로 줄인 형식이다"
 tags: ['Floating Point', 'Deep Learning', 'Tpuv3', 'Numerical Representation']
 created: 2026-02-15
@@ -32,5 +32,5 @@ bf16의 장점:
 
 ## 관련 개념
 
-- [TPUv3 Supercomputer](/knowledge/computer-architecture/tpuv3-supercomputer/)
-- [DNN Training](/knowledge/computer-architecture/dnn-training/)
+- [TPUv3 슈퍼컴퓨터 (TPUv3 Supercomputer)](/knowledge/computer-architecture/tpuv3-supercomputer/)
+- [DNN 학습 (DNN Training)](/knowledge/computer-architecture/dnn-training/)

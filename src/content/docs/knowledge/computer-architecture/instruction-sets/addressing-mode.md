@@ -1,5 +1,5 @@
 ---
-title: "Addressing Mode"
+title: "주소 지정 방식 (Addressing Mode)"
 description: "주소 지정 방식(Addressing Mode)은 피연산자 및/또는 주소의 다양한 사용에 따라 구분되는 여러 가지 주소 체계로, 명령어가 피연산자를 참조하는 방법을 결정한다"
 tags: ['Instruction Encoding', 'Operand', 'Memory Access', 'Mips', 'Addressing']
 created: 2026-02-15
@@ -37,7 +37,7 @@ MIPS 5가지 주소 지정 방식:
 
 ## 관련 개념
 
-- [PC-Relative Addressing](/knowledge/computer-architecture/pc-relative-addressing/)
-- [Data Transfer Instruction](/knowledge/computer-architecture/data-transfer-instruction/)
-- [Instruction Format](/knowledge/computer-architecture/instruction-format/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
+- [PC 상대 주소 지정 (PC-Relative Addressing)](/knowledge/computer-architecture/pc-relative-addressing/)
+- [데이터 전송 명령어 (Data Transfer Instruction)](/knowledge/computer-architecture/data-transfer-instruction/)
+- [명령어 형식 (Instruction Format)](/knowledge/computer-architecture/instruction-format/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)

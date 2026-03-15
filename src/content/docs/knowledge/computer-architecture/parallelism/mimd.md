@@ -1,5 +1,5 @@
 ---
-title: "MIMD"
+title: "MIMD (다중 명령어 다중 데이터)"
 description: "MIMD(Multiple Instruction streams, Multiple Data streams)는 여러 명령어 스트림이 여러 데이터 스트림을 처리하는 멀티프로세서 아키텍처이다"
 tags: ['Parallel Computing', 'Multiprocessor', 'Spmd', 'Instruction Stream', 'Data Stream']
 created: 2026-02-15
@@ -47,8 +47,8 @@ if (my_id == 0) {
 
 ## 관련 개념
 
-- [SIMD](/knowledge/computer-architecture/simd/)
-- [Multiprocessor](/knowledge/computer-architecture/multiprocessor/)
-- [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
-- [Hardware Multithreading](/knowledge/computer-architecture/hardware-multithreading/)
-- [GPU](/knowledge/computer-architecture/gpu/)
+- [SIMD (단일 명령어 다중 데이터)](/knowledge/computer-architecture/simd/)
+- [멀티프로세서 (Multiprocessor)](/knowledge/computer-architecture/multiprocessor/)
+- [공유 메모리 멀티프로세서 (SMP)](/knowledge/computer-architecture/shared-memory-multiprocessor/)
+- [하드웨어 멀티스레딩 (Hardware Multithreading)](/knowledge/computer-architecture/hardware-multithreading/)
+- [GPU (그래픽 처리 장치)](/knowledge/computer-architecture/gpu/)

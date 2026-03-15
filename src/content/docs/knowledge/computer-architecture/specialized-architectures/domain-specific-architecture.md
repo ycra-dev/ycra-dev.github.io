@@ -1,5 +1,5 @@
 ---
-title: "Domain Specific Architecture"
+title: "도메인 특화 아키텍처 (DSA)"
 description: "도메인 특화 아키텍처(DSA)는 범용 컴퓨터와 대조적으로, 특정 응용 도메인에 최적화된 특수 목적 컴퓨터이다"
 tags: ['Dsa', 'Tpu', 'Machine Learning', 'Accelerator', 'Energy Efficiency']
 created: 2026-02-15
@@ -78,12 +78,12 @@ DSA (TPU 예):
 
 ## 관련 개념
 
-- [GPU](/knowledge/computer-architecture/gpu/)
-- [SIMD](/knowledge/computer-architecture/simd/)
-- [Multiprocessor](/knowledge/computer-architecture/multiprocessor/)
-- [Warehouse Scale Computer](/knowledge/computer-architecture/warehouse-scale-computer/)
-- [TPUv3 Supercomputer](/knowledge/computer-architecture/tpuv3-supercomputer/)
-- [DNN Training](/knowledge/computer-architecture/dnn-training/)
-- [MLPerf Benchmark](/knowledge/computer-architecture/mlperf-benchmark/)
-- [FPGA](/knowledge/computer-architecture/fpga/)
-- [Amdahl's Law](/knowledge/computer-architecture/amdahls-law/)
+- [GPU (그래픽 처리 장치)](/knowledge/computer-architecture/gpu/)
+- [SIMD (단일 명령어 다중 데이터)](/knowledge/computer-architecture/simd/)
+- [멀티프로세서 (Multiprocessor)](/knowledge/computer-architecture/multiprocessor/)
+- [창고 규모 컴퓨터 (WSC)](/knowledge/computer-architecture/warehouse-scale-computer/)
+- [TPUv3 슈퍼컴퓨터 (TPUv3 Supercomputer)](/knowledge/computer-architecture/tpuv3-supercomputer/)
+- [DNN 학습 (DNN Training)](/knowledge/computer-architecture/dnn-training/)
+- [MLPerf 벤치마크 (MLPerf Benchmark)](/knowledge/computer-architecture/mlperf-benchmark/)
+- [FPGA (필드 프로그래머블 게이트 어레이)](/knowledge/computer-architecture/fpga/)
+- [암달의 법칙 (Amdahl's Law)](/knowledge/computer-architecture/amdahls-law/)

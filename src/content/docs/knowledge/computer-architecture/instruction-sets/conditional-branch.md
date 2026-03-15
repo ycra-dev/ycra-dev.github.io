@@ -1,5 +1,5 @@
 ---
-title: "Conditional Branch"
+title: "조건 분기 (Conditional Branch)"
 description: "조건 분기(Conditional Branch)는 두 값의 비교 결과에 따라 프로그램의 제어 흐름을 새로운 주소로 전환하는 명령어이다"
 tags: ['Control Flow', 'Decision', 'Loop', 'Beq', 'Bne', 'Instruction']
 created: 2026-02-15
@@ -40,7 +40,7 @@ Exit:
 
 ## 관련 개념
 
-- [Basic Block](/knowledge/computer-architecture/basic-block/)
-- [Instruction Set](/knowledge/computer-architecture/instruction-set/)
-- [PC-Relative Addressing](/knowledge/computer-architecture/pc-relative-addressing/)
-- [Program Counter](/knowledge/computer-architecture/program-counter/)
+- [기본 블록 (Basic Block)](/knowledge/computer-architecture/basic-block/)
+- [명령어 집합 (Instruction Set)](/knowledge/computer-architecture/instruction-set/)
+- [PC 상대 주소 지정 (PC-Relative Addressing)](/knowledge/computer-architecture/pc-relative-addressing/)
+- [프로그램 카운터 (Program Counter)](/knowledge/computer-architecture/program-counter/)

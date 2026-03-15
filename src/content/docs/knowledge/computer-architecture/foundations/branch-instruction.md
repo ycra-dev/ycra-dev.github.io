@@ -69,7 +69,7 @@ for i in range(1, 11):
 ## 관련 개념
 
 - [명령어 실행 주기 (Fetch-Decode-Execute Cycle)](/knowledge/computer-architecture/fetch-decode-execute-cycle/) - 분기 명령어가 프로그램 카운터를 변경하는 시점
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - 분기 명령어를 실행하는 하드웨어
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - 분기 명령어를 실행하는 하드웨어
 - [튜링 머신 (Turing Machine)](/knowledge/computer-architecture/turing-machine/) - 분기가 범용 계산 능력의 핵심 요소
 
 ## 출처

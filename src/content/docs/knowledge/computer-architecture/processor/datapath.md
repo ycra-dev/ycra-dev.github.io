@@ -1,5 +1,5 @@
 ---
-title: "Datapath"
+title: "데이터패스 (Datapath)"
 description: "데이터패스(Datapath)는 프로세서 내에서 산술 연산을 수행하는 구성요소로, CPU의 \"근육(brawn)\" 역할을 한다"
 tags: ['Processor', 'Alu', 'Arithmetic', 'Hardware', 'CPU']
 created: 2026-02-15
@@ -37,11 +37,11 @@ PC -> Instruction Memory -> Register File -> ALU -> Data Memory -> Register File
 
 ## 관련 개념
 
-- [Register](/knowledge/computer-architecture/register/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
-- [Clock Cycle](/knowledge/computer-architecture/clock-cycle/)
-- [Program Counter](/knowledge/computer-architecture/program-counter/)
-- [ALU Control](/knowledge/computer-architecture/alu-control/)
-- [Register File](/knowledge/computer-architecture/register-file/)
-- [Control Unit](/knowledge/computer-architecture/control-unit/)
-- [Single-Cycle Implementation](/knowledge/computer-architecture/single-cycle-implementation/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)
+- [클록 주기 (Clock Cycle)](/knowledge/computer-architecture/clock-cycle/)
+- [프로그램 카운터 (Program Counter)](/knowledge/computer-architecture/program-counter/)
+- [ALU 제어 (ALU Control)](/knowledge/computer-architecture/alu-control/)
+- [레지스터 파일 (Register File)](/knowledge/computer-architecture/register-file/)
+- [제어 장치 (Control Unit)](/knowledge/computer-architecture/control-unit/)
+- [단일 사이클 구현 (Single-Cycle Implementation)](/knowledge/computer-architecture/single-cycle-implementation/)

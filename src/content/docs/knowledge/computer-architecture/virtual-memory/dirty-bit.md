@@ -1,5 +1,5 @@
 ---
-title: "Dirty Bit"
+title: "더티 비트 (Dirty Bit)"
 description: "더티 비트는 페이지가 메모리에 읽힌 이후 쓰기가 발생했는지를 추적하는 비트이다"
 tags: ['Virtual Memory', 'Cache', 'Write Back', 'Page Table', 'Memory Hierarchy']
 created: 2026-02-15
@@ -39,8 +39,8 @@ else:
 
 ## 관련 개념
 
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [Write-Back](/knowledge/computer-architecture/write-back/)
-- [Page Table](/knowledge/computer-architecture/page-table/)
-- [Swap Space](/knowledge/computer-architecture/swap-space/)
-- [Reference Bit](/knowledge/computer-architecture/reference-bit/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [후기입 (Write-Back)](/knowledge/computer-architecture/write-back/)
+- [페이지 테이블 (Page Table)](/knowledge/computer-architecture/page-table/)
+- [스왑 공간 (Swap Space)](/knowledge/computer-architecture/swap-space/)
+- [참조 비트 (Reference Bit)](/knowledge/computer-architecture/reference-bit/)

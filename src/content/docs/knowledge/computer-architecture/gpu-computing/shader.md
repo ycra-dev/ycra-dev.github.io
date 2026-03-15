@@ -1,5 +1,5 @@
 ---
-title: "Shader"
+title: "셰이더 (Shader)"
 description: "셰이더(Shader)는 정점(vertex)이나 픽셀 프래그먼트 등의 그래픽 데이터를 처리하는 프로그램이다"
 tags: ['Shader', 'Graphics Pipeline', 'GPU', 'Rendering']
 created: 2026-02-15
@@ -44,6 +44,6 @@ void env_map_shader(
 
 ## 관련 개념
 
-- [Texture](/knowledge/computer-architecture/texture/)
-- [SPMD](/knowledge/computer-architecture/spmd/)
-- [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)
+- [텍스처 (Texture)](/knowledge/computer-architecture/texture/)
+- [SPMD (단일 프로그램 다중 데이터)](/knowledge/computer-architecture/spmd/)
+- [SM (스트리밍 멀티프로세서)](/knowledge/computer-architecture/streaming-multiprocessor/)

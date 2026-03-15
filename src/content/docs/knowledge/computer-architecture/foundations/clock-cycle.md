@@ -1,5 +1,5 @@
 ---
-title: "Clock Cycle"
+title: "클록 주기 (Clock Cycle)"
 description: "클럭 사이클(Clock Cycle)은 하드웨어에서 이벤트가 발생하는 이산적인 시간 간격으로, 프로세서 클럭의 한 주기에 해당한다"
 tags: ['Performance', 'Timing', 'Processor', 'Hardware', 'Frequency']
 created: 2026-02-15
@@ -31,6 +31,6 @@ CPU 시간 = 20 × 10^9 / (4 × 10^9) = 5초
 
 ## 관련 개념
 
-- [CPU Performance Equation](/knowledge/computer-architecture/cpu-performance-equation/)
-- [CPI](/knowledge/computer-architecture/cpi/)
-- [Response Time](/knowledge/computer-architecture/response-time/)
+- [CPU 성능 방정식 (CPU Performance Equation)](/knowledge/computer-architecture/cpu-performance-equation/)
+- [명령어당 사이클 수 (CPI)](/knowledge/computer-architecture/cpi/)
+- [응답 시간 (Response Time)](/knowledge/computer-architecture/response-time/)

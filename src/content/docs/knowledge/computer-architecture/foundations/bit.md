@@ -65,7 +65,7 @@ N비트로 표현 가능한 값의 수 = 2^N:
 - [이진수 (Binary Number)](/knowledge/computer-architecture/binary-number/) - 비트로 수를 표현하는 방법
 - [트랜지스터 (Transistor)](/knowledge/computer-architecture/transistor-basics/) - 비트를 물리적으로 저장하는 기본 소자
 - [아날로그-디지털 변환 (Analog to Digital Conversion)](/knowledge/computer-architecture/analog-to-digital-conversion/) - 아날로그 정보를 비트로 변환하는 과정
-- [ASCII](/knowledge/computer-architecture/ascii/) - 비트로 문자를 인코딩하는 표준
+- [ASCII (미국 표준 정보 교환 코드)](/knowledge/computer-architecture/ascii/) - 비트로 문자를 인코딩하는 표준
 
 ## 출처
 

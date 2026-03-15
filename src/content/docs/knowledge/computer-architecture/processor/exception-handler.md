@@ -1,5 +1,5 @@
 ---
-title: "Exception Handler"
+title: "예외 처리기 (Exception Handler)"
 description: "예외 처리기(Exception Handler)는 명령어 실행 중 발생하는 오류 예외 또는 I/O 장치로부터의 외부 인터럽트에 응답하여 실행되는 코드로, MIPS에서는 주소 80000180(hex)에 위치한다"
 tags: ['Exception', 'Interrupt', 'Coprocessor 0', 'Mips', 'Epc']
 created: 2026-02-15
@@ -39,4 +39,4 @@ MIPS 프로세서에서 예외와 인터럽트는 코프로세서 0이 처리한
 
 ## 관련 개념
 
-- [Operating System](/knowledge/computer-architecture/operating-system/)
+- [운영체제 (Operating System)](/knowledge/computer-architecture/operating-system/)

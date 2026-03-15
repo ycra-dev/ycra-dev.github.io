@@ -1,5 +1,5 @@
 ---
-title: "Sign Extension"
+title: "부호 확장 (Sign Extension)"
 description: "부호 확장(Sign Extension)은 n비트의 2의 보수 수를 n비트보다 큰 표현으로 변환할 때, 원래 수의 최상위 비트(부호 비트)를 복제하여 새로운 상위 비트를 채우는 기법이다"
 tags: ['Binary', 'Twos Complement', 'Data Conversion', 'Immediate Value', 'Signed Number']
 created: 2026-02-15
@@ -34,7 +34,7 @@ addi $s0, $s1, -4    # 즉시값 -4(16비트)를 32비트로 부호 확장
 
 ## 관련 개념
 
-- [Two's Complement](/knowledge/computer-architecture/twos-complement/)
-- [Data Transfer Instruction](/knowledge/computer-architecture/data-transfer-instruction/)
-- [Instruction Format](/knowledge/computer-architecture/instruction-format/)
-- [Register](/knowledge/computer-architecture/register/)
+- [2의 보수 (Two's Complement)](/knowledge/computer-architecture/twos-complement/)
+- [데이터 전송 명령어 (Data Transfer Instruction)](/knowledge/computer-architecture/data-transfer-instruction/)
+- [명령어 형식 (Instruction Format)](/knowledge/computer-architecture/instruction-format/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)

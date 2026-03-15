@@ -1,5 +1,5 @@
 ---
-title: "Division Hardware"
+title: "나눗셈 하드웨어 (Division Hardware)"
 description: "나눗셈 하드웨어는 피제수(dividend)를 제수(divisor)로 나누어 몫(quotient)과 나머지(remainder)를 생성하는 하드웨어로, 기본적으로 반복적 뺄셈과 시프트를 통해 동작한다"
 tags: ['Divider', 'Alu', 'Restoring Division', 'Srt Division', 'Quotient', 'Remainder']
 created: 2026-02-15
@@ -32,6 +32,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Multiplication Hardware](/knowledge/computer-architecture/multiplication-hardware/)
-- [Arithmetic Logic Unit](/knowledge/computer-architecture/arithmetic-logic-unit/)
-- [Floating Point](/knowledge/computer-architecture/floating-point/)
+- [곱셈 하드웨어 (Multiplication Hardware)](/knowledge/computer-architecture/multiplication-hardware/)
+- [산술논리장치 (ALU)](/knowledge/computer-architecture/arithmetic-logic-unit/)
+- [부동소수점 (Floating Point)](/knowledge/computer-architecture/floating-point/)

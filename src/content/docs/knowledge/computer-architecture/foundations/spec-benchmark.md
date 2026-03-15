@@ -1,5 +1,5 @@
 ---
-title: "SPEC Benchmark"
+title: "SPEC 벤치마크 (SPEC Benchmark)"
 description: "SPEC(System Performance Evaluation Cooperative) 벤치마크는 여러 컴퓨터 벤더가 공동으로 만든 표준 벤치마크 세트로, 실제 프로그램을 사용하여 컴퓨터 시스템의 성능을 측정한다"
 tags: ['Performance', 'Measurement', 'Benchmark', 'Workload', 'Evaluation']
 created: 2026-02-15
@@ -32,7 +32,7 @@ SPECratio = 참조 실행 시간 / 측정 실행 시간
 
 ## 관련 개념
 
-- [Response Time](/knowledge/computer-architecture/response-time/)
-- [CPU Performance Equation](/knowledge/computer-architecture/cpu-performance-equation/)
-- [Throughput](/knowledge/computer-architecture/throughput/)
-- [CPI](/knowledge/computer-architecture/cpi/)
+- [응답 시간 (Response Time)](/knowledge/computer-architecture/response-time/)
+- [CPU 성능 방정식 (CPU Performance Equation)](/knowledge/computer-architecture/cpu-performance-equation/)
+- [처리율 (Throughput)](/knowledge/computer-architecture/throughput/)
+- [명령어당 사이클 수 (CPI)](/knowledge/computer-architecture/cpi/)

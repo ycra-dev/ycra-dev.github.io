@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Pipeline Scheduling"
+title: "동적 파이프라인 스케줄링 (Dynamic Pipeline Scheduling)"
 description: "동적 파이프라인 스케줄링(Dynamic Pipeline Scheduling)은 하드웨어가 명령어 실행 순서를 재배치하여 스톨을 회피하는 기법이다"
 tags: ['Out Of Order', 'Superscalar', 'Hazard', 'Ilp', 'Hardware']
 created: 2026-02-15
@@ -36,8 +36,8 @@ slti $t5, $s4, 20    # $s4에 의존
 
 ## 관련 개념
 
-- [Out-of-Order Execution](/knowledge/computer-architecture/out-of-order-execution/)
-- [Reservation Station](/knowledge/computer-architecture/reservation-station/)
-- [Reorder Buffer](/knowledge/computer-architecture/reorder-buffer/)
-- [Superscalar](/knowledge/computer-architecture/superscalar/)
-- [Commit Unit](/knowledge/computer-architecture/commit-unit/)
+- [비순차 실행 (Out-of-Order Execution)](/knowledge/computer-architecture/out-of-order-execution/)
+- [예약 스테이션 (Reservation Station)](/knowledge/computer-architecture/reservation-station/)
+- [리오더 버퍼 (Reorder Buffer)](/knowledge/computer-architecture/reorder-buffer/)
+- [슈퍼스칼라 (Superscalar)](/knowledge/computer-architecture/superscalar/)
+- [커밋 유닛 (Commit Unit)](/knowledge/computer-architecture/commit-unit/)

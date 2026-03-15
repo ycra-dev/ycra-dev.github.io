@@ -1,5 +1,5 @@
 ---
-title: "Cache Miss"
+title: "캐시 미스 (Cache Miss)"
 description: "캐시 미스(Cache Miss)는 요청한 데이터가 캐시에 존재하지 않아 하위 메모리 계층에서 가져와야 하는 상황이다"
 tags: ['Cache', 'Memory Hierarchy', 'Stall', 'Miss Penalty', 'Performance']
 created: 2026-02-15
@@ -35,8 +35,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
-- [Pipeline Stall](/knowledge/computer-architecture/pipeline-stall/)
-- [Miss Penalty](/knowledge/computer-architecture/miss-penalty/)
-- [Direct-Mapped Cache](/knowledge/computer-architecture/direct-mapped-cache/)
-- [AMAT](/knowledge/computer-architecture/amat/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)
+- [파이프라인 스톨 (Pipeline Stall)](/knowledge/computer-architecture/pipeline-stall/)
+- [미스 페널티 (Miss Penalty)](/knowledge/computer-architecture/miss-penalty/)
+- [직접 사상 캐시 (Direct-Mapped Cache)](/knowledge/computer-architecture/direct-mapped-cache/)
+- [AMAT (평균 메모리 접근 시간)](/knowledge/computer-architecture/amat/)

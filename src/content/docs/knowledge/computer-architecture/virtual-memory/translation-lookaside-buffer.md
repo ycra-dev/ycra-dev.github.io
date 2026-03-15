@@ -1,5 +1,5 @@
 ---
-title: "Translation Lookaside Buffer"
+title: "TLB (변환 색인 버퍼)"
 description: "TLB(Translation Lookaside Buffer)는 최근 사용된 주소 변환 정보를 저장하여 페이지 테이블에 대한 메모리 접근을 피하기 위한 특수한 캐시이다"
 tags: ['Virtual Memory', 'Cache', 'Address Translation', 'Page Table', 'Tlb Miss']
 created: 2026-02-15
@@ -49,8 +49,8 @@ eret                  # 예외 복귀
 
 ## 관련 개념
 
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [Page Table](/knowledge/computer-architecture/page-table/)
-- [Address Translation](/knowledge/computer-architecture/address-translation/)
-- [Page Fault](/knowledge/computer-architecture/page-fault/)
-- [Cache Coherence](/knowledge/computer-architecture/cache-coherence/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [페이지 테이블 (Page Table)](/knowledge/computer-architecture/page-table/)
+- [주소 변환 (Address Translation)](/knowledge/computer-architecture/address-translation/)
+- [페이지 폴트 (Page Fault)](/knowledge/computer-architecture/page-fault/)
+- [캐시 일관성 (Cache Coherence)](/knowledge/computer-architecture/cache-coherence/)

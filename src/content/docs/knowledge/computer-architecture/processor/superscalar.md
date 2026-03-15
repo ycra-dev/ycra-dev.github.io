@@ -1,5 +1,5 @@
 ---
-title: "Superscalar"
+title: "슈퍼스칼라 (Superscalar)"
 description: "슈퍼스칼라(Superscalar)는 실행 중 동적으로 명령어를 선택하여 한 클록 사이클에 하나 이상의 명령어를 실행할 수 있게 하는 고급 파이프라이닝 기법이다"
 tags: ['Multiple Issue', 'Dynamic Scheduling', 'Out Of Order', 'Processor']
 created: 2026-02-15
@@ -34,8 +34,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Multiple Issue](/knowledge/computer-architecture/multiple-issue/)
-- [Dynamic Pipeline Scheduling](/knowledge/computer-architecture/dynamic-pipeline-scheduling/)
-- [Out-of-Order Execution](/knowledge/computer-architecture/out-of-order-execution/)
-- [Reservation Station](/knowledge/computer-architecture/reservation-station/)
-- [Reorder Buffer](/knowledge/computer-architecture/reorder-buffer/)
+- [다중 발행 (Multiple Issue)](/knowledge/computer-architecture/multiple-issue/)
+- [동적 파이프라인 스케줄링 (Dynamic Pipeline Scheduling)](/knowledge/computer-architecture/dynamic-pipeline-scheduling/)
+- [비순차 실행 (Out-of-Order Execution)](/knowledge/computer-architecture/out-of-order-execution/)
+- [예약 스테이션 (Reservation Station)](/knowledge/computer-architecture/reservation-station/)
+- [리오더 버퍼 (Reorder Buffer)](/knowledge/computer-architecture/reorder-buffer/)

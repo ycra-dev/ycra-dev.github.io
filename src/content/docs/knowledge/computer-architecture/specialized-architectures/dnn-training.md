@@ -1,5 +1,5 @@
 ---
-title: "DNN Training"
+title: "DNN 학습 (DNN Training)"
 description: "DNN 훈련(Training)은 대규모 훈련 데이터셋을 사용하여 정확한 모델의 가중치(weight)를 학습하는 과정으로, 순전파(forward propagation), 역전파(back-propagation), 가중치 갱신(weight update) 세 단계를 반복..."
 tags: ['Deep Learning', 'Forward Propagation', 'Back Propagation', 'Stochastic Gradient Descent']
 created: 2026-02-15
@@ -32,7 +32,7 @@ SGD 훈련 과정:
 
 ## 관련 개념
 
-- [Stochastic Gradient Descent](/knowledge/computer-architecture/stochastic-gradient-descent/)
-- [TPUv3](/knowledge/computer-architecture/tpuv3-supercomputer/)
-- [Brain Floating Point](/knowledge/computer-architecture/brain-floating-point/)
-- [Domain-Specific Architecture](/knowledge/computer-architecture/domain-specific-architecture/)
+- [확률적 경사 하강법 (SGD)](/knowledge/computer-architecture/stochastic-gradient-descent/)
+- [TPUv3 슈퍼컴퓨터 (TPUv3 Supercomputer)](/knowledge/computer-architecture/tpuv3-supercomputer/)
+- [브레인 부동소수점 (Brain Floating Point)](/knowledge/computer-architecture/brain-floating-point/)
+- [도메인 특화 아키텍처 (DSA)](/knowledge/computer-architecture/domain-specific-architecture/)

@@ -1,5 +1,5 @@
 ---
-title: "Vector Lane"
+title: "벡터 레인 (Vector Lane)"
 description: "벡터 레인(vector lane)은 하나 이상의 벡터 기능 유닛과 벡터 레지스터 파일의 일부로 구성된다"
 tags: ['Vector Architecture', 'Simd', 'Parallel Pipeline', 'Throughput', 'Functional Unit']
 created: 2026-02-15
@@ -39,7 +39,7 @@ NVIDIA GPU: 16 SIMD 레인, SIMD 폭 32
 
 ## 관련 개념
 
-- [Vector Architecture](/knowledge/computer-architecture/vector-architecture/)
-- [SIMD](/knowledge/computer-architecture/simd/)
-- [GPU](/knowledge/computer-architecture/gpu/)
-- [Data-Level Parallelism](/knowledge/computer-architecture/data-level-parallelism/)
+- [벡터 아키텍처 (Vector Architecture)](/knowledge/computer-architecture/vector-architecture/)
+- [SIMD (단일 명령어 다중 데이터)](/knowledge/computer-architecture/simd/)
+- [GPU (그래픽 처리 장치)](/knowledge/computer-architecture/gpu/)
+- [데이터 수준 병렬성 (Data-Level Parallelism)](/knowledge/computer-architecture/data-level-parallelism/)

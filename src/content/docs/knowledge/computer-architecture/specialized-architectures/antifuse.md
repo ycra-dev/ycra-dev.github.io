@@ -1,5 +1,5 @@
 ---
-title: "Antifuse"
+title: "안티퓨즈 (Antifuse)"
 description: "Antifuse는 집적 회로 내에서 프로그래밍 시 두 와이어 사이에 영구적인 연결을 만드는 구조이다"
 tags: ['Antifuse', 'Fpd', 'Programmable Logic', 'Interconnect']
 created: 2026-02-15

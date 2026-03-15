@@ -1,5 +1,5 @@
 ---
-title: "Restartable Instruction"
+title: "재시작 가능 명령어 (Restartable Instruction)"
 description: "재시작 가능 명령어는 예외가 해결된 후 예외의 영향 없이 실행을 재개할 수 있는 명령어이다"
 tags: ['Exception', 'Page Fault', 'Pipeline', 'Virtual Memory', 'Instruction Execution']
 created: 2026-02-15
@@ -36,7 +36,7 @@ REP MOVSB      # 블록 이동: 수천 바이트 복사
 
 ## 관련 개념
 
-- [Page Fault](/knowledge/computer-architecture/page-fault/)
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [Context Switch](/knowledge/computer-architecture/context-switch/)
-- [Translation Lookaside Buffer](/knowledge/computer-architecture/translation-lookaside-buffer/)
+- [페이지 폴트 (Page Fault)](/knowledge/computer-architecture/page-fault/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [문맥 교환 (Context Switch)](/knowledge/computer-architecture/context-switch/)
+- [TLB (변환 색인 버퍼)](/knowledge/computer-architecture/translation-lookaside-buffer/)

@@ -1,5 +1,5 @@
 ---
-title: "Condition Codes"
+title: "조건 코드 (Condition Codes)"
 description: "조건 코드(Condition Codes)는 산술/논리 연산의 부작용으로 설정되는 상태 비트로, 결과가 양수, 음수, 0인지, 또는 오버플로가 발생했는지를 나타내며, 후속 조건 분기 명령어에서 사용된다"
 tags: ['Condition Codes', 'Branch', 'Control Flow', 'Isa Design']
 created: 2026-02-15
@@ -65,7 +65,7 @@ Power (다중 조건 레지스터):
 
 ## 관련 개념
 
-- [RISC Architecture](/knowledge/computer-architecture/risc-architecture/)
-- [CISC](/knowledge/computer-architecture/cisc/)
-- [x86 Architecture](/knowledge/computer-architecture/x86-architecture/)
-- [Control Unit](/knowledge/computer-architecture/control-unit/)
+- [RISC 아키텍처 (RISC Architecture)](/knowledge/computer-architecture/risc-architecture/)
+- [CISC (복합 명령어 집합 컴퓨터)](/knowledge/computer-architecture/cisc/)
+- [x86 아키텍처 (x86 Architecture)](/knowledge/computer-architecture/x86-architecture/)
+- [제어 장치 (Control Unit)](/knowledge/computer-architecture/control-unit/)

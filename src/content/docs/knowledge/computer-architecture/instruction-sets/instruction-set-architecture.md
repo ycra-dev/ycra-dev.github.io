@@ -1,5 +1,5 @@
 ---
-title: "Instruction Set Architecture"
+title: "ISA (명령어 집합 아키텍처)"
 description: "명령어 집합 구조(ISA, Instruction Set Architecture)는 하드웨어와 최하위 수준 소프트웨어 사이의 추상적 인터페이스로, 기계어 프로그램을 올바르게 작성하기 위해 필요한 모든 정보(명령어, 레지스터, 메모리 접근, I/O 등)를 포함한다"
 tags: ['Computer Architecture', 'Isa', 'Hardware Software Interface', 'Abstraction']
 created: 2026-02-15
@@ -27,8 +27,8 @@ MIPS ISA의 주요 구성 요소:
 
 ## 관련 개념
 
-- [Abstraction](/knowledge/computer-architecture/abstraction/)
-- [Application Binary Interface](/knowledge/computer-architecture/application-binary-interface/)
-- [Instruction Set](/knowledge/computer-architecture/instruction-set/)
-- [Instruction Format](/knowledge/computer-architecture/instruction-format/)
-- [Register](/knowledge/computer-architecture/register/)
+- [추상화 (Abstraction)](/knowledge/computer-architecture/abstraction/)
+- [응용 프로그램 이진 인터페이스 (ABI)](/knowledge/computer-architecture/application-binary-interface/)
+- [명령어 집합 (Instruction Set)](/knowledge/computer-architecture/instruction-set/)
+- [명령어 형식 (Instruction Format)](/knowledge/computer-architecture/instruction-format/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)

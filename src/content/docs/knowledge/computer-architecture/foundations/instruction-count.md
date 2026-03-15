@@ -1,5 +1,5 @@
 ---
-title: "Instruction Count"
+title: "명령어 수 (Instruction Count)"
 description: "명령어 수(Instruction Count)는 프로그램 실행 중 실행된 명령어의 총 수로, CPU 성능 방정식의 세 가지 핵심 요소 중 하나이다"
 tags: ['Performance', 'Compiler', 'Isa', 'Program Execution', 'Measurement']
 created: 2026-02-15
@@ -31,7 +31,7 @@ sidebar:
 
 ## 관련 개념
 
-- [CPU Performance Equation](/knowledge/computer-architecture/cpu-performance-equation/)
-- [CPI](/knowledge/computer-architecture/cpi/)
-- [Compiler](/knowledge/language/compiler/)
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
+- [CPU 성능 방정식 (CPU Performance Equation)](/knowledge/computer-architecture/cpu-performance-equation/)
+- [명령어당 사이클 수 (CPI)](/knowledge/computer-architecture/cpi/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)

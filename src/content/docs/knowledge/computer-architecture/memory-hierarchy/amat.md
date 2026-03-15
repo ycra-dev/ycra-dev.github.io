@@ -1,5 +1,5 @@
 ---
-title: "AMAT"
+title: "AMAT (평균 메모리 접근 시간)"
 description: "AMAT(Average Memory Access Time)은 히트와 미스를 모두 고려한 평균 메모리 접근 시간으로, 캐시 설계를 평가하는 지표이다"
 tags: ['Cache', 'Performance', 'Miss Rate', 'Hit Time', 'Miss Penalty']
 created: 2026-02-15
@@ -38,8 +38,8 @@ AMAT = 1 + 0.05 × 20 = 2 클록 사이클 (= 2 ns)
 
 ## 관련 개념
 
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
-- [Cache Miss](/knowledge/computer-architecture/cache-miss/)
-- [Miss Penalty](/knowledge/computer-architecture/miss-penalty/)
-- [Multilevel Cache](/knowledge/computer-architecture/multilevel-cache/)
-- [Hit Rate](/knowledge/computer-architecture/hit-rate/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)
+- [캐시 미스 (Cache Miss)](/knowledge/computer-architecture/cache-miss/)
+- [미스 페널티 (Miss Penalty)](/knowledge/computer-architecture/miss-penalty/)
+- [다단계 캐시 (Multilevel Cache)](/knowledge/computer-architecture/multilevel-cache/)
+- [적중률 (Hit Rate)](/knowledge/computer-architecture/hit-rate/)

@@ -1,5 +1,5 @@
 ---
-title: "State Element"
+title: "상태 소자 (State Element)"
 description: "상태 요소(State Element)는 내부 저장 공간을 가진 메모리 요소로, 레지스터나 메모리가 이에 해당한다"
 tags: ['Digital Logic', 'Register', 'Memory', 'Flip Flop']
 created: 2026-02-15
@@ -27,7 +27,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Combinational Element](/knowledge/computer-architecture/combinational-element/)
-- [Edge-Triggered Clocking](/knowledge/computer-architecture/edge-triggered-clocking/)
-- [Register File](/knowledge/computer-architecture/register-file/)
-- [Pipeline Register](/knowledge/computer-architecture/pipeline-register/)
+- [조합 소자 (Combinational Element)](/knowledge/computer-architecture/combinational-element/)
+- [에지 트리거 클로킹 (Edge-Triggered Clocking)](/knowledge/computer-architecture/edge-triggered-clocking/)
+- [레지스터 파일 (Register File)](/knowledge/computer-architecture/register-file/)
+- [파이프라인 레지스터 (Pipeline Register)](/knowledge/computer-architecture/pipeline-register/)

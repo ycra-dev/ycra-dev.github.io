@@ -1,5 +1,5 @@
 ---
-title: "Spatial Locality"
+title: "공간 지역성 (Spatial Locality)"
 description: "공간적 지역성(Spatial Locality)은 한 데이터 위치가 참조되면 인접한 주소의 데이터도 곧 참조될 가능성이 높다는 원리이다"
 tags: ['Locality', 'Memory Hierarchy', 'Cache', 'Block Size', 'Principle']
 created: 2026-02-15
@@ -33,7 +33,7 @@ for (i = 0; i < 1000; i++)
 
 ## 관련 개념
 
-- [Temporal Locality](/knowledge/computer-architecture/temporal-locality/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
-- [Direct-Mapped Cache](/knowledge/computer-architecture/direct-mapped-cache/)
+- [시간 지역성 (Temporal Locality)](/knowledge/computer-architecture/temporal-locality/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)
+- [직접 사상 캐시 (Direct-Mapped Cache)](/knowledge/computer-architecture/direct-mapped-cache/)

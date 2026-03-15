@@ -1,5 +1,5 @@
 ---
-title: "Double Precision"
+title: "배정밀도 (Double Precision)"
 description: "배정밀도(Double Precision)는 두 개의 32비트 워드(64비트)로 표현되는 부동소수점 값으로, 1비트 부호, 11비트 지수, 52비트 분수로 구성된다"
 tags: ['Floating Point', 'Ieee 754', '64 Bit', 'Precision', 'Range']
 created: 2026-02-15
@@ -32,7 +32,7 @@ s.d   $f4, 0($t2)        # 배정밀도 스토어
 
 ## 관련 개념
 
-- [Floating Point](/knowledge/computer-architecture/floating-point/)
-- [Single Precision](/knowledge/computer-architecture/single-precision/)
-- [IEEE 754 Standard](/knowledge/computer-architecture/ieee-754-standard/)
-- [DGEMM](/knowledge/computer-architecture/dgemm/)
+- [부동소수점 (Floating Point)](/knowledge/computer-architecture/floating-point/)
+- [단정밀도 (Single Precision)](/knowledge/computer-architecture/single-precision/)
+- [IEEE 754 표준 (IEEE 754 Standard)](/knowledge/computer-architecture/ieee-754-standard/)
+- [DGEMM (배정밀도 행렬 곱셈)](/knowledge/computer-architecture/dgemm/)

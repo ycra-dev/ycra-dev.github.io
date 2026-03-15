@@ -1,5 +1,5 @@
 ---
-title: "ARMv7 Instruction Set"
+title: "ARMv7 명령어 집합 (ARMv7 Instruction Set)"
 description: "ARMv7은 임베디드 장치에서 가장 널리 사용되는 32비트 명령어 세트 아키텍처로, 2016년까지 1000억 개 이상의 장치에 탑재되었다"
 tags: ['Arm', 'Risc', 'Instruction Set Architecture', 'Embedded Processor', 'Condition Code']
 created: 2026-02-15
@@ -29,6 +29,6 @@ ARM은 MIPS와 같은 해에 출시되었으며 유사한 철학을 따른다. M
 
 ## 관련 개념
 
-- [ARMv8 Instruction Set](/knowledge/computer-architecture/armv8-instruction-set/)
-- [RISC-V Instruction Set](/knowledge/computer-architecture/risc-v-instruction-set/)
-- [Condition Code](/knowledge/computer-architecture/condition-code/)
+- [ARMv8 명령어 집합 (ARMv8 Instruction Set)](/knowledge/computer-architecture/armv8-instruction-set/)
+- [RISC-V 명령어 집합 (RISC-V Instruction Set)](/knowledge/computer-architecture/risc-v-instruction-set/)
+- [조건 코드 (Condition Code)](/knowledge/computer-architecture/condition-code/)

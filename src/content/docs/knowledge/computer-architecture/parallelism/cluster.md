@@ -1,5 +1,5 @@
 ---
-title: "Cluster"
+title: "클러스터 (Cluster)"
 description: "클러스터는 표준 네트워크 스위치를 통해 I/O로 연결된 컴퓨터들의 모음으로, 메시지 전달 멀티프로세서를 구성한다"
 tags: ['Message Passing', 'Distributed Computing', 'Dependability', 'Scalability', 'Cloud Computing']
 created: 2026-02-15
@@ -52,7 +52,7 @@ Google: ~50,000 서버/데이터센터
 
 ## 관련 개념
 
-- [Message Passing](/knowledge/computer-architecture/message-passing/)
-- [Warehouse Scale Computer](/knowledge/computer-architecture/warehouse-scale-computer/)
-- [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
-- [MapReduce](/knowledge/computer-architecture/mapreduce/)
+- [메시지 전달 (Message Passing)](/knowledge/computer-architecture/message-passing/)
+- [창고 규모 컴퓨터 (WSC)](/knowledge/computer-architecture/warehouse-scale-computer/)
+- [공유 메모리 멀티프로세서 (SMP)](/knowledge/computer-architecture/shared-memory-multiprocessor/)
+- [맵리듀스 (MapReduce)](/knowledge/computer-architecture/mapreduce/)

@@ -1,5 +1,5 @@
 ---
-title: "Page Fault"
+title: "페이지 폴트 (Page Fault)"
 description: "페이지 폴트는 접근하려는 페이지가 메인 메모리에 존재하지 않을 때 발생하는 이벤트이다"
 tags: ['Virtual Memory', 'Exception', 'Page Table', 'Swap Space', 'Operating System']
 created: 2026-02-15
@@ -41,8 +41,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [Page Table](/knowledge/computer-architecture/page-table/)
-- [Swap Space](/knowledge/computer-architecture/swap-space/)
-- [Translation Lookaside Buffer](/knowledge/computer-architecture/translation-lookaside-buffer/)
-- [Context Switch](/knowledge/computer-architecture/context-switch/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [페이지 테이블 (Page Table)](/knowledge/computer-architecture/page-table/)
+- [스왑 공간 (Swap Space)](/knowledge/computer-architecture/swap-space/)
+- [TLB (변환 색인 버퍼)](/knowledge/computer-architecture/translation-lookaside-buffer/)
+- [문맥 교환 (Context Switch)](/knowledge/computer-architecture/context-switch/)

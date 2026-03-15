@@ -1,5 +1,5 @@
 ---
-title: "Multiply-Add (MAD)"
+title: "곱셈-덧셈 (MAD)"
 description: "MAD(Multiply-Add)는 곱셈 후 덧셈을 수행하는 복합 부동소수점 명령어로, 하나의 발행 사이클에서 두 개의 부동소수점 연산을 제공한다"
 tags: ['Mad', 'Floating Point', 'GPU', 'Arithmetic']
 created: 2026-02-15
@@ -49,6 +49,6 @@ FMA: 1.00000001 × 1.00000001 + (-1.0)
 
 ## 관련 개념
 
-- [Fused Multiply-Add](/knowledge/computer-architecture/fused-multiply-add/)
-- [Streaming Processor](/knowledge/computer-architecture/streaming-processor/)
-- [Half Precision](/knowledge/computer-architecture/half-precision/)
+- [융합 곱셈-덧셈 (FMA)](/knowledge/computer-architecture/fused-multiply-add/)
+- [SP (스트리밍 프로세서)](/knowledge/computer-architecture/streaming-processor/)
+- [반정밀도 (Half Precision)](/knowledge/computer-architecture/half-precision/)

@@ -1,5 +1,5 @@
 ---
-title: "Register Renaming"
+title: "레지스터 리네이밍 (Register Renaming)"
 description: "레지스터 리네이밍(Register Renaming)은 컴파일러 또는 하드웨어가 레지스터를 재명명하여 반이름 의존성(antidependence)을 제거하는 기법이다"
 tags: ['Antidependence', 'Name Dependence', 'Ilp', 'Out Of Order', 'Pipeline']
 created: 2026-02-15
@@ -38,8 +38,8 @@ sw $t1, -4($s1)
 
 ## 관련 개념
 
-- [Antidependence](/knowledge/computer-architecture/antidependence/)
-- [Loop Unrolling](/knowledge/language/loop-unrolling/)
-- [Reorder Buffer](/knowledge/computer-architecture/reorder-buffer/)
-- [Reservation Station](/knowledge/computer-architecture/reservation-station/)
-- [Out-of-Order Execution](/knowledge/computer-architecture/out-of-order-execution/)
+- [역의존성 (Antidependence)](/knowledge/computer-architecture/antidependence/)
+- [루프 풀기 (Loop Unrolling)](/knowledge/language/loop-unrolling/)
+- [리오더 버퍼 (Reorder Buffer)](/knowledge/computer-architecture/reorder-buffer/)
+- [예약 스테이션 (Reservation Station)](/knowledge/computer-architecture/reservation-station/)
+- [비순차 실행 (Out-of-Order Execution)](/knowledge/computer-architecture/out-of-order-execution/)

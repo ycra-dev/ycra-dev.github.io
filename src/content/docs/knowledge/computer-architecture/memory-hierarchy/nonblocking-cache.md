@@ -1,5 +1,5 @@
 ---
-title: "Nonblocking Cache"
+title: "비차단 캐시 (Nonblocking Cache)"
 description: "비블로킹 캐시(nonblocking cache)는 캐시가 이전 미스를 처리하는 동안에도 프로세서가 캐시에 대한 참조를 계속할 수 있게 하는 캐시 설계이다"
 tags: ['Cache', 'Out Of Order Execution', 'Miss Latency', 'Hit Under Miss', 'Memory Hierarchy']
 created: 2026-02-15
@@ -47,7 +47,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Three Cs Model](/knowledge/computer-architecture/three-cs-model/)
-- [Write-Back](/knowledge/computer-architecture/write-back/)
-- [Prefetching](/knowledge/computer-architecture/prefetching/)
-- [Cache Coherence](/knowledge/computer-architecture/cache-coherence/)
+- [3C 모델 (Three Cs Model)](/knowledge/computer-architecture/three-cs-model/)
+- [후기입 (Write-Back)](/knowledge/computer-architecture/write-back/)
+- [프리페칭 (Prefetching)](/knowledge/computer-architecture/prefetching/)
+- [캐시 일관성 (Cache Coherence)](/knowledge/computer-architecture/cache-coherence/)

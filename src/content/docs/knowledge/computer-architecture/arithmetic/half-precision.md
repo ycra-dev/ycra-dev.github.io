@@ -1,5 +1,5 @@
 ---
-title: "Half Precision"
+title: "반정밀도 (Half Precision)"
 description: "반정밀도(Half Precision)는 16비트 이진 부동소수점 형식으로, 1비트 부호, 5비트 지수, 10비트 소수부, 그리고 암시적 정수 비트로 구성된다"
 tags: ['Half Precision', 'Floating Point', 'GPU', 'Data Format']
 created: 2026-02-15
@@ -49,6 +49,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Texture](/knowledge/computer-architecture/texture/)
-- [Shader](/knowledge/computer-architecture/shader/)
-- [Fused Multiply-Add](/knowledge/computer-architecture/fused-multiply-add/)
+- [텍스처 (Texture)](/knowledge/computer-architecture/texture/)
+- [셰이더 (Shader)](/knowledge/computer-architecture/shader/)
+- [융합 곱셈-덧셈 (FMA)](/knowledge/computer-architecture/fused-multiply-add/)

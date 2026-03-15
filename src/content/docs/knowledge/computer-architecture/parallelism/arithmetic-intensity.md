@@ -1,5 +1,5 @@
 ---
-title: "Arithmetic Intensity"
+title: "산술 강도 (Arithmetic Intensity)"
 description: "산술 강도(Arithmetic Intensity)는 프로그램이 메인 메모리에서 접근하는 데이터 바이트 수 대비 수행하는 부동소수점 연산 수의 비율이다"
 tags: ['Roofline Model', 'Memory Bandwidth', 'Floating Point', 'Performance Analysis']
 created: 2026-02-15
@@ -27,6 +27,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Roofline Model](/knowledge/computer-architecture/roofline-model/)
-- [Software Prefetching](/knowledge/computer-architecture/software-prefetching/)
-- [Cache Blocking](/knowledge/computer-architecture/cache-blocking/)
+- [루프라인 모델 (Roofline Model)](/knowledge/computer-architecture/roofline-model/)
+- [소프트웨어 프리페칭 (Software Prefetching)](/knowledge/computer-architecture/software-prefetching/)
+- [캐시 블로킹 (Cache Blocking)](/knowledge/computer-architecture/cache-blocking/)

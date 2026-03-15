@@ -1,5 +1,5 @@
 ---
-title: "Data Race"
+title: "데이터 경쟁 (Data Race)"
 description: "데이터 레이스(Data Race)는 서로 다른 스레드에서 동일한 메모리 위치에 대해, 최소 하나가 쓰기인 두 개의 메모리 접근이 순서 없이 발생하여 프로그램 결과가 이벤트 발생 순서에 따라 달라질 수 있는 상황이다"
 tags: ['Parallelism', 'Synchronization', 'Concurrency', 'Multithreading', 'Shared Memory']
 created: 2026-02-15
@@ -35,6 +35,6 @@ try:  add  $t0, $zero, $s4   # 교환할 값
 
 ## 관련 개념
 
-- [Atomic Operation](/knowledge/computer-architecture/atomic-operation/)
-- [Multicore Processor](/knowledge/computer-architecture/multicore-processor/)
-- [Instruction Set](/knowledge/computer-architecture/instruction-set/)
+- [원자적 연산 (Atomic Operation)](/knowledge/computer-architecture/atomic-operation/)
+- [멀티코어 프로세서 (Multicore Processor)](/knowledge/computer-architecture/multicore-processor/)
+- [명령어 집합 (Instruction Set)](/knowledge/computer-architecture/instruction-set/)

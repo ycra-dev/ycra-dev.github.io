@@ -1,5 +1,5 @@
 ---
-title: "Multilevel Cache"
+title: "다단계 캐시 (Multilevel Cache)"
 description: "다단계 캐시(Multilevel Cache)는 단일 캐시와 메인 메모리 대신 여러 수준의 캐시를 사용하는 메모리 계층구조이다"
 tags: ['Cache', 'Memory Hierarchy', 'Performance', 'Miss Penalty', 'L2 Cache']
 created: 2026-02-15
@@ -36,8 +36,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
-- [AMAT](/knowledge/computer-architecture/amat/)
-- [Cache Miss](/knowledge/computer-architecture/cache-miss/)
-- [Miss Penalty](/knowledge/computer-architecture/miss-penalty/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)
+- [AMAT (평균 메모리 접근 시간)](/knowledge/computer-architecture/amat/)
+- [캐시 미스 (Cache Miss)](/knowledge/computer-architecture/cache-miss/)
+- [미스 페널티 (Miss Penalty)](/knowledge/computer-architecture/miss-penalty/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)

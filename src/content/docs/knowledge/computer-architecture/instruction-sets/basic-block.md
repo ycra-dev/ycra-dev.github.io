@@ -1,5 +1,5 @@
 ---
-title: "Basic Block"
+title: "기본 블록 (Basic Block)"
 description: "기본 블록(Basic Block)은 분기(branch)가 없는(끝에만 있을 수 있는) 명령어 시퀀스로, 분기 대상이나 분기 레이블이 없는(시작에만 있을 수 있는) 연속적인 명령어의 단위이다"
 tags: ['Control Flow', 'Compilation', 'Optimization', 'Branch', 'Instruction Sequence']
 created: 2026-02-15
@@ -35,7 +35,7 @@ Exit: ...
 
 ## 관련 개념
 
-- [Conditional Branch](/knowledge/computer-architecture/conditional-branch/)
-- [Compiler](/knowledge/language/compiler/)
-- [Instruction-Level Parallelism](/knowledge/computer-architecture/instruction-level-parallelism/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
+- [조건 분기 (Conditional Branch)](/knowledge/computer-architecture/conditional-branch/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [명령어 수준 병렬성 (ILP)](/knowledge/computer-architecture/instruction-level-parallelism/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)

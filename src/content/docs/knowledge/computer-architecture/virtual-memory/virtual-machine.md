@@ -1,5 +1,5 @@
 ---
-title: "Virtual Machine"
+title: "가상 머신 (Virtual Machine)"
 description: "가상 머신(VM)은 하나의 물리적 컴퓨터 위에 여러 개의 독립적인 운영 체제 환경을 실행할 수 있도록 하드웨어 자원을 가상화하는 기술이다"
 tags: ['Virtualization', 'Hypervisor', 'Vmm', 'Cloud Computing', 'Isolation']
 created: 2026-02-15
@@ -38,7 +38,7 @@ VMM은 현재 실행 중인 Guest VM을 중단 ->
 
 ## 관련 개념
 
-- [Virtual Machine Monitor](/knowledge/computer-architecture/virtual-machine-monitor/)
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [Supervisor Mode](/knowledge/computer-architecture/supervisor-mode/)
-- [Context Switch](/knowledge/computer-architecture/context-switch/)
+- [가상 머신 모니터 (VMM)](/knowledge/computer-architecture/virtual-machine-monitor/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [관리자 모드 (Supervisor Mode)](/knowledge/computer-architecture/supervisor-mode/)
+- [문맥 교환 (Context Switch)](/knowledge/computer-architecture/context-switch/)

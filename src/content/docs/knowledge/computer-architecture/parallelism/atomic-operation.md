@@ -1,5 +1,5 @@
 ---
-title: "Atomic Operation"
+title: "원자적 연산 (Atomic Operation)"
 description: "원자적 연산(Atomic Operation)은 다른 연산이 중간에 개입할 수 없는, 분할 불가능한(indivisible) 메모리 읽기-수정-쓰기 연산으로, 멀티프로세서 동기화의 하드웨어 기반 기본 연산이다"
 tags: ['Synchronization', 'Parallelism', 'Load Linked', 'Store Conditional', 'Mutual Exclusion']
 created: 2026-02-15
@@ -36,7 +36,7 @@ try:
 
 ## 관련 개념
 
-- [Data Race](/knowledge/computer-architecture/data-race/)
-- [Multicore Processor](/knowledge/computer-architecture/multicore-processor/)
-- [Instruction Set](/knowledge/computer-architecture/instruction-set/)
-- [Operating System](/knowledge/computer-architecture/operating-system/)
+- [데이터 경쟁 (Data Race)](/knowledge/computer-architecture/data-race/)
+- [멀티코어 프로세서 (Multicore Processor)](/knowledge/computer-architecture/multicore-processor/)
+- [명령어 집합 (Instruction Set)](/knowledge/computer-architecture/instruction-set/)
+- [운영체제 (Operating System)](/knowledge/computer-architecture/operating-system/)

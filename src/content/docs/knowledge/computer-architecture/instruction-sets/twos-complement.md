@@ -1,5 +1,5 @@
 ---
-title: "Two's Complement"
+title: "2의 보수 (Two's Complement)"
 description: "2의 보수(Two's Complement)는 부호 있는 정수를 이진수로 표현하는 방식으로, 선행 비트가 0이면 양수, 1이면 음수를 나타내며, 1965년 이후 모든 컴퓨터에서 사용되는 유일한 표현 방식이다"
 tags: ['Number Representation', 'Signed Integer', 'Binary', 'Arithmetic', 'Overflow']
 created: 2026-02-15
@@ -55,10 +55,10 @@ sidebar:
 
 ## 관련 개념
 
-- [Word](/knowledge/computer-architecture/word/)
-- [Register](/knowledge/computer-architecture/register/)
-- [Sign Extension](/knowledge/computer-architecture/sign-extension/)
-- [Machine Language](/knowledge/computer-architecture/machine-language/)
-- [Overflow Detection](/knowledge/computer-architecture/overflow-detection/)
-- [Arithmetic Logic Unit](/knowledge/computer-architecture/arithmetic-logic-unit/)
-- [Exception](/knowledge/computer-architecture/exception/)
+- [워드 (Word)](/knowledge/computer-architecture/word/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)
+- [부호 확장 (Sign Extension)](/knowledge/computer-architecture/sign-extension/)
+- [기계어 (Machine Language)](/knowledge/computer-architecture/machine-language/)
+- [오버플로우 검출 (Overflow Detection)](/knowledge/computer-architecture/overflow-detection/)
+- [산술논리장치 (ALU)](/knowledge/computer-architecture/arithmetic-logic-unit/)
+- [예외 (Exception)](/knowledge/computer-architecture/exception/)

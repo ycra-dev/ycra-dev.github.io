@@ -1,5 +1,5 @@
 ---
-title: "Bisection Bandwidth"
+title: "이등분 대역폭 (Bisection Bandwidth)"
 description: "이등분 대역폭(bisection bandwidth)은 멀티프로세서를 두 개의 동일한 부분으로 나눌 때, 가상의 분할선을 넘는 링크들의 대역폭 합이다"
 tags: ['Network Topology', 'Multiprocessor', 'Performance Metric', 'Interconnection Network', 'Worst Case']
 created: 2026-02-15
@@ -41,6 +41,6 @@ P=64 노드 링:
 
 ## 관련 개념
 
-- [Network Topology](/knowledge/computer-architecture/network-topology/)
-- [Cluster](/knowledge/computer-architecture/cluster/)
-- [Multiprocessor](/knowledge/computer-architecture/multiprocessor/)
+- [네트워크 토폴로지 (Network Topology)](/knowledge/computer-architecture/network-topology/)
+- [클러스터 (Cluster)](/knowledge/computer-architecture/cluster/)
+- [멀티프로세서 (Multiprocessor)](/knowledge/computer-architecture/multiprocessor/)

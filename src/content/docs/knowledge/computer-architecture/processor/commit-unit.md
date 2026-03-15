@@ -1,5 +1,5 @@
 ---
-title: "Commit Unit"
+title: "커밋 유닛 (Commit Unit)"
 description: "커밋 유닛(Commit Unit)은 동적 또는 비순차 실행 파이프라인에서 연산 결과를 프로그래머 가시 레지스터와 메모리에 반영하는 것이 안전한 시점을 결정하는 유닛이다"
 tags: ['Out Of Order', 'Reorder Buffer', 'Pipeline', 'Register File', 'Dynamic Scheduling']
 created: 2026-02-15
@@ -38,8 +38,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Reorder Buffer](/knowledge/computer-architecture/reorder-buffer/)
-- [In-Order Commit](/knowledge/computer-architecture/in-order-commit/)
-- [Out-of-Order Execution](/knowledge/computer-architecture/out-of-order-execution/)
-- [Dynamic Pipeline Scheduling](/knowledge/computer-architecture/dynamic-pipeline-scheduling/)
-- [Speculation](/knowledge/computer-architecture/speculation/)
+- [리오더 버퍼 (Reorder Buffer)](/knowledge/computer-architecture/reorder-buffer/)
+- [순서 커밋 (In-Order Commit)](/knowledge/computer-architecture/in-order-commit/)
+- [비순차 실행 (Out-of-Order Execution)](/knowledge/computer-architecture/out-of-order-execution/)
+- [동적 파이프라인 스케줄링 (Dynamic Pipeline Scheduling)](/knowledge/computer-architecture/dynamic-pipeline-scheduling/)
+- [투기적 실행 (Speculation)](/knowledge/computer-architecture/speculation/)

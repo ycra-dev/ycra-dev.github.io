@@ -1,5 +1,5 @@
 ---
-title: "Multiplexor"
+title: "멀티플렉서 (Multiplexor)"
 description: "멀티플렉서(Multiplexor)는 제어 신호(셀렉터)에 의해 여러 데이터 입력 중 하나를 선택하여 출력하는 조합 논리 블록으로, n개의 데이터 입력에 대해 ceil(log2(n))개의 선택 입력이 필요하다"
 tags: ['Combinational Logic', 'Selector', 'Datapath', 'Logic Design']
 created: 2026-02-15
@@ -44,7 +44,7 @@ Verilog:
 
 ## 관련 개념
 
-- [Combinational Logic](/knowledge/computer-architecture/combinational-logic/)
-- [Decoder](/knowledge/computer-architecture/decoder/)
-- [Arithmetic Logic Unit](/knowledge/computer-architecture/arithmetic-logic-unit/)
-- [Datapath](/knowledge/computer-architecture/datapath/)
+- [조합 논리 (Combinational Logic)](/knowledge/computer-architecture/combinational-logic/)
+- [디코더 (Decoder)](/knowledge/computer-architecture/decoder/)
+- [산술논리장치 (ALU)](/knowledge/computer-architecture/arithmetic-logic-unit/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)

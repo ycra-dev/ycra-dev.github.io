@@ -1,5 +1,5 @@
 ---
-title: "Fused Multiply Add"
+title: "융합 곱셈-덧셈 (FMA)"
 description: "융합 곱셈-덧셈(Fused Multiply Add, FMA)은 곱셈과 덧셈을 수행하되 덧셈 후 한 번만 반올림하는 부동소수점 명령어이다"
 tags: ['Floating Point', 'Fma', 'Precision', 'Performance', 'Ieee 754 2008']
 created: 2026-02-15
@@ -35,10 +35,10 @@ vfmadd231pd %zmm0, %zmm1, %zmm2  # zmm2 = zmm0 * zmm1 + zmm2
 
 ## 관련 개념
 
-- [Floating Point Multiplication](/knowledge/computer-architecture/floating-point-multiplication/)
-- [Floating Point Addition](/knowledge/computer-architecture/floating-point-addition/)
-- [IEEE 754 Standard](/knowledge/computer-architecture/ieee-754-standard/)
-- [Subword Parallelism](/knowledge/computer-architecture/subword-parallelism/)
-- [DGEMM](/knowledge/computer-architecture/dgemm/)
-- [Streaming Processor](/knowledge/computer-architecture/streaming-processor/)
-- [Half Precision](/knowledge/computer-architecture/half-precision/)
+- [부동소수점 곱셈 (Floating Point Multiplication)](/knowledge/computer-architecture/floating-point-multiplication/)
+- [부동소수점 덧셈 (Floating Point Addition)](/knowledge/computer-architecture/floating-point-addition/)
+- [IEEE 754 표준 (IEEE 754 Standard)](/knowledge/computer-architecture/ieee-754-standard/)
+- [서브워드 병렬성 (Subword Parallelism)](/knowledge/computer-architecture/subword-parallelism/)
+- [DGEMM (배정밀도 행렬 곱셈)](/knowledge/computer-architecture/dgemm/)
+- [SP (스트리밍 프로세서)](/knowledge/computer-architecture/streaming-processor/)
+- [반정밀도 (Half Precision)](/knowledge/computer-architecture/half-precision/)

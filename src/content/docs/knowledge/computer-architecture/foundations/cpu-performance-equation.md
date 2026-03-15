@@ -1,5 +1,5 @@
 ---
-title: "CPU Performance Equation"
+title: "CPU 성능 방정식 (CPU Performance Equation)"
 description: "CPU 성능 방정식은 프로그램의 CPU 실행 시간을 명령어 수(Instruction Count), CPI, 클럭 주기(Clock Cycle Time)의 세 가지 핵심 요소의 곱으로 표현하는 공식이다"
 tags: ['Performance', 'CPU Time', 'Instruction Count', 'Cpi', 'Clock Rate']
 created: 2026-02-15
@@ -31,8 +31,8 @@ CPU 시간 = 명령어 수 × CPI × 클럭 주기
 
 ## 관련 개념
 
-- [CPI](/knowledge/computer-architecture/cpi/)
-- [Clock Cycle](/knowledge/computer-architecture/clock-cycle/)
-- [Instruction Count](/knowledge/computer-architecture/instruction-count/)
-- [Response Time](/knowledge/computer-architecture/response-time/)
-- [Amdahl's Law](/knowledge/computer-architecture/amdahls-law/)
+- [명령어당 사이클 수 (CPI)](/knowledge/computer-architecture/cpi/)
+- [클록 주기 (Clock Cycle)](/knowledge/computer-architecture/clock-cycle/)
+- [명령어 수 (Instruction Count)](/knowledge/computer-architecture/instruction-count/)
+- [응답 시간 (Response Time)](/knowledge/computer-architecture/response-time/)
+- [암달의 법칙 (Amdahl's Law)](/knowledge/computer-architecture/amdahls-law/)

@@ -1,5 +1,5 @@
 ---
-title: "Single-Instruction Multiple-Thread (SIMT)"
+title: "SIMT (단일 명령어 다중 스레드)"
 description: "SIMT(Single-Instruction Multiple-Thread)는 하나의 명령어를 여러 독립적인 스레드에 병렬로 적용하는 프로세서 아키텍처이다"
 tags: ['Simt', 'GPU Architecture', 'Parallel Execution', 'Warp']
 created: 2026-02-15
@@ -59,7 +59,7 @@ if (threadIdx.x < 16) {  // path A
 
 ## 관련 개념
 
-- [Warp](/knowledge/computer-architecture/warp/)
-- [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)
-- [SPMD](/knowledge/computer-architecture/spmd/)
-- [CUDA](/knowledge/computer-architecture/cuda/)
+- [워프 (Warp)](/knowledge/computer-architecture/warp/)
+- [SM (스트리밍 멀티프로세서)](/knowledge/computer-architecture/streaming-multiprocessor/)
+- [SPMD (단일 프로그램 다중 데이터)](/knowledge/computer-architecture/spmd/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)

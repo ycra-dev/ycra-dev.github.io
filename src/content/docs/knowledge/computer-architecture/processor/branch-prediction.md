@@ -1,5 +1,5 @@
 ---
-title: "Branch Prediction"
+title: "분기 예측 (Branch Prediction)"
 description: "분기 예측(Branch Prediction)은 분기의 결과를 가정하고 그 가정에 따라 실행을 진행하는 해저드 해결 기법이다"
 tags: ['Control Hazard', 'Prediction', 'Performance', 'Pipeline']
 created: 2026-02-15
@@ -29,7 +29,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Control Hazard](/knowledge/computer-architecture/control-hazard/)
-- [Dynamic Branch Prediction](/knowledge/computer-architecture/dynamic-branch-prediction/)
-- [Branch Prediction Buffer](/knowledge/computer-architecture/branch-prediction-buffer/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
+- [제어 해저드 (Control Hazard)](/knowledge/computer-architecture/control-hazard/)
+- [동적 분기 예측 (Dynamic Branch Prediction)](/knowledge/computer-architecture/dynamic-branch-prediction/)
+- [분기 예측 버퍼 (Branch Prediction Buffer)](/knowledge/computer-architecture/branch-prediction-buffer/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)

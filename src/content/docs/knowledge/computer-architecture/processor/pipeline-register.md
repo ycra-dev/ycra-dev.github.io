@@ -1,5 +1,5 @@
 ---
-title: "Pipeline Register"
+title: "파이프라인 레지스터 (Pipeline Register)"
 description: "파이프라인 레지스터(Pipeline Register)는 파이프라인 단계 사이에 위치하여 각 단계의 데이터와 제어 정보를 다음 단계로 전달하기 위해 저장하는 레지스터이다"
 tags: ['Pipelining', 'Datapath', 'State Element', 'Stage Separation']
 created: 2026-02-15
@@ -31,7 +31,7 @@ ID/EX 레지스터 내용:
 
 ## 관련 개념
 
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
-- [Forwarding](/knowledge/computer-architecture/forwarding/)
-- [State Element](/knowledge/computer-architecture/state-element/)
-- [Datapath](/knowledge/computer-architecture/datapath/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)
+- [포워딩 (Forwarding)](/knowledge/computer-architecture/forwarding/)
+- [상태 소자 (State Element)](/knowledge/computer-architecture/state-element/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)

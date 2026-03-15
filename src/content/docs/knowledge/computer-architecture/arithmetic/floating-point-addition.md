@@ -1,5 +1,5 @@
 ---
-title: "Floating Point Addition"
+title: "부동소수점 덧셈 (Floating Point Addition)"
 description: "부동소수점 덧셈은 지수 정렬, 유효자리 덧셈, 정규화, 반올림의 네 단계를 거쳐 두 부동소수점 수를 더하는 연산이다"
 tags: ['Floating Point', 'Arithmetic', 'Normalization', 'Rounding', 'Alignment']
 created: 2026-02-15
@@ -38,7 +38,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Floating Point](/knowledge/computer-architecture/floating-point/)
-- [Floating Point Multiplication](/knowledge/computer-architecture/floating-point-multiplication/)
-- [Guard Bit and Round Bit](/knowledge/computer-architecture/guard-bit-and-round-bit/)
-- [IEEE 754 Standard](/knowledge/computer-architecture/ieee-754-standard/)
+- [부동소수점 (Floating Point)](/knowledge/computer-architecture/floating-point/)
+- [부동소수점 곱셈 (Floating Point Multiplication)](/knowledge/computer-architecture/floating-point-multiplication/)
+- [가드 비트와 라운드 비트 (Guard Bit and Round Bit)](/knowledge/computer-architecture/guard-bit-and-round-bit/)
+- [IEEE 754 표준 (IEEE 754 Standard)](/knowledge/computer-architecture/ieee-754-standard/)

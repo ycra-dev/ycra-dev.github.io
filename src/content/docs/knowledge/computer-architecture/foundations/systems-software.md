@@ -1,5 +1,5 @@
 ---
-title: "Systems Software"
+title: "시스템 소프트웨어 (Systems Software)"
 description: "시스템 소프트웨어(Systems Software)는 일반적으로 유용한 서비스를 제공하는 소프트웨어로, 운영체제, 컴파일러, 로더, 어셈블러 등을 포함한다"
 tags: ['Operating System', 'Compiler', 'Assembler', 'Loader', 'Software Layer']
 created: 2026-02-15
@@ -33,7 +33,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Operating System](/knowledge/computer-architecture/operating-system/)
-- [Compiler](/knowledge/language/compiler/)
-- [Assembly Language](/knowledge/computer-architecture/assembly-language/)
-- [Abstraction](/knowledge/computer-architecture/abstraction/)
+- [운영체제 (Operating System)](/knowledge/computer-architecture/operating-system/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [어셈블리어 (Assembly Language)](/knowledge/computer-architecture/assembly-language/)
+- [추상화 (Abstraction)](/knowledge/computer-architecture/abstraction/)

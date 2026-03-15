@@ -1,5 +1,5 @@
 ---
-title: "Write-Back"
+title: "후기입 (Write-Back)"
 description: "Write-back은 정보를 캐시의 블록에만 기록하고, 해당 블록이 교체될 때에만 하위 메모리 계층으로 기록하는 캐시 쓰기 정책이다"
 tags: ['Cache', 'Memory Hierarchy', 'Dirty Bit', 'Write Policy', 'Write Buffer']
 created: 2026-02-15
@@ -45,10 +45,10 @@ Write-Back:
 
 ## 관련 개념
 
-- [Dirty Bit](/knowledge/computer-architecture/dirty-bit/)
-- [Three Cs Model](/knowledge/computer-architecture/three-cs-model/)
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [Cache Coherence](/knowledge/computer-architecture/cache-coherence/)
-- [Write-Through](/knowledge/computer-architecture/write-through/)
-- [Write Buffer](/knowledge/computer-architecture/write-buffer/)
-- [Direct-Mapped Cache](/knowledge/computer-architecture/direct-mapped-cache/)
+- [더티 비트 (Dirty Bit)](/knowledge/computer-architecture/dirty-bit/)
+- [3C 모델 (Three Cs Model)](/knowledge/computer-architecture/three-cs-model/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [캐시 일관성 (Cache Coherence)](/knowledge/computer-architecture/cache-coherence/)
+- [즉시쓰기 (Write-Through)](/knowledge/computer-architecture/write-through/)
+- [쓰기 버퍼 (Write Buffer)](/knowledge/computer-architecture/write-buffer/)
+- [직접 사상 캐시 (Direct-Mapped Cache)](/knowledge/computer-architecture/direct-mapped-cache/)

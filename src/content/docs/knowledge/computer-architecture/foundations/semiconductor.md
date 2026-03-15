@@ -1,5 +1,5 @@
 ---
-title: "Semiconductor"
+title: "반도체 (Semiconductor)"
 description: "반도체(Semiconductor)는 전기를 잘 전도하지 않는 물질로, 실리콘이 대표적이며, 특수한 화학 공정을 통해 도체, 절연체, 또는 조건에 따라 전도/절연하는 스위치(트랜지스터)로 변환할 수 있다"
 tags: ['Silicon', 'Transistor', 'Fabrication', 'Material', 'Integrated Circuit']
 created: 2026-02-15
@@ -36,6 +36,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Transistor](/knowledge/computer-architecture/transistor/)
-- [Integrated Circuit](/knowledge/computer-architecture/integrated-circuit/)
-- [CMOS](/knowledge/computer-architecture/cmos/)
+- [트랜지스터 (Transistor)](/knowledge/computer-architecture/transistor/)
+- [집적회로 (Integrated Circuit)](/knowledge/computer-architecture/integrated-circuit/)
+- [CMOS (상보형 금속 산화물 반도체)](/knowledge/computer-architecture/cmos/)

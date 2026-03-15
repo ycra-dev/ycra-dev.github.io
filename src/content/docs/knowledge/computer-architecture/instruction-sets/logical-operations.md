@@ -1,5 +1,5 @@
 ---
-title: "Logical Operations"
+title: "논리 연산 (Logical Operations)"
 description: "논리 연산(Logical Operations)은 워드 내의 비트 필드 또는 개별 비트를 조작하는 명령어로, AND, OR, NOT, NOR, 시프트(shift) 등이 포함된다"
 tags: ['Bitwise', 'And', 'Or', 'Shift', 'Mask', 'Instruction']
 created: 2026-02-15
@@ -36,7 +36,7 @@ nor $t0, $t1, $zero # $t0 = ~$t1 (NOT $t1)
 
 ## 관련 개념
 
-- [Instruction Set](/knowledge/computer-architecture/instruction-set/)
-- [Register](/knowledge/computer-architecture/register/)
-- [Instruction Format](/knowledge/computer-architecture/instruction-format/)
-- [Word](/knowledge/computer-architecture/word/)
+- [명령어 집합 (Instruction Set)](/knowledge/computer-architecture/instruction-set/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)
+- [명령어 형식 (Instruction Format)](/knowledge/computer-architecture/instruction-format/)
+- [워드 (Word)](/knowledge/computer-architecture/word/)

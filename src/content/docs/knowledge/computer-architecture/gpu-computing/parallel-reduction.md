@@ -1,5 +1,5 @@
 ---
-title: "Parallel Reduction"
+title: "병렬 리덕션 (Parallel Reduction)"
 description: "병렬 리덕션(Parallel Reduction)은 배열의 모든 원소를 결합 연산자(덧셈, 최대값 등)를 사용하여 하나의 값으로 줄이는 병렬 알고리즘이다"
 tags: ['Parallel Reduction', 'Parallel Algorithm', 'Cuda', 'Data Parallel']
 created: 2026-02-15
@@ -61,6 +61,6 @@ __global__ void reduce(float *input, float *total, int n) {
 
 ## 관련 개념
 
-- [Atomic Memory Operation](/knowledge/computer-architecture/atomic-memory-operation/)
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [GPU Memory Hierarchy](/knowledge/computer-architecture/gpu-memory-hierarchy/)
+- [원자적 메모리 연산 (Atomic Memory Operation)](/knowledge/computer-architecture/atomic-memory-operation/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [GPU 메모리 계층 구조 (GPU Memory Hierarchy)](/knowledge/computer-architecture/gpu-memory-hierarchy/)

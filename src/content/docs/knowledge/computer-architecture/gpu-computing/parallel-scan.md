@@ -1,5 +1,5 @@
 ---
-title: "Parallel Scan (Prefix Sum)"
+title: "병렬 스캔 (Prefix Sum)"
 description: "병렬 스캔(Parallel Scan), 또는 병렬 프리픽스 합(Prefix Sum)은 주어진 시퀀스와 이항 결합 연산자에 대해 모든 프리픽스 연산 결과를 계산하는 데이터 병렬 알고리즘의 핵심 빌딩 블록이다"
 tags: ['Parallel Scan', 'Prefix Sum', 'Parallel Algorithm', 'Cuda']
 created: 2026-02-15
@@ -59,7 +59,7 @@ __global__ void scan(float *x, int n) {
 
 ## 관련 개념
 
-- [Parallel Reduction](/knowledge/computer-architecture/parallel-reduction/)
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [Synchronization Barrier](/knowledge/computer-architecture/synchronization-barrier/)
-- [Thread Block](/knowledge/computer-architecture/thread-block/)
+- [병렬 리덕션 (Parallel Reduction)](/knowledge/computer-architecture/parallel-reduction/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [동기화 장벽 (Synchronization Barrier)](/knowledge/computer-architecture/synchronization-barrier/)
+- [스레드 블록 (Thread Block)](/knowledge/computer-architecture/thread-block/)

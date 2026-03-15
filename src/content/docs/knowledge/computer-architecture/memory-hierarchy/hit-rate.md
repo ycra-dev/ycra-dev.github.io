@@ -1,5 +1,5 @@
 ---
-title: "Hit Rate"
+title: "적중률 (Hit Rate)"
 description: "히트율(Hit Rate)은 메모리 계층구조의 한 수준에서 요청한 데이터를 찾은 메모리 접근의 비율이다"
 tags: ['Cache', 'Memory Hierarchy', 'Performance', 'Miss Rate', 'Metric']
 created: 2026-02-15
@@ -33,8 +33,8 @@ Intrinsity FastMATH 캐시 (SPEC CPU2000):
 
 ## 관련 개념
 
-- [Cache Miss](/knowledge/computer-architecture/cache-miss/)
-- [AMAT](/knowledge/computer-architecture/amat/)
-- [Miss Penalty](/knowledge/computer-architecture/miss-penalty/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
+- [캐시 미스 (Cache Miss)](/knowledge/computer-architecture/cache-miss/)
+- [AMAT (평균 메모리 접근 시간)](/knowledge/computer-architecture/amat/)
+- [미스 페널티 (Miss Penalty)](/knowledge/computer-architecture/miss-penalty/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)

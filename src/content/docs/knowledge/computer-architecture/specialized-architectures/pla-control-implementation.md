@@ -1,5 +1,5 @@
 ---
-title: "PLA Control Implementation"
+title: "PLA 제어 구현 (PLA Control Implementation)"
 description: "PLA(Programmable Logic Array) 제어 구현은 AND-plane과 OR-plane으로 구성된 2단 논리 구조를 사용하여 제어 함수를 구현하는 방식으로, ROM보다 더 효율적으로 희소한 진리표를 인코딩할 수 있다"
 tags: ['Pla', 'Control Unit', 'Programmable Logic', 'Digital Design']
 created: 2026-02-15
@@ -61,6 +61,6 @@ PLA (분할):     ~298 units
 
 ## 관련 개념
 
-- [Finite-State Machine Control](/knowledge/computer-architecture/finite-state-machine-control/)
-- [ROM Control Implementation](/knowledge/computer-architecture/rom-control-implementation/)
-- [Control Unit](/knowledge/computer-architecture/control-unit/)
+- [유한 상태 기계 제어 (FSM Control)](/knowledge/computer-architecture/finite-state-machine-control/)
+- [ROM 제어 구현 (ROM Control Implementation)](/knowledge/computer-architecture/rom-control-implementation/)
+- [제어 장치 (Control Unit)](/knowledge/computer-architecture/control-unit/)

@@ -1,5 +1,5 @@
 ---
-title: "VLIW"
+title: "VLIW (초장 명령어)"
 description: "VLIW(Very Long Instruction Word)는 하나의 긴 명령어에 여러 개의 독립적인 연산을 묶어 동시에 발행하는 명령어 아키텍처로, 컴파일러가 병렬화 결정을 담당한다"
 tags: ['Instruction Level Parallelism', 'Instruction Set', 'Tpuv3', 'Compiler']
 created: 2026-02-15
@@ -33,9 +33,9 @@ TPUv3 VLIW 명령어 구조 (322비트):
 
 ## 관련 개념
 
-- [TPUv3 Supercomputer](/knowledge/computer-architecture/tpuv3-supercomputer/)
-- [Instruction-Level Parallelism](/knowledge/computer-architecture/instruction-level-parallelism/)
-- [Superscalar](/knowledge/computer-architecture/superscalar/)
-- [Multiple Issue](/knowledge/computer-architecture/multiple-issue/)
-- [Loop Unrolling](/knowledge/language/loop-unrolling/)
-- [Register Renaming](/knowledge/computer-architecture/register-renaming/)
+- [TPUv3 슈퍼컴퓨터 (TPUv3 Supercomputer)](/knowledge/computer-architecture/tpuv3-supercomputer/)
+- [명령어 수준 병렬성 (ILP)](/knowledge/computer-architecture/instruction-level-parallelism/)
+- [슈퍼스칼라 (Superscalar)](/knowledge/computer-architecture/superscalar/)
+- [다중 발행 (Multiple Issue)](/knowledge/computer-architecture/multiple-issue/)
+- [루프 풀기 (Loop Unrolling)](/knowledge/language/loop-unrolling/)
+- [레지스터 리네이밍 (Register Renaming)](/knowledge/computer-architecture/register-renaming/)

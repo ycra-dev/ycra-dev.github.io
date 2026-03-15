@@ -1,5 +1,5 @@
 ---
-title: "Streaming Multiprocessor (SM)"
+title: "SM (스트리밍 멀티프로세서)"
 description: "Streaming Multiprocessor(SM)는 GPU의 기본 다중 스레드 처리 단위로, 여러 개의 Streaming Processor(SP) 코어, 특수 기능 유닛(SFU), 명령어 캐시, 공유 메모리 등을 포함하는 통합 프로세서 블록이다"
 tags: ['Streaming Multiprocessor', 'GPU Architecture', 'Nvidia', 'Tesla']
 created: 2026-02-15
@@ -44,7 +44,7 @@ SM 리소스 할당 예시:
 
 ## 관련 개념
 
-- [SIMT](/knowledge/computer-architecture/simt/)
-- [Warp](/knowledge/computer-architecture/warp/)
-- [Streaming Processor](/knowledge/computer-architecture/streaming-processor/)
-- [Thread Block](/knowledge/computer-architecture/thread-block/)
+- [SIMT (단일 명령어 다중 스레드)](/knowledge/computer-architecture/simt/)
+- [워프 (Warp)](/knowledge/computer-architecture/warp/)
+- [SP (스트리밍 프로세서)](/knowledge/computer-architecture/streaming-processor/)
+- [스레드 블록 (Thread Block)](/knowledge/computer-architecture/thread-block/)

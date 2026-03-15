@@ -1,5 +1,5 @@
 ---
-title: "Virtual Memory"
+title: "가상 메모리 (Virtual Memory)"
 description: "가상 메모리는 메인 메모리를 보조 저장장치(디스크 또는 플래시)의 \"캐시\"로 사용하는 기술이다"
 tags: ['Memory Hierarchy', 'Paging', 'Address Translation', 'Page Table', 'Secondary Storage']
 created: 2026-02-15
@@ -38,8 +38,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Page Table](/knowledge/computer-architecture/page-table/)
-- [Page Fault](/knowledge/computer-architecture/page-fault/)
-- [Address Translation](/knowledge/computer-architecture/address-translation/)
-- [Translation Lookaside Buffer](/knowledge/computer-architecture/translation-lookaside-buffer/)
-- [Swap Space](/knowledge/computer-architecture/swap-space/)
+- [페이지 테이블 (Page Table)](/knowledge/computer-architecture/page-table/)
+- [페이지 폴트 (Page Fault)](/knowledge/computer-architecture/page-fault/)
+- [주소 변환 (Address Translation)](/knowledge/computer-architecture/address-translation/)
+- [TLB (변환 색인 버퍼)](/knowledge/computer-architecture/translation-lookaside-buffer/)
+- [스왑 공간 (Swap Space)](/knowledge/computer-architecture/swap-space/)

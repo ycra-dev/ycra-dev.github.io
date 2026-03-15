@@ -1,5 +1,5 @@
 ---
-title: "MLPerf Benchmark"
+title: "MLPerf 벤치마크 (MLPerf Benchmark)"
 description: "MLPerf는 머신러닝 워크로드를 위한 벤치마크 스위트로, 프로그램, 데이터셋, 그리고 공정한 비교를 위한 규칙을 포함하며, 빠른 ML 발전 속도에 맞추어 약 3개월마다 새로운 버전이 출시된다"
 tags: ['Benchmarking', 'Machine Learning', 'Deep Neural Network', 'Performance Evaluation']
 created: 2026-02-15
@@ -29,6 +29,6 @@ MLPerf 0.6 벤치마크 (TPUv3 vs Volta GPU):
 
 ## 관련 개념
 
-- [Domain-Specific Architecture](/knowledge/computer-architecture/domain-specific-architecture/)
-- [TPUv3](/knowledge/computer-architecture/tpuv3-supercomputer/)
-- [Roofline Model](/knowledge/computer-architecture/roofline-model/)
+- [도메인 특화 아키텍처 (DSA)](/knowledge/computer-architecture/domain-specific-architecture/)
+- [TPUv3 슈퍼컴퓨터 (TPUv3 Supercomputer)](/knowledge/computer-architecture/tpuv3-supercomputer/)
+- [루프라인 모델 (Roofline Model)](/knowledge/computer-architecture/roofline-model/)

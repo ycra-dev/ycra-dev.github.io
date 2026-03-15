@@ -1,5 +1,5 @@
 ---
-title: "Kernel"
+title: "커널 (Kernel)"
 description: "커널(Kernel)은 하나의 스레드를 위해 설계된 프로그램 또는 함수로, 많은 스레드에 의해 병렬로 실행되도록 설계되었다"
 tags: ['Kernel', 'Cuda', 'GPU Computing', 'Parallel Programming']
 created: 2026-02-15
@@ -47,7 +47,7 @@ vectorAdd<<<blocksPerGrid, threadsPerBlock>>>(d_A, d_B, d_C, n);
 
 ## 관련 개념
 
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [Thread Block](/knowledge/computer-architecture/thread-block/)
-- [Grid](/knowledge/computer-architecture/grid/)
-- [SPMD](/knowledge/computer-architecture/spmd/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [스레드 블록 (Thread Block)](/knowledge/computer-architecture/thread-block/)
+- [그리드 (Grid)](/knowledge/computer-architecture/grid/)
+- [SPMD (단일 프로그램 다중 데이터)](/knowledge/computer-architecture/spmd/)

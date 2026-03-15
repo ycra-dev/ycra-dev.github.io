@@ -1,5 +1,5 @@
 ---
-title: "Multiple Issue"
+title: "다중 발행 (Multiple Issue)"
 description: "다중 발행(Multiple Issue)은 한 클록 사이클에 여러 명령어를 동시에 시작시키는 프로세서 설계 기법이다"
 tags: ['Ilp', 'Superscalar', 'Vliw', 'Performance', 'Processor']
 created: 2026-02-15
@@ -30,7 +30,7 @@ CPI = 4/5 = 0.8, IPC = 1.25 (이상적 IPC = 2.0)
 
 ## 관련 개념
 
-- [Instruction-Level Parallelism](/knowledge/computer-architecture/instruction-level-parallelism/)
-- [Superscalar](/knowledge/computer-architecture/superscalar/)
-- [VLIW](/knowledge/computer-architecture/vliw/)
-- [Loop Unrolling](/knowledge/language/loop-unrolling/)
+- [명령어 수준 병렬성 (ILP)](/knowledge/computer-architecture/instruction-level-parallelism/)
+- [슈퍼스칼라 (Superscalar)](/knowledge/computer-architecture/superscalar/)
+- [VLIW (초장 명령어)](/knowledge/computer-architecture/vliw/)
+- [루프 풀기 (Loop Unrolling)](/knowledge/language/loop-unrolling/)

@@ -1,5 +1,5 @@
 ---
-title: "PC-Relative Addressing"
+title: "PC 상대 주소 지정 (PC-Relative Addressing)"
 description: "PC-상대 주소 지정(PC-Relative Addressing)은 프로그램 카운터(PC)와 명령어 내의 상수를 더하여 분기 대상 주소를 계산하는 주소 지정 방식이다"
 tags: ['Addressing Mode', 'Branch', 'Program Counter', 'Instruction Encoding', 'Mips']
 created: 2026-02-15
@@ -37,7 +37,7 @@ bne $s0, $s1, Exit 명령어의 주소 계산:
 
 ## 관련 개념
 
-- [Program Counter](/knowledge/computer-architecture/program-counter/)
-- [Conditional Branch](/knowledge/computer-architecture/conditional-branch/)
-- [Addressing Mode](/knowledge/computer-architecture/addressing-mode/)
-- [Instruction Format](/knowledge/computer-architecture/instruction-format/)
+- [프로그램 카운터 (Program Counter)](/knowledge/computer-architecture/program-counter/)
+- [조건 분기 (Conditional Branch)](/knowledge/computer-architecture/conditional-branch/)
+- [주소 지정 방식 (Addressing Mode)](/knowledge/computer-architecture/addressing-mode/)
+- [명령어 형식 (Instruction Format)](/knowledge/computer-architecture/instruction-format/)

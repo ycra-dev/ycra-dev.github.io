@@ -1,5 +1,5 @@
 ---
-title: "Message Passing"
+title: "메시지 전달 (Message Passing)"
 description: "메시지 전달(message passing)은 여러 프로세서 간에 명시적으로 정보를 송수신하여 통신하는 방식이다"
 tags: ['Cluster', 'Multiprocessor', 'Distributed Computing', 'Send Receive', 'Private Address Space']
 created: 2026-02-15
@@ -48,7 +48,7 @@ MPI_Recv(buffer, 100, MPI_FLOAT, 0, tag, MPI_COMM_WORLD, &status);
 
 ## 관련 개념
 
-- [Cluster](/knowledge/computer-architecture/cluster/)
-- [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
-- [Warehouse Scale Computer](/knowledge/computer-architecture/warehouse-scale-computer/)
-- [MapReduce](/knowledge/computer-architecture/mapreduce/)
+- [클러스터 (Cluster)](/knowledge/computer-architecture/cluster/)
+- [공유 메모리 멀티프로세서 (SMP)](/knowledge/computer-architecture/shared-memory-multiprocessor/)
+- [창고 규모 컴퓨터 (WSC)](/knowledge/computer-architecture/warehouse-scale-computer/)
+- [맵리듀스 (MapReduce)](/knowledge/computer-architecture/mapreduce/)

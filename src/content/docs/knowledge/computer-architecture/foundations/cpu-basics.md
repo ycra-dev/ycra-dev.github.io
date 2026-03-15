@@ -1,5 +1,5 @@
 ---
-title: "CPU (Central Processing Unit)"
+title: "CPU (중앙처리장치)"
 description: "산술·논리 연산, 데이터 이동, 프로그램 제어를 담당하는 컴퓨터의 핵심 처리 장치"
 tags: ["Computer-Architecture", "CPU", "Hardware", "Processor"]
 created: 2026-02-27
@@ -43,10 +43,10 @@ CPU가 `3 + 5`를 계산하는 과정 (단순화):
 ## 관련 개념
 
 - [폰 노이만 구조 (Von Neumann Architecture)](/knowledge/computer-architecture/von-neumann-architecture-basics/) - CPU가 속한 전체 컴퓨터 구조
-- [RAM](/knowledge/computer-architecture/ram/) - CPU가 명령어와 데이터를 읽어오는 주기억장치
+- [RAM (랜덤 액세스 메모리)](/knowledge/computer-architecture/ram/) - CPU가 명령어와 데이터를 읽어오는 주기억장치
 - [명령어 실행 주기 (Fetch-Decode-Execute Cycle)](/knowledge/computer-architecture/fetch-decode-execute-cycle/) - CPU의 기본 동작 주기
 - [캐시 (Cache)](/knowledge/computer-architecture/cache-basics/) - CPU와 RAM 사이의 고속 버퍼 메모리
-- [GPU](/knowledge/computer-architecture/gpu-basics/) - CPU와 대비되는 병렬 처리 특화 프로세서
+- [GPU (그래픽 처리 장치)](/knowledge/computer-architecture/gpu-basics/) - CPU와 대비되는 병렬 처리 특화 프로세서
 - [트랜지스터 (Transistor)](/knowledge/computer-architecture/transistor-basics/) - CPU를 구성하는 기본 소자
 
 ## 출처

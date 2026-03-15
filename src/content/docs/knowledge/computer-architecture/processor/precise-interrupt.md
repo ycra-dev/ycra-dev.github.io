@@ -1,5 +1,5 @@
 ---
-title: "Precise Interrupt"
+title: "정확한 인터럽트 (Precise Interrupt)"
 description: "정밀 인터럽트(Precise Interrupt)는 파이프라인 컴퓨터에서 예외가 항상 올바른 명령어와 연관되어 처리되는 방식이다"
 tags: ['Exception', 'Pipeline', 'Interrupt', 'State Preservation']
 created: 2026-02-15
@@ -29,6 +29,6 @@ EPC = 명령어 4의 주소 + 4
 
 ## 관련 개념
 
-- [Exception](/knowledge/computer-architecture/exception/)
-- [In-Order Commit](/knowledge/computer-architecture/in-order-commit/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
+- [예외 (Exception)](/knowledge/computer-architecture/exception/)
+- [순서 커밋 (In-Order Commit)](/knowledge/computer-architecture/in-order-commit/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)

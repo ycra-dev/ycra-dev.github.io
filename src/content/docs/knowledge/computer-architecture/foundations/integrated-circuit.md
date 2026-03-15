@@ -1,5 +1,5 @@
 ---
-title: "Integrated Circuit"
+title: "집적회로 (Integrated Circuit)"
 description: "집적회로(IC, Integrated Circuit)는 수십에서 수십억 개의 트랜지스터를 하나의 작은 칩에 결합한 전자 장치이다"
 tags: ['Vlsi', 'Chip', 'Semiconductor', 'Fabrication', 'Die']
 created: 2026-02-15
@@ -31,6 +31,6 @@ IC 제조 공정:
 
 ## 관련 개념
 
-- [Transistor](/knowledge/computer-architecture/transistor/)
-- [Semiconductor](/knowledge/computer-architecture/semiconductor/)
-- [CMOS](/knowledge/computer-architecture/cmos/)
+- [트랜지스터 (Transistor)](/knowledge/computer-architecture/transistor/)
+- [반도체 (Semiconductor)](/knowledge/computer-architecture/semiconductor/)
+- [CMOS (상보형 금속 산화물 반도체)](/knowledge/computer-architecture/cmos/)

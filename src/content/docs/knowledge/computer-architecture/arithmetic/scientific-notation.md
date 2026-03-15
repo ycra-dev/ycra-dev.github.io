@@ -1,5 +1,5 @@
 ---
-title: "Scientific Notation"
+title: "과학적 표기법 (Scientific Notation)"
 description: "과학적 표기법(Scientific Notation)은 소수점 왼쪽에 하나의 숫자만 놓는 수 표현 방식으로, 정규화된(normalized) 형태에서는 선행 0이 없다"
 tags: ['Floating Point', 'Normalized Number', 'Exponent', 'Significand']
 created: 2026-02-15
@@ -30,7 +30,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Floating Point](/knowledge/computer-architecture/floating-point/)
-- [IEEE 754 Standard](/knowledge/computer-architecture/ieee-754-standard/)
-- [Single Precision](/knowledge/computer-architecture/single-precision/)
-- [Double Precision](/knowledge/computer-architecture/double-precision/)
+- [부동소수점 (Floating Point)](/knowledge/computer-architecture/floating-point/)
+- [IEEE 754 표준 (IEEE 754 Standard)](/knowledge/computer-architecture/ieee-754-standard/)
+- [단정밀도 (Single Precision)](/knowledge/computer-architecture/single-precision/)
+- [배정밀도 (Double Precision)](/knowledge/computer-architecture/double-precision/)

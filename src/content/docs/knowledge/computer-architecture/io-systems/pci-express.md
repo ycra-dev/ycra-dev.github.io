@@ -1,5 +1,5 @@
 ---
-title: "PCI-Express"
+title: "PCI-Express (PCIe)"
 description: "PCI-Express(PCIe)는 점대점(point-to-point) 링크를 사용하는 표준 시스템 I/O 상호 연결 기술로, 구성 가능한 수의 레인과 대역폭을 가진다"
 tags: ['Pci Express', 'Pcie', 'Interconnect', 'System Bus', 'I/O']
 created: 2026-02-15
@@ -39,5 +39,5 @@ PCIe 2.0 x16:           ~8 GB/s (단방향)
 
 ## 관련 개념
 
-- [Heterogeneous System](/knowledge/computer-architecture/heterogeneous-system/)
-- [Unified Memory Architecture](/knowledge/computer-architecture/unified-memory-architecture/)
+- [이기종 시스템 (Heterogeneous System)](/knowledge/computer-architecture/heterogeneous-system/)
+- [UMA (균일 메모리 접근 아키텍처)](/knowledge/computer-architecture/unified-memory-architecture/)

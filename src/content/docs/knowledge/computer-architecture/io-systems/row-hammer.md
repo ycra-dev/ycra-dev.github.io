@@ -1,5 +1,5 @@
 ---
-title: "Row Hammer"
+title: "로우 해머 (Row Hammer)"
 description: "로우 해머(Row Hammer)는 DDR3 DRAM 칩의 물리적 취약점을 악용하여 인접 행(row)의 비트를 변조시키는 하드웨어 기반 보안 공격이다"
 tags: ['Dram', 'Security', 'Hardware Attack', 'Virtual Memory', 'Page Table']
 created: 2026-02-15
@@ -41,7 +41,7 @@ VM A (경쟁사) <-- 같은 물리 서버 --> VM B (공격자)
 
 ## 관련 개념
 
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [Page Table](/knowledge/computer-architecture/page-table/)
-- [Virtual Machine](/knowledge/computer-architecture/virtual-machine/)
-- [Dirty Bit](/knowledge/computer-architecture/dirty-bit/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [페이지 테이블 (Page Table)](/knowledge/computer-architecture/page-table/)
+- [가상 머신 (Virtual Machine)](/knowledge/computer-architecture/virtual-machine/)
+- [더티 비트 (Dirty Bit)](/knowledge/computer-architecture/dirty-bit/)

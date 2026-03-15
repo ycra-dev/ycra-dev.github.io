@@ -1,5 +1,5 @@
 ---
-title: "Hamming ECC"
+title: "해밍 ECC (Hamming Error Correcting Code)"
 description: "해밍 ECC(Hamming Error Correction Code)는 메모리에서 단일 비트 오류를 검출하고 교정할 수 있는 오류 정정 코드로, Richard Hamming이 발명했다"
 tags: ['Error Correction', 'Memory', 'Reliability', 'Redundancy', 'Parity']
 created: 2026-02-15
@@ -37,6 +37,6 @@ SEC/DED: 추가 전체 패리티 비트로 2비트 오류 검출
 
 ## 관련 개념
 
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [DRAM](/knowledge/computer-architecture/dram/)
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [DRAM (동적 랜덤 액세스 메모리)](/knowledge/computer-architecture/dram/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)

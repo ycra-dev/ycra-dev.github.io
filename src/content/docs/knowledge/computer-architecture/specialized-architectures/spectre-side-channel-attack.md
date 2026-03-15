@@ -1,5 +1,5 @@
 ---
-title: "Spectre Side-Channel Attack"
+title: "스펙터 부채널 공격 (Spectre Side-Channel Attack)"
 description: "Spectre는 2018년에 공개된 마이크로아키텍처 취약점으로, 명령어 투기 실행(speculative execution), 캐시, 하드웨어 멀티스레딩을 악용하여 비공개 정보를 유출하는 사이드 채널 공격이다"
 tags: ['Security', 'Speculative Execution', 'Cache', 'Timing Channel', 'Hardware Vulnerability']
 created: 2026-02-15
@@ -31,4 +31,4 @@ Spectre 공격 과정:
 
 ## 관련 개념
 
-- [Hardware Multithreading](/knowledge/computer-architecture/hardware-multithreading/)
+- [하드웨어 멀티스레딩 (Hardware Multithreading)](/knowledge/computer-architecture/hardware-multithreading/)

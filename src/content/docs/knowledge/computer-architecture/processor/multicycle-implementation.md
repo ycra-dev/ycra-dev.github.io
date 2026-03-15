@@ -1,5 +1,5 @@
 ---
-title: "Multicycle Implementation"
+title: "다중 사이클 구현 (Multicycle Implementation)"
 description: "다중 사이클 구현(Multicycle Implementation)은 명령어 실행을 여러 클록 사이클로 나누어 각 단계가 1 클록 사이클에 수행되는 프로세서 구현 방식이다"
 tags: ['Processor', 'Finite State Machine', 'Datapath', 'Clock Cycle']
 created: 2026-02-15
@@ -30,7 +30,7 @@ CPI = 0.20 x 5 + 0.08 x 4 + 0.62 x 4 + 0.10 x 3 = 4.12
 
 ## 관련 개념
 
-- [Single-Cycle Implementation](/knowledge/computer-architecture/single-cycle-implementation/)
-- [Finite-State Machine](/knowledge/computer-architecture/finite-state-machine/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
-- [Datapath](/knowledge/computer-architecture/datapath/)
+- [단일 사이클 구현 (Single-Cycle Implementation)](/knowledge/computer-architecture/single-cycle-implementation/)
+- [유한 상태 기계 (Finite-State Machine)](/knowledge/computer-architecture/finite-state-machine/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)

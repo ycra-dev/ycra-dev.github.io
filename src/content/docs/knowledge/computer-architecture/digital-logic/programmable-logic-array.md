@@ -1,5 +1,5 @@
 ---
-title: "Programmable Logic Array"
+title: "PLA (프로그래머블 논리 배열)"
 description: "PLA(Programmable Logic Array)는 입력과 보수 입력의 집합과 두 단계 논리(AND 평면과 OR 평면)로 구성되는 구조화된 논리 소자로, 곱의 합(sum of products) 형태의 논리 함수를 구현한다"
 tags: ['Combinational Logic', 'Sum Of Products', 'And Plane', 'Or Plane', 'Structured Logic']
 created: 2026-02-15
@@ -36,7 +36,7 @@ OR 평면: 3 출력 x 7 곱항
 
 ## 관련 개념
 
-- [Combinational Logic](/knowledge/computer-architecture/combinational-logic/)
-- [Boolean Algebra](/knowledge/computer-architecture/boolean-algebra/)
-- [Finite-State Machine](/knowledge/computer-architecture/finite-state-machine/)
+- [조합 논리 (Combinational Logic)](/knowledge/computer-architecture/combinational-logic/)
+- [불 대수 (Boolean Algebra)](/knowledge/computer-architecture/boolean-algebra/)
+- [유한 상태 기계 (Finite-State Machine)](/knowledge/computer-architecture/finite-state-machine/)
 - [Sum of Products Expansion](/knowledge/mathematics/sum-of-products-expansion/)

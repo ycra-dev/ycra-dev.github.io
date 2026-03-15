@@ -1,5 +1,5 @@
 ---
-title: "Condition Code"
+title: "조건 코드 (Condition Code)"
 description: "조건 코드(Condition Code)는 프로세서의 프로그램 상태 워드에 저장되는 비트로, 이전 연산의 결과에 대한 정보(부호, 영, 올림, 오버플로우)를 나타내며 조건 분기에 사용된다"
 tags: ['Branch', 'Flags', 'Armv7', 'X86', 'Comparison']
 created: 2026-02-15
@@ -35,5 +35,5 @@ bne  $t0, $zero, Label
 
 ## 관련 개념
 
-- [ARMv7 Instruction Set](/knowledge/computer-architecture/armv7-instruction-set/)
-- [x86 Instruction Set](/knowledge/computer-architecture/x86-instruction-set/)
+- [ARMv7 명령어 집합 (ARMv7 Instruction Set)](/knowledge/computer-architecture/armv7-instruction-set/)
+- [x86 명령어 집합 (x86 Instruction Set)](/knowledge/computer-architecture/x86-instruction-set/)

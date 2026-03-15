@@ -1,5 +1,5 @@
 ---
-title: "Vector Architecture"
+title: "벡터 아키텍처 (Vector Architecture)"
 description: "벡터 아키텍처는 메모리에서 데이터 요소를 수집하여 순서대로 큰 레지스터 세트에 넣고, 파이프라인된 실행 유닛을 사용하여 레지스터에서 순차적으로 연산한 뒤, 결과를 메모리에 다시 기록하는 SIMD 해석 방식이다"
 tags: ['Simd', 'Data Level Parallelism', 'Vector Lane', 'Pipelined Execution', 'Vector Register']
 created: 2026-02-15
@@ -51,7 +51,7 @@ loop: l.d   $f0, 0($s0)     # X[i] 로드
 
 ## 관련 개념
 
-- [SIMD](/knowledge/computer-architecture/simd/)
-- [Data-Level Parallelism](/knowledge/computer-architecture/data-level-parallelism/)
-- [GPU](/knowledge/computer-architecture/gpu/)
-- [Vector Lane](/knowledge/computer-architecture/vector-lane/)
+- [SIMD (단일 명령어 다중 데이터)](/knowledge/computer-architecture/simd/)
+- [데이터 수준 병렬성 (Data-Level Parallelism)](/knowledge/computer-architecture/data-level-parallelism/)
+- [GPU (그래픽 처리 장치)](/knowledge/computer-architecture/gpu/)
+- [벡터 레인 (Vector Lane)](/knowledge/computer-architecture/vector-lane/)

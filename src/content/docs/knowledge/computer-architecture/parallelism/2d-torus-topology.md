@@ -1,5 +1,5 @@
 ---
-title: "2D Torus Topology"
+title: "2D 토러스 토폴로지 (2D Torus Topology)"
 description: "2D 토러스 토폴로지는 각 노드가 상하좌우 4개의 이웃과 연결되고, 격자의 가장자리가 반대편 가장자리와 연결되어 도넛 형태를 이루는 네트워크 인터커넥트 구조이다"
 tags: ['Interconnect', 'Network Topology', 'Supercomputer', 'All Reduce']
 created: 2026-02-15
@@ -32,5 +32,5 @@ TPUv3 32x32 2D 토러스:
 
 ## 관련 개념
 
-- [TPUv3 Supercomputer](/knowledge/computer-architecture/tpuv3-supercomputer/)
-- [Bisection Bandwidth](/knowledge/computer-architecture/bisection-bandwidth/)
+- [TPUv3 슈퍼컴퓨터 (TPUv3 Supercomputer)](/knowledge/computer-architecture/tpuv3-supercomputer/)
+- [이등분 대역폭 (Bisection Bandwidth)](/knowledge/computer-architecture/bisection-bandwidth/)

@@ -1,5 +1,5 @@
 ---
-title: "Floating Point Associativity"
+title: "부동소수점 결합법칙 (Floating Point Associativity)"
 description: "부동소수점 덧셈의 비결합성(Non-Associativity)은 부동소수점 수의 제한된 정밀도로 인해 (a+b)+c != a+(b+c)가 될 수 있는 산술적 특성이다"
 tags: ['Floating Point', 'Precision', 'Parallel Computing', 'Numerical Analysis', 'Pitfall']
 created: 2026-02-15
@@ -35,6 +35,6 @@ b =  1.0
 
 ## 관련 개념
 
-- [Floating Point](/knowledge/computer-architecture/floating-point/)
-- [Floating Point Addition](/knowledge/computer-architecture/floating-point-addition/)
-- [Subword Parallelism](/knowledge/computer-architecture/subword-parallelism/)
+- [부동소수점 (Floating Point)](/knowledge/computer-architecture/floating-point/)
+- [부동소수점 덧셈 (Floating Point Addition)](/knowledge/computer-architecture/floating-point-addition/)
+- [서브워드 병렬성 (Subword Parallelism)](/knowledge/computer-architecture/subword-parallelism/)

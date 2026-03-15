@@ -1,5 +1,5 @@
 ---
-title: "Sign Extend"
+title: "부호 확장 (Sign Extend)"
 description: "부호 확장(Sign Extend)은 원본 데이터의 최상위 부호 비트를 더 큰 데이터의 상위 비트에 복제하여 데이터 크기를 확장하는 연산이다"
 tags: ['Datapath', 'Immediate Field', 'Two Complement', 'Mips']
 created: 2026-02-15
@@ -28,5 +28,5 @@ MIPS의 load/store 및 분기 명령어에서 16비트 즉시 값(immediate fiel
 
 ## 관련 개념
 
-- [Datapath](/knowledge/computer-architecture/datapath/)
-- [ALU Control](/knowledge/computer-architecture/alu-control/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)
+- [ALU 제어 (ALU Control)](/knowledge/computer-architecture/alu-control/)

@@ -1,5 +1,5 @@
 ---
-title: "Roofline Model"
+title: "루프라인 모델 (Roofline Model)"
 description: "루프라인 모델(Roofline Model)은 부동소수점 성능, 산술 강도, 메모리 대역폭을 2차원 그래프에 결합하여 프로그램의 성능 상한을 시각적으로 보여주는 성능 모델이다"
 tags: ['Performance Model', 'Arithmetic Intensity', 'Memory Bandwidth', 'Floating Point Performance']
 created: 2026-02-15
@@ -31,7 +31,7 @@ AMD Opteron X2 예시:
 
 ## 관련 개념
 
-- [Arithmetic Intensity](/knowledge/computer-architecture/arithmetic-intensity/)
-- [Software Prefetching](/knowledge/computer-architecture/software-prefetching/)
-- [Memory Affinity](/knowledge/computer-architecture/memory-affinity/)
-- [SIMD](/knowledge/computer-architecture/simd/)
+- [산술 강도 (Arithmetic Intensity)](/knowledge/computer-architecture/arithmetic-intensity/)
+- [소프트웨어 프리페칭 (Software Prefetching)](/knowledge/computer-architecture/software-prefetching/)
+- [메모리 친화성 (Memory Affinity)](/knowledge/computer-architecture/memory-affinity/)
+- [SIMD (단일 명령어 다중 데이터)](/knowledge/computer-architecture/simd/)

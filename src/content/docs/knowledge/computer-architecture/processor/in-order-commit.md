@@ -1,5 +1,5 @@
 ---
-title: "In-Order Commit"
+title: "순서 커밋 (In-Order Commit)"
 description: "인오더 커밋(In-Order Commit)은 파이프라인 실행의 결과가 명령어 인출 순서와 동일한 순서로 프로그래머 가시(visible) 상태에 기록되는 커밋 방식이다"
 tags: ['Out Of Order', 'Reorder Buffer', 'Precise Interrupt', 'Pipeline', 'Commit']
 created: 2026-02-15
@@ -31,8 +31,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Reorder Buffer](/knowledge/computer-architecture/reorder-buffer/)
-- [Out-of-Order Execution](/knowledge/computer-architecture/out-of-order-execution/)
-- [Precise Interrupt](/knowledge/computer-architecture/precise-interrupt/)
-- [Speculation](/knowledge/computer-architecture/speculation/)
-- [Commit Unit](/knowledge/computer-architecture/commit-unit/)
+- [리오더 버퍼 (Reorder Buffer)](/knowledge/computer-architecture/reorder-buffer/)
+- [비순차 실행 (Out-of-Order Execution)](/knowledge/computer-architecture/out-of-order-execution/)
+- [정확한 인터럽트 (Precise Interrupt)](/knowledge/computer-architecture/precise-interrupt/)
+- [투기적 실행 (Speculation)](/knowledge/computer-architecture/speculation/)
+- [커밋 유닛 (Commit Unit)](/knowledge/computer-architecture/commit-unit/)

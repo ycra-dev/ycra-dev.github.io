@@ -1,5 +1,5 @@
 ---
-title: "Pipeline Stall"
+title: "파이프라인 스톨 (Pipeline Stall)"
 description: "파이프라인 스톨(Pipeline Stall), 또는 버블(Bubble)은 해저드를 해결하기 위해 파이프라인에 삽입되는 지연으로, 해당 사이클에서 아무 유효한 작업도 수행하지 않는다"
 tags: ['Pipeline', 'Bubble', 'Nop', 'Hazard', 'Performance']
 created: 2026-02-15
@@ -31,7 +31,7 @@ or:             IF   stall ID   EX   MEM  WB
 
 ## 관련 개념
 
-- [Load-Use Data Hazard](/knowledge/computer-architecture/load-use-data-hazard/)
-- [Hazard Detection Unit](/knowledge/computer-architecture/hazard-detection-unit/)
-- [Forwarding](/knowledge/computer-architecture/forwarding/)
-- [Control Hazard](/knowledge/computer-architecture/control-hazard/)
+- [로드-사용 데이터 해저드 (Load-Use Data Hazard)](/knowledge/computer-architecture/load-use-data-hazard/)
+- [해저드 검출 유닛 (Hazard Detection Unit)](/knowledge/computer-architecture/hazard-detection-unit/)
+- [포워딩 (Forwarding)](/knowledge/computer-architecture/forwarding/)
+- [제어 해저드 (Control Hazard)](/knowledge/computer-architecture/control-hazard/)

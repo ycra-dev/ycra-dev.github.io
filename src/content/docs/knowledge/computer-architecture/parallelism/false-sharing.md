@@ -1,5 +1,5 @@
 ---
-title: "False Sharing"
+title: "거짓 공유 (False Sharing)"
 description: "거짓 공유(false sharing)는 서로 관련 없는 두 공유 변수가 같은 캐시 블록에 위치하여, 프로세서들이 서로 다른 변수에 접근하더라도 전체 블록이 프로세서 간에 교환되는 현상이다"
 tags: ['Cache Coherence', 'Multiprocessor', 'Cache Block', 'Performance', 'Snooping Protocol']
 created: 2026-02-15
@@ -40,7 +40,7 @@ struct {
 
 ## 관련 개념
 
-- [Cache Coherence](/knowledge/computer-architecture/cache-coherence/)
-- [Snooping Protocol](/knowledge/computer-architecture/snooping-protocol/)
-- [Three Cs Model](/knowledge/computer-architecture/three-cs-model/)
-- [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
+- [캐시 일관성 (Cache Coherence)](/knowledge/computer-architecture/cache-coherence/)
+- [스누핑 프로토콜 (Snooping Protocol)](/knowledge/computer-architecture/snooping-protocol/)
+- [3C 모델 (Three Cs Model)](/knowledge/computer-architecture/three-cs-model/)
+- [공유 메모리 멀티프로세서 (SMP)](/knowledge/computer-architecture/shared-memory-multiprocessor/)

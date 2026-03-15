@@ -1,5 +1,5 @@
 ---
-title: "Overflow Detection"
+title: "오버플로우 검출 (Overflow Detection)"
 description: "오버플로우 검출(Overflow Detection)은 산술 연산의 결과가 고정된 워드 크기로 표현할 수 없을 정도로 너무 크거나 작은 경우를 감지하는 메커니즘이다"
 tags: ['Arithmetic', 'Exception', 'Twos Complement', 'Alu', 'Error Handling']
 created: 2026-02-15
@@ -31,6 +31,6 @@ addu $t0, $s0, $s1   # 오버플로우 무시
 
 ## 관련 개념
 
-- [Arithmetic Logic Unit](/knowledge/computer-architecture/arithmetic-logic-unit/)
-- [Exception](/knowledge/computer-architecture/exception/)
-- [Twos Complement](/knowledge/computer-architecture/twos-complement/)
+- [산술논리장치 (ALU)](/knowledge/computer-architecture/arithmetic-logic-unit/)
+- [예외 (Exception)](/knowledge/computer-architecture/exception/)
+- [2의 보수 (Two's Complement)](/knowledge/computer-architecture/twos-complement/)

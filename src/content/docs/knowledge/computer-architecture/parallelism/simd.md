@@ -1,5 +1,5 @@
 ---
-title: "SIMD"
+title: "SIMD (단일 명령어 다중 데이터)"
 description: "SIMD(Single Instruction, Multiple Data)는 하나의 명령어로 여러 데이터 요소에 대해 동일한 연산을 동시에 수행하는 병렬 처리 방식이다"
 tags: ['Parallelism', 'Subword Parallelism', 'Sse', 'Avx', 'Neon', 'Vector']
 created: 2026-02-15
@@ -50,10 +50,10 @@ for (i = 0; i < N; i++) {
 
 ## 관련 개념
 
-- [Subword Parallelism](/knowledge/computer-architecture/subword-parallelism/)
-- [Advanced Vector Extensions](/knowledge/computer-architecture/advanced-vector-extensions/)
-- [x86 Instruction Set](/knowledge/computer-architecture/x86-instruction-set/)
-- [Data-Level Parallelism](/knowledge/computer-architecture/data-level-parallelism/)
-- [Vector Architecture](/knowledge/computer-architecture/vector-architecture/)
-- [MIMD](/knowledge/computer-architecture/mimd/)
-- [GPU](/knowledge/computer-architecture/gpu/)
+- [서브워드 병렬성 (Subword Parallelism)](/knowledge/computer-architecture/subword-parallelism/)
+- [AVX (Advanced Vector Extensions)](/knowledge/computer-architecture/advanced-vector-extensions/)
+- [x86 명령어 집합 (x86 Instruction Set)](/knowledge/computer-architecture/x86-instruction-set/)
+- [데이터 수준 병렬성 (Data-Level Parallelism)](/knowledge/computer-architecture/data-level-parallelism/)
+- [벡터 아키텍처 (Vector Architecture)](/knowledge/computer-architecture/vector-architecture/)
+- [MIMD (다중 명령어 다중 데이터)](/knowledge/computer-architecture/mimd/)
+- [GPU (그래픽 처리 장치)](/knowledge/computer-architecture/gpu/)

@@ -1,5 +1,5 @@
 ---
-title: "Heterogeneous System"
+title: "이기종 시스템 (Heterogeneous System)"
 description: "이종 시스템(Heterogeneous System)은 서로 다른 프로세서 유형을 결합한 시스템이다"
 tags: ['Heterogeneous System', 'CPU GPU', 'Parallel Computing', 'System Architecture']
 created: 2026-02-15
@@ -41,6 +41,6 @@ GPU 메모리 --[PCIe]--> CPU (결과 반환)
 
 ## 관련 개념
 
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [PCI-Express](/knowledge/computer-architecture/pci-express/)
-- [Unified Memory Architecture](/knowledge/computer-architecture/unified-memory-architecture/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [PCI-Express (PCIe)](/knowledge/computer-architecture/pci-express/)
+- [UMA (균일 메모리 접근 아키텍처)](/knowledge/computer-architecture/unified-memory-architecture/)

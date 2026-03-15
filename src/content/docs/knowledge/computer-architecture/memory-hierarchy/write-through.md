@@ -1,5 +1,5 @@
 ---
-title: "Write-Through"
+title: "즉시쓰기 (Write-Through)"
 description: "Write-through는 쓰기 시 항상 캐시와 하위 메모리 계층 모두에 데이터를 기록하여 일관성을 보장하는 캐시 쓰기 정책이다"
 tags: ['Cache', 'Write Policy', 'Memory Hierarchy', 'Consistency', 'Write Buffer']
 created: 2026-02-15
@@ -35,8 +35,8 @@ store $t0, 0($s0)
 
 ## 관련 개념
 
-- [Write-Back](/knowledge/computer-architecture/write-back/)
-- [Write Buffer](/knowledge/computer-architecture/write-buffer/)
-- [Direct-Mapped Cache](/knowledge/computer-architecture/direct-mapped-cache/)
-- [Cache Memory](/knowledge/computer-architecture/cache-memory/)
-- [Cache Miss](/knowledge/computer-architecture/cache-miss/)
+- [후기입 (Write-Back)](/knowledge/computer-architecture/write-back/)
+- [쓰기 버퍼 (Write Buffer)](/knowledge/computer-architecture/write-buffer/)
+- [직접 사상 캐시 (Direct-Mapped Cache)](/knowledge/computer-architecture/direct-mapped-cache/)
+- [캐시 메모리 (Cache Memory)](/knowledge/computer-architecture/cache-memory/)
+- [캐시 미스 (Cache Miss)](/knowledge/computer-architecture/cache-miss/)

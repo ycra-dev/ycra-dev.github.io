@@ -1,5 +1,5 @@
 ---
-title: "Software Prefetching"
+title: "소프트웨어 프리페칭 (Software Prefetching)"
 description: "소프트웨어 프리페칭(Software Prefetching)은 프로그래머 또는 컴파일러가 명시적인 프리페치 명령어를 삽입하여 데이터가 실제로 필요하기 전에 미리 캐시로 가져오는 메모리 최적화 기법이다"
 tags: ['Memory Optimization', 'Cache', 'Memory Hierarchy', 'Roofline Model']
 created: 2026-02-15
@@ -32,7 +32,7 @@ for (int i = 0; i < N; i++) {
 
 ## 관련 개념
 
-- [Roofline Model](/knowledge/computer-architecture/roofline-model/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Cache Blocking](/knowledge/computer-architecture/cache-blocking/)
-- [Memory Affinity](/knowledge/computer-architecture/memory-affinity/)
+- [루프라인 모델 (Roofline Model)](/knowledge/computer-architecture/roofline-model/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [캐시 블로킹 (Cache Blocking)](/knowledge/computer-architecture/cache-blocking/)
+- [메모리 친화성 (Memory Affinity)](/knowledge/computer-architecture/memory-affinity/)

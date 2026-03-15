@@ -1,5 +1,5 @@
 ---
-title: "Clock Skew"
+title: "클록 스큐 (Clock Skew)"
 description: "클럭 스큐(Clock Skew)는 두 상태 요소가 클럭 에지를 감지하는 절대 시간의 차이로, 클럭 신호가 서로 다른 경로를 통해 전달되면서 발생하는 지연 차이이다"
 tags: ['Clocking', 'Timing', 'Synchronous System', 'Race Condition']
 created: 2026-02-15
@@ -36,5 +36,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Edge-Triggered Clocking](/knowledge/computer-architecture/edge-triggered-clocking/)
-- [Flip-Flop](/knowledge/computer-architecture/flip-flop/)
+- [에지 트리거 클로킹 (Edge-Triggered Clocking)](/knowledge/computer-architecture/edge-triggered-clocking/)
+- [플립플롭 (Flip-Flop)](/knowledge/computer-architecture/flip-flop/)

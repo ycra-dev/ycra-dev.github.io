@@ -1,5 +1,5 @@
 ---
-title: "Cache Memory"
+title: "캐시 메모리 (Cache Memory)"
 description: "캐시 메모리(Cache Memory)는 더 크고 느린 메모리(DRAM)에 대한 버퍼 역할을 하는 작고 빠른 메모리이다"
 tags: ['Memory Hierarchy', 'Sram', 'Performance', 'Locality', 'Buffer']
 created: 2026-02-15
@@ -30,13 +30,13 @@ sidebar:
 
 ## 관련 개념
 
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [SRAM](/knowledge/computer-architecture/sram/)
-- [DRAM](/knowledge/computer-architecture/dram/)
-- [Direct-Mapped Cache](/knowledge/computer-architecture/direct-mapped-cache/)
-- [Set-Associative Cache](/knowledge/computer-architecture/set-associative-cache/)
-- [Write-Through](/knowledge/computer-architecture/write-through/)
-- [Write-Back](/knowledge/computer-architecture/write-back/)
-- [Multilevel Cache](/knowledge/computer-architecture/multilevel-cache/)
-- [Temporal Locality](/knowledge/computer-architecture/temporal-locality/)
-- [Spatial Locality](/knowledge/computer-architecture/spatial-locality/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [SRAM (정적 랜덤 액세스 메모리)](/knowledge/computer-architecture/sram/)
+- [DRAM (동적 랜덤 액세스 메모리)](/knowledge/computer-architecture/dram/)
+- [직접 사상 캐시 (Direct-Mapped Cache)](/knowledge/computer-architecture/direct-mapped-cache/)
+- [집합 연관 캐시 (Set-Associative Cache)](/knowledge/computer-architecture/set-associative-cache/)
+- [즉시쓰기 (Write-Through)](/knowledge/computer-architecture/write-through/)
+- [후기입 (Write-Back)](/knowledge/computer-architecture/write-back/)
+- [다단계 캐시 (Multilevel Cache)](/knowledge/computer-architecture/multilevel-cache/)
+- [시간 지역성 (Temporal Locality)](/knowledge/computer-architecture/temporal-locality/)
+- [공간 지역성 (Spatial Locality)](/knowledge/computer-architecture/spatial-locality/)

@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Power Consumption"
+title: "동적 전력 소비 (Dynamic Power Consumption)"
 description: "동적 전력 소비(Dynamic Power Consumption)는 CMOS 트랜지스터가 0에서 1, 1에서 0으로 상태를 전환할 때 소비되는 에너지로, CMOS 집적회로의 주요 에너지 소비 원인이다"
 tags: ['Power', 'Energy', 'Cmos', 'Voltage', 'Frequency', 'Power Wall']
 created: 2026-02-15
@@ -36,7 +36,7 @@ f = 스위칭 주파수 (클럭 속도에 비례)
 
 ## 관련 개념
 
-- [CMOS](/knowledge/computer-architecture/cmos/)
-- [Transistor](/knowledge/computer-architecture/transistor/)
-- [Clock Cycle](/knowledge/computer-architecture/clock-cycle/)
-- [Multicore Processor](/knowledge/computer-architecture/multicore-processor/)
+- [CMOS (상보형 금속 산화물 반도체)](/knowledge/computer-architecture/cmos/)
+- [트랜지스터 (Transistor)](/knowledge/computer-architecture/transistor/)
+- [클록 주기 (Clock Cycle)](/knowledge/computer-architecture/clock-cycle/)
+- [멀티코어 프로세서 (Multicore Processor)](/knowledge/computer-architecture/multicore-processor/)

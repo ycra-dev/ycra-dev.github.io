@@ -1,5 +1,5 @@
 ---
-title: "Application Binary Interface"
+title: "응용 프로그램 이진 인터페이스 (ABI)"
 description: "ABI(Application Binary Interface)는 명령어 집합의 사용자 부분과 운영체제 인터페이스를 결합한 것으로, 컴퓨터 간 바이너리 이식성(binary portability)의 표준을 정의한다"
 tags: ['Isa', 'Operating System', 'Software Interface', 'Binary Compatibility', 'Abstraction']
 created: 2026-02-15
@@ -27,6 +27,6 @@ ABI의 구성 요소:
 
 ## 관련 개념
 
-- [Instruction Set Architecture](/knowledge/computer-architecture/instruction-set-architecture/)
-- [Operating System](/knowledge/computer-architecture/operating-system/)
-- [Abstraction](/knowledge/computer-architecture/abstraction/)
+- [ISA (명령어 집합 아키텍처)](/knowledge/computer-architecture/instruction-set-architecture/)
+- [운영체제 (Operating System)](/knowledge/computer-architecture/operating-system/)
+- [추상화 (Abstraction)](/knowledge/computer-architecture/abstraction/)

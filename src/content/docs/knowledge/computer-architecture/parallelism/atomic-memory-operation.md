@@ -1,5 +1,5 @@
 ---
-title: "Atomic Memory Operation"
+title: "원자적 메모리 연산 (Atomic Memory Operation)"
 description: "원자적 메모리 연산(Atomic Memory Operation)은 중간에 다른 접근이 개입하지 않고 완료되는 메모리 읽기-수정-쓰기 연산 시퀀스이다"
 tags: ['Atomic Operation', 'Memory', 'Synchronization', 'Parallel Programming']
 created: 2026-02-15
@@ -53,7 +53,7 @@ __global__ void reduceBlocks(float *partial, float *total, int nblocks) {
 
 ## 관련 개념
 
-- [Synchronization Barrier](/knowledge/computer-architecture/synchronization-barrier/)
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [Thread Block](/knowledge/computer-architecture/thread-block/)
-- [Parallel Reduction](/knowledge/computer-architecture/parallel-reduction/)
+- [동기화 장벽 (Synchronization Barrier)](/knowledge/computer-architecture/synchronization-barrier/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [스레드 블록 (Thread Block)](/knowledge/computer-architecture/thread-block/)
+- [병렬 리덕션 (Parallel Reduction)](/knowledge/computer-architecture/parallel-reduction/)

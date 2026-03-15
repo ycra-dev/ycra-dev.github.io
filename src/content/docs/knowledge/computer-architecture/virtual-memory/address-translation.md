@@ -1,5 +1,5 @@
 ---
-title: "Address Translation"
+title: "주소 변환 (Address Translation)"
 description: "주소 변환(address translation 또는 address mapping)은 프로세서가 생성한 가상 주소를 메인 메모리에 접근하기 위한 물리 주소로 변환하는 과정이다"
 tags: ['Virtual Memory', 'Page Table', 'Tlb', 'Virtual Address', 'Physical Address']
 created: 2026-02-15
@@ -37,7 +37,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
-- [Page Table](/knowledge/computer-architecture/page-table/)
-- [Translation Lookaside Buffer](/knowledge/computer-architecture/translation-lookaside-buffer/)
-- [Virtual Machine](/knowledge/computer-architecture/virtual-machine/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)
+- [페이지 테이블 (Page Table)](/knowledge/computer-architecture/page-table/)
+- [TLB (변환 색인 버퍼)](/knowledge/computer-architecture/translation-lookaside-buffer/)
+- [가상 머신 (Virtual Machine)](/knowledge/computer-architecture/virtual-machine/)

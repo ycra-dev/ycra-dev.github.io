@@ -1,5 +1,5 @@
 ---
-title: "Combinational Element"
+title: "조합 소자 (Combinational Element)"
 description: "조합 논리 요소(Combinational Element)는 출력이 현재 입력에만 의존하는 논리 회로로, 내부 저장 공간이 없다"
 tags: ['Digital Logic', 'Alu', 'Hardware Design']
 created: 2026-02-15
@@ -26,6 +26,6 @@ sidebar:
 
 ## 관련 개념
 
-- [State Element](/knowledge/computer-architecture/state-element/)
-- [Edge-Triggered Clocking](/knowledge/computer-architecture/edge-triggered-clocking/)
-- [ALU Control](/knowledge/computer-architecture/alu-control/)
+- [상태 소자 (State Element)](/knowledge/computer-architecture/state-element/)
+- [에지 트리거 클로킹 (Edge-Triggered Clocking)](/knowledge/computer-architecture/edge-triggered-clocking/)
+- [ALU 제어 (ALU Control)](/knowledge/computer-architecture/alu-control/)

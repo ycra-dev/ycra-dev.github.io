@@ -1,5 +1,5 @@
 ---
-title: "MIP-map"
+title: "밉맵 (MIP-map)"
 description: "MIP-map은 라틴어 \"multum in parvo\"(작은 공간에 많은 것)에서 유래한 용어로, 렌더링 속도를 높이고 아티팩트를 줄이기 위해 서로 다른 해상도로 미리 계산된 이미지들을 포함하는 구조이다"
 tags: ['Mip Map', 'Texture', 'Level Of Detail', 'Rendering']
 created: 2026-02-15
@@ -55,6 +55,6 @@ LOD 선택:
 
 ## 관련 개념
 
-- [Texture](/knowledge/computer-architecture/texture/)
-- [Half Precision](/knowledge/computer-architecture/half-precision/)
-- [Shader](/knowledge/computer-architecture/shader/)
+- [텍스처 (Texture)](/knowledge/computer-architecture/texture/)
+- [반정밀도 (Half Precision)](/knowledge/computer-architecture/half-precision/)
+- [셰이더 (Shader)](/knowledge/computer-architecture/shader/)

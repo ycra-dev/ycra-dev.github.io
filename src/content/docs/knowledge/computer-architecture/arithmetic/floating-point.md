@@ -1,5 +1,5 @@
 ---
-title: "Floating Point"
+title: "부동소수점 (Floating Point)"
 description: "부동소수점(Floating Point)은 이진 소수점(binary point)이 정수처럼 고정되지 않고 이동할 수 있는 숫자를 표현하는 컴퓨터 산술 방식이다"
 tags: ['Ieee 754', 'Real Number', 'Scientific Notation', 'Precision', 'Exponent']
 created: 2026-02-15
@@ -35,8 +35,8 @@ sidebar:
 
 ## 관련 개념
 
-- [IEEE 754 Standard](/knowledge/computer-architecture/ieee-754-standard/)
-- [Single Precision](/knowledge/computer-architecture/single-precision/)
-- [Double Precision](/knowledge/computer-architecture/double-precision/)
-- [Floating Point Addition](/knowledge/computer-architecture/floating-point-addition/)
-- [Floating Point Multiplication](/knowledge/computer-architecture/floating-point-multiplication/)
+- [IEEE 754 표준 (IEEE 754 Standard)](/knowledge/computer-architecture/ieee-754-standard/)
+- [단정밀도 (Single Precision)](/knowledge/computer-architecture/single-precision/)
+- [배정밀도 (Double Precision)](/knowledge/computer-architecture/double-precision/)
+- [부동소수점 덧셈 (Floating Point Addition)](/knowledge/computer-architecture/floating-point-addition/)
+- [부동소수점 곱셈 (Floating Point Multiplication)](/knowledge/computer-architecture/floating-point-multiplication/)

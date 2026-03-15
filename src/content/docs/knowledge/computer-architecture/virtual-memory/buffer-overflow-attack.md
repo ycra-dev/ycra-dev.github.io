@@ -1,5 +1,5 @@
 ---
-title: "Buffer Overflow Attack"
+title: "버퍼 오버플로우 공격 (Buffer Overflow Attack)"
 description: "버퍼 오버플로우 공격(Buffer Overflow Attack)은 C 프로그램의 배열 범위 검사 부재를 악용하여, 스택의 지역 변수 경계를 넘어 데이터를 기록함으로써 리턴 주소를 조작하고 악의적 코드를 실행하는 보안 공격 기법이다"
 tags: ['Security', 'Stack', 'Vulnerability', 'C Programming', 'Memory Safety']
 created: 2026-02-15
@@ -34,5 +34,5 @@ void copyinput(char *input) {
 
 ## 관련 개념
 
-- [Stored Program Concept](/knowledge/computer-architecture/stored-program-concept/)
-- [Object-Oriented Language](/knowledge/language/object-oriented-language/)
+- [저장 프로그램 개념 (Stored-Program Concept)](/knowledge/computer-architecture/stored-program-concept/)
+- [객체지향 언어 (Object-Oriented Language)](/knowledge/language/object-oriented-language/)

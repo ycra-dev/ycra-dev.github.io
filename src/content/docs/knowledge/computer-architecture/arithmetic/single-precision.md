@@ -1,5 +1,5 @@
 ---
-title: "Single Precision"
+title: "단정밀도 (Single Precision)"
 description: "단정밀도(Single Precision)는 하나의 32비트 워드로 표현되는 부동소수점 값으로, 1비트 부호, 8비트 지수, 23비트 분수로 구성된다"
 tags: ['Floating Point', 'Ieee 754', '32 Bit', 'Fraction', 'Exponent']
 created: 2026-02-15
@@ -32,6 +32,6 @@ swc1  $f2, b($sp)      # 부동소수점 레지스터 → 메모리
 
 ## 관련 개념
 
-- [Floating Point](/knowledge/computer-architecture/floating-point/)
-- [Double Precision](/knowledge/computer-architecture/double-precision/)
-- [IEEE 754 Standard](/knowledge/computer-architecture/ieee-754-standard/)
+- [부동소수점 (Floating Point)](/knowledge/computer-architecture/floating-point/)
+- [배정밀도 (Double Precision)](/knowledge/computer-architecture/double-precision/)
+- [IEEE 754 표준 (IEEE 754 Standard)](/knowledge/computer-architecture/ieee-754-standard/)

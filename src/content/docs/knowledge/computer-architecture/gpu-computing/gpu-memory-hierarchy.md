@@ -1,5 +1,5 @@
 ---
-title: "GPU Memory Hierarchy"
+title: "GPU 메모리 계층 구조 (GPU Memory Hierarchy)"
 description: "GPU 메모리 계층은 스레드별 로컬 메모리, 블록별 공유 메모리, 애플리케이션 전체 전역 메모리로 구성된 다층 메모리 구조로, 각 수준은 서로 다른 범위와 지연 시간을 가진다"
 tags: ['GPU Memory', 'Local Memory', 'Shared Memory', 'Global Memory', 'Cuda']
 created: 2026-02-15
@@ -55,8 +55,8 @@ __global__ void example(float *input, float *output) {
 
 ## 관련 개념
 
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [Streaming Multiprocessor](/knowledge/computer-architecture/streaming-multiprocessor/)
-- [Thread Block](/knowledge/computer-architecture/thread-block/)
-- [Texture](/knowledge/computer-architecture/texture/)
-- [Synchronization Barrier](/knowledge/computer-architecture/synchronization-barrier/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [SM (스트리밍 멀티프로세서)](/knowledge/computer-architecture/streaming-multiprocessor/)
+- [스레드 블록 (Thread Block)](/knowledge/computer-architecture/thread-block/)
+- [텍스처 (Texture)](/knowledge/computer-architecture/texture/)
+- [동기화 장벽 (Synchronization Barrier)](/knowledge/computer-architecture/synchronization-barrier/)

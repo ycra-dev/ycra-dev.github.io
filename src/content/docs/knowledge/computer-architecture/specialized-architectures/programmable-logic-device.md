@@ -1,5 +1,5 @@
 ---
-title: "Programmable Logic Device (PLD)"
+title: "PLD (프로그래머블 논리 소자)"
 description: "PLD(Programmable Logic Device)는 조합 논리를 포함하는 집적 회로로, 최종 사용자가 논리 기능을 구성할 수 있다"
 tags: ['Pld', 'Programmable Logic', 'Digital Design', 'Combinational Logic']
 created: 2026-02-15
@@ -42,5 +42,5 @@ PAL에서는 OR-plane이 고정됨:
 
 ## 관련 개념
 
-- [Antifuse](/knowledge/computer-architecture/antifuse/)
-- [Combinational Element](/knowledge/computer-architecture/combinational-element/)
+- [안티퓨즈 (Antifuse)](/knowledge/computer-architecture/antifuse/)
+- [조합 소자 (Combinational Element)](/knowledge/computer-architecture/combinational-element/)

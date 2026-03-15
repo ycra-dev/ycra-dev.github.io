@@ -1,5 +1,5 @@
 ---
-title: "Microprogrammed Control"
+title: "마이크로프로그램 제어 (Microprogrammed Control)"
 description: "마이크로프로그래밍된 제어(Microprogrammed Control)는 제어 워드(마이크로명령어)를 메모리에 저장하고, 시퀀서(카운터)를 사용하여 순차적으로 실행하는 제어 유닛 구현 방식이다"
 tags: ['Microcode', 'Microprogramming', 'Control Unit', 'Sequencer']
 created: 2026-02-15
@@ -69,8 +69,8 @@ Op      | 명령어  | 다음 상태
 
 ## 관련 개념
 
-- [Finite-State Machine Control](/knowledge/computer-architecture/finite-state-machine-control/)
-- [Horizontal and Vertical Microcode](/knowledge/computer-architecture/horizontal-and-vertical-microcode/)
-- [ROM Control Implementation](/knowledge/computer-architecture/rom-control-implementation/)
-- [Control Unit](/knowledge/computer-architecture/control-unit/)
-- [Datapath](/knowledge/computer-architecture/datapath/)
+- [유한 상태 기계 제어 (FSM Control)](/knowledge/computer-architecture/finite-state-machine-control/)
+- [수평·수직 마이크로코드 (Horizontal and Vertical Microcode)](/knowledge/computer-architecture/horizontal-and-vertical-microcode/)
+- [ROM 제어 구현 (ROM Control Implementation)](/knowledge/computer-architecture/rom-control-implementation/)
+- [제어 장치 (Control Unit)](/knowledge/computer-architecture/control-unit/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)

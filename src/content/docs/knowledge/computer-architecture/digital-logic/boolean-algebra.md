@@ -1,5 +1,5 @@
 ---
-title: "Boolean Algebra"
+title: "불 대수 (Boolean Algebra)"
 description: "불 대수(Boolean Algebra)는 변수가 0 또는 1 값만 가지며, AND(논리곱), OR(논리합), NOT(부정)의 세 가지 연산자를 사용하여 논리 함수를 표현하는 수학적 체계이다"
 tags: ['Logic Design', 'Truth Table', 'Logic Gates', 'Combinational Logic']
 created: 2026-02-15
@@ -32,6 +32,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Combinational Logic](/knowledge/computer-architecture/combinational-logic/)
-- [Programmable Logic Array](/knowledge/computer-architecture/programmable-logic-array/)
+- [조합 논리 (Combinational Logic)](/knowledge/computer-architecture/combinational-logic/)
+- [PLA (프로그래머블 논리 배열)](/knowledge/computer-architecture/programmable-logic-array/)
 - [Truth Table](/knowledge/mathematics/truth-table/)

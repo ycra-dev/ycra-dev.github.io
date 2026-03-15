@@ -1,5 +1,5 @@
 ---
-title: "Virtual Machine Monitor"
+title: "가상 머신 모니터 (VMM)"
 description: "가상 머신 모니터(VMM) 또는 하이퍼바이저는 가상 머신 기술의 핵심 소프트웨어로, 게스트 소프트웨어에 소프트웨어 인터페이스를 제공하고, 게스트 상태를 서로 격리하며, 게스트 소프트웨어로부터 자신을 보호하는 역할을 한다"
 tags: ['Virtualization', 'Hypervisor', 'Vmm', 'Privileged Instruction', 'Trap']
 created: 2026-02-15
@@ -33,7 +33,7 @@ POPF 명령어:
 
 ## 관련 개념
 
-- [Virtual Machine](/knowledge/computer-architecture/virtual-machine/)
-- [Supervisor Mode](/knowledge/computer-architecture/supervisor-mode/)
-- [Context Switch](/knowledge/computer-architecture/context-switch/)
-- [Domain Specific Architecture](/knowledge/computer-architecture/domain-specific-architecture/)
+- [가상 머신 (Virtual Machine)](/knowledge/computer-architecture/virtual-machine/)
+- [관리자 모드 (Supervisor Mode)](/knowledge/computer-architecture/supervisor-mode/)
+- [문맥 교환 (Context Switch)](/knowledge/computer-architecture/context-switch/)
+- [도메인 특화 아키텍처 (DSA)](/knowledge/computer-architecture/domain-specific-architecture/)

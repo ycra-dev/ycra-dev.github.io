@@ -1,5 +1,5 @@
 ---
-title: "Out-of-Order Execution"
+title: "비순차 실행 (Out-of-Order Execution)"
 description: "비순차 실행(Out-of-Order Execution)은 파이프라인 실행에서 차단된 명령어가 후속 명령어의 실행을 대기시키지 않고, 준비된 명령어가 먼저 실행될 수 있는 상황이다"
 tags: ['Dynamic Scheduling', 'Ilp', 'Superscalar', 'Pipeline', 'Performance']
 created: 2026-02-15
@@ -29,9 +29,9 @@ and  $t7, $t8, $t9  # 독립적 → 먼저 실행 가능!
 
 ## 관련 개념
 
-- [Dynamic Pipeline Scheduling](/knowledge/computer-architecture/dynamic-pipeline-scheduling/)
-- [Reservation Station](/knowledge/computer-architecture/reservation-station/)
-- [Reorder Buffer](/knowledge/computer-architecture/reorder-buffer/)
-- [In-Order Commit](/knowledge/computer-architecture/in-order-commit/)
-- [Register Renaming](/knowledge/computer-architecture/register-renaming/)
-- [Superscalar](/knowledge/computer-architecture/superscalar/)
+- [동적 파이프라인 스케줄링 (Dynamic Pipeline Scheduling)](/knowledge/computer-architecture/dynamic-pipeline-scheduling/)
+- [예약 스테이션 (Reservation Station)](/knowledge/computer-architecture/reservation-station/)
+- [리오더 버퍼 (Reorder Buffer)](/knowledge/computer-architecture/reorder-buffer/)
+- [순서 커밋 (In-Order Commit)](/knowledge/computer-architecture/in-order-commit/)
+- [레지스터 리네이밍 (Register Renaming)](/knowledge/computer-architecture/register-renaming/)
+- [슈퍼스칼라 (Superscalar)](/knowledge/computer-architecture/superscalar/)

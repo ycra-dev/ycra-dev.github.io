@@ -1,5 +1,5 @@
 ---
-title: "Horizontal and Vertical Microcode"
+title: "수평·수직 마이크로코드 (Horizontal and Vertical Microcode)"
 description: "수평 마이크로코드(Horizontal Microcode)는 넓지만 짧은 마이크로명령어를 사용하여 하나의 명령어로 데이터패스의 모든 동작을 지정할 수 있는 방식이고, 수직 마이크로코드(Vertical Microcode)는 좁지만 긴 마이크로명령어를 사용하여 제한된 ..."
 tags: ['Microcode', 'Horizontal Microcode', 'Vertical Microcode', 'Control Encoding']
 created: 2026-02-15
@@ -69,7 +69,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Microprogrammed Control](/knowledge/computer-architecture/microprogrammed-control/)
-- [Finite-State Machine Control](/knowledge/computer-architecture/finite-state-machine-control/)
-- [ROM Control Implementation](/knowledge/computer-architecture/rom-control-implementation/)
-- [Control Unit](/knowledge/computer-architecture/control-unit/)
+- [마이크로프로그램 제어 (Microprogrammed Control)](/knowledge/computer-architecture/microprogrammed-control/)
+- [유한 상태 기계 제어 (FSM Control)](/knowledge/computer-architecture/finite-state-machine-control/)
+- [ROM 제어 구현 (ROM Control Implementation)](/knowledge/computer-architecture/rom-control-implementation/)
+- [제어 장치 (Control Unit)](/knowledge/computer-architecture/control-unit/)

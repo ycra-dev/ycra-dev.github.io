@@ -1,5 +1,5 @@
 ---
-title: "Error Detection Code"
+title: "오류 검출 코드 (Error Detection Code)"
 description: "오류 검출 코드(Error Detection Code)는 데이터의 오류를 감지할 수 있지만 정확한 위치를 파악하여 수정할 수는 없는 코드로, 대표적으로 패리티(parity) 코드가 있다"
 tags: ['Parity', 'Error Correction', 'Hamming Code', 'Memory Reliability']
 created: 2026-02-15
@@ -33,6 +33,6 @@ sidebar:
 
 ## 관련 개념
 
-- [DRAM](/knowledge/computer-architecture/dram/)
-- [SRAM](/knowledge/computer-architecture/sram/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
+- [DRAM (동적 랜덤 액세스 메모리)](/knowledge/computer-architecture/dram/)
+- [SRAM (정적 랜덤 액세스 메모리)](/knowledge/computer-architecture/sram/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)

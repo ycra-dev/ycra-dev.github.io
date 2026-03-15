@@ -1,5 +1,5 @@
 ---
-title: "Operating System"
+title: "운영체제 (Operating System)"
 description: "운영체제(Operating System)는 컴퓨터의 자원을 관리하는 감독 프로그램으로, 해당 컴퓨터에서 실행되는 프로그램들을 위해 서비스를 제공한다"
 tags: ['Systems Software', 'Resource Management', 'Process Management', 'Memory Management']
 created: 2026-02-15
@@ -27,7 +27,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Compiler](/knowledge/language/compiler/)
-- [Abstraction](/knowledge/computer-architecture/abstraction/)
-- [Application Binary Interface](/knowledge/computer-architecture/application-binary-interface/)
-- [Systems Software](/knowledge/computer-architecture/systems-software/)
+- [컴파일러 (Compiler)](/knowledge/language/compiler/)
+- [추상화 (Abstraction)](/knowledge/computer-architecture/abstraction/)
+- [응용 프로그램 이진 인터페이스 (ABI)](/knowledge/computer-architecture/application-binary-interface/)
+- [시스템 소프트웨어 (Systems Software)](/knowledge/computer-architecture/systems-software/)

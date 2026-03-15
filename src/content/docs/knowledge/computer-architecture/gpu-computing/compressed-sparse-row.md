@@ -1,5 +1,5 @@
 ---
-title: "Compressed Sparse Row (CSR)"
+title: "CSR (압축 희소 행 형식)"
 description: "CSR(Compressed Sparse Row)은 일반적인 비구조적 희소 행렬을 효율적으로 저장하는 표현 방식으로, 비영 원소만을 행 우선 순서로 저장한다"
 tags: ['Csr', 'Sparse Matrix', 'Data Structure', 'Parallel Computing']
 created: 2026-02-15
@@ -63,7 +63,7 @@ __global__ void csrmul_kernel(int *Ap, int *Aj, float *Av,
 
 ## 관련 개념
 
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [GPU Memory Hierarchy](/knowledge/computer-architecture/gpu-memory-hierarchy/)
-- [Parallel Reduction](/knowledge/computer-architecture/parallel-reduction/)
-- [Thread Block](/knowledge/computer-architecture/thread-block/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [GPU 메모리 계층 구조 (GPU Memory Hierarchy)](/knowledge/computer-architecture/gpu-memory-hierarchy/)
+- [병렬 리덕션 (Parallel Reduction)](/knowledge/computer-architecture/parallel-reduction/)
+- [스레드 블록 (Thread Block)](/knowledge/computer-architecture/thread-block/)

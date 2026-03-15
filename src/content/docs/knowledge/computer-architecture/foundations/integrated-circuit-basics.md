@@ -49,7 +49,7 @@ IC가 사용되는 곳:
 
 - [트랜지스터 (Transistor)](/knowledge/computer-architecture/transistor-basics/) - IC를 구성하는 기본 소자
 - [무어의 법칙 (Moore's Law)](/knowledge/computer-architecture/moores-law/) - IC의 집적도 증가 추세
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - IC 기술로 만들어지는 대표적 칩
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - IC 기술로 만들어지는 대표적 칩
 - [보조기억장치 (Secondary Storage)](/knowledge/computer-architecture/secondary-storage/) - 플래시 메모리도 IC 기술 기반
 
 ## 출처

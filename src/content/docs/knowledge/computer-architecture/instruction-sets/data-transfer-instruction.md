@@ -1,5 +1,5 @@
 ---
-title: "Data Transfer Instruction"
+title: "데이터 전송 명령어 (Data Transfer Instruction)"
 description: "데이터 전송 명령어(Data Transfer Instruction)는 메모리와 레지스터 사이에서 데이터를 이동시키는 명령어로, 대표적으로 load(메모리 → 레지스터)와 store(레지스터 → 메모리)가 있다"
 tags: ['Instruction', 'Memory', 'Load', 'Store', 'Mips', 'Operand']
 created: 2026-02-15
@@ -35,8 +35,8 @@ sb $t0, 0($gp)     # 바이트 저장
 
 ## 관련 개념
 
-- [Register](/knowledge/computer-architecture/register/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Instruction Set](/knowledge/computer-architecture/instruction-set/)
-- [Addressing Mode](/knowledge/computer-architecture/addressing-mode/)
-- [Word](/knowledge/computer-architecture/word/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [명령어 집합 (Instruction Set)](/knowledge/computer-architecture/instruction-set/)
+- [주소 지정 방식 (Addressing Mode)](/knowledge/computer-architecture/addressing-mode/)
+- [워드 (Word)](/knowledge/computer-architecture/word/)

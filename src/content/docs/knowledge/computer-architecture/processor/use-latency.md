@@ -1,5 +1,5 @@
 ---
-title: "Use Latency"
+title: "사용 지연시간 (Use Latency)"
 description: "사용 지연(Use Latency)은 load 명령어와 그 결과를 스톨 없이 사용할 수 있는 명령어 사이에 필요한 클록 사이클 수이다"
 tags: ['Pipeline', 'Data Hazard', 'Stall', 'Load Use', 'Multiple Issue']
 created: 2026-02-15
@@ -34,8 +34,8 @@ add $t1, $t0, $t2  # 사이클 3 (사용 가능)
 
 ## 관련 개념
 
-- [Load-Use Data Hazard](/knowledge/computer-architecture/load-use-data-hazard/)
-- [Pipeline Stall](/knowledge/computer-architecture/pipeline-stall/)
-- [Multiple Issue](/knowledge/computer-architecture/multiple-issue/)
-- [Forwarding](/knowledge/computer-architecture/forwarding/)
-- [Data Hazard](/knowledge/computer-architecture/data-hazard/)
+- [로드-사용 데이터 해저드 (Load-Use Data Hazard)](/knowledge/computer-architecture/load-use-data-hazard/)
+- [파이프라인 스톨 (Pipeline Stall)](/knowledge/computer-architecture/pipeline-stall/)
+- [다중 발행 (Multiple Issue)](/knowledge/computer-architecture/multiple-issue/)
+- [포워딩 (Forwarding)](/knowledge/computer-architecture/forwarding/)
+- [데이터 해저드 (Data Hazard)](/knowledge/computer-architecture/data-hazard/)

@@ -1,5 +1,5 @@
 ---
-title: "Strong Scaling"
+title: "강한 확장성 (Strong Scaling)"
 description: "강한 확장(strong scaling)은 문제 크기를 고정한 채로 프로세서 수를 늘려서 달성하는 속도 향상을 측정하는 방식이다"
 tags: ['Parallel Computing', 'Speedup', 'Amdahls Law', 'Multiprocessor', 'Performance']
 created: 2026-02-15
@@ -40,6 +40,6 @@ Speed-up = 1 / ((1 - f) + f/P)
 
 ## 관련 개념
 
-- [Weak Scaling](/knowledge/computer-architecture/weak-scaling/)
-- [Multiprocessor](/knowledge/computer-architecture/multiprocessor/)
-- [Shared Memory Multiprocessor](/knowledge/computer-architecture/shared-memory-multiprocessor/)
+- [약한 확장성 (Weak Scaling)](/knowledge/computer-architecture/weak-scaling/)
+- [멀티프로세서 (Multiprocessor)](/knowledge/computer-architecture/multiprocessor/)
+- [공유 메모리 멀티프로세서 (SMP)](/knowledge/computer-architecture/shared-memory-multiprocessor/)

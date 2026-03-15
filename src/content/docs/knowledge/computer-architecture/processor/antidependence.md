@@ -1,5 +1,5 @@
 ---
-title: "Antidependence"
+title: "역의존성 (Antidependence)"
 description: "반이름 의존성(Antidependence)은 실제 데이터 값의 흐름이 아닌 이름(레지스터)의 재사용에 의해 강제되는 순서 제약으로, 이름 의존성(name dependence)이라고도 한다"
 tags: ['Name Dependence', 'War Hazard', 'Register Renaming', 'Ilp', 'Pipeline']
 created: 2026-02-15
@@ -32,7 +32,7 @@ Loop: lwc1  $f0, 0(x1)     # f0 읽기 (나중에 사용됨)
 
 ## 관련 개념
 
-- [Register Renaming](/knowledge/computer-architecture/register-renaming/)
-- [Out-of-Order Execution](/knowledge/computer-architecture/out-of-order-execution/)
-- [Data Hazard](/knowledge/computer-architecture/data-hazard/)
-- [Loop Unrolling](/knowledge/language/loop-unrolling/)
+- [레지스터 리네이밍 (Register Renaming)](/knowledge/computer-architecture/register-renaming/)
+- [비순차 실행 (Out-of-Order Execution)](/knowledge/computer-architecture/out-of-order-execution/)
+- [데이터 해저드 (Data Hazard)](/knowledge/computer-architecture/data-hazard/)
+- [루프 풀기 (Loop Unrolling)](/knowledge/language/loop-unrolling/)

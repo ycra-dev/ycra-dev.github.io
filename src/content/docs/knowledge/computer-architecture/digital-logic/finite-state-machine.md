@@ -1,5 +1,5 @@
 ---
-title: "Finite-State Machine"
+title: "유한 상태 기계 (Finite-State Machine)"
 description: "유한 상태 기계(Finite-State Machine, FSM)는 상태 집합, 입력에 따라 상태 전이를 결정하는 다음 상태 함수, 그리고 현재 상태에 기반한 출력 함수로 구성된 순차 논리 함수이다"
 tags: ['Control', 'Sequential Logic', 'Next State Function', 'Multicycle']
 created: 2026-02-15
@@ -78,12 +78,12 @@ State 3 -> State 4 (Write Back) -> State 0
 
 ## 관련 개념
 
-- [Multicycle Implementation](/knowledge/computer-architecture/multicycle-implementation/)
-- [Control Unit](/knowledge/computer-architecture/control-unit/)
-- [Write-Back](/knowledge/computer-architecture/write-back/)
-- [Cache Coherence](/knowledge/computer-architecture/cache-coherence/)
-- [Nonblocking Cache](/knowledge/computer-architecture/nonblocking-cache/)
-- [Sequential Logic](/knowledge/computer-architecture/sequential-logic/)
-- [Combinational Logic](/knowledge/computer-architecture/combinational-logic/)
-- [Programmable Logic Array](/knowledge/computer-architecture/programmable-logic-array/)
-- [Datapath](/knowledge/computer-architecture/datapath/)
+- [다중 사이클 구현 (Multicycle Implementation)](/knowledge/computer-architecture/multicycle-implementation/)
+- [제어 장치 (Control Unit)](/knowledge/computer-architecture/control-unit/)
+- [후기입 (Write-Back)](/knowledge/computer-architecture/write-back/)
+- [캐시 일관성 (Cache Coherence)](/knowledge/computer-architecture/cache-coherence/)
+- [비차단 캐시 (Nonblocking Cache)](/knowledge/computer-architecture/nonblocking-cache/)
+- [순차 논리 (Sequential Logic)](/knowledge/computer-architecture/sequential-logic/)
+- [조합 논리 (Combinational Logic)](/knowledge/computer-architecture/combinational-logic/)
+- [PLA (프로그래머블 논리 배열)](/knowledge/computer-architecture/programmable-logic-array/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)

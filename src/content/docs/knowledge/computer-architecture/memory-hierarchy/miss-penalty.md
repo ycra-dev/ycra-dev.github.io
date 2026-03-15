@@ -1,5 +1,5 @@
 ---
-title: "Miss Penalty"
+title: "미스 페널티 (Miss Penalty)"
 description: "미스 패널티(Miss Penalty)는 캐시 미스 시 하위 메모리 계층에서 블록을 가져와 상위 계층에 삽입하고 요청자에게 전달하는 데 필요한 시간이다"
 tags: ['Cache', 'Memory Hierarchy', 'Performance', 'Latency', 'Stall']
 created: 2026-02-15
@@ -32,8 +32,8 @@ critical word first: 요청 워드를 먼저 전송하고 나머지는 wrap-arou
 
 ## 관련 개념
 
-- [Cache Miss](/knowledge/computer-architecture/cache-miss/)
-- [AMAT](/knowledge/computer-architecture/amat/)
-- [Hit Rate](/knowledge/computer-architecture/hit-rate/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
-- [Multilevel Cache](/knowledge/computer-architecture/multilevel-cache/)
+- [캐시 미스 (Cache Miss)](/knowledge/computer-architecture/cache-miss/)
+- [AMAT (평균 메모리 접근 시간)](/knowledge/computer-architecture/amat/)
+- [적중률 (Hit Rate)](/knowledge/computer-architecture/hit-rate/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)
+- [다단계 캐시 (Multilevel Cache)](/knowledge/computer-architecture/multilevel-cache/)

@@ -1,5 +1,5 @@
 ---
-title: "Volatile Memory"
+title: "휘발성 메모리 (Volatile Memory)"
 description: "휘발성 메모리(Volatile Memory)는 전원이 차단되면 저장된 데이터가 소실되는 메모리이다"
 tags: ['Memory', 'Dram', 'Sram', 'Power', 'Main Memory']
 created: 2026-02-15
@@ -29,7 +29,7 @@ DRAM과 SRAM은 대표적인 휘발성 메모리이다. 프로그램 실행 중 
 
 ## 관련 개념
 
-- [DRAM](/knowledge/computer-architecture/dram/)
-- [SRAM](/knowledge/computer-architecture/sram/)
-- [Flash Memory](/knowledge/computer-architecture/flash-memory/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
+- [DRAM (동적 랜덤 액세스 메모리)](/knowledge/computer-architecture/dram/)
+- [SRAM (정적 랜덤 액세스 메모리)](/knowledge/computer-architecture/sram/)
+- [플래시 메모리 (Flash Memory)](/knowledge/computer-architecture/flash-memory/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)

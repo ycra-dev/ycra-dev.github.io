@@ -1,5 +1,5 @@
 ---
-title: "Prefetching"
+title: "프리페칭 (Prefetching)"
 description: "프리페칭(prefetching)은 실제로 참조되기 전에 미래에 필요할 데이터 블록을 캐시로 미리 가져오는 기술이다"
 tags: ['Cache', 'Memory Hierarchy', 'Spatial Locality', 'Performance Optimization', 'Memory Latency']
 created: 2026-02-15
@@ -42,7 +42,7 @@ for (i = 0; i < N; i++) {
 
 ## 관련 개념
 
-- [Nonblocking Cache](/knowledge/computer-architecture/nonblocking-cache/)
-- [Three Cs Model](/knowledge/computer-architecture/three-cs-model/)
-- [Cache Blocking](/knowledge/computer-architecture/cache-blocking/)
-- [Virtual Memory](/knowledge/computer-architecture/virtual-memory/)
+- [비차단 캐시 (Nonblocking Cache)](/knowledge/computer-architecture/nonblocking-cache/)
+- [3C 모델 (Three Cs Model)](/knowledge/computer-architecture/three-cs-model/)
+- [캐시 블로킹 (Cache Blocking)](/knowledge/computer-architecture/cache-blocking/)
+- [가상 메모리 (Virtual Memory)](/knowledge/computer-architecture/virtual-memory/)

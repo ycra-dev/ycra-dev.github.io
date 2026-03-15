@@ -1,5 +1,5 @@
 ---
-title: "Single-Cycle Implementation"
+title: "단일 사이클 구현 (Single-Cycle Implementation)"
 description: "단일 사이클 구현(Single-Cycle Implementation)은 모든 명령어가 하나의 클록 사이클에서 실행되는 프로세서 구현 방식이다"
 tags: ['Processor', 'Clock Cycle', 'Datapath', 'Performance']
 created: 2026-02-15
@@ -28,7 +28,7 @@ Instruction Memory -> Register File -> ALU -> Data Memory -> Register File
 
 ## 관련 개념
 
-- [Datapath](/knowledge/computer-architecture/datapath/)
-- [Control Unit](/knowledge/computer-architecture/control-unit/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
-- [Multicycle Implementation](/knowledge/computer-architecture/multicycle-implementation/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)
+- [제어 장치 (Control Unit)](/knowledge/computer-architecture/control-unit/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)
+- [다중 사이클 구현 (Multicycle Implementation)](/knowledge/computer-architecture/multicycle-implementation/)

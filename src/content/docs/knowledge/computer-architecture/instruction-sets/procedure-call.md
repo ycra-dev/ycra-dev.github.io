@@ -1,5 +1,5 @@
 ---
-title: "Procedure Call"
+title: "프로시저 호출 (Procedure Call)"
 description: "프로시저(Procedure)는 매개변수에 기반하여 특정 작업을 수행하는 저장된 서브루틴으로, 프로그램을 구조화하고 코드를 재사용하기 위한 소프트웨어 추상화 도구이다"
 tags: ['Function', 'Subroutine', 'Jal', 'Stack', 'Calling Convention', 'Mips']
 created: 2026-02-15
@@ -36,8 +36,8 @@ leaf_example:
 
 ## 관련 개념
 
-- [Stack](/knowledge/computer-architecture/stack/)
-- [Program Counter](/knowledge/computer-architecture/program-counter/)
-- [Register](/knowledge/computer-architecture/register/)
-- [Instruction Set](/knowledge/computer-architecture/instruction-set/)
-- [Abstraction](/knowledge/computer-architecture/abstraction/)
+- [스택 (Stack)](/knowledge/computer-architecture/stack/)
+- [프로그램 카운터 (Program Counter)](/knowledge/computer-architecture/program-counter/)
+- [레지스터 (Register)](/knowledge/computer-architecture/register/)
+- [명령어 집합 (Instruction Set)](/knowledge/computer-architecture/instruction-set/)
+- [추상화 (Abstraction)](/knowledge/computer-architecture/abstraction/)

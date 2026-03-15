@@ -1,5 +1,5 @@
 ---
-title: "ROM Control Implementation"
+title: "ROM 제어 구현 (ROM Control Implementation)"
 description: "ROM(Read-Only Memory) 제어 구현은 제어 함수의 완전한 진리표를 ROM에 인코딩하여 제어 유닛을 구현하는 방식이다"
 tags: ['Rom', 'Control Unit', 'Truth Table', 'Digital Design']
 created: 2026-02-15
@@ -51,7 +51,7 @@ ROM 내용 예시 (다음 상태 부분):
 
 ## 관련 개념
 
-- [Finite-State Machine Control](/knowledge/computer-architecture/finite-state-machine-control/)
-- [PLA Control Implementation](/knowledge/computer-architecture/pla-control-implementation/)
-- [Microprogrammed Control](/knowledge/computer-architecture/microprogrammed-control/)
-- [Control Unit](/knowledge/computer-architecture/control-unit/)
+- [유한 상태 기계 제어 (FSM Control)](/knowledge/computer-architecture/finite-state-machine-control/)
+- [PLA 제어 구현 (PLA Control Implementation)](/knowledge/computer-architecture/pla-control-implementation/)
+- [마이크로프로그램 제어 (Microprogrammed Control)](/knowledge/computer-architecture/microprogrammed-control/)
+- [제어 장치 (Control Unit)](/knowledge/computer-architecture/control-unit/)

@@ -1,5 +1,5 @@
 ---
-title: "High Bandwidth Memory"
+title: "HBM (고대역폭 메모리)"
 description: "HBM(High Bandwidth Memory)은 인터포저 기판을 통해 프로세서 칩과 DRAM 칩 스택을 연결하는 고대역폭 메모리 기술로, 기존 DRAM 대비 25배 이상의 메모리 대역폭을 제공한다"
 tags: ['Dram', 'Memory Bandwidth', 'Tpuv3', 'Interposer']
 created: 2026-02-15
@@ -31,6 +31,6 @@ HBM 구조:
 
 ## 관련 개념
 
-- [TPUv3 Supercomputer](/knowledge/computer-architecture/tpuv3-supercomputer/)
-- [DRAM](/knowledge/computer-architecture/dram/)
-- [Memory Hierarchy](/knowledge/computer-architecture/memory-hierarchy/)
+- [TPUv3 슈퍼컴퓨터 (TPUv3 Supercomputer)](/knowledge/computer-architecture/tpuv3-supercomputer/)
+- [DRAM (동적 랜덤 액세스 메모리)](/knowledge/computer-architecture/dram/)
+- [메모리 계층 구조 (Memory Hierarchy)](/knowledge/computer-architecture/memory-hierarchy/)

@@ -1,5 +1,5 @@
 ---
-title: "Opcode"
+title: "연산 코드 (Opcode)"
 description: "오피코드(Opcode, Operation Code)는 명령어의 연산과 형식을 나타내는 필드로, 하드웨어가 명령어의 종류를 식별하는 데 사용된다"
 tags: ['Instruction Format', 'Machine Language', 'Encoding', 'Binary', 'Decoding']
 created: 2026-02-15
@@ -37,6 +37,6 @@ op 필드 값 → 명령어
 
 ## 관련 개념
 
-- [Instruction Format](/knowledge/computer-architecture/instruction-format/)
-- [Machine Language](/knowledge/computer-architecture/machine-language/)
-- [Instruction Set](/knowledge/computer-architecture/instruction-set/)
+- [명령어 형식 (Instruction Format)](/knowledge/computer-architecture/instruction-format/)
+- [기계어 (Machine Language)](/knowledge/computer-architecture/machine-language/)
+- [명령어 집합 (Instruction Set)](/knowledge/computer-architecture/instruction-set/)

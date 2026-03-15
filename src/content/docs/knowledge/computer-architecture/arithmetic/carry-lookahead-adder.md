@@ -1,5 +1,5 @@
 ---
-title: "Carry Lookahead Adder"
+title: "자리올림 예측 가산기 (Carry Lookahead Adder)"
 description: "캐리 예측 덧셈기(Carry Lookahead Adder)는 생성(generate)과 전파(propagate) 신호를 사용하여 모든 캐리를 병렬로 계산함으로써, 리플 캐리 덧셈기보다 훨씬 빠르게 덧셈을 수행하는 고속 덧셈기이다"
 tags: ['Adder', 'Propagate', 'Generate', 'Fast Addition', 'Alu']
 created: 2026-02-15
@@ -37,5 +37,5 @@ sidebar:
 
 ## 관련 개념
 
-- [Arithmetic Logic Unit](/knowledge/computer-architecture/arithmetic-logic-unit/)
-- [Combinational Logic](/knowledge/computer-architecture/combinational-logic/)
+- [산술논리장치 (ALU)](/knowledge/computer-architecture/arithmetic-logic-unit/)
+- [조합 논리 (Combinational Logic)](/knowledge/computer-architecture/combinational-logic/)

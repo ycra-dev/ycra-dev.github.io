@@ -1,5 +1,5 @@
 ---
-title: "Sequential Logic"
+title: "순차 논리 (Sequential Logic)"
 description: "순차 논리(Sequential Logic)는 메모리를 포함하는 논리 블록으로, 출력이 현재 입력뿐만 아니라 내부 메모리에 저장된 상태(state)에도 의존하는 디지털 논리 시스템이다"
 tags: ['State Element', 'Memory', 'Finite State Machine', 'Combinational Logic', 'Clock']
 created: 2026-02-15
@@ -36,8 +36,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Combinational Logic](/knowledge/computer-architecture/combinational-logic/)
-- [Flip-Flop](/knowledge/computer-architecture/flip-flop/)
-- [Finite-State Machine](/knowledge/computer-architecture/finite-state-machine/)
-- [Edge-Triggered Clocking](/knowledge/computer-architecture/edge-triggered-clocking/)
-- [Register File](/knowledge/computer-architecture/register-file/)
+- [조합 논리 (Combinational Logic)](/knowledge/computer-architecture/combinational-logic/)
+- [플립플롭 (Flip-Flop)](/knowledge/computer-architecture/flip-flop/)
+- [유한 상태 기계 (Finite-State Machine)](/knowledge/computer-architecture/finite-state-machine/)
+- [에지 트리거 클로킹 (Edge-Triggered Clocking)](/knowledge/computer-architecture/edge-triggered-clocking/)
+- [레지스터 파일 (Register File)](/knowledge/computer-architecture/register-file/)

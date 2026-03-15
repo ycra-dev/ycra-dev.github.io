@@ -66,7 +66,7 @@ sidebar:
 - [폰 노이만 구조 (Von Neumann Architecture)](/knowledge/computer-architecture/von-neumann-architecture-basics/) - 범용 튜링 머신의 실제 구현
 - [명령어 실행 주기 (Fetch-Decode-Execute Cycle)](/knowledge/computer-architecture/fetch-decode-execute-cycle/) - 튜링 머신의 "규칙 적용" 과정의 실제 구현
 - [분기 명령어 (Branch Instruction)](/knowledge/computer-architecture/branch-instruction/) - 조건부 상태 전이의 하드웨어 구현
-- [CPU](/knowledge/computer-architecture/cpu-basics/) - 범용 튜링 머신의 물리적 실현
+- [CPU (중앙처리장치)](/knowledge/computer-architecture/cpu-basics/) - 범용 튜링 머신의 물리적 실현
 
 ## 출처
 

@@ -1,5 +1,5 @@
 ---
-title: "Pipelining"
+title: "파이프라이닝 (Pipelining)"
 description: "파이프라이닝(Pipelining)은 여러 명령어의 실행을 겹쳐서(overlap) 처리하는 병렬 처리 기법으로, 명령어 수준 병렬성(ILP)의 대표적인 형태이다"
 tags: ['Computer Architecture', 'Parallelism', 'Performance', 'Instruction Execution']
 created: 2026-02-15
@@ -47,10 +47,10 @@ Time(pipelined) = Time(non-pipelined) / Number of stages
 
 ## 관련 개념
 
-- [Instruction-Level Parallelism](/knowledge/computer-architecture/instruction-level-parallelism/)
-- [Clock Cycle](/knowledge/computer-architecture/clock-cycle/)
-- [Throughput](/knowledge/computer-architecture/throughput/)
-- [Multicore Processor](/knowledge/computer-architecture/multicore-processor/)
-- [Pipeline Register](/knowledge/computer-architecture/pipeline-register/)
-- [Forwarding](/knowledge/computer-architecture/forwarding/)
-- [Single-Cycle Implementation](/knowledge/computer-architecture/single-cycle-implementation/)
+- [명령어 수준 병렬성 (ILP)](/knowledge/computer-architecture/instruction-level-parallelism/)
+- [클록 주기 (Clock Cycle)](/knowledge/computer-architecture/clock-cycle/)
+- [처리율 (Throughput)](/knowledge/computer-architecture/throughput/)
+- [멀티코어 프로세서 (Multicore Processor)](/knowledge/computer-architecture/multicore-processor/)
+- [파이프라인 레지스터 (Pipeline Register)](/knowledge/computer-architecture/pipeline-register/)
+- [포워딩 (Forwarding)](/knowledge/computer-architecture/forwarding/)
+- [단일 사이클 구현 (Single-Cycle Implementation)](/knowledge/computer-architecture/single-cycle-implementation/)

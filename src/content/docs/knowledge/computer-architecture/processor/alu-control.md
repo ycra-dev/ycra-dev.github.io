@@ -1,5 +1,5 @@
 ---
-title: "ALU Control"
+title: "ALU 제어 (ALU Control)"
 description: "ALU 제어(ALU Control)는 명령어의 기능 필드(funct field)와 ALUOp 제어 신호를 입력으로 받아 ALU가 수행할 연산을 지정하는 4비트 제어 신호를 생성하는 유닛이다"
 tags: ['Control Unit', 'Alu', 'Funct Field', 'Aluop', 'Mips']
 created: 2026-02-15
@@ -30,6 +30,6 @@ ALUOp | Funct Field | ALU Control | 연산
 
 ## 관련 개념
 
-- [Control Unit](/knowledge/computer-architecture/control-unit/)
-- [Datapath](/knowledge/computer-architecture/datapath/)
+- [제어 장치 (Control Unit)](/knowledge/computer-architecture/control-unit/)
+- [데이터패스 (Datapath)](/knowledge/computer-architecture/datapath/)
 - [Truth Table](/knowledge/mathematics/truth-table/)

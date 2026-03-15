@@ -1,5 +1,5 @@
 ---
-title: "GPGPU"
+title: "GPGPU (범용 GPU 컴퓨팅)"
 description: "GPGPU(General-Purpose computation on GPU)는 전통적인 그래픽 API와 그래픽 파이프라인을 사용하여 비그래픽 작업을 수행하기 위해 GPU를 활용하는 접근 방식이다"
 tags: ['Gpgpu', 'GPU Computing', 'General Purpose', 'Graphics API']
 created: 2026-02-15
@@ -51,6 +51,6 @@ GPU Computing 방식 (CUDA):
 
 ## 관련 개념
 
-- [CUDA](/knowledge/computer-architecture/cuda/)
-- [Shader](/knowledge/computer-architecture/shader/)
-- [Texture](/knowledge/computer-architecture/texture/)
+- [CUDA (Compute Unified Device Architecture)](/knowledge/computer-architecture/cuda/)
+- [셰이더 (Shader)](/knowledge/computer-architecture/shader/)
+- [텍스처 (Texture)](/knowledge/computer-architecture/texture/)

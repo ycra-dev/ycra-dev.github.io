@@ -1,5 +1,5 @@
 ---
-title: "Throughput"
+title: "처리율 (Throughput)"
 description: "처리량(Throughput) 또는 대역폭(Bandwidth)은 주어진 시간 내에 완료된 작업의 총량을 나타내는 성능 측정 지표이다"
 tags: ['Performance', 'Bandwidth', 'Server', 'Parallel Processing', 'Measurement']
 created: 2026-02-15
@@ -30,7 +30,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Response Time](/knowledge/computer-architecture/response-time/)
-- [Multicore Processor](/knowledge/computer-architecture/multicore-processor/)
-- [SPEC Benchmark](/knowledge/computer-architecture/spec-benchmark/)
-- [Pipelining](/knowledge/computer-architecture/pipelining/)
+- [응답 시간 (Response Time)](/knowledge/computer-architecture/response-time/)
+- [멀티코어 프로세서 (Multicore Processor)](/knowledge/computer-architecture/multicore-processor/)
+- [SPEC 벤치마크 (SPEC Benchmark)](/knowledge/computer-architecture/spec-benchmark/)
+- [파이프라이닝 (Pipelining)](/knowledge/computer-architecture/pipelining/)
