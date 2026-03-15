@@ -6,9 +6,11 @@ const path = Astro.url.pathname.replace(/\/$/, '');
 const segments = path.split('/').filter(Boolean);
 // index(MOC) 페이지 제외: /knowledge/, /knowledge/os/ 등
 // blog, til은 depth 2도 실제 글이므로 허용
+const slug = Astro.locals.starlightRoute?.entry?.slug ?? '';
+const is404 = slug === '404' || slug.endsWith('/404');
 const isKnowledge = segments[0] === 'knowledge';
 const isNavPage = segments.length <= 1 || (isKnowledge && segments.length <= 2);
 ---
 
 <div class="sl-markdown-content"><slot /></div>
-{!isNavPage && <Giscus />}
+{!isNavPage && !is404 && <Giscus />}
