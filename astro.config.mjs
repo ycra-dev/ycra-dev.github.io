@@ -6,7 +6,7 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
 	site: 'https://ycra-dev.github.io',
 	vite: {
-		optimizeDeps: { disabled: true },
+		optimizeDeps: { noDiscovery: true, include: [] },
 	},
 	integrations: [
 		starlight({
