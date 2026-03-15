@@ -1,0 +1,42 @@
+<section class="giscus-container">
+  <script
+    src="https://giscus.app/client.js"
+    data-repo="ycra-dev/ycra-dev.github.io"
+    data-repo-id="R_kgDOQtH7bw"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOQtH7b84C4bj_"
+    data-mapping="pathname"
+    data-strict="1"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="ko"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async
+  ></script>
+</section>
+
+<style>
+  .giscus-container {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--sl-color-gray-5);
+  }
+</style>
+
+<script>
+  // Starlight 테마 변경 시 giscus 테마도 동기화
+  const observer = new MutationObserver(() => {
+    const theme = document.documentElement.dataset.theme;
+    const iframe = document.querySelector<HTMLIFrameElement>('.giscus-frame');
+    if (iframe) {
+      iframe.contentWindow?.postMessage(
+        { giscus: { setConfig: { theme: theme === 'light' ? 'light' : 'dark' } } },
+        'https://giscus.app'
+      );
+    }
+  });
+  observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+</script>
