@@ -1,5 +1,5 @@
 ---
-title: "TSIG (Transaction Signatures)"
+title: "TSIG (트랜잭션 서명)"
 description: "TSIG(Transaction Signatures, RFC2845)는 대칭 암호화의 공유 비밀(shared secret)을 사용하여 DNS 서버 간 통신을 인증하고 데이터 무결성을 검증하는 메커니즘으로, 존 전송과 동적 업데이트 보안에 사용된다"
 tags: ['Tsig', 'DNS Security', 'Shared Secret', 'Symmetric Encryption', 'Hmac']
 created: 2026-02-12
@@ -68,8 +68,8 @@ nsupdate -k Kmaster-slave1.+163+15496.private
 
 ## 관련 개념
 
-- [bind](/knowledge/network/bind/) - TSIG를 구현하는 DNS 서버
-- [dns-zone-transfer](/knowledge/network/dns-zone-transfer/) - TSIG로 보안을 강화하는 전송
-- [dynamic-dns](/knowledge/network/dynamic-dns/) - TSIG로 인증하는 동적 업데이트
-- [dnssec](/knowledge/network/dnssec/) - TSIG보다 확장성 있는 DNS 보안 시스템
-- [symmetric-key-cryptography](/knowledge/linux/symmetric-key-cryptography/) - TSIG가 사용하는 암호화 방식
+- [BIND (버클리 인터넷 네임 도메인)](/knowledge/network/bind/) - TSIG를 구현하는 DNS 서버
+- [DNS 존 전송 (DNS Zone Transfer)](/knowledge/network/dns-zone-transfer/) - TSIG로 보안을 강화하는 전송
+- [동적 DNS (Dynamic DNS)](/knowledge/network/dynamic-dns/) - TSIG로 인증하는 동적 업데이트
+- [DNSSEC (DNS 보안 확장)](/knowledge/network/dnssec/) - TSIG보다 확장성 있는 DNS 보안 시스템
+- [대칭 키 암호화 (Symmetric Key Cryptography)](/knowledge/linux/symmetric-key-cryptography/) - TSIG가 사용하는 암호화 방식

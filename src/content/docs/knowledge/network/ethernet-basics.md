@@ -53,7 +53,7 @@ $ ip link show
 ## 관련 개념
 
 - [패킷 (Packet)](/knowledge/network/packet/) - 이더넷을 통해 전송되는 데이터 단위
-- [WiFi](/knowledge/network/wifi-basics/) - 이더넷과 유사한 무선 LAN 기술
+- [WiFi (와이파이)](/knowledge/network/wifi-basics/) - 이더넷과 유사한 무선 LAN 기술
 - [오류 검출 (Error Detection)](/knowledge/network/error-detection/) - CRC를 통한 이더넷 프레임 오류 검출
 
 ## 출처

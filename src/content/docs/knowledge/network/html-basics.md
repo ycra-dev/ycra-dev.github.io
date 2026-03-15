@@ -68,8 +68,8 @@ JavaScript (동작): "버튼을 클릭하면 카운터가 증가한다"
 ## 관련 개념
 
 - [URL](/knowledge/network/url/) - 하이퍼링크의 대상 주소
-- [HTTP](/knowledge/network/http-basics/) - HTML 문서를 전송하는 프로토콜
-- [JavaScript](/knowledge/software-engineering/javascript-basics/) - HTML에 동적 기능을 추가하는 프로그래밍 언어
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/network/http-basics/) - HTML 문서를 전송하는 프로토콜
+- [자바스크립트 (JavaScript)](/knowledge/software-engineering/javascript-basics/) - HTML에 동적 기능을 추가하는 프로그래밍 언어
 - [쿠키 (Cookie)](/knowledge/network/cookie/) - HTML 폼을 통해 전송된 데이터와 세션 관리
 
 ## 출처

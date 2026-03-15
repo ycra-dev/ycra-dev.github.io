@@ -65,9 +65,9 @@ sidebar:
 
 ## 관련 개념
 
-- [TCP/IP](/knowledge/network/tcp-ip-basics/) - 프로토콜 스택의 핵심 프로토콜
+- [TCP/IP (기초 개념)](/knowledge/network/tcp-ip-basics/) - 프로토콜 스택의 핵심 프로토콜
 - [이더넷 (Ethernet)](/knowledge/network/ethernet-basics/) - 링크 계층 프로토콜
-- [HTTP](/knowledge/network/http-basics/) - 응용 계층 프로토콜
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/network/http-basics/) - 응용 계층 프로토콜
 
 ## 출처
 

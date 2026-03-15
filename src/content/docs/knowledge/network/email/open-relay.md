@@ -1,5 +1,5 @@
 ---
-title: "Open Relay"
+title: "오픈 릴레이 (Open Relay)"
 description: "오픈 릴레이(Open Relay)는 외부 사용자가 인증 없이 메일을 제3자에게 전달하도록 허용하는 잘못 설정된 메일 서버로, 스패머가 진짜 발신 출처를 숨기는 데 악용한다"
 tags: ['Open Relay', 'Email Security', 'Spam', 'Smtp', 'Relay Control']
 created: 2026-02-12
@@ -52,8 +52,8 @@ RCPT TO:<victim@other.com>
 
 ## 관련 개념
 
-- [SMTP](/knowledge/network/smtp/)
-- [Mail Transfer Agent](/knowledge/network/mail-transfer-agent/)
-- [Postfix](/knowledge/network/postfix/)
-- [SPF](/knowledge/network/spf/)
-- [Email Architecture](/knowledge/network/email-architecture/)
+- [SMTP (간이 우편 전송 프로토콜)](/knowledge/network/smtp/)
+- [메일 전송 에이전트 (Mail Transfer Agent)](/knowledge/network/mail-transfer-agent/)
+- [Postfix (메일 전송 에이전트)](/knowledge/network/postfix/)
+- [SPF (발신자 정책 프레임워크)](/knowledge/network/spf/)
+- [이메일 아키텍처 (Email Architecture)](/knowledge/network/email-architecture/)

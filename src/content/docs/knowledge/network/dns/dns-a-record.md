@@ -1,5 +1,5 @@
 ---
-title: "DNS A and AAAA Records"
+title: "DNS A 및 AAAA 레코드 (DNS A and AAAA Records)"
 description: "A 레코드는 호스트 이름을 IPv4 주소로 매핑하는 DNS 레코드(RFC1035)이고, AAAA 레코드는 호스트 이름을 IPv6 주소로 매핑하는 레코드(RFC3596)로, 두 레코드 모두 DNS 데이터베이스의 핵심이다"
 tags: ['DNS A Record', 'Aaaa Record', 'Address Record', 'Ipv4', 'Ipv6', 'DNS']
 created: 2026-02-12
@@ -44,9 +44,9 @@ dig example.com AAAA
 
 ## 관련 개념
 
-- [dns-resource-record](/knowledge/network/dns-resource-record/) - A/AAAA를 포함하는 레코드 체계
-- [dns-ptr-record](/knowledge/network/dns-ptr-record/) - A 레코드의 역방향 매핑 대응물
-- [dns-cname-record](/knowledge/network/dns-cname-record/) - A 레코드의 별칭 레코드
-- [ipv4](/knowledge/linux/ipv4/) - A 레코드가 매핑하는 주소 체계
-- [ipv6](/knowledge/linux/ipv6/) - AAAA 레코드가 매핑하는 주소 체계
-- [dns-caching](/knowledge/network/dns-caching/) - A/AAAA 레코드의 TTL 기반 캐싱
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - A/AAAA를 포함하는 레코드 체계
+- [DNS PTR 레코드 (DNS PTR Record)](/knowledge/network/dns-ptr-record/) - A 레코드의 역방향 매핑 대응물
+- [DNS CNAME 레코드 (DNS CNAME Record)](/knowledge/network/dns-cname-record/) - A 레코드의 별칭 레코드
+- [IPv4 (인터넷 프로토콜 버전 4)](/knowledge/linux/ipv4/) - A 레코드가 매핑하는 주소 체계
+- [IPv6 (인터넷 프로토콜 버전 6)](/knowledge/linux/ipv6/) - AAAA 레코드가 매핑하는 주소 체계
+- [DNS 캐싱 (DNS Caching)](/knowledge/network/dns-caching/) - A/AAAA 레코드의 TTL 기반 캐싱

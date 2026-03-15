@@ -61,7 +61,7 @@ sidebar:
 
 ## 관련 개념
 
-- [TCP/IP](/knowledge/network/tcp-ip/) - 패킷의 신뢰성 있는 전송을 보장하는 프로토콜
+- [TCP/IP (프로토콜 스택)](/knowledge/network/tcp-ip/) - 패킷의 신뢰성 있는 전송을 보장하는 프로토콜
 - [이더넷 (Ethernet)](/knowledge/network/ethernet-basics/) - 로컬 네트워크에서 패킷을 전송하는 기술
 - [대역폭 (Bandwidth)](/knowledge/network/bandwidth/) - 단위 시간당 전송 가능한 패킷의 수
 - [라우팅 (Routing)](/knowledge/network/routing/) - 패킷의 경로를 결정하는 과정

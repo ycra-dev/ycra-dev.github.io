@@ -1,5 +1,5 @@
 ---
-title: "DNS (Domain Name System)"
+title: "DNS (도메인 네임 시스템)"
 description: "DNS(Domain Name System)는 호스트 이름(예: google"
 tags: ['DNS', 'Domain Name', 'Name Resolution', 'Distributed Database', 'Internet']
 created: 2026-02-12
@@ -61,11 +61,11 @@ cat /etc/resolv.conf
 
 ## 관련 개념
 
-- [dns-zone](/knowledge/network/dns-zone/) - DNS 데이터의 관리 단위
-- [dns-resource-record](/knowledge/network/dns-resource-record/) - DNS 데이터베이스의 레코드 유형
-- [dns-resolver](/knowledge/network/dns-resolver/) - DNS 클라이언트 설정
-- [bind](/knowledge/network/bind/) - 가장 널리 사용되는 DNS 서버 소프트웨어
-- [dns-delegation](/knowledge/network/dns-delegation/) - DNS 계층 구조의 위임 메커니즘
-- [dns-caching](/knowledge/network/dns-caching/) - DNS 효율성을 높이는 캐싱 메커니즘
-- [dnssec](/knowledge/network/dnssec/) - DNS의 암호화 보안 확장
-- [fqdn](/knowledge/network/fqdn/) - 정규화된 도메인 이름
+- [DNS 존 (DNS Zone)](/knowledge/network/dns-zone/) - DNS 데이터의 관리 단위
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - DNS 데이터베이스의 레코드 유형
+- [DNS 리졸버 (DNS Resolver)](/knowledge/network/dns-resolver/) - DNS 클라이언트 설정
+- [BIND (버클리 인터넷 네임 도메인)](/knowledge/network/bind/) - 가장 널리 사용되는 DNS 서버 소프트웨어
+- [DNS 위임 (DNS Delegation)](/knowledge/network/dns-delegation/) - DNS 계층 구조의 위임 메커니즘
+- [DNS 캐싱 (DNS Caching)](/knowledge/network/dns-caching/) - DNS 효율성을 높이는 캐싱 메커니즘
+- [DNSSEC (DNS 보안 확장)](/knowledge/network/dnssec/) - DNS의 암호화 보안 확장
+- [FQDN (정규화된 도메인 이름)](/knowledge/network/fqdn/) - 정규화된 도메인 이름

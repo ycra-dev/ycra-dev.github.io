@@ -1,5 +1,5 @@
 ---
-title: "SPF"
+title: "SPF (발신자 정책 프레임워크)"
 description: "SPF(Sender Policy Framework)는 조직이 DNS 레코드를 통해 공식 발신 메일 서버를 식별하는 이메일 인증 메커니즘으로, MTA가 해당 도메인에서 발송되었다고 주장하는 이메일이 공식 소스에서 왔는지 검증할 수 있게 한다(RFC7208)"
 tags: ['Spf', 'Email Security', 'DNS', 'Anti Spam', 'Sender Verification']
 created: 2026-02-12
@@ -44,8 +44,8 @@ dig example.com TXT
 
 ## 관련 개념
 
-- [SMTP](/knowledge/network/smtp/)
-- [DKIM](/knowledge/network/dkim/)
-- [Email Architecture](/knowledge/network/email-architecture/)
-- [Mail Transfer Agent](/knowledge/network/mail-transfer-agent/)
-- [DNS MX Record](/knowledge/network/dns-mx-record/)
+- [SMTP (간이 우편 전송 프로토콜)](/knowledge/network/smtp/)
+- [DKIM (도메인키 인증 메일)](/knowledge/network/dkim/)
+- [이메일 아키텍처 (Email Architecture)](/knowledge/network/email-architecture/)
+- [메일 전송 에이전트 (Mail Transfer Agent)](/knowledge/network/mail-transfer-agent/)
+- [DNS MX 레코드 (DNS MX Record)](/knowledge/network/dns-mx-record/)

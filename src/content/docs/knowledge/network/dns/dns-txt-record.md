@@ -1,5 +1,5 @@
 ---
-title: "DNS TXT Record"
+title: "DNS TXT 레코드 (DNS TXT Record)"
 description: "TXT 레코드는 호스트의 DNS 레코드에 임의의 텍스트를 추가하는 레코드 유형(RFC1035)으로, 특정 형식이 없기 때문에 SPF, DKIM, DMARC 등 다양한 용도로 DNS 시스템 변경 없이 정보를 배포하는 데 활용된다"
 tags: ['DNS Txt Record', 'Spf', 'Dkim', 'Dmarc', 'DNS', 'Verification']
 created: 2026-02-12
@@ -52,7 +52,7 @@ dig _dmarc.example.com TXT
 
 ## 관련 개념
 
-- [dns-resource-record](/knowledge/network/dns-resource-record/) - TXT를 포함하는 레코드 체계
-- [spf](/knowledge/network/spf/) - TXT를 통해 배포되는 메일 인증
-- [dkim](/knowledge/network/dkim/) - TXT를 통해 배포되는 메일 서명
-- [dns](/knowledge/network/dns/) - TXT가 동작하는 도메인 이름 시스템
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - TXT를 포함하는 레코드 체계
+- [SPF (발신자 정책 프레임워크)](/knowledge/network/spf/) - TXT를 통해 배포되는 메일 인증
+- [DKIM (도메인키 인증 메일)](/knowledge/network/dkim/) - TXT를 통해 배포되는 메일 서명
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns/) - TXT가 동작하는 도메인 이름 시스템

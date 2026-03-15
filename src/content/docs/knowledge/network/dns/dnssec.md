@@ -1,5 +1,5 @@
 ---
-title: "DNSSEC"
+title: "DNSSEC (DNS 보안 확장)"
 description: "DNSSEC(DNS Security Extensions)는 공개키 암호화를 사용하여 DNS 존 데이터의 출처를 인증하고 무결성을 검증하는 DNS 확장으로, 연쇄적 신뢰 체인(chain of trust)을 통해 루트 서버에서 최종 도메인까지의 데이터 진위를 보장한다"
 tags: ['Dnssec', 'DNS Security', 'Digital Signature', 'Chain Of Trust', 'Public Key', 'Zsk', 'Ksk']
 created: 2026-02-12
@@ -69,10 +69,10 @@ delv example.com        # BIND 9.10+ DNSSEC 디버깅
 
 ## 관련 개념
 
-- [dns](/knowledge/network/dns/) - DNSSEC가 보안을 강화하는 시스템
-- [bind](/knowledge/network/bind/) - DNSSEC를 구현하는 서버 소프트웨어
-- [public-key-cryptography](/knowledge/linux/public-key-cryptography/) - DNSSEC가 사용하는 암호화 방식
-- [tsig](/knowledge/network/tsig/) - DNSSEC보다 단순한 서버 간 보안
-- [dns-resource-record](/knowledge/network/dns-resource-record/) - DNSSEC가 추가하는 레코드 유형
-- [dns-zone](/knowledge/network/dns-zone/) - DNSSEC가 보호하는 데이터 단위
-- [cryptographic-hash](/knowledge/linux/cryptographic-hash/) - DNSSEC에서 사용하는 해시 함수
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns/) - DNSSEC가 보안을 강화하는 시스템
+- [BIND (버클리 인터넷 네임 도메인)](/knowledge/network/bind/) - DNSSEC를 구현하는 서버 소프트웨어
+- [공개 키 암호화 (Public Key Cryptography)](/knowledge/linux/public-key-cryptography/) - DNSSEC가 사용하는 암호화 방식
+- [TSIG (트랜잭션 서명)](/knowledge/network/tsig/) - DNSSEC보다 단순한 서버 간 보안
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - DNSSEC가 추가하는 레코드 유형
+- [DNS 존 (DNS Zone)](/knowledge/network/dns-zone/) - DNSSEC가 보호하는 데이터 단위
+- [암호화 해시 함수 (Cryptographic Hash Function)](/knowledge/linux/cryptographic-hash/) - DNSSEC에서 사용하는 해시 함수

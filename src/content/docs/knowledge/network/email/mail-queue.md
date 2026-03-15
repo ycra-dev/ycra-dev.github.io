@@ -1,5 +1,5 @@
 ---
-title: "Mail Queue"
+title: "메일 큐 (Mail Queue)"
 description: "메일 큐(Mail Queue)는 MTA가 메시지를 전달하기 전에 임시로 저장하는 영역으로, 배달 실패 시 재시도를 위한 메시지 보관과 큐 관리를 담당한다"
 tags: ['Mail Queue', 'Email', 'Mta', 'Sendmail', 'Postfix', 'Delivery']
 created: 2026-02-12
@@ -50,7 +50,7 @@ sendmail -bd -q30m  # 30분마다 큐 처리
 
 ## 관련 개념
 
-- [Mail Transfer Agent](/knowledge/network/mail-transfer-agent/)
-- [Postfix](/knowledge/network/postfix/)
-- [SMTP](/knowledge/network/smtp/)
-- [Email Architecture](/knowledge/network/email-architecture/)
+- [메일 전송 에이전트 (Mail Transfer Agent)](/knowledge/network/mail-transfer-agent/)
+- [Postfix (메일 전송 에이전트)](/knowledge/network/postfix/)
+- [SMTP (간이 우편 전송 프로토콜)](/knowledge/network/smtp/)
+- [이메일 아키텍처 (Email Architecture)](/knowledge/network/email-architecture/)

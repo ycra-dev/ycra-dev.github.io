@@ -1,5 +1,5 @@
 ---
-title: "BIND (Berkeley Internet Name Domain)"
+title: "BIND (버클리 인터넷 네임 도메인)"
 description: "BIND(Berkeley Internet Name Domain)는 ISC(Internet Systems Consortium)에서 개발한 오픈소스 DNS 서버 소프트웨어로, 인터넷 DNS 서버의 75% 이상이 사용하며 named 데몬, 리졸버 라이브러리, dig/n..."
 tags: ['Bind', 'Named', 'DNS Server', 'Isc', 'Named Conf', 'Rndc']
 created: 2026-02-12
@@ -74,11 +74,11 @@ dig @f.root-servers.net . ns > /var/named/root.cache
 
 ## 관련 개념
 
-- [dns](/knowledge/network/dns/) - BIND가 구현하는 시스템
-- [dns-zone](/knowledge/network/dns-zone/) - BIND가 서비스하는 데이터 단위
-- [dns-resource-record](/knowledge/network/dns-resource-record/) - BIND의 존 파일에 포함되는 레코드
-- [dnssec](/knowledge/network/dnssec/) - BIND가 지원하는 DNS 보안 확장
-- [tsig](/knowledge/network/tsig/) - BIND 서버 간 보안 통신
-- [split-dns](/knowledge/network/split-dns/) - BIND의 view 기능으로 구현
-- [dns-zone-transfer](/knowledge/network/dns-zone-transfer/) - BIND 마스터-슬레이브 동기화
-- [dynamic-dns](/knowledge/network/dynamic-dns/) - BIND의 동적 업데이트 기능
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns/) - BIND가 구현하는 시스템
+- [DNS 존 (DNS Zone)](/knowledge/network/dns-zone/) - BIND가 서비스하는 데이터 단위
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - BIND의 존 파일에 포함되는 레코드
+- [DNSSEC (DNS 보안 확장)](/knowledge/network/dnssec/) - BIND가 지원하는 DNS 보안 확장
+- [TSIG (트랜잭션 서명)](/knowledge/network/tsig/) - BIND 서버 간 보안 통신
+- [분할 DNS (Split DNS)](/knowledge/network/split-dns/) - BIND의 view 기능으로 구현
+- [DNS 존 전송 (DNS Zone Transfer)](/knowledge/network/dns-zone-transfer/) - BIND 마스터-슬레이브 동기화
+- [동적 DNS (Dynamic DNS)](/knowledge/network/dynamic-dns/) - BIND의 동적 업데이트 기능

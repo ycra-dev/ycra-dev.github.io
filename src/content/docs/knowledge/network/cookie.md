@@ -59,7 +59,7 @@ Cookie: session_id=abc123
 
 ## 관련 개념
 
-- [HTTP](/knowledge/network/http-basics/) - 쿠키는 HTTP의 무상태성을 보완하는 메커니즘
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/network/http-basics/) - 쿠키는 HTTP의 무상태성을 보완하는 메커니즘
 
 ## 출처
 

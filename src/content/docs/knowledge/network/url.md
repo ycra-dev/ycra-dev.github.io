@@ -49,9 +49,9 @@ https://www.example.com/products/laptop?color=silver&page=2#reviews
 
 ## 관련 개념
 
-- [HTTP](/knowledge/network/http-basics/) - URL의 프로토콜 부분에서 가장 흔히 사용되는 프로토콜
-- [HTML](/knowledge/network/html-basics/) - 하이퍼링크에 URL을 사용하여 문서 연결
-- [DNS](/knowledge/network/dns-basics/) - 도메인 이름을 IP 주소로 변환
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/network/http-basics/) - URL의 프로토콜 부분에서 가장 흔히 사용되는 프로토콜
+- [HTML (하이퍼텍스트 마크업 언어)](/knowledge/network/html-basics/) - 하이퍼링크에 URL을 사용하여 문서 연결
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns-basics/) - 도메인 이름을 IP 주소로 변환
 - [IP 주소 (IP Address)](/knowledge/network/ip-address/) - URL의 도메인이 최종적으로 가리키는 주소
 
 ## 출처

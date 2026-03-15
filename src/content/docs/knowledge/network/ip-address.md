@@ -67,8 +67,8 @@ IPv4 주소의 구조:
 
 ## 관련 개념
 
-- [TCP/IP](/knowledge/network/tcp-ip/) - IP 주소를 사용하는 핵심 인터넷 프로토콜
-- [DNS](/knowledge/network/dns-basics/) - 도메인 이름을 IP 주소로 변환하는 시스템
+- [TCP/IP (프로토콜 스택)](/knowledge/network/tcp-ip/) - IP 주소를 사용하는 핵심 인터넷 프로토콜
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns-basics/) - 도메인 이름을 IP 주소로 변환하는 시스템
 - [라우팅 (Routing)](/knowledge/network/routing/) - IP 주소를 기반으로 경로를 결정
 
 ## 출처

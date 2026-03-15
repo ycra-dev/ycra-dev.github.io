@@ -1,5 +1,5 @@
 ---
-title: "DNS CNAME Record"
+title: "DNS CNAME 레코드 (DNS CNAME Record)"
 description: "CNAME(Canonical Name) 레코드는 호스트에 추가적인 이름(별칭)을 부여하는 DNS 레코드(RFC1035)로, 기능을 호스트와 연결하거나 긴 호스트 이름을 줄이는 데 사용되며, 최대 8단계까지 중첩이 가능하다"
 tags: ['DNS Cname Record', 'Alias', 'Canonical Name', 'DNS', 'Indirection']
 created: 2026-02-12
@@ -49,7 +49,7 @@ dig www.example.com CNAME
 
 ## 관련 개념
 
-- [dns-resource-record](/knowledge/network/dns-resource-record/) - CNAME을 포함하는 레코드 체계
-- [dns-a-record](/knowledge/network/dns-a-record/) - CNAME이 궁극적으로 가리키는 레코드
-- [dns-zone](/knowledge/network/dns-zone/) - CNAME이 속하는 존
-- [dns-ptr-record](/knowledge/network/dns-ptr-record/) - CNAME이 아닌 실제 이름을 참조해야 하는 레코드
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - CNAME을 포함하는 레코드 체계
+- [DNS A 및 AAAA 레코드 (DNS A and AAAA Records)](/knowledge/network/dns-a-record/) - CNAME이 궁극적으로 가리키는 레코드
+- [DNS 존 (DNS Zone)](/knowledge/network/dns-zone/) - CNAME이 속하는 존
+- [DNS PTR 레코드 (DNS PTR Record)](/knowledge/network/dns-ptr-record/) - CNAME이 아닌 실제 이름을 참조해야 하는 레코드

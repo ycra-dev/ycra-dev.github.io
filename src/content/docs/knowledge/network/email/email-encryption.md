@@ -1,5 +1,5 @@
 ---
-title: "Email Encryption"
+title: "이메일 암호화 (Email Encryption)"
 description: "이메일 암호화는 메시지의 기밀성, 인증, 무결성 보장, 발신 부인 방지를 제공하는 기술로, TLS를 통한 전송 암호화와 PGP/S/MIME을 통한 종단 간 암호화를 포함한다"
 tags: ['Email Encryption', 'Pgp', 'Smime', 'Tls', 'Starttls', 'Privacy']
 created: 2026-02-12
@@ -50,7 +50,7 @@ openssl smime -sign -in message.txt \
 
 ## 관련 개념
 
-- [TLS](/knowledge/linux/tls/)
-- [SMTP](/knowledge/network/smtp/)
-- [Mail Transfer Agent](/knowledge/network/mail-transfer-agent/)
-- [Email Architecture](/knowledge/network/email-architecture/)
+- [TLS (전송 계층 보안)](/knowledge/linux/tls/)
+- [SMTP (간이 우편 전송 프로토콜)](/knowledge/network/smtp/)
+- [메일 전송 에이전트 (Mail Transfer Agent)](/knowledge/network/mail-transfer-agent/)
+- [이메일 아키텍처 (Email Architecture)](/knowledge/network/email-architecture/)

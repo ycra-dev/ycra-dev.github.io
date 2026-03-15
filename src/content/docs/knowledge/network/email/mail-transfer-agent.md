@@ -1,5 +1,5 @@
 ---
-title: "Mail Transfer Agent"
+title: "메일 전송 에이전트 (Mail Transfer Agent)"
 description: "MTA(Mail Transfer Agent)는 이메일 메시지를 수신하고, 수신자 주소를 이해하며, 적절한 목적지로 메시지를 라우팅하는 소프트웨어로, 이메일 시스템의 핵심 구성 요소이다"
 tags: ['Mta', 'Sendmail', 'Postfix', 'Exim', 'Email', 'Smtp']
 created: 2026-02-12
@@ -50,8 +50,8 @@ sudo sendmail -bd -q30m
 
 ## 관련 개념
 
-- [SMTP](/knowledge/network/smtp/)
-- [Email Architecture](/knowledge/network/email-architecture/)
-- [Postfix](/knowledge/network/postfix/)
-- [Mail Aliases](/knowledge/network/mail-aliases/)
-- [DNS MX Record](/knowledge/network/dns-mx-record/)
+- [SMTP (간이 우편 전송 프로토콜)](/knowledge/network/smtp/)
+- [이메일 아키텍처 (Email Architecture)](/knowledge/network/email-architecture/)
+- [Postfix (메일 전송 에이전트)](/knowledge/network/postfix/)
+- [메일 별칭 (Mail Aliases)](/knowledge/network/mail-aliases/)
+- [DNS MX 레코드 (DNS MX Record)](/knowledge/network/dns-mx-record/)

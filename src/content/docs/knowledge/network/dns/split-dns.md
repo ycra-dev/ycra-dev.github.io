@@ -1,5 +1,5 @@
 ---
-title: "Split DNS"
+title: "분할 DNS (Split DNS)"
 description: "분할 DNS(Split DNS)는 BIND의 view 구문을 사용하여 동일한 도메인에 대해 내부 사용자와 외부 사용자에게 서로 다른 DNS 데이터를 제공하는 구성으로, 보안 강화와 RFC1918 사설 주소 공간 관리에 유용하다"
 tags: ['Split DNS', 'DNS View', 'Internal External', 'Bind', 'Rfc1918']
 created: 2026-02-12
@@ -68,8 +68,8 @@ sidebar:
 
 ## 관련 개념
 
-- [bind](/knowledge/network/bind/) - 분할 DNS를 구현하는 서버 소프트웨어
-- [dns-zone](/knowledge/network/dns-zone/) - 뷰별로 다른 데이터를 가지는 존
-- [dns](/knowledge/network/dns/) - 분할 DNS가 동작하는 시스템
-- [nat](/knowledge/linux/nat/) - 사설 주소와 공인 주소 변환
-- [firewall](/knowledge/linux/firewall/) - 분할 DNS와 함께 사용하는 보안 도구
+- [BIND (버클리 인터넷 네임 도메인)](/knowledge/network/bind/) - 분할 DNS를 구현하는 서버 소프트웨어
+- [DNS 존 (DNS Zone)](/knowledge/network/dns-zone/) - 뷰별로 다른 데이터를 가지는 존
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns/) - 분할 DNS가 동작하는 시스템
+- [NAT (네트워크 주소 변환)](/knowledge/linux/nat/) - 사설 주소와 공인 주소 변환
+- [방화벽 (Firewall)](/knowledge/linux/firewall/) - 분할 DNS와 함께 사용하는 보안 도구

@@ -55,7 +55,7 @@ A, B, C = 서로 다른 주파수 그룹
 
 ## 관련 개념
 
-- [WiFi](/knowledge/network/wifi-basics/) - 셀룰러와 대비되는 무선 LAN 기술
+- [WiFi (와이파이)](/knowledge/network/wifi-basics/) - 셀룰러와 대비되는 무선 LAN 기술
 - [대역폭 (Bandwidth)](/knowledge/network/bandwidth/) - 셀룰러 네트워크 성능의 핵심 지표
 
 ## 출처

@@ -59,9 +59,9 @@ username=user1&password=secret123
 ## 관련 개념
 
 - [URL](/knowledge/network/url/) - HTTP 요청의 대상 주소
-- [HTML](/knowledge/network/html-basics/) - HTTP로 전송되는 주요 콘텐츠
+- [HTML (하이퍼텍스트 마크업 언어)](/knowledge/network/html-basics/) - HTTP로 전송되는 주요 콘텐츠
 - [쿠키 (Cookie)](/knowledge/network/cookie/) - HTTP의 무상태성을 보완하는 메커니즘
-- [TCP/IP](/knowledge/network/tcp-ip-basics/) - HTTP가 동작하는 하위 프로토콜
+- [TCP/IP (기초 개념)](/knowledge/network/tcp-ip-basics/) - HTTP가 동작하는 하위 프로토콜
 - [프로토콜 스택 (Protocol Stack)](/knowledge/network/protocol-stack/) - HTTP는 응용 계층 프로토콜
 
 ## 출처

@@ -1,5 +1,5 @@
 ---
-title: "DNS Zone Transfer"
+title: "DNS 존 전송 (DNS Zone Transfer)"
 description: "DNS 존 전송(Zone Transfer)은 DNS 서버 간에 존 데이터를 동기화하는 메커니즘으로, 전체 존을 전송하는 AXFR과 변경 사항만 전송하는 IXFR 두 가지 방식이 있으며, 기본적으로 TCP 프로토콜의 53번 포트를 사용한다"
 tags: ['Zone Transfer', 'Axfr', 'Ixfr', 'Master Slave', 'DNS Replication']
 created: 2026-02-12
@@ -57,8 +57,8 @@ sudo rndc reload atrust.com
 
 ## 관련 개념
 
-- [dns-zone](/knowledge/network/dns-zone/) - 전송되는 데이터 단위
-- [bind](/knowledge/network/bind/) - 존 전송을 구현하는 DNS 서버
-- [soa-record](/knowledge/network/soa-record/) - 시리얼 번호 기반 전송 판단
-- [tsig](/knowledge/network/tsig/) - 존 전송 보안 인증
-- [dynamic-dns](/knowledge/network/dynamic-dns/) - IXFR과 트랜잭션 로그를 사용하는 동적 업데이트
+- [DNS 존 (DNS Zone)](/knowledge/network/dns-zone/) - 전송되는 데이터 단위
+- [BIND (버클리 인터넷 네임 도메인)](/knowledge/network/bind/) - 존 전송을 구현하는 DNS 서버
+- [SOA 레코드 (SOA Record)](/knowledge/network/soa-record/) - 시리얼 번호 기반 전송 판단
+- [TSIG (트랜잭션 서명)](/knowledge/network/tsig/) - 존 전송 보안 인증
+- [동적 DNS (Dynamic DNS)](/knowledge/network/dynamic-dns/) - IXFR과 트랜잭션 로그를 사용하는 동적 업데이트

@@ -1,5 +1,5 @@
 ---
-title: "DNS Resource Record"
+title: "DNS 리소스 레코드 (DNS Resource Record)"
 description: "DNS 리소스 레코드(Resource Record, RR)는 DNS 데이터베이스의 기본 단위로, 이름(보통 호스트명), 레코드 유형, 데이터 값으로 구성된 텍스트 레코드이며, DNS 시스템 전체에서 흐르고 캐시되는 정보의 공통 언어이다"
 tags: ['DNS Resource Record', 'Rr', 'Zone File', 'DNS', 'Record Type']
 created: 2026-02-12
@@ -57,12 +57,12 @@ sidebar:
 
 ## 관련 개념
 
-- [dns-zone](/knowledge/network/dns-zone/) - 리소스 레코드가 저장되는 존
-- [soa-record](/knowledge/network/soa-record/) - 존의 시작 레코드
-- [dns-a-record](/knowledge/network/dns-a-record/) - 이름-주소 매핑 레코드
-- [dns-ptr-record](/knowledge/network/dns-ptr-record/) - 역방향 매핑 레코드
-- [dns-cname-record](/knowledge/network/dns-cname-record/) - 별칭 레코드
-- [dns-mx-record](/knowledge/network/dns-mx-record/) - 메일 교환 레코드
-- [dns-srv-record](/knowledge/network/dns-srv-record/) - 서비스 위치 레코드
-- [dns-txt-record](/knowledge/network/dns-txt-record/) - 텍스트 정보 레코드
-- [dnssec](/knowledge/network/dnssec/) - 보안 레코드 (RRSIG, DNSKEY 등)
+- [DNS 존 (DNS Zone)](/knowledge/network/dns-zone/) - 리소스 레코드가 저장되는 존
+- [SOA 레코드 (SOA Record)](/knowledge/network/soa-record/) - 존의 시작 레코드
+- [DNS A 및 AAAA 레코드 (DNS A and AAAA Records)](/knowledge/network/dns-a-record/) - 이름-주소 매핑 레코드
+- [DNS PTR 레코드 (DNS PTR Record)](/knowledge/network/dns-ptr-record/) - 역방향 매핑 레코드
+- [DNS CNAME 레코드 (DNS CNAME Record)](/knowledge/network/dns-cname-record/) - 별칭 레코드
+- [DNS MX 레코드 (DNS MX Record)](/knowledge/network/dns-mx-record/) - 메일 교환 레코드
+- [DNS SRV 레코드 (DNS SRV Record)](/knowledge/network/dns-srv-record/) - 서비스 위치 레코드
+- [DNS TXT 레코드 (DNS TXT Record)](/knowledge/network/dns-txt-record/) - 텍스트 정보 레코드
+- [DNSSEC (DNS 보안 확장)](/knowledge/network/dnssec/) - 보안 레코드 (RRSIG, DNSKEY 등)

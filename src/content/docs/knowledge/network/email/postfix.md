@@ -1,5 +1,5 @@
 ---
-title: "Postfix"
+title: "Postfix (메일 전송 에이전트)"
 description: "Postfix는 Wietse Venema가 개발한 오픈소스 MTA로, 보안, 성능, 견고성을 핵심 설계 목표로 하며, 여러 작은 협력 프로그램으로 구성된 모듈러 아키텍처를 채택한다"
 tags: ['Postfix', 'Mta', 'Email', 'Smtp', 'Mail Server']
 created: 2026-02-12
@@ -56,8 +56,8 @@ smtp_tls_security_level = may
 
 ## 관련 개념
 
-- [SMTP](/knowledge/network/smtp/)
-- [Mail Transfer Agent](/knowledge/network/mail-transfer-agent/)
-- [Email Architecture](/knowledge/network/email-architecture/)
-- [Mail Aliases](/knowledge/network/mail-aliases/)
-- [TLS](/knowledge/linux/tls/)
+- [SMTP (간이 우편 전송 프로토콜)](/knowledge/network/smtp/)
+- [메일 전송 에이전트 (Mail Transfer Agent)](/knowledge/network/mail-transfer-agent/)
+- [이메일 아키텍처 (Email Architecture)](/knowledge/network/email-architecture/)
+- [메일 별칭 (Mail Aliases)](/knowledge/network/mail-aliases/)
+- [TLS (전송 계층 보안)](/knowledge/linux/tls/)

@@ -1,5 +1,5 @@
 ---
-title: "DNS Delegation"
+title: "DNS 위임 (DNS Delegation)"
 description: "DNS 위임(Delegation)은 상위 도메인이 하위 도메인의 권한을 해당 도메인의 네임 서버에 이전하는 메커니즘으로, NS 레코드를 통해 구현되며 DNS의 분산 계층 구조를 가능하게 하는 핵심 개념이다"
 tags: ['DNS Delegation', 'Ns Record', 'Referral', 'Hierarchy', 'Lame Delegation']
 created: 2026-02-12
@@ -50,8 +50,8 @@ dig @ns1.example.com example.com SOA      # 권한 서버에서
 
 ## 관련 개념
 
-- [dns](/knowledge/network/dns/) - 위임이 동작하는 도메인 이름 시스템
-- [dns-zone](/knowledge/network/dns-zone/) - 위임의 단위
-- [dns-resource-record](/knowledge/network/dns-resource-record/) - 위임에 사용되는 NS 레코드
-- [dns-caching](/knowledge/network/dns-caching/) - 위임 과정에서의 캐싱
-- [bind](/knowledge/network/bind/) - 위임을 처리하는 DNS 서버
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns/) - 위임이 동작하는 도메인 이름 시스템
+- [DNS 존 (DNS Zone)](/knowledge/network/dns-zone/) - 위임의 단위
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - 위임에 사용되는 NS 레코드
+- [DNS 캐싱 (DNS Caching)](/knowledge/network/dns-caching/) - 위임 과정에서의 캐싱
+- [BIND (버클리 인터넷 네임 도메인)](/knowledge/network/bind/) - 위임을 처리하는 DNS 서버

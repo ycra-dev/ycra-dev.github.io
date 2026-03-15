@@ -1,5 +1,5 @@
 ---
-title: "UDP vs TCP"
+title: "UDP vs TCP (전송 프로토콜 비교)"
 description: "UDP는 비연결형/비신뢰성 전송 프로토콜이고, TCP는 연결형/신뢰성 전송 프로토콜"
 tags: ["Network", "Protocol", "Transport", "TCP", "UDP"]
 created: 2026-01-23

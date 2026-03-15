@@ -1,5 +1,5 @@
 ---
-title: "DKIM"
+title: "DKIM (도메인키 인증 메일)"
 description: "DKIM(DomainKeys Identified Mail)은 이메일 메시지에 대한 암호화 서명 시스템으로, 수신자가 발신자의 신원뿐만 아니라 메시지가 전송 중 변조되지 않았음을 검증할 수 있게 한다"
 tags: ['Dkim', 'Email Security', 'Cryptographic Signature', 'DNS', 'Anti Spam']
 created: 2026-02-12
@@ -45,8 +45,8 @@ non_smtpd_milters = inet:localhost:8891
 
 ## 관련 개념
 
-- [SPF](/knowledge/network/spf/)
-- [SMTP](/knowledge/network/smtp/)
-- [Email Architecture](/knowledge/network/email-architecture/)
-- [Mail Transfer Agent](/knowledge/network/mail-transfer-agent/)
-- [TLS](/knowledge/linux/tls/)
+- [SPF (발신자 정책 프레임워크)](/knowledge/network/spf/)
+- [SMTP (간이 우편 전송 프로토콜)](/knowledge/network/smtp/)
+- [이메일 아키텍처 (Email Architecture)](/knowledge/network/email-architecture/)
+- [메일 전송 에이전트 (Mail Transfer Agent)](/knowledge/network/mail-transfer-agent/)
+- [TLS (전송 계층 보안)](/knowledge/linux/tls/)

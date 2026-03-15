@@ -74,7 +74,7 @@ B-C 링크 장애 발생!
 
 - [IP 주소 (IP Address)](/knowledge/network/ip-address/) - 라우팅은 IP 주소를 기반으로 동작
 - [패킷 (Packet)](/knowledge/network/packet/) - 라우팅의 대상은 개별 패킷
-- [TCP/IP](/knowledge/network/tcp-ip-basics/) - IP 프로토콜이 라우팅을 담당
+- [TCP/IP (기초 개념)](/knowledge/network/tcp-ip-basics/) - IP 프로토콜이 라우팅을 담당
 - [프로토콜 스택 (Protocol Stack)](/knowledge/network/protocol-stack/) - 라우팅은 인터넷 계층(IP)에서 수행
 - [지연 시간 (Latency)](/knowledge/network/latency/) - 라우팅 경로의 길이와 홉 수가 지연 시간에 영향
 

@@ -1,5 +1,5 @@
 ---
-title: "FQDN (Fully Qualified Domain Name)"
+title: "FQDN (정규화된 도메인 이름)"
 description: "FQDN(Fully Qualified Domain Name)은 DNS 네임스페이스에서 호스트의 위치를 루트까지 완전하게 명시하는 도메인 이름으로, 반드시 마침표(dot)로 끝나며 (예: nubark"
 tags: ['Fqdn', 'DNS', 'Domain Name', 'Hostname', 'Namespace']
 created: 2026-02-12
@@ -54,7 +54,7 @@ dig +short nubark.atrust.com.
 
 ## 관련 개념
 
-- [dns](/knowledge/network/dns/) - FQDN이 속하는 도메인 이름 시스템
-- [dns-zone](/knowledge/network/dns-zone/) - FQDN의 관리 단위
-- [dns-resource-record](/knowledge/network/dns-resource-record/) - FQDN을 사용하는 레코드
-- [dns-resolver](/knowledge/network/dns-resolver/) - FQDN을 해석하는 클라이언트
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns/) - FQDN이 속하는 도메인 이름 시스템
+- [DNS 존 (DNS Zone)](/knowledge/network/dns-zone/) - FQDN의 관리 단위
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - FQDN을 사용하는 레코드
+- [DNS 리졸버 (DNS Resolver)](/knowledge/network/dns-resolver/) - FQDN을 해석하는 클라이언트

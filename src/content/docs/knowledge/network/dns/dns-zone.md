@@ -1,5 +1,5 @@
 ---
-title: "DNS Zone"
+title: "DNS 존 (DNS Zone)"
 description: "DNS 존(Zone)은 DNS 계층 구조에서 하나의 관리 단위로, 도메인에서 하위 도메인을 뺀 영역이며, 마스터 네임 서버에서 시스템 관리자가 유지하는 존 파일(텍스트 파일)에 리소스 레코드를 저장한다"
 tags: ['DNS Zone', 'Master Server', 'Slave Server', 'Zone File', 'DNS']
 created: 2026-02-12
@@ -65,9 +65,9 @@ sidebar:
 
 ## 관련 개념
 
-- [dns](/knowledge/network/dns/) - 존이 속하는 도메인 이름 시스템
-- [dns-resource-record](/knowledge/network/dns-resource-record/) - 존 파일을 구성하는 레코드
-- [soa-record](/knowledge/network/soa-record/) - 존의 시작을 나타내는 레코드
-- [dns-zone-transfer](/knowledge/network/dns-zone-transfer/) - 마스터-슬레이브 간 존 동기화
-- [bind](/knowledge/network/bind/) - 존을 서비스하는 DNS 서버 소프트웨어
-- [dns-delegation](/knowledge/network/dns-delegation/) - 존의 하위 도메인 위임
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns/) - 존이 속하는 도메인 이름 시스템
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - 존 파일을 구성하는 레코드
+- [SOA 레코드 (SOA Record)](/knowledge/network/soa-record/) - 존의 시작을 나타내는 레코드
+- [DNS 존 전송 (DNS Zone Transfer)](/knowledge/network/dns-zone-transfer/) - 마스터-슬레이브 간 존 동기화
+- [BIND (버클리 인터넷 네임 도메인)](/knowledge/network/bind/) - 존을 서비스하는 DNS 서버 소프트웨어
+- [DNS 위임 (DNS Delegation)](/knowledge/network/dns-delegation/) - 존의 하위 도메인 위임

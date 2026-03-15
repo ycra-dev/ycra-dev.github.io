@@ -1,5 +1,5 @@
 ---
-title: "DNS PTR Record"
+title: "DNS PTR 레코드 (DNS PTR Record)"
 description: "PTR(Pointer) 레코드는 IP 주소를 호스트 이름으로 역방향 매핑하는 DNS 레코드(RFC1035)로, IPv4에서는 in-addr"
 tags: ['DNS Ptr Record', 'Reverse DNS', 'In Addr Arpa', 'Ip6 Arpa', 'DNS']
 created: 2026-02-12
@@ -50,8 +50,8 @@ dig -x 63.173.189.1
 
 ## 관련 개념
 
-- [dns-resource-record](/knowledge/network/dns-resource-record/) - PTR을 포함하는 레코드 체계
-- [dns-a-record](/knowledge/network/dns-a-record/) - PTR의 정방향 매핑 대응물
-- [dns-zone](/knowledge/network/dns-zone/) - 역방향 존의 관리
-- [fqdn](/knowledge/network/fqdn/) - PTR이 반환하는 완전 수식 이름
-- [ip-address](/knowledge/linux/ip-address/) - PTR이 매핑하는 주소
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - PTR을 포함하는 레코드 체계
+- [DNS A 및 AAAA 레코드 (DNS A and AAAA Records)](/knowledge/network/dns-a-record/) - PTR의 정방향 매핑 대응물
+- [DNS 존 (DNS Zone)](/knowledge/network/dns-zone/) - 역방향 존의 관리
+- [FQDN (정규화된 도메인 이름)](/knowledge/network/fqdn/) - PTR이 반환하는 완전 수식 이름
+- [IP 주소 (IP Address)](/knowledge/linux/ip-address/) - PTR이 매핑하는 주소

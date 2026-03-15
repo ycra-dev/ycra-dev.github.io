@@ -1,5 +1,5 @@
 ---
-title: "SMTP"
+title: "SMTP (간이 우편 전송 프로토콜)"
 description: "SMTP(Simple Mail Transfer Protocol)는 인터넷에서 이메일 메시지를 전송하기 위한 표준 프로토콜로, MUA에서 MTA, MTA 간, MTA에서 DA까지 메일 시스템의 각 구성 요소 간 메시지 전달에 사용된다"
 tags: ['Smtp', 'Email', 'Protocol', 'Esmtp', 'Mail Transfer']
 created: 2026-02-12
@@ -53,8 +53,8 @@ curl --url 'smtp://mail.example.com:587' \
 
 ## 관련 개념
 
-- [Mail Transfer Agent](/knowledge/network/mail-transfer-agent/)
-- [Email Architecture](/knowledge/network/email-architecture/)
-- [SPF](/knowledge/network/spf/)
-- [DKIM](/knowledge/network/dkim/)
-- [TLS](/knowledge/linux/tls/)
+- [메일 전송 에이전트 (Mail Transfer Agent)](/knowledge/network/mail-transfer-agent/)
+- [이메일 아키텍처 (Email Architecture)](/knowledge/network/email-architecture/)
+- [SPF (발신자 정책 프레임워크)](/knowledge/network/spf/)
+- [DKIM (도메인키 인증 메일)](/knowledge/network/dkim/)
+- [TLS (전송 계층 보안)](/knowledge/linux/tls/)

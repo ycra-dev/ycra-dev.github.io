@@ -1,5 +1,5 @@
 ---
-title: "DNS MX Record"
+title: "DNS MX 레코드 (DNS MX Record)"
 description: "DNS MX(Mail Exchanger) 레코드는 특정 도메인에 대한 이메일을 수신할 책임이 있는 메일 서버를 지정하는 DNS 리소스 레코드(RFC1035)로, 우선순위(preference) 값을 통해 메일 서버의 선호도를 결정하며 사이트의 메일 흐름을 로컬 관리..."
 tags: ['DNS', 'Mx Record', 'Email', 'Mail Routing', 'Domain', 'Resource Record']
 created: 2026-02-12
@@ -43,9 +43,9 @@ dig example.com MX
 
 ## 관련 개념
 
-- [DNS Resource Record](/knowledge/network/dns-resource-record/) - MX를 포함하는 DNS 레코드 체계
-- [DNS](/knowledge/network/dns/) - MX 레코드가 속하는 도메인 이름 시스템
-- [SMTP](/knowledge/network/smtp/) - MX 레코드를 조회하여 메일을 라우팅하는 프로토콜
-- [Postfix](/knowledge/network/postfix/) - MX 레코드 기반 메일 전달 MTA
-- [SPF](/knowledge/network/spf/) - 도메인의 메일 발신 서버를 인증하는 DNS 메커니즘
-- [DNS A and AAAA Records](/knowledge/network/dns-a-record/) - MX 대상 호스트의 IP 주소를 제공하는 레코드
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - MX를 포함하는 DNS 레코드 체계
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns/) - MX 레코드가 속하는 도메인 이름 시스템
+- [SMTP (간이 우편 전송 프로토콜)](/knowledge/network/smtp/) - MX 레코드를 조회하여 메일을 라우팅하는 프로토콜
+- [Postfix (메일 전송 에이전트)](/knowledge/network/postfix/) - MX 레코드 기반 메일 전달 MTA
+- [SPF (발신자 정책 프레임워크)](/knowledge/network/spf/) - 도메인의 메일 발신 서버를 인증하는 DNS 메커니즘
+- [DNS A 및 AAAA 레코드 (DNS A and AAAA Records)](/knowledge/network/dns-a-record/) - MX 대상 호스트의 IP 주소를 제공하는 레코드

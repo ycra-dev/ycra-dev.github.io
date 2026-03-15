@@ -1,5 +1,5 @@
 ---
-title: "Dynamic DNS"
+title: "동적 DNS (Dynamic DNS)"
 description: "동적 DNS(Dynamic DNS, RFC2136)는 DNS 프로토콜의 확장으로, DHCP 데몬 같은 엔티티가 네임 서버에 주소 할당을 통지하여 리소스 레코드를 자동으로 추가, 삭제, 수정할 수 있게 하는 기능이다"
 tags: ['Dynamic DNS', 'Ddns', 'Nsupdate', 'Dhcp', 'Rfc2136', 'Update Policy']
 created: 2026-02-12
@@ -60,9 +60,9 @@ sudo rndc thaw atrust.com
 
 ## 관련 개념
 
-- [dns](/knowledge/network/dns/) - 동적 DNS가 확장하는 시스템
-- [dhcp](/knowledge/linux/dhcp/) - 동적 DNS의 주요 트리거
-- [bind](/knowledge/network/bind/) - 동적 DNS를 구현하는 서버
-- [tsig](/knowledge/network/tsig/) - 동적 업데이트 인증 메커니즘
-- [dns-zone-transfer](/knowledge/network/dns-zone-transfer/) - IXFR과 트랜잭션 로그 공유
-- [dns-resource-record](/knowledge/network/dns-resource-record/) - 동적으로 관리되는 레코드
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns/) - 동적 DNS가 확장하는 시스템
+- [DHCP (동적 호스트 구성 프로토콜)](/knowledge/linux/dhcp/) - 동적 DNS의 주요 트리거
+- [BIND (버클리 인터넷 네임 도메인)](/knowledge/network/bind/) - 동적 DNS를 구현하는 서버
+- [TSIG (트랜잭션 서명)](/knowledge/network/tsig/) - 동적 업데이트 인증 메커니즘
+- [DNS 존 전송 (DNS Zone Transfer)](/knowledge/network/dns-zone-transfer/) - IXFR과 트랜잭션 로그 공유
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - 동적으로 관리되는 레코드

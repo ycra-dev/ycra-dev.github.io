@@ -1,5 +1,5 @@
 ---
-title: "SOA Record"
+title: "SOA 레코드 (SOA Record)"
 description: "SOA(Start of Authority) 레코드는 DNS 존의 시작을 표시하는 레코드로, 존의 이름, 주 네임 서버, 기술 담당자, 시리얼 번호, 그리고 존 동기화에 사용되는 각종 타임아웃 값을 포함한다(RFC1035)"
 tags: ['Soa Record', 'DNS', 'Zone File', 'Serial Number', 'DNS Zone']
 created: 2026-02-12
@@ -51,8 +51,8 @@ sudo rndc reload atrust.com
 
 ## 관련 개념
 
-- [dns-zone](/knowledge/network/dns-zone/) - SOA가 정의하는 존
-- [dns-resource-record](/knowledge/network/dns-resource-record/) - SOA를 포함하는 레코드 체계
-- [dns-zone-transfer](/knowledge/network/dns-zone-transfer/) - 시리얼 번호 기반 존 동기화
-- [bind](/knowledge/network/bind/) - SOA 레코드를 처리하는 서버 소프트웨어
-- [dns-caching](/knowledge/network/dns-caching/) - SOA의 TTL 설정이 영향을 미치는 캐싱
+- [DNS 존 (DNS Zone)](/knowledge/network/dns-zone/) - SOA가 정의하는 존
+- [DNS 리소스 레코드 (DNS Resource Record)](/knowledge/network/dns-resource-record/) - SOA를 포함하는 레코드 체계
+- [DNS 존 전송 (DNS Zone Transfer)](/knowledge/network/dns-zone-transfer/) - 시리얼 번호 기반 존 동기화
+- [BIND (버클리 인터넷 네임 도메인)](/knowledge/network/bind/) - SOA 레코드를 처리하는 서버 소프트웨어
+- [DNS 캐싱 (DNS Caching)](/knowledge/network/dns-caching/) - SOA의 TTL 설정이 영향을 미치는 캐싱

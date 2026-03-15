@@ -1,5 +1,5 @@
 ---
-title: "DNS Resolver"
+title: "DNS 리졸버 (DNS Resolver)"
 description: "DNS 리졸버(Resolver)는 호스트의 DNS 클라이언트 구성으로, /etc/resolv"
 tags: ['DNS Resolver', 'Resolv.conf', 'Nsswitch.conf', 'Name Resolution', 'DNS Client']
 created: 2026-02-12
@@ -52,8 +52,8 @@ python3 -c "import socket; print(socket.getaddrinfo('google.com', None))"
 
 ## 관련 개념
 
-- [dns](/knowledge/network/dns/) - 리졸버가 접근하는 도메인 이름 시스템
-- [dhcp](/knowledge/linux/dhcp/) - resolv.conf를 자동 설정하는 프로토콜
-- [dns-caching](/knowledge/network/dns-caching/) - 네임 서버의 캐싱 동작
-- [bind](/knowledge/network/bind/) - 리졸버가 쿼리하는 DNS 서버 소프트웨어
-- [nsswitch](/knowledge/linux/nsswitch/) - 이름 서비스 전환 설정
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns/) - 리졸버가 접근하는 도메인 이름 시스템
+- [DHCP (동적 호스트 구성 프로토콜)](/knowledge/linux/dhcp/) - resolv.conf를 자동 설정하는 프로토콜
+- [DNS 캐싱 (DNS Caching)](/knowledge/network/dns-caching/) - 네임 서버의 캐싱 동작
+- [BIND (버클리 인터넷 네임 도메인)](/knowledge/network/bind/) - 리졸버가 쿼리하는 DNS 서버 소프트웨어
+- [NSSwitch (네임 서비스 스위치)](/knowledge/linux/nsswitch/) - 이름 서비스 전환 설정

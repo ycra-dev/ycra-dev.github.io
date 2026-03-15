@@ -74,8 +74,8 @@ DNS 레코드 타입:
 ## 관련 개념
 
 - [IP 주소 (IP Address)](/knowledge/network/ip-address/) - DNS가 변환하는 목적지
-- [TCP/IP](/knowledge/network/tcp-ip/) - DNS 조회에 사용하는 프로토콜
-- [HTTP](/knowledge/network/http-basics/) - DNS로 IP를 찾은 뒤 사용하는 웹 프로토콜
+- [TCP/IP (프로토콜 스택)](/knowledge/network/tcp-ip/) - DNS 조회에 사용하는 프로토콜
+- [HTTP (하이퍼텍스트 전송 프로토콜)](/knowledge/network/http-basics/) - DNS로 IP를 찾은 뒤 사용하는 웹 프로토콜
 
 ## 출처
 

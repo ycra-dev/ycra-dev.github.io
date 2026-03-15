@@ -1,5 +1,5 @@
 ---
-title: "DNS Caching"
+title: "DNS 캐싱 (DNS Caching)"
 description: "DNS 캐싱(Caching)은 네임 서버가 이전 쿼리의 응답을 TTL(Time to Live) 기간 동안 저장하여 동일한 쿼리에 대해 네트워크 조회 없이 즉시 응답할 수 있게 하는 효율성 메커니즘이다"
 tags: ['DNS Caching', 'Ttl', 'Negative Caching', 'Performance', 'DNS']
 created: 2026-02-12
@@ -59,8 +59,8 @@ dig @ns1.google.com google.com
 
 ## 관련 개념
 
-- [dns](/knowledge/network/dns/) - 캐싱이 동작하는 시스템
-- [soa-record](/knowledge/network/soa-record/) - 부정 캐시 TTL을 설정하는 레코드
-- [dns-zone](/knowledge/network/dns-zone/) - 캐싱의 데이터 원본
-- [dns-resolver](/knowledge/network/dns-resolver/) - 캐싱 네임 서버에 쿼리하는 클라이언트
-- [bind](/knowledge/network/bind/) - 캐싱을 구현하는 DNS 서버
+- [DNS (도메인 네임 시스템)](/knowledge/network/dns/) - 캐싱이 동작하는 시스템
+- [SOA 레코드 (SOA Record)](/knowledge/network/soa-record/) - 부정 캐시 TTL을 설정하는 레코드
+- [DNS 존 (DNS Zone)](/knowledge/network/dns-zone/) - 캐싱의 데이터 원본
+- [DNS 리졸버 (DNS Resolver)](/knowledge/network/dns-resolver/) - 캐싱 네임 서버에 쿼리하는 클라이언트
+- [BIND (버클리 인터넷 네임 도메인)](/knowledge/network/bind/) - 캐싱을 구현하는 DNS 서버

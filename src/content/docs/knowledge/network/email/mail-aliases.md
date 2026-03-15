@@ -1,5 +1,5 @@
 ---
-title: "Mail Aliases"
+title: "메일 별칭 (Mail Aliases)"
 description: "메일 별칭(Mail Aliases)은 이메일을 다른 수신자, 파일, 프로그램으로 재라우팅하는 메커니즘으로, /etc/mail/aliases 파일과 사용자별 ~/"
 tags: ['Mail Aliases', 'Email', 'Forwarding', 'Mailing List', 'Postmaster']
 created: 2026-02-12
@@ -53,7 +53,7 @@ sudo postalias hash:/etc/aliases
 
 ## 관련 개념
 
-- [Mail Transfer Agent](/knowledge/network/mail-transfer-agent/)
-- [Postfix](/knowledge/network/postfix/)
-- [Email Architecture](/knowledge/network/email-architecture/)
-- [SMTP](/knowledge/network/smtp/)
+- [메일 전송 에이전트 (Mail Transfer Agent)](/knowledge/network/mail-transfer-agent/)
+- [Postfix (메일 전송 에이전트)](/knowledge/network/postfix/)
+- [이메일 아키텍처 (Email Architecture)](/knowledge/network/email-architecture/)
+- [SMTP (간이 우편 전송 프로토콜)](/knowledge/network/smtp/)
