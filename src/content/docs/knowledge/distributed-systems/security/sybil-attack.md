@@ -1,5 +1,5 @@
 ---
-title: "Sybil Attack"
+title: "시빌 공격 (Sybil Attack)"
 description: "시빌 공격(Sybil Attack)은 공격자가 다수의 가짜 논리적 ID를 생성하여 분산 시스템에 각각 별도로 참여함으로써, 하나의 물리적 엔티티가 하나의 논리적 ID에 대응한다는 시스템의 기본 가정을 위반하는 공격이다"
 tags: ['Security', 'Sybil Attack', 'Peer To Peer', 'Identity', 'Blockchain', 'Trust']
 created: 2026-02-16
@@ -61,8 +61,8 @@ cap_Q = max(MaxFlow(Q, P) - MaxFlow(P, Q), 0)
 
 ## 관련 개념
 
-- [Blockchain](/knowledge/distributed-systems/blockchain/)
-- [Authentication Protocol](/knowledge/distributed-systems/authentication-protocol/)
-- [Public Key Certificate](/knowledge/distributed-systems/public-key-certificate/)
-- [Byzantine Fault Tolerance](/knowledge/distributed-systems/byzantine-fault-tolerance/)
-- [Multiparty Computation](/knowledge/distributed-systems/multiparty-computation/)
+- [블록체인 (Blockchain)](/knowledge/distributed-systems/blockchain/)
+- [인증 프로토콜 (Authentication Protocol)](/knowledge/distributed-systems/authentication-protocol/)
+- [공개키 인증서 (Public Key Certificate)](/knowledge/distributed-systems/public-key-certificate/)
+- [비잔틴 장애 허용 (Byzantine Fault Tolerance)](/knowledge/distributed-systems/byzantine-fault-tolerance/)
+- [다자간 연산 (Multiparty Computation)](/knowledge/distributed-systems/multiparty-computation/)

@@ -1,5 +1,5 @@
 ---
-title: "Two Phase Commit"
+title: "2단계 커밋 (Two Phase Commit)"
 description: "2단계 커밋(Two-Phase Commit, 2PC)은 분산 트랜잭션에서 모든 참여자가 공동으로 커밋하거나 공동으로 중단하도록 보장하는 분산 커밋 프로토콜이다(Gray, 1978)"
 tags: ['Two Phase Commit', '2pc', 'Distributed Commit', 'Transaction', 'Atomicity']
 created: 2026-02-16
@@ -91,8 +91,8 @@ class Participant:
 
 ## 관련 개념
 
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Failure Model](/knowledge/distributed-systems/failure-model/)
-- [Atomic Multicast](/knowledge/distributed-systems/atomic-multicast/)
-- [Raft Consensus](/knowledge/distributed-systems/raft-consensus/)
-- [Paxos](/knowledge/distributed-systems/paxos/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)
+- [장애 모델 (Failure Model)](/knowledge/distributed-systems/failure-model/)
+- [원자적 멀티캐스트 (Atomic Multicast)](/knowledge/distributed-systems/atomic-multicast/)
+- [래프트 합의 (Raft Consensus)](/knowledge/distributed-systems/raft-consensus/)
+- [팍소스 (Paxos)](/knowledge/distributed-systems/paxos/)

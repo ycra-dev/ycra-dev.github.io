@@ -1,5 +1,5 @@
 ---
-title: "Tor (The Onion Router)"
+title: "토르 (Tor, The Onion Router)"
 description: "양파 라우팅 기술을 사용하여 인터넷 트래픽을 3개의 릴레이를 통해 전달함으로써 사용자의 IP 주소와 온라인 활동을 익명화하는 네트워크 시스템이다"
 tags: ["Security", "Privacy", "Anonymity", "Tor", "Onion-Routing"]
 created: 2026-02-27

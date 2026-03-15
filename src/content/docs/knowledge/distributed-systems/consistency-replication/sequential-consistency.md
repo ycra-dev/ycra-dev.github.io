@@ -1,5 +1,5 @@
 ---
-title: "Sequential Consistency"
+title: "순차적 일관성 (Sequential Consistency)"
 description: "순차 일관성(Sequential Consistency)은 모든 프로세스의 읽기/쓰기 연산 결과가 어떤 순차적 순서(sequential order)로 실행된 것과 동일하며, 각 프로세스 내의 연산 순서가 프로그램 순서와 일치하는 데이터 일관성 모델이다(Lamport..."
 tags: ['Sequential Consistency', 'Consistency Model', 'Linearizability', 'Data Centric']
 created: 2026-02-16
@@ -48,7 +48,7 @@ P4:          R4(x)a   R4(x)b    # P3과 P4가 다른 순서 → 위반!
 
 ## 관련 개념
 
-- [Causal Consistency](/knowledge/distributed-systems/causal-consistency/)
-- [Eventual Consistency](/knowledge/distributed-systems/eventual-consistency/)
-- [Totally Ordered Multicast](/knowledge/distributed-systems/totally-ordered-multicast/)
-- [Lamport Logical Clock](/knowledge/distributed-systems/lamport-logical-clock/)
+- [인과적 일관성 (Causal Consistency)](/knowledge/distributed-systems/causal-consistency/)
+- [최종 일관성 (Eventual Consistency)](/knowledge/distributed-systems/eventual-consistency/)
+- [전순서 멀티캐스트 (Totally Ordered Multicast)](/knowledge/distributed-systems/totally-ordered-multicast/)
+- [램포트 논리 시계 (Lamport Logical Clock)](/knowledge/distributed-systems/lamport-logical-clock/)

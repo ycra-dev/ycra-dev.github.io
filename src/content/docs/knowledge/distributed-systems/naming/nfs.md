@@ -1,5 +1,5 @@
 ---
-title: "NFS"
+title: "NFS (네트워크 파일 시스템)"
 description: "NFS(Network File System)는 클라이언트가 원격 파일 시스템을 자신의 로컬 파일 시스템에 마운트하여 투명하게 접근할 수 있도록 하는 분산 파일 시스템이다"
 tags: ['Nfs', 'Network File System', 'Distributed File System', 'Mounting', 'File Handle']
 created: 2026-02-16
@@ -46,6 +46,6 @@ quandar$ ls /home/maarten/Music
 
 ## 관련 개념
 
-- [Name Resolution](/knowledge/distributed-systems/name-resolution/)
-- [DNS](/knowledge/distributed-systems/dns/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
+- [이름 해석 (Name Resolution)](/knowledge/distributed-systems/name-resolution/)
+- [DNS (도메인 네임 시스템)](/knowledge/distributed-systems/dns/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)

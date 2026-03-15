@@ -1,5 +1,5 @@
 ---
-title: "Eventual Consistency"
+title: "최종 일관성 (Eventual Consistency)"
 description: "최종 일관성(Eventual Consistency)은 업데이트가 없는 상태가 충분히 지속되면, 모든 복제본이 결국 동일한 값으로 수렴하는 약한 일관성 모델이다"
 tags: ['Eventual Consistency', 'Weak Consistency', 'Convergence', 'Replication']
 created: 2026-02-16
@@ -44,7 +44,7 @@ sidebar:
 
 ## 관련 개념
 
-- [CRDT](/knowledge/distributed-systems/crdt/)
-- [Causal Consistency](/knowledge/distributed-systems/causal-consistency/)
-- [Client Centric Consistency](/knowledge/distributed-systems/client-centric-consistency/)
-- [Sequential Consistency](/knowledge/distributed-systems/sequential-consistency/)
+- [CRDT (충돌 없는 복제 데이터 타입)](/knowledge/distributed-systems/crdt/)
+- [인과적 일관성 (Causal Consistency)](/knowledge/distributed-systems/causal-consistency/)
+- [클라이언트 중심 일관성 (Client Centric Consistency)](/knowledge/distributed-systems/client-centric-consistency/)
+- [순차적 일관성 (Sequential Consistency)](/knowledge/distributed-systems/sequential-consistency/)

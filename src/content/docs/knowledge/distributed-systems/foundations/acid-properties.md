@@ -1,5 +1,5 @@
 ---
-title: "ACID Properties"
+title: "ACID 속성 (ACID Properties)"
 description: "ACID 속성은 분산 시스템에서 트랜잭션이 갖추어야 할 네 가지 핵심 특성으로, 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)을 의미한다"
 tags: ['Transaction', 'Acid', 'Atomicity', 'Consistency', 'Isolation', 'Durability', 'Distributed Systems']
 created: 2026-02-16
@@ -44,6 +44,6 @@ END_TRANSACTION()
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Middleware](/knowledge/distributed-systems/middleware/)
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [미들웨어 (Middleware)](/knowledge/distributed-systems/middleware/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)

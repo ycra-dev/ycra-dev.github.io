@@ -1,5 +1,5 @@
 ---
-title: "Digital Signature and Hash Function"
+title: "디지털 서명과 해시 함수 (Digital Signature and Hash Function)"
 description: "디지털 서명(Digital Signature)은 메시지의 내용에 고유하게 연결된 암호화된 서명으로, 메시지 무결성과 부인 방지를 보장한다"
 tags: ['Cryptography', 'Digital Signature', 'Hash Function', 'Message Digest', 'Integrity']
 created: 2026-02-16
@@ -52,7 +52,7 @@ assert computed_digest == decrypted_digest  # 서명 검증 성공
 
 ## 관련 개념
 
-- [Symmetric and Asymmetric Cryptosystem](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
-- [Public Key Certificate](/knowledge/distributed-systems/public-key-certificate/)
-- [Blockchain](/knowledge/distributed-systems/blockchain/)
-- [Authentication Protocol](/knowledge/distributed-systems/authentication-protocol/)
+- [대칭 및 비대칭 암호 시스템 (Symmetric and Asymmetric Cryptosystem)](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
+- [공개키 인증서 (Public Key Certificate)](/knowledge/distributed-systems/public-key-certificate/)
+- [블록체인 (Blockchain)](/knowledge/distributed-systems/blockchain/)
+- [인증 프로토콜 (Authentication Protocol)](/knowledge/distributed-systems/authentication-protocol/)

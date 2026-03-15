@@ -1,5 +1,5 @@
 ---
-title: "Atomic Multicast"
+title: "원자적 멀티캐스트 (Atomic Multicast)"
 description: "원자적 멀티캐스트(Atomic Multicast)는 메시지가 그룹의 모든 비결함 프로세스에 전달되거나 어느 프로세스에도 전달되지 않는 것을 보장하면서, 동시에 모든 그룹 멤버에게 완전히 동일한 순서로 메시지가 전달되는(totally ordered) 신뢰성 있는 그..."
 tags: ['Atomic Multicast', 'Virtual Synchrony', 'Reliable Multicast', 'Group Communication', 'Fault Tolerance']
 created: 2026-02-16
@@ -72,9 +72,9 @@ S3: m3을 S2와 S4에 전송 후 충돌 (S1에는 미전송)
 
 ## 관련 개념
 
-- [Totally Ordered Multicast](/knowledge/distributed-systems/totally-ordered-multicast/)
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Process Group](/knowledge/distributed-systems/process-group/)
-- [Two Phase Commit](/knowledge/distributed-systems/two-phase-commit/)
-- [Causal Consistency](/knowledge/distributed-systems/causal-consistency/)
-- [Gossip Protocol](/knowledge/distributed-systems/gossip-protocol/)
+- [전순서 멀티캐스트 (Totally Ordered Multicast)](/knowledge/distributed-systems/totally-ordered-multicast/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)
+- [프로세스 그룹 (Process Group)](/knowledge/distributed-systems/process-group/)
+- [2단계 커밋 (Two Phase Commit)](/knowledge/distributed-systems/two-phase-commit/)
+- [인과적 일관성 (Causal Consistency)](/knowledge/distributed-systems/causal-consistency/)
+- [가십 프로토콜 (Gossip Protocol)](/knowledge/distributed-systems/gossip-protocol/)

@@ -1,5 +1,5 @@
 ---
-title: "Message-Oriented Middleware"
+title: "메시지 지향 미들웨어 (Message-Oriented Middleware)"
 description: "메시지 지향 미들웨어(MOM, Message-Oriented Middleware)는 메시지 큐를 기반으로 영구적 비동기 통신(persistent asynchronous communication)을 지원하는 미들웨어 서비스이다"
 tags: ['Mom', 'Message Queue', 'Persistent Communication', 'Amqp', 'Rabbitmq', 'Message Broker']
 created: 2026-02-16
@@ -78,8 +78,8 @@ def consumer():
 
 ## 관련 개념
 
-- [Socket](/knowledge/distributed-systems/socket/)
-- [Remote Procedure Call](/knowledge/distributed-systems/remote-procedure-call/)
-- [Publish-Subscribe](/knowledge/distributed-systems/publish-subscribe/)
-- [Middleware](/knowledge/distributed-systems/middleware/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
+- [소켓 (Socket)](/knowledge/distributed-systems/socket/)
+- [RPC (원격 프로시저 호출)](/knowledge/distributed-systems/remote-procedure-call/)
+- [발행/구독 (Publish Subscribe)](/knowledge/distributed-systems/publish-subscribe/)
+- [미들웨어 (Middleware)](/knowledge/distributed-systems/middleware/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)

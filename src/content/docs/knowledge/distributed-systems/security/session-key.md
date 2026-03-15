@@ -1,5 +1,5 @@
 ---
-title: "Session Key"
+title: "세션 키 (Session Key)"
 description: "세션 키(Session Key)는 단일 통신 세션 동안에만 사용되는 임시 공유 비밀키로, 세션이 종료되면 폐기되어 재사용되지 않는다"
 tags: ['Cryptography', 'Session Key', 'Secure Channel', 'Key Management', 'Forward Secrecy']
 created: 2026-02-16
@@ -50,8 +50,8 @@ del session_key  # 세션 키 파기 -> 전방 비밀성 보장
 
 ## 관련 개념
 
-- [Diffie-Hellman Key Exchange](/knowledge/distributed-systems/diffie-hellman-key-exchange/)
-- [Authentication Protocol](/knowledge/distributed-systems/authentication-protocol/)
-- [Transport Layer Security](/knowledge/distributed-systems/transport-layer-security/)
-- [Kerberos Authentication Service](/knowledge/distributed-systems/kerberos-authentication-service/)
-- [Symmetric and Asymmetric Cryptosystem](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
+- [디피-헬먼 키 교환 (Diffie-Hellman Key Exchange)](/knowledge/distributed-systems/diffie-hellman-key-exchange/)
+- [인증 프로토콜 (Authentication Protocol)](/knowledge/distributed-systems/authentication-protocol/)
+- [전송 계층 보안 (Transport Layer Security)](/knowledge/distributed-systems/transport-layer-security/)
+- [커베로스 인증 서비스 (Kerberos Authentication Service)](/knowledge/distributed-systems/kerberos-authentication-service/)
+- [대칭 및 비대칭 암호 시스템 (Symmetric and Asymmetric Cryptosystem)](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)

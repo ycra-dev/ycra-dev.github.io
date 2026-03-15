@@ -1,5 +1,5 @@
 ---
-title: "Middleware"
+title: "미들웨어 (Middleware)"
 description: "미들웨어(Middleware)는 분산 시스템을 구성하는 컴퓨터들의 운영체제 위에 논리적으로 배치되는 별도의 소프트웨어 계층으로, 분산 투명성을 실현하고 애플리케이션에 동일한 인터페이스를 제공하는 역할을 한다"
 tags: ['Middleware', 'Distributed Systems', 'Transparency', 'Wrapper', 'Interceptor']
 created: 2026-02-16
@@ -52,8 +52,8 @@ def request_level_interceptor(object_ref, method, params):
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
-- [Openness](/knowledge/distributed-systems/openness/)
-- [Remote Procedure Call](/knowledge/distributed-systems/remote-procedure-call/)
-- [Layered Architecture](/knowledge/distributed-systems/layered-architecture/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)
+- [개방성 (Openness)](/knowledge/distributed-systems/openness/)
+- [RPC (원격 프로시저 호출)](/knowledge/distributed-systems/remote-procedure-call/)
+- [계층화 아키텍처 (Layered Architecture)](/knowledge/distributed-systems/layered-architecture/)

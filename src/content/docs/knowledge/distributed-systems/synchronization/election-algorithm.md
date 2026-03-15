@@ -1,5 +1,5 @@
 ---
-title: "Election Algorithm"
+title: "선출 알고리즘 (Election Algorithm)"
 description: "선거 알고리즘(Election Algorithm)은 분산 시스템에서 여러 프로세스 중 하나를 코디네이터(리더)로 선출하는 알고리즘이다"
 tags: ['Election Algorithm', 'Bully Algorithm', 'Ring Election', 'Leader Election']
 created: 2026-02-16
@@ -46,7 +46,7 @@ P6이 모든 프로세스에 COORDINATOR 브로드캐스트
 
 ## 관련 개념
 
-- [ZooKeeper](/knowledge/distributed-systems/zookeeper/)
-- [Raft Consensus](/knowledge/distributed-systems/raft-consensus/)
-- [Mutual Exclusion](/knowledge/distributed-systems/mutual-exclusion/)
-- [Paxos](/knowledge/distributed-systems/paxos/)
+- [주키퍼 (ZooKeeper)](/knowledge/distributed-systems/zookeeper/)
+- [래프트 합의 (Raft Consensus)](/knowledge/distributed-systems/raft-consensus/)
+- [상호 배제 (Mutual Exclusion)](/knowledge/distributed-systems/mutual-exclusion/)
+- [팍소스 (Paxos)](/knowledge/distributed-systems/paxos/)

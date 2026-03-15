@@ -1,5 +1,5 @@
 ---
-title: "Decentralized Authorization WAVE"
+title: "분산 인가 WAVE (Decentralized Authorization WAVE)"
 description: "WAVE(Wide-Area Verified Exchange)는 다수 조직에 걸쳐 운영되도록 설계된 확장 가능한 분산 인가 서비스로, 그래프 기반 인가와 분산 저장소를 결합하여 중앙 집중식 권한 서버 없이 접근 권한을 위임하고 검증한다"
 tags: ['Authorization', 'Decentralized', 'Graph Based', 'Attestation', 'Delegation', 'Wave']
 created: 2026-02-16
@@ -62,8 +62,8 @@ attestation = {
 
 ## 관련 개념
 
-- [Authorization and Access Control](/knowledge/distributed-systems/authorization-and-access-control/)
-- [Delegation in Distributed Systems](/knowledge/distributed-systems/delegation-in-distributed-systems/)
-- [Blockchain](/knowledge/distributed-systems/blockchain/)
-- [Public Key Certificate](/knowledge/distributed-systems/public-key-certificate/)
-- [Trusted Computing Base](/knowledge/distributed-systems/trusted-computing-base/)
+- [인가 및 접근 제어 (Authorization and Access Control)](/knowledge/distributed-systems/authorization-and-access-control/)
+- [분산 시스템에서의 위임 (Delegation in Distributed Systems)](/knowledge/distributed-systems/delegation-in-distributed-systems/)
+- [블록체인 (Blockchain)](/knowledge/distributed-systems/blockchain/)
+- [공개키 인증서 (Public Key Certificate)](/knowledge/distributed-systems/public-key-certificate/)
+- [신뢰 컴퓨팅 기반 (Trusted Computing Base)](/knowledge/distributed-systems/trusted-computing-base/)

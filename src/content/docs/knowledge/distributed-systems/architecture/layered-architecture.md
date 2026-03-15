@@ -1,5 +1,5 @@
 ---
-title: "Layered Architecture"
+title: "계층화 아키텍처 (Layered Architecture)"
 description: "계층 구조(Layered Architecture)는 소프트웨어 컴포넌트를 계층적으로 조직하여, 상위 계층의 컴포넌트가 하위 계층의 컴포넌트에 대해 다운콜(downcall)을 수행하고 응답을 받는 분산 시스템의 대표적인 아키텍처 스타일이다"
 tags: ['Architectural Style', 'Layered Design', 'Software Architecture', 'Protocol Stack']
 created: 2026-02-16
@@ -48,7 +48,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Middleware](/knowledge/distributed-systems/middleware/)
-- [Service-Oriented Architecture](/knowledge/distributed-systems/service-oriented-architecture/)
-- [Publish-Subscribe](/knowledge/distributed-systems/publish-subscribe/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [미들웨어 (Middleware)](/knowledge/distributed-systems/middleware/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/distributed-systems/service-oriented-architecture/)
+- [발행/구독 (Publish Subscribe)](/knowledge/distributed-systems/publish-subscribe/)

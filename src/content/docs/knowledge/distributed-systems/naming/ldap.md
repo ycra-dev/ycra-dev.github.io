@@ -1,5 +1,5 @@
 ---
-title: "LDAP"
+title: "LDAP (경량 디렉터리 액세스 프로토콜)"
 description: "LDAP(Lightweight Directory Access Protocol)은 구조화된 명명과 속성 기반 명명을 결합한 분산 디렉토리 서비스이다"
 tags: ['Ldap', 'Directory Service', 'Attribute Based Naming', 'X500']
 created: 2026-02-16
@@ -51,6 +51,6 @@ telephoneNumber: +1 555 1234
 
 ## 관련 개념
 
-- [DNS](/knowledge/distributed-systems/dns/)
-- [Name Resolution](/knowledge/distributed-systems/name-resolution/)
-- [Flat Naming](/knowledge/distributed-systems/flat-naming/)
+- [DNS (도메인 네임 시스템)](/knowledge/distributed-systems/dns/)
+- [이름 해석 (Name Resolution)](/knowledge/distributed-systems/name-resolution/)
+- [플랫 네이밍 (Flat Naming)](/knowledge/distributed-systems/flat-naming/)

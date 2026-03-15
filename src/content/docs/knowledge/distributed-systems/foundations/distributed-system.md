@@ -1,5 +1,5 @@
 ---
-title: "Distributed System"
+title: "분산 시스템 (Distributed System)"
 description: "분산 시스템(Distributed System)은 프로세스와 자원이 여러 컴퓨터에 걸쳐 충분히(sufficiently) 분산되어 있는 네트워크 컴퓨터 시스템이다"
 tags: ['Distributed Systems', 'Networked Systems', 'Decentralization']
 created: 2026-02-16
@@ -39,8 +39,8 @@ class DistributedSystem:
 
 ## 관련 개념
 
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Middleware](/knowledge/distributed-systems/middleware/)
-- [Cloud Computing](/knowledge/distributed-systems/cloud-computing/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)
+- [미들웨어 (Middleware)](/knowledge/distributed-systems/middleware/)
+- [클라우드 컴퓨팅 (Cloud Computing)](/knowledge/distributed-systems/cloud-computing/)

@@ -1,5 +1,5 @@
 ---
-title: "Gossip Protocol"
+title: "가십 프로토콜 (Gossip Protocol)"
 description: "가십 프로토콜(Gossip Protocol)은 분산 시스템에서 각 노드가 무작위로 선택한 다른 노드와 정보를 교환하여, 전체 시스템에 정보를 지수적 속도로 전파하는 전염병(epidemic) 기반 통신 방식이다"
 tags: ['Gossip Protocol', 'Epidemic Protocol', 'Peer Sampling', 'Aggregation']
 created: 2026-02-16
@@ -52,6 +52,6 @@ class GossipNode:
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Publish Subscribe](/knowledge/distributed-systems/publish-subscribe/)
-- [Election Algorithm](/knowledge/distributed-systems/election-algorithm/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [발행/구독 (Publish Subscribe)](/knowledge/distributed-systems/publish-subscribe/)
+- [선출 알고리즘 (Election Algorithm)](/knowledge/distributed-systems/election-algorithm/)

@@ -1,5 +1,5 @@
 ---
-title: "Recovery"
+title: "복구 (Recovery)"
 description: "복구(Recovery)는 장애가 발생한 프로세스를 올바른 상태로 되돌리는 기법이다"
 tags: ['Recovery', 'Checkpointing', 'Message Logging', 'Backward Recovery', 'Forward Recovery']
 created: 2026-02-16
@@ -87,7 +87,7 @@ class RecoverableProcess:
 
 ## 관련 개념
 
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Two Phase Commit](/knowledge/distributed-systems/two-phase-commit/)
-- [Failure Model](/knowledge/distributed-systems/failure-model/)
-- [Replica Management](/knowledge/distributed-systems/replica-management/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)
+- [2단계 커밋 (Two Phase Commit)](/knowledge/distributed-systems/two-phase-commit/)
+- [장애 모델 (Failure Model)](/knowledge/distributed-systems/failure-model/)
+- [복제 관리 (Replica Management)](/knowledge/distributed-systems/replica-management/)

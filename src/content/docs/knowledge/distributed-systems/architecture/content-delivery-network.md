@@ -1,5 +1,5 @@
 ---
-title: "Content Delivery Network"
+title: "CDN (콘텐츠 전송 네트워크)"
 description: "콘텐츠 전송 네트워크(CDN, Content Delivery Network)는 웹사이트의 콘텐츠를 전 세계 여러 서버에 복제하여, 사용자를 가장 가까운 서버로 투명하게 리다이렉트함으로써 성능과 의존성을 향상시키는 분산 시스템이다"
 tags: ['Cdn', 'Content Distribution', 'Caching', 'Replication', 'Performance']
 created: 2026-02-16
@@ -47,7 +47,7 @@ CDN은 서버 클러스터의 형태로 구현되며, 전송 계층 스위치나
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
-- [Server Cluster](/knowledge/distributed-systems/server-cluster/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)
+- [서버 클러스터 (Server Cluster)](/knowledge/distributed-systems/server-cluster/)

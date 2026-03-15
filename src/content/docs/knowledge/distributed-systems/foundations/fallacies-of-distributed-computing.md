@@ -1,5 +1,5 @@
 ---
-title: "Fallacies of Distributed Computing"
+title: "분산 컴퓨팅의 오류 (Fallacies of Distributed Computing)"
 description: "분산 컴퓨팅의 오류(Fallacies of Distributed Computing)는 Peter Deutsch가 Sun Microsystems에서 정리한, 분산 애플리케이션 개발 시 흔히 범하는 8가지 잘못된 가정들이다"
 tags: ['Fallacies', 'Distributed Systems', 'Design Pitfalls', 'Network Assumptions']
 created: 2026-02-16
@@ -52,7 +52,7 @@ server.submit(validated_form)  # 한 번만 전송
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)

@@ -1,5 +1,5 @@
 ---
-title: "Clock Synchronization"
+title: "시계 동기화 (Clock Synchronization)"
 description: "클럭 동기화(Clock Synchronization)는 분산 시스템에서 각 컴퓨터의 독립적인 하드웨어 클럭들이 서로 일정한 범위 내에서 일치하도록 조정하는 과정이다"
 tags: ['Clock Synchronization', 'Physical Clocks', 'Ntp', 'Distributed Time']
 created: 2026-02-16
@@ -46,6 +46,6 @@ A (클라이언트)                    B (시간 서버)
 
 ## 관련 개념
 
-- [Lamport Logical Clock](/knowledge/distributed-systems/lamport-logical-clock/)
-- [Vector Clock](/knowledge/distributed-systems/vector-clock/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
+- [램포트 논리 시계 (Lamport Logical Clock)](/knowledge/distributed-systems/lamport-logical-clock/)
+- [벡터 시계 (Vector Clock)](/knowledge/distributed-systems/vector-clock/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)

@@ -1,5 +1,5 @@
 ---
-title: "Trusted Computing Base"
+title: "신뢰 컴퓨팅 기반 (Trusted Computing Base)"
 description: "신뢰 컴퓨팅 기반(TCB, Trusted Computing Base)은 분산 컴퓨터 시스템에서 보안 정책을 강제하기 위해 필요하고 충분한 모든 보안 메커니즘의 집합으로, 반드시 신뢰할 수 있어야 하는 펌웨어, 하드웨어, 소프트웨어, 그리고 인간을 포함한다"
 tags: ['Security', 'Tcb', 'Trust', 'System Design', 'Dependability']
 created: 2026-02-16
@@ -45,8 +45,8 @@ ownCloud scripts --> Apache server --> OS kernel
 
 ## 관련 개념
 
-- [Security Policy and Mechanism](/knowledge/distributed-systems/security-policy-and-mechanism/)
-- [Security Design Principles](/knowledge/distributed-systems/security-design-principles/)
-- [Blockchain](/knowledge/distributed-systems/blockchain/)
-- [Kerberos Authentication Service](/knowledge/distributed-systems/kerberos-authentication-service/)
-- [Byzantine Fault Tolerance](/knowledge/distributed-systems/byzantine-fault-tolerance/)
+- [보안 정책과 메커니즘 (Security Policy and Mechanism)](/knowledge/distributed-systems/security-policy-and-mechanism/)
+- [보안 설계 원칙 (Security Design Principles)](/knowledge/distributed-systems/security-design-principles/)
+- [블록체인 (Blockchain)](/knowledge/distributed-systems/blockchain/)
+- [커베로스 인증 서비스 (Kerberos Authentication Service)](/knowledge/distributed-systems/kerberos-authentication-service/)
+- [비잔틴 장애 허용 (Byzantine Fault Tolerance)](/knowledge/distributed-systems/byzantine-fault-tolerance/)

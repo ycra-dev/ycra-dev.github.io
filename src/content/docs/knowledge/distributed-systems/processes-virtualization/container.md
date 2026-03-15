@@ -1,5 +1,5 @@
 ---
-title: "Container"
+title: "컨테이너 (Container)"
 description: "컨테이너(Container)는 애플리케이션 실행에 필요한 바이너리, 라이브러리, 설정 파일의 집합으로 구성된 소프트웨어 환경 가상화 기술이다"
 tags: ['Container', 'Docker', 'Namespace', 'Cgroup', 'Union Filesystem', 'Isolation']
 created: 2026-02-16
@@ -61,8 +61,8 @@ root    2     1  0  06:27  pts/0 00:00:00 ps -ef
 
 ## 관련 개념
 
-- [Virtualization](/knowledge/distributed-systems/virtualization/)
-- [Cloud Computing](/knowledge/distributed-systems/cloud-computing/)
-- [Cluster Computing](/knowledge/distributed-systems/cluster-computing/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Code Migration](/knowledge/distributed-systems/code-migration/)
+- [가상화 (Virtualization)](/knowledge/distributed-systems/virtualization/)
+- [클라우드 컴퓨팅 (Cloud Computing)](/knowledge/distributed-systems/cloud-computing/)
+- [클러스터 컴퓨팅 (Cluster Computing)](/knowledge/distributed-systems/cluster-computing/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [코드 마이그레이션 (Code Migration)](/knowledge/distributed-systems/code-migration/)

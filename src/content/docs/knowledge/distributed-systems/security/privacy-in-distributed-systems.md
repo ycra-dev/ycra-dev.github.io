@@ -1,5 +1,5 @@
 ---
-title: "Privacy in Distributed Systems"
+title: "분산 시스템의 프라이버시 (Privacy in Distributed Systems)"
 description: "분산 시스템에서의 프라이버시는 개인정보의 적절한 흐름에 대한 권리로, 단순한 기밀성 보장을 넘어 누가, 언제, 어떻게 개인정보를 열람하는지에 대한 통제를 포함하며, 정보 흐름을 중지하고 철회할 수 있는 능력까지 포괄한다"
 tags: ['Privacy', 'Gdpr', 'Confidentiality', 'Data Protection', 'Distributed Systems']
 created: 2026-02-16
@@ -65,8 +65,8 @@ metadata = {
 
 ## 관련 개념
 
-- [Security Policy and Mechanism](/knowledge/distributed-systems/security-policy-and-mechanism/)
-- [Homomorphic Encryption](/knowledge/distributed-systems/homomorphic-encryption/)
-- [Authorization and Access Control](/knowledge/distributed-systems/authorization-and-access-control/)
-- [Blockchain](/knowledge/distributed-systems/blockchain/)
-- [Multiparty Computation](/knowledge/distributed-systems/multiparty-computation/)
+- [보안 정책과 메커니즘 (Security Policy and Mechanism)](/knowledge/distributed-systems/security-policy-and-mechanism/)
+- [동형 암호화 (Homomorphic Encryption)](/knowledge/distributed-systems/homomorphic-encryption/)
+- [인가 및 접근 제어 (Authorization and Access Control)](/knowledge/distributed-systems/authorization-and-access-control/)
+- [블록체인 (Blockchain)](/knowledge/distributed-systems/blockchain/)
+- [다자간 연산 (Multiparty Computation)](/knowledge/distributed-systems/multiparty-computation/)

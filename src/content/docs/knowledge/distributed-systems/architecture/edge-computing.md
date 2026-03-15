@@ -1,5 +1,5 @@
 ---
-title: "Edge Computing"
+title: "엣지 컴퓨팅 (Edge Computing)"
 description: "에지 컴퓨팅(Edge Computing)은 네트워크의 가장자리(edge)에 서비스를 배치하여, IoT 장치와 클라우드 인프라 사이의 중간 계층으로 작동하는 분산 시스템 아키텍처이다"
 tags: ['Edge', 'Fog Computing', 'Iot', 'Latency', 'Orchestration', 'Hybrid Architecture']
 created: 2026-02-16
@@ -55,8 +55,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Cloud Computing](/knowledge/distributed-systems/cloud-computing/)
-- [Content Delivery Network](/knowledge/distributed-systems/content-delivery-network/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
-- [Pervasive System](/knowledge/distributed-systems/pervasive-system/)
+- [클라우드 컴퓨팅 (Cloud Computing)](/knowledge/distributed-systems/cloud-computing/)
+- [CDN (콘텐츠 전송 네트워크)](/knowledge/distributed-systems/content-delivery-network/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)
+- [퍼베이시브 시스템 (Pervasive System)](/knowledge/distributed-systems/pervasive-system/)

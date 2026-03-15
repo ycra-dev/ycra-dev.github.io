@@ -1,5 +1,5 @@
 ---
-title: "Virtualization"
+title: "가상화 (Virtualization)"
 description: "가상화(Virtualization)는 기존 인터페이스를 확장하거나 대체하여 다른 시스템의 동작을 모방하는 기술이다"
 tags: ['Virtualization', 'Virtual Machine', 'Process VM', 'Native Vmm', 'Hosted Vmm', 'Portability', 'Isolation']
 created: 2026-02-16
@@ -79,8 +79,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Cloud Computing](/knowledge/distributed-systems/cloud-computing/)
-- [Thread](/knowledge/distributed-systems/thread/)
-- [Container](/knowledge/distributed-systems/container/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
+- [클라우드 컴퓨팅 (Cloud Computing)](/knowledge/distributed-systems/cloud-computing/)
+- [스레드 (Thread)](/knowledge/distributed-systems/thread/)
+- [컨테이너 (Container)](/knowledge/distributed-systems/container/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)

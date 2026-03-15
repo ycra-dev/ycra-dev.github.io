@@ -1,5 +1,5 @@
 ---
-title: "Failure Model"
+title: "장애 모델 (Failure Model)"
 description: "장애 모델(Failure Model)은 분산 시스템에서 발생할 수 있는 장애 유형을 분류하는 체계로, 충돌 장애부터 임의(비잔틴) 장애까지 심각도에 따라 구분한다"
 tags: ['Failure Model', 'Crash Failure', 'Omission Failure', 'Byzantine Failure', 'Fault Tolerance']
 created: 2026-02-16
@@ -75,8 +75,8 @@ class FailureDetector:
 
 ## 관련 개념
 
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Byzantine Fault Tolerance](/knowledge/distributed-systems/byzantine-fault-tolerance/)
-- [Process Group](/knowledge/distributed-systems/process-group/)
-- [Raft Consensus](/knowledge/distributed-systems/raft-consensus/)
-- [Paxos](/knowledge/distributed-systems/paxos/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)
+- [비잔틴 장애 허용 (Byzantine Fault Tolerance)](/knowledge/distributed-systems/byzantine-fault-tolerance/)
+- [프로세스 그룹 (Process Group)](/knowledge/distributed-systems/process-group/)
+- [래프트 합의 (Raft Consensus)](/knowledge/distributed-systems/raft-consensus/)
+- [팍소스 (Paxos)](/knowledge/distributed-systems/paxos/)

@@ -1,5 +1,5 @@
 ---
-title: "Authorization and Access Control"
+title: "인가 및 접근 제어 (Authorization and Access Control)"
 description: "인가(Authorization)는 인증된 엔티티가 시스템 자원에 대해 허용된 작업만 수행하도록 보장하는 메커니즘으로, 주체(subject)가 객체(object)에 대해 요청한 작업의 허용 여부를 판단하는 참조 모니터(reference monitor)에 의해 강제된다"
 tags: ['Authorization', 'Access Control', 'Rbac', 'Abac', 'Acl', 'Capability', 'Security']
 created: 2026-02-16
@@ -53,8 +53,8 @@ policy_rule = {
 
 ## 관련 개념
 
-- [Security Policy and Mechanism](/knowledge/distributed-systems/security-policy-and-mechanism/)
-- [Authentication Protocol](/knowledge/distributed-systems/authentication-protocol/)
-- [Delegation in Distributed Systems](/knowledge/distributed-systems/delegation-in-distributed-systems/)
-- [Kerberos Authentication Service](/knowledge/distributed-systems/kerberos-authentication-service/)
-- [Security Design Principles](/knowledge/distributed-systems/security-design-principles/)
+- [보안 정책과 메커니즘 (Security Policy and Mechanism)](/knowledge/distributed-systems/security-policy-and-mechanism/)
+- [인증 프로토콜 (Authentication Protocol)](/knowledge/distributed-systems/authentication-protocol/)
+- [분산 시스템에서의 위임 (Delegation in Distributed Systems)](/knowledge/distributed-systems/delegation-in-distributed-systems/)
+- [커베로스 인증 서비스 (Kerberos Authentication Service)](/knowledge/distributed-systems/kerberos-authentication-service/)
+- [보안 설계 원칙 (Security Design Principles)](/knowledge/distributed-systems/security-design-principles/)

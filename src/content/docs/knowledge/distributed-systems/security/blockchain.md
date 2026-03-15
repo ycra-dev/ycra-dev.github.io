@@ -1,5 +1,5 @@
 ---
-title: "Blockchain"
+title: "블록체인 (Blockchain)"
 description: "블록체인(Blockchain)은 검증된 트랜잭션의 블록들이 암호학적으로 연결된 추가 전용(append-only) 분산 원장(distributed ledger)으로, 각 블록의 변경이 감지 가능하도록 설계되어 데이터 무결성을 보장한다"
 tags: ['Blockchain', 'Distributed Ledger', 'Trust', 'Consensus', 'Smart Contract', 'Integrity']
 created: 2026-02-16
@@ -55,8 +55,8 @@ vote_tx = Transaction(voter_token, candidate_bob)
 
 ## 관련 개념
 
-- [Sybil Attack](/knowledge/distributed-systems/sybil-attack/)
-- [Digital Signature and Hash Function](/knowledge/distributed-systems/digital-signature-and-hash-function/)
-- [Trusted Computing Base](/knowledge/distributed-systems/trusted-computing-base/)
-- [Byzantine Fault Tolerance](/knowledge/distributed-systems/byzantine-fault-tolerance/)
-- [Security Policy and Mechanism](/knowledge/distributed-systems/security-policy-and-mechanism/)
+- [시빌 공격 (Sybil Attack)](/knowledge/distributed-systems/sybil-attack/)
+- [디지털 서명과 해시 함수 (Digital Signature and Hash Function)](/knowledge/distributed-systems/digital-signature-and-hash-function/)
+- [신뢰 컴퓨팅 기반 (Trusted Computing Base)](/knowledge/distributed-systems/trusted-computing-base/)
+- [비잔틴 장애 허용 (Byzantine Fault Tolerance)](/knowledge/distributed-systems/byzantine-fault-tolerance/)
+- [보안 정책과 메커니즘 (Security Policy and Mechanism)](/knowledge/distributed-systems/security-policy-and-mechanism/)

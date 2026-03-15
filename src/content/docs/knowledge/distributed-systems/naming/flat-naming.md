@@ -1,5 +1,5 @@
 ---
-title: "Flat Naming"
+title: "플랫 네이밍 (Flat Naming)"
 description: "평면 네이밍(Flat Naming)은 엔티티를 구조화되지 않은 무작위 비트 문자열(식별자)로 참조하는 명명 방식이다"
 tags: ['Flat Naming', 'Identifier', 'Broadcasting', 'Forwarding Pointers', 'Name Resolution']
 created: 2026-02-16
@@ -47,6 +47,6 @@ sidebar:
 
 ## 관련 개념
 
-- [Distributed Hash Table](/knowledge/distributed-systems/distributed-hash-table/)
-- [DNS](/knowledge/distributed-systems/dns/)
-- [Name Resolution](/knowledge/distributed-systems/name-resolution/)
+- [분산 해시 테이블 (Distributed Hash Table)](/knowledge/distributed-systems/distributed-hash-table/)
+- [DNS (도메인 네임 시스템)](/knowledge/distributed-systems/dns/)
+- [이름 해석 (Name Resolution)](/knowledge/distributed-systems/name-resolution/)

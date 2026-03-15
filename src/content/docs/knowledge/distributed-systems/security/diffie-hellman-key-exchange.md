@@ -1,5 +1,5 @@
 ---
-title: "Diffie-Hellman Key Exchange"
+title: "디피-헬먼 키 교환 (Diffie-Hellman Key Exchange)"
 description: "Diffie-Hellman 키 교환은 두 당사자가 안전하지 않은 채널을 통해 공유 비밀키를 수립할 수 있게 해주는 프로토콜로, 양측 모두 자신의 비밀 값을 상대방에게 공개하지 않으면서 동일한 키를 계산할 수 있다"
 tags: ['Cryptography', 'Key Exchange', 'Session Key', 'Ephemeral', 'Security Protocol']
 created: 2026-02-16
@@ -52,8 +52,8 @@ assert alice_shared == bob_shared  # 동일한 공유 비밀키
 
 ## 관련 개념
 
-- [Session Key](/knowledge/distributed-systems/session-key/)
-- [Transport Layer Security](/knowledge/distributed-systems/transport-layer-security/)
-- [Symmetric and Asymmetric Cryptosystem](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
-- [Multiparty Computation](/knowledge/distributed-systems/multiparty-computation/)
-- [Public Key Certificate](/knowledge/distributed-systems/public-key-certificate/)
+- [세션 키 (Session Key)](/knowledge/distributed-systems/session-key/)
+- [전송 계층 보안 (Transport Layer Security)](/knowledge/distributed-systems/transport-layer-security/)
+- [대칭 및 비대칭 암호 시스템 (Symmetric and Asymmetric Cryptosystem)](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
+- [다자간 연산 (Multiparty Computation)](/knowledge/distributed-systems/multiparty-computation/)
+- [공개키 인증서 (Public Key Certificate)](/knowledge/distributed-systems/public-key-certificate/)

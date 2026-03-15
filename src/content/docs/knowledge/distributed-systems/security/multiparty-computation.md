@@ -1,5 +1,5 @@
 ---
-title: "Multiparty Computation"
+title: "다자간 연산 (Multiparty Computation)"
 description: "안전한 다자간 계산(Secure Multiparty Computation, MPC)은 여러 당사자가 각자의 비밀 입력을 공개하지 않으면서 공동으로 함수를 계산할 수 있게 해주는 암호학적 프로토콜 체계이다"
 tags: ['Mpc', 'Cryptography', 'Oblivious Transfer', 'Privacy', 'Secure Computation']
 created: 2026-02-16
@@ -59,8 +59,8 @@ alice_sends(encrypt(AK1, m0), encrypt(AK2, m1))
 
 ## 관련 개념
 
-- [Diffie-Hellman Key Exchange](/knowledge/distributed-systems/diffie-hellman-key-exchange/)
-- [Homomorphic Encryption](/knowledge/distributed-systems/homomorphic-encryption/)
-- [Symmetric and Asymmetric Cryptosystem](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
-- [Sybil Attack](/knowledge/distributed-systems/sybil-attack/)
-- [Security Policy and Mechanism](/knowledge/distributed-systems/security-policy-and-mechanism/)
+- [디피-헬먼 키 교환 (Diffie-Hellman Key Exchange)](/knowledge/distributed-systems/diffie-hellman-key-exchange/)
+- [동형 암호화 (Homomorphic Encryption)](/knowledge/distributed-systems/homomorphic-encryption/)
+- [대칭 및 비대칭 암호 시스템 (Symmetric and Asymmetric Cryptosystem)](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
+- [시빌 공격 (Sybil Attack)](/knowledge/distributed-systems/sybil-attack/)
+- [보안 정책과 메커니즘 (Security Policy and Mechanism)](/knowledge/distributed-systems/security-policy-and-mechanism/)

@@ -1,5 +1,5 @@
 ---
-title: "CRDT"
+title: "CRDT (충돌 없는 복제 데이터 타입)"
 description: "CRDT(Conflict-Free Replicated Data Type)는 여러 사이트에서 복제될 수 있으며, 추가적인 조정(coordination) 없이 동시 업데이트를 허용하면서도 모든 복제본이 동일한 상태로 수렴하는 데이터 타입이다(Shapiro et al"
 tags: ['Crdt', 'Conflict Free', 'Replicated Data Type', 'Strong Eventual Consistency']
 created: 2026-02-16
@@ -74,6 +74,6 @@ class TwoPSet:
 
 ## 관련 개념
 
-- [Eventual Consistency](/knowledge/distributed-systems/eventual-consistency/)
-- [Causal Consistency](/knowledge/distributed-systems/causal-consistency/)
-- [Replica Management](/knowledge/distributed-systems/replica-management/)
+- [최종 일관성 (Eventual Consistency)](/knowledge/distributed-systems/eventual-consistency/)
+- [인과적 일관성 (Causal Consistency)](/knowledge/distributed-systems/causal-consistency/)
+- [복제 관리 (Replica Management)](/knowledge/distributed-systems/replica-management/)

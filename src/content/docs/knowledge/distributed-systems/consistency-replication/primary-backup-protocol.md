@@ -1,5 +1,5 @@
 ---
-title: "Primary Backup Protocol"
+title: "프라이머리-백업 프로토콜 (Primary Backup Protocol)"
 description: "주-백업 프로토콜(Primary-Backup Protocol)은 하나의 주 서버(primary)가 모든 쓰기 연산을 조정하고, 변경 사항을 백업 서버(backup/follower)들에 전파하는 복제 프로토콜이다"
 tags: ['Primary Backup', 'Replication Protocol', 'Consistency', 'Fault Tolerance']
 created: 2026-02-16
@@ -47,7 +47,7 @@ Server_nearest → Client: write_complete
 
 ## 관련 개념
 
-- [Replica Management](/knowledge/distributed-systems/replica-management/)
-- [Raft Consensus](/knowledge/distributed-systems/raft-consensus/)
-- [Paxos](/knowledge/distributed-systems/paxos/)
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
+- [복제 관리 (Replica Management)](/knowledge/distributed-systems/replica-management/)
+- [래프트 합의 (Raft Consensus)](/knowledge/distributed-systems/raft-consensus/)
+- [팍소스 (Paxos)](/knowledge/distributed-systems/paxos/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)

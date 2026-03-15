@@ -1,5 +1,5 @@
 ---
-title: "Transport Layer Security"
+title: "전송 계층 보안 (Transport Layer Security)"
 description: "전송 계층 보안(TLS, Transport Layer Security)은 TCP 연결 위에서 보안 채널을 설정하기 위한 프로토콜 스위트로, SSL(Secure Socket Layer)에서 발전하여 HTTPS의 기반이 되는 가장 널리 사용되는 보안 통신 프로토콜이다"
 tags: ['Tls', 'HTTPS', 'Secure Channel', 'Cipher Suite', 'Key Derivation']
 created: 2026-02-16
@@ -57,8 +57,8 @@ DH 그룹 예시: ffdhe2048에서 g=2, p = 2^2048 - 2^1984 + ...
 
 ## 관련 개념
 
-- [Diffie-Hellman Key Exchange](/knowledge/distributed-systems/diffie-hellman-key-exchange/)
-- [Session Key](/knowledge/distributed-systems/session-key/)
-- [Public Key Certificate](/knowledge/distributed-systems/public-key-certificate/)
-- [Authentication Protocol](/knowledge/distributed-systems/authentication-protocol/)
-- [Security Design Principles](/knowledge/distributed-systems/security-design-principles/)
+- [디피-헬먼 키 교환 (Diffie-Hellman Key Exchange)](/knowledge/distributed-systems/diffie-hellman-key-exchange/)
+- [세션 키 (Session Key)](/knowledge/distributed-systems/session-key/)
+- [공개키 인증서 (Public Key Certificate)](/knowledge/distributed-systems/public-key-certificate/)
+- [인증 프로토콜 (Authentication Protocol)](/knowledge/distributed-systems/authentication-protocol/)
+- [보안 설계 원칙 (Security Design Principles)](/knowledge/distributed-systems/security-design-principles/)

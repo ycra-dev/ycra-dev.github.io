@@ -1,5 +1,5 @@
 ---
-title: "Fault Tolerance"
+title: "장애 허용 (Fault Tolerance)"
 description: "내결함성(Fault Tolerance)은 시스템의 일부에 결함이 존재하더라도 서비스를 계속 제공할 수 있는 분산 시스템의 능력이다"
 tags: ['Fault Tolerance', 'Dependability', 'Reliability', 'Availability', 'Distributed Systems']
 created: 2026-02-16
@@ -82,13 +82,13 @@ def required_processes(k, failure_type):
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
-- [Replica Management](/knowledge/distributed-systems/replica-management/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
-- [Failure Model](/knowledge/distributed-systems/failure-model/)
-- [Process Group](/knowledge/distributed-systems/process-group/)
-- [Raft Consensus](/knowledge/distributed-systems/raft-consensus/)
-- [Paxos](/knowledge/distributed-systems/paxos/)
-- [Byzantine Fault Tolerance](/knowledge/distributed-systems/byzantine-fault-tolerance/)
-- [Two Phase Commit](/knowledge/distributed-systems/two-phase-commit/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)
+- [복제 관리 (Replica Management)](/knowledge/distributed-systems/replica-management/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)
+- [장애 모델 (Failure Model)](/knowledge/distributed-systems/failure-model/)
+- [프로세스 그룹 (Process Group)](/knowledge/distributed-systems/process-group/)
+- [래프트 합의 (Raft Consensus)](/knowledge/distributed-systems/raft-consensus/)
+- [팍소스 (Paxos)](/knowledge/distributed-systems/paxos/)
+- [비잔틴 장애 허용 (Byzantine Fault Tolerance)](/knowledge/distributed-systems/byzantine-fault-tolerance/)
+- [2단계 커밋 (Two Phase Commit)](/knowledge/distributed-systems/two-phase-commit/)

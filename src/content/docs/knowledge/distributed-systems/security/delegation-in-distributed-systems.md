@@ -1,5 +1,5 @@
 ---
-title: "Delegation in Distributed Systems"
+title: "분산 시스템에서의 위임 (Delegation in Distributed Systems)"
 description: "위임(Delegation)은 하나의 프로세스가 자신의 접근 권한의 일부 또는 전부를 다른 프로세스에게 전달하는 기법으로, 자원 보호를 훼손하지 않으면서 분산 시스템에서 작업을 분배할 수 있게 해주는 보안 메커니즘이다"
 tags: ['Delegation', 'Proxy', 'Oauth', 'Access Rights', 'Authorization', 'Security']
 created: 2026-02-16
@@ -62,8 +62,8 @@ response = api_call("GET /mail", headers={"Authorization": f"Bearer {access_toke
 
 ## 관련 개념
 
-- [Authorization and Access Control](/knowledge/distributed-systems/authorization-and-access-control/)
-- [Kerberos Authentication Service](/knowledge/distributed-systems/kerberos-authentication-service/)
-- [Public Key Certificate](/knowledge/distributed-systems/public-key-certificate/)
-- [Authentication Protocol](/knowledge/distributed-systems/authentication-protocol/)
-- [Session Key](/knowledge/distributed-systems/session-key/)
+- [인가 및 접근 제어 (Authorization and Access Control)](/knowledge/distributed-systems/authorization-and-access-control/)
+- [커베로스 인증 서비스 (Kerberos Authentication Service)](/knowledge/distributed-systems/kerberos-authentication-service/)
+- [공개키 인증서 (Public Key Certificate)](/knowledge/distributed-systems/public-key-certificate/)
+- [인증 프로토콜 (Authentication Protocol)](/knowledge/distributed-systems/authentication-protocol/)
+- [세션 키 (Session Key)](/knowledge/distributed-systems/session-key/)

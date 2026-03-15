@@ -1,5 +1,5 @@
 ---
-title: "Byzantine Fault Tolerance"
+title: "비잔틴 장애 허용 (Byzantine Fault Tolerance)"
 description: "비잔틴 장애 허용(Byzantine Fault Tolerance, BFT)은 프로세스 그룹 내 일부 프로세스가 임의로(악의적이거나 예측 불가능하게) 행동하더라도 정확한 합의에 도달할 수 있는 분산 시스템의 내결함성 메커니즘이다"
 tags: ['Fault Tolerance', 'Byzantine', 'Consensus', 'Pbft', 'Trust', 'Distributed Systems']
 created: 2026-02-16
@@ -80,13 +80,13 @@ class PBFTNode:
 
 ## 관련 개념
 
-- [Blockchain](/knowledge/distributed-systems/blockchain/)
-- [Sybil Attack](/knowledge/distributed-systems/sybil-attack/)
-- [Trusted Computing Base](/knowledge/distributed-systems/trusted-computing-base/)
-- [Security Policy and Mechanism](/knowledge/distributed-systems/security-policy-and-mechanism/)
-- [Authentication Protocol](/knowledge/distributed-systems/authentication-protocol/)
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Failure Model](/knowledge/distributed-systems/failure-model/)
-- [Process Group](/knowledge/distributed-systems/process-group/)
-- [Paxos](/knowledge/distributed-systems/paxos/)
-- [Raft Consensus](/knowledge/distributed-systems/raft-consensus/)
+- [블록체인 (Blockchain)](/knowledge/distributed-systems/blockchain/)
+- [시빌 공격 (Sybil Attack)](/knowledge/distributed-systems/sybil-attack/)
+- [신뢰 컴퓨팅 기반 (Trusted Computing Base)](/knowledge/distributed-systems/trusted-computing-base/)
+- [보안 정책과 메커니즘 (Security Policy and Mechanism)](/knowledge/distributed-systems/security-policy-and-mechanism/)
+- [인증 프로토콜 (Authentication Protocol)](/knowledge/distributed-systems/authentication-protocol/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)
+- [장애 모델 (Failure Model)](/knowledge/distributed-systems/failure-model/)
+- [프로세스 그룹 (Process Group)](/knowledge/distributed-systems/process-group/)
+- [팍소스 (Paxos)](/knowledge/distributed-systems/paxos/)
+- [래프트 합의 (Raft Consensus)](/knowledge/distributed-systems/raft-consensus/)

@@ -1,5 +1,5 @@
 ---
-title: "Kerberos Authentication Service"
+title: "커베로스 인증 서비스 (Kerberos Authentication Service)"
 description: "Kerberos는 MIT에서 개발된 분산 인증 서비스로, Needham-Schroeder 프로토콜에 기반하여 클라이언트가 분산 시스템 내 모든 서버와 보안 채널을 설정할 수 있게 해주는 티켓 기반 인증 시스템이다"
 tags: ['Kerberos', 'Authentication', 'Kdc', 'Ticket', 'Single Sign On', 'Distributed Systems']
 created: 2026-02-16
@@ -52,8 +52,8 @@ Bob -> Alice:       K_{A,B}(t+1)                # Bob이 신원 증명
 
 ## 관련 개념
 
-- [Authentication Protocol](/knowledge/distributed-systems/authentication-protocol/)
-- [Session Key](/knowledge/distributed-systems/session-key/)
-- [Trusted Computing Base](/knowledge/distributed-systems/trusted-computing-base/)
-- [Transport Layer Security](/knowledge/distributed-systems/transport-layer-security/)
-- [Delegation in Distributed Systems](/knowledge/distributed-systems/delegation-in-distributed-systems/)
+- [인증 프로토콜 (Authentication Protocol)](/knowledge/distributed-systems/authentication-protocol/)
+- [세션 키 (Session Key)](/knowledge/distributed-systems/session-key/)
+- [신뢰 컴퓨팅 기반 (Trusted Computing Base)](/knowledge/distributed-systems/trusted-computing-base/)
+- [전송 계층 보안 (Transport Layer Security)](/knowledge/distributed-systems/transport-layer-security/)
+- [분산 시스템에서의 위임 (Delegation in Distributed Systems)](/knowledge/distributed-systems/delegation-in-distributed-systems/)

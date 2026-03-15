@@ -1,5 +1,5 @@
 ---
-title: "Process Group"
+title: "프로세스 그룹 (Process Group)"
 description: "프로세스 그룹(Process Group)은 분산 시스템에서 내결함성을 달성하기 위해 동일한 프로세스를 여러 개 조직하여 하나의 논리적 프로세스처럼 동작하게 하는 메커니즘이다"
 tags: ['Process Group', 'Replication', 'Fault Tolerance', 'K Fault Tolerance', 'Membership']
 created: 2026-02-16
@@ -58,10 +58,10 @@ sidebar:
 
 ## 관련 개념
 
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Failure Model](/knowledge/distributed-systems/failure-model/)
-- [Raft Consensus](/knowledge/distributed-systems/raft-consensus/)
-- [Paxos](/knowledge/distributed-systems/paxos/)
-- [Byzantine Fault Tolerance](/knowledge/distributed-systems/byzantine-fault-tolerance/)
-- [Election Algorithm](/knowledge/distributed-systems/election-algorithm/)
-- [Primary Backup Protocol](/knowledge/distributed-systems/primary-backup-protocol/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)
+- [장애 모델 (Failure Model)](/knowledge/distributed-systems/failure-model/)
+- [래프트 합의 (Raft Consensus)](/knowledge/distributed-systems/raft-consensus/)
+- [팍소스 (Paxos)](/knowledge/distributed-systems/paxos/)
+- [비잔틴 장애 허용 (Byzantine Fault Tolerance)](/knowledge/distributed-systems/byzantine-fault-tolerance/)
+- [선출 알고리즘 (Election Algorithm)](/knowledge/distributed-systems/election-algorithm/)
+- [프라이머리-백업 프로토콜 (Primary Backup Protocol)](/knowledge/distributed-systems/primary-backup-protocol/)

@@ -1,5 +1,5 @@
 ---
-title: "Grid Computing"
+title: "그리드 컴퓨팅 (Grid Computing)"
 description: "그리드 컴퓨팅(Grid Computing)은 서로 다른 관리 도메인에 속하며 하드웨어, 소프트웨어, 네트워크 기술이 매우 이질적인 컴퓨터 시스템들의 연합(federation)으로 구성되는 분산 컴퓨팅 방식이다"
 tags: ['Grid Computing', 'High Performance Computing', 'Virtual Organization', 'Distributed Systems']
 created: 2026-02-16
@@ -41,8 +41,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Cluster Computing](/knowledge/distributed-systems/cluster-computing/)
-- [Cloud Computing](/knowledge/distributed-systems/cloud-computing/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
-- [Middleware](/knowledge/distributed-systems/middleware/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
+- [클러스터 컴퓨팅 (Cluster Computing)](/knowledge/distributed-systems/cluster-computing/)
+- [클라우드 컴퓨팅 (Cloud Computing)](/knowledge/distributed-systems/cloud-computing/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)
+- [미들웨어 (Middleware)](/knowledge/distributed-systems/middleware/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)

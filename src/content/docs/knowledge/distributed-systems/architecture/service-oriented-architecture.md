@@ -1,5 +1,5 @@
 ---
-title: "Service-Oriented Architecture"
+title: "서비스 지향 아키텍처 (Service-Oriented Architecture)"
 description: "서비스 지향 아키텍처(SOA, Service-Oriented Architecture)는 분산 애플리케이션을 독립적인 서비스들의 조합으로 구성하는 아키텍처 스타일이다"
 tags: ['Soa', 'Microservice', 'Distributed Object', 'Service Composition', 'Software Architecture']
 created: 2026-02-16
@@ -49,8 +49,8 @@ class Skeleton:
 
 ## 관련 개념
 
-- [Layered Architecture](/knowledge/distributed-systems/layered-architecture/)
-- [Middleware](/knowledge/distributed-systems/middleware/)
-- [RESTful Architecture](/knowledge/distributed-systems/restful-architecture/)
-- [Remote Procedure Call](/knowledge/distributed-systems/remote-procedure-call/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
+- [계층화 아키텍처 (Layered Architecture)](/knowledge/distributed-systems/layered-architecture/)
+- [미들웨어 (Middleware)](/knowledge/distributed-systems/middleware/)
+- [RESTful 아키텍처 (RESTful Architecture)](/knowledge/distributed-systems/restful-architecture/)
+- [RPC (원격 프로시저 호출)](/knowledge/distributed-systems/remote-procedure-call/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)

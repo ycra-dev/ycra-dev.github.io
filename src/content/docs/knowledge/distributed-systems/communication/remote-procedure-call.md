@@ -1,5 +1,5 @@
 ---
-title: "Remote Procedure Call"
+title: "RPC (원격 프로시저 호출)"
 description: "원격 프로시저 호출(RPC, Remote Procedure Call)은 다른 머신에 위치한 프로시저를 로컬 프로시저 호출처럼 투명하게 호출할 수 있게 하는 통신 메커니즘이다"
 tags: ['Rpc', 'Client Stub', 'Server Stub', 'Idl', 'Access Transparency', 'Distributed Computing']
 created: 2026-02-16
@@ -69,8 +69,8 @@ print(conn.root.exposed_value()) # 결과: ['2', '4']
 
 ## 관련 개념
 
-- [Parameter Marshaling](/knowledge/distributed-systems/parameter-marshaling/)
-- [Asynchronous RPC](/knowledge/distributed-systems/asynchronous-rpc/)
-- [Service-Oriented Architecture](/knowledge/distributed-systems/service-oriented-architecture/)
-- [Middleware](/knowledge/distributed-systems/middleware/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
+- [파라미터 마셜링 (Parameter Marshaling)](/knowledge/distributed-systems/parameter-marshaling/)
+- [비동기 RPC (Asynchronous RPC)](/knowledge/distributed-systems/asynchronous-rpc/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/distributed-systems/service-oriented-architecture/)
+- [미들웨어 (Middleware)](/knowledge/distributed-systems/middleware/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)

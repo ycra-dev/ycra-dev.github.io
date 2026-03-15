@@ -1,5 +1,5 @@
 ---
-title: "Public Key Certificate"
+title: "공개키 인증서 (Public Key Certificate)"
 description: "공개키 인증서(Public Key Certificate)는 공개키와 해당 키의 소유자를 식별하는 문자열이 함께 묶여 인증 기관(CA)에 의해 서명된 디지털 문서로, 공개키의 소유권을 인증하는 메커니즘이다"
 tags: ['Cryptography', 'Certificate', 'Pki', 'Certification Authority', 'Key Management']
 created: 2026-02-16
@@ -47,8 +47,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Symmetric and Asymmetric Cryptosystem](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
-- [Digital Signature and Hash Function](/knowledge/distributed-systems/digital-signature-and-hash-function/)
-- [Transport Layer Security](/knowledge/distributed-systems/transport-layer-security/)
-- [Trusted Computing Base](/knowledge/distributed-systems/trusted-computing-base/)
-- [Sybil Attack](/knowledge/distributed-systems/sybil-attack/)
+- [대칭 및 비대칭 암호 시스템 (Symmetric and Asymmetric Cryptosystem)](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
+- [디지털 서명과 해시 함수 (Digital Signature and Hash Function)](/knowledge/distributed-systems/digital-signature-and-hash-function/)
+- [전송 계층 보안 (Transport Layer Security)](/knowledge/distributed-systems/transport-layer-security/)
+- [신뢰 컴퓨팅 기반 (Trusted Computing Base)](/knowledge/distributed-systems/trusted-computing-base/)
+- [시빌 공격 (Sybil Attack)](/knowledge/distributed-systems/sybil-attack/)

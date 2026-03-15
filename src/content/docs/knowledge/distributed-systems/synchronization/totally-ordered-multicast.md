@@ -1,5 +1,5 @@
 ---
-title: "Totally Ordered Multicast"
+title: "전순서 멀티캐스트 (Totally Ordered Multicast)"
 description: "완전 순서 멀티캐스트(Totally Ordered Multicast)는 모든 메시지가 모든 수신자에게 동일한 순서로 전달되는 멀티캐스트 연산이다"
 tags: ['Multicast', 'Total Order', 'State Machine Replication', 'Lamport Clock']
 created: 2026-02-16
@@ -52,6 +52,6 @@ def can_deliver(queue, process_count):
 
 ## 관련 개념
 
-- [Lamport Logical Clock](/knowledge/distributed-systems/lamport-logical-clock/)
-- [Mutual Exclusion](/knowledge/distributed-systems/mutual-exclusion/)
-- [Sequential Consistency](/knowledge/distributed-systems/sequential-consistency/)
+- [램포트 논리 시계 (Lamport Logical Clock)](/knowledge/distributed-systems/lamport-logical-clock/)
+- [상호 배제 (Mutual Exclusion)](/knowledge/distributed-systems/mutual-exclusion/)
+- [순차적 일관성 (Sequential Consistency)](/knowledge/distributed-systems/sequential-consistency/)

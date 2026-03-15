@@ -1,5 +1,5 @@
 ---
-title: "Client Centric Consistency"
+title: "클라이언트 중심 일관성 (Client Centric Consistency)"
 description: "클라이언트 중심 일관성(Client-Centric Consistency)은 단일 클라이언트의 관점에서 데이터 저장소에 대한 일관된 접근을 보장하는 모델이다"
 tags: ['Client Centric Consistency', 'Monotonic Reads', 'Read Your Writes', 'Session Guarantee']
 created: 2026-02-16
@@ -45,6 +45,6 @@ Alice가 복제본 B에서 로그인 시도 → 이전 비밀번호만 인식
 
 ## 관련 개념
 
-- [Eventual Consistency](/knowledge/distributed-systems/eventual-consistency/)
-- [Sequential Consistency](/knowledge/distributed-systems/sequential-consistency/)
-- [Replica Management](/knowledge/distributed-systems/replica-management/)
+- [최종 일관성 (Eventual Consistency)](/knowledge/distributed-systems/eventual-consistency/)
+- [순차적 일관성 (Sequential Consistency)](/knowledge/distributed-systems/sequential-consistency/)
+- [복제 관리 (Replica Management)](/knowledge/distributed-systems/replica-management/)

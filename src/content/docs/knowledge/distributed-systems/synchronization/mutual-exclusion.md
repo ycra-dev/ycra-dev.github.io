@@ -1,5 +1,5 @@
 ---
-title: "Mutual Exclusion"
+title: "상호 배제 (Mutual Exclusion)"
 description: "상호 배제(Mutual Exclusion)는 분산 시스템에서 여러 프로세스가 공유 자원에 동시에 접근하는 것을 방지하여, 한 번에 하나의 프로세스만이 임계 영역(critical region)에 진입할 수 있도록 보장하는 조정 메커니즘이다"
 tags: ['Mutual Exclusion', 'Distributed Algorithm', 'Coordination', 'Critical Region']
 created: 2026-02-16
@@ -58,7 +58,7 @@ class Process:
 
 ## 관련 개념
 
-- [Lamport Logical Clock](/knowledge/distributed-systems/lamport-logical-clock/)
-- [ZooKeeper](/knowledge/distributed-systems/zookeeper/)
-- [Election Algorithm](/knowledge/distributed-systems/election-algorithm/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
+- [램포트 논리 시계 (Lamport Logical Clock)](/knowledge/distributed-systems/lamport-logical-clock/)
+- [주키퍼 (ZooKeeper)](/knowledge/distributed-systems/zookeeper/)
+- [선출 알고리즘 (Election Algorithm)](/knowledge/distributed-systems/election-algorithm/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)

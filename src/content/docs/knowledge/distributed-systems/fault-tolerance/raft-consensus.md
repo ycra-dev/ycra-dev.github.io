@@ -1,5 +1,5 @@
 ---
-title: "Raft Consensus"
+title: "래프트 합의 (Raft Consensus)"
 description: "Raft는 충돌 장애 의미론(crash-failure semantics) 하에서 동작하는 합의 프로토콜로, Paxos의 복잡성에 대한 반응으로 Ongaro와 Ousterhout(2014)에 의해 개발되었다"
 tags: ['Raft', 'Consensus', 'Leader Election', 'Log Replication', 'Fault Tolerance']
 created: 2026-02-16
@@ -66,9 +66,9 @@ S2 → S3,S4,S5: HB(term=2, c=2)
 
 ## 관련 개념
 
-- [Paxos](/knowledge/distributed-systems/paxos/)
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Process Group](/knowledge/distributed-systems/process-group/)
-- [Election Algorithm](/knowledge/distributed-systems/election-algorithm/)
-- [Primary Backup Protocol](/knowledge/distributed-systems/primary-backup-protocol/)
-- [Totally Ordered Multicast](/knowledge/distributed-systems/totally-ordered-multicast/)
+- [팍소스 (Paxos)](/knowledge/distributed-systems/paxos/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)
+- [프로세스 그룹 (Process Group)](/knowledge/distributed-systems/process-group/)
+- [선출 알고리즘 (Election Algorithm)](/knowledge/distributed-systems/election-algorithm/)
+- [프라이머리-백업 프로토콜 (Primary Backup Protocol)](/knowledge/distributed-systems/primary-backup-protocol/)
+- [전순서 멀티캐스트 (Totally Ordered Multicast)](/knowledge/distributed-systems/totally-ordered-multicast/)

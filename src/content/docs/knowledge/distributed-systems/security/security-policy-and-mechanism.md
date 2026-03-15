@@ -1,5 +1,5 @@
 ---
-title: "Security Policy and Mechanism"
+title: "보안 정책과 메커니즘 (Security Policy and Mechanism)"
 description: "보안 정책(Security Policy)은 시스템 내 엔티티들이 수행할 수 있는 행동과 금지된 행동을 정확히 기술하는 명세이며, 보안 메커니즘(Security Mechanism)은 해당 정책을 실제로 강제하기 위한 기술적 수단이다"
 tags: ['Security', 'Distributed Systems', 'Access Control', 'Threat Model']
 created: 2026-02-16
@@ -38,8 +38,8 @@ def reference_monitor(user, operation, resource):
 
 ## 관련 개념
 
-- [Authentication Protocol](/knowledge/distributed-systems/authentication-protocol/)
-- [Authorization and Access Control](/knowledge/distributed-systems/authorization-and-access-control/)
-- [Symmetric and Asymmetric Cryptosystem](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
-- [Trusted Computing Base](/knowledge/distributed-systems/trusted-computing-base/)
-- [Intrusion Detection System](/knowledge/distributed-systems/intrusion-detection-system/)
+- [인증 프로토콜 (Authentication Protocol)](/knowledge/distributed-systems/authentication-protocol/)
+- [인가 및 접근 제어 (Authorization and Access Control)](/knowledge/distributed-systems/authorization-and-access-control/)
+- [대칭 및 비대칭 암호 시스템 (Symmetric and Asymmetric Cryptosystem)](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
+- [신뢰 컴퓨팅 기반 (Trusted Computing Base)](/knowledge/distributed-systems/trusted-computing-base/)
+- [침입 탐지 시스템 (Intrusion Detection System)](/knowledge/distributed-systems/intrusion-detection-system/)

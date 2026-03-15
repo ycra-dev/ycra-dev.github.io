@@ -1,5 +1,5 @@
 ---
-title: "Socket"
+title: "소켓 (Socket)"
 description: "소켓(Socket)은 애플리케이션이 네트워크를 통해 데이터를 송수신할 수 있는 통신 엔드포인트(end point)이다"
 tags: ['Socket', 'TCP', 'Berkeley Socket', 'Transient Communication', 'Zeromq', 'Mpi']
 created: 2026-02-16
@@ -78,8 +78,8 @@ import zmq
 
 ## 관련 개념
 
-- [Remote Procedure Call](/knowledge/distributed-systems/remote-procedure-call/)
-- [Message-Oriented Middleware](/knowledge/distributed-systems/message-oriented-middleware/)
-- [Middleware](/knowledge/distributed-systems/middleware/)
-- [Layered Architecture](/knowledge/distributed-systems/layered-architecture/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
+- [RPC (원격 프로시저 호출)](/knowledge/distributed-systems/remote-procedure-call/)
+- [메시지 지향 미들웨어 (Message-Oriented Middleware)](/knowledge/distributed-systems/message-oriented-middleware/)
+- [미들웨어 (Middleware)](/knowledge/distributed-systems/middleware/)
+- [계층화 아키텍처 (Layered Architecture)](/knowledge/distributed-systems/layered-architecture/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)

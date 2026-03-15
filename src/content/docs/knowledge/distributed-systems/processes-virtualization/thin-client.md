@@ -1,5 +1,5 @@
 ---
-title: "Thin Client"
+title: "씬 클라이언트 (Thin Client)"
 description: "씬 클라이언트(Thin Client)는 서버에서 모든 처리와 저장이 이루어지고, 클라이언트는 사용자 인터페이스만 제공하는 애플리케이션 중립적(application-neutral) 솔루션이다"
 tags: ['Thin Client', 'X Window', 'Vnc', 'Remote Desktop', 'Virtual Desktop', 'Progressive Web App']
 created: 2026-02-16
@@ -62,8 +62,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Layered Architecture](/knowledge/distributed-systems/layered-architecture/)
-- [Cloud Computing](/knowledge/distributed-systems/cloud-computing/)
-- [Code Migration](/knowledge/distributed-systems/code-migration/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
+- [계층화 아키텍처 (Layered Architecture)](/knowledge/distributed-systems/layered-architecture/)
+- [클라우드 컴퓨팅 (Cloud Computing)](/knowledge/distributed-systems/cloud-computing/)
+- [코드 마이그레이션 (Code Migration)](/knowledge/distributed-systems/code-migration/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)

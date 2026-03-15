@@ -1,5 +1,5 @@
 ---
-title: "Vector Clock"
+title: "벡터 시계 (Vector Clock)"
 description: "벡터 클럭(Vector Clock)은 분산 시스템에서 이벤트 간의 인과 관계(causality)를 정확하게 포착하기 위한 논리적 시간 메커니즘이다"
 tags: ['Vector Clock', 'Causality', 'Causal Ordering', 'Logical Time']
 created: 2026-02-16
@@ -62,6 +62,6 @@ class VectorClock:
 
 ## 관련 개념
 
-- [Lamport Logical Clock](/knowledge/distributed-systems/lamport-logical-clock/)
-- [Causal Consistency](/knowledge/distributed-systems/causal-consistency/)
-- [Totally Ordered Multicast](/knowledge/distributed-systems/totally-ordered-multicast/)
+- [램포트 논리 시계 (Lamport Logical Clock)](/knowledge/distributed-systems/lamport-logical-clock/)
+- [인과적 일관성 (Causal Consistency)](/knowledge/distributed-systems/causal-consistency/)
+- [전순서 멀티캐스트 (Totally Ordered Multicast)](/knowledge/distributed-systems/totally-ordered-multicast/)

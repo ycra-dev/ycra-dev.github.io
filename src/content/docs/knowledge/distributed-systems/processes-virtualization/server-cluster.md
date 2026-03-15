@@ -1,5 +1,5 @@
 ---
-title: "Server Cluster"
+title: "서버 클러스터 (Server Cluster)"
 description: "서버 클러스터(Server Cluster)는 네트워크로 연결된 여러 머신의 집합으로, 각 머신이 하나 이상의 서버를 실행하며 외부에는 단일 시스템의 환상을 제공하는 분산 시스템 구조이다"
 tags: ['Server Cluster', 'Load Balancing', 'Request Dispatching', 'Cdn', 'TCP Handoff', 'Wide Area']
 created: 2026-02-16
@@ -61,8 +61,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Cluster Computing](/knowledge/distributed-systems/cluster-computing/)
-- [Cloud Computing](/knowledge/distributed-systems/cloud-computing/)
-- [Content Delivery Network](/knowledge/distributed-systems/content-delivery-network/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
+- [클러스터 컴퓨팅 (Cluster Computing)](/knowledge/distributed-systems/cluster-computing/)
+- [클라우드 컴퓨팅 (Cloud Computing)](/knowledge/distributed-systems/cloud-computing/)
+- [CDN (콘텐츠 전송 네트워크)](/knowledge/distributed-systems/content-delivery-network/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)

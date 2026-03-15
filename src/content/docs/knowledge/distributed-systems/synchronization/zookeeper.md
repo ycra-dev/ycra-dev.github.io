@@ -1,5 +1,5 @@
 ---
-title: "ZooKeeper"
+title: "주키퍼 (ZooKeeper)"
 description: "ZooKeeper는 분산 시스템에서 잠금(locking), 리더 선출(leader election), 모니터링 등 다양한 조정(coordination) 작업을 지원하기 위해 설계된 중앙 집중식 조정 서비스이다"
 tags: ['Zookeeper', 'Coordination Service', 'Distributed Locking', 'Leader Election']
 created: 2026-02-16
@@ -53,7 +53,7 @@ class ZKProcess:
 
 ## 관련 개념
 
-- [Election Algorithm](/knowledge/distributed-systems/election-algorithm/)
-- [Mutual Exclusion](/knowledge/distributed-systems/mutual-exclusion/)
-- [Raft Consensus](/knowledge/distributed-systems/raft-consensus/)
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
+- [선출 알고리즘 (Election Algorithm)](/knowledge/distributed-systems/election-algorithm/)
+- [상호 배제 (Mutual Exclusion)](/knowledge/distributed-systems/mutual-exclusion/)
+- [래프트 합의 (Raft Consensus)](/knowledge/distributed-systems/raft-consensus/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)

@@ -1,5 +1,5 @@
 ---
-title: "Pervasive System"
+title: "퍼베이시브 시스템 (Pervasive System)"
 description: "퍼베이시브 시스템(Pervasive System)은 모바일 및 임베디드 컴퓨팅 장치가 환경에 자연스럽게 녹아들어 사용자와의 경계가 모호해지는 분산 시스템이다"
 tags: ['Pervasive Computing', 'Ubiquitous Computing', 'Iot', 'Sensor Network', 'Mobile Computing']
 created: 2026-02-16
@@ -40,8 +40,8 @@ max_id = region.reduce(OP_MAXID, reading_key)  # 영역 내 최대값을 가진 
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Edge Computing](/knowledge/distributed-systems/edge-computing/)
-- [Cloud Computing](/knowledge/distributed-systems/cloud-computing/)
-- [Middleware](/knowledge/distributed-systems/middleware/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [엣지 컴퓨팅 (Edge Computing)](/knowledge/distributed-systems/edge-computing/)
+- [클라우드 컴퓨팅 (Cloud Computing)](/knowledge/distributed-systems/cloud-computing/)
+- [미들웨어 (Middleware)](/knowledge/distributed-systems/middleware/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)

@@ -1,5 +1,5 @@
 ---
-title: "Causal Consistency"
+title: "인과적 일관성 (Causal Consistency)"
 description: "인과 일관성(Causal Consistency)은 잠재적으로 인과 관계가 있는 쓰기 연산이 모든 프로세스에서 동일한 순서로 관찰되어야 하지만, 동시적(concurrent) 쓰기 연산은 서로 다른 순서로 관찰되어도 되는 일관성 모델이다"
 tags: ['Causal Consistency', 'Consistency Model', 'Causality', 'Happens Before']
 created: 2026-02-16
@@ -47,7 +47,7 @@ P4: R4(x)a  R4(x)b    # a 후 b 관찰 → 위반! (인과 관련 쓰기 순서 
 
 ## 관련 개념
 
-- [Sequential Consistency](/knowledge/distributed-systems/sequential-consistency/)
-- [Vector Clock](/knowledge/distributed-systems/vector-clock/)
-- [Eventual Consistency](/knowledge/distributed-systems/eventual-consistency/)
-- [CRDT](/knowledge/distributed-systems/crdt/)
+- [순차적 일관성 (Sequential Consistency)](/knowledge/distributed-systems/sequential-consistency/)
+- [벡터 시계 (Vector Clock)](/knowledge/distributed-systems/vector-clock/)
+- [최종 일관성 (Eventual Consistency)](/knowledge/distributed-systems/eventual-consistency/)
+- [CRDT (충돌 없는 복제 데이터 타입)](/knowledge/distributed-systems/crdt/)

@@ -1,5 +1,5 @@
 ---
-title: "Replica Management"
+title: "복제 관리 (Replica Management)"
 description: "복제본 관리(Replica Management)는 복제 서버의 배치, 콘텐츠의 복제 및 분배, 그리고 복제본 간의 일관성 유지를 다루는 분산 시스템의 핵심 영역이다"
 tags: ['Replica Management', 'Replication', 'Content Distribution', 'Consistency Protocol']
 created: 2026-02-16
@@ -53,7 +53,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Sequential Consistency](/knowledge/distributed-systems/sequential-consistency/)
-- [Eventual Consistency](/knowledge/distributed-systems/eventual-consistency/)
-- [Primary Backup Protocol](/knowledge/distributed-systems/primary-backup-protocol/)
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
+- [순차적 일관성 (Sequential Consistency)](/knowledge/distributed-systems/sequential-consistency/)
+- [최종 일관성 (Eventual Consistency)](/knowledge/distributed-systems/eventual-consistency/)
+- [프라이머리-백업 프로토콜 (Primary Backup Protocol)](/knowledge/distributed-systems/primary-backup-protocol/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)

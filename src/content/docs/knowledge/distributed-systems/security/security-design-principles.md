@@ -1,5 +1,5 @@
 ---
-title: "Security Design Principles"
+title: "보안 설계 원칙 (Security Design Principles)"
 description: "보안 설계 원칙은 분산 시스템에서 광범위한 보안 정책을 구현할 수 있도록 보안 서비스를 설계할 때 고려해야 하는 기본 원칙들로, Saltzer와 Schroeder(1975)가 제시한 8가지 원칙에 기반한다"
 tags: ['Security', 'Design Principles', 'Distributed Systems', 'Saltzer Schroeder']
 created: 2026-02-16
@@ -44,7 +44,7 @@ alice$ sudo apt install nginx
 
 ## 관련 개념
 
-- [Security Policy and Mechanism](/knowledge/distributed-systems/security-policy-and-mechanism/)
-- [Trusted Computing Base](/knowledge/distributed-systems/trusted-computing-base/)
-- [Transport Layer Security](/knowledge/distributed-systems/transport-layer-security/)
-- [Authorization and Access Control](/knowledge/distributed-systems/authorization-and-access-control/)
+- [보안 정책과 메커니즘 (Security Policy and Mechanism)](/knowledge/distributed-systems/security-policy-and-mechanism/)
+- [신뢰 컴퓨팅 기반 (Trusted Computing Base)](/knowledge/distributed-systems/trusted-computing-base/)
+- [전송 계층 보안 (Transport Layer Security)](/knowledge/distributed-systems/transport-layer-security/)
+- [인가 및 접근 제어 (Authorization and Access Control)](/knowledge/distributed-systems/authorization-and-access-control/)

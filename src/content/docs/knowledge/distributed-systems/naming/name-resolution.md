@@ -1,5 +1,5 @@
 ---
-title: "Name Resolution"
+title: "이름 해석 (Name Resolution)"
 description: "이름 해석(Name Resolution)은 이름 공간(name space)에서 경로 이름(path name)을 따라가며, 해당 이름이 참조하는 엔티티의 정보(주소, 상태 등)를 검색하는 과정이다"
 tags: ['Name Resolution', 'Name Space', 'Iterative', 'Recursive', 'Closure Mechanism']
 created: 2026-02-16
@@ -47,7 +47,7 @@ sidebar:
 
 ## 관련 개념
 
-- [DNS](/knowledge/distributed-systems/dns/)
-- [NFS](/knowledge/distributed-systems/nfs/)
-- [Flat Naming](/knowledge/distributed-systems/flat-naming/)
-- [Distributed Hash Table](/knowledge/distributed-systems/distributed-hash-table/)
+- [DNS (도메인 네임 시스템)](/knowledge/distributed-systems/dns/)
+- [NFS (네트워크 파일 시스템)](/knowledge/distributed-systems/nfs/)
+- [플랫 네이밍 (Flat Naming)](/knowledge/distributed-systems/flat-naming/)
+- [분산 해시 테이블 (Distributed Hash Table)](/knowledge/distributed-systems/distributed-hash-table/)

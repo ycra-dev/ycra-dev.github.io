@@ -1,5 +1,5 @@
 ---
-title: "Asynchronous RPC"
+title: "비동기 RPC (Asynchronous RPC)"
 description: "비동기 RPC(Asynchronous RPC)는 서버가 요청을 수신하면 즉시 확인 응답(acknowledgment)을 보낸 후 클라이언트를 블로킹하지 않고 요청을 처리하는 RPC 변형이다"
 tags: ['Asynchronous Rpc', 'Deferred Synchronous', 'One Way Rpc', 'Multicast Rpc', 'Callback', 'Non Blocking']
 created: 2026-02-16
@@ -70,8 +70,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Remote Procedure Call](/knowledge/distributed-systems/remote-procedure-call/)
-- [Multicast Communication](/knowledge/distributed-systems/multicast-communication/)
-- [Publish-Subscribe](/knowledge/distributed-systems/publish-subscribe/)
-- [Socket](/knowledge/distributed-systems/socket/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
+- [RPC (원격 프로시저 호출)](/knowledge/distributed-systems/remote-procedure-call/)
+- [멀티캐스트 통신 (Multicast Communication)](/knowledge/distributed-systems/multicast-communication/)
+- [발행/구독 (Publish Subscribe)](/knowledge/distributed-systems/publish-subscribe/)
+- [소켓 (Socket)](/knowledge/distributed-systems/socket/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)

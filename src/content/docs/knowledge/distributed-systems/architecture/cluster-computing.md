@@ -1,5 +1,5 @@
 ---
-title: "Cluster Computing"
+title: "클러스터 컴퓨팅 (Cluster Computing)"
 description: "클러스터 컴퓨팅(Cluster Computing)은 유사한 컴퓨트 노드들을 고속 네트워크로 연결하여 병렬 프로그래밍을 수행하는 고성능 분산 컴퓨팅 방식이다"
 tags: ['Cluster Computing', 'High Performance Computing', 'Parallel Processing', 'Distributed Systems']
 created: 2026-02-16
@@ -43,7 +43,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Grid Computing](/knowledge/distributed-systems/grid-computing/)
-- [Cloud Computing](/knowledge/distributed-systems/cloud-computing/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [그리드 컴퓨팅 (Grid Computing)](/knowledge/distributed-systems/grid-computing/)
+- [클라우드 컴퓨팅 (Cloud Computing)](/knowledge/distributed-systems/cloud-computing/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)

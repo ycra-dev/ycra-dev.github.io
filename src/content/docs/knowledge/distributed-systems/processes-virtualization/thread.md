@@ -1,5 +1,5 @@
 ---
-title: "Thread"
+title: "스레드 (Thread)"
 description: "스레드(Thread)는 프로세스 내에서 독립적으로 실행되는 제어 흐름으로, 프로세스보다 가벼운 실행 단위이다"
 tags: ['Thread', 'Concurrency', 'Multithreading', 'User Level Thread', 'Kernel Thread', 'Context Switch']
 created: 2026-02-16
@@ -56,7 +56,7 @@ class MultithreadedServer:
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Service-Oriented Architecture](/knowledge/distributed-systems/service-oriented-architecture/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
-- [Virtualization](/knowledge/distributed-systems/virtualization/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/distributed-systems/service-oriented-architecture/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)
+- [가상화 (Virtualization)](/knowledge/distributed-systems/virtualization/)

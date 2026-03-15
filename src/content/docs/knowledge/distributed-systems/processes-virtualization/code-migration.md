@@ -1,5 +1,5 @@
 ---
-title: "Code Migration"
+title: "코드 마이그레이션 (Code Migration)"
 description: "코드 마이그레이션(Code Migration)은 프로그램을 한 머신에서 다른 머신으로 이동시켜 대상 머신에서 실행하는 것을 말한다"
 tags: ['Code Migration', 'Weak Mobility', 'Strong Mobility', 'Process Migration', 'Federated Learning', 'Mobile Agent']
 created: 2026-02-16
@@ -64,8 +64,8 @@ MA       code/exec → res         res →     code/exec*/res
 
 ## 관련 개념
 
-- [Virtualization](/knowledge/distributed-systems/virtualization/)
-- [Container](/knowledge/distributed-systems/container/)
-- [Cloud Computing](/knowledge/distributed-systems/cloud-computing/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
+- [가상화 (Virtualization)](/knowledge/distributed-systems/virtualization/)
+- [컨테이너 (Container)](/knowledge/distributed-systems/container/)
+- [클라우드 컴퓨팅 (Cloud Computing)](/knowledge/distributed-systems/cloud-computing/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)

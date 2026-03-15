@@ -1,5 +1,5 @@
 ---
-title: "Parameter Marshaling"
+title: "파라미터 마셜링 (Parameter Marshaling)"
 description: "파라미터 마샬링(Parameter Marshaling)은 RPC에서 파라미터를 메시지로 포장(pack)하여 네트워크를 통해 전송하고, 수신 측에서 다시 원래의 데이터 구조로 복원(unpack)하는 과정이다"
 tags: ['Marshaling', 'Serialization', 'Endianness', 'Call By Value', 'Call By Reference', 'Rpc']
 created: 2026-02-16
@@ -68,7 +68,7 @@ class Server:
 
 ## 관련 개념
 
-- [Remote Procedure Call](/knowledge/distributed-systems/remote-procedure-call/)
-- [Middleware](/knowledge/distributed-systems/middleware/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
+- [RPC (원격 프로시저 호출)](/knowledge/distributed-systems/remote-procedure-call/)
+- [미들웨어 (Middleware)](/knowledge/distributed-systems/middleware/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)

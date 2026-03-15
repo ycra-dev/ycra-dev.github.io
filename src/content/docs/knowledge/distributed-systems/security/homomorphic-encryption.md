@@ -1,5 +1,5 @@
 ---
-title: "Homomorphic Encryption"
+title: "동형 암호화 (Homomorphic Encryption)"
 description: "동형 암호(Homomorphic Encryption)는 암호화된 데이터에 대해 수학적 연산을 수행하면 그 결과가 평문에 같은 연산을 수행한 것과 동일한 암호문을 생성하는 암호화 기법이다"
 tags: ['Cryptography', 'Homomorphic Encryption', 'Privacy', 'Cloud Computing', 'Fhe']
 created: 2026-02-16
@@ -39,6 +39,6 @@ PK(A ⊙ B)[i] = PK(A[i]) · PK(B[i])
 
 ## 관련 개념
 
-- [Symmetric and Asymmetric Cryptosystem](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
-- [Digital Signature and Hash Function](/knowledge/distributed-systems/digital-signature-and-hash-function/)
-- [Multiparty Computation](/knowledge/distributed-systems/multiparty-computation/)
+- [대칭 및 비대칭 암호 시스템 (Symmetric and Asymmetric Cryptosystem)](/knowledge/distributed-systems/symmetric-and-asymmetric-cryptosystem/)
+- [디지털 서명과 해시 함수 (Digital Signature and Hash Function)](/knowledge/distributed-systems/digital-signature-and-hash-function/)
+- [다자간 연산 (Multiparty Computation)](/knowledge/distributed-systems/multiparty-computation/)

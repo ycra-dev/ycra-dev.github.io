@@ -1,5 +1,5 @@
 ---
-title: "Stateless and Stateful Server"
+title: "무상태 및 상태 유지 서버 (Stateless and Stateful Server)"
 description: "무상태 서버(Stateless Server)는 클라이언트 상태 정보를 유지하지 않으며, 자체 상태를 클라이언트에 알리지 않고 변경할 수 있는 서버이다"
 tags: ['Server Design', 'Stateless', 'Stateful', 'Soft State', 'Session State', 'Cookie']
 created: 2026-02-16
@@ -68,8 +68,8 @@ class StatefulFileServer:
 
 ## 관련 개념
 
-- [RESTful Architecture](/knowledge/distributed-systems/restful-architecture/)
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
+- [RESTful 아키텍처 (RESTful Architecture)](/knowledge/distributed-systems/restful-architecture/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)

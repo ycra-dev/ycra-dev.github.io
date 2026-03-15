@@ -1,5 +1,5 @@
 ---
-title: "Authentication Protocol"
+title: "인증 프로토콜 (Authentication Protocol)"
 description: "인증 프로토콜(Authentication Protocol)은 클라이언트(사용자, 서비스, 장치 등)의 주장된 신원을 검증하기 위한 메시지 교환 절차로, 챌린지-응답(challenge-response) 방식이 대표적이다"
 tags: ['Authentication', 'Challenge Response', 'Nonce', 'Security Protocol', 'Distributed Systems']
 created: 2026-02-16
@@ -63,8 +63,8 @@ bob_sends(encrypt(K_AB, R_A))
 
 ## 관련 개념
 
-- [Kerberos Authentication Service](/knowledge/distributed-systems/kerberos-authentication-service/)
-- [Session Key](/knowledge/distributed-systems/session-key/)
-- [Transport Layer Security](/knowledge/distributed-systems/transport-layer-security/)
-- [Security Policy and Mechanism](/knowledge/distributed-systems/security-policy-and-mechanism/)
-- [Sybil Attack](/knowledge/distributed-systems/sybil-attack/)
+- [커베로스 인증 서비스 (Kerberos Authentication Service)](/knowledge/distributed-systems/kerberos-authentication-service/)
+- [세션 키 (Session Key)](/knowledge/distributed-systems/session-key/)
+- [전송 계층 보안 (Transport Layer Security)](/knowledge/distributed-systems/transport-layer-security/)
+- [보안 정책과 메커니즘 (Security Policy and Mechanism)](/knowledge/distributed-systems/security-policy-and-mechanism/)
+- [시빌 공격 (Sybil Attack)](/knowledge/distributed-systems/sybil-attack/)

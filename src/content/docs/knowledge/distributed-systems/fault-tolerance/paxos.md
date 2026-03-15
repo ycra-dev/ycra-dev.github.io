@@ -1,5 +1,5 @@
 ---
-title: "Paxos"
+title: "팍소스 (Paxos)"
 description: "Paxos는 Leslie Lamport(1989)가 설계한 합의 프로토콜로, 부분 동기 시스템에서 충돌 장애를 허용하며, 복제된 서버 그룹이 동일한 연산을 동일한 순서로 실행하도록 보장한다"
 tags: ['Paxos', 'Consensus', 'Proposer', 'Acceptor', 'Learner', 'Fault Tolerance']
 created: 2026-02-16
@@ -83,9 +83,9 @@ S3: learn(o1) → S2
 
 ## 관련 개념
 
-- [Raft Consensus](/knowledge/distributed-systems/raft-consensus/)
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Process Group](/knowledge/distributed-systems/process-group/)
-- [Failure Model](/knowledge/distributed-systems/failure-model/)
-- [Totally Ordered Multicast](/knowledge/distributed-systems/totally-ordered-multicast/)
-- [Byzantine Fault Tolerance](/knowledge/distributed-systems/byzantine-fault-tolerance/)
+- [래프트 합의 (Raft Consensus)](/knowledge/distributed-systems/raft-consensus/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)
+- [프로세스 그룹 (Process Group)](/knowledge/distributed-systems/process-group/)
+- [장애 모델 (Failure Model)](/knowledge/distributed-systems/failure-model/)
+- [전순서 멀티캐스트 (Totally Ordered Multicast)](/knowledge/distributed-systems/totally-ordered-multicast/)
+- [비잔틴 장애 허용 (Byzantine Fault Tolerance)](/knowledge/distributed-systems/byzantine-fault-tolerance/)

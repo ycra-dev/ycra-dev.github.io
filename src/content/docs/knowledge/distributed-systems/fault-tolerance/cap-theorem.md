@@ -1,5 +1,5 @@
 ---
-title: "CAP Theorem"
+title: "CAP 정리 (CAP Theorem)"
 description: "CAP 정리는 공유 데이터를 제공하는 네트워크 시스템이 일관성(Consistency), 가용성(Availability), 분할 내성(Partition tolerance) 세 가지 속성 중 최대 두 가지만 동시에 보장할 수 있다는 정리이다(Fox and Brewer..."
 tags: ['Cap Theorem', 'Consistency', 'Availability', 'Partition Tolerance', 'Distributed Systems']
 created: 2026-02-16
@@ -59,9 +59,9 @@ CA_system = "단일 노드 RDBMS (실질적으로 분산 시스템이 아님)"
 
 ## 관련 개념
 
-- [Fault Tolerance](/knowledge/distributed-systems/fault-tolerance/)
-- [Eventual Consistency](/knowledge/distributed-systems/eventual-consistency/)
-- [Sequential Consistency](/knowledge/distributed-systems/sequential-consistency/)
-- [Replica Management](/knowledge/distributed-systems/replica-management/)
-- [Raft Consensus](/knowledge/distributed-systems/raft-consensus/)
-- [Paxos](/knowledge/distributed-systems/paxos/)
+- [장애 허용 (Fault Tolerance)](/knowledge/distributed-systems/fault-tolerance/)
+- [최종 일관성 (Eventual Consistency)](/knowledge/distributed-systems/eventual-consistency/)
+- [순차적 일관성 (Sequential Consistency)](/knowledge/distributed-systems/sequential-consistency/)
+- [복제 관리 (Replica Management)](/knowledge/distributed-systems/replica-management/)
+- [래프트 합의 (Raft Consensus)](/knowledge/distributed-systems/raft-consensus/)
+- [팍소스 (Paxos)](/knowledge/distributed-systems/paxos/)

@@ -1,5 +1,5 @@
 ---
-title: "Multicast Communication"
+title: "멀티캐스트 통신 (Multicast Communication)"
 description: "멀티캐스트 통신(Multicast Communication)은 데이터를 여러 수신자에게 동시에 전송하는 통신 방식이다"
 tags: ['Multicast', 'Flooding', 'Gossip', 'Epidemic', 'Application Level Multicast', 'Tree Based']
 created: 2026-02-16
@@ -65,8 +65,8 @@ sidebar:
 
 ## 관련 개념
 
-- [Gossip Protocol](/knowledge/distributed-systems/gossip-protocol/)
-- [Peer-to-Peer System](/knowledge/distributed-systems/peer-to-peer-system/)
-- [Publish-Subscribe](/knowledge/distributed-systems/publish-subscribe/)
-- [Totally Ordered Multicast](/knowledge/distributed-systems/totally-ordered-multicast/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
+- [가십 프로토콜 (Gossip Protocol)](/knowledge/distributed-systems/gossip-protocol/)
+- [P2P 시스템 (Peer-to-Peer System)](/knowledge/distributed-systems/peer-to-peer-system/)
+- [발행/구독 (Publish Subscribe)](/knowledge/distributed-systems/publish-subscribe/)
+- [전순서 멀티캐스트 (Totally Ordered Multicast)](/knowledge/distributed-systems/totally-ordered-multicast/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)

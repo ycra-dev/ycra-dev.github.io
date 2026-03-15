@@ -1,5 +1,5 @@
 ---
-title: "Lamport Logical Clock"
+title: "램포트 논리 시계 (Lamport Logical Clock)"
 description: "Lamport 논리 클럭은 분산 시스템에서 절대적인 물리 시간 없이도 이벤트 간의 인과적 순서를 추적하기 위해 Lamport(1978)가 제안한 논리적 시간 메커니즘이다"
 tags: ['Logical Clock', 'Lamport Clock', 'Happens Before', 'Event Ordering']
 created: 2026-02-16
@@ -56,7 +56,7 @@ class LamportClock:
 
 ## 관련 개념
 
-- [Vector Clock](/knowledge/distributed-systems/vector-clock/)
-- [Totally Ordered Multicast](/knowledge/distributed-systems/totally-ordered-multicast/)
-- [Clock Synchronization](/knowledge/distributed-systems/clock-synchronization/)
-- [Mutual Exclusion](/knowledge/distributed-systems/mutual-exclusion/)
+- [벡터 시계 (Vector Clock)](/knowledge/distributed-systems/vector-clock/)
+- [전순서 멀티캐스트 (Totally Ordered Multicast)](/knowledge/distributed-systems/totally-ordered-multicast/)
+- [시계 동기화 (Clock Synchronization)](/knowledge/distributed-systems/clock-synchronization/)
+- [상호 배제 (Mutual Exclusion)](/knowledge/distributed-systems/mutual-exclusion/)

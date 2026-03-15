@@ -1,5 +1,5 @@
 ---
-title: "Scalability"
+title: "확장성 (Scalability)"
 description: "확장성(Scalability)은 시스템의 크기, 지리적 범위, 또는 관리 도메인이 증가하더라도 성능 저하 없이 시스템이 작동할 수 있는 능력을 의미하는 분산 시스템의 핵심 설계 목표이다"
 tags: ['Scalability', 'Distributed Systems', 'Design Goals', 'Performance']
 created: 2026-02-16
@@ -46,7 +46,7 @@ sidebar:
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
-- [Content Delivery Network](/knowledge/distributed-systems/content-delivery-network/)
-- [Cloud Computing](/knowledge/distributed-systems/cloud-computing/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)
+- [CDN (콘텐츠 전송 네트워크)](/knowledge/distributed-systems/content-delivery-network/)
+- [클라우드 컴퓨팅 (Cloud Computing)](/knowledge/distributed-systems/cloud-computing/)

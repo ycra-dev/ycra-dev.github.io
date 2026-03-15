@@ -1,5 +1,5 @@
 ---
-title: "Distributed Hash Table"
+title: "분산 해시 테이블 (Distributed Hash Table)"
 description: "분산 해시 테이블(DHT, Distributed Hash Table)은 키-값 쌍을 다수의 노드에 분산 저장하고, 키를 통해 해당 값의 위치를 O(log N) 홉으로 효율적으로 찾을 수 있는 분산 시스템이다"
 tags: ['Dht', 'Chord', 'Peer To Peer', 'Consistent Hashing', 'Key Lookup']
 created: 2026-02-16
@@ -58,6 +58,6 @@ class ChordNode:
 
 ## 관련 개념
 
-- [Flat Naming](/knowledge/distributed-systems/flat-naming/)
-- [Name Resolution](/knowledge/distributed-systems/name-resolution/)
-- [Gossip Protocol](/knowledge/distributed-systems/gossip-protocol/)
+- [플랫 네이밍 (Flat Naming)](/knowledge/distributed-systems/flat-naming/)
+- [이름 해석 (Name Resolution)](/knowledge/distributed-systems/name-resolution/)
+- [가십 프로토콜 (Gossip Protocol)](/knowledge/distributed-systems/gossip-protocol/)

@@ -1,5 +1,5 @@
 ---
-title: "Openness"
+title: "개방성 (Openness)"
 description: "개방성(Openness)은 분산 시스템의 구성 요소가 다른 시스템에 쉽게 사용되거나 통합될 수 있도록 표준 규칙에 따라 서비스를 제공하는 설계 목표이다"
 tags: ['Openness', 'Interoperability', 'Extensibility', 'Idl', 'Distributed Systems']
 created: 2026-02-16
@@ -47,7 +47,7 @@ class CachePolicy:
 
 ## 관련 개념
 
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Middleware](/knowledge/distributed-systems/middleware/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
-- [Remote Procedure Call](/knowledge/distributed-systems/remote-procedure-call/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [미들웨어 (Middleware)](/knowledge/distributed-systems/middleware/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)
+- [RPC (원격 프로시저 호출)](/knowledge/distributed-systems/remote-procedure-call/)

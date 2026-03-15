@@ -1,5 +1,5 @@
 ---
-title: "RESTful Architecture"
+title: "RESTful 아키텍처 (RESTful Architecture)"
 description: "RESTful 아키텍처(Representational State Transfer)는 분산 시스템을 개별적으로 관리되는 리소스의 거대한 컬렉션으로 보고, 통일된 인터페이스(PUT, GET, POST, DELETE)를 통해 리소스를 조작하는 아키텍처 스타일이다"
 tags: ['REST', 'Resource Based', 'Web Architecture', 'Stateless', 'HTTP']
 created: 2026-02-16
@@ -50,7 +50,7 @@ DELETE https://s3.amazonaws.com/MyBucket/MyObject
 
 ## 관련 개념
 
-- [Service-Oriented Architecture](/knowledge/distributed-systems/service-oriented-architecture/)
-- [Layered Architecture](/knowledge/distributed-systems/layered-architecture/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
-- [Scalability](/knowledge/distributed-systems/scalability/)
+- [서비스 지향 아키텍처 (Service-Oriented Architecture)](/knowledge/distributed-systems/service-oriented-architecture/)
+- [계층화 아키텍처 (Layered Architecture)](/knowledge/distributed-systems/layered-architecture/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
+- [확장성 (Scalability)](/knowledge/distributed-systems/scalability/)

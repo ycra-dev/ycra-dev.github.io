@@ -1,5 +1,5 @@
 ---
-title: "DNS"
+title: "DNS (도메인 네임 시스템)"
 description: "DNS(Domain Name System)는 인터넷에서 호스트 이름과 메일 서버의 IP 주소를 조회하기 위한 대규모 분산 계층적 명명 시스템이다"
 tags: ['DNS', 'Domain Name System', 'Name Service', 'Dnssec', 'Internet']
 created: 2026-02-16
@@ -55,7 +55,7 @@ soling.cs.vu.nl. A    130.37.20.20
 
 ## 관련 개념
 
-- [Name Resolution](/knowledge/distributed-systems/name-resolution/)
-- [Flat Naming](/knowledge/distributed-systems/flat-naming/)
-- [NFS](/knowledge/distributed-systems/nfs/)
-- [Distribution Transparency](/knowledge/distributed-systems/distribution-transparency/)
+- [이름 해석 (Name Resolution)](/knowledge/distributed-systems/name-resolution/)
+- [플랫 네이밍 (Flat Naming)](/knowledge/distributed-systems/flat-naming/)
+- [NFS (네트워크 파일 시스템)](/knowledge/distributed-systems/nfs/)
+- [분산 투명성 (Distribution Transparency)](/knowledge/distributed-systems/distribution-transparency/)

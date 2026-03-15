@@ -1,5 +1,5 @@
 ---
-title: "Publish Subscribe"
+title: "발행/구독 (Publish Subscribe)"
 description: "발행-구독(Publish-Subscribe) 시스템은 발행자(publisher)가 이벤트를 생성하고, 구독자(subscriber)가 관심 있는 이벤트 유형을 선언하면, 시스템이 발행된 이벤트를 해당하는 구독자에게 자동으로 매칭 및 전달하는 통신 패러다임이다"
 tags: ['Publish Subscribe', 'Event Matching', 'Decoupling', 'Messaging']
 created: 2026-02-16
@@ -52,5 +52,5 @@ class PubSubBroker:
 
 ## 관련 개념
 
-- [Gossip Protocol](/knowledge/distributed-systems/gossip-protocol/)
-- [Distributed System](/knowledge/distributed-systems/distributed-system/)
+- [가십 프로토콜 (Gossip Protocol)](/knowledge/distributed-systems/gossip-protocol/)
+- [분산 시스템 (Distributed System)](/knowledge/distributed-systems/distributed-system/)
