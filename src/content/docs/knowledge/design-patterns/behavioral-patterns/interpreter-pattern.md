@@ -1,5 +1,5 @@
 ---
-title: "Interpreter Pattern"
+title: "인터프리터 패턴 (Interpreter Pattern)"
 description: "주어진 언어에 대해 문법을 위한 표현을 정의하고, 이 표현을 사용하여 해당 언어의 문장을 해석하는 인터프리터를 제공하는 패턴이다"
 tags: ['Interpreter', 'Behavioral Pattern', 'Grammar', 'Abstract Syntax Tree']
 created: 2026-02-16

@@ -1,5 +1,5 @@
 ---
-title: "State Pattern"
+title: "상태 패턴 (State Pattern)"
 description: "객체의 내부 상태가 변경될 때 행위를 변경할 수 있게 하는 패턴으로, 객체가 마치 자신의 클래스를 바꾸는 것처럼 보이게 한다"
 tags: ['State', 'Behavioral Pattern', 'State Machine', 'Objects For States']
 created: 2026-02-16

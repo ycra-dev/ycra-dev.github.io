@@ -1,5 +1,5 @@
 ---
-title: "Mediator Pattern"
+title: "중재자 패턴 (Mediator Pattern)"
 description: "객체들 간의 상호작용 방식을 캡슐화하는 객체를 정의하여, 객체들이 서로를 직접 참조하지 않도록 함으로써 느슨한 결합을 촉진하고 상호작용을 독립적으로 변경할 수 있게 하는 패턴이다"
 tags: ['Mediator', 'Behavioral Pattern', 'Loose Coupling', 'Centralized Communication']
 created: 2026-02-16

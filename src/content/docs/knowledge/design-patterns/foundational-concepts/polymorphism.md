@@ -1,5 +1,5 @@
 ---
-title: "Polymorphism"
+title: "다형성 (Polymorphism)"
 description: "동일한 인터페이스를 가진 객체들을 런타임에 상호 교체할 수 있는 객체지향의 핵심 메커니즘"
 tags: ['Polymorphism', 'Object Oriented', 'Dynamic Binding', 'Substitutability']
 created: 2026-02-16

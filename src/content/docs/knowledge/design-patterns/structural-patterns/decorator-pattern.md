@@ -1,5 +1,5 @@
 ---
-title: "Decorator Pattern"
+title: "데코레이터 패턴 (Decorator Pattern)"
 description: "Decorator 패턴은 객체에 동적으로 새로운 책임을 추가하며, 기능 확장을 위해 서브클래싱 대신 사용할 수 있는 유연한 대안을 제공한다"
 tags: ['Decorator', 'Structural Pattern', 'Wrapper', 'Dynamic Extension']
 created: 2026-02-16

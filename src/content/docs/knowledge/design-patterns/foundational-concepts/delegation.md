@@ -1,5 +1,5 @@
 ---
-title: "Delegation"
+title: "위임 (Delegation)"
 description: "요청을 받은 객체가 연산 수행을 다른 객체(위임자)에게 전달하여 합성으로 상속과 동일한 코드 재사용을 달성하는 기법"
 tags: ['Delegation', 'Composition', 'Forwarding', 'Runtime Behavior']
 created: 2026-02-16

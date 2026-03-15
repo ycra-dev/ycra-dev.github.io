@@ -1,5 +1,5 @@
 ---
-title: "Command Pattern"
+title: "커맨드 패턴 (Command Pattern)"
 description: "요청을 객체로 캡슐화하여, 서로 다른 요청으로 클라이언트를 매개변수화하고, 요청을 큐에 넣거나 로그로 기록하며, 실행 취소 가능한 연산을 지원하는 패턴이다"
 tags: ['Command', 'Behavioral Pattern', 'Encapsulated Request', 'Undo Redo']
 created: 2026-02-16

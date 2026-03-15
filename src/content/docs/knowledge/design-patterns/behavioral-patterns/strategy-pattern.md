@@ -1,5 +1,5 @@
 ---
-title: "Strategy Pattern"
+title: "전략 패턴 (Strategy Pattern)"
 description: "알고리즘의 가족을 정의하고 각각을 캡슐화하여 상호 교환 가능하게 만드는 패턴이다"
 tags: ['Strategy', 'Behavioral Pattern', 'Algorithm Encapsulation', 'Interchangeable']
 created: 2026-02-16

@@ -1,5 +1,5 @@
 ---
-title: "Recursive Composition"
+title: "재귀적 합성 (Recursive Composition)"
 description: "단순한 요소를 조합하여 점점 더 복잡한 요소를 구성하고, 이 과정을 반복하여 계층적 구조를 표현하는 기법"
 tags: ['Recursive Composition', 'Hierarchical Structure', 'Document Structure', 'Composite']
 created: 2026-02-16

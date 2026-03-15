@@ -1,5 +1,5 @@
 ---
-title: "Design Pattern"
+title: "디자인 패턴 (Design Pattern)"
 description: "소프트웨어 설계에서 반복적으로 발생하는 문제에 대한 재사용 가능한 솔루션을 체계적으로 기술한 것"
 tags: ['Design Pattern', 'Software Design', 'Reuse', 'Object Oriented']
 created: 2026-02-16

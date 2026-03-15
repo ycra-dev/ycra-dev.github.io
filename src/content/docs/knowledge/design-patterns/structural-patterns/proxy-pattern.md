@@ -1,5 +1,5 @@
 ---
-title: "Proxy Pattern"
+title: "프록시 패턴 (Proxy Pattern)"
 description: "Proxy 패턴은 다른 객체에 대한 대리자(surrogate) 또는 자리표시자(placeholder)를 제공하여 그 객체에 대한 접근을 제어한다"
 tags: ['Proxy', 'Structural Pattern', 'Surrogate', 'Access Control']
 created: 2026-02-16

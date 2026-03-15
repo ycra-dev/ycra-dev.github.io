@@ -1,5 +1,5 @@
 ---
-title: "Iterator Pattern"
+title: "이터레이터 패턴 (Iterator Pattern)"
 description: "내부 표현 방식을 노출하지 않으면서 집합체(aggregate) 객체의 요소들을 순차적으로 접근할 수 있는 방법을 제공하는 패턴이다"
 tags: ['Iterator', 'Behavioral Pattern', 'Traversal', 'Aggregate Access']
 created: 2026-02-16

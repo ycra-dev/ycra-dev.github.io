@@ -1,5 +1,5 @@
 ---
-title: "Template Method"
+title: "템플릿 메서드 패턴 (Template Method)"
 description: "알고리즘의 골격을 연산으로 정의하고, 일부 단계를 서브클래스로 미루는 패턴이다"
 tags: ['Template Method', 'Behavioral Pattern', 'Algorithm Skeleton', 'Hook Operations']
 created: 2026-02-16

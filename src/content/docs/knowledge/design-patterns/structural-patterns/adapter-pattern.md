@@ -1,5 +1,5 @@
 ---
-title: "Adapter Pattern"
+title: "어댑터 패턴 (Adapter Pattern)"
 description: "Adapter 패턴은 클래스의 인터페이스를 클라이언트가 기대하는 다른 인터페이스로 변환하여, 호환되지 않는 인터페이스를 가진 클래스들이 함께 동작할 수 있도록 한다"
 tags: ['Adapter', 'Structural Pattern', 'Wrapper', 'Interface Conversion']
 created: 2026-02-16

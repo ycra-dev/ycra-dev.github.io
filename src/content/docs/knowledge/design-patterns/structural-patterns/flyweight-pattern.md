@@ -1,5 +1,5 @@
 ---
-title: "Flyweight Pattern"
+title: "플라이웨이트 패턴 (Flyweight Pattern)"
 description: "Flyweight 패턴은 공유(sharing)를 통해 대량의 세밀한 객체(fine-grained objects)를 효율적으로 지원하며, 본질적 상태(intrinsic state)와 외부적 상태(extrinsic state)를 분리하여 메모리를 절약한다"
 tags: ['Flyweight', 'Structural Pattern', 'Sharing', 'Fine Grained Objects']
 created: 2026-02-16

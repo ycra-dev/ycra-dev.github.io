@@ -1,5 +1,5 @@
 ---
-title: "Abstract Factory"
+title: "추상 팩토리 패턴 (Abstract Factory)"
 description: "구체적인 클래스를 지정하지 않고 관련 또는 의존적인 객체 군(family)을 생성하기 위한 인터페이스를 제공하는 생성 패턴"
 tags: ['Abstract Factory', 'Creational Pattern', 'Family Of Products', 'Kit']
 created: 2026-02-16

@@ -1,5 +1,5 @@
 ---
-title: "Builder Pattern"
+title: "빌더 패턴 (Builder Pattern)"
 description: "복잡한 객체의 구성(construction)과 표현(representation)을 분리하여, 동일한 구성 과정으로 서로 다른 표현을 생성할 수 있게 하는 생성 패턴"
 tags: ['Builder', 'Creational Pattern', 'Step By Step Construction', 'Director']
 created: 2026-02-16

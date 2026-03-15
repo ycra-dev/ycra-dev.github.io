@@ -1,5 +1,5 @@
 ---
-title: "Singleton"
+title: "싱글턴 패턴 (Singleton)"
 description: "클래스의 인스턴스가 오직 하나만 존재하도록 보장하고, 그 인스턴스에 대한 전역 접근점을 제공하는 생성 패턴"
 tags: ['Singleton', 'Creational Pattern', 'Global Access', 'Unique Instance']
 created: 2026-02-16

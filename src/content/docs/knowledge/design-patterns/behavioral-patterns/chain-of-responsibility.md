@@ -1,5 +1,5 @@
 ---
-title: "Chain of Responsibility"
+title: "책임 연쇄 패턴 (Chain of Responsibility)"
 description: "요청의 발신자와 수신자 사이의 결합을 피하기 위해, 여러 객체에게 요청을 처리할 기회를 부여하는 패턴이다"
 tags: ['Chain Of Responsibility', 'Behavioral Pattern', 'Request Handling', 'Decoupling']
 created: 2026-02-16

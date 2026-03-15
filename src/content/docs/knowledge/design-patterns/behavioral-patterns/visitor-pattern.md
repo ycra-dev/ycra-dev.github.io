@@ -1,5 +1,5 @@
 ---
-title: "Visitor Pattern"
+title: "비지터 패턴 (Visitor Pattern)"
 description: "객체 구조의 요소에 대해 수행할 연산을 표현하는 패턴이다"
 tags: ['Visitor', 'Behavioral Pattern', 'Double Dispatch', 'Open For Extension']
 created: 2026-02-16

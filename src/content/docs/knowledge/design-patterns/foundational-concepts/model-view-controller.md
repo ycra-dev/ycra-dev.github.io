@@ -1,5 +1,5 @@
 ---
-title: "Model-View-Controller"
+title: "MVC 패턴 (Model-View-Controller)"
 description: "사용자 인터페이스를 Model(데이터), View(화면 표현), Controller(입력 처리)의 세 가지 객체로 분리하는 아키텍처 패턴"
 tags: ['MVC', 'Architectural Pattern', 'User Interface', 'Decoupling']
 created: 2026-02-16

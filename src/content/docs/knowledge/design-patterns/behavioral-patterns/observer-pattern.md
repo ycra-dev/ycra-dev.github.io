@@ -1,5 +1,5 @@
 ---
-title: "Observer Pattern"
+title: "옵저버 패턴 (Observer Pattern)"
 description: "객체 사이에 일대다(one-to-many) 의존 관계를 정의하여, 하나의 객체 상태가 변경될 때 모든 의존 객체에게 자동으로 통지하고 갱신하는 패턴이다"
 tags: ['Observer', 'Behavioral Pattern', 'Publish Subscribe', 'Event Notification']
 created: 2026-02-16

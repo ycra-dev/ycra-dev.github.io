@@ -1,5 +1,5 @@
 ---
-title: "Composite Pattern"
+title: "컴포지트 패턴 (Composite Pattern)"
 description: "Composite 패턴은 객체들을 트리 구조로 구성하여 부분-전체 계층(part-whole hierarchy)을 표현하며, 클라이언트가 개별 객체와 복합 객체를 동일하게 다룰 수 있게 한다"
 tags: ['Composite', 'Structural Pattern', 'Tree Structure', 'Part Whole Hierarchy']
 created: 2026-02-16

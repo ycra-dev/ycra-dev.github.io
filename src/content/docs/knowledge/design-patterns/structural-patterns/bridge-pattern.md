@@ -1,5 +1,5 @@
 ---
-title: "Bridge Pattern"
+title: "브릿지 패턴 (Bridge Pattern)"
 description: "Bridge 패턴은 추상화(abstraction)를 구현(implementation)으로부터 분리하여 두 가지가 독립적으로 변할 수 있도록 한다"
 tags: ['Bridge', 'Structural Pattern', 'Abstraction Implementation', 'Handle Body']
 created: 2026-02-16

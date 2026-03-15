@@ -1,5 +1,5 @@
 ---
-title: "Memento Pattern"
+title: "메멘토 패턴 (Memento Pattern)"
 description: "캡슐화를 위반하지 않으면서 객체의 내부 상태를 포착하고 외부화하여, 나중에 해당 객체를 이 상태로 복원할 수 있게 하는 패턴이다"
 tags: ['Memento', 'Behavioral Pattern', 'State Capture', 'Undo']
 created: 2026-02-16

@@ -1,5 +1,5 @@
 ---
-title: "Facade Pattern"
+title: "퍼사드 패턴 (Facade Pattern)"
 description: "Facade 패턴은 서브시스템의 인터페이스 집합에 대한 통합된 상위 수준 인터페이스를 제공하여, 서브시스템을 더 쉽게 사용할 수 있도록 한다"
 tags: ['Facade', 'Structural Pattern', 'Subsystem', 'Simplified Interface']
 created: 2026-02-16

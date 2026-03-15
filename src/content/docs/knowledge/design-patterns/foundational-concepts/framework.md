@@ -1,5 +1,5 @@
 ---
-title: "Framework"
+title: "프레임워크 (Framework)"
 description: "특정 도메인의 소프트웨어를 위한 재사용 가능한 설계를 구성하는 협력 클래스들의 집합으로, 설계 재사용을 강조한다"
 tags: ['Framework', 'Design Reuse', 'Inversion Of Control', 'Architecture']
 created: 2026-02-16

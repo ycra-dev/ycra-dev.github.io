@@ -1,5 +1,5 @@
 ---
-title: "Object Composition"
+title: "객체 합성 (Object Composition)"
 description: "다른 객체에 대한 참조를 통해 런타임에 동적으로 기능을 조합하는 재사용 기법으로, 블랙박스 재사용이라고도 한다"
 tags: ['Composition', 'Black Box Reuse', 'Has A', 'Runtime Flexibility']
 created: 2026-02-16

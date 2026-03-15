@@ -1,5 +1,5 @@
 ---
-title: "Abstract Class"
+title: "추상 클래스 (Abstract Class)"
 description: "하위 클래스들의 공통 인터페이스를 정의하는 것이 주 목적인 클래스로, 일부 또는 전부의 구현을 하위 클래스에 위임하며 직접 인스턴스화할 수 없다"
 tags: ['Abstract Class', 'Interface', 'Pure Virtual', 'Subtyping']
 created: 2026-02-16

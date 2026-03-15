@@ -1,5 +1,5 @@
 ---
-title: "Encapsulation"
+title: "캡슐화 (Encapsulation)"
 description: "객체의 내부 상태와 구현을 외부로부터 숨기고, 오직 정의된 인터페이스를 통해서만 접근을 허용하는 원칙"
 tags: ['Encapsulation', 'Information Hiding', 'Object Oriented', 'Modularity']
 created: 2026-02-16

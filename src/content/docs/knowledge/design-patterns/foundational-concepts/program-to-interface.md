@@ -1,5 +1,5 @@
 ---
-title: "Program to Interface"
+title: "인터페이스에 맞춘 프로그래밍 (Program to Interface)"
 description: "구체 클래스가 아닌 추상 클래스나 인터페이스에 의존하여 프로그래밍함으로써 구현과의 결합을 최소화하는 설계 원칙"
 tags: ['Program To Interface', 'Design Principle', 'Abstraction', 'Decoupling']
 created: 2026-02-16

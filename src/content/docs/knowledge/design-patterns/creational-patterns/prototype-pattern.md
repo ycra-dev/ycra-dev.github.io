@@ -1,5 +1,5 @@
 ---
-title: "Prototype Pattern"
+title: "프로토타입 패턴 (Prototype Pattern)"
 description: "원형(prototype) 인스턴스를 사용하여 생성할 객체의 종류를 명시하고, 이 원형을 복제(clone)하여 새로운 객체를 생성하는 생성 패턴"
 tags: ['Prototype', 'Creational Pattern', 'Cloning', 'Deep Copy']
 created: 2026-02-16

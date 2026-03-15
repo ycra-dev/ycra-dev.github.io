@@ -1,5 +1,5 @@
 ---
-title: "Factory Method"
+title: "팩토리 메서드 패턴 (Factory Method)"
 description: "객체 생성을 위한 인터페이스를 정의하되, 어떤 클래스를 인스턴스화할지는 서브클래스가 결정하게 하여 인스턴스화를 서브클래스에 위임하는 생성 패턴"
 tags: ['Factory Method', 'Creational Pattern', 'Virtual Constructor', 'Class Pattern']
 created: 2026-02-16

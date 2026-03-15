@@ -1,5 +1,5 @@
 ---
-title: "Transparent Enclosure"
+title: "투명한 감싸기 (Transparent Enclosure)"
 description: "단일 컴포넌트 합성과 호환 인터페이스를 결합하여, 클라이언트가 원본 컴포넌트와 장식된 컴포넌트를 구별하지 못하게 하는 기법"
 tags: ['Transparent Enclosure', 'Embellishment', 'Monoglyph', 'Single Component Composition']
 created: 2026-02-16

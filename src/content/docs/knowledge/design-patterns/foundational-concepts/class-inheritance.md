@@ -1,5 +1,5 @@
 ---
-title: "Class Inheritance"
+title: "클래스 상속 (Class Inheritance)"
 description: "기존 클래스의 구현을 재사용하여 새로운 클래스를 정의하는 컴파일 타임 메커니즘으로, 화이트박스 재사용이라고도 한다"
 tags: ['Inheritance', 'White Box Reuse', 'Subclassing', 'Code Reuse']
 created: 2026-02-16
