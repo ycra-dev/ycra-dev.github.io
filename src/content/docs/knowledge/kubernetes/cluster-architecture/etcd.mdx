@@ -3,12 +3,14 @@ title: "etcd"
 description: "etcd는 Kubernetes 클러스터의 모든 API 객체를 영구적으로 저장하는 분산 키-값 데이터스토어이다"
 tags: ['Kubernetes', 'Etcd', 'Distributed Datastore', 'Control Plane', 'Persistence']
 created: 2026-02-12
-updated: 2026-02-17
-draft: true
+updated: 2026-03-15
+draft: false
 slug: knowledge/kubernetes/etcd
 sidebar:
   order: 6
 ---
+
+import Mermaid from '../../../../../components/Mermaid.astro';
 
 ## 핵심 개념
 
@@ -30,20 +32,13 @@ etcd의 안정성은 클러스터 전체의 안정성에 직결되므로, 프로
 
 ## 예시
 
-```
-데이터 저장 흐름:
-
-kubectl create deployment kiada --image=luksa/kiada:0.1
-    |
-    v
-API Server (검증)
-    |
-    v
-etcd (객체 데이터 영구 저장)
-    |
-    v
-API Server --> 컨트롤러, 스케줄러 등에 알림
-```
+<Mermaid diagram={`
+graph TD
+    kubectl["kubectl create deployment web-server --image=nginx:1.25"] --> API["API Server (검증)"]
+    API --> etcd["etcd (객체 데이터 영구 저장)"]
+    API --> Controller["컨트롤러"]
+    API --> Scheduler["스케줄러"]
+`} />
 
 etcd에 저장되는 데이터의 예:
 - Node 객체: 클러스터 노드의 구성 및 상태
@@ -57,3 +52,4 @@ etcd에 저장되는 데이터의 예:
 - [컨트롤 플레인 (Control Plane)](/knowledge/kubernetes/control-plane/) - etcd가 속한 제어 영역
 - [이벤트 객체 (Event Object)](/knowledge/kubernetes/event-object/) - etcd 부담을 줄이기 위해 일정 시간 후 삭제되는 객체
 - [오브젝트 매니페스트 (Object Manifest)](/knowledge/kubernetes/object-manifest/) - etcd에 저장되는 객체의 형식
+- [래프트 합의 (Raft Consensus)](/knowledge/distributed-systems/raft-consensus/) - etcd가 데이터 일관성을 위해 사용하는 분산 합의 알고리즘

@@ -3,12 +3,14 @@ title: "Kube Proxy"
 description: "Kube Proxy(Kubernetes Service Proxy)는 각 워커 노드에서 실행되는 컴포넌트로, 애플리케이션 인스턴스 간의 네트워크 트래픽을 로드 밸런싱하는 역할을 담당한다"
 tags: ['Kubernetes', 'Kube Proxy', 'Networking', 'Load Balancing', 'Service']
 created: 2026-02-12
-updated: 2026-02-17
-draft: true
+updated: 2026-03-15
+draft: false
 slug: knowledge/kubernetes/kube-proxy
 sidebar:
   order: 10
 ---
+
+import Mermaid from '../../../../../components/Mermaid.astro';
 
 ## 핵심 개념
 
@@ -28,26 +30,24 @@ Service의 로드 밸런싱 동작:
 
 ## 예시
 
-```
-트래픽 흐름:
-
-외부 요청 --> Load Balancer --> Node Port (30838)
-                                    |
-                                Kube Proxy가 설정한 규칙
-                                    |
-                        +-----+-----+-----+
-                        |           |           |
-                     Pod A       Pod B       Pod C
-```
+<Mermaid diagram={`
+graph TD
+    Client["외부 요청"] --> LB["Load Balancer"]
+    LB --> NP["Node Port (30838)"]
+    NP --> Rules["Kube Proxy가 설정한 iptables/IPVS 규칙"]
+    Rules --> PodA["Pod A"]
+    Rules --> PodB["Pod B"]
+    Rules --> PodC["Pod C"]
+`} />
 
 ```bash
 # Service를 통한 로드 밸런싱 확인
 $ curl 35.246.179.22:8080
-Kiada version 0.1. Request processed by "kiada-9d785b578-58vhc"
+web-server version 1.0. Request processed by "web-server-9d785b578-58vhc"
 $ curl 35.246.179.22:8080
-Kiada version 0.1. Request processed by "kiada-9d785b578-p449x"
+web-server version 1.0. Request processed by "web-server-9d785b578-p449x"
 $ curl 35.246.179.22:8080
-Kiada version 0.1. Request processed by "kiada-9d785b578-jmnj8"
+web-server version 1.0. Request processed by "web-server-9d785b578-jmnj8"
 # 매 요청마다 다른 Pod가 응답 - Kube Proxy에 의한 로드 밸런싱
 ```
 

@@ -3,8 +3,8 @@ title: "쿠버네티스 API 서버 (Kubernetes API Server)"
 description: "Kubernetes API Server는 RESTful Kubernetes API를 외부에 노출하는 Control Plane의 핵심 컴포넌트이다"
 tags: ['Kubernetes', 'API Server', 'Control Plane', 'Restful API']
 created: 2026-02-12
-updated: 2026-02-17
-draft: true
+updated: 2026-03-15
+draft: false
 slug: knowledge/kubernetes/api-server
 sidebar:
   order: 5
@@ -41,7 +41,7 @@ $ curl http://127.0.0.1:8001/api/v1/namespaces/default/pods
 
 # kubectl을 통한 일반적인 접근
 $ kubectl get nodes
-$ kubectl create deployment kiada --image=luksa/kiada:0.1
+$ kubectl create deployment web-server --image=nginx:1.25
 ```
 
 API Server는 HTTP 기반 RESTful API이므로 표준 HTTP 메서드를 사용한다:

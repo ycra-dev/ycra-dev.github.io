@@ -3,12 +3,14 @@ title: "수평 확장 (Horizontal Scaling)"
 description: "수평 확장(Horizontal Scaling)은 애플리케이션의 인스턴스(복제본) 수를 늘리거나 줄여 시스템의 처리 용량을 조절하는 방식이다"
 tags: ['Kubernetes', 'Scaling', 'Horizontal', 'Autoscaling', 'Performance']
 created: 2026-02-12
-updated: 2026-02-17
-draft: true
+updated: 2026-03-15
+draft: false
 slug: knowledge/kubernetes/horizontal-scaling
 sidebar:
   order: 11
 ---
+
+import Mermaid from '../../../../../components/Mermaid.astro';
 
 ## 핵심 개념
 
@@ -25,8 +27,8 @@ Kubernetes의 수평 확장 방식:
 3. **클러스터 수준 확장**: 클라우드 환경에서 노드가 부족하면 클라우드 프로바이더 API를 통해 추가 노드를 자동 프로비저닝
 
 수평 확장 vs 수직 확장:
-- **수직 확장**: 과거 모놀리식 아키텍처에서 주로 사용. 더 강력한 하드웨어로 교체
-- **수평 확장**: 마이크로서비스 아키텍처에서 선호. 여러 인스턴스에 부하 분산
+- **수직 확장(Vertical Scaling)**: 과거 모놀리식 아키텍처에서 주로 사용. 더 강력한 하드웨어로 교체
+- **수평 확장(Horizontal Scaling)**: 마이크로서비스 아키텍처에서 선호. 여러 인스턴스에 부하 분산
 
 전제조건:
 - 애플리케이션 자체가 수평 확장을 지원해야 함 (stateless 설계 등)
@@ -36,43 +38,43 @@ Kubernetes의 수평 확장 방식:
 
 ```bash
 # 수동 수평 확장 (1개 -> 3개)
-$ kubectl scale deployment kiada --replicas=3
-deployment.apps/kiada scaled
+$ kubectl scale deployment web-server --replicas=3
+deployment.apps/web-server scaled
 
 # 결과 확인
 $ kubectl get deploy
-NAME    READY   UP-TO-DATE   AVAILABLE   AGE
-kiada   3/3     3            3           18m
+NAME         READY   UP-TO-DATE   AVAILABLE   AGE
+web-server   3/3     3            3           18m
 
 # 수평 축소 (3개 -> 1개)
-$ kubectl scale deployment kiada --replicas=1
-
-# GKE에서 클러스터 노드 수 확장
-$ gcloud container clusters resize kiada --size 5
-
-# 비용 절감을 위해 노드 0개로 축소 (객체는 유지됨)
-$ gcloud container clusters resize kiada --size 0
+$ kubectl scale deployment web-server --replicas=1
 ```
 
-```
 수평 확장 전후:
 
-[확장 전]                    [확장 후]
-Service                     Service
-   |                           |
- Pod A                 Pod A  Pod B  Pod C
-(부하 100%)           (부하 33%) (33%) (33%)
-```
+<Mermaid diagram={`
+graph LR
+    subgraph After["확장 후"]
+        S2["Service"] --> PB["Pod A (33%)"]
+        S2 --> PC["Pod B (33%)"]
+        S2 --> PD["Pod C (33%)"]
+    end
+    subgraph Before["확장 전"]
+        S1["Service"] --> PA["Pod A (부하 100%)"]
+    end
+`} />
 
 클라우드 환경에서의 자동 확장 흐름:
-```
-부하 증가 -> HPA가 감지 -> 복제본 수 증가
-                            |
-                     노드 용량 부족?
-                            |
-                  클러스터 오토스케일러가
-                  클라우드에 노드 추가 요청
-```
+
+<Mermaid diagram={`
+graph TD
+    Load["부하 증가"] --> HPA["HPA가 감지"]
+    HPA --> Scale["복제본 수 증가"]
+    Scale --> Check{"노드 용량 부족?"}
+    Check -->|No| Done["스케줄링 완료"]
+    Check -->|Yes| CA["클러스터 오토스케일러가\n클라우드에 노드 추가 요청"]
+    CA --> Done
+`} />
 
 ## 관련 개념
 

@@ -3,7 +3,7 @@ title: "선언적 모델 (Declarative Model)"
 description: "쿠버네티스의 선언적 모델(Declarative Model)은 사용자가 시스템의 원하는 상태(desired state)를 기술하면 쿠버네티스가 현재 상태를 원하는 상태에 맞추어 자동으로 조정하는 방식이다"
 tags: ['Kubernetes', 'Declarative', 'Desired State', 'Configuration']
 created: 2026-02-12
-updated: 2026-03-11
+updated: 2026-03-15
 draft: false
 slug: knowledge/kubernetes/declarative-model
 sidebar:
@@ -35,22 +35,22 @@ sidebar:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kiada
+  name: web-server
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: kiada
+      app: web-server
   template:
     spec:
       containers:
-      - name: kiada
-        image: luksa/kiada:0.1
+      - name: web-server
+        image: nginx:1.25
 ```
 
 ```bash
 # 명령적 방식 - "복제본을 3개로 늘려라"
-kubectl scale deployment kiada --replicas=3
+kubectl scale deployment web-server --replicas=3
 # 실제로 이 명령도 내부적으로는 Deployment 객체의 replicas 필드를 3으로 변경하는 것
 ```
 
