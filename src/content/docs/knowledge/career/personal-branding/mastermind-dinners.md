@@ -4,7 +4,7 @@ description: "자신이 주최자가 되어 특정 지역의 저명한 인사들
 tags: ["Career", "PersonalBranding", "Networking", "Hosting"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/mastermind-dinners
 sidebar:
   order: 20

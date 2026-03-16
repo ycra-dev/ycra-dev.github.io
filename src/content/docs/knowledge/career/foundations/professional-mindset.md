@@ -4,7 +4,7 @@ description: "프로페셔널은 책임을 진지하게 받아들이고, 옳은 
 tags: ["Career", "Professionalism", "Mindset"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/professional-mindset
 sidebar:
   order: 6

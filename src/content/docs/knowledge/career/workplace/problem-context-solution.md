@@ -4,7 +4,7 @@ description: "효과적 문서 소통의 핵심 구조로, 문제 제시 → 맥
 tags: ["Career", "Workplace", "Communication", "Writing"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/problem-context-solution
 sidebar:
   order: 210

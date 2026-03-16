@@ -4,7 +4,7 @@ description: "매일의 작은 행동을 반복하면 장기적으로 큰 성과
 tags: ["Career", "Productivity", "Discipline"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/daily-routine
 sidebar:
   order: 11

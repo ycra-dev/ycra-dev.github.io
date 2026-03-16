@@ -4,7 +4,7 @@ description: "제한된 시간을 가장 높은 레버리지 활동에 지속적
 tags: ["Career", "Productivity", "Time-Management", "Effectiveness"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/prioritization
 sidebar:
   order: 207

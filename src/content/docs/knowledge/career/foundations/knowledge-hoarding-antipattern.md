@@ -4,7 +4,7 @@ description: "고용 안정을 위해 의도적으로 자신만 아는 시스템
 tags: ["Career", "Foundations", "Antipattern", "TeamDynamics"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/knowledge-hoarding-antipattern
 sidebar:
   order: 229

@@ -4,7 +4,7 @@ description: "소프트웨어 개발자가 취업할 회사를 선택할 때 규
 tags: ["Career", "Job Search", "Company Culture"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/company-size-selection
 sidebar:
   order: 5

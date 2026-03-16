@@ -4,7 +4,7 @@ description: "퇴직 시 현 고용주에게 최소 2주 전에 알리는 직업
 tags: ["Career", "Job Change", "Professionalism", "Exit Strategy"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/two-weeks-notice
 sidebar:
   order: 124

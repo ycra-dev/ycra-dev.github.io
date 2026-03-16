@@ -4,7 +4,7 @@ description: "생각과 믿음이 신체적 행동과 현실의 결과에 직접
 tags: ["Career", "Mindset", "Health"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/mind-body-connection
 sidebar:
   order: 17

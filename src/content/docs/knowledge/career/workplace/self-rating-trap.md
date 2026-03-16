@@ -4,7 +4,7 @@ description: "인사 평가에서 자기 자신을 평가하도록 요구받는 
 tags: ["Career", "Workplace", "Performance Review", "Self-Advocacy"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/self-rating-trap
 sidebar:
   order: 111

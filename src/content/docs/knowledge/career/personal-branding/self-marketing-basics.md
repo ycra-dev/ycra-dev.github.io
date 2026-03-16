@@ -4,7 +4,7 @@ description: "마케팅은 재능의 증폭기다. 10년 이상 경력자들은 
 tags: ["Career", "Marketing", "Personal Branding"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/self-marketing-basics
 sidebar:
   order: 1

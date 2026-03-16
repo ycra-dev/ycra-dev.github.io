@@ -4,7 +4,7 @@ description: "직장에서 매일 보여주는 행동 양식으로, '약속을 �
 tags: ["Career", "Foundations", "Workplace", "Behavior"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/professionalism
 sidebar:
   order: 206

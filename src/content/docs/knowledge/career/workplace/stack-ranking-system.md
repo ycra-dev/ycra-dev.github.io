@@ -4,7 +4,7 @@ description: "전체 직원을 상위 10%, 80%, 하위 10%로 강제 분류하�
 tags: ["Career", "Workplace", "Performance Review", "Corporate Culture", "HR Policy"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/stack-ranking-system
 sidebar:
   order: 110

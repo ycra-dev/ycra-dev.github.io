@@ -4,7 +4,7 @@ description: "코드 변경이 자동화된 테스트를 통과하면 사람의 
 tags: ["Career", "Productivity", "DevOps", "Engineering-Practice"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/continuous-deployment
 sidebar:
   order: 211

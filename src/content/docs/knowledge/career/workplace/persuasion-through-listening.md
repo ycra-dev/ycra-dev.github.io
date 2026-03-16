@@ -4,7 +4,7 @@ description: "설득의 핵심은 말하기가 아니라 경청이며, 상대방
 tags: ["Career", "Workplace", "Persuasion", "Communication"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/persuasion-through-listening
 sidebar:
   order: 213

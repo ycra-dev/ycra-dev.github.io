@@ -4,7 +4,7 @@ description: "야근이 경력 발전에 도움이 될 것이라는 잘못된 �
 tags: ["Career", "Workplace", "Work-Life Balance", "Burnout", "Productivity"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/overtime-trap
 sidebar:
   order: 105

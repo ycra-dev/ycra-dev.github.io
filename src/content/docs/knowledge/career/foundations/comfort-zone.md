@@ -4,7 +4,7 @@ description: "불편한 상황에 자신을 노출시켜 성장하는 것으로,
 tags: ["Career", "Mindset", "Growth"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/comfort-zone
 sidebar:
   order: 13

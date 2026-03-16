@@ -4,7 +4,7 @@ description: "블로그나 콘텐츠 채널을 정해진 일정에 따라 꾸준
 tags: ["Career", "PersonalBranding", "Blogging", "Discipline"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/content-consistency
 sidebar:
   order: 25

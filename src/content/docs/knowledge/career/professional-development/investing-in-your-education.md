@@ -4,7 +4,7 @@ description: "기술 서적, 온라인 강좌, 자격증, 세미나에 지속적
 tags: ["Career", "ProfessionalDevelopment", "ContinuousLearning", "Education"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/investing-in-your-education
 sidebar:
   order: 13

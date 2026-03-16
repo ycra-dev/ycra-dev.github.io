@@ -4,7 +4,7 @@ description: "모든 사람이 가진 무의식적 편견의 존재를 인식하
 tags: ["Career", "Workplace", "Psychology", "Diversity"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/unconscious-bias-awareness
 sidebar:
   order: 224

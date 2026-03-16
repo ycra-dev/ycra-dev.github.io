@@ -4,7 +4,7 @@ description: "부채는 이자를 통해 다른 사람을 부유하게 만드는
 tags: ["Career", "Finance", "Entrepreneurship"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/entrepreneurship/dangers-of-debt
 sidebar:
   order: 16

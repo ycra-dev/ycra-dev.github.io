@@ -4,7 +4,7 @@ description: "구직 활동을 영업 파이프라인처럼 관리하여 리드(
 tags: ["Career", "Job Search", "Strategy", "Process"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/job-search-sales-pipeline
 sidebar:
   order: 100

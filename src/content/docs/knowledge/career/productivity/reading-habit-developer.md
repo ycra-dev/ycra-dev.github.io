@@ -4,7 +4,7 @@ description: "기술 서적과 자기계발 서적을 매일의 루틴으로 읽
 tags: ["Career", "Productivity", "Reading", "ContinuousLearning"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/reading-habit-developer
 sidebar:
   order: 218

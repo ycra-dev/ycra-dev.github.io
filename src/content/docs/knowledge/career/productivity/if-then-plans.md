@@ -4,7 +4,7 @@ description: "특정 상황(if)에서 특정 행동(then)을 수행하겠다고 
 tags: ["Career", "Productivity", "Psychology", "Habit-Formation"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/if-then-plans
 sidebar:
   order: 210

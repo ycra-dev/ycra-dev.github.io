@@ -4,7 +4,7 @@ description: "최소한의 감독과 지시 없이도 스스로 필요한 일을
 tags: ["Career", "Work Ethic", "Self-Management", "Professional Skills"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/self-directed-work
 sidebar:
   order: 23

@@ -4,7 +4,7 @@ description: "조직에서 승진하기 위한 핵심 전략은 주어지기를 
 tags: ["Career", "Leadership", "Workplace"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/taking-responsibility
 sidebar:
   order: 5

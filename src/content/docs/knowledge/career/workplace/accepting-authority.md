@@ -4,7 +4,7 @@ description: "상사의 권위를 자발적으로 수용하는 것은 약함이 
 tags: ["Career", "Leadership", "Workplace"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/accepting-authority
 sidebar:
   order: 10

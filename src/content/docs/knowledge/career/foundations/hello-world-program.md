@@ -4,7 +4,7 @@ description: "새로운 프로그래밍 언어를 배울 때 프로그램 빌드
 tags: ["Career", "Programming Basics", "First Program", "Beginner"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/hello-world-program
 sidebar:
   order: 233

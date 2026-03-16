@@ -4,7 +4,7 @@ description: "보유 기술이 현재 시장에서 얼마나 수요가 있는지
 tags: ["Career", "ProfessionalDevelopment", "Skills", "MarketValue"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/skill-relevance
 sidebar:
   order: 30

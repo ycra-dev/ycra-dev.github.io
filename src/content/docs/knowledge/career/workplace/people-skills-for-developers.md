@@ -4,7 +4,7 @@ description: "코드보다 사람과의 상호작용에 더 많은 시간을 보
 tags: ["Career", "People Skills", "Workplace"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/people-skills-for-developers
 sidebar:
   order: 1

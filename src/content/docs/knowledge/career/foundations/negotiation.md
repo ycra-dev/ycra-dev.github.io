@@ -4,7 +4,7 @@ description: "건강한 협상은 양측이 무언가를 얻고 무언가를 잃
 tags: ["Career", "Foundations", "Communication", "Business"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/negotiation
 sidebar:
   order: 216

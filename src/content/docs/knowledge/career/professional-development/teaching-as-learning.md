@@ -4,7 +4,7 @@ description: "가르침은 표면적 학습을 진정한 이해로 전환하는 
 tags: ["Career", "Learning", "Professional Development"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/teaching-as-learning
 sidebar:
   order: 10

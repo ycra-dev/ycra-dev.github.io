@@ -4,7 +4,7 @@ description: "'누가 무엇을 했는지'가 명확한 문장 구조로, 효과
 tags: ["Career", "Workplace", "Writing", "Communication"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/active-voice
 sidebar:
   order: 209

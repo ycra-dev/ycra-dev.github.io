@@ -4,7 +4,7 @@ description: "팀원 간 적극적인 정보 공유와 협력을 통해 팀의 �
 tags: ["Career", "Workplace", "Teamwork", "Communication", "Collaboration"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/team-communication-and-collaboration
 sidebar:
   order: 115

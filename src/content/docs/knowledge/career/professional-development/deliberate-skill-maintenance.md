@@ -4,7 +4,7 @@ description: "편안함에 안주하지 않고 매일 코딩하고 새로운 것
 tags: ["Career", "ProfessionalDevelopment", "ContinuousLearning", "Coding"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/deliberate-skill-maintenance
 sidebar:
   order: 16

@@ -4,7 +4,7 @@ description: "어떤 조직에서든 가장 가치 있는 사람은 해결책을
 tags: ["Career", "Leadership", "Workplace"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/being-problem-solver
 sidebar:
   order: 7

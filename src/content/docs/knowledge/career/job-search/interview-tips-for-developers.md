@@ -4,7 +4,7 @@ description: "소프트웨어 개발자 채용 면접에서 기술 능력과 소
 tags: ["Career", "Interview", "Job Search", "Communication"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/interview-tips-for-developers
 sidebar:
   order: 111

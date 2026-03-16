@@ -4,7 +4,7 @@ description: "많은 활동에서 80%의 결과가 20%의 노력에서 나온다
 tags: ["Career", "Foundations", "Productivity", "Prioritization"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/pareto-principle
 sidebar:
   order: 221

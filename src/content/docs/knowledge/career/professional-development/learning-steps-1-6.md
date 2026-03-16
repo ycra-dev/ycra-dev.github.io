@@ -4,7 +4,7 @@ description: "10단계 학습법의 전반부. 큰 그림 파악, 범위 결정,
 tags: ["Career", "Learning", "Professional Development"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/learning-steps-1-6
 sidebar:
   order: 6

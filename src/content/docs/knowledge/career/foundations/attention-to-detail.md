@@ -4,7 +4,7 @@ description: "뇌의 자동 필터링 시스템을 의식적으로 제어하여 
 tags: ["Career", "Foundations", "Focus", "Professionalism"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/attention-to-detail
 sidebar:
   order: 207

@@ -4,7 +4,7 @@ description: "8시간 근무 중 실제 생산적인 시간은 약 4시간이다
 tags: ["Career", "Productivity", "Time Management"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/real-work-hours
 sidebar:
   order: 14

@@ -4,7 +4,7 @@ description: "성공적인 셀프 마케팅의 핵심은 자기 홍보가 아니
 tags: ["Career", "Marketing", "Personal Branding"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/giving-value-first
 sidebar:
   order: 9

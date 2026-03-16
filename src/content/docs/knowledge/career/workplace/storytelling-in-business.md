@@ -4,7 +4,7 @@ description: "효과적인 비즈니스 소통은 독자나 청자를 영웅(her
 tags: ["Career", "Workplace", "Communication", "Writing"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/storytelling-in-business
 sidebar:
   order: 208

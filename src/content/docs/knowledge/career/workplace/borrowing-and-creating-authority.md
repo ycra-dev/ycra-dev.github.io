@@ -4,7 +4,7 @@ description: "자신의 아이디어에 신뢰성을 부여하기 위해 외부 
 tags: ["Career", "Workplace", "Authority", "Credibility", "Personal Branding"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/borrowing-and-creating-authority
 sidebar:
   order: 120

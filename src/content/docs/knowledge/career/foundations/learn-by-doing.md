@@ -4,7 +4,7 @@ description: "책이나 영상으로만 지식을 습득하는 것이 아니라,
 tags: ["Career", "Learning", "Practice", "Self-Education"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/learn-by-doing
 sidebar:
   order: 228

@@ -4,7 +4,7 @@ description: "시간당 요율이 아닌 고객에게 제공하는 실질적 가
 tags: ["Career", "Pricing", "Entrepreneurship"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/entrepreneurship/value-based-pricing
 sidebar:
   order: 4

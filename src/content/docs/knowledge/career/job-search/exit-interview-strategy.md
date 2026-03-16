@@ -4,7 +4,7 @@ description: "퇴직 시 회사가 진행하는 출구 인터뷰에서 전문적
 tags: ["Career", "Job Change", "Exit Interview", "Professionalism"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/exit-interview-strategy
 sidebar:
   order: 125

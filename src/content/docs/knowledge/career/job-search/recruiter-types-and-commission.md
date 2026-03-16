@@ -4,7 +4,7 @@ description: "채용 산업의 다양한 리크루터 유형과 수수료 구조
 tags: ["Career", "Recruiting", "Headhunter", "Commission", "Job Search"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/recruiter-types-and-commission
 sidebar:
   order: 119

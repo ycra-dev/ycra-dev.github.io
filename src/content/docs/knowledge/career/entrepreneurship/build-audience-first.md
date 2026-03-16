@@ -4,7 +4,7 @@ description: "제품을 만들기 전에 먼저 충성스러운 청중을 확보
 tags: ["Career", "Entrepreneurship", "Audience", "Marketing"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/entrepreneurship/build-audience-first
 sidebar:
   order: 20

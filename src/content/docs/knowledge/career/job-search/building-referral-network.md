@@ -4,7 +4,7 @@ description: "취업이 필요하기 전에 미리 인적 네트워크를 구축
 tags: ["Career", "Job Search", "Networking"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/building-referral-network
 sidebar:
   order: 3

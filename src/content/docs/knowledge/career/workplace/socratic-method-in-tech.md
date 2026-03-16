@@ -4,7 +4,7 @@ description: "소크라테스의 대화법을 기술 환경에 적용하여, 직
 tags: ["Career", "Workplace", "Communication", "Leadership", "Persuasion"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/socratic-method-in-tech
 sidebar:
   order: 121

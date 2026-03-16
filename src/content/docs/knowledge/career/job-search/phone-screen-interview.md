@@ -4,7 +4,7 @@ description: "본 인터뷰 전에 기본 자격 요건을 확인하는 15-30분
 tags: ["Career", "Interview", "Job Search", "Screening"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/phone-screen-interview
 sidebar:
   order: 109

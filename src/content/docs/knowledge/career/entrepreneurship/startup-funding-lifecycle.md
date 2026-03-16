@@ -4,7 +4,7 @@ description: "시드 투자 → 시리즈 A → 후속 라운드로 이어지는
 tags: ["Career", "Startup", "Entrepreneurship"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/entrepreneurship/startup-funding-lifecycle
 sidebar:
   order: 7

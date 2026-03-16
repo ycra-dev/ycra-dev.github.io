@@ -4,7 +4,7 @@ description: "전통적 은퇴 계좌(401k/IRA)를 활용한 60세 은퇴 vs 적
 tags: ["Career", "Retirement", "Entrepreneurship"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/entrepreneurship/two-paths-to-retirement
 sidebar:
   order: 15

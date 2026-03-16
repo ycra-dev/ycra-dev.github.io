@@ -4,7 +4,7 @@ description: "기본급 외에 보너스, 주식, 복리후생 등 모든 금전
 tags: ["Career", "Salary", "Compensation", "Job Search", "Benefits"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/total-compensation-package
 sidebar:
   order: 115

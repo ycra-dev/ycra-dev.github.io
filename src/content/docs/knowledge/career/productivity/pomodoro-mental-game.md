@@ -4,7 +4,7 @@ description: "통제 가능한 지표로 생산성을 측정하여 성취감과 
 tags: ["Career", "Productivity", "Psychology"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/pomodoro-mental-game
 sidebar:
   order: 5

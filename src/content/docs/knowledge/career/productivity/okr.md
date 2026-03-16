@@ -4,7 +4,7 @@ description: "목표(Objective)와 측정 가능한 핵심 결과(Key Result)로
 tags: ["Career", "Productivity", "Goals", "Measurement"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/okr
 sidebar:
   order: 205

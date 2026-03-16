@@ -4,7 +4,7 @@ description: "제품을 완성하기 전에 사전 주문으로 시장의 실제
 tags: ["Career", "Product Development", "Entrepreneurship"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/entrepreneurship/market-testing-preorders
 sidebar:
   order: 6

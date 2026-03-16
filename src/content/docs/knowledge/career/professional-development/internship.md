@@ -4,7 +4,7 @@ description: "대학생이나 최근 졸업생이 실무 경험을 쌓기 위해
 tags: ["Career", "Internship", "Career Entry", "Experience"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/internship
 sidebar:
   order: 16

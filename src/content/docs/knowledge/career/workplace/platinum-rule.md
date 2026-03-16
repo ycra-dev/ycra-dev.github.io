@@ -4,7 +4,7 @@ description: "'남에게 대접받고 싶은 대로 대접하라'(골든 룰)를
 tags: ["Career", "Workplace", "Empathy", "Communication"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/platinum-rule
 sidebar:
   order: 202

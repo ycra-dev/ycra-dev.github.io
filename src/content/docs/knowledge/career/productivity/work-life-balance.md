@@ -4,7 +4,7 @@ description: "업무와 개인 생활의 경계를 의식적으로 설계하고 
 tags: ["Career", "Productivity", "Wellness", "Boundaries"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/work-life-balance
 sidebar:
   order: 203

@@ -4,7 +4,7 @@ description: "특정 회사에 소속되지 않고 여러 클라이언트를 위
 tags: ["Career", "Entrepreneurship", "Freelancing", "SelfEmployment"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/entrepreneurship/freelancing
 sidebar:
   order: 19

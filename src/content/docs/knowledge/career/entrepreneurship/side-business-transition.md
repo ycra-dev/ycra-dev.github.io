@@ -4,7 +4,7 @@ description: "독립하려면 먼저 부업으로 새 사업을 시작해 충분
 tags: ["Career", "Entrepreneurship", "Freelancing"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/entrepreneurship/side-business-transition
 sidebar:
   order: 2

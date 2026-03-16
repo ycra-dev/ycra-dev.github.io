@@ -4,7 +4,7 @@ description: "개인 브랜드는 사람들이 당신의 이름을 들었을 때
 tags: ["Career", "Marketing", "Personal Branding"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/personal-brand-building
 sidebar:
   order: 3

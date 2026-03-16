@@ -4,7 +4,7 @@ description: "비즈니스에서 사용해야 할 진술 유형(사실, 이론, 
 tags: ["Career", "Foundations", "Communication", "Data"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/theory-vs-belief
 sidebar:
   order: 212

@@ -4,7 +4,7 @@ description: "디즈니에서 유래한 개념으로, 직장에서 개인 감정
 tags: ["Career", "Foundations", "Professionalism", "Emotional-Management"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/yellow-line
 sidebar:
   order: 209

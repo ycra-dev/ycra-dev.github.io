@@ -4,7 +4,7 @@ description: "본업이나 주 학습 외에 개인적으로 진행하는 소프
 tags: ["Career", "Side Project", "Portfolio", "Learning"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/side-project
 sidebar:
   order: 19

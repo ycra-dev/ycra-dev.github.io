@@ -4,7 +4,7 @@ description: "자신의 경력을 스스로 관리하고 방향을 설정하는 
 tags: ["Career", "Foundations", "Self-Management"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/career-ownership
 sidebar:
   order: 200

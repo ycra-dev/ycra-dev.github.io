@@ -4,7 +4,7 @@ description: "리더가 팀원의 정신적 맥락(걱정, 우선순위, 감정 
 tags: ["Career", "Workplace", "Leadership", "Empathy"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/context-switching-leadership
 sidebar:
   order: 206

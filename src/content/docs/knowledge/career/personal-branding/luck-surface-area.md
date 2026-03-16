@@ -4,7 +4,7 @@ description: "자신의 기술과 그 기술을 외부에 노출하는 정도의
 tags: ["Career", "PersonalBranding", "Opportunity", "Visibility"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/luck-surface-area
 sidebar:
   order: 16

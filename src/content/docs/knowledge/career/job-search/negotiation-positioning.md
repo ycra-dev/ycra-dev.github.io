@@ -4,7 +4,7 @@ description: "협상에서 유리한 위치를 점유하기 위해 레버리지(
 tags: ["Career", "Negotiation", "Strategy", "Salary", "Job Search"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/negotiation-positioning
 sidebar:
   order: 116

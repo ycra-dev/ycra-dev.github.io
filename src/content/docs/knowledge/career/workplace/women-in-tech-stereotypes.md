@@ -4,7 +4,7 @@ description: "기술 분야에서 여성 개발자가 직면하는 대표적 고
 tags: ["Career", "Workplace", "Diversity", "WomenInTech"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/women-in-tech-stereotypes
 sidebar:
   order: 230

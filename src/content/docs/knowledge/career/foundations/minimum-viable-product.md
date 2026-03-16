@@ -4,7 +4,7 @@ description: "최소한의 노력으로 고객에 대한 최대한의 검증된 
 tags: ["Career", "Foundations", "Validation", "Product-Development"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/minimum-viable-product
 sidebar:
   order: 225

@@ -4,7 +4,7 @@ description: "직장에서 개인 시간, 업무 범위, 소통 방식에 대한
 tags: ["Career", "Workplace", "Work-Life Balance", "Boundaries", "Burnout Prevention"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/setting-workplace-boundaries
 sidebar:
   order: 104

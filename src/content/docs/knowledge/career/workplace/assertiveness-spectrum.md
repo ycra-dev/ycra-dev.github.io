@@ -4,7 +4,7 @@ description: "소통에서의 자기주장은 스펙트럼 위에 존재하며, 
 tags: ["Career", "Workplace", "Communication", "Assertiveness"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/assertiveness-spectrum
 sidebar:
   order: 212

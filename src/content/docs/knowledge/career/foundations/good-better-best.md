@@ -4,7 +4,7 @@ description: "리더에게 해결책을 제시할 때 하나의 옵션이 아닌
 tags: ["Career", "Foundations", "Communication", "Decision-Making"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/good-better-best
 sidebar:
   order: 215

@@ -4,7 +4,7 @@ description: "부트스트랩은 완전한 통제권, 낮은 실패율. 펀딩�
 tags: ["Career", "Startup", "Entrepreneurship"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/entrepreneurship/bootstrapped-vs-funded-startup
 sidebar:
   order: 8

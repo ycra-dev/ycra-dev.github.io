@@ -4,7 +4,7 @@ description: "논쟁에서 이기는 유일한 방법은 논쟁 자체를 피하
 tags: ["Career", "People Skills", "Workplace"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/avoiding-arguments
 sidebar:
   order: 3

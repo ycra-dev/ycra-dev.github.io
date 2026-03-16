@@ -4,7 +4,7 @@ description: "정보를 공유하고 전문적 관계를 발전시키는 기술 
 tags: ["Career", "PersonalBranding", "Community", "OpenSource"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/technology-community
 sidebar:
   order: 28

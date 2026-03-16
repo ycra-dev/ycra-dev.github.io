@@ -4,7 +4,7 @@ description: "공식적 리더가 아니더라도 팀 전체의 성공과 실패
 tags: ["Career", "Workplace", "Leadership", "Teamwork", "Accountability"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/taking-team-responsibility
 sidebar:
   order: 117

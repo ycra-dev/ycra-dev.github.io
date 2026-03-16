@@ -4,7 +4,7 @@ description: "이력서는 마케팅 도구다. 전문 작성자를 고용하거
 tags: ["Career", "Job Search", "Resume"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/professional-resume
 sidebar:
   order: 1

@@ -4,7 +4,7 @@ description: "블로그 콘텐츠를 검색 엔진에서 높은 순위로 노출
 tags: ["Career", "PersonalBranding", "SEO", "Blogging"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/seo-for-developers
 sidebar:
   order: 26

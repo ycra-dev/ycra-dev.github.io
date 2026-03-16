@@ -4,7 +4,7 @@ description: "모든 사람이 중요하게 느껴지고 싶은 근본적인 욕
 tags: ["Career", "People Skills", "Workplace"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/making-others-feel-important
 sidebar:
   order: 2

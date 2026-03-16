@@ -4,7 +4,7 @@ description: "재택근무의 세 가지 핵심 도전 과제는 시간 관리, 
 tags: ["Career", "Productivity", "Remote Work"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/remote-work-challenges
 sidebar:
   order: 16

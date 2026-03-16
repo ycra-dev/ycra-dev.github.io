@@ -4,7 +4,7 @@ description: "무작위 사용자 집단에게 다른 변형을 보여주고 통
 tags: ["Career", "Foundations", "Experimentation", "Data-Driven"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/ab-testing
 sidebar:
   order: 226

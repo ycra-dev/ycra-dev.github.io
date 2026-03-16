@@ -4,7 +4,7 @@ description: "디즈니에서 유래한 아이디어 발상법으로, 초기 단
 tags: ["Career", "Foundations", "Creativity", "Problem-Solving"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/blue-sky-thinking
 sidebar:
   order: 208

@@ -4,7 +4,7 @@ description: "프로그래밍 기술을 최신 상태로 유지하기 위한 구
 tags: ["Career", "ProfessionalDevelopment", "Learning", "Planning"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/learning-plan
 sidebar:
   order: 14

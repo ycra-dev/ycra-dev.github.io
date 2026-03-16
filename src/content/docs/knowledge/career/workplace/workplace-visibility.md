@@ -4,7 +4,7 @@ description: "가장 뛰어나고 열심히 일하는 개발자라도 아무도 
 tags: ["Career", "Leadership", "Workplace"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/workplace-visibility
 sidebar:
   order: 6

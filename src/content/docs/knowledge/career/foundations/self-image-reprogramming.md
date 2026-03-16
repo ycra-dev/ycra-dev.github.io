@@ -4,7 +4,7 @@ description: "무의식 속에 형성된 자기 평가를 의식적으로 바꾸
 tags: ["Career", "Mindset", "Growth Mindset"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/self-image-reprogramming
 sidebar:
   order: 18

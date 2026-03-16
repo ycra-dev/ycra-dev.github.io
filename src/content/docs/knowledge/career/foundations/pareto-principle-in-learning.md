@@ -4,7 +4,7 @@ description: "기술의 20%만 알아도 실무 작업의 80%를 수행할 수 �
 tags: ["Career", "Learning Strategy", "Pareto Principle", "Efficiency"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/pareto-principle-in-learning
 sidebar:
   order: 229

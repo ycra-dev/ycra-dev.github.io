@@ -4,7 +4,7 @@ description: "요구받는 것 이상을 자발적으로 수행하고, 기회를
 tags: ["Career", "Workplace", "Career Growth", "Proactivity", "Self-Management"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/taking-initiative-for-career-growth
 sidebar:
   order: 114

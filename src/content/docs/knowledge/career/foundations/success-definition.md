@@ -4,7 +4,7 @@ description: "인생 정의를 달성하기 위해 필요한 구체적이고 측
 tags: ["Career", "Foundations", "Goals"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/success-definition
 sidebar:
   order: 202

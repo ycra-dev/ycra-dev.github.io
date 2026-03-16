@@ -4,7 +4,7 @@ description: "퇴사 시 진행되는 퇴사 면담에서 부정적인 발언을
 tags: ["Career", "Exit Interview", "Professionalism", "Reputation"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/exit-interview-best-practices
 sidebar:
   order: 221

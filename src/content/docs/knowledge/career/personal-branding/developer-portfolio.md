@@ -4,7 +4,7 @@ description: "개발자가 자신의 코딩 능력을 증명하기 위해 만든
 tags: ["Career", "Portfolio", "GitHub", "Job Search"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/developer-portfolio
 sidebar:
   order: 14

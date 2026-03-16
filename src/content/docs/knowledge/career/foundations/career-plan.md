@@ -4,7 +4,7 @@ description: "성공 정의의 목표들을 달성하기 위한 단계별 경로
 tags: ["Career", "Foundations", "Planning"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/career-plan
 sidebar:
   order: 203

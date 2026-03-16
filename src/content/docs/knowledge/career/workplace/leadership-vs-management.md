@@ -4,7 +4,7 @@ description: "리더십은 비전을 보여주고 영감을 주는 것, 관리(m
 tags: ["Career", "Workplace", "Leadership", "Management"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/leadership-vs-management
 sidebar:
   order: 203

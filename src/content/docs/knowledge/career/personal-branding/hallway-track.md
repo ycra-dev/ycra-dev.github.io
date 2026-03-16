@@ -4,7 +4,7 @@ description: "컨퍼런스에서 공식 세션 대신 복도에서 다른 참석
 tags: ["Career", "PersonalBranding", "Networking", "Conference"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/hallway-track
 sidebar:
   order: 19

@@ -4,7 +4,7 @@ description: "팀이 공유하는 가치와 습관의 집합으로, 의사결정
 tags: ["Career", "Workplace", "Team Building", "Leadership"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/engineering-culture
 sidebar:
   order: 219

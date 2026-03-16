@@ -4,7 +4,7 @@ description: "갈등 해결 시 '처음에 왜 이것을 시작했는가?'라는
 tags: ["Career", "Foundations", "Problem-Solving", "Decision-Making"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/first-principles
 sidebar:
   order: 210

@@ -4,7 +4,7 @@ description: "지원자가 회사의 문화, 가치관, 팀 다이나믹에 잘 
 tags: ["Career", "Interview", "Culture Fit", "Job Search"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/culture-fit-interview
 sidebar:
   order: 110

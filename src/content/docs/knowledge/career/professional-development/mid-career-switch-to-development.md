@@ -4,7 +4,7 @@ description: "다른 분야에서 경력을 쌓은 후 소프트웨어 개발로
 tags: ["Career", "Career Change", "Mid-Career", "Transition"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/mid-career-switch-to-development
 sidebar:
   order: 24

@@ -4,7 +4,7 @@ description: "좋은 회사에서 안정적인 직장을 찾으면 평생 안전
 tags: ["Career", "Foundations", "Mindset", "Security"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/job-security-myth
 sidebar:
   order: 228

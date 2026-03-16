@@ -4,7 +4,7 @@ description: "경험 없이는 취업이 어렵고, 취업 없이는 경험을 �
 tags: ["Career", "Career Entry", "Experience", "First Job"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/catch-22-of-experience
 sidebar:
   order: 22

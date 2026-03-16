@@ -4,7 +4,7 @@ description: "외모, 복장, 행동에서 모순되는 요소를 의도적으�
 tags: ["Career", "Workplace", "PersonalBranding", "Communication"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/charisma-through-contradiction
 sidebar:
   order: 221

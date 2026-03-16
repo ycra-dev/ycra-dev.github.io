@@ -4,7 +4,7 @@ description: "전문화 영역을 가능한 한 좁고 구체적으로 선택하
 tags: ["Career", "ProfessionalDevelopment", "Specialization", "Branding"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/niche-down
 sidebar:
   order: 19

@@ -4,7 +4,7 @@ description: "불완전한 행동이라도 행동하지 않는 것보다 거의 
 tags: ["Career", "Mindset", "Productivity"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/action-over-inaction
 sidebar:
   order: 10

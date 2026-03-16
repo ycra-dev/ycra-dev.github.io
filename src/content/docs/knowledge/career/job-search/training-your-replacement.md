@@ -4,7 +4,7 @@ description: "퇴직 시 자신의 역할을 대체할 사람을 적극적으로
 tags: ["Career", "Professionalism", "Knowledge Transfer", "Exit Strategy"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/training-your-replacement
 sidebar:
   order: 126

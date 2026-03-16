@@ -4,7 +4,7 @@ description: "학생이나 신입 전문가를 대상으로 하는 임시 직위
 tags: ["Career", "Internship", "Career Entry", "First Job"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/software-internship
 sidebar:
   order: 21

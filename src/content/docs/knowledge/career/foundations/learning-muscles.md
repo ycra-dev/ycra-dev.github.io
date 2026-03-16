@@ -4,7 +4,7 @@ description: "매일 학습을 통해 단련되는 뇌의 학습 능력으로, �
 tags: ["Career", "Foundations", "Learning", "Self-Improvement"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/learning-muscles
 sidebar:
   order: 205

@@ -4,7 +4,7 @@ description: "글쓰기에서 학술 논문 같은 건조한 스타일을 벗어
 tags: ["Career", "PersonalBranding", "Writing", "Authenticity"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/finding-your-voice
 sidebar:
   order: 27

@@ -4,7 +4,7 @@ description: "트러블슈팅과 달리 정렬 불일치(misalignment)를 해소
 tags: ["Career", "Foundations", "Decision-Making", "Problem-Solving"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/problem-solving
 sidebar:
   order: 214

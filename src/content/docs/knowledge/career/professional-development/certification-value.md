@@ -4,7 +4,7 @@ description: "소프트웨어 개발 자격증이 실제 역량 향상보다는 
 tags: ["Career", "ProfessionalDevelopment", "Certification", "Credentials"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/certification-value
 sidebar:
   order: 20

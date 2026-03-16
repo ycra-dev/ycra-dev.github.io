@@ -4,7 +4,7 @@ description: "재택근무는 사무실 근무와 완전히 다른 기술(skill 
 tags: ["Career", "Productivity", "Remote-Work", "Work-Life-Balance"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/remote-work
 sidebar:
   order: 202

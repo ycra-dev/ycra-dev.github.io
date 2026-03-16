@@ -4,7 +4,7 @@ description: "의미 있는 일을 시작할 때 나타나는 저항을 극복�
 tags: ["Career", "Mindset", "Productivity"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/resistance-and-persistence
 sidebar:
   order: 15

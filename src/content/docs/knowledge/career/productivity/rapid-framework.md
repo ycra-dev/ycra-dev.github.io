@@ -4,7 +4,7 @@ description: "Bain & Company가 개발한 의사결정 프레임워크로, Recom
 tags: ["Career", "Productivity", "Decision-Making", "Framework"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/rapid-framework
 sidebar:
   order: 204

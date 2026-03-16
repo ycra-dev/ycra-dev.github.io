@@ -4,7 +4,7 @@ description: "다른 사람이 작성한 소스 코드를 체계적으로 읽고
 tags: ["Career", "Code Reading", "Open Source", "Learning"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/code-reading
 sidebar:
   order: 13

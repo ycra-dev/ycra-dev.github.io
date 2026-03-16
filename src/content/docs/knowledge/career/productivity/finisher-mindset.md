@@ -4,7 +4,7 @@ description: "일단 시작한 프로젝트는 어떤 상황에서도 반드시 
 tags: ["Career", "Productivity", "Discipline", "Completion"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/finisher-mindset
 sidebar:
   order: 216

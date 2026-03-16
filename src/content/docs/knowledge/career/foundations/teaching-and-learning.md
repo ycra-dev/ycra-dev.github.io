@@ -4,7 +4,7 @@ description: "가르치는 것은 궁극적인 커리어 레벨업이며, 인간
 tags: ["Career", "Foundations", "Teaching", "Learning", "Neuroscience"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/teaching-and-learning
 sidebar:
   order: 217

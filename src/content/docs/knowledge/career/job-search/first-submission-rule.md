@@ -4,7 +4,7 @@ description: "채용 시장에서 후보자의 이력서를 먼저 제출한 에
 tags: ["Career", "Recruiting", "Job Search", "Staffing Agency"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/first-submission-rule
 sidebar:
   order: 121

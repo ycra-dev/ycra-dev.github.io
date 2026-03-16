@@ -4,7 +4,7 @@ description: "진정한 부는 자동으로 갱신되는 자원의 공급이 필
 tags: ["Career", "Finance", "Entrepreneurship"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/entrepreneurship/true-wealth-definition
 sidebar:
   order: 18

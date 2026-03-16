@@ -4,7 +4,7 @@ description: "직장 내 불필요한 소문, 뒷담화, 감정적 갈등에 의
 tags: ["Career", "Workplace", "Conflict Management", "Professionalism"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/workplace-drama-avoidance
 sidebar:
   order: 218

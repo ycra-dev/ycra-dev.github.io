@@ -4,7 +4,7 @@ description: "대학교에서 2~6년에 걸쳐 취득하는 공식 학위로, �
 tags: ["Career", "Education", "Computer Science", "Degree"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/computer-science-degree
 sidebar:
   order: 15

@@ -4,7 +4,7 @@ description: "자신을 하나의 브랜드로 정의하고 명확한 메시지,
 tags: ["Career", "PersonalBranding", "Marketing", "Reputation"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/personal-brand
 sidebar:
   order: 15

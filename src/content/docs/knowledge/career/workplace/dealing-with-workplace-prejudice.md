@@ -4,7 +4,7 @@ description: "직장에서 인종, 성별, 외모 등에 기반한 편견에 실
 tags: ["Career", "Workplace", "Diversity", "SelfProtection"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/dealing-with-workplace-prejudice
 sidebar:
   order: 223

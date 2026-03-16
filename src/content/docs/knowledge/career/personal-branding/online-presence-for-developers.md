@@ -4,7 +4,7 @@ description: "개발자의 이름을 검색했을 때 나타나는 온라인 활
 tags: ["Career", "Personal Brand", "Blog", "Online Presence"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/online-presence-for-developers
 sidebar:
   order: 15

@@ -4,7 +4,7 @@ description: "블로그, 컨퍼런스 발표, 오픈소스 기여 등을 통해 
 tags: ["Career", "PersonalBranding", "Marketing", "Visibility"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/personal-branding-for-developers
 sidebar:
   order: 14

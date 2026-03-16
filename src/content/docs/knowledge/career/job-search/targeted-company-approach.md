@@ -4,7 +4,7 @@ description: "불특정 다수의 회사에 이력서를 뿌리는 대신, 특�
 tags: ["Career", "Job Search", "Strategy", "Networking"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/targeted-company-approach
 sidebar:
   order: 103

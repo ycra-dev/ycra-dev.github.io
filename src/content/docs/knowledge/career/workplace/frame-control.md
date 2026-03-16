@@ -4,7 +4,7 @@ description: "대화에서 지배적인 프레임이 방향을 결정한다. 자
 tags: ["Career", "People Skills", "Workplace"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/frame-control
 sidebar:
   order: 4

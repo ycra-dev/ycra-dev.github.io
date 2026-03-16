@@ -4,7 +4,7 @@ description: "행동과 인과관계를 명확히 하여 의사결정을 직접 
 tags: ["Career", "Foundations", "Measurement", "Data-Driven"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/actionable-metrics
 sidebar:
   order: 224

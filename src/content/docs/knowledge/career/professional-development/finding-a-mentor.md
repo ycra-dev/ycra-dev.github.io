@@ -4,7 +4,7 @@ description: "멘토는 경험의 혜택을 직접 겪지 않고도 얻게 해�
 tags: ["Career", "Mentorship", "Professional Development"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/finding-a-mentor
 sidebar:
   order: 8

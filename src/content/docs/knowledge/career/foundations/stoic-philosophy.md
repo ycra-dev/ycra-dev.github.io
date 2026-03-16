@@ -4,7 +4,7 @@ description: "통제할 수 없는 것에 대한 걱정을 버리고, 통제할 
 tags: ["Career", "Mindset", "Philosophy"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/stoic-philosophy
 sidebar:
   order: 14

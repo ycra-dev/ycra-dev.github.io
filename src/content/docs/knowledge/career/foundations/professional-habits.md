@@ -4,7 +4,7 @@ description: "프로가 되기 위해 일상적으로 수행하는 습관들로,
 tags: ["Career", "Habits", "Professionalism"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/professional-habits
 sidebar:
   order: 7

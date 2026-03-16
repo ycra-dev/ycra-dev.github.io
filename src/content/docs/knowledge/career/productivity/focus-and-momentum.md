@@ -4,7 +4,7 @@ description: "집중은 산만함의 반대이며 생산성의 근본으로, 모
 tags: ["Career", "Productivity", "Focus"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/focus-and-momentum
 sidebar:
   order: 1

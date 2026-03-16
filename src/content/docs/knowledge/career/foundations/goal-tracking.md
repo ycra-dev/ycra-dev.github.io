@@ -4,7 +4,7 @@ description: "설정한 커리어 목표의 진행 상황을 정기적으로 확
 tags: ["Career", "Goal Setting", "Productivity"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/foundations/goal-tracking
 sidebar:
   order: 4

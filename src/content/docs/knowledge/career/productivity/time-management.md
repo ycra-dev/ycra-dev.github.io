@@ -4,7 +4,7 @@ description: "유한한 자원인 시간을 커리어 목표에 맞게 의도적
 tags: ["Career", "Productivity", "Time-Management", "Discipline"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/time-management
 sidebar:
   order: 200

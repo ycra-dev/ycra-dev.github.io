@@ -4,7 +4,7 @@ description: "스태핑 에이전시의 급여 대장에 올라 에이전시를 
 tags: ["Career", "Contracting", "Staffing Agency", "Employment Type"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/agency-contractor
 sidebar:
   order: 122

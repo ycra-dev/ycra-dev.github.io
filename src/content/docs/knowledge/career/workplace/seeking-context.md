@@ -4,7 +4,7 @@ description: "상대방의 정신적 맥락(걱정, 우선순위, 감정 상태)
 tags: ["Career", "Workplace", "Communication", "Empathy"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/seeking-context
 sidebar:
   order: 215

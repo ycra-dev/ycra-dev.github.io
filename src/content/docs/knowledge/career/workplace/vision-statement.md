@@ -4,7 +4,7 @@ description: "리더가 팀의 미래 모습을 구체적이고 측정 가능하
 tags: ["Career", "Workplace", "Leadership", "Goals"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/vision-statement
 sidebar:
   order: 205

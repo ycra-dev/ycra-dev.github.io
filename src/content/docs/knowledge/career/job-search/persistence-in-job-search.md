@@ -4,7 +4,7 @@ description: "구직 활동에서 거절에 굴하지 않고 지속적으로 팔
 tags: ["Career", "Job Search", "Mindset", "Follow-up", "Persistence"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/persistence-in-job-search
 sidebar:
   order: 118

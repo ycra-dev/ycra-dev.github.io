@@ -4,7 +4,7 @@ description: "하나의 프로젝트나 활동이 여러 목적을 동시에 달
 tags: ["Career", "Productivity", "Efficiency", "Strategy"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/multi-purposing
 sidebar:
   order: 217

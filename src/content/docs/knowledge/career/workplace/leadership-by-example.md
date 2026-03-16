@@ -4,7 +4,7 @@ description: "직함이 아닌 자신이 먼저 모범을 보이고 팀원이 �
 tags: ["Career", "Workplace", "Leadership", "TeamManagement"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/leadership-by-example
 sidebar:
   order: 226

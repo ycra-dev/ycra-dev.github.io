@@ -4,7 +4,7 @@ description: "새 직장이나 팀에서 첫 90일 동안 긍정적인 첫인상
 tags: ["Career", "Workplace", "First Impression", "Onboarding"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/workplace/first-impression-at-work
 sidebar:
   order: 100

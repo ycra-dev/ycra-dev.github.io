@@ -4,7 +4,7 @@ description: "고객을 찾아가는 대신 가치 있는 콘텐츠를 무료로
 tags: ["Career", "Marketing", "Entrepreneurship"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/entrepreneurship/inbound-marketing
 sidebar:
   order: 3

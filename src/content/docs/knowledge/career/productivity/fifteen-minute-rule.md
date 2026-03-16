@@ -4,7 +4,7 @@ description: "동기가 없을 때 타이머를 15분 설정하고 집중 작업
 tags: ["Career", "Productivity", "Motivation"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/productivity/fifteen-minute-rule
 sidebar:
   order: 15

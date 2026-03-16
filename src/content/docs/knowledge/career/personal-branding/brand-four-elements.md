@@ -4,7 +4,7 @@ description: "성공적인 브랜드는 메시지, 비주얼, 일관성, 반복 
 tags: ["Career", "Marketing", "Personal Branding"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/personal-branding/brand-four-elements
 sidebar:
   order: 4

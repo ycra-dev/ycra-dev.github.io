@@ -4,7 +4,7 @@ description: "가장 효과적인 학습은 놀이를 통한 능동적 학습이
 tags: ["Career", "Learning", "Professional Development"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/professional-development/learning-by-doing
 sidebar:
   order: 3

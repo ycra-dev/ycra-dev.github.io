@@ -4,7 +4,7 @@ description: "각 지원하는 회사와 직무에 맞춰 이력서와 커버레
 tags: ["Career", "Job Application", "Resume", "Job Search"]
 created: 2026-02-27
 updated: 2026-02-27
-draft: false
+draft: true
 slug: knowledge/career/job-search/customized-job-application
 sidebar:
   order: 128
