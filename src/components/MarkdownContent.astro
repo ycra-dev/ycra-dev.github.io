@@ -10,7 +10,46 @@ const slug = Astro.locals.starlightRoute?.entry?.slug ?? '';
 const is404 = slug === '404' || slug.endsWith('/404');
 const isKnowledge = segments[0] === 'knowledge';
 const isNavPage = segments.length <= 1 || (isKnowledge && segments.length <= 2);
+
+// JSON-LD Structured Data
+const entry = Astro.locals.starlightRoute?.entry;
+const siteUrl = 'https://ycra-dev.github.io';
+const pageUrl = `${siteUrl}${Astro.url.pathname}`;
+const title = entry?.data?.title ?? '';
+const description = entry?.data?.description ?? '';
+const created = entry?.data?.created;
+const updated = entry?.data?.updated;
+
+const isArticle = !isNavPage && !is404 && segments.length >= 2;
+
+const articleJsonLd = isArticle ? JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'Article',
+	headline: title,
+	description: description,
+	url: pageUrl,
+	...(created && { datePublished: new Date(created).toISOString() }),
+	...(updated && { dateModified: new Date(updated).toISOString() }),
+	image: `${siteUrl}/og-image.png`,
+	author: { '@type': 'Person', name: 'ycra' },
+	publisher: { '@type': 'Organization', name: 'ycra.dev', url: siteUrl },
+}) : null;
+
+const breadcrumbItems = segments.map((seg, i) => ({
+	'@type': 'ListItem',
+	position: i + 1,
+	name: i === segments.length - 1 ? title : seg.charAt(0).toUpperCase() + seg.slice(1),
+	item: `${siteUrl}/${segments.slice(0, i + 1).join('/')}/`,
+}));
+
+const breadcrumbJsonLd = segments.length >= 1 && !is404 ? JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: breadcrumbItems,
+}) : null;
 ---
 
+{articleJsonLd && <script type="application/ld+json" set:html={articleJsonLd} />}
+{breadcrumbJsonLd && <script type="application/ld+json" set:html={breadcrumbJsonLd} />}
 <div class="sl-markdown-content"><slot /></div>
 {!isNavPage && !is404 && <Giscus />}

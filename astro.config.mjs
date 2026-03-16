@@ -2,16 +2,51 @@
 import starlight from '@astrojs/starlight';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
+import { readdirSync, readFileSync } from 'fs';
+import { join } from 'path';
+
+/** content 파일에서 slug → updated 날짜 맵 생성 (sitemap lastmod용) */
+function buildLastmodMap(contentDir) {
+	/** @type {Map<string, Date>} */
+	const map = new Map();
+	function walk(/** @type {string} */ dir) {
+		for (const entry of readdirSync(dir, { withFileTypes: true })) {
+			const fullPath = join(dir, entry.name);
+			if (entry.isDirectory()) { walk(fullPath); continue; }
+			if (!entry.name.endsWith('.md') && !entry.name.endsWith('.mdx')) continue;
+			const content = readFileSync(fullPath, 'utf-8');
+			const slugMatch = content.match(/^slug:\s*['"]?([^'"\n]+)['"]?\s*$/m);
+			const updatedMatch = content.match(/^updated:\s*['"]?([^'"\n]+)['"]?\s*$/m);
+			if (slugMatch && updatedMatch) {
+				const slug = slugMatch[1].trim();
+				const updated = new Date(updatedMatch[1].trim());
+				if (!isNaN(updated.getTime())) map.set(slug, updated);
+			}
+		}
+	}
+	walk(contentDir);
+	return map;
+}
+
+const lastmodMap = buildLastmodMap('./src/content/docs');
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://ycra-dev.github.io',
 	vite: {
+		cacheDir: '/tmp/.vite',
 		optimizeDeps: { noDiscovery: true, include: [] },
 	},
 	integrations: [
 		starlight({
 			title: 'ycra.dev',
+			head: [
+				{ tag: 'meta', attrs: { property: 'og:image', content: 'https://ycra-dev.github.io/og-image.png' } },
+				{ tag: 'meta', attrs: { property: 'og:image:width', content: '1200' } },
+				{ tag: 'meta', attrs: { property: 'og:image:height', content: '630' } },
+				{ tag: 'link', attrs: { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' } },
+				{ tag: 'link', attrs: { rel: 'manifest', href: '/manifest.webmanifest' } },
+			],
 			defaultLocale: 'root',
 			locales: {
 				root: { label: '한국어', lang: 'ko' },
@@ -238,7 +273,8 @@ export default defineConfig({
 		}),
 		sitemap({
 			serialize(item) {
-				item.lastmod = new Date();
+				const path = new URL(item.url).pathname.replace(/^\/|\/$/g, '');
+				item.lastmod = lastmodMap.get(path) ?? new Date();
 				return item;
 			},
 		}),
