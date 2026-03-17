@@ -3,8 +3,8 @@ title: "15분 규칙 (The Fifteen-Minute Rule)"
 description: "동기가 없을 때 타이머를 15분 설정하고 집중 작업을 시작하면 모멘텀이 생겨 자연스럽게 작업을 계속하게 된다"
 tags: ["Career", "Productivity", "Motivation"]
 created: 2026-02-27
-updated: 2026-02-27
-draft: true
+updated: 2026-03-18
+draft: false
 slug: knowledge/career/productivity/fifteen-minute-rule
 sidebar:
   order: 15
@@ -29,12 +29,6 @@ sidebar:
 핵심 원리: 행동이 동기를 만든다. 동기가 있어야 행동하는 것이 아니라, 행동을 시작해야 동기가 생긴다.
 
 양치질 비유: 피곤해도 습관의 힘으로 양치를 하듯, 루틴이 동기 저하를 극복하게 해준다.
-
-## 예시
-
-- 이 책의 저자도 집필 중에 이 방법을 사용했다고 밝혔다
-- "지금 이 챕터를 쓰면서도 이 방법을 쓰고 있다" - 저자의 솔직한 고백
-- Daniel Pink의 "Drive": 동기 부여의 심리학적 배경 (자율성, 숙달, 목적)
 
 ## 관련 개념
 

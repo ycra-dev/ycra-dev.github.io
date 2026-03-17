@@ -1,10 +1,10 @@
 ---
-title: "작업 분해로 미루기 극복 (Breaking Things Down)"
+title: "작업 쪼개기 (Breaking Things Down)"
 description: "큰 작업을 작은 단위로 분해하면 심리적 부담이 줄고 추정 정확도가 높아져 미루기를 극복할 수 있다"
 tags: ["Career", "Productivity", "Task Management"]
 created: 2026-02-27
-updated: 2026-02-27
-draft: true
+updated: 2026-03-18
+draft: false
 slug: knowledge/career/productivity/breaking-things-down
 sidebar:
   order: 13
@@ -12,7 +12,7 @@ sidebar:
 
 ## 핵심 개념
 
-미루기(procrastination)의 주요 원인 중 하나는 "문제 감상"(problem admiration)이다. 문제의 크기에 압도되어 해결하려는 시도조차 하지 않는 것이다.
+미루기의 주요 원인 중 하나는 "문제 감상"이다. 문제의 크기에 압도되어 해결하려는 시도조차 하지 않는 것이다.
 
 큰 작업이 문제인 이유:
 - 심리적으로 위압감을 준다
@@ -45,7 +45,7 @@ sidebar:
 5. 배포 단계 추가하기                     (2시간)
 ```
 
-- 이 책(Soft Skills): 거대한 책 1권이 아니라 1,000~2,000단어의 80여 개 짧은 챕터로 분해
+- 책: 거대한 책 1권이 아니라 1,000~2,000단어의 80여 개 짧은 챕터로 분해
 - Agile 팀: 고객 요구사항을 작은 단위로 분해하면 고객도 원하는 것을 더 잘 설명하게 됨
 
 ## 관련 개념

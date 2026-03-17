@@ -1,10 +1,10 @@
 ---
-title: "효과적인 습관 개발 (Developing Effective Habits)"
+title: "효과적인 습관 (Developing Effective Habits)"
 description: "습관은 신호-루틴-보상 루프로 구성된다. 나쁜 습관을 없애는 것이 아니라 루틴만 교체하는 것이 효과적이다"
 tags: ["Career", "Productivity", "Habits"]
 created: 2026-02-27
-updated: 2026-02-27
-draft: true
+updated: 2026-03-18
+draft: false
 slug: knowledge/career/productivity/developing-habits
 sidebar:
   order: 12
@@ -12,7 +12,7 @@ sidebar:
 
 ## 핵심 개념
 
-습관(habit)은 루틴(routine)과 달리 의식적인 통제 없이 자동으로 실행된다. Charles Duhigg의 "The Power of Habit"이 설명하는 습관 루프:
+습관은 루틴과 달리 의식적인 통제 없이 자동으로 실행된다. Charles Duhigg의 "The Power of Habit"이 설명하는 습관 루프:
 
 ```
 신호(Cue) → 루틴(Routine) → 보상(Reward)
@@ -29,7 +29,7 @@ sidebar:
 4. 충분히 오래 유지하면(약 66일) 새 습관이 자동화된다
 
 **새 습관 형성 전략:**
-- 기존 습관에 편승(habit stacking): 한 습관의 완료가 다른 습관의 신호가 되도록 연결한다
+- 기존 습관에 편승: 한 습관의 완료가 다른 습관의 신호가 되도록 연결한다
 - 변동 보상이 고정 보상보다 더 강한 동기를 만든다 (카지노가 이 원리를 활용)
 
 ## 예시

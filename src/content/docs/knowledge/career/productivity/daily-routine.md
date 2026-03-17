@@ -1,10 +1,10 @@
 ---
-title: "일일 루틴의 힘 (The Power of Daily Routine)"
+title: "데일리 루틴 (The Power of Daily Routine)"
 description: "매일의 작은 행동을 반복하면 장기적으로 큰 성과를 만든다. 하루 1,000단어 × 260일 = 소설 1권"
 tags: ["Career", "Productivity", "Discipline"]
 created: 2026-02-27
-updated: 2026-02-27
-draft: true
+updated: 2026-03-18
+draft: false
 slug: knowledge/career/productivity/daily-routine
 sidebar:
   order: 11
@@ -28,11 +28,12 @@ sidebar:
 
 ```
 예시 일정:
-07:00 - 운동 (달리기 또는 웨이트)
-09:00 - 가장 중요한 작업 (핵심 목표)
-11:00 - 이메일, 회의, 커뮤니케이션
-13:00 - 전문성 개발 (학습)
-21:00 - 독서
+07:00 - 기상, 아침 식사
+09:00 - 딥워크 (핵심 목표에 집중)
+12:00 - 점심
+13:00 - 회의, 커뮤니케이션
+18:00 - 퇴근, 저녁 식사
+20:00 - 개인 학습 (1~2시간)
 23:00 - 취침
 ```
 
@@ -41,7 +42,6 @@ sidebar:
 ## 예시
 
 - 매일 1,000단어 × 260 평일 = 260,000단어/년 (소설 1권)
-- 저자의 루틴: 아침 운동 → 책상 앞 핵심 작업 시작
 - 식사 계획을 루틴에 포함하면 식사 결정에 낭비되는 시간과 건강하지 못한 식습관 모두 줄일 수 있다
 
 ## 관련 개념
