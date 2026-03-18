@@ -3,8 +3,8 @@ title: "인터럽션 관리 (Managing Interruptions)"
 description: "인터럽션은 가장 큰 생산성 킬러이며, 의지만 있으면 대부분 제거할 수 있다"
 tags: ["Career", "Productivity", "Focus"]
 created: 2026-02-27
-updated: 2026-02-27
-draft: true
+updated: 2026-03-19
+draft: false
 slug: knowledge/career/productivity/managing-interruptions
 sidebar:
   order: 3
@@ -23,7 +23,7 @@ sidebar:
 - 채팅 프로그램은 로그아웃하거나 부재 상태로 전환
 
 **휴식의 중요성:**
-- "자유 작업(free work)" 주간: 포모도리 없이, 계획 없이, 하고 싶은 것을 하는 주
+- "자유 작업(free work)" 주간: 포모도로 없이, 계획 없이, 하고 싶은 것을 하는 주
 - 며칠 단위의 짧은 휴식 + 몇 달에 한 번 2주-1달의 긴 휴식
 - 기계처럼 매일 빡빡하게 일하면 장기적으로 지속 불가능
 
@@ -38,7 +38,7 @@ sidebar:
       전체 효율이 크게 향상
 ```
 
-소규모 일탈 허용: "내일은 짧은 여행이니 집에 와서 3 포모도리만"
+소규모 일탈 허용: "내일은 짧은 여행이니 집에 와서 3 포모도로만"
 
 ## 관련 개념
 

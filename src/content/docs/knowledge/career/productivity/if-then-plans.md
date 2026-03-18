@@ -1,10 +1,10 @@
 ---
-title: "If-Then Plans (이프-덴 계획)"
+title: "If-Then Plans"
 description: "특정 상황(if)에서 특정 행동(then)을 수행하겠다고 미리 결정하여 미루기를 극복하고 목표 달성률을 높이는 심리 기법"
 tags: ["Career", "Productivity", "Psychology", "Habit-Formation"]
 created: 2026-02-27
-updated: 2026-02-27
-draft: true
+updated: 2026-03-19
+draft: false
 slug: knowledge/career/productivity/if-then-plans
 sidebar:
   order: 210
@@ -12,7 +12,7 @@ sidebar:
 
 ## 핵심 개념
 
-If-Then 계획(구현 의도, Implementation Intentions)은 특정 상황(if)이 발생했을 때 특정 행동(then)을 수행하겠다고 미리 결정하는 심리 기법이다.
+If-Then 계획은 특정 상황(if)이 발생했을 때 특정 행동(then)을 수행하겠다고 미리 결정하는 심리 기법이다.
 
 심리학자 Peter Gollwitzer의 연구: 언제/어디서/어떻게 할지 미리 정한 학생의 **71%**가 과제를 제출했지만, 그렇지 않은 학생은 **32%**만 제출했다.
 

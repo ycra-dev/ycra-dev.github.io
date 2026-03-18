@@ -1,10 +1,10 @@
 ---
-title: "Iteration Speed (반복 속도)"
+title: "반복 속도 (Iteration Speed)"
 description: "아이디어를 구현하고 결과를 확인하는 사이클의 빠르기로, 학습 속도와 직접 비례하는 엔지니어링 효과성의 핵심 요소다"
 tags: ["Career", "Productivity", "Feedback-Loop", "Engineering-Practice"]
 created: 2026-02-27
-updated: 2026-02-27
-draft: true
+updated: 2026-03-19
+draft: false
 slug: knowledge/career/productivity/iteration-speed
 sidebar:
   order: 212
@@ -20,7 +20,7 @@ Facebook의 핵심 문화: "MOVE FAST AND BREAK THINGS." Mark Zuckerberg의 IPO 
 
 **반복 속도를 높이는 4가지 전략:**
 
-1. **시간 절약 도구 투자**: 도구는 시간 곱셈기(multiplier). Bobby Johnson(전 Facebook): "성공적인 사람은 도구를 많이 만든다"
+1. **시간 절약 도구 투자**: 도구는 시간 증폭기. Bobby Johnson(전 Facebook 직원): "성공적인 사람은 도구를 많이 만든다"
 2. **디버깅/검증 루프 단축**: 최소 재현 테스트 케이스, 커스텀 워크플로우 구축
 3. **프로그래밍 환경 마스터**: 키보드 숏컷, 텍스트 에디터 숙달, UNIX 명령어
 4. **비-엔지니어링 병목 해소**: 의사결정자 승인, 팀 간 의존성, 리뷰 프로세스

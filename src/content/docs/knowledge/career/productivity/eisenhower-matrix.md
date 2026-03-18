@@ -1,10 +1,10 @@
 ---
-title: "Eisenhower Matrix (아이젠하워 매트릭스)"
+title: "아이젠하워 매트릭스 (Eisenhower Matrix)"
 description: "활동을 긴급성과 중요성의 두 축으로 4사분면에 분류하여 우선순위를 결정하는 프레임워크. 핵심은 비긴급하지만 중요한 2사분면에 투자하는 것이다"
 tags: ["Career", "Productivity", "Prioritization", "Time-Management"]
 created: 2026-02-27
-updated: 2026-02-27
-draft: true
+updated: 2026-03-18
+draft: false
 slug: knowledge/career/productivity/eisenhower-matrix
 sidebar:
   order: 208
@@ -12,7 +12,7 @@ sidebar:
 
 ## 핵심 개념
 
-아이젠하워 매트릭스(긴급-중요 매트릭스)는 Stephen Covey가 *The 7 Habits of Highly Effective People*에서 제시한 프레임워크다. 긴급성(urgency)과 중요성(importance)을 구분하여 4사분면에 활동을 분류한다.
+아이젠하워 매트릭스는 Stephen Covey가 *The 7 Habits of Highly Effective People*에서 제시한 프레임워크다. 긴급성과 중요성을 구분하여 4사분면에 활동을 분류한다.
 
 | | 긴급 | 비긴급 |
 |---|---|---|
@@ -34,7 +34,7 @@ Q2 활동은 자연적 마감이 없어 긴급한 Q1/Q3에 밀리기 쉽다. 하
 
 **Q1 과잉의 함정:**
 - 잦은 프로덕션 장애 → 자동 복구 필요(Q2)
-- 고우선순위 버그 → 낮은 테스트 커버리지(Q2)
+- 우선순위 높은 버그 → 낮은 테스트 커버리지(Q2)
 - 마감 압박 → 부실한 프로젝트 추정(Q2)
 
 Q2에 투자하면 Q1의 양이 줄어든다.
