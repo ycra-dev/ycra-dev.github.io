@@ -40,6 +40,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'ycra.dev',
+			description: 'Platform & AI Engineer — Kubernetes · 데이터 플랫폼 · LLM 시스템을 만들며 정리하는 기록',
 			head: [
 				{ tag: 'meta', attrs: { property: 'og:image', content: 'https://ycra-dev.github.io/og-image.png' } },
 				{ tag: 'meta', attrs: { property: 'og:image:width', content: '1200' } },

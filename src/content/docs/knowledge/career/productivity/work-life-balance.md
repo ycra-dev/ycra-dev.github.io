@@ -1,10 +1,10 @@
 ---
-title: "Work-Life Balance (워크-라이프 밸런스)"
+title: "워라밸 (Work-Life Balance)"
 description: "업무와 개인 생활의 경계를 의식적으로 설계하고 지키는 것으로, 지속 가능한 커리어와 개인 행복의 기반이다"
 tags: ["Career", "Productivity", "Wellness", "Boundaries"]
 created: 2026-02-27
-updated: 2026-02-27
-draft: true
+updated: 2026-03-20
+draft: false
 slug: knowledge/career/productivity/work-life-balance
 sidebar:
   order: 203

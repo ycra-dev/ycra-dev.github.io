@@ -106,3 +106,14 @@
         margin-left: calc(var(--sl-content-indent) * 2);
     }
 }
+
+/* 히어로 제목·태그라인: 한글 단어가 줄 끝에서 쪼개지지 않도록 (단어 단위 줄바꿈) */
+.hero h1,
+.hero .tagline {
+    word-break: keep-all;
+}
+
+/* 홈 LinkCard: 전체 폭으로 너무 커 보이지 않게 너비 제한 (1줄 1개 유지) */
+.sl-markdown-content .sl-link-card {
+    max-width: 42rem;
+}
