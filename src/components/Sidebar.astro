@@ -21,9 +21,9 @@ function filterSidebar(items: typeof sidebar): typeof sidebar {
 	if (currentPath === '/' || currentPath === '/index') {
 		return [];
 	}
-	// If on Blog pages, show only Blog children
+	// On Blog pages, starlight-blog 미들웨어가 sidebar를 이미 채워두므로 그대로 사용
 	if (currentPath.startsWith('/blog')) {
-		return getChildren(items, 'Blog');
+		return items;
 	}
 	// If on Knowledge pages, show only Knowledge children
 	if (currentPath.startsWith('/knowledge')) {

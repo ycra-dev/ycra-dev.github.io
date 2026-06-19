@@ -1,6 +1,7 @@
 ---
-import '@astrojs/starlight/style/markdown.css';
 import Giscus from './Giscus.astro';
+// 블로그 글이면 메타데이터/태그/이전·다음 링크를, 그 외엔 기본 본문(.sl-markdown-content)을 렌더
+import BlogMarkdownContent from 'starlight-blog/overrides/MarkdownContent.astro';
 
 const path = Astro.url.pathname.replace(/\/$/, '');
 const segments = path.split('/').filter(Boolean);
@@ -51,5 +52,5 @@ const breadcrumbJsonLd = segments.length >= 1 && !is404 ? JSON.stringify({
 
 {articleJsonLd && <script type="application/ld+json" set:html={articleJsonLd} />}
 {breadcrumbJsonLd && <script type="application/ld+json" set:html={breadcrumbJsonLd} />}
-<div class="sl-markdown-content"><slot /></div>
+<BlogMarkdownContent><slot /></BlogMarkdownContent>
 {!isNavPage && !is404 && <Giscus />}

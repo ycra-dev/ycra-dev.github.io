@@ -3,8 +3,10 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "predev": "node scripts/fetch-plantuml.mjs",
     "dev": "astro dev",
     "start": "astro dev",
+    "prebuild": "node scripts/fetch-plantuml.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -17,5 +19,8 @@
     "mermaid": "^11.12.3",
     "rehype-mermaid": "^3.0.0",
     "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "starlight-blog": "^0.25.3"
   }
 }

@@ -10,6 +10,9 @@ node_modules/
 # vite cache
 .vite-cache/
 
+# plantuml jar 캐시 (빌드 타임 다운로드)
+.cache/
+
 # logs
 npm-debug.log*
 yarn-debug.log*

@@ -4,6 +4,8 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 import { readdirSync, readFileSync } from 'fs';
 import { join } from 'path';
+import remarkPlantuml from './plugins/remark-plantuml.mjs';
+import starlightBlog from 'starlight-blog';
 
 /** content 파일에서 slug → updated 날짜 맵 생성 (sitemap lastmod용) */
 function buildLastmodMap(contentDir) {
@@ -33,6 +35,9 @@ const lastmodMap = buildLastmodMap('./src/content/docs');
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://ycra-dev.github.io',
+	markdown: {
+		remarkPlugins: [remarkPlantuml],
+	},
 	vite: {
 		cacheDir: '/tmp/.vite',
 		optimizeDeps: { noDiscovery: true, include: [] },
@@ -55,6 +60,19 @@ export default defineConfig({
 			customCss: [
 				'./node_modules/katex/dist/katex.min.css',
 				'./src/styles/custom.css',
+				// navigation: 'none' 일 때 플러그인이 자동 주입하지 않으므로 직접 추가
+				'starlight-blog/styles',
+			],
+			plugins: [
+				starlightBlog({
+					title: 'Blog',
+					// 커스텀 Header가 이미 Blog 링크를 가지고 있어 헤더 주입은 끔
+					navigation: 'none',
+					// 단독 운영 블로그라 저자 표기는 사용하지 않음 (authors 미설정 → 저자 줄·작성자 페이지 없음)
+					metrics: { readingTime: true },
+					postCount: 10,
+					recentPostCount: 10,
+				}),
 			],
 			components: {
 				Header: './src/components/Header.astro',
@@ -67,14 +85,7 @@ export default defineConfig({
 				{ icon: 'rss', label: 'RSS', href: '/rss.xml' },
 			],
 			sidebar: [
-				{
-					label: 'Blog',
-					collapsed: true,
-					items: [
-						{ slug: 'blog' },
-						{ label: '회고', collapsed: true, autogenerate: { directory: 'blog/retrospective' } },
-					],
-				},
+				// Blog 네비게이션은 starlight-blog 플러그인이 관리 (사이드바 자동 주입)
 				{
 					label: 'Knowledge',
 					collapsed: true,

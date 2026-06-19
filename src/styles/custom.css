@@ -117,3 +117,22 @@
 .sl-markdown-content .sl-link-card {
     max-width: 42rem;
 }
+
+/* ========================================
+ * PlantUML 다이어그램 (빌드 타임 SVG 임베드)
+ * 라이트/다크 양쪽에서 읽히도록 흰 패널 위에 배치
+ * ======================================== */
+.sl-markdown-content .plantuml-diagram {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: #ffffff;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.plantuml-diagram svg {
+    max-width: 100%;
+    height: auto;
+}
