@@ -1,0 +1,132 @@
+---
+// 홈 섹션별 '최근 글' 목록: 한 섹션(blog/til/knowledge)의 공개 글을 최신순으로
+// 제목+날짜 리스트로 보여준다. (카드 없이 텍스트 중심 — leerob/tania 스타일)
+import { getCollection } from 'astro:content';
+
+const {
+	section,
+	limit = 5,
+	dedupeCategory = false,
+	showDate = true,
+	moreHref,
+	moreLabel = '전체 보기',
+} = Astro.props;
+
+/** index/MOC·홈 등 글이 아닌 페이지 제외 */
+function isPost(e) {
+	if (e.data.draft) return false;
+	if (e.data.template === 'splash') return false;
+	const seg = e.id.split('/');
+	if (seg[0] !== section) return false;
+	if (seg.length < 2) return false; // 섹션 루트(index)
+	if (section === 'knowledge' && seg.length === 2) return false; // 카테고리 index
+	return true;
+}
+
+function fmt(d) {
+	if (!d) return '';
+	const x = new Date(d);
+	const y = x.getUTCFullYear();
+	const m = String(x.getUTCMonth() + 1).padStart(2, '0');
+	const day = String(x.getUTCDate()).padStart(2, '0');
+	return `${y}.${m}.${day}`;
+}
+
+const all = await getCollection('docs');
+let items = all
+	.filter(isPost)
+	.map((e) => ({
+		href: `/${e.id}/`,
+		title: e.data.title,
+		cat: e.id.split('/')[1],
+		date: e.data.date ?? e.data.created ?? e.data.updated ?? null,
+	}))
+	.sort((a, b) => new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime());
+
+// Knowledge는 일괄 등록이 많아 같은 카테고리가 몰림 → 카테고리 다양화 우선,
+// limit을 못 채우면 나머지를 최신순으로 보충
+if (dedupeCategory) {
+	const seen = new Set();
+	const varied = [];
+	const leftover = [];
+	for (const p of items) {
+		if (seen.has(p.cat)) leftover.push(p);
+		else (seen.add(p.cat), varied.push(p));
+	}
+	items = [...varied, ...leftover];
+}
+
+items = items.slice(0, limit);
+---
+
+<ul class="recent-list">
+	{items.map((p) => (
+		<li>
+			<a href={p.href}>
+				<span class="title">{p.title}</span>
+				{showDate && p.date && <time class="date">{fmt(p.date)}</time>}
+			</a>
+		</li>
+	))}
+</ul>
+
+{moreHref && (
+	<a class="more" href={moreHref}>{moreLabel}<span class="more-arrow" aria-hidden="true">→</span></a>
+)}
+
+<style>
+	.recent-list {
+		list-style: none;
+		padding: 0;
+		margin: 0.75rem 0 0;
+	}
+	.recent-list li {
+		margin: 0;
+		border-bottom: 1px solid var(--sl-color-gray-6);
+	}
+	.recent-list li:last-child {
+		border-bottom: none;
+	}
+	.recent-list a {
+		display: flex;
+		align-items: baseline;
+		gap: 1rem;
+		padding: 0.55rem 0.25rem;
+		text-decoration: none;
+		color: var(--sl-color-white);
+		transition: color 0.15s ease;
+	}
+	.recent-list a:hover .title {
+		color: var(--sl-color-text-accent);
+	}
+	.title {
+		flex: 1;
+		min-width: 0;
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+	.date {
+		flex-shrink: 0;
+		font-size: 0.8rem;
+		color: var(--sl-color-gray-3);
+		font-variant-numeric: tabular-nums;
+	}
+
+	/* '전체 보기' 링크: 미니멀한 텍스트 버튼 */
+	.more {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.3em;
+		margin-top: 0.9rem;
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: var(--sl-color-text-accent);
+		text-decoration: none;
+	}
+	.more-arrow {
+		transition: transform 0.15s ease;
+	}
+	.more:hover .more-arrow {
+		transform: translateX(0.25em);
+	}
+</style>

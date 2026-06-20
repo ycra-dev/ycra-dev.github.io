@@ -6,10 +6,10 @@ created: 2026-01-24
 updated: 2026-01-25
 template: splash
 hero:
-  title: 데이터에서 가치를 만듭니다
+  title: 안녕하세요, 라영철입니다
   tagline: |
-    Kubernetes 데이터 플랫폼과 LLM/AI 시스템을 만드는 엔지니어 라영철입니다.
-    만들며 부딪히고 배운 것을 Blog · Knowledge · TIL로 남깁니다.
+    Kubernetes 데이터 플랫폼과 LLM·AI 시스템을 만드는 Platform & AI Engineer입니다.
+    만들며 부딪히고 배운 것을 Blog · Knowledge · TIL로 기록합니다.
   actions:
     - text: Blog 읽기
       link: /blog/
@@ -26,8 +26,16 @@ sidebar:
   order: 0
 ---
 
-import { LinkCard } from '@astrojs/starlight/components';
+import RecentList from '../../components/RecentList.astro';
 
-<LinkCard title="📝 Blog" description="문제를 어떻게 풀었는지 — 실무에서 부딪힌 문제와 해결 과정을 담은 깊이 있는 글" href="/blog/" />
-<LinkCard title="📚 Knowledge" description="주제별 개념 정리 — CS 지식 노트" href="/knowledge/" />
-<LinkCard title="🌱 TIL" description="그날 배운 것 — 가볍게 남기는 일일 학습 로그" href="/til/" />
+## 📝 Blog
+
+<RecentList section="blog" moreHref="/blog/" moreLabel="전체 글" />
+
+## 📚 Knowledge
+
+<RecentList section="knowledge" dedupeCategory moreHref="/knowledge/" moreLabel="전체 노트" />
+
+## 🌱 TIL
+
+<RecentList section="til" showDate={false} moreHref="/til/" moreLabel="전체 TIL" />

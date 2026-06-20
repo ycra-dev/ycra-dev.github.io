@@ -113,6 +113,20 @@
     word-break: keep-all;
 }
 
+/* 히어로: 기본 splash 제목이 과하게 커서 자기소개 톤으로 축소 */
+.hero h1 {
+    font-size: clamp(1.9rem, 1.3rem + 2.4vw, 2.5rem);
+    line-height: 1.25;
+}
+.hero .tagline {
+    font-size: clamp(0.95rem, 0.9rem + 0.4vw, 1.1rem);
+    max-width: 38rem;
+}
+/* 히어로 상하 여백: 기본 splash가 최대 10rem로 과해 축소 */
+.hero {
+    padding-block: clamp(1.5rem, calc(1rem + 3vmin), 3rem);
+}
+
 /* 홈 LinkCard: 전체 폭으로 너무 커 보이지 않게 너비 제한 (1줄 1개 유지) */
 .sl-markdown-content .sl-link-card {
     max-width: 42rem;
