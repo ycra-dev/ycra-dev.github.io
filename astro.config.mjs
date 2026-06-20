@@ -36,6 +36,9 @@ const lastmodMap = buildLastmodMap('./src/content/docs');
 export default defineConfig({
 	site: 'https://ycra-dev.github.io',
 	markdown: {
+		// NOTE: Astro 6.4에서 최상위 remarkPlugins는 deprecated(8.0 제거 예정)이나,
+		// 동일 deprecation 경고를 starlight-blog가 내부적으로 유발하므로 우리만 processor로
+		// 옮겨도 경고가 사라지지 않는다. starlight-blog가 신 API로 전환할 때 함께 이전한다.
 		remarkPlugins: [remarkPlantuml],
 	},
 	vite: {
@@ -46,6 +49,16 @@ export default defineConfig({
 		starlight({
 			title: 'ycra.dev',
 			description: 'Platform & AI Engineer — Kubernetes · 데이터 플랫폼 · LLM 시스템을 만들며 정리하는 기록',
+			// Shiki에 없는 코드펜스 언어 ID를 가까운 문법으로 매핑 (하이라이팅 폴백·빌드 경고 방지)
+			expressiveCode: {
+				shiki: {
+					langAlias: {
+						assembly: 'asm',
+						jinja2: 'jinja',
+						mixal: 'asm', // Knuth MIX 어셈블리 — 전용 문법 없어 asm으로 근사
+					},
+				},
+			},
 			head: [
 				{ tag: 'meta', attrs: { property: 'og:image', content: 'https://ycra-dev.github.io/og-image.png' } },
 				{ tag: 'meta', attrs: { property: 'og:image:width', content: '1200' } },
@@ -78,7 +91,9 @@ export default defineConfig({
 				Header: './src/components/Header.astro',
 				Sidebar: './src/components/Sidebar.astro',
 				PageTitle: './src/components/PageTitle.astro',
-				MarkdownContent: './src/components/MarkdownContent.astro',
+				// MarkdownContent는 starlight-blog가 직접 override(블로그 본문 렌더)하도록 양보.
+				// 우리가 덧붙이던 JSON-LD/Giscus는 Footer override로 이동.
+				Footer: './src/components/Footer.astro',
 			},
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/ycra-dev' },

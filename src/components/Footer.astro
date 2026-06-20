@@ -1,7 +1,10 @@
 ---
+// Starlight 기본 Footer(이전/다음·최종수정·편집링크)에
+// 글 페이지용 JSON-LD(Article/Breadcrumb)와 Giscus 댓글을 덧붙인다.
+// (블로그 본문 렌더는 starlight-blog가 MarkdownContent override로 직접 처리하므로
+//  여기서 본문을 감싸지 않는다 — starlight-blog의 MarkdownContent 경고 제거)
+import Default from '@astrojs/starlight/components/Footer.astro';
 import Giscus from './Giscus.astro';
-// 블로그 글이면 메타데이터/태그/이전·다음 링크를, 그 외엔 기본 본문(.sl-markdown-content)을 렌더
-import BlogMarkdownContent from 'starlight-blog/overrides/MarkdownContent.astro';
 
 const path = Astro.url.pathname.replace(/\/$/, '');
 const segments = path.split('/').filter(Boolean);
@@ -50,7 +53,7 @@ const breadcrumbJsonLd = segments.length >= 1 && !is404 ? JSON.stringify({
 }) : null;
 ---
 
+{!isNavPage && !is404 && <Giscus />}
 {articleJsonLd && <script type="application/ld+json" set:html={articleJsonLd} />}
 {breadcrumbJsonLd && <script type="application/ld+json" set:html={breadcrumbJsonLd} />}
-<BlogMarkdownContent><slot /></BlogMarkdownContent>
-{!isNavPage && !is404 && <Giscus />}
+<Default><slot /></Default>
