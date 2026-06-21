@@ -12,7 +12,10 @@ function formatDate(date: Date): string {
 	});
 }
 
-const showDates = created || updated;
+// 블로그 글은 starlight-blog가 제목 아래에 날짜·읽기시간을 따로 렌더하므로
+// 중복을 피하기 위해 PageTitle의 날짜는 표시하지 않는다.
+const isBlogPost = entry.id.startsWith('blog/');
+const showDates = (created || updated) && !isBlogPost;
 const isUpdated = updated && created && updated.getTime() !== created.getTime();
 ---
 
