@@ -1,0 +1,410 @@
+<!DOCTYPE html><html lang="ko" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-bguv2lll"> <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>StarRocks Operator는 왜 클러스터가 많아지면 멈추는가 | ycra.dev</title><link rel="canonical" href="https://ycra-dev.github.io/blog/starrocks-operator-scaling/"/><link rel="sitemap" href="/sitemap-index.xml"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><link rel="manifest" href="/manifest.webmanifest"/><link href="https://ycra-dev.github.io/blog/rss.xml" rel="alternate" title="Blog" type="application/rss+xml"/><link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml"/><meta name="generator" content="Astro v6.4.8"/><meta name="generator" content="Starlight v0.40.0"/><meta property="og:title" content="StarRocks Operator는 왜 클러스터가 많아지면 멈추는가"/><meta property="og:type" content="article"/><meta property="og:url" content="https://ycra-dev.github.io/blog/starrocks-operator-scaling/"/><meta property="og:locale" content="ko"/><meta property="og:description" content="소수 CR을 전제로 설계된 StarRocks Operator가 다수 클러스터 환경에서 reconcile과 2분 resync 때문에 hang에 빠지는 이유를 분석하고, controller-runtime 매니저 옵션을 Helm으로 노출한 PR #769을 정리한다."/><meta property="og:site_name" content="ycra.dev"/><meta name="twitter:card" content="summary_large_image"/><meta name="description" content="소수 CR을 전제로 설계된 StarRocks Operator가 다수 클러스터 환경에서 reconcile과 2분 resync 때문에 hang에 빠지는 이유를 분석하고, controller-runtime 매니저 옵션을 Helm으로 노출한 PR #769을 정리한다."/><meta property="og:image" content="https://ycra-dev.github.io/og-image.png"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg aria-hidden="true" class="dark astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg><svg aria-hidden="true" class="auto astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg></template><link rel="stylesheet" href="/_astro/print.DNXP8c50.css" media="print"><link rel="stylesheet" href="/_astro/middleware.CnI71Ju-.css"><link rel="stylesheet" href="/_astro/Code.3GXCdK6h.css"><script type="module" src="/_astro/page.B_tncCx8.js"></script></head> <body class="astro-bguv2lll"> <a href="#_top" class="astro-7q3lir66">콘텐츠로 이동</a> <div class="page sl-flex astro-vrdttmbt"> <header class="header astro-vrdttmbt"><div class="header astro-3ef6ksr2"> <div class="title-wrapper sl-flex astro-3ef6ksr2"> <a href="/" class="site-title sl-flex astro-m46x6ez3">  <span class="astro-m46x6ez3" translate="no"> ycra.dev </span> </a> </div> <div class="sl-flex print:hidden astro-3ef6ksr2"> <site-search class="astro-3ef6ksr2 astro-v37mnknz" data-translations="{&quot;placeholder&quot;:&quot;검색&quot;}"> <button data-open-modal disabled aria-label="검색" aria-keyshortcuts="Control+K" class="astro-v37mnknz"> <svg aria-hidden="true" class="astro-v37mnknz astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg> <span class="sl-hidden md:sl-block astro-v37mnknz" aria-hidden="true">검색</span> <kbd class="sl-hidden md:sl-flex astro-v37mnknz" style="display: none;"> <kbd class="astro-v37mnknz">Ctrl</kbd><kbd class="astro-v37mnknz">K</kbd> </kbd> </button> <dialog style="padding:0" aria-label="검색" class="astro-v37mnknz"> <div class="dialog-frame sl-flex astro-v37mnknz">  <button data-close-modal class="sl-flex md:sl-hidden astro-v37mnknz"> 취소 </button> <div class="search-container astro-v37mnknz"> <div id="starlight__search" class="astro-v37mnknz"></div> </div> </div> </dialog> </site-search>  <script>
+	(() => {
+		const openBtn = document.querySelector('button[data-open-modal]');
+		const shortcut = openBtn?.querySelector('kbd');
+		if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+		const platformKey = shortcut.querySelector('kbd');
+		if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+			platformKey.textContent = '⌘';
+			openBtn.setAttribute('aria-keyshortcuts', 'Meta+K');
+		}
+		shortcut.style.display = '';
+	})();
+</script> <script type="module" src="/_astro/Search.astro_astro_type_script_index_0_lang.lq3t8uE2.js"></script>  </div> <div class="sl-flex print:hidden right-group astro-3ef6ksr2"> <nav class="nav-links astro-3ef6ksr2"> <a href="/blog/" class="active astro-3ef6ksr2"> Blog </a><a href="/knowledge/" class="astro-3ef6ksr2"> Knowledge </a><a href="/til/" class="astro-3ef6ksr2"> TIL </a> </nav> <div class="sl-hidden md:sl-flex desktop-only astro-3ef6ksr2"> <div class="sl-flex social-icons astro-3ef6ksr2"> <a href="https://github.com/ycra-dev" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">GitHub</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.08 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg></a><a href="/rss.xml" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">RSS</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M2.88 16.88a3 3 0 0 0 0 4.24 3 3 0 0 0 4.24 0 3 3 0 0 0-4.24-4.24Zm2.83 2.83a1 1 0 0 1-1.42-1.42 1 1 0 0 1 1.42 0 1 1 0 0 1 0 1.42ZM5 12a1 1 0 0 0 0 2 5 5 0 0 1 5 5 1 1 0 0 0 2 0 7 7 0 0 0-7-7Zm0-4a1 1 0 0 0 0 2 9 9 0 0 1 9 9 1 1 0 0 0 2 0 11.08 11.08 0 0 0-3.22-7.78A11.08 11.08 0 0 0 5 8Zm10.61.39A15.11 15.11 0 0 0 5 4a1 1 0 0 0 0 2 13 13 0 0 1 13 13 1 1 0 0 0 2 0 15.11 15.11 0 0 0-4.39-10.61Z"/></svg></a> </div> <starlight-theme-select>  <label style="--sl-select-width: 6.25em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">테마 선택</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg> <select autocomplete="off" class="astro-4yphtoen"> <option value="dark" class="astro-4yphtoen">어두운 테마</option><option value="light" class="astro-4yphtoen">밝은 테마</option><option value="auto" selected class="astro-4yphtoen">자동</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg> </label> </starlight-theme-select>  <script>
+	StarlightThemeProvider.updatePickers();
+</script> <script type="module">const r="starlight-theme",o=e=>e==="auto"||e==="dark"||e==="light"?e:"auto",c=()=>o(typeof localStorage<"u"&&localStorage.getItem(r));function n(e){typeof localStorage<"u"&&localStorage.setItem(r,e==="light"||e==="dark"?e:"")}const l=()=>matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";function t(e){StarlightThemeProvider.updatePickers(e),document.documentElement.dataset.theme=e==="auto"?l():e,n(e)}matchMedia("(prefers-color-scheme: light)").addEventListener("change",()=>{c()==="auto"&&t("auto")});class s extends HTMLElement{constructor(){super(),t(c()),this.querySelector("select")?.addEventListener("change",a=>{a.currentTarget instanceof HTMLSelectElement&&t(o(a.currentTarget.value))})}}customElements.define("starlight-theme-select",s);</script> <script type="module">class s extends HTMLElement{constructor(){super();const e=this.querySelector("select");e&&(e.addEventListener("change",t=>{t.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=t.currentTarget.value)}),window.addEventListener("pageshow",t=>{if(!t.persisted)return;const n=e.querySelector("option[selected]")?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}}customElements.define("starlight-lang-select",s);</script> </div> </div> </div></header> <nav class="sidebar print:hidden astro-vrdttmbt" aria-label="메인"> <starlight-menu-button class="print:hidden astro-jif73yzw"> <button aria-expanded="false" aria-label="메뉴" aria-controls="starlight__sidebar" class="sl-flex md:sl-hidden astro-jif73yzw"> <svg aria-hidden="true" class="open-menu astro-jif73yzw astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg> <svg aria-hidden="true" class="close-menu astro-jif73yzw astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="m13.41 12 6.3-6.29a1.004 1.004 0 1 0-1.42-1.42L12 10.59l-6.29-6.3a1.004 1.004 0 0 0-1.42 1.42l6.3 6.29-6.3 6.29a1 1 0 0 0 0 1.42.998.998 0 0 0 1.42 0l6.29-6.3 6.29 6.3a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.42L13.41 12Z"/></svg> </button> </starlight-menu-button> <script type="module">class s extends HTMLElement{constructor(){super(),this.btn=this.querySelector("button"),this.btn.addEventListener("click",()=>this.toggleExpanded());const t=this.closest("nav");t&&t.addEventListener("keyup",e=>this.closeOnEscape(e))}setExpanded(t){this.setAttribute("aria-expanded",String(t)),document.body.toggleAttribute("data-mobile-menu-expanded",t)}toggleExpanded(){this.setExpanded(this.getAttribute("aria-expanded")!=="true")}closeOnEscape(t){t.code==="Escape"&&(this.setExpanded(!1),this.btn.focus())}}customElements.define("starlight-menu-button",s);</script>  <div id="starlight__sidebar" class="sidebar-pane astro-vrdttmbt"> <div class="sidebar-content sl-flex astro-vrdttmbt"> <sl-sidebar-state-persist data-hash="0drqxns" class="astro-kku4brbg"> <script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script>  <ul class="top-level astro-3ii7xxms"> <li class="astro-3ii7xxms"> <a href="/blog/" class="large astro-3ii7xxms"> <span class="astro-3ii7xxms">전체 글</span>  </a> </li><li class="astro-3ii7xxms"> <details open class="astro-3ii7xxms"> <summary class="astro-3ii7xxms"> <span class="group-label astro-3ii7xxms"> <span class="large astro-3ii7xxms">최근 글</span>  </span> <svg aria-hidden="true" class="caret astro-3ii7xxms astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <sl-sidebar-restore data-index="0"></sl-sidebar-restore> <ul class="astro-3ii7xxms"> <li class="astro-3ii7xxms"> <a href="/blog/starrocks-operator-scaling/" aria-current="page" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">StarRocks Operator는 왜 클러스터가 많아지면 멈추는가</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/kubernetes-informer/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Kubernetes Informer는 어떻게 동작하는가</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/informer-pitfalls/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Kubernetes Informer를 쓸 때 주의할 점</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/git-team-collaboration/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">우리 팀이 Git 대충 쓰기에서 협업 시스템으로 넘어간 방법</span>  </a> </li> </ul> </details> </li><li class="astro-3ii7xxms"> <details open class="astro-3ii7xxms"> <summary class="astro-3ii7xxms"> <span class="group-label astro-3ii7xxms"> <span class="large astro-3ii7xxms">태그</span>  </span> <svg aria-hidden="true" class="caret astro-3ii7xxms astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <sl-sidebar-restore data-index="1"></sl-sidebar-restore> <ul class="astro-3ii7xxms"> <li class="astro-3ii7xxms"> <a href="/blog/tags/kubernetes/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Kubernetes (3)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/tags/client-go/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">client-go (2)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/tags/controller/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Controller (2)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/tags/informer/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Informer (2)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/tags/controller-runtime/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">controller-runtime (1)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/tags/git/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Git (1)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/tags/helm/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Helm (1)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/tags/operator/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Operator (1)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/tags/starrocks/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">StarRocks (1)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/tags/코드리뷰/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">코드리뷰 (1)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/tags/팀문화/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">팀문화 (1)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/blog/tags/협업/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">협업 (1)</span>  </a> </li> </ul> </details> </li><li class="astro-3ii7xxms"> <a href="/blog/rss.xml" class="large astro-3ii7xxms"> <span class="astro-3ii7xxms">RSS</span>  </a> </li> </ul>  <script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script> </sl-sidebar-state-persist> <div class="md:sl-hidden"> <div class="mobile-preferences sl-flex astro-wu23bvmt"> <div class="social-icons astro-wu23bvmt"> <a href="https://github.com/ycra-dev" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">GitHub</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.08 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg></a><a href="/rss.xml" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">RSS</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M2.88 16.88a3 3 0 0 0 0 4.24 3 3 0 0 0 4.24 0 3 3 0 0 0-4.24-4.24Zm2.83 2.83a1 1 0 0 1-1.42-1.42 1 1 0 0 1 1.42 0 1 1 0 0 1 0 1.42ZM5 12a1 1 0 0 0 0 2 5 5 0 0 1 5 5 1 1 0 0 0 2 0 7 7 0 0 0-7-7Zm0-4a1 1 0 0 0 0 2 9 9 0 0 1 9 9 1 1 0 0 0 2 0 11.08 11.08 0 0 0-3.22-7.78A11.08 11.08 0 0 0 5 8Zm10.61.39A15.11 15.11 0 0 0 5 4a1 1 0 0 0 0 2 13 13 0 0 1 13 13 1 1 0 0 0 2 0 15.11 15.11 0 0 0-4.39-10.61Z"/></svg></a> </div> <starlight-theme-select>  <label style="--sl-select-width: 6.25em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">테마 선택</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg> <select autocomplete="off" class="astro-4yphtoen"> <option value="dark" class="astro-4yphtoen">어두운 테마</option><option value="light" class="astro-4yphtoen">밝은 테마</option><option value="auto" selected class="astro-4yphtoen">자동</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg> </label> </starlight-theme-select>  <script>
+	StarlightThemeProvider.updatePickers();
+</script>   </div> </div> </div> </div> </nav> <div class="main-frame astro-vrdttmbt">  <script type="module">const a=document.getElementById("starlight__sidebar"),n=a?.querySelector("sl-sidebar-state-persist"),o="sl-sidebar-state",i=()=>{let t=[];const e=n?.dataset.hash||"";try{const s=sessionStorage.getItem(o),r=JSON.parse(s||"{}");Array.isArray(r.open)&&r.hash===e&&(t=r.open)}catch{}return{hash:e,open:t,scroll:a?.scrollTop||0}},c=t=>{try{sessionStorage.setItem(o,JSON.stringify(t))}catch{}},d=()=>c(i()),l=(t,e)=>{const s=i();s.open[e]=t,c(s)};n?.addEventListener("click",t=>{if(!(t.target instanceof Element))return;const e=t.target.closest("summary")?.closest("details");if(!e)return;const s=e.querySelector("sl-sidebar-restore"),r=parseInt(s?.dataset.index||"");isNaN(r)||l(!e.open,r)});addEventListener("visibilitychange",()=>{document.visibilityState==="hidden"&&d()});addEventListener("pageHide",d);</script> <div class="lg:sl-flex astro-67yu43on"> <aside class="right-sidebar-container print:hidden astro-67yu43on"> <div class="right-sidebar astro-67yu43on"> <div class="lg:sl-hidden astro-pb3aqygn"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-doynk5tl"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-doynk5tl"><details id="starlight__mobile-toc" class="astro-doynk5tl"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-doynk5tl"><span class="toggle sl-flex astro-doynk5tl">목차<svg aria-hidden="true" class="caret astro-doynk5tl astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-doynk5tl"></span></summary><div class="dropdown astro-doynk5tl"><ul class="isMobile astro-gnoq344e" style="--depth: 0;"> <li class="astro-gnoq344e" style="--depth: 0;"> <a href="#_top" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">개요</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#문제-cr이-늘어나자-operator가-멈췄다" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">문제: CR이 늘어나자 Operator가 멈췄다</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#왜-멈추는가-세-가지-병목" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">왜 멈추는가: 세 가지 병목</span> </a> <ul class="isMobile astro-gnoq344e" style="--depth: 1;"> <li class="astro-gnoq344e" style="--depth: 1;"> <a href="#1-reconcile-동시성이-1로-고정돼-있다" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">1. reconcile 동시성이 1로 고정돼 있다</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#2-2분마다-전체-cr이-다시-큐에-들어온다-resync" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">2. 2분마다 전체 CR이 다시 큐에 들어온다 (resync)</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#3-클라이언트-rate-limitqpsburst에-막힌다" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">3. 클라이언트 rate limit(QPS/Burst)에 막힌다</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#종합-세-값이-서로를-악화시킨다" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">종합: 세 값이 서로를 악화시킨다</span> </a>  </li> </ul> </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#해결-하드코딩-값을-helm으로-끄집어내다-pr-769" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">해결: 하드코딩 값을 Helm으로 끄집어내다 (PR #769)</span> </a> <ul class="isMobile astro-gnoq344e" style="--depth: 1;"> <li class="astro-gnoq344e" style="--depth: 1;"> <a href="#하위-호환성" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">하위 호환성</span> </a>  </li> </ul> </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#실험-세-값은-정말-부하를-좌우하는가" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">실험: 세 값은 정말 부하를 좌우하는가</span> </a> <ul class="isMobile astro-gnoq344e" style="--depth: 1;"> <li class="astro-gnoq344e" style="--depth: 1;"> <a href="#실험-환경" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">실험 환경</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#출발점--cr-하나가-api를-얼마나-두드리나" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">출발점 — CR 하나가 API를 얼마나 두드리나</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#노브-1--max-concurrent-reconciles-직렬-처리가-api-지연을-만나면-터진다" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">노브 1 — max-concurrent-reconciles: 직렬 처리가 API 지연을 만나면 터진다</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#노브-2--kube-api-qpsburst-동시성을-올리면-반드시-같이-올려야-한다" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">노브 2 — kube-api-qps/burst: 동시성을 올리면 반드시 같이 올려야 한다</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#노브-3--sync-period-가만히-있어도-깔리는-상시-부하" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">노브 3 — sync-period: 가만히 있어도 깔리는 상시 부하</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#종합-해석" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">종합 해석</span> </a>  </li> </ul> </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#정리" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">정리</span> </a>  </li> </ul></div></details></nav></mobile-starlight-toc><script type="module" src="/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.hwBsy0Mo.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-pb3aqygn"><div class="sl-container astro-pb3aqygn"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">목차</h2><ul class="astro-gnoq344e" style="--depth: 0;"> <li class="astro-gnoq344e" style="--depth: 0;"> <a href="#_top" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">개요</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#문제-cr이-늘어나자-operator가-멈췄다" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">문제: CR이 늘어나자 Operator가 멈췄다</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#왜-멈추는가-세-가지-병목" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">왜 멈추는가: 세 가지 병목</span> </a> <ul class="astro-gnoq344e" style="--depth: 1;"> <li class="astro-gnoq344e" style="--depth: 1;"> <a href="#1-reconcile-동시성이-1로-고정돼-있다" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">1. reconcile 동시성이 1로 고정돼 있다</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#2-2분마다-전체-cr이-다시-큐에-들어온다-resync" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">2. 2분마다 전체 CR이 다시 큐에 들어온다 (resync)</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#3-클라이언트-rate-limitqpsburst에-막힌다" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">3. 클라이언트 rate limit(QPS/Burst)에 막힌다</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#종합-세-값이-서로를-악화시킨다" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">종합: 세 값이 서로를 악화시킨다</span> </a>  </li> </ul> </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#해결-하드코딩-값을-helm으로-끄집어내다-pr-769" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">해결: 하드코딩 값을 Helm으로 끄집어내다 (PR #769)</span> </a> <ul class="astro-gnoq344e" style="--depth: 1;"> <li class="astro-gnoq344e" style="--depth: 1;"> <a href="#하위-호환성" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">하위 호환성</span> </a>  </li> </ul> </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#실험-세-값은-정말-부하를-좌우하는가" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">실험: 세 값은 정말 부하를 좌우하는가</span> </a> <ul class="astro-gnoq344e" style="--depth: 1;"> <li class="astro-gnoq344e" style="--depth: 1;"> <a href="#실험-환경" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">실험 환경</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#출발점--cr-하나가-api를-얼마나-두드리나" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">출발점 — CR 하나가 API를 얼마나 두드리나</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#노브-1--max-concurrent-reconciles-직렬-처리가-api-지연을-만나면-터진다" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">노브 1 — max-concurrent-reconciles: 직렬 처리가 API 지연을 만나면 터진다</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#노브-2--kube-api-qpsburst-동시성을-올리면-반드시-같이-올려야-한다" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">노브 2 — kube-api-qps/burst: 동시성을 올리면 반드시 같이 올려야 한다</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#노브-3--sync-period-가만히-있어도-깔리는-상시-부하" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">노브 3 — sync-period: 가만히 있어도 깔리는 상시 부하</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#종합-해석" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">종합 해석</span> </a>  </li> </ul> </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#정리" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">정리</span> </a>  </li> </ul></nav></starlight-toc><script type="module" src="/_astro/TableOfContents.astro_astro_type_script_index_0_lang.FuRcXuRY.js"></script></div></div> </div> </aside> <div class="main-pane astro-67yu43on">  <main data-pagefind-body class="astro-bguv2lll" lang="ko" dir="ltr">    <div class="content-panel astro-7nkwcw3z"> <div class="sl-container astro-7nkwcw3z"> <h1 id="_top" class="astro-guvttfii">StarRocks Operator는 왜 클러스터가 많아지면 멈추는가</h1>  </div> </div> <div class="content-panel astro-7nkwcw3z"> <div class="sl-container astro-7nkwcw3z"> <div class="sl-markdown-content"><div class="metadata not-content astro-2oxtfctb"> <div class="dates astro-2oxtfctb"> <time datetime="2026-06-29T00:00:00.000Z" class="astro-2oxtfctb"> 2026. 6. 29. </time>  <span class="metadata-alt astro-2oxtfctb">  · 9분 읽기 </span>  </div>   </div>  <div class="sl-heading-wrapper level-h2"><h2 id="문제-cr이-늘어나자-operator가-멈췄다">문제: CR이 늘어나자 Operator가 멈췄다</h2><a class="sl-anchor-link" href="#문제-cr이-늘어나자-operator가-멈췄다"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “문제: CR이 늘어나자 Operator가 멈췄다”</span></a></div>
+<p>StarRocks Kubernetes Operator는 <code dir="auto">StarRocksCluster</code>라는 CR(Custom Resource) 하나하나를 watch하면서, 그 안에 정의된 <strong>FE(Frontend)·CN(Compute Node)·BE(Backend)</strong> 컴포넌트를 실제 클러스터 상태와 맞추는(reconcile) 역할을 한다.</p>
+<p>문제는 이 Operator가 <strong>단일 클러스터, 혹은 소수의 클러스터를 관리하는 것을 전제로 설계</strong>되었다는 점이다. CR이 한두 개일 때는 아무 문제가 없다. 그런데 하나의 클러스터 위에 <strong>수십 개의 StarRocks 클러스터(CR)</strong> 가 떠 있는 멀티테넌트 환경으로 가면 이야기가 달라진다.</p>
+<p>CR이 특정 개수를 넘어서면서 Operator가 다음과 같은 증상을 보이기 시작했다.</p>
+<ul>
+<li>새 CR을 만들어도 한참 동안 reconcile이 시작되지 않는다.</li>
+<li>스펙을 바꿔도 반영이 지연된다.</li>
+<li>결국 Operator가 사실상 <strong>hang</strong>에 빠진 것처럼 보인다.</li>
+</ul>
+<p>원인을 추적해보니, 코드에 <strong>하드코딩된 controller-runtime 설정값</strong> 세 가지가 맞물려 있었다.</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="왜-멈추는가-세-가지-병목">왜 멈추는가: 세 가지 병목</h2><a class="sl-anchor-link" href="#왜-멈추는가-세-가지-병목"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “왜 멈추는가: 세 가지 병목”</span></a></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="1-reconcile-동시성이-1로-고정돼-있다">1. reconcile 동시성이 1로 고정돼 있다</h3><a class="sl-anchor-link" href="#1-reconcile-동시성이-1로-고정돼-있다"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “1. reconcile 동시성이 1로 고정돼 있다”</span></a></div>
+<p>controller-runtime의 컨트롤러는 내부적으로 workqueue에서 CR의 key를 꺼내 reconcile하는 <strong>워커 goroutine</strong>을 돌린다. 이 워커 수가 바로 <code dir="auto">MaxConcurrentReconciles</code>이고, <strong>기본값은 1</strong>이다.</p>
+<p>즉, 아무리 CR이 많아도 <strong>한 번에 단 하나의 CR만</strong> reconcile된다. 나머지는 모두 큐에서 순서를 기다린다.</p>
+<figure class="plantuml-diagram not-content"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="355px" preserveAspectRatio="none" style="width:350px;height:355px;background:#FFFFFF;" version="1.1" viewBox="0 0 350 355" width="350px" zoomAndPan="magnify"><!--?plantuml 1.2026.6?--><defs></defs><g><!--cluster Reconcile Worker--><g class="cluster" data-qualified-name="Reconcile Worker" data-source-line="5" id="ent0002"><rect fill="none" height="87" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1;" width="154" x="34.5" y="112"></rect><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="700" lengthAdjust="spacing" textLength="138.0996" x="42.4502" y="126.9951">Reconcile Worker</text></g><!--entity W--><g class="entity" data-qualified-name="Reconcile Worker.W" data-source-line="6" id="ent0003"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="111.7246" x="58.5" y="147"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91.7246" x="68.5" y="169.9951">Worker (1개뿐)</text></g><!--entity Q--><g class="entity" data-qualified-name="Q" data-source-line="4" id="ent0001"><path d="M60,6 L168.9502,6 C173.9502,6 173.9502,27.2969 173.9502,27.2969 C173.9502,27.2969 173.9502,48.5938 168.9502,48.5938 L60,48.5938 C55,48.5938 55,27.2969 55,27.2969 C55,27.2969 55,6 60,6" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"></path><path d="M168.9502,6 C163.9502,6 163.9502,27.2969 163.9502,27.2969 C163.9502,48.5938 168.9502,48.5938 168.9502,48.5938" fill="none" style="stroke:#181818;stroke-width:0.5;"></path><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.2637" x="60" y="23.9951">WorkQueue</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98.9502" x="60" y="40.292">(CR 50개의 key)</text></g><!--entity API--><g class="entity" data-qualified-name="API" data-source-line="8" id="ent0004"><polygon fill="#F1F1F1" points="16,294.5,26,284.5,213.1514,284.5,213.1514,320.7969,203.1514,330.7969,16,330.7969,16,294.5" style="stroke:#181818;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:10;"></polygon><line style="stroke:#181818;stroke-width:0.5;" x1="203.1514" x2="213.1514" y1="294.5" y2="284.5"></line><line style="stroke:#181818;stroke-width:0.5;" x1="16" x2="203.1514" y1="294.5" y2="294.5"></line><line style="stroke:#181818;stroke-width:0.5;" x1="203.1514" x2="203.1514" y1="294.5" y2="330.7969"></line><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157.1514" x="31" y="317.4951">Kubernetes API Server</text></g><g class="entity" data-qualified-name="GMN7" data-source-line="13" id="ent0008"><path d="M205.5,137.5 L205.5,161 L170.56,165 L205.5,169 L205.5,192.8984 A0,0 0 0 0 205.5,192.8984 L335.8003,192.8984 A0,0 0 0 0 335.8003,192.8984 L335.8003,147.5 L325.8003,137.5 L205.5,137.5 A0,0 0 0 0 205.5,137.5" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"></path><path d="M325.8003,137.5 L325.8003,147.5 L335.8003,147.5 L325.8003,137.5" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"></path><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109.3003" x="211.5" y="154.5669">CR 1개 reconcile이</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87.2168" x="211.5" y="169.6997">느리면 나머지 49개는</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="35.3374" x="211.5" y="184.8325">전부 대기</text></g><!--link Q to W--><g class="link" data-entity-1="ent0001" data-entity-2="ent0003" data-link-type="dependency" data-source-line="10" id="lnk5"><path d="M114.5,49.08 C114.5,75.73 114.5,116.72 114.5,141.68" fill="none" id="Q-to-W" style="stroke:#181818;stroke-width:1;"></path><polygon fill="#181818" points="114.5,146.68,118.5,137.68,114.5,141.68,110.5,137.68,114.5,146.68" style="stroke:#181818;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;"></polygon><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116.6509" x="115.5" y="92.0669">한 번에 1개만 dequeue</text></g><!--link W to API--><g class="link" data-entity-1="ent0003" data-entity-2="ent0004" data-link-type="dependency" data-source-line="11" id="lnk6"><path d="M114.5,183.23 C114.5,208.58 114.5,250.96 114.5,279.02" fill="none" id="W-to-API" style="stroke:#181818;stroke-width:1;"></path><polygon fill="#181818" points="114.5,284.02,118.5,275.02,114.5,279.02,110.5,275.02,114.5,284.02" style="stroke:#181818;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;"></polygon><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134.6147" x="115.5" y="235.5669">FE/CN/BE 상태 조회 + 갱신</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107.6626" x="128.9761" y="250.6997">(CR 1개당 여러 번 호출)</text></g><!--?plantuml-src HT11Im9150Vm-toAFtjIGYoeGnw24eC88lMmboxRxcIBEcFhM4W4bXr2FNWeb52oInPus4B4JdqVP_mExUo6tMRclVURzrwrwBAAvLbbsBnSuOmoaHVr4eL7RM6nGeaImIiG7ATS25w6u-g8onaX5pLQep1CxXMp-dZ2OkaSjjON_a0D-oZIUjo0LKMMh30OEMfpPhl1KTTHpy0rmV_d4KSzn3O2Hlvq8y8aDuHn9wW_h9rIZr51gzWzFa2UUfSQiS8h8Laa77x54ZimaSBoQG3vzQ1wNOJSk0E7XcqJSvMecHJsCydqKN8l0zMyNJO7KA_-yhc3DIpyJzKUHRE5IFiRgZUHBnDDOzcVgzaW7dGdWgMvXNC1VXRq2_pbwqr64wlXD7YMhQvycyYFAUHTNxxFrRY1pMqDjnw3i1hTora3ijDOp7r2cGCj_m80?--></g></svg></figure>
+<p>reconcile 하나가 가벼우면 워커 1개로도 충분하다. 하지만 StarRocks의 reconcile은 가볍지 않다. CR 하나마다 FE/CN/BE 각각의 StatefulSet·Service·ConfigMap 상태를 확인하고, 필요하면 API 서버에 갱신 요청을 보낸다. CR 하나를 처리하는 데 걸리는 시간 × 큐에 쌓인 CR 수만큼 <strong>선형으로 지연이 누적</strong>된다.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="2-2분마다-전체-cr이-다시-큐에-들어온다-resync">2. 2분마다 전체 CR이 다시 큐에 들어온다 (resync)</h3><a class="sl-anchor-link" href="#2-2분마다-전체-cr이-다시-큐에-들어온다-resync"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “2. 2분마다 전체 CR이 다시 큐에 들어온다 (resync)”</span></a></div>
+<p>controller-runtime 매니저에는 <code dir="auto">SyncPeriod</code>라는 설정이 있고, StarRocks Operator는 이를 <strong>2분</strong>으로 잡고 있었다.</p>
+<p><a href="/blog/informer-pitfalls/">이전 글</a>에서 정리했듯, resync는 API 서버를 다시 조회하는 게 아니다. <strong>로컬 캐시에 있는 모든 객체를 핸들러에 다시 흘려보내</strong> reconcile을 한 번 더 돌리는 안전장치다. 문제는 이게 <strong>전체 CR을 대상으로</strong> 한다는 것이다.</p>
+<p>CR이 50개라면, 2분마다 50개의 reconcile 요청이 한꺼번에 큐에 들어온다. 그런데 (1)에서 봤듯 워커는 1개뿐이다. 한 번의 resync 사이클(50개 reconcile)을 2분 안에 못 끝내면, <strong>다음 resync가 또 50개를 밀어 넣는다.</strong> 큐는 줄지 않고 계속 불어나고, Operator는 영원히 밀린 일을 따라잡지 못한다.</p>
+<figure class="plantuml-diagram not-content"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="SEQUENCE" height="308px" preserveAspectRatio="none" style="width:398px;height:308px;background:#FFFFFF;" version="1.1" viewBox="0 0 398 308" width="398px" zoomAndPan="magnify"><!--?plantuml 1.2026.6?--><defs></defs><g><g class="participant-lifeline" data-entity-uid="part1" data-qualified-name="T" data-source-line="1" id="part1-lifeline"><g><title>SyncPeriod</title><rect fill="#000000" fill-opacity="0" height="201.9297" width="8" x="46.9478" y="52.5938"></rect><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5,5;" x1="50" x2="50" y1="52.5938" y2="254.5234"></line></g></g><g class="participant-lifeline" data-entity-uid="part2" data-qualified-name="Q" data-source-line="2" id="part2-lifeline"><g><title>WorkQueue</title><rect fill="#000000" fill-opacity="0" height="201.9297" width="8" x="228.0205" y="52.5938"></rect><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5,5;" x1="231.8887" x2="231.8887" y1="52.5938" y2="254.5234"></line></g></g><g class="participant-lifeline" data-entity-uid="part3" data-qualified-name="W" data-source-line="3" id="part3-lifeline"><g><title>Worker .1..</title><rect fill="#000000" fill-opacity="0" height="201.9297" width="8" x="334.814" y="52.5938"></rect><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5,5;" x1="338.1523" x2="338.1523" y1="52.5938" y2="254.5234"></line></g></g><g class="participant participant-head" data-entity-uid="part1" data-qualified-name="T" data-source-line="1" id="part1-head"><rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="91.8955" x="5" y="5"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77.8955" x="12" y="24.9951">SyncPeriod</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57.8867" x="22.0044" y="41.292">(2분 타이머)</text></g><g class="participant participant-tail" data-entity-uid="part1" data-qualified-name="T" data-source-line="1" id="part1-tail"><rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="91.8955" x="5" y="253.5234"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77.8955" x="12" y="273.5186">SyncPeriod</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57.8867" x="22.0044" y="289.8154">(2분 타이머)</text></g><g class="participant participant-head" data-entity-uid="part2" data-qualified-name="Q" data-source-line="2" id="part2-head"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96.2637" x="183.8887" y="21.2969"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.2637" x="190.8887" y="41.292">WorkQueue</text></g><g class="participant participant-tail" data-entity-uid="part2" data-qualified-name="Q" data-source-line="2" id="part2-tail"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96.2637" x="183.8887" y="253.5234"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.2637" x="190.8887" y="273.5186">WorkQueue</text></g><g class="participant participant-head" data-entity-uid="part3" data-qualified-name="W" data-source-line="3" id="part3-head"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="97.3232" x="290.1523" y="21.2969"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83.3232" x="297.1523" y="41.292">Worker (1개)</text></g><g class="participant participant-tail" data-entity-uid="part3" data-qualified-name="W" data-source-line="3" id="part3-tail"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="97.3232" x="290.1523" y="253.5234"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83.3232" x="297.1523" y="273.5186">Worker (1개)</text></g><g class="message" data-entity-1="part1" data-entity-2="part2" data-source-line="5" id="msg1"><polygon fill="#181818" points="220.0205,79.7266,230.0205,83.7266,220.0205,87.7266,224.0205,83.7266" style="stroke:#181818;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;"></polygon><line style="stroke:#181818;stroke-width:1;" x1="50.9478" x2="226.0205" y1="83.7266" y2="83.7266"></line><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="145.1392" x="57.9478" y="78.6606">0:00  CR 50개 enqueue</text></g><g class="message" data-entity-1="part3" data-entity-2="part2" data-source-line="6" id="msg2"><polygon fill="#181818" points="243.0205,108.8594,233.0205,112.8594,243.0205,116.8594,239.0205,112.8594" style="stroke:#181818;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;"></polygon><line style="stroke:#181818;stroke-width:1;" x1="237.0205" x2="337.814" y1="112.8594" y2="112.8594"></line><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69.8115" x="249.0205" y="107.7935">처리 중... (느림)</text></g><g class="message" data-entity-1="part1" data-entity-2="part2" data-source-line="7" id="msg3"><polygon fill="#181818" points="220.0205,137.9922,230.0205,141.9922,220.0205,145.9922,224.0205,141.9922" style="stroke:#181818;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;"></polygon><line style="stroke:#181818;stroke-width:1;" x1="50.9478" x2="226.0205" y1="141.9922" y2="141.9922"></line><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="157.0728" x="57.9478" y="136.9263">2:00  CR 50개 또 enqueue</text></g><path d="M237,154.9922 L237,209.9922 L340,209.9922 L340,164.9922 L330,154.9922 L237,154.9922" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"></path><path d="M330,154.9922 L330,164.9922 L340,164.9922 L330,154.9922" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"></path><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70.6748" x="243" y="172.0591">이전 사이클이 아직</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79.4155" x="243" y="187.1919">안 끝났는데 50개가</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82.0308" x="243" y="202.3247">또 쌓인다 → 큐 폭증</text><g class="message" data-entity-1="part1" data-entity-2="part2" data-source-line="13" id="msg4"><polygon fill="#181818" points="220.0205,232.5234,230.0205,236.5234,220.0205,240.5234,224.0205,236.5234" style="stroke:#181818;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;"></polygon><line style="stroke:#181818;stroke-width:1;" x1="50.9478" x2="226.0205" y1="236.5234" y2="236.5234"></line><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="157.0728" x="57.9478" y="231.4575">4:00  CR 50개 또 enqueue</text></g><!--?plantuml-src AqWiAibCpYn8p2jHK0gkp4iEI2tAp4-9oTCmUhsjHU5jSyERkLjUhzYXgQIGMAmGmbM0h3uyloWxi3IrD1Ki6OWfcLgae67uQiCSYEvmBguG1LqxXK05AmK3AmC31GNd80LJ0w2yGcfU8SWShd2O_9jDCrulMwFmPib4FJqz1OtNNHDUBzkZYT1lXAh_zOm9S3FoyajI5OeoqpDA5FBJWAvIK01wuSs25eKtJMk0hBUDMu2amfkfBM-MDu8aftOel6wS-xffpUkkAQzxDq1CVBMX0IW7ClPDp-GtStUyxbwYyAXjaiBRnWaAR_lNlbasboirBqK1P1V2KIOu7GK0?--></g></svg></figure>
+<div class="sl-heading-wrapper level-h3"><h3 id="3-클라이언트-rate-limitqpsburst에-막힌다">3. 클라이언트 rate limit(QPS/Burst)에 막힌다</h3><a class="sl-anchor-link" href="#3-클라이언트-rate-limitqpsburst에-막힌다"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “3. 클라이언트 rate limit(QPS/Burst)에 막힌다”</span></a></div>
+<p>설령 워커를 늘려 동시 처리를 한다 해도, 그 모든 reconcile은 결국 <strong>Kubernetes API 서버로의 호출</strong>로 이어진다. controller-runtime의 client-go 클라이언트에는 <strong>클라이언트 측 rate limiter</strong>가 걸려 있다.</p>
+<ul>
+<li><code dir="auto">QPS</code>: 초당 허용 요청 수 (controller-runtime 기본 <strong>20</strong>)</li>
+<li><code dir="auto">Burst</code>: 순간적으로 허용하는 버스트 (기본 <strong>30</strong>)</li>
+</ul>
+<p>CR이 많아 동시에 쏟아지는 API 호출이 이 한도를 넘으면, client-go는 <strong>요청을 클라이언트 쪽에서 큐잉하며 의도적으로 지연</strong>시킨다. 로그에는 <code dir="auto">client-side throttling</code> 경고가 찍히고, reconcile은 또 한 번 느려진다. 동시성을 올려도 QPS/Burst가 그대로면 이 벽에 막힌다.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="종합-세-값이-서로를-악화시킨다">종합: 세 값이 서로를 악화시킨다</h3><a class="sl-anchor-link" href="#종합-세-값이-서로를-악화시킨다"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “종합: 세 값이 서로를 악화시킨다”</span></a></div>
+<p>세 병목은 독립적이지 않다.</p>
+<ul>
+<li>동시성 1 → reconcile 처리 속도가 낮다</li>
+<li>2분 resync → 그 느린 처리량에 주기적으로 전체 CR을 다시 얹는다</li>
+<li>QPS/Burst 20/30 → 처리 속도를 올리려 해도 API 호출 단계에서 다시 막힌다</li>
+</ul>
+<p>CR이 적을 때는 한 사이클을 2분 안에 여유롭게 끝내므로 셋 다 문제가 안 된다. 하지만 CR 수가 임계점을 넘는 순간, 큐가 발산하면서 Operator 전체가 멈춘 것처럼 보이게 된다.</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="해결-하드코딩-값을-helm으로-끄집어내다-pr-769">해결: 하드코딩 값을 Helm으로 끄집어내다 (PR #769)</h2><a class="sl-anchor-link" href="#해결-하드코딩-값을-helm으로-끄집어내다-pr-769"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “해결: 하드코딩 값을 Helm으로 끄집어내다 (PR #769)”</span></a></div>
+<p>근본 원인이 <strong>환경에 맞지 않는 고정값</strong>이라면, 답은 그 값을 <strong>운영자가 환경에 맞게 조절할 수 있게</strong> 만드는 것이다. <a href="https://github.com/StarRocks/starrocks-kubernetes-operator/pull/769">PR #769</a>은 이 세 가지(+α) 설정을 Operator 플래그로 노출하고, 다시 Helm 차트 값으로 끌어올렸다. 이제 <strong>이미지 재빌드 없이</strong> values만 바꿔 튜닝할 수 있다.</p>
+<p>노출된 설정은 다음과 같다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>플래그</th><th>의미</th><th>기본값</th><th>비고</th></tr></thead><tbody><tr><td><code dir="auto">--max-concurrent-reconciles</code></td><td>동시에 도는 reconcile 워커 수</td><td><code dir="auto">1</code></td><td>올리면 병렬 처리</td></tr><tr><td><code dir="auto">--sync-period</code></td><td>주기적 resync 간격</td><td><code dir="auto">2m</code></td><td>늘리면 주기적 부하 감소</td></tr><tr><td><code dir="auto">--kube-api-qps</code></td><td>클라이언트 초당 요청 한도</td><td><code dir="auto">0</code> → controller-runtime 기본 <code dir="auto">20</code></td><td>0이면 인자 자체를 생략</td></tr><tr><td><code dir="auto">--kube-api-burst</code></td><td>클라이언트 버스트 한도</td><td><code dir="auto">0</code> → controller-runtime 기본 <code dir="auto">30</code></td><td>0이면 인자 자체를 생략</td></tr></tbody></table>
+<div class="expressive-code"><link rel="stylesheet" href="/_astro/ec.v4551.css"><script type="module" src="/_astro/ec.0vx5m.js"></script><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="yaml"><code><div class="ec-line"><div class="code"><span style="--0:#919F9F;--1:#5F636F"># values.yaml — starrocksOperator 하위</span></div></div><div class="ec-line"><div class="code"><span style="--0:#7FDBCA;--1:#111111">starrocksOperator</span><span style="--0:#D6DEEB;--1:#403F53">:</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#919F9F;--1:#5F636F"># CR이 많은 환경에서 병렬 처리량을 늘린다</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#7FDBCA;--1:#111111">maxConcurrentReconciles</span><span style="--0:#D6DEEB;--1:#403F53">: </span><span style="--0:#F78C6C;--1:#AA0982">5</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#919F9F;--1:#5F636F"># 주기적 전체 reconcile 부하를 줄인다</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#7FDBCA;--1:#111111">syncPeriod</span><span style="--0:#D6DEEB;--1:#403F53">: </span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">10m</span><span style="--0:#D9F5DD;--1:#111111">"</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#919F9F;--1:#5F636F"># API 호출 한도를 환경에 맞게 상향</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#7FDBCA;--1:#111111">kubeApiQps</span><span style="--0:#D6DEEB;--1:#403F53">: </span><span style="--0:#F78C6C;--1:#AA0982">50</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#7FDBCA;--1:#111111">kubeApiBurst</span><span style="--0:#D6DEEB;--1:#403F53">: </span><span style="--0:#F78C6C;--1:#AA0982">100</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="# values.yaml — starrocksOperator 하위starrocksOperator:  # CR이 많은 환경에서 병렬 처리량을 늘린다  maxConcurrentReconciles: 5  # 주기적 전체 reconcile 부하를 줄인다  syncPeriod: &#x22;10m&#x22;  # API 호출 한도를 환경에 맞게 상향  kubeApiQps: 50  kubeApiBurst: 100"><div></div></button></div></figure></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="하위-호환성">하위 호환성</h3><a class="sl-anchor-link" href="#하위-호환성"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “하위 호환성”</span></a></div>
+<p>설계에서 신경 쓴 부분은 <strong>기존 사용자가 아무것도 안 해도 동작이 똑같아야 한다</strong>는 것이다.</p>
+<ul>
+<li>모든 기본값은 기존 하드코딩 값과 동일하다 (<code dir="auto">max-concurrent-reconciles=1</code>, <code dir="auto">sync-period=2m</code>).</li>
+<li><code dir="auto">kube-api-qps</code>/<code dir="auto">kube-api-burst</code>는 기본값 <code dir="auto">0</code>일 때 <strong>플래그 자체를 전달하지 않아</strong>, controller-runtime의 원래 기본값(20/30)이 그대로 적용된다.</li>
+<li>따라서 Helm 차트를 다시 렌더링하지 않고 Operator 이미지만 올려도 안전하다.</li>
+</ul>
+<p>부모 차트(<code dir="auto">kube-starrocks</code>)의 values는 <code dir="auto">scripts/create-parent-chart-values.sh</code>로 서브차트 값에서 재생성된다.</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="실험-세-값은-정말-부하를-좌우하는가">실험: 세 값은 정말 부하를 좌우하는가</h2><a class="sl-anchor-link" href="#실험-세-값은-정말-부하를-좌우하는가"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “실험: 세 값은 정말 부하를 좌우하는가”</span></a></div>
+<p>설정을 노출했으니, <strong>각 값이 실제로 부하를 얼마나 좌우하는지</strong> 측정했다. 이 문제는 특히 <strong>API 서버 응답이 간헐적으로 느려지는 환경</strong>에서 두드러졌으므로, 핵심 질문을 이렇게 잡았다 — <em>“API에 지연이 끼고 CR이 여러 개일 때, 이 세 값이 클러스터 생성 시간과 상시 트래픽을 얼마나 바꾸는가?”</em></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="실험-환경">실험 환경</h3><a class="sl-anchor-link" href="#실험-환경"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “실험 환경”</span></a></div>
+<p>빠른 반복 검증을 위해 <strong>envtest</strong>(실제 kube-apiserver + etcd를 띄우되 노드·kubelet은 없는 경량 환경) 위에서 Operator를 구동하고, <strong>Operator → API 서버 경로의 병목만</strong> 측정했다. 실제 환경의 API 지연은 <strong>프록시(toxiproxy)로 RTT를 인위 주입</strong>해 재현했다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>항목</th><th>값</th></tr></thead><tbody><tr><td>측정 방식</td><td><code dir="auto">envtest</code> — 실제 kube-apiserver + etcd, 노드/kubelet 없음</td></tr><tr><td>측정 대상</td><td>StarRocks Operator(<code dir="auto">kube-starrocks</code>) → kube-apiserver 호출</td></tr><tr><td>API 지연 재현</td><td>toxiproxy로 Operator↔apiserver 양방향 RTT 주입</td></tr><tr><td>비교 축</td><td>패치 전(기본값) ↔ 패치 후(동시성·QPS·sync-period 상향)</td></tr></tbody></table>
+<blockquote>
+<p>⚠️ <strong>측정 범위 주의 — 아래 수치는 “하한선”이다.</strong> envtest엔 kubelet이 없어 StatefulSet을 만들어도 Pod가 안 뜬다. 그래서 Operator는 <strong>FE의 StatefulSet·Service를 만든 뒤 “FE Pod Ready 대기”에서 멈추고, CN·BE는 아예 실행되지 않는다.</strong> 즉 측정값은 CR 1건이 유발하는 전체 API 호출 중 <strong>FE 단계까지</strong>만 잡힌다. 실제 환경에선 CN·BE까지 떠서 호출·resync가 곱으로 늘어나므로, <strong>여기서 보이는 개선폭은 실제로는 더 크게</strong> 나타날 바닥값으로 읽어야 한다.</p>
+</blockquote>
+<div class="sl-heading-wrapper level-h3"><h3 id="출발점--cr-하나가-api를-얼마나-두드리나">출발점 — CR 하나가 API를 얼마나 두드리나</h3><a class="sl-anchor-link" href="#출발점--cr-하나가-api를-얼마나-두드리나"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “출발점 — CR 하나가 API를 얼마나 두드리나”</span></a></div>
+<p>먼저 부하의 단위를 쟀다. CR 1개를 만들고 30초간 API audit 로그를 세어보니, <strong>FE 생성까지만 12회</strong>의 호출이 찍혔다. service·statefulset마다 <code dir="auto">create</code>·<code dir="auto">update</code>·<code dir="auto">patch</code>가 반복되고, status 서브리소스 패치만 3회다. 여기서 전체 컴포넌트(FE+CN+BE+FE-proxy)로 환산하면 <strong>CR 1건당 약 30회</strong>. CR이 수십 개면 이 호출이 곱으로 쌓인다 — 모든 부하의 출발점이다.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="노브-1--max-concurrent-reconciles-직렬-처리가-api-지연을-만나면-터진다">노브 1 — <code dir="auto">max-concurrent-reconciles</code>: 직렬 처리가 API 지연을 만나면 터진다</h3><a class="sl-anchor-link" href="#노브-1--max-concurrent-reconciles-직렬-처리가-api-지연을-만나면-터진다"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “노브 1 — max-concurrent-reconciles: 직렬 처리가 API 지연을 만나면 터진다”</span></a></div>
+<p>기본값 <code dir="auto">1</code>은 CR을 <strong>한 건씩 순차 처리</strong>한다. 평소엔 티가 안 나지만, <strong>API 왕복이 느려지는 순간 직렬 처리는 재앙이 된다.</strong> CR 50개를 만들되 RTT 100ms(왕복 200ms)를 주입한 결과:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>조건</th><th>완료 시간</th><th>CR당 평균</th></tr></thead><tbody><tr><td>기본값 (동시성 1)</td><td>41.1s</td><td>822 ms</td></tr><tr><td>패치 (동시성 50 + QPS 상향)</td><td><strong>0.22s</strong></td><td><strong>4.4 ms</strong></td></tr></tbody></table>
+<pre class="mermaid-diagram">
+xychart-beta
+  title &quot;동시성 1→50 — RTT 100ms·CR 50개 생성 완료 시간 (초)&quot;
+  x-axis [&quot;기본값 (동시성 1)&quot;, &quot;패치 (동시성 50)&quot;]
+  y-axis &quot;완료 시간 (초)&quot; 0 --&gt; 45
+  bar [41.1, 0.22]
+</pre> <script>
+  (function () {
+    let mermaidLoaded = null;
+
+    function loadMermaid() {
+      if (!mermaidLoaded) {
+        mermaidLoaded = import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs')
+          .then(m => m.default);
+      }
+      return mermaidLoaded;
+    }
+
+    async function renderMermaid() {
+      const diagrams = document.querySelectorAll('.mermaid-diagram:not([data-rendered])');
+      if (diagrams.length === 0) return;
+
+      const mermaid = await loadMermaid();
+      mermaid.initialize({ startOnLoad: false, theme: 'default' });
+
+      for (const el of Array.from(diagrams)) {
+        const code = el.textContent || '';
+        const id = 'mermaid-' + Math.random().toString(36).slice(2, 9);
+        try {
+          const { svg } = await mermaid.render(id, code);
+          el.innerHTML = svg;
+          el.setAttribute('data-rendered', 'true');
+        } catch (e) {
+          console.error('Mermaid render error:', e);
+        }
+      }
+    }
+
+    renderMermaid();
+    document.addEventListener('astro:page-load', renderMermaid);
+    document.addEventListener('astro:after-swap', renderMermaid);
+  })();
+</script>
+<p>기본값은 CR을 한 건씩 처리하며 호출마다 왕복 200ms가 누적돼 <strong>41초</strong>가 걸렸다. 동시성을 50으로 풀자 50개 CR의 호출이 거의 동시에 나가고 HTTP/2 multiplexing이 받쳐주며 <strong>0.22초</strong> — 약 <strong>187배</strong> 단축됐다. 직렬 병목 자체보다, <strong>그게 RTT와 곱해질 때</strong> 폭발한다는 게 핵심이다.</p>
+<p>RTT가 없는 환경(CR 100개)에서도 효과는 있지만 결이 다르다:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>조건</th><th>완료 시간</th><th>throttling</th></tr></thead><tbody><tr><td>기본값</td><td>8.9s</td><td>0</td></tr><tr><td>동시성 50만</td><td>5.99s</td><td><strong>1회</strong></td></tr><tr><td>전체 패치</td><td>0.60s</td><td>0</td></tr></tbody></table>
+<p>RTT가 없어도 동시성만 올리면 8.9s→5.99s로 <strong>1.5배</strong> 빨라진다. 그런데 이번엔 <strong>throttling이 1회 떴다</strong> — 동시 호출을 늘리니 이번엔 QPS 상한(20)에 걸리기 시작한 것이다. 그래서 다음 노브가 따라와야 한다.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="노브-2--kube-api-qpsburst-동시성을-올리면-반드시-같이-올려야-한다">노브 2 — <code dir="auto">kube-api-qps</code>/<code dir="auto">burst</code>: 동시성을 올리면 반드시 같이 올려야 한다</h3><a class="sl-anchor-link" href="#노브-2--kube-api-qpsburst-동시성을-올리면-반드시-같이-올려야-한다"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “노브 2 — kube-api-qps/burst: 동시성을 올리면 반드시 같이 올려야 한다”</span></a></div>
+<p>동시성을 50으로 키워 호출을 한꺼번에 쏟으면, client-go의 <strong>클라이언트 측 rate limiter</strong>(<code dir="auto">QPS=20</code>/<code dir="auto">Burst=30</code>)에 걸려 스스로 요청을 지연시키는 <strong>self-throttling</strong>이 발생한다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>조건</th><th>throttling 이벤트</th></tr></thead><tbody><tr><td>동시성 50, QPS 기본(20)</td><td><strong>1회</strong></td></tr><tr><td>동시성 50, QPS 100</td><td><strong>0회</strong></td></tr></tbody></table>
+<p>QPS/Burst를 100/200으로 올리자 throttling이 사라졌다. 즉 <strong>QPS는 단독 레버가 아니라 동시성 상향의 짝</strong>이다 — 워커만 늘리고 QPS를 그대로 두면 늘린 만큼 클라이언트 큐에서 다시 막힌다. FE만 뜨는 이 환경에서도 1회 관측됐으니, CN까지 뜨는 실제 환경에선 빈도가 더 높다.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="노브-3--sync-period-가만히-있어도-깔리는-상시-부하">노브 3 — <code dir="auto">sync-period</code>: 가만히 있어도 깔리는 상시 부하</h3><a class="sl-anchor-link" href="#노브-3--sync-period-가만히-있어도-깔리는-상시-부하"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “노브 3 — sync-period: 가만히 있어도 깔리는 상시 부하”</span></a></div>
+<p>앞 두 노브가 “생성하는 순간”의 부하라면, <code dir="auto">sync-period</code>는 <strong>아무것도 안 바뀌어도 주기적으로 깔리는 상시 트래픽</strong>을 좌우한다. CR 100개를 만든 뒤 5분간 초당 API 호출율을 쟀다:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>조건</th><th>5분간 이벤트</th><th>평균 req/s</th></tr></thead><tbody><tr><td>기본값 (sync-period 2m)</td><td>345</td><td>1.15</td></tr><tr><td>패치 (sync-period 30m)</td><td>95</td><td><strong>0.32</strong></td></tr></tbody></table>
+<pre class="mermaid-diagram">
+xychart-beta
+  title &quot;sync-period 2m→30m — CR 100개 상시 트래픽 (평균 req/s)&quot;
+  x-axis [&quot;sync 2m (기본)&quot;, &quot;sync 30m (패치)&quot;]
+  y-axis &quot;평균 req/s&quot; 0 --&gt; 1.3
+  bar [1.15, 0.32]
+</pre> <script>
+  (function () {
+    let mermaidLoaded = null;
+
+    function loadMermaid() {
+      if (!mermaidLoaded) {
+        mermaidLoaded = import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs')
+          .then(m => m.default);
+      }
+      return mermaidLoaded;
+    }
+
+    async function renderMermaid() {
+      const diagrams = document.querySelectorAll('.mermaid-diagram:not([data-rendered])');
+      if (diagrams.length === 0) return;
+
+      const mermaid = await loadMermaid();
+      mermaid.initialize({ startOnLoad: false, theme: 'default' });
+
+      for (const el of Array.from(diagrams)) {
+        const code = el.textContent || '';
+        const id = 'mermaid-' + Math.random().toString(36).slice(2, 9);
+        try {
+          const { svg } = await mermaid.render(id, code);
+          el.innerHTML = svg;
+          el.setAttribute('data-rendered', 'true');
+        } catch (e) {
+          console.error('Mermaid render error:', e);
+        }
+      }
+    }
+
+    renderMermaid();
+    document.addEventListener('astro:page-load', renderMermaid);
+    document.addEventListener('astro:after-swap', renderMermaid);
+  })();
+</script>
+<p>resync 주기를 2분→30분으로 늘리자 상시 트래픽이 <strong>약 1/4</strong>로 줄었다. 이 트래픽의 대부분은 <strong>상태가 안 바뀐 CR을 다시 도는 것</strong> — 순수한 낭비다. 그리고 이 환경은 FE만 떠서 이벤트가 적은데도 이 정도다. CN이 다수 뜨는 실제 환경에선 resync 대상이 훨씬 많아 <strong>상시 부하가 곱으로 커지고</strong>, 그만큼 주기를 늘리는 효과도 커진다.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="종합-해석">종합 해석</h3><a class="sl-anchor-link" href="#종합-해석"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “종합 해석”</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>노브</th><th>무엇을 바꾸나</th><th>검증된 효과</th></tr></thead><tbody><tr><td><code dir="auto">max-concurrent-reconciles</code> 1 → 50</td><td>직렬 → 병렬 처리</td><td>RTT 100ms·CR 50개에서 <strong>41.1s → 0.22s</strong>. API가 느릴수록 효과가 폭발</td></tr><tr><td><code dir="auto">kube-api-qps</code>/<code dir="auto">burst</code> 20/30 → 100/200</td><td>클라이언트 rate limit 완화</td><td>동시성 상향 시 생기는 self-throttling <strong>1회 → 0회</strong>. 동시성의 필수 짝</td></tr><tr><td><code dir="auto">sync-period</code> 2m → 30m</td><td>주기적 resync 간격</td><td>상시 트래픽 <strong>1.15 → 0.32 req/s</strong> (≈1/4). 변경 없는 CR의 낭비 reconcile 감소</td></tr></tbody></table>
+<p>세 값 모두 <strong>환경에 따라 정답이 다르다</strong> — API가 느린지, CR이 몇 개인지, drift 보정이 얼마나 급한지에 따라. 그래서 코드에 박지 않고 Helm으로 노출한 것이 옳았다.</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="정리">정리</h2><a class="sl-anchor-link" href="#정리"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “정리”</span></a></div>
+<ul>
+<li>StarRocks Operator는 <strong>소수 CR을 전제로</strong> 설계되어, controller-runtime의 동시성(1)·resync(2분)·rate limit(20/30)이 하드코딩돼 있었다.</li>
+<li>이 고정값들은 CR이 적을 땐 무해하지만, <strong>다수 클러스터 환경에서 큐가 발산</strong>하며 Operator를 hang에 빠뜨린다.</li>
+<li><a href="https://github.com/StarRocks/starrocks-kubernetes-operator/pull/769">PR #769</a>은 이 값들을 플래그·Helm values로 노출해 <strong>이미지 재빌드 없이</strong> 환경에 맞게 튜닝할 수 있게 했고, 기본값은 그대로 둬 하위 호환성을 지켰다.</li>
+<li>envtest에 RTT를 주입해 패치 전후를 측정한 결과: <strong>동시성 1→50</strong>은 RTT 100ms·CR 50개 환경에서 생성 시간을 <strong>41.1s → 0.22s</strong>로 줄였고, <strong><code dir="auto">sync-period</code> 2m→30m</strong>은 상시 트래픽을 약 <strong>1/4</strong>(1.15→0.32 req/s)로 낮췄으며, <strong><code dir="auto">kube-api-qps</code> 상향</strong>은 동시성을 올릴 때 따라붙는 self-throttling(1회→0회)을 제거했다.</li>
+</ul>
+<p>결국 이 작업의 핵심은 새로운 기능이 아니라 <strong>“환경에 따라 달라야 하는 값을 코드에 박아두지 마라”</strong> 는 원칙이다. Operator처럼 다양한 규모에서 돌아야 하는 컨트롤러일수록, 동시성·주기·rate limit 같은 운영 파라미터는 <strong>운영자의 손에 쥐여주는 것</strong>이 옳다.</p>  <div class="post-footer astro-3jbi6clj"> <div class="astro-sg3lsd66"><b class="astro-sg3lsd66">태그:</b><ul class="astro-sg3lsd66"><li class="astro-sg3lsd66"><a href="/blog/tags/kubernetes/" class="astro-sg3lsd66">Kubernetes</a></li><li class="astro-sg3lsd66"><a href="/blog/tags/starrocks/" class="astro-sg3lsd66">StarRocks</a></li><li class="astro-sg3lsd66"><a href="/blog/tags/operator/" class="astro-sg3lsd66">Operator</a></li><li class="astro-sg3lsd66"><a href="/blog/tags/controller-runtime/" class="astro-sg3lsd66">controller-runtime</a></li><li class="astro-sg3lsd66"><a href="/blog/tags/helm/" class="astro-sg3lsd66">Helm</a></li></ul></div> <div class="pagination astro-q3jscx35" data-pagefind-ignore><div class="card-grid astro-zntqmydn"><div class="sl-link-card astro-mf7fz2mj"> <span class="sl-flex stack astro-mf7fz2mj"> <a href="/blog/kubernetes-informer/" rel="next" class="astro-q3jscx35 astro-mf7fz2mj"> <span class="title astro-mf7fz2mj">Kubernetes Informer는 어떻게 동작하는가</span> </a>  </span> <svg aria-hidden="true" class="icon rtl:flip astro-mf7fz2mj astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.333em;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg> </div></div></div> </div> </div> <section class="giscus-container astro-an2nl7ar"> <script src="https://giscus.app/client.js" data-repo="ycra-dev/ycra-dev.github.io" data-repo-id="R_kgDOQtH7bw" data-category="Announcements" data-category-id="DIC_kwDOQtH7b84C4bj_" data-mapping="pathname" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="ko" data-loading="lazy" crossorigin="anonymous" async></script> </section>  <script type="module">const s=new MutationObserver(()=>{const t=document.documentElement.dataset.theme,e=document.querySelector(".giscus-frame");e&&e.contentWindow?.postMessage({giscus:{setConfig:{theme:t==="light"?"light":"dark"}}},"https://giscus.app")});s.observe(document.documentElement,{attributes:!0,attributeFilter:["data-theme"]});</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"StarRocks Operator는 왜 클러스터가 많아지면 멈추는가","description":"소수 CR을 전제로 설계된 StarRocks Operator가 다수 클러스터 환경에서 reconcile과 2분 resync 때문에 hang에 빠지는 이유를 분석하고, controller-runtime 매니저 옵션을 Helm으로 노출한 PR #769을 정리한다.","url":"https://ycra-dev.github.io/blog/starrocks-operator-scaling/","datePublished":"2026-06-26T00:00:00.000Z","dateModified":"2026-06-29T00:00:00.000Z","image":"https://ycra-dev.github.io/og-image.png","author":{"@type":"Person","name":"ycra"},"publisher":{"@type":"Organization","name":"ycra.dev","url":"https://ycra-dev.github.io"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blog","item":"https://ycra-dev.github.io/blog/"},{"@type":"ListItem","position":2,"name":"StarRocks Operator는 왜 클러스터가 많아지면 멈추는가","item":"https://ycra-dev.github.io/blog/starrocks-operator-scaling/"}]}</script><footer class="sl-flex astro-3yyafb3n"> <div class="meta sl-flex astro-3yyafb3n">   </div> <div class="pagination-links print:hidden astro-u2l5gyhi" dir="ltr">   </div>  </footer> </div> </div>  </main> </div> </div> </div> </div> </body></html>
